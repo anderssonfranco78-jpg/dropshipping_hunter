@@ -1,0 +1,1021 @@
+[
+  {
+    "candidate": {
+      "candidate_id": "prosmile-ultrasonic",
+      "name": "ProSmile Ultrasonic™ — Smart Plaque & Calculus Scaler",
+      "category": "Dental Health & Personal Care",
+      "description": "Home dental hygiene scaler with 40 kHz acoustic micro-vibrations and bioelectric sensor that shatters solid calculus instantly while stopping automatically on gums.",
+      "supplier_cost": 4.5,
+      "shipping_cost": 3.7,
+      "suggested_price": 34.99,
+      "shipping_days_min": 7,
+      "shipping_days_max": 10,
+      "shipping_carrier": "CJPacket Fast Line",
+      "has_fragile_material": false,
+      "has_sizing_requirements": false,
+      "demo_visual_speed_sec": 1.5,
+      "pain_level_score": 92.0,
+      "retail_availability_score": 92.0,
+      "ad_active_days": 42,
+      "competitor_ad_count": 48,
+      "google_trends_momentum": 41.6,
+      "source_url": "https://www.aliexpress.com/w/wholesale-ultrasonic-dental-calculus-remover.html",
+      "target_demographics": {
+        "age": "22-58",
+        "gender": "all",
+        "interests": [
+          "teeth whitening",
+          "coffee/tea drinkers",
+          "smokers",
+          "dental hygiene"
+        ]
+      }
+    },
+    "financials": {
+      "landed_cost": 8.2,
+      "srp": 34.99,
+      "markup_multiplier": 4.27,
+      "processor_fee": 1.31,
+      "reserve_buffer": 0.35,
+      "net_profit": 25.13,
+      "net_margin_pct": 71.82
+    },
+    "rule_scores": {
+      "1": {
+        "rule_id": 1,
+        "name": "Visual WOW (0-3s)",
+        "raw_score": 100.0,
+        "weight": 0.2,
+        "weighted_score": 20.0,
+        "passed": true
+      },
+      "2": {
+        "rule_id": 2,
+        "name": "Acute Pain / Passion",
+        "raw_score": 100.0,
+        "weight": 0.2,
+        "weighted_score": 20.0,
+        "passed": true
+      },
+      "3": {
+        "rule_id": 3,
+        "name": "Retail Scarcity",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "4": {
+        "rule_id": 4,
+        "name": "Unit Economics & Markup",
+        "raw_score": 100.0,
+        "weight": 0.2,
+        "weighted_score": 20.0,
+        "passed": true
+      },
+      "5": {
+        "rule_id": 5,
+        "name": "Ticket Range Sweet Spot",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "6": {
+        "rule_id": 6,
+        "name": "Zero Sizing / Fragility",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "7": {
+        "rule_id": 7,
+        "name": "Fast Tracked Logistics",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      }
+    },
+    "ko_gates_tripped": [],
+    "composite_score": 100.0,
+    "tier": "WINNER",
+    "passed_audit": true
+  },
+  {
+    "candidate": {
+      "candidate_id": "steamfur-pro",
+      "name": "SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer",
+      "category": "Pet Supplies & Home Care",
+      "description": "Conical silicone pet brush with integrated cold ion ultrasonic mist that neutralizes static and allows peeling off shed pet hair in a single solid sheet in 2 seconds.",
+      "supplier_cost": 1.0,
+      "shipping_cost": 2.5,
+      "suggested_price": 29.99,
+      "shipping_days_min": 7,
+      "shipping_days_max": 10,
+      "shipping_carrier": "YunExpress Ordinary",
+      "has_fragile_material": false,
+      "has_sizing_requirements": false,
+      "demo_visual_speed_sec": 2.0,
+      "pain_level_score": 88.0,
+      "retail_availability_score": 85.0,
+      "ad_active_days": 38,
+      "competitor_ad_count": 29,
+      "google_trends_momentum": 55.8,
+      "source_url": "https://www.aliexpress.com/w/wholesale-steamy-cat-brush.html",
+      "target_demographics": {
+        "age": "22-60",
+        "gender": "all",
+        "interests": [
+          "cats",
+          "dogs",
+          "pet pampering",
+          "clean home"
+        ]
+      }
+    },
+    "financials": {
+      "landed_cost": 3.5,
+      "srp": 29.99,
+      "markup_multiplier": 8.57,
+      "processor_fee": 1.17,
+      "reserve_buffer": 0.3,
+      "net_profit": 25.02,
+      "net_margin_pct": 83.43
+    },
+    "rule_scores": {
+      "1": {
+        "rule_id": 1,
+        "name": "Visual WOW (0-3s)",
+        "raw_score": 100.0,
+        "weight": 0.2,
+        "weighted_score": 20.0,
+        "passed": true
+      },
+      "2": {
+        "rule_id": 2,
+        "name": "Acute Pain / Passion",
+        "raw_score": 100.0,
+        "weight": 0.2,
+        "weighted_score": 20.0,
+        "passed": true
+      },
+      "3": {
+        "rule_id": 3,
+        "name": "Retail Scarcity",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "4": {
+        "rule_id": 4,
+        "name": "Unit Economics & Markup",
+        "raw_score": 100.0,
+        "weight": 0.2,
+        "weighted_score": 20.0,
+        "passed": true
+      },
+      "5": {
+        "rule_id": 5,
+        "name": "Ticket Range Sweet Spot",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "6": {
+        "rule_id": 6,
+        "name": "Zero Sizing / Fragility",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "7": {
+        "rule_id": 7,
+        "name": "Fast Tracked Logistics",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      }
+    },
+    "ko_gates_tripped": [],
+    "composite_score": 100.0,
+    "tier": "WINNER",
+    "passed_audit": true
+  },
+  {
+    "candidate": {
+      "candidate_id": "spinerelief-pro",
+      "name": "SpineRelief Pro™ — Inflatable Lumbar Traction Belt",
+      "category": "Health & Ergonomics",
+      "description": "Clinical-grade inflatable lumbar traction belt with 24 pneumatic columns providing 2.5 bar decompression for L1-L5 vertebrae and acute sciatica nerve relief.",
+      "supplier_cost": 10.0,
+      "shipping_cost": 4.8,
+      "suggested_price": 54.99,
+      "shipping_days_min": 8,
+      "shipping_days_max": 10,
+      "shipping_carrier": "YunExpress Specialty Line",
+      "has_fragile_material": false,
+      "has_sizing_requirements": false,
+      "demo_visual_speed_sec": 1.5,
+      "pain_level_score": 95.0,
+      "retail_availability_score": 95.0,
+      "ad_active_days": 34,
+      "competitor_ad_count": 38,
+      "google_trends_momentum": 52.4,
+      "source_url": "https://www.aliexpress.com/w/wholesale-lumbar-traction-belt.html",
+      "target_demographics": {
+        "age": "35-65",
+        "gender": "all",
+        "occupations": [
+          "truck drivers",
+          "warehouse staff",
+          "office desk workers"
+        ],
+        "symptoms": [
+          "chronic lumbar stiffness",
+          "sciatica nerve compression",
+          "herniated disc pain"
+        ]
+      }
+    },
+    "financials": {
+      "landed_cost": 14.8,
+      "srp": 54.99,
+      "markup_multiplier": 3.72,
+      "processor_fee": 1.89,
+      "reserve_buffer": 0.55,
+      "net_profit": 37.75,
+      "net_margin_pct": 68.65
+    },
+    "rule_scores": {
+      "1": {
+        "rule_id": 1,
+        "name": "Visual WOW (0-3s)",
+        "raw_score": 100.0,
+        "weight": 0.2,
+        "weighted_score": 20.0,
+        "passed": true
+      },
+      "2": {
+        "rule_id": 2,
+        "name": "Acute Pain / Passion",
+        "raw_score": 100.0,
+        "weight": 0.2,
+        "weighted_score": 20.0,
+        "passed": true
+      },
+      "3": {
+        "rule_id": 3,
+        "name": "Retail Scarcity",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "4": {
+        "rule_id": 4,
+        "name": "Unit Economics & Markup",
+        "raw_score": 85.0,
+        "weight": 0.2,
+        "weighted_score": 17.0,
+        "passed": true
+      },
+      "5": {
+        "rule_id": 5,
+        "name": "Ticket Range Sweet Spot",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "6": {
+        "rule_id": 6,
+        "name": "Zero Sizing / Fragility",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "7": {
+        "rule_id": 7,
+        "name": "Fast Tracked Logistics",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      }
+    },
+    "ko_gates_tripped": [],
+    "composite_score": 97.0,
+    "tier": "WINNER",
+    "passed_audit": true
+  },
+  {
+    "candidate": {
+      "candidate_id": "aeroforce-x3",
+      "name": "AeroForce X3™ — 130,000 RPM Violent Turbo Blower",
+      "category": "Automotive & Tactical Tools",
+      "description": "Handheld micro-turbine jet fan with 130,000 RPM brushless motor delivering 52 m/s wind speed for contact-free car drying, detailing, and keyboard cleaning without swirl marks.",
+      "supplier_cost": 12.0,
+      "shipping_cost": 4.8,
+      "suggested_price": 59.99,
+      "shipping_days_min": 8,
+      "shipping_days_max": 11,
+      "shipping_carrier": "YunExpress Special Battery Line",
+      "has_fragile_material": false,
+      "has_sizing_requirements": false,
+      "demo_visual_speed_sec": 1.2,
+      "pain_level_score": 90.0,
+      "retail_availability_score": 90.0,
+      "ad_active_days": 28,
+      "competitor_ad_count": 42,
+      "google_trends_momentum": 68.2,
+      "source_url": "https://www.aliexpress.com/w/wholesale-turbo-jet-fan.html",
+      "target_demographics": {
+        "age": "20-48",
+        "gender": "male",
+        "interests": [
+          "car detailing",
+          "PC gaming hardware",
+          "tactical gear",
+          "grilling"
+        ]
+      }
+    },
+    "financials": {
+      "landed_cost": 16.8,
+      "srp": 59.99,
+      "markup_multiplier": 3.57,
+      "processor_fee": 2.04,
+      "reserve_buffer": 0.6,
+      "net_profit": 40.55,
+      "net_margin_pct": 67.59
+    },
+    "rule_scores": {
+      "1": {
+        "rule_id": 1,
+        "name": "Visual WOW (0-3s)",
+        "raw_score": 100.0,
+        "weight": 0.2,
+        "weighted_score": 20.0,
+        "passed": true
+      },
+      "2": {
+        "rule_id": 2,
+        "name": "Acute Pain / Passion",
+        "raw_score": 100.0,
+        "weight": 0.2,
+        "weighted_score": 20.0,
+        "passed": true
+      },
+      "3": {
+        "rule_id": 3,
+        "name": "Retail Scarcity",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "4": {
+        "rule_id": 4,
+        "name": "Unit Economics & Markup",
+        "raw_score": 85.0,
+        "weight": 0.2,
+        "weighted_score": 17.0,
+        "passed": true
+      },
+      "5": {
+        "rule_id": 5,
+        "name": "Ticket Range Sweet Spot",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "6": {
+        "rule_id": 6,
+        "name": "Zero Sizing / Fragility",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "7": {
+        "rule_id": 7,
+        "name": "Fast Tracked Logistics",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      }
+    },
+    "ko_gates_tripped": [],
+    "composite_score": 97.0,
+    "tier": "WINNER",
+    "passed_audit": true
+  },
+  {
+    "candidate": {
+      "candidate_id": "hydroclean-mop",
+      "name": "HydroClean Mop™ — Self-Cleaning Flat Floor Squeegee Mop",
+      "category": "Home Improvement",
+      "description": "Dual chamber microfiber flat mop system with scrape squeegee bucket.",
+      "supplier_cost": 10.0,
+      "shipping_cost": 6.0,
+      "suggested_price": 44.99,
+      "shipping_days_min": 10,
+      "shipping_days_max": 14,
+      "shipping_carrier": "AliExpress Standard Shipping",
+      "has_fragile_material": false,
+      "has_sizing_requirements": false,
+      "demo_visual_speed_sec": 4.5,
+      "pain_level_score": 65.0,
+      "retail_availability_score": 55.0,
+      "ad_active_days": 25,
+      "competitor_ad_count": 12,
+      "google_trends_momentum": 14.2,
+      "source_url": "https://www.aliexpress.com/item/1005005544332211.html",
+      "target_demographics": {
+        "age": "25-60",
+        "gender": "all"
+      }
+    },
+    "financials": {
+      "landed_cost": 16.0,
+      "srp": 44.99,
+      "markup_multiplier": 2.81,
+      "processor_fee": 1.6,
+      "reserve_buffer": 0.45,
+      "net_profit": 26.94,
+      "net_margin_pct": 59.88
+    },
+    "rule_scores": {
+      "1": {
+        "rule_id": 1,
+        "name": "Visual WOW (0-3s)",
+        "raw_score": 70.0,
+        "weight": 0.2,
+        "weighted_score": 14.0,
+        "passed": true
+      },
+      "2": {
+        "rule_id": 2,
+        "name": "Acute Pain / Passion",
+        "raw_score": 70.0,
+        "weight": 0.2,
+        "weighted_score": 14.0,
+        "passed": true
+      },
+      "3": {
+        "rule_id": 3,
+        "name": "Retail Scarcity",
+        "raw_score": 60.0,
+        "weight": 0.1,
+        "weighted_score": 6.0,
+        "passed": true
+      },
+      "4": {
+        "rule_id": 4,
+        "name": "Unit Economics & Markup",
+        "raw_score": 50.0,
+        "weight": 0.2,
+        "weighted_score": 10.0,
+        "passed": false
+      },
+      "5": {
+        "rule_id": 5,
+        "name": "Ticket Range Sweet Spot",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "6": {
+        "rule_id": 6,
+        "name": "Zero Sizing / Fragility",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "7": {
+        "rule_id": 7,
+        "name": "Fast Tracked Logistics",
+        "raw_score": 60.0,
+        "weight": 0.1,
+        "weighted_score": 6.0,
+        "passed": true
+      }
+    },
+    "ko_gates_tripped": [],
+    "composite_score": 70.0,
+    "tier": "CONTENDER",
+    "passed_audit": false
+  },
+  {
+    "candidate": {
+      "candidate_id": "glowpillow-velvet",
+      "name": "GlowPillow Velvet — Decorative Living Room Accent Cushion",
+      "category": "Home Decor",
+      "description": "Plain square velvet throw cushion for couch styling.",
+      "supplier_cost": 7.0,
+      "shipping_cost": 4.0,
+      "suggested_price": 24.99,
+      "shipping_days_min": 8,
+      "shipping_days_max": 12,
+      "shipping_carrier": "YunExpress",
+      "has_fragile_material": false,
+      "has_sizing_requirements": false,
+      "demo_visual_speed_sec": 10.0,
+      "pain_level_score": 10.0,
+      "retail_availability_score": 15.0,
+      "ad_active_days": 5,
+      "competitor_ad_count": 2,
+      "google_trends_momentum": -8.5,
+      "source_url": "https://www.aliexpress.com/item/1005001122334455.html",
+      "target_demographics": {
+        "age": "20-50",
+        "gender": "female"
+      }
+    },
+    "financials": {
+      "landed_cost": 11.0,
+      "srp": 24.99,
+      "markup_multiplier": 2.27,
+      "processor_fee": 1.02,
+      "reserve_buffer": 0.25,
+      "net_profit": 12.72,
+      "net_margin_pct": 50.9
+    },
+    "rule_scores": {
+      "1": {
+        "rule_id": 1,
+        "name": "Visual WOW (0-3s)",
+        "raw_score": 0.0,
+        "weight": 0.2,
+        "weighted_score": 0.0,
+        "passed": false
+      },
+      "2": {
+        "rule_id": 2,
+        "name": "Acute Pain / Passion",
+        "raw_score": 0.0,
+        "weight": 0.2,
+        "weighted_score": 0.0,
+        "passed": false
+      },
+      "3": {
+        "rule_id": 3,
+        "name": "Retail Scarcity",
+        "raw_score": 0.0,
+        "weight": 0.1,
+        "weighted_score": 0.0,
+        "passed": false
+      },
+      "4": {
+        "rule_id": 4,
+        "name": "Unit Economics & Markup",
+        "raw_score": 0.0,
+        "weight": 0.2,
+        "weighted_score": 0.0,
+        "passed": false
+      },
+      "5": {
+        "rule_id": 5,
+        "name": "Ticket Range Sweet Spot",
+        "raw_score": 30.0,
+        "weight": 0.1,
+        "weighted_score": 3.0,
+        "passed": false
+      },
+      "6": {
+        "rule_id": 6,
+        "name": "Zero Sizing / Fragility",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "7": {
+        "rule_id": 7,
+        "name": "Fast Tracked Logistics",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      }
+    },
+    "ko_gates_tripped": [
+      "KO-2",
+      "KO-4"
+    ],
+    "composite_score": 0.0,
+    "tier": "DISQUALIFIED",
+    "passed_audit": false
+  },
+  {
+    "candidate": {
+      "candidate_id": "glassaura-teapot",
+      "name": "GlassAura — Handblown Borosilicate Glass Infuser Teapot",
+      "category": "Kitchen & Dining",
+      "description": "Artisan ultra-thin transparent glass teapot with internal glass spiral filter.",
+      "supplier_cost": 10.0,
+      "shipping_cost": 5.0,
+      "suggested_price": 49.99,
+      "shipping_days_min": 8,
+      "shipping_days_max": 12,
+      "shipping_carrier": "YunExpress",
+      "has_fragile_material": true,
+      "has_sizing_requirements": false,
+      "demo_visual_speed_sec": 2.5,
+      "pain_level_score": 40.0,
+      "retail_availability_score": 60.0,
+      "ad_active_days": 4,
+      "competitor_ad_count": 1,
+      "google_trends_momentum": -4.2,
+      "source_url": "https://www.aliexpress.com/item/1005007788990011.html",
+      "target_demographics": {
+        "age": "25-60",
+        "gender": "all"
+      }
+    },
+    "financials": {
+      "landed_cost": 15.0,
+      "srp": 49.99,
+      "markup_multiplier": 3.33,
+      "processor_fee": 1.75,
+      "reserve_buffer": 0.5,
+      "net_profit": 32.74,
+      "net_margin_pct": 65.49
+    },
+    "rule_scores": {
+      "1": {
+        "rule_id": 1,
+        "name": "Visual WOW (0-3s)",
+        "raw_score": 100.0,
+        "weight": 0.2,
+        "weighted_score": 20.0,
+        "passed": true
+      },
+      "2": {
+        "rule_id": 2,
+        "name": "Acute Pain / Passion",
+        "raw_score": 30.0,
+        "weight": 0.2,
+        "weighted_score": 6.0,
+        "passed": false
+      },
+      "3": {
+        "rule_id": 3,
+        "name": "Retail Scarcity",
+        "raw_score": 60.0,
+        "weight": 0.1,
+        "weighted_score": 6.0,
+        "passed": true
+      },
+      "4": {
+        "rule_id": 4,
+        "name": "Unit Economics & Markup",
+        "raw_score": 85.0,
+        "weight": 0.2,
+        "weighted_score": 17.0,
+        "passed": true
+      },
+      "5": {
+        "rule_id": 5,
+        "name": "Ticket Range Sweet Spot",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "6": {
+        "rule_id": 6,
+        "name": "Zero Sizing / Fragility",
+        "raw_score": 0.0,
+        "weight": 0.1,
+        "weighted_score": 0.0,
+        "passed": false
+      },
+      "7": {
+        "rule_id": 7,
+        "name": "Fast Tracked Logistics",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      }
+    },
+    "ko_gates_tripped": [
+      "KO-1"
+    ],
+    "composite_score": 0.0,
+    "tier": "DISQUALIFIED",
+    "passed_audit": false
+  },
+  {
+    "candidate": {
+      "candidate_id": "slimfit-silk-dress",
+      "name": "SlimFit Silk — Evening Bodycon Tailored Formal Dress",
+      "category": "Women's Apparel",
+      "description": "Fitted evening dress requiring precise bust, waist, and hip millimetric tailoring.",
+      "supplier_cost": 12.0,
+      "shipping_cost": 6.0,
+      "suggested_price": 59.99,
+      "shipping_days_min": 8,
+      "shipping_days_max": 12,
+      "shipping_carrier": "YunExpress",
+      "has_fragile_material": false,
+      "has_sizing_requirements": true,
+      "demo_visual_speed_sec": 5.0,
+      "pain_level_score": 35.0,
+      "retail_availability_score": 45.0,
+      "ad_active_days": 8,
+      "competitor_ad_count": 5,
+      "google_trends_momentum": 5.1,
+      "source_url": "https://www.aliexpress.com/item/1005009988776655.html",
+      "target_demographics": {
+        "age": "20-40",
+        "gender": "female"
+      }
+    },
+    "financials": {
+      "landed_cost": 18.0,
+      "srp": 59.99,
+      "markup_multiplier": 3.33,
+      "processor_fee": 2.04,
+      "reserve_buffer": 0.6,
+      "net_profit": 39.35,
+      "net_margin_pct": 65.59
+    },
+    "rule_scores": {
+      "1": {
+        "rule_id": 1,
+        "name": "Visual WOW (0-3s)",
+        "raw_score": 70.0,
+        "weight": 0.2,
+        "weighted_score": 14.0,
+        "passed": true
+      },
+      "2": {
+        "rule_id": 2,
+        "name": "Acute Pain / Passion",
+        "raw_score": 30.0,
+        "weight": 0.2,
+        "weighted_score": 6.0,
+        "passed": false
+      },
+      "3": {
+        "rule_id": 3,
+        "name": "Retail Scarcity",
+        "raw_score": 20.0,
+        "weight": 0.1,
+        "weighted_score": 2.0,
+        "passed": false
+      },
+      "4": {
+        "rule_id": 4,
+        "name": "Unit Economics & Markup",
+        "raw_score": 85.0,
+        "weight": 0.2,
+        "weighted_score": 17.0,
+        "passed": true
+      },
+      "5": {
+        "rule_id": 5,
+        "name": "Ticket Range Sweet Spot",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "6": {
+        "rule_id": 6,
+        "name": "Zero Sizing / Fragility",
+        "raw_score": 0.0,
+        "weight": 0.1,
+        "weighted_score": 0.0,
+        "passed": false
+      },
+      "7": {
+        "rule_id": 7,
+        "name": "Fast Tracked Logistics",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      }
+    },
+    "ko_gates_tripped": [
+      "KO-1"
+    ],
+    "composite_score": 0.0,
+    "tier": "DISQUALIFIED",
+    "passed_audit": false
+  },
+  {
+    "candidate": {
+      "candidate_id": "heavyduty-garden-hose",
+      "name": "HeavyDuty Expandable — 50ft Flexible Latex Garden Hose",
+      "category": "Gardening & Outdoor",
+      "description": "Expandable fabric garden hose with brass fittings.",
+      "supplier_cost": 8.5,
+      "shipping_cost": 5.5,
+      "suggested_price": 24.0,
+      "shipping_days_min": 8,
+      "shipping_days_max": 12,
+      "shipping_carrier": "YunExpress",
+      "has_fragile_material": false,
+      "has_sizing_requirements": false,
+      "demo_visual_speed_sec": 2.0,
+      "pain_level_score": 65.0,
+      "retail_availability_score": 40.0,
+      "ad_active_days": 12,
+      "competitor_ad_count": 8,
+      "google_trends_momentum": -15.4,
+      "source_url": "https://www.aliexpress.com/item/1005004433221100.html",
+      "target_demographics": {
+        "age": "30-65",
+        "gender": "all"
+      }
+    },
+    "financials": {
+      "landed_cost": 14.0,
+      "srp": 24.0,
+      "markup_multiplier": 1.71,
+      "processor_fee": 1.0,
+      "reserve_buffer": 0.24,
+      "net_profit": 8.76,
+      "net_margin_pct": 36.5
+    },
+    "rule_scores": {
+      "1": {
+        "rule_id": 1,
+        "name": "Visual WOW (0-3s)",
+        "raw_score": 100.0,
+        "weight": 0.2,
+        "weighted_score": 20.0,
+        "passed": true
+      },
+      "2": {
+        "rule_id": 2,
+        "name": "Acute Pain / Passion",
+        "raw_score": 70.0,
+        "weight": 0.2,
+        "weighted_score": 14.0,
+        "passed": true
+      },
+      "3": {
+        "rule_id": 3,
+        "name": "Retail Scarcity",
+        "raw_score": 20.0,
+        "weight": 0.1,
+        "weighted_score": 2.0,
+        "passed": false
+      },
+      "4": {
+        "rule_id": 4,
+        "name": "Unit Economics & Markup",
+        "raw_score": 0.0,
+        "weight": 0.2,
+        "weighted_score": 0.0,
+        "passed": false
+      },
+      "5": {
+        "rule_id": 5,
+        "name": "Ticket Range Sweet Spot",
+        "raw_score": 30.0,
+        "weight": 0.1,
+        "weighted_score": 3.0,
+        "passed": false
+      },
+      "6": {
+        "rule_id": 6,
+        "name": "Zero Sizing / Fragility",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "7": {
+        "rule_id": 7,
+        "name": "Fast Tracked Logistics",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      }
+    },
+    "ko_gates_tripped": [
+      "KO-2"
+    ],
+    "composite_score": 0.0,
+    "tier": "DISQUALIFIED",
+    "passed_audit": false
+  },
+  {
+    "candidate": {
+      "candidate_id": "vintage-leather-watch",
+      "name": "Vintage Chrono — Classic Quartz Leather Strap Watch",
+      "category": "Fashion Accessories",
+      "description": "Retro style quartz wristwatch with synthetic leather strap.",
+      "supplier_cost": 4.0,
+      "shipping_cost": 1.2,
+      "suggested_price": 29.99,
+      "shipping_days_min": 25,
+      "shipping_days_max": 45,
+      "shipping_carrier": "China Post Ordinary Small Packet",
+      "has_fragile_material": false,
+      "has_sizing_requirements": false,
+      "demo_visual_speed_sec": 6.0,
+      "pain_level_score": 15.0,
+      "retail_availability_score": 30.0,
+      "ad_active_days": 6,
+      "competitor_ad_count": 3,
+      "google_trends_momentum": -12.0,
+      "source_url": "https://www.aliexpress.com/item/1005006655443322.html",
+      "target_demographics": {
+        "age": "18-50",
+        "gender": "male"
+      }
+    },
+    "financials": {
+      "landed_cost": 5.2,
+      "srp": 29.99,
+      "markup_multiplier": 5.77,
+      "processor_fee": 1.17,
+      "reserve_buffer": 0.3,
+      "net_profit": 23.32,
+      "net_margin_pct": 77.76
+    },
+    "rule_scores": {
+      "1": {
+        "rule_id": 1,
+        "name": "Visual WOW (0-3s)",
+        "raw_score": 70.0,
+        "weight": 0.2,
+        "weighted_score": 14.0,
+        "passed": true
+      },
+      "2": {
+        "rule_id": 2,
+        "name": "Acute Pain / Passion",
+        "raw_score": 0.0,
+        "weight": 0.2,
+        "weighted_score": 0.0,
+        "passed": false
+      },
+      "3": {
+        "rule_id": 3,
+        "name": "Retail Scarcity",
+        "raw_score": 20.0,
+        "weight": 0.1,
+        "weighted_score": 2.0,
+        "passed": false
+      },
+      "4": {
+        "rule_id": 4,
+        "name": "Unit Economics & Markup",
+        "raw_score": 100.0,
+        "weight": 0.2,
+        "weighted_score": 20.0,
+        "passed": true
+      },
+      "5": {
+        "rule_id": 5,
+        "name": "Ticket Range Sweet Spot",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "6": {
+        "rule_id": 6,
+        "name": "Zero Sizing / Fragility",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "7": {
+        "rule_id": 7,
+        "name": "Fast Tracked Logistics",
+        "raw_score": 0.0,
+        "weight": 0.1,
+        "weighted_score": 0.0,
+        "passed": false
+      }
+    },
+    "ko_gates_tripped": [
+      "KO-3"
+    ],
+    "composite_score": 0.0,
+    "tier": "DISQUALIFIED",
+    "passed_audit": false
+  }
+]
