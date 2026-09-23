@@ -1,0 +1,49 @@
+name: 🤖 Dropshipping Hunter Cloud Bot
+
+on:
+  schedule:
+    # Se ejecuta todos los días a las 12:00 UTC (06:00 AM hora de El Salvador)
+    - cron: '0 12 * * *'
+  workflow_dispatch: # Permite presionar un botón en GitHub para ejecutarlo manualmente cuando quieras
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar-tendencias:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar código del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar entorno de Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Instalar dependencias del cazador
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Ejecutar motor de prospección y auditoría
+        run: |
+          python main.py
+
+      - name: Sincronizar plataforma web
+        run: |
+          cp ranking_productos.html index.html
+
+      - name: Guardar y publicar actualizaciones automáticas
+        run: |
+          git config --global user.name "Dropshipping Hunter Bot"
+          git config --global user.email "bot@dropshipping-hunter.local"
+          git add data/ ranking_productos.* index.html dossier_productos_ganadores.md
+          if ! git diff --staged --quiet; then
+            git commit -m "🤖 chore(auto): actualización diaria de tendencias y ganadores [skip ci]"
+            git push
+          else
+            echo "No se detectaron cambios en el ranking hoy."
+          fi
