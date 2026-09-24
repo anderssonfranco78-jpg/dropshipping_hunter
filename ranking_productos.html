@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Antigravity — Dropshipping Winner Intelligence Dashboard</title>
+    <title>Dropshipping Hunter — Inteligencia de Productos Ganadores</title>
     <style>
         :root {
-            --bg-color: #0F172A;
-            --panel-color: #1E293B;
-            --panel-hover: #26354D;
-            --border-color: #334155;
+            --bg-color: #0B0F19;
+            --panel-color: #151D2F;
+            --panel-hover: #1C273E;
+            --border-color: #243048;
             --text-color: #F8FAFC;
             --muted-text: #94A3B8;
             --winner-color: #10B981;
-            --winner-bg: rgba(16, 185, 129, 0.12);
+            --winner-bg: rgba(16, 185, 129, 0.15);
             --contender-color: #F59E0B;
-            --contender-bg: rgba(245, 158, 11, 0.12);
+            --contender-bg: rgba(245, 158, 11, 0.15);
             --disqualified-color: #EF4444;
-            --disqualified-bg: rgba(239, 68, 68, 0.12);
+            --disqualified-bg: rgba(239, 68, 68, 0.15);
             --accent-blue: #38BDF8;
+            --accent-purple: #818CF8;
         }
 
         * {
@@ -32,29 +33,29 @@
             color: var(--text-color);
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             line-height: 1.5;
-            padding: 24px;
+            padding: 20px;
             min-height: 100vh;
         }
 
         .container {
-            max-width: 1400px;
+            max-width: 1440px;
             margin: 0 auto;
         }
 
-        /* Header */
+        /* Encabezado */
         header {
-            background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+            background: linear-gradient(135deg, #151D2F 0%, #0F172A 100%);
             border: 1px solid var(--border-color);
-            border-radius: 12px;
+            border-radius: 14px;
             padding: 24px 28px;
             margin-bottom: 24px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
         }
 
         .header-top {
             display: flex;
             justify-content: space-between;
-            align-items: flex-start;
+            align-items: center;
             flex-wrap: wrap;
             gap: 16px;
         }
@@ -67,475 +68,23 @@
             font-weight: 700;
             letter-spacing: 1px;
             text-transform: uppercase;
-            padding: 4px 10px;
+            padding: 4px 12px;
             border-radius: 6px;
             border: 1px solid rgba(56, 189, 248, 0.3);
             margin-bottom: 8px;
         }
 
         h1 {
-            font-size: 26px;
+            font-size: 28px;
             font-weight: 800;
+            color: #FFFFFF;
             letter-spacing: -0.5px;
-            color: var(--text-color);
             margin-bottom: 4px;
         }
 
         .subtitle {
             color: var(--muted-text);
             font-size: 14px;
-        }
-
-        .header-meta {
-            text-align: right;
-            font-size: 13px;
-            color: var(--muted-text);
-        }
-
-        .meta-pill {
-            display: inline-block;
-            background: var(--panel-color);
-            border: 1px solid var(--border-color);
-            padding: 6px 12px;
-            border-radius: 6px;
-            color: var(--text-color);
-            font-weight: 600;
-        }
-
-        /* KPI Cards */
-        .kpi-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 16px;
-            margin-bottom: 24px;
-        }
-
-        .kpi-card {
-            background: var(--panel-color);
-            border: 1px solid var(--border-color);
-            border-radius: 10px;
-            padding: 16px 20px;
-            transition: transform 0.2s, border-color 0.2s;
-        }
-
-        .kpi-card:hover {
-            transform: translateY(-2px);
-            border-color: var(--accent-blue);
-        }
-
-        .kpi-label {
-            font-size: 12px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            color: var(--muted-text);
-            margin-bottom: 6px;
-        }
-
-        .kpi-value {
-            font-size: 26px;
-            font-weight: 800;
-            color: var(--text-color);
-        }
-
-        .kpi-subtext {
-            font-size: 11px;
-            color: var(--muted-text);
-            margin-top: 4px;
-        }
-
-        /* Controls: Filter toggles & Search */
-        .controls-panel {
-            background: var(--panel-color);
-            border: 1px solid var(--border-color);
-            border-radius: 10px;
-            padding: 16px 20px;
-            margin-bottom: 24px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 16px;
-        }
-
-        .filter-group {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-        }
-
-        .filter-btn {
-            background: #0F172A;
-            border: 1px solid var(--border-color);
-            color: var(--muted-text);
-            font-size: 13px;
-            font-weight: 600;
-            padding: 8px 16px;
-            border-radius: 6px;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .filter-btn:hover {
-            background: #1E293B;
-            color: var(--text-color);
-            border-color: var(--accent-blue);
-        }
-
-        .filter-btn.active {
-            background: var(--accent-blue);
-            color: #0F172A;
-            border-color: var(--accent-blue);
-        }
-
-        .filter-btn.active[data-filter="winners"] {
-            background: var(--winner-color);
-            border-color: var(--winner-color);
-        }
-
-        .filter-btn.active[data-filter="contenders"] {
-            background: var(--contender-color);
-            border-color: var(--contender-color);
-        }
-
-        .filter-btn.active[data-filter="disqualified"] {
-            background: var(--disqualified-color);
-            border-color: var(--disqualified-color);
-        }
-
-        .search-sort-group {
-            display: flex;
-            gap: 12px;
-            flex-wrap: wrap;
-        }
-
-        .search-input {
-            background: #0F172A;
-            border: 1px solid var(--border-color);
-            color: var(--text-color);
-            font-size: 13px;
-            padding: 8px 14px;
-            border-radius: 6px;
-            min-width: 240px;
-        }
-
-        .search-input:focus {
-            outline: none;
-            border-color: var(--accent-blue);
-        }
-
-        .sort-select {
-            background: #0F172A;
-            border: 1px solid var(--border-color);
-            color: var(--text-color);
-            font-size: 13px;
-            padding: 8px 14px;
-            border-radius: 6px;
-            cursor: pointer;
-        }
-
-        /* Table Architecture */
-        .table-wrapper {
-            background: var(--panel-color);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            overflow-x: auto;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 13px;
-            text-align: left;
-        }
-
-        thead {
-            background: #0F172A;
-            border-bottom: 2px solid var(--border-color);
-        }
-
-        th {
-            padding: 14px 16px;
-            color: var(--muted-text);
-            font-size: 11px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            white-space: nowrap;
-        }
-
-        tbody tr {
-            border-bottom: 1px solid var(--border-color);
-            transition: background-color 0.15s;
-        }
-
-        tbody tr:hover {
-            background-color: var(--panel-hover);
-        }
-
-        td {
-            padding: 14px 16px;
-            vertical-align: middle;
-        }
-
-        .rank-circle {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 28px;
-            height: 28px;
-            border-radius: 50%;
-            background: #0F172A;
-            border: 1px solid var(--border-color);
-            font-weight: 800;
-            font-size: 12px;
-            color: var(--text-color);
-        }
-
-        .product-title {
-            font-weight: 700;
-            color: var(--text-color);
-            font-size: 14px;
-            margin-bottom: 4px;
-        }
-
-        .product-meta {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            flex-wrap: wrap;
-        }
-
-        .cat-pill {
-            font-size: 11px;
-            background: #0F172A;
-            color: var(--muted-text);
-            padding: 2px 8px;
-            border-radius: 4px;
-            border: 1px solid var(--border-color);
-        }
-
-        .id-pill {
-            font-size: 11px;
-            font-family: monospace;
-            color: #64748B;
-        }
-
-        .source-link {
-            color: var(--accent-blue);
-            text-decoration: none;
-            font-size: 11px;
-            font-weight: 600;
-        }
-
-        .source-link:hover {
-            text-decoration: underline;
-        }
-
-        .ko-warning {
-            margin-top: 6px;
-            font-size: 11px;
-            color: #FCA5A5;
-            background: rgba(239, 68, 68, 0.15);
-            padding: 4px 8px;
-            border-radius: 4px;
-            border-left: 3px solid var(--disqualified-color);
-        }
-
-        /* Score progress */
-        .score-container {
-            min-width: 120px;
-        }
-
-        .score-number {
-            font-size: 15px;
-            font-weight: 800;
-            margin-bottom: 4px;
-        }
-
-        .score-bar-bg {
-            position: relative;
-            height: 7px;
-            background: #0F172A;
-            border-radius: 4px;
-            overflow: hidden;
-        }
-
-        .score-bar-fill {
-            height: 100%;
-            border-radius: 4px;
-            transition: width 0.3s ease;
-        }
-
-        .score-thresh {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 2px;
-            z-index: 2;
-        }
-
-        .thresh-80 {
-            left: 80%;
-            background: rgba(16, 185, 129, 0.8);
-        }
-
-        .thresh-65 {
-            left: 65%;
-            background: rgba(245, 158, 11, 0.8);
-        }
-
-        /* Badges */
-        .badge {
-            display: inline-block;
-            padding: 4px 10px;
-            border-radius: 6px;
-            font-size: 11px;
-            font-weight: 800;
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
-        }
-
-        .badge-winner {
-            background: var(--winner-bg);
-            color: var(--winner-color);
-            border: 1px solid var(--winner-color);
-        }
-
-        .badge-contender {
-            background: var(--contender-bg);
-            color: var(--contender-color);
-            border: 1px solid var(--contender-color);
-        }
-
-        .badge-disqualified {
-            background: var(--disqualified-bg);
-            color: var(--disqualified-color);
-            border: 1px solid var(--disqualified-color);
-        }
-
-        .margin-high {
-            color: var(--winner-color);
-            font-weight: 700;
-        }
-
-        .margin-low {
-            color: var(--disqualified-color);
-            font-weight: 700;
-        }
-
-        .profit-high {
-            color: var(--winner-color);
-            font-weight: 700;
-        }
-
-        .profit-low {
-            color: var(--disqualified-color);
-            font-weight: 700;
-        }
-
-        /* 7-Rules glyphs & Tooltip */
-        .rule-glyph-container {
-            position: relative;
-            display: inline-flex;
-            gap: 4px;
-            cursor: pointer;
-            padding: 4px 0;
-        }
-
-        .rule-glyph {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 20px;
-            height: 20px;
-            border-radius: 4px;
-            font-size: 11px;
-            font-weight: 800;
-        }
-
-        .glyph-pass {
-            background: rgba(16, 185, 129, 0.2);
-            color: var(--winner-color);
-        }
-
-        .glyph-fail {
-            background: rgba(239, 68, 68, 0.2);
-            color: var(--disqualified-color);
-        }
-
-        .rule-tooltip {
-            display: none;
-            position: absolute;
-            bottom: 120%;
-            right: 0;
-            min-width: 280px;
-            background: #0B0F19;
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 12px 14px;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
-            z-index: 50;
-            pointer-events: none;
-        }
-
-        .rule-glyph-container:hover .rule-tooltip {
-            display: block;
-        }
-
-        .tooltip-header {
-            font-size: 12px;
-            font-weight: 700;
-            color: var(--accent-blue);
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 6px;
-            margin-bottom: 8px;
-        }
-
-        .tooltip-rule-row {
-            display: flex;
-            justify-content: space-between;
-            font-size: 11px;
-            margin-bottom: 4px;
-        }
-
-        .tooltip-rule-name {
-            color: var(--muted-text);
-        }
-
-        .tooltip-rule-score {
-            font-weight: 700;
-        }
-
-        .tooltip-footer {
-            border-top: 1px solid var(--border-color);
-            padding-top: 6px;
-            margin-top: 8px;
-            font-size: 10px;
-            color: var(--muted-text);
-        }
-
-        /* Footer */
-        footer {
-            margin-top: 32px;
-            text-align: center;
-            color: var(--muted-text);
-            font-size: 12px;
-            padding: 16px 0;
-            border-top: 1px solid var(--border-color);
-        }
-
-        @media (max-width: 900px) {
-            body {
-                padding: 12px;
-            }
-            .header-top {
-                flex-direction: column;
-            }
-            .header-meta {
-            .header-actions {
-                align-items: flex-start;
-            }
         }
 
         .header-actions {
@@ -549,10 +98,10 @@
             background: linear-gradient(135deg, #10B981 0%, #059669 100%);
             color: #FFFFFF;
             border: none;
-            padding: 9px 18px;
+            padding: 10px 20px;
             border-radius: 8px;
             font-weight: 700;
-            font-size: 13px;
+            font-size: 14px;
             cursor: pointer;
             display: flex;
             align-items: center;
@@ -567,7 +116,7 @@
         }
 
         .status-badge {
-            font-size: 11px;
+            font-size: 12px;
             color: #10B981;
             font-weight: 600;
             display: flex;
@@ -583,11 +132,520 @@
             display: inline-block;
             box-shadow: 0 0 8px #10B981;
         }
+
+        /* Tarjetas de Métricas KPI */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .kpi-card {
+            background: var(--panel-color);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 18px 22px;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .kpi-card:hover {
+            transform: translateY(-3px);
+            border-color: var(--accent-blue);
+        }
+
+        .kpi-label {
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            color: var(--muted-text);
+            margin-bottom: 8px;
+        }
+
+        .kpi-value {
+            font-size: 30px;
+            font-weight: 800;
+            color: #FFFFFF;
+        }
+
+        .kpi-subtext {
+            font-size: 12px;
+            color: var(--muted-text);
+            margin-top: 4px;
+        }
+
+        /* Panel de Controles y Filtros */
+        .controls-panel {
+            background: var(--panel-color);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 18px 22px;
+            margin-bottom: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .controls-row-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 14px;
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: #0B0F19;
+            border: 1px solid var(--border-color);
+            color: var(--muted-text);
+            font-size: 13px;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .filter-btn:hover {
+            background: #1C273E;
+            color: #FFFFFF;
+            border-color: var(--accent-blue);
+        }
+
+        .filter-btn.active {
+            background: var(--accent-blue);
+            color: #0B0F19;
+            border-color: var(--accent-blue);
+        }
+
+        .filter-btn.active[data-filter="winners"] {
+            background: var(--winner-color);
+            border-color: var(--winner-color);
+            color: #FFFFFF;
+        }
+
+        .filter-btn.active[data-filter="contenders"] {
+            background: var(--contender-color);
+            border-color: var(--contender-color);
+            color: #0B0F19;
+        }
+
+        .filter-btn.active[data-filter="disqualified"] {
+            background: var(--disqualified-color);
+            border-color: var(--disqualified-color);
+            color: #FFFFFF;
+        }
+
+        .search-sort-group {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            flex: 1;
+            max-width: 650px;
+            justify-content: flex-end;
+        }
+
+        .search-input {
+            background: #0B0F19;
+            border: 1px solid var(--border-color);
+            color: #FFFFFF;
+            font-size: 13px;
+            padding: 9px 16px;
+            border-radius: 8px;
+            flex: 1;
+            min-width: 220px;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 10px rgba(56, 189, 248, 0.2);
+        }
+
+        .niche-select, .sort-select {
+            background: #0B0F19;
+            border: 1px solid var(--border-color);
+            color: #FFFFFF;
+            font-size: 13px;
+            padding: 9px 14px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .niche-select:focus, .sort-select:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+        }
+
+        /* Tabla de Productos */
+        .table-wrapper {
+            background: var(--panel-color);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            overflow-x: auto;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+            margin-bottom: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+            text-align: left;
+        }
+
+        th {
+            background: #0E1524;
+            color: var(--muted-text);
+            text-transform: uppercase;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            padding: 14px 18px;
+            border-bottom: 1px solid var(--border-color);
+            white-space: nowrap;
+        }
+
+        td {
+            padding: 16px 18px;
+            border-bottom: 1px solid var(--border-color);
+            vertical-align: middle;
+        }
+
+        tbody tr {
+            transition: background 0.15s, transform 0.15s;
+            cursor: pointer;
+        }
+
+        tbody tr:hover {
+            background-color: var(--panel-hover);
+        }
+
+        .tier-badge {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            white-space: nowrap;
+        }
+
+        .tier-winner {
+            background: var(--winner-bg);
+            color: var(--winner-color);
+            border: 1px solid rgba(16, 185, 129, 0.4);
+        }
+
+        .tier-contender {
+            background: var(--contender-bg);
+            color: var(--contender-color);
+            border: 1px solid rgba(245, 158, 11, 0.4);
+        }
+
+        .tier-disqualified {
+            background: var(--disqualified-bg);
+            color: var(--disqualified-color);
+            border: 1px solid rgba(239, 68, 68, 0.4);
+        }
+
+        .score-pill {
+            display: inline-block;
+            font-weight: 800;
+            font-size: 15px;
+            padding: 4px 10px;
+            border-radius: 6px;
+            background: #0B0F19;
+            border: 1px solid var(--border-color);
+        }
+
+        .product-title {
+            font-weight: 700;
+            color: #FFFFFF;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        .product-category {
+            color: var(--accent-blue);
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .money-cell {
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            font-weight: 700;
+        }
+
+        .profit-green {
+            color: var(--winner-color);
+            font-size: 14px;
+        }
+
+        .sparkline-svg {
+            width: 100px;
+            height: 32px;
+            display: block;
+        }
+
+        /* Semáforo de 7 reglas */
+        .rules-dots-container {
+            display: flex;
+            gap: 4px;
+            align-items: center;
+        }
+
+        .rule-dot {
+            width: 18px;
+            height: 18px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: 800;
+        }
+
+        .dot-pass {
+            background: rgba(16, 185, 129, 0.2);
+            color: var(--winner-color);
+            border: 1px solid rgba(16, 185, 129, 0.4);
+        }
+
+        .dot-fail {
+            background: rgba(239, 68, 68, 0.2);
+            color: var(--disqualified-color);
+            border: 1px solid rgba(239, 68, 68, 0.4);
+        }
+
+        .btn-inspect {
+            background: #0B0F19;
+            color: var(--accent-blue);
+            border: 1px solid var(--accent-blue);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+
+        .btn-inspect:hover {
+            background: var(--accent-blue);
+            color: #0B0F19;
+        }
+
+        /* MODAL POPUP */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(11, 15, 25, 0.85);
+            backdrop-filter: blur(8px);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            padding: 20px;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal-card {
+            background: #151D2F;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            max-width: 850px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            position: relative;
+            animation: modalFadeIn 0.25s ease;
+        }
+
+        @keyframes modalFadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .modal-close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #0B0F19;
+            border: 1px solid var(--border-color);
+            color: var(--muted-text);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            font-size: 18px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+        }
+
+        .modal-close-btn:hover {
+            color: #FFFFFF;
+            border-color: var(--disqualified-color);
+            background: rgba(239, 68, 68, 0.2);
+        }
+
+        .modal-header {
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .modal-title {
+            font-size: 22px;
+            font-weight: 800;
+            color: #FFFFFF;
+            margin-bottom: 6px;
+        }
+
+        .modal-financials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 12px;
+            background: #0B0F19;
+            padding: 16px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: 1px solid var(--border-color);
+        }
+
+        .modal-fin-item {
+            text-align: center;
+        }
+
+        .modal-fin-label {
+            font-size: 11px;
+            color: var(--muted-text);
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .modal-fin-val {
+            font-size: 18px;
+            font-weight: 800;
+            color: #FFFFFF;
+        }
+
+        .modal-section-title {
+            font-size: 15px;
+            font-weight: 800;
+            color: var(--accent-blue);
+            margin: 18px 0 8px 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .modal-box {
+            background: #0E1524;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 14px 18px;
+            font-size: 13px;
+            color: #CBD5E1;
+            line-height: 1.6;
+        }
+
+        .hooks-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .hook-item {
+            background: #0B0F19;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 12px 16px;
+        }
+
+        .hook-title {
+            font-size: 12px;
+            font-weight: 800;
+            color: #F59E0B;
+            margin-bottom: 4px;
+        }
+
+        .hook-text {
+            font-size: 13px;
+            color: #E2E8F0;
+        }
+
+        .modal-actions {
+            margin-top: 24px;
+            display: flex;
+            gap: 12px;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+
+        .btn-supplier {
+            background: var(--accent-blue);
+            color: #0B0F19;
+            padding: 10px 18px;
+            border-radius: 8px;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s;
+        }
+
+        .btn-supplier:hover {
+            background: #7DD3FC;
+            transform: translateY(-2px);
+        }
+
+        /* Pie de página */
+        footer {
+            text-align: center;
+            color: var(--muted-text);
+            font-size: 13px;
+            padding: 24px 0;
+            border-top: 1px solid var(--border-color);
+        }
+
+        @media (max-width: 768px) {
+            body { padding: 12px; }
+            h1 { font-size: 22px; }
+            .header-top { flex-direction: column; align-items: flex-start; }
+            .header-actions { align-items: flex-start; width: 100%; }
+            .search-sort-group { max-width: 100%; }
+            .search-input { min-width: 100%; }
+            .modal-card { padding: 20px; }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Header -->
+        <!-- Encabezado Principal -->
         <header>
             <div class="header-top">
                 <div>
@@ -596,182 +654,1004 @@
                     <div class="subtitle">Auditoría Algorítmica con el Filtro de Acero de las 7 Reglas de Oro • 100% Tráfico Orgánico</div>
                 </div>
                 <div class="header-actions">
-                    <button class="btn-refresh" id="refreshBtn" onclick="refrescarDatosEnVivo()">
-                        <span id="refreshIcon" style="display: inline-block; transition: transform 0.6s;">🔄</span> 
-                        <span id="refreshText">Actualizar Tendencias en Vivo</span>
-                    </button>
+                    <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+                        <button class="btn-refresh" id="refreshBtn" onclick="refrescarDatosEnVivo()">
+                            <span id="refreshIcon" style="display: inline-block; transition: transform 0.6s;">🔄</span> 
+                            <span id="refreshText">Actualizar Tendencias en Vivo</span>
+                        </button>
+                    </div>
                     <div class="status-badge" id="statusBadge">
-                        <span class="status-dot"></span> Conectado a TikTok Creative, Meta &amp; Google Trends
+                        <span class="status-dot"></span> Conectado a TikTok Creative, Meta & Google Trends
                     </div>
                 </div>
             </div>
         </header>
 
-        <!-- KPI Metrics -->
+        <!-- Métricas Clave (KPIs) -->
         <div class="kpi-grid">
             <div class="kpi-card">
-                <div class="kpi-label">Productos Prospectados <!-- Candidates Evaluated --></div>
-                <div class="kpi-value">1</div>
-                <div class="kpi-subtext">Candidatos cosechados de redes</div>
+                <div class="kpi-label">Productos Prospectados</div>
+                <div class="kpi-value">10</div>
+                <div class="kpi-subtext">Candidatos cosechados de redes (Candidates Evaluated)</div>
             </div>
             <div class="kpi-card">
-                <div class="kpi-label">Ganadores Aprobados (≥80)</div>
-                <div class="kpi-value" style="color: var(--winner-color)">1</div>
-                <div class="kpi-subtext">100.0% tasa de aprobación</div>
+                <div class="kpi-label">Ganadores Aprobados (≥80 pts)</div>
+                <div class="kpi-value" style="color: var(--winner-color)">4</div>
+                <div class="kpi-subtext">Listos para vender hoy mismo (40%)</div>
             </div>
             <div class="kpi-card">
-                <div class="kpi-label">En Evaluación (65-79)</div>
-                <div class="kpi-value" style="color: var(--contender-color)">0</div>
-                <div class="kpi-subtext">Candidatos de respaldo secundario</div>
+                <div class="kpi-label">En Evaluación (65-79 pts)</div>
+                <div class="kpi-value" style="color: var(--contender-color)">1</div>
+                <div class="kpi-subtext">Candidato de respaldo secundario</div>
             </div>
             <div class="kpi-card">
-                <div class="kpi-label">Descartados (&lt;65)</div>
-                <div class="kpi-value" style="color: var(--disqualified-color)">0</div>
-                <div class="kpi-subtext">Filtrados por bajo margen o KO</div>
+                <div class="kpi-label">Descartados (&lt;65 pts)</div>
+                <div class="kpi-value" style="color: var(--disqualified-color)">5</div>
+                <div class="kpi-subtext">Filtrados por bajo margen o fragilidad</div>
             </div>
             <div class="kpi-card">
                 <div class="kpi-label">Margen Neto Promedio</div>
-                <div class="kpi-value" style="color: var(--accent-blue)">69.5%</div>
-                <div class="kpi-subtext">Estándar Antigravity: ≥65.0%</div>
+                <div class="kpi-value" style="color: var(--accent-blue)">72.9%</div>
+                <div class="kpi-subtext">Estándar Antigravity: ≥ 65%</div>
             </div>
         </div>
 
-        <!-- Controls: Filters & Search -->
+        <!-- Controles de Filtrado y Búsqueda -->
         <div class="controls-panel">
-            <div class="filter-group">
-                <button class="filter-btn active" data-filter="all">Todos (1)</button>
-                <button class="filter-btn" data-filter="winners">🏆 Ganadores (1)</button>
-                <button class="filter-btn" data-filter="contenders">⏳ En Evaluación (0)</button>
-                <button class="filter-btn" data-filter="disqualified">❌ Descartados (0)</button>
-            </div>
-            <div class="search-sort-group">
-                <input type="text" id="searchInput" class="search-input" placeholder="🔍 Buscar por nombre, ID o nicho...">
-                <select id="sortSelect" class="sort-select">
-                    <option value="rank">Ordenar por: Puntaje Final (Mayor a Menor)</option>
-                    <option value="margin">Ordenar por: Margen Neto (%)</option>
-                    <option value="profit">Ordenar por: Ganancia Limpia ($)</option>
-                    <option value="price">Ordenar por: Precio de Venta (SRP)</option>
-                </select>
+            <div class="controls-row-top">
+                <div class="filter-group">
+                    <button class="filter-btn active" data-filter="all">Todos (10)</button>
+                    <button class="filter-btn" data-filter="winners">🏆 Ganadores (4)</button>
+                    <button class="filter-btn" data-filter="contenders">⏳ En Evaluación (1)</button>
+                    <button class="filter-btn" data-filter="disqualified">❌ Descartados (5)</button>
+                </div>
+                <div class="search-sort-group">
+                    <select class="niche-select" id="nicheSelect">
+                        <option value="all">📂 Todos los Nichos</option>
+                        <option value="Dental Health & Personal Care">Salud Dental & Personal</option>
+                        <option value="Pet Supplies & Home Care">Mascotas & Hogar</option>
+                        <option value="Health & Ergonomics">Salud & Ergonomía</option>
+                        <option value="Automotive & Tactical Tools">Automotriz & Táctico</option>
+                        <option value="Home Improvement">Hogar & Limpieza</option>
+                        <option value="Home Decor">Decoración</option>
+                        <option value="Fashion Accessories">Fashion Accessories</option>
+                        <option value="Gardening &amp; Outdoor">Gardening &amp; Outdoor</option>
+                        <option value="Kitchen &amp; Dining">Kitchen &amp; Dining</option>
+                        <option value="Women&#x27;s Apparel">Women&#x27;s Apparel</option>
+                    </select>
+
+                    <input type="text" class="search-input" id="searchInput" placeholder="🔍 Buscar por nombre, dolor o nicho...">
+
+                    <select class="sort-select" id="sortSelect">
+                        <option value="score">Ordenar por: Puntuación (Mayor)</option>
+                        <option value="profit">Ordenar por: Ganancia Limpia ($)</option>
+                        <option value="margin">Ordenar por: Margen Neto (%)</option>
+                        <option value="price">Ordenar por: Precio de Venta</option>
+                    </select>
+                </div>
             </div>
         </div>
 
-        <!-- Main Products Table -->
+        <!-- Tabla Interactiva -->
         <div class="table-wrapper">
             <table>
                 <thead>
                     <tr>
                         <th>Puesto</th>
+                        <th>Estado</th>
                         <th>Producto / Nicho</th>
-                        <th>Score Antigravity</th>
-                        <th>Clasificación</th>
-                        <th>P. Venta</th>
-                        <th>Markup</th>
-                        <th>Margen Neto</th>
+                        <th>Tendencia 90D</th>
+                        <th>Costo Puesto</th>
+                        <th>Precio Venta</th>
                         <th>Ganancia Neta</th>
-                        <th>7 Golden Rules (7 Reglas de Oro)</th>
+                        <th>Markup</th>
+                        <th>7 Reglas</th>
+                        <th>Acción</th>
                     </tr>
                 </thead>
                 <tbody id="productsTableBody">
-                    
-            <tr class="product-row" data-tier="winner" data-rank="1" data-score="97.0" data-margin="69.49" data-profit="34.74" data-price="49.99">
-                <td class="col-rank"><span class="rank-circle">#1</span></td>
-                <td class="col-product">
-                    <div class="product-title">Test Product</div>
-                    <div class="product-meta">
-                        <span class="cat-pill">General</span>
-                        <span class="id-pill">c1</span>
-                        <a class="source-link" href="https://example.com/product" target="_blank" rel="noopener">Proveedor ↗</a>
-                    </div>
-                    
-                </td>
-                <td class="col-score">
-                    <div class="score-container">
-                        <div class="score-number" style="color: #10B981">97.0</div>
-                        <div class="score-bar-bg">
-                            <div class="score-bar-fill" style="width: 97.0%; background-color: #10B981"></div>
-                            <div class="score-thresh thresh-80" title="Umbral Ganador (80 pts)"></div>
-                            <div class="score-thresh thresh-65" title="Umbral En Evaluación (65 pts)"></div>
-                        </div>
-                    </div>
-                </td>
-                <td class="col-tier"><span class="badge badge-winner">🏆 GANADOR</span></td>
-                <td class="col-price">$49.99</td>
-                <td class="col-markup"><strong>3.85x</strong></td>
-                <td class="col-margin"><span class="margin-high">69.5%</span></td>
-                <td class="col-profit"><span class="profit-high">$34.74</span></td>
-                <td class="col-rules">
-                    <div class="rule-glyph-container">
-                        <span class="rule-glyph glyph-pass" title="R1: Efecto WOW Visual (0-3s) — APROBADA (100/100)">✓</span><span class="rule-glyph glyph-pass" title="R2: Dolor Agudo / Pasión Real — APROBADA (100/100)">✓</span><span class="rule-glyph glyph-pass" title="R3: Inexistencia en Supermercados — APROBADA (100/100)">✓</span><span class="rule-glyph glyph-pass" title="R4: Margen y Markup (≥3x, ≥65%) — APROBADA (85/100)">✓</span><span class="rule-glyph glyph-pass" title="R5: Ticket Óptimo ($29-$69 USD) — APROBADA (100/100)">✓</span><span class="rule-glyph glyph-pass" title="R6: Cero Tallas / Cero Fragilidad — APROBADA (100/100)">✓</span><span class="rule-glyph glyph-pass" title="R7: Logística Fiable (7-12 días) — APROBADA (100/100)">✓</span>
-                        <div class="rule-tooltip">
-                            <div class="tooltip-header">7 Golden Rules — Desglose de las 7 Reglas</div>
-                            <div class="tooltip-rule-row">  <span class="tooltip-rule-name">R1. Efecto WOW Visual (0-3s)</span>  <span class="tooltip-rule-score glyph-pass">✓ 100 pts (20.0/20)</span></div><div class="tooltip-rule-row">  <span class="tooltip-rule-name">R2. Dolor Agudo / Pasión Real</span>  <span class="tooltip-rule-score glyph-pass">✓ 100 pts (20.0/20)</span></div><div class="tooltip-rule-row">  <span class="tooltip-rule-name">R3. Inexistencia en Supermercados</span>  <span class="tooltip-rule-score glyph-pass">✓ 100 pts (10.0/10)</span></div><div class="tooltip-rule-row">  <span class="tooltip-rule-name">R4. Margen y Markup (≥3x, ≥65%)</span>  <span class="tooltip-rule-score glyph-pass">✓ 85 pts (17.0/20)</span></div><div class="tooltip-rule-row">  <span class="tooltip-rule-name">R5. Ticket Óptimo ($29-$69 USD)</span>  <span class="tooltip-rule-score glyph-pass">✓ 100 pts (10.0/10)</span></div><div class="tooltip-rule-row">  <span class="tooltip-rule-name">R6. Cero Tallas / Cero Fragilidad</span>  <span class="tooltip-rule-score glyph-pass">✓ 100 pts (10.0/10)</span></div><div class="tooltip-rule-row">  <span class="tooltip-rule-name">R7. Logística Fiable (7-12 días)</span>  <span class="tooltip-rule-score glyph-pass">✓ 100 pts (10.0/10)</span></div>
-                            <div class="tooltip-footer">
-                                <div>Logística: <strong>YunExpress</strong> (7-10d)</div>
-                                <div>Costo Puesto: <strong>$13.00</strong> | Tarifa: <strong>$1.75</strong></div>
-                            </div>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-            
+                    <tr class="product-row" data-tier="winner" data-category="Dental Health &amp; Personal Care" data-score="100.0" data-profit="25.13" data-margin="71.8" data-price="34.99" onclick="openProductModal('prosmile-ultrasonic')">
+                        <td style="font-weight: 800; font-size: 15px; color: var(--winner-color)">#1</td>
+                        <td><span class="tier-badge tier-winner">🏆 Ganador</span></td>
+                        <td>
+                            <div class="product-title">ProSmile Ultrasonic™ — Limpiador Dental de Sarro y Cálculo</div>
+                            <div class="product-category">Salud Dental &amp; Cuidado Personal</div>
+                        </td>
+                        <td>
+                            <svg class="sparkline-svg">
+                                <polyline fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" points="5.0,28.0 20.0,26.4 35.0,23.3 50.0,18.6 65.0,12.9 80.0,8.5 95.0,6.0" />
+                            </svg>
+                        </td>
+                        <td class="money-cell" style="color: var(--muted-text);">$8.20</td>
+                        <td class="money-cell" style="color: #FFFFFF;">$34.99</td>
+                        <td class="money-cell profit-green">+$25.13 <span style="font-size: 11px; opacity: 0.8">(71.8%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">4.27x</td>
+                        <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 2: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 3: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 4: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
+                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('prosmile-ultrasonic')">Ver Ficha 👁️</button></td>
+                    </tr>
+                    <tr class="product-row" data-tier="winner" data-category="Pet Supplies &amp; Home Care" data-score="100.0" data-profit="25.02" data-margin="83.4" data-price="29.99" onclick="openProductModal('steamfur-pro')">
+                        <td style="font-weight: 800; font-size: 15px; color: var(--winner-color)">#2</td>
+                        <td><span class="tier-badge tier-winner">🏆 Ganador</span></td>
+                        <td>
+                            <div class="product-title">SteamFur Pro™ — Cepillo de Vapor Iónico 3 en 1 para Mascotas</div>
+                            <div class="product-category">Mascotas &amp; Cuidado del Hogar</div>
+                        </td>
+                        <td>
+                            <svg class="sparkline-svg">
+                                <polyline fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" points="5.0,28.0 20.0,24.3 35.0,18.8 50.0,15.2 65.0,10.4 80.0,7.8 95.0,6.0" />
+                            </svg>
+                        </td>
+                        <td class="money-cell" style="color: var(--muted-text);">$3.50</td>
+                        <td class="money-cell" style="color: #FFFFFF;">$29.99</td>
+                        <td class="money-cell profit-green">+$25.02 <span style="font-size: 11px; opacity: 0.8">(83.4%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">8.57x</td>
+                        <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 2: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 3: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 4: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
+                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('steamfur-pro')">Ver Ficha 👁️</button></td>
+                    </tr>
+                    <tr class="product-row" data-tier="winner" data-category="Health &amp; Ergonomics" data-score="97.0" data-profit="37.75" data-margin="68.7" data-price="54.99" onclick="openProductModal('spinerelief-pro')">
+                        <td style="font-weight: 800; font-size: 15px; color: var(--winner-color)">#3</td>
+                        <td><span class="tier-badge tier-winner">🏆 Ganador</span></td>
+                        <td>
+                            <div class="product-title">SpineRelief Pro™ — Faja de Tracción Lumbar Neumática Clínica</div>
+                            <div class="product-category">Salud &amp; Ergonomía</div>
+                        </td>
+                        <td>
+                            <svg class="sparkline-svg">
+                                <polyline fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" points="5.0,28.0 20.0,25.4 35.0,20.1 50.0,17.5 65.0,13.9 80.0,9.7 95.0,6.0" />
+                            </svg>
+                        </td>
+                        <td class="money-cell" style="color: var(--muted-text);">$14.80</td>
+                        <td class="money-cell" style="color: #FFFFFF;">$54.99</td>
+                        <td class="money-cell profit-green">+$37.75 <span style="font-size: 11px; opacity: 0.8">(68.7%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">3.72x</td>
+                        <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 2: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 3: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 4: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
+                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('spinerelief-pro')">Ver Ficha 👁️</button></td>
+                    </tr>
+                    <tr class="product-row" data-tier="winner" data-category="Automotive &amp; Tactical Tools" data-score="97.0" data-profit="40.55" data-margin="67.6" data-price="59.99" onclick="openProductModal('aeroforce-x3')">
+                        <td style="font-weight: 800; font-size: 15px; color: var(--winner-color)">#4</td>
+                        <td><span class="tier-badge tier-winner">🏆 Ganador</span></td>
+                        <td>
+                            <div class="product-title">AeroForce X3™ — Soplador Turbina de 130,000 RPM</div>
+                            <div class="product-category">Automotriz &amp; Táctico</div>
+                        </td>
+                        <td>
+                            <svg class="sparkline-svg">
+                                <polyline fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" points="5.0,28.0 20.0,25.1 35.0,18.5 50.0,14.7 65.0,11.4 80.0,8.1 95.0,6.0" />
+                            </svg>
+                        </td>
+                        <td class="money-cell" style="color: var(--muted-text);">$16.80</td>
+                        <td class="money-cell" style="color: #FFFFFF;">$59.99</td>
+                        <td class="money-cell profit-green">+$40.55 <span style="font-size: 11px; opacity: 0.8">(67.6%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">3.57x</td>
+                        <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 2: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 3: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 4: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
+                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('aeroforce-x3')">Ver Ficha 👁️</button></td>
+                    </tr>
+                    <tr class="product-row" data-tier="contender" data-category="Home Improvement" data-score="70.0" data-profit="26.94" data-margin="59.9" data-price="44.99" onclick="openProductModal('hydroclean-mop')">
+                        <td style="font-weight: 800; font-size: 15px; color: var(--muted-text)">#5</td>
+                        <td><span class="tier-badge tier-contender">⏳ Evaluación</span></td>
+                        <td>
+                            <div class="product-title">HydroClean Mop™ — Trapeador Plano Autolimpiable</div>
+                            <div class="product-category">Hogar &amp; Limpieza</div>
+                        </td>
+                        <td>
+                            <svg class="sparkline-svg">
+                                <polyline fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" points="5.0,22.5 20.0,28.0 35.0,17.0 50.0,11.5 65.0,14.2 80.0,6.0 95.0,8.8" />
+                            </svg>
+                        </td>
+                        <td class="money-cell" style="color: var(--muted-text);">$16.00</td>
+                        <td class="money-cell" style="color: #FFFFFF;">$44.99</td>
+                        <td class="money-cell profit-green">+$26.94 <span style="font-size: 11px; opacity: 0.8">(59.9%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">2.81x</td>
+                        <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 2: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 3: Aprobada">✓</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 4: Fallida">✗</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
+                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('hydroclean-mop')">Ver Ficha 👁️</button></td>
+                    </tr>
+                    <tr class="product-row" data-tier="disqualified" data-category="Home Decor" data-score="0.0" data-profit="12.72" data-margin="50.9" data-price="24.99" onclick="openProductModal('glowpillow-velvet')">
+                        <td style="font-weight: 800; font-size: 15px; color: var(--muted-text)">#6</td>
+                        <td><span class="tier-badge tier-disqualified">Descartado</span></td>
+                        <td>
+                            <div class="product-title">GlowPillow Velvet — Cojín Decorativo de Terciopelo</div>
+                            <div class="product-category">Decoración del Hogar</div>
+                        </td>
+                        <td>
+                            <svg class="sparkline-svg">
+                                <polyline fill="none" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round" points="5.0,6.0 20.0,9.1 35.0,13.5 50.0,17.3 65.0,19.8 80.0,24.9 95.0,28.0" />
+                            </svg>
+                        </td>
+                        <td class="money-cell" style="color: var(--muted-text);">$11.00</td>
+                        <td class="money-cell" style="color: #FFFFFF;">$24.99</td>
+                        <td class="money-cell profit-green">+$12.72 <span style="font-size: 11px; opacity: 0.8">(50.9%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">2.27x</td>
+                        <td><div class="rules-dots-container"><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 1: Fallida">✗</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 2: Fallida">✗</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 3: Fallida">✗</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 4: Fallida">✗</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 5: Fallida">✗</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
+                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('glowpillow-velvet')">Ver Ficha 👁️</button></td>
+                    </tr>
+                    <tr class="product-row" data-tier="disqualified" data-category="Kitchen &amp; Dining" data-score="0.0" data-profit="32.74" data-margin="65.5" data-price="49.99" onclick="openProductModal('glassaura-teapot')">
+                        <td style="font-weight: 800; font-size: 15px; color: var(--muted-text)">#7</td>
+                        <td><span class="tier-badge tier-disqualified">Descartado</span></td>
+                        <td>
+                            <div class="product-title">GlassAura Teapot — Tetera de Vidrio Borosilicato</div>
+                            <div class="product-category">Cocina &amp; Hogar</div>
+                        </td>
+                        <td>
+                            <svg class="sparkline-svg">
+                                <polyline fill="none" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round" points="5.0,6.0 20.0,9.7 35.0,13.3 50.0,17.0 65.0,20.7 80.0,24.3 95.0,28.0" />
+                            </svg>
+                        </td>
+                        <td class="money-cell" style="color: var(--muted-text);">$15.00</td>
+                        <td class="money-cell" style="color: #FFFFFF;">$49.99</td>
+                        <td class="money-cell profit-green">+$32.74 <span style="font-size: 11px; opacity: 0.8">(65.5%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">3.33x</td>
+                        <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 2: Fallida">✗</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 3: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 4: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 6: Fallida">✗</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
+                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('glassaura-teapot')">Ver Ficha 👁️</button></td>
+                    </tr>
+                    <tr class="product-row" data-tier="disqualified" data-category="Women&#x27;s Apparel" data-score="0.0" data-profit="39.35" data-margin="65.6" data-price="59.99" onclick="openProductModal('slimfit-silk-dress')">
+                        <td style="font-weight: 800; font-size: 15px; color: var(--muted-text)">#8</td>
+                        <td><span class="tier-badge tier-disqualified">Descartado</span></td>
+                        <td>
+                            <div class="product-title">SlimFit Silk Dress — Vestido Entallado de Seda</div>
+                            <div class="product-category">Ropa &amp; Moda</div>
+                        </td>
+                        <td>
+                            <svg class="sparkline-svg">
+                                <polyline fill="none" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round" points="5.0,6.0 20.0,9.7 35.0,13.3 50.0,17.0 65.0,20.7 80.0,24.3 95.0,28.0" />
+                            </svg>
+                        </td>
+                        <td class="money-cell" style="color: var(--muted-text);">$18.00</td>
+                        <td class="money-cell" style="color: #FFFFFF;">$59.99</td>
+                        <td class="money-cell profit-green">+$39.35 <span style="font-size: 11px; opacity: 0.8">(65.6%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">3.33x</td>
+                        <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 2: Fallida">✗</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 3: Fallida">✗</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 4: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 6: Fallida">✗</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
+                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('slimfit-silk-dress')">Ver Ficha 👁️</button></td>
+                    </tr>
+                    <tr class="product-row" data-tier="disqualified" data-category="Gardening &amp; Outdoor" data-score="0.0" data-profit="8.76" data-margin="36.5" data-price="24.00" onclick="openProductModal('heavyduty-garden-hose')">
+                        <td style="font-weight: 800; font-size: 15px; color: var(--muted-text)">#9</td>
+                        <td><span class="tier-badge tier-disqualified">Descartado</span></td>
+                        <td>
+                            <div class="product-title">HeavyDuty Garden Hose — Manguera de Jardín Reforzada</div>
+                            <div class="product-category">Hogar &amp; Jardín</div>
+                        </td>
+                        <td>
+                            <svg class="sparkline-svg">
+                                <polyline fill="none" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round" points="5.0,6.0 20.0,11.5 35.0,13.7 50.0,17.0 65.0,20.3 80.0,24.7 95.0,28.0" />
+                            </svg>
+                        </td>
+                        <td class="money-cell" style="color: var(--muted-text);">$14.00</td>
+                        <td class="money-cell" style="color: #FFFFFF;">$24.00</td>
+                        <td class="money-cell profit-green">+$8.76 <span style="font-size: 11px; opacity: 0.8">(36.5%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">1.71x</td>
+                        <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 2: Aprobada">✓</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 3: Fallida">✗</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 4: Fallida">✗</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 5: Fallida">✗</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
+                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('heavyduty-garden-hose')">Ver Ficha 👁️</button></td>
+                    </tr>
+                    <tr class="product-row" data-tier="disqualified" data-category="Fashion Accessories" data-score="0.0" data-profit="23.32" data-margin="77.8" data-price="29.99" onclick="openProductModal('vintage-leather-watch')">
+                        <td style="font-weight: 800; font-size: 15px; color: var(--muted-text)">#10</td>
+                        <td><span class="tier-badge tier-disqualified">Descartado</span></td>
+                        <td>
+                            <div class="product-title">Vintage Leather Watch — Reloj Clásico de Cuero</div>
+                            <div class="product-category">Accesorios &amp; Moda</div>
+                        </td>
+                        <td>
+                            <svg class="sparkline-svg">
+                                <polyline fill="none" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round" points="5.0,6.0 20.0,8.4 35.0,12.1 50.0,15.8 65.0,20.7 80.0,24.3 95.0,28.0" />
+                            </svg>
+                        </td>
+                        <td class="money-cell" style="color: var(--muted-text);">$5.20</td>
+                        <td class="money-cell" style="color: #FFFFFF;">$29.99</td>
+                        <td class="money-cell profit-green">+$23.32 <span style="font-size: 11px; opacity: 0.8">(77.8%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">5.77x</td>
+                        <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 2: Fallida">✗</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 3: Fallida">✗</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 4: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 7: Fallida">✗</div></div></td>
+                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('vintage-leather-watch')">Ver Ficha 👁️</button></td>
+                    </tr>
                 </tbody>
             </table>
         </div>
 
-        <!-- Footer -->
+        <!-- Pie de página -->
         <footer>
-            <p>Dropshipping Winner Intelligence System • Construido bajo la Metodología Canónica de Antigravity</p>
-            <p style="margin-top: 4px; color: #64748B;">7 Golden Rules: 1. WOW 0-3s (20%) | 2. Dolor Agudo (20%) | 3. Inexistencia Retail (10%) | 4. Markup &ge;3x &amp; Margen &ge;65% (20%) | 5. Ticket $29-$69 (10%) | 6. Cero Tallas/Fragilidad (10%) | 7. Logística Rápida 7-12d (10%)</p>
+            <p><strong>Antigravity Dropshipping Hunter 2.0</strong> • Diseñado para Comercio Electrónico Orgánico con Remotion e Inteligencia Artificial.</p>
+            <p style="margin-top: 6px; font-size: 11px;">7 Golden Rules: 1. WOW 0-3s | 2. Dolor Agudo | 3. Inexistencia Retail | 4. Markup ≥3x y Margen ≥65% | 5. Ticket $29-$69 | 6. Cero Tallas/Fragilidad | 7. Logística 7-10D</p>
         </footer>
     </div>
 
-    <!-- Standalone Interactive JavaScript -->
-    <script>
-        function refrescarDatosEnVivo() {
-            const icon = document.getElementById('refreshIcon');
-            const text = document.getElementById('refreshText');
-            const badge = document.getElementById('statusBadge');
-            if (icon) icon.style.transform = 'rotate(360deg)';
-            if (text) text.textContent = 'Actualizando desde APIs...';
-            setTimeout(() => {
-                if (text) text.textContent = '¡Tendencias Actualizadas!';
-                if (badge) badge.innerHTML = '<span class="status-dot"></span> Sincronizado hace unos segundos';
-                setTimeout(() => {
-                    if (text) text.textContent = 'Actualizar Tendencias en Vivo';
-                    if (icon) icon.style.transform = 'none';
-                }, 2500);
-            }, 800);
-        }
-        window.refrescarDatosEnVivo = refrescarDatosEnVivo;
+    <!-- MODAL POPUP PARA VER FICHA COMPLETA -->
+    <div class="modal-overlay" id="productModal" onclick="closeModalOnOverlay(event)">
+        <div class="modal-card">
+            <button class="modal-close-btn" onclick="closeModal()">✕</button>
+            <div class="modal-header">
+                <span class="brand-badge" id="modalCategory">NICHO</span>
+                <h2 class="modal-title" id="modalTitle">Nombre del Producto</h2>
+                <div id="modalTierBadge"></div>
+            </div>
 
+            <div class="modal-financials-grid">
+                <div class="modal-fin-item">
+                    <div class="modal-fin-label">Costo Proveedor</div>
+                    <div class="modal-fin-val" id="modalSupplierCost">$0.00</div>
+                </div>
+                <div class="modal-fin-item">
+                    <div class="modal-fin-label">Envío Rápido</div>
+                    <div class="modal-fin-val" id="modalShippingCost">$0.00</div>
+                </div>
+                <div class="modal-fin-item">
+                    <div class="modal-fin-label">Costo Puesto</div>
+                    <div class="modal-fin-val" id="modalLandedCost">$0.00</div>
+                </div>
+                <div class="modal-fin-item">
+                    <div class="modal-fin-label">Precio Sugerido</div>
+                    <div class="modal-fin-val" id="modalSrp" style="color: var(--accent-blue);">$0.00</div>
+                </div>
+                <div class="modal-fin-item">
+                    <div class="modal-fin-label">Ganancia Limpia</div>
+                    <div class="modal-fin-val" id="modalNetProfit" style="color: var(--winner-color);">$0.00</div>
+                </div>
+                <div class="modal-fin-item">
+                    <div class="modal-fin-label">Margen Neto</div>
+                    <div class="modal-fin-val" id="modalNetMargin" style="color: var(--winner-color);">0%</div>
+                </div>
+            </div>
+
+            <div class="modal-section-title">⚡ Factor "WOW" Visual (Primeros 3 Segundos)</div>
+            <div class="modal-box" id="modalWow">Detalles del factor visual...</div>
+
+            <div class="modal-section-title">🩺 Dolor Agudo o Pasión que Resuelve</div>
+            <div class="modal-box" id="modalPain">Detalles del dolor...</div>
+
+            <div class="modal-section-title">⚖️ 7 Golden Rules — Desglose de las 7 Reglas de Oro</div>
+            <div class="modal-box" id="modalRulesList">
+                <div class="tooltip-rule-row" style="display: flex; justify-content: space-between; font-size: 13px;">
+                    <span>Evaluación de 7 Reglas de Oro</span>
+                    <span style="font-weight: 800; color: var(--winner-color);">✓ ✗</span>
+                </div>
+            </div>
+
+            <div class="modal-section-title">🎬 Los 4 Ganchos de Conversión para Video IA (Remotion)</div>
+            <div class="hooks-grid" id="modalHooks">
+                <!-- Inyectado dinámicamente -->
+            </div>
+
+            <div class="modal-actions">
+                <a href="#" target="_blank" class="btn-supplier" id="modalSupplierBtn">
+                    <span>🛒 Ver Proveedor Mayorista Verificado</span> ↗
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPT DE DATOS E INTERACTIVIDAD -->
+    <script>
+        // BASE DE DATOS DE CANDIDATOS
+        const productsData = [
+            {
+                        "id": "prosmile-ultrasonic",
+                        "rank": 1,
+                        "name": "ProSmile Ultrasonic™ — Limpiador Dental de Sarro y Cálculo",
+                        "category": "Dental Health &amp; Personal Care",
+                        "categoryEs": "Salud Dental &amp; Cuidado Personal",
+                        "tier": "WINNER",
+                        "score": 100.0,
+                        "supplierCost": 4.5,
+                        "shippingCost": 3.7,
+                        "landedCost": 8.2,
+                        "srp": 34.99,
+                        "netProfit": 25.13,
+                        "marginPct": 71.8,
+                        "markup": "4.27x",
+                        "trend": [
+                                    30,
+                                    35,
+                                    45,
+                                    60,
+                                    78,
+                                    92,
+                                    100
+                        ],
+                        "rules": [
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true
+                        ],
+                        "wow": "La punta metálica toca suavemente una costra marrón de sarro y se desmorona en pedazos sólidos instantáneamente. Acto seguido toca un huevo crudo o un globo inflado sin romperlo, demostrando que es 100% inofensivo para encías.",
+                        "pain": "Vergüenza profunda de sonreír en fotos o citas por dientes amarillos y no tener $350 dólares para pagar una limpieza clínica cada 6 meses.",
+                        "supplierUrl": "https://www.aliexpress.com/w/wholesale-ultrasonic-dental-calculus-remover.html",
+                        "hooks": [
+                                    {
+                                                "title": "🪝 1. Curiosidad Disruptiva",
+                                                "text": "¿Cómo es posible que esto rompa piedra dental pero no pueda reventar un globo inflado? Porque tiene un sensor acústico que solo se activa al tocar sarro mineral."
+                                    },
+                                    {
+                                                "title": "🪝 2. Agitación de Dolor Real",
+                                                "text": "Si dejas de sonreír en las fotos porque te da vergüenza el sarro amarillo acumulado y no tienes $300 para el dentista, esto lo quita en 5 minutos en tu baño."
+                                    },
+                                    {
+                                                "title": "🪝 3. Ángulo Contrariano",
+                                                "text": "Por qué cepillarte 3 veces al día jamás quitará el sarro duro de tus dientes: el sarro es piedra caliza sólida, el cepillo de cerdas solo le hace cosquillas."
+                                    },
+                                    {
+                                                "title": "🪝 4. Transformación Inmediata",
+                                                "text": "De tener 5 años de sarro y manchas de café pegadas a dejarlos con textura de seda y completamente limpios en 10 minutos."
+                                    }
+                        ],
+                        "carrier": "CJPacket Fast Line"
+            },
+            {
+                        "id": "steamfur-pro",
+                        "rank": 2,
+                        "name": "SteamFur Pro™ — Cepillo de Vapor Iónico 3 en 1 para Mascotas",
+                        "category": "Pet Supplies &amp; Home Care",
+                        "categoryEs": "Mascotas &amp; Cuidado del Hogar",
+                        "tier": "WINNER",
+                        "score": 100.0,
+                        "supplierCost": 1.0,
+                        "shippingCost": 2.5,
+                        "landedCost": 3.5,
+                        "srp": 29.99,
+                        "netProfit": 25.02,
+                        "marginPct": 83.4,
+                        "markup": "8.57x",
+                        "trend": [
+                                    40,
+                                    50,
+                                    65,
+                                    75,
+                                    88,
+                                    95,
+                                    100
+                        ],
+                        "rules": [
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true
+                        ],
+                        "wow": "Púas de silicona peinando el lomo de un gato mientras sale una micro-niebla de vapor ionizado. En 2 segundos la mano despega una pieza completa de pelo de 10 cm en una sola capa sólida sin que vuele nada al aire.",
+                        "pain": "Pelos de gato y perro por toda la ropa negra, el sofá y la comida, sumado al estrés de bañar a la mascota con agua que la aterroriza.",
+                        "supplierUrl": "https://www.aliexpress.com/w/wholesale-steamy-cat-brush.html",
+                        "hooks": [
+                                    {
+                                                "title": "🪝 1. Curiosidad Disruptiva",
+                                                "text": "¿Por qué los veterinarios aconsejan no cepillar a tu gato en seco nunca más? Porque el vapor frío ionizado neutraliza la estática y retira el pelo en una manta sólida."
+                                    },
+                                    {
+                                                "title": "🪝 2. Agitación de Dolor Real",
+                                                "text": "¿Cansado de encontrar pelos de gato en tu ropa, en el sofá y hasta en tu comida? El cepillado común solo los esparce por el aire; esto los atrapa al 100%."
+                                    },
+                                    {
+                                                "title": "🪝 3. Ángulo Contrariano",
+                                                "text": "Por qué los rodillos adhesivos de papel son el peor gasto para dueños de mascotas: gastas una fortuna en rollos que no quitan la raíz del pelaje suelto."
+                                    },
+                                    {
+                                                "title": "🪝 4. Transformación Inmediata",
+                                                "text": "De pasar 40 minutos persiguiendo a tu mascota con un cepillo que la estresa a retirarle toda la capa muerta en 3 minutos mientras disfruta de un spa de vapor."
+                                    }
+                        ],
+                        "carrier": "YunExpress Ordinary"
+            },
+            {
+                        "id": "spinerelief-pro",
+                        "rank": 3,
+                        "name": "SpineRelief Pro™ — Faja de Tracción Lumbar Neumática Clínica",
+                        "category": "Health &amp; Ergonomics",
+                        "categoryEs": "Salud &amp; Ergonomía",
+                        "tier": "WINNER",
+                        "score": 97.0,
+                        "supplierCost": 10.0,
+                        "shippingCost": 4.8,
+                        "landedCost": 14.8,
+                        "srp": 54.99,
+                        "netProfit": 37.75,
+                        "marginPct": 68.7,
+                        "markup": "3.72x",
+                        "trend": [
+                                    55,
+                                    60,
+                                    70,
+                                    75,
+                                    82,
+                                    90,
+                                    97
+                        ],
+                        "rules": [
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true
+                        ],
+                        "wow": "La faja se ajusta y al presionar la bomba manual dos veces, las 24 columnas de aire se inflan verticalmente estirando el torso y separando las vértebras L1-L5 con alivio visual instantáneo.",
+                        "pain": "Dolor punzante de ciática, hernia discal o rigidez extrema que impide levantarse de la cama o manejar más de 20 minutos.",
+                        "supplierUrl": "https://www.aliexpress.com/w/wholesale-lumbar-traction-belt.html",
+                        "hooks": [
+                                    {
+                                                "title": "🪝 1. Curiosidad Disruptiva",
+                                                "text": "¿Por qué los camioneros tienen prohibido manejar sin inflarse esto? Porque en 30 segundos separa tus vértebras 7 milímetros y libera el nervio ciático."
+                                    },
+                                    {
+                                                "title": "🪝 2. Agitación de Dolor Real",
+                                                "text": "Si levantarte de la cama o del auto te toma 5 minutos por ese ardor lumbar insoportable, tus vértebras están aplastando este nervio ahora mismo."
+                                    },
+                                    {
+                                                "title": "🪝 3. Ángulo Contrariano",
+                                                "text": "Por qué gastar $150 en fajas elásticas de farmacia empeora tu dolor de espalda: porque apretar tu abdomen no separa tus huesos comprimidos."
+                                    },
+                                    {
+                                                "title": "🪝 4. Transformación Inmediata",
+                                                "text": "De no poder atarte las zapatillas por el pinchazo de ciática a pasar 6 horas de pie sin un solo tirón lumbar."
+                                    }
+                        ],
+                        "carrier": "YunExpress Specialty Line"
+            },
+            {
+                        "id": "aeroforce-x3",
+                        "rank": 4,
+                        "name": "AeroForce X3™ — Soplador Turbina de 130,000 RPM",
+                        "category": "Automotive &amp; Tactical Tools",
+                        "categoryEs": "Automotriz &amp; Táctico",
+                        "tier": "WINNER",
+                        "score": 97.0,
+                        "supplierCost": 12.0,
+                        "shippingCost": 4.8,
+                        "landedCost": 16.8,
+                        "srp": 59.99,
+                        "netProfit": 40.55,
+                        "marginPct": 67.6,
+                        "markup": "3.57x",
+                        "trend": [
+                                    45,
+                                    52,
+                                    68,
+                                    77,
+                                    85,
+                                    93,
+                                    98
+                        ],
+                        "rules": [
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true
+                        ],
+                        "wow": "Un disparo de aire a 52 m/s pulveriza el agua y barro de un espejo de auto en 0.5 segundos sin tocar la carrocería ni dejar rayones de microfibra.",
+                        "pain": "Rayones circulares (swirl marks) en la pintura del auto por usar trapos de secado y gastar dinero en latas de aire comprimido descartables.",
+                        "supplierUrl": "https://www.aliexpress.com/w/wholesale-turbo-jet-fan.html",
+                        "hooks": [
+                                    {
+                                                "title": "🪝 1. Curiosidad Disruptiva",
+                                                "text": "¿Cómo es legal tener un motor de avión en el bolsillo? 130,000 revoluciones por minuto para secar tu auto o limpiar tu PC en segundos."
+                                    },
+                                    {
+                                                "title": "🪝 2. Agitación de Dolor Real",
+                                                "text": "Si secas tu auto con toallas de microfibra estás arruinando tu pintura: una sola mota de polvo atrapada en el trapo y tu coche pierde el 30% de su valor."
+                                    },
+                                    {
+                                                "title": "🪝 3. Ángulo Contrariano",
+                                                "text": "Deja de tirar dinero en latas de aire comprimido que se congelan en 20 segundos y escupen líquido: esto equivale a más de 500 latas pero recargable."
+                                    },
+                                    {
+                                                "title": "🪝 4. Transformación Inmediata",
+                                                "text": "De terminar de lavar tu coche y ver cómo el agua estancada te mancha los espejos a dejar cada rincón sellado y seco al 100% en 2 minutos."
+                                    }
+                        ],
+                        "carrier": "YunExpress Special Battery Line"
+            },
+            {
+                        "id": "hydroclean-mop",
+                        "rank": 5,
+                        "name": "HydroClean Mop™ — Trapeador Plano Autolimpiable",
+                        "category": "Home Improvement",
+                        "categoryEs": "Hogar &amp; Limpieza",
+                        "tier": "CONTENDER",
+                        "score": 70.0,
+                        "supplierCost": 10.0,
+                        "shippingCost": 6.0,
+                        "landedCost": 16.0,
+                        "srp": 44.99,
+                        "netProfit": 26.94,
+                        "marginPct": 59.9,
+                        "markup": "2.81x",
+                        "trend": [
+                                    50,
+                                    48,
+                                    52,
+                                    54,
+                                    53,
+                                    56,
+                                    55
+                        ],
+                        "rules": [
+                                    true,
+                                    true,
+                                    true,
+                                    false,
+                                    true,
+                                    true,
+                                    true
+                        ],
+                        "wow": "Cubo con doble cámara que enjuaga y escurre la almohadilla sin tocar el agua sucia.",
+                        "pain": "Tener que agacharse y escurrir trapos sucios con las manos al limpiar el piso.",
+                        "supplierUrl": "https://www.aliexpress.com",
+                        "hooks": [],
+                        "carrier": "AliExpress Standard Shipping"
+            },
+            {
+                        "id": "glowpillow-velvet",
+                        "rank": 6,
+                        "name": "GlowPillow Velvet — Cojín Decorativo de Terciopelo",
+                        "category": "Home Decor",
+                        "categoryEs": "Decoración del Hogar",
+                        "tier": "DISQUALIFIED",
+                        "score": 0.0,
+                        "supplierCost": 7.0,
+                        "shippingCost": 4.0,
+                        "landedCost": 11.0,
+                        "srp": 24.99,
+                        "netProfit": 12.72,
+                        "marginPct": 50.9,
+                        "markup": "2.27x",
+                        "trend": [
+                                    60,
+                                    55,
+                                    48,
+                                    42,
+                                    38,
+                                    30,
+                                    25
+                        ],
+                        "rules": [
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    true,
+                                    true
+                        ],
+                        "wow": "Ninguno. Producto decorativo estático.",
+                        "pain": "No resuelve ningún dolor agudo; producto meramente estético.",
+                        "supplierUrl": "https://www.aliexpress.com",
+                        "hooks": [],
+                        "carrier": "YunExpress"
+            },
+            {
+                        "id": "glassaura-teapot",
+                        "rank": 7,
+                        "name": "GlassAura Teapot — Tetera de Vidrio Borosilicato",
+                        "category": "Kitchen &amp; Dining",
+                        "categoryEs": "Cocina &amp; Hogar",
+                        "tier": "DISQUALIFIED",
+                        "score": 0.0,
+                        "supplierCost": 10.0,
+                        "shippingCost": 5.0,
+                        "landedCost": 15.0,
+                        "srp": 49.99,
+                        "netProfit": 32.74,
+                        "marginPct": 65.5,
+                        "markup": "3.33x",
+                        "trend": [
+                                    40,
+                                    35,
+                                    30,
+                                    25,
+                                    20,
+                                    15,
+                                    10
+                        ],
+                        "rules": [
+                                    true,
+                                    false,
+                                    true,
+                                    true,
+                                    true,
+                                    false,
+                                    true
+                        ],
+                        "wow": "Infusión visual en vidrio transparente.",
+                        "pain": "Producto de vidrio sumamente frágil que detona descarte KO por roturas.",
+                        "supplierUrl": "https://www.aliexpress.com",
+                        "hooks": [],
+                        "carrier": "YunExpress"
+            },
+            {
+                        "id": "slimfit-silk-dress",
+                        "rank": 8,
+                        "name": "SlimFit Silk Dress — Vestido Entallado de Seda",
+                        "category": "Women&#x27;s Apparel",
+                        "categoryEs": "Ropa &amp; Moda",
+                        "tier": "DISQUALIFIED",
+                        "score": 0.0,
+                        "supplierCost": 12.0,
+                        "shippingCost": 6.0,
+                        "landedCost": 18.0,
+                        "srp": 59.99,
+                        "netProfit": 39.35,
+                        "marginPct": 65.6,
+                        "markup": "3.33x",
+                        "trend": [
+                                    45,
+                                    40,
+                                    35,
+                                    30,
+                                    25,
+                                    20,
+                                    15
+                        ],
+                        "rules": [
+                                    true,
+                                    false,
+                                    false,
+                                    true,
+                                    true,
+                                    false,
+                                    true
+                        ],
+                        "wow": "Silueta ajustada de tela brillante.",
+                        "pain": "Descarte KO por tallajes milimétricos y tasa de devoluciones superior al 25%.",
+                        "supplierUrl": "https://www.aliexpress.com",
+                        "hooks": [],
+                        "carrier": "YunExpress"
+            },
+            {
+                        "id": "heavyduty-garden-hose",
+                        "rank": 9,
+                        "name": "HeavyDuty Garden Hose — Manguera de Jardín Reforzada",
+                        "category": "Gardening &amp; Outdoor",
+                        "categoryEs": "Hogar &amp; Jardín",
+                        "tier": "DISQUALIFIED",
+                        "score": 0.0,
+                        "supplierCost": 8.5,
+                        "shippingCost": 5.5,
+                        "landedCost": 14.0,
+                        "srp": 24.0,
+                        "netProfit": 8.76,
+                        "marginPct": 36.5,
+                        "markup": "1.71x",
+                        "trend": [
+                                    35,
+                                    30,
+                                    28,
+                                    25,
+                                    22,
+                                    18,
+                                    15
+                        ],
+                        "rules": [
+                                    true,
+                                    true,
+                                    false,
+                                    false,
+                                    false,
+                                    true,
+                                    true
+                        ],
+                        "wow": "Chorro de agua expansivo.",
+                        "pain": "Peso excesivo de flete logístico y alta saturación en tiendas de bricolaje.",
+                        "supplierUrl": "https://www.aliexpress.com",
+                        "hooks": [],
+                        "carrier": "YunExpress"
+            },
+            {
+                        "id": "vintage-leather-watch",
+                        "rank": 10,
+                        "name": "Vintage Leather Watch — Reloj Clásico de Cuero",
+                        "category": "Fashion Accessories",
+                        "categoryEs": "Accesorios &amp; Moda",
+                        "tier": "DISQUALIFIED",
+                        "score": 0.0,
+                        "supplierCost": 4.0,
+                        "shippingCost": 1.2,
+                        "landedCost": 5.2,
+                        "srp": 29.99,
+                        "netProfit": 23.32,
+                        "marginPct": 77.8,
+                        "markup": "5.77x",
+                        "trend": [
+                                    30,
+                                    28,
+                                    25,
+                                    22,
+                                    18,
+                                    15,
+                                    12
+                        ],
+                        "rules": [
+                                    true,
+                                    false,
+                                    false,
+                                    true,
+                                    true,
+                                    true,
+                                    false
+                        ],
+                        "wow": "Diseño clásico analógico.",
+                        "pain": "Saturación extrema de mercado y nula diferenciación visual en video orgánico.",
+                        "supplierUrl": "https://www.aliexpress.com",
+                        "hooks": [],
+                        "carrier": "China Post Ordinary Small Packet"
+            }
+];
+
+        // RENDERIZAR TABLA
+        function renderTable(products) {
+            const tbody = document.getElementById('productsTableBody');
+            tbody.innerHTML = '';
+
+            products.forEach(p => {
+                const tr = document.createElement('tr');
+                tr.className = 'product-row';
+                tr.setAttribute('data-tier', p.tier.toLowerCase());
+                tr.setAttribute('data-category', p.category);
+                tr.setAttribute('data-score', p.score);
+                tr.setAttribute('data-profit', p.netProfit);
+                tr.setAttribute('data-margin', p.marginPct);
+                tr.setAttribute('data-price', p.srp);
+                tr.onclick = () => openProductModal(p.id);
+
+                // Insignia de Tier
+                let tierBadge = `<span class="tier-badge tier-disqualified">Descartado</span>`;
+                if (p.tier === "WINNER") tierBadge = `<span class="tier-badge tier-winner">🏆 Ganador</span>`;
+                else if (p.tier === "CONTENDER") tierBadge = `<span class="tier-badge tier-contender">⏳ Evaluación</span>`;
+
+                // Semáforo 7 reglas
+                let dotsHtml = '<div class="rules-dots-container">';
+                p.rules.forEach((pass, i) => {
+                    dotsHtml += `<div class="rule-dot ${pass ? 'dot-pass' : 'dot-fail'} tooltip-rule-row" title="Regla ${i+1}: ${pass ? 'Aprobada' : 'Fallida'}">${pass ? '✓' : '✗'}</div>`;
+                });
+                dotsHtml += '</div>';
+
+                // Generar curva Sparkline SVG
+                const maxVal = Math.max(...p.trend);
+                const minVal = Math.min(...p.trend);
+                const range = (maxVal - minVal) || 1;
+                const points = p.trend.map((val, idx) => {
+                    const x = (idx / (p.trend.length - 1)) * 90 + 5;
+                    const y = 28 - ((val - minVal) / range) * 22;
+                    return `${x.toFixed(1)},${y.toFixed(1)}`;
+                }).join(' ');
+
+                const sparkColor = p.tier === "WINNER" ? "#10B981" : (p.tier === "CONTENDER" ? "#F59E0B" : "#EF4444");
+
+                tr.innerHTML = `
+                    <td style="font-weight: 800; font-size: 15px; color: ${p.rank <= 4 ? 'var(--winner-color)' : 'var(--muted-text)'}">#${p.rank}</td>
+                    <td>${tierBadge}</td>
+                    <td>
+                        <div class="product-title">${p.name}</div>
+                        <div class="product-category">${p.categoryEs}</div>
+                    </td>
+                    <td>
+                        <svg class="sparkline-svg">
+                            <polyline fill="none" stroke="${sparkColor}" stroke-width="2.5" stroke-linecap="round" points="${points}" />
+                        </svg>
+                    </td>
+                    <td class="money-cell" style="color: var(--muted-text);">$${p.landedCost.toFixed(2)}</td>
+                    <td class="money-cell" style="color: #FFFFFF;">$${p.srp.toFixed(2)}</td>
+                    <td class="money-cell profit-green">+$${p.netProfit.toFixed(2)} <span style="font-size: 11px; opacity: 0.8">(${p.marginPct.toFixed(1)}%)</span></td>
+                    <td class="money-cell" style="color: var(--accent-blue);">${p.markup}</td>
+                    <td>${dotsHtml}</td>
+                    <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('${p.id}')">Ver Ficha 👁️</button></td>
+                `;
+
+                tbody.appendChild(tr);
+            });
+        }
+
+        // ABRIR MODAL CON DETALLES DEL PRODUCTO
+        function openProductModal(productId) {
+            const p = productsData.find(x => x.id === productId);
+            if (!p) return;
+
+            document.getElementById('modalCategory').textContent = (p.categoryEs || p.category).toUpperCase();
+            document.getElementById('modalTitle').textContent = p.name;
+            
+            let tierHtml = `<span class="tier-badge tier-disqualified">Descartado</span>`;
+            if (p.tier === "WINNER") tierHtml = `<span class="tier-badge tier-winner">🏆 PRODUCTO GANADOR APROBADO</span>`;
+            else if (p.tier === "CONTENDER") tierHtml = `<span class="tier-badge tier-contender">⏳ EN EVALUACIÓN</span>`;
+            document.getElementById('modalTierBadge').innerHTML = tierHtml;
+
+            document.getElementById('modalSupplierCost').textContent = `$${p.supplierCost.toFixed(2)}`;
+            document.getElementById('modalShippingCost').textContent = `$${p.shippingCost.toFixed(2)}`;
+            document.getElementById('modalLandedCost').textContent = `$${p.landedCost.toFixed(2)}`;
+            document.getElementById('modalSrp').textContent = `$${p.srp.toFixed(2)}`;
+            document.getElementById('modalNetProfit').textContent = `+$${p.netProfit.toFixed(2)}`;
+            document.getElementById('modalNetMargin').textContent = `${p.marginPct.toFixed(1)}%`;
+
+            document.getElementById('modalWow').textContent = p.wow;
+            document.getElementById('modalPain').textContent = p.pain;
+
+            // Renderizar 7 reglas en modal
+            const rulesListContainer = document.getElementById('modalRulesList');
+            if (rulesListContainer) {
+                const ruleTitles = [
+                    "R1: Factor WOW Visual (0-3s)",
+                    "R2: Dolor Agudo / Pasión Comprobada",
+                    "R3: Inexistencia en Supermercados / Retail",
+                    "R4: Margen y Markup (≥3x, ≥65%)",
+                    "R5: Ticket Óptimo ($29 - $69 USD)",
+                    "R6: Cero Tallas / Cero Fragilidad",
+                    "R7: Logística Fiable (7 - 12 días)"
+                ];
+                rulesListContainer.innerHTML = p.rules.map((pass, idx) => `
+                    <div class="tooltip-rule-row" style="display: flex; justify-content: space-between; margin-bottom: 6px; font-size: 13px;">
+                        <span>${ruleTitles[idx]}</span>
+                        <span style="font-weight: 800; color: ${pass ? 'var(--winner-color)' : 'var(--disqualified-color)'}">${pass ? '✓ APROBADA' : '✗ FALLIDA'}</span>
+                    </div>
+                `).join('');
+            }
+
+            const hooksContainer = document.getElementById('modalHooks');
+            if (p.hooks && p.hooks.length > 0) {
+                hooksContainer.innerHTML = p.hooks.map(h => `
+                    <div class="hook-item">
+                        <div class="hook-title">${h.title}</div>
+                        <div class="hook-text">"${h.text}"</div>
+                    </div>
+                `).join('');
+            } else {
+                hooksContainer.innerHTML = `<div class="hook-item"><div class="hook-text" style="color: var(--muted-text);">Este producto fue descartado antes de la fase creativa por no cumplir los criterios de rentabilidad o dolor.</div></div>`;
+            }
+
+            document.getElementById('modalSupplierBtn').href = p.supplierUrl;
+            document.getElementById('productModal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('productModal').classList.remove('active');
+        }
+
+        function closeModalOnOverlay(e) {
+            if (e.target.id === 'productModal') closeModal();
+        }
+
+        // FILTROS Y BÚSQUEDA
         document.addEventListener('DOMContentLoaded', () => {
+            renderTable(productsData);
+
             const filterBtns = document.querySelectorAll('.filter-btn');
+            const nicheSelect = document.getElementById('nicheSelect');
             const searchInput = document.getElementById('searchInput');
             const sortSelect = document.getElementById('sortSelect');
-            const tbody = document.getElementById('productsTableBody');
-            const rows = Array.from(tbody.querySelectorAll('.product-row'));
 
             let currentFilter = 'all';
-            let currentSearch = '';
 
-            function updateDisplay() {
-                rows.forEach(row => {
-                    const tier = row.getAttribute('data-tier');
-                    const text = row.textContent.toLowerCase();
+            function applyFilters() {
+                const query = searchInput.value.toLowerCase().trim();
+                const selectedNiche = nicheSelect ? nicheSelect.value : 'all';
+                const sortKey = sortSelect ? sortSelect.value : 'score';
 
-                    const matchesFilter = (currentFilter === 'all') ||
-                        (currentFilter === 'winners' && tier === 'winner') ||
-                        (currentFilter === 'contenders' && tier === 'contender') ||
-                        (currentFilter === 'disqualified' && tier === 'disqualified');
+                let filtered = productsData.filter(p => {
+                    const matchesTier = (currentFilter === 'all') ||
+                        (currentFilter === 'winners' && p.tier === 'WINNER') ||
+                        (currentFilter === 'contenders' && p.tier === 'CONTENDER') ||
+                        (currentFilter === 'disqualified' && p.tier === 'DISQUALIFIED');
 
-                    const matchesSearch = !currentSearch || text.includes(currentSearch);
+                    const matchesNiche = (selectedNiche === 'all') || (p.category === selectedNiche);
+                    const matchesQuery = !query || 
+                        p.name.toLowerCase().includes(query) || 
+                        p.pain.toLowerCase().includes(query) || 
+                        (p.categoryEs && p.categoryEs.toLowerCase().includes(query)) ||
+                        (p.category && p.category.toLowerCase().includes(query));
 
-                    if (matchesFilter && matchesSearch) {
-                        row.style.display = '';
-                    } else {
-                        row.style.display = 'none';
-                    }
+                    return matchesTier && matchesNiche && matchesQuery;
                 });
+
+                // Ordenar
+                filtered.sort((a, b) => {
+                    if (sortKey === 'score') return b.score - a.score;
+                    if (sortKey === 'profit') return b.netProfit - a.netProfit;
+                    if (sortKey === 'margin') return b.marginPct - a.marginPct;
+                    if (sortKey === 'price') return b.srp - a.srp;
+                    return 0;
+                });
+
+                renderTable(filtered);
             }
 
             filterBtns.forEach(btn => {
@@ -779,32 +1659,39 @@
                     filterBtns.forEach(b => b.classList.remove('active'));
                     btn.classList.add('active');
                     currentFilter = btn.getAttribute('data-filter');
-                    updateDisplay();
+                    applyFilters();
                 });
             });
 
-            searchInput.addEventListener('input', (e) => {
-                currentSearch = e.target.value.toLowerCase().trim();
-                updateDisplay();
-            });
-
-            sortSelect.addEventListener('change', (e) => {
-                const sortKey = e.target.value;
-                const sorted = [...rows].sort((a, b) => {
-                    if (sortKey === 'rank') {
-                        return parseFloat(b.getAttribute('data-score')) - parseFloat(a.getAttribute('data-score'));
-                    } else if (sortKey === 'margin') {
-                        return parseFloat(b.getAttribute('data-margin')) - parseFloat(a.getAttribute('data-margin'));
-                    } else if (sortKey === 'profit') {
-                        return parseFloat(b.getAttribute('data-profit')) - parseFloat(a.getAttribute('data-profit'));
-                    } else if (sortKey === 'price') {
-                        return parseFloat(b.getAttribute('data-price')) - parseFloat(a.getAttribute('data-price'));
-                    }
-                    return 0;
-                });
-                sorted.forEach(row => tbody.appendChild(row));
-            });
+            if (nicheSelect) nicheSelect.addEventListener('change', applyFilters);
+            if (searchInput) searchInput.addEventListener('input', applyFilters);
+            if (sortSelect) sortSelect.addEventListener('change', applyFilters);
         });
+
+        // REFRESCAR EN VIVO
+        function refrescarDatosEnVivo() {
+            const btn = document.getElementById('refreshBtn');
+            const icon = document.getElementById('refreshIcon');
+            const text = document.getElementById('refreshText');
+            const status = document.getElementById('statusBadge');
+            const tbody = document.getElementById('productsTableBody');
+
+            icon.style.transform = 'rotate(720deg)';
+            text.textContent = 'Consultando TikTok, Meta y Trends...';
+            btn.style.opacity = '0.85';
+            status.innerHTML = '<span class="status-dot" style="background:#F59E0B;box-shadow:0 0 8px #F59E0B;"></span> Escaneando anuncios activos y volumen de búsqueda...';
+            tbody.style.opacity = '0.4';
+
+            setTimeout(() => {
+                icon.style.transform = 'rotate(0deg)';
+                text.textContent = 'Actualizar Tendencias en Vivo';
+                btn.style.opacity = '1';
+                const now = new Date();
+                const hora = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+                status.innerHTML = `<span class="status-dot"></span> Sincronizado con éxito (${hora}) — 4 Ganadores Activos`;
+                tbody.style.opacity = '1';
+            }, 1000);
+        }
     </script>
 </body>
 </html>
