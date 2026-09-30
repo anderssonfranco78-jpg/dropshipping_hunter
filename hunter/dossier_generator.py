@@ -72,7 +72,7 @@ SPEED_RAMP_PLATEAU = 0.18
 # Canonical supplier URLs and logistics details for the 4 core winners
 CANONICAL_SUPPLIER_DATA: Dict[str, Dict[str, Any]] = {
     "spinerelief-pro": {
-        "aliexpress_url": "https://www.aliexpress.com/w/wholesale-lumbar-traction-belt.html",
+        "aliexpress_url": "https://www.aliexpress.com/item/1005006626002554.html",
         "cj_url": "https://cjdropshipping.com/list-detail.html?search=lumbar%20traction%20belt",
         "shipping_carrier": "YunExpress Specialty Line",
         "delivery_days": "7 - 10 días laborables",
@@ -106,7 +106,7 @@ CANONICAL_SUPPLIER_DATA: Dict[str, Dict[str, Any]] = {
         ),
     },
     "aeroforce-x3": {
-        "aliexpress_url": "https://www.aliexpress.com/w/wholesale-turbo-jet-fan.html",
+        "aliexpress_url": "https://www.aliexpress.com/item/1005009719197258.html",
         "cj_url": "https://cjdropshipping.com/list-detail.html?search=turbo%20jet%20fan",
         "shipping_carrier": "YunExpress Special Battery Line / CJPacket Sensitive (UN38.3)",
         "delivery_days": "8 - 11 días hábiles",
@@ -140,7 +140,7 @@ CANONICAL_SUPPLIER_DATA: Dict[str, Dict[str, Any]] = {
         ),
     },
     "prosmile-ultrasonic": {
-        "aliexpress_url": "https://www.aliexpress.com/w/wholesale-ultrasonic-dental-calculus-remover.html",
+        "aliexpress_url": "https://www.aliexpress.com/item/1005005236582798.html",
         "cj_url": "https://cjdropshipping.com/list-detail.html?search=ultrasonic%20tooth%20cleaner",
         "shipping_carrier": "CJPacket Fast Line / YunExpress Ordinary",
         "delivery_days": "7 - 10 días laborables",
@@ -168,7 +168,7 @@ CANONICAL_SUPPLIER_DATA: Dict[str, Dict[str, Any]] = {
         ),
     },
     "steamfur-pro": {
-        "aliexpress_url": "https://www.aliexpress.com/w/wholesale-steamy-cat-brush.html",
+        "aliexpress_url": "https://www.aliexpress.com/item/1005007791672610.html",
         "cj_url": "https://cjdropshipping.com/list-detail.html?search=steamy%20pet%20brush",
         "shipping_carrier": "YunExpress Ordinary / CJPacket Fast Line",
         "delivery_days": "7 - 10 días laborables",

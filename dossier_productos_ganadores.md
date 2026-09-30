@@ -2,7 +2,7 @@
 title: "Dossier Oficial de Productos Ganadores Validados"
 source: "dropshipping_hunter"
 date: "2026-09-29"
-generated_at: "2026-09-30T04:23:04.313970+00:00"
+generated_at: "2026-09-30T04:53:51.213897+00:00"
 evaluation_engine_version: "1.0.0"
 audit_standard: "Antigravity 7 Golden Rules"
 scoring_threshold_approval: 80
@@ -73,7 +73,7 @@ Cada ficha técnica incluye su desglose financiero completo, proveedores mayoris
 
 #### Enlaces a Proveedores y Logística
 
-- **Proveedor Mayorista AliExpress**: [https://www.aliexpress.com/w/wholesale-ultrasonic-dental-calculus-remover.html](https://www.aliexpress.com/w/wholesale-ultrasonic-dental-calculus-remover.html)
+- **Proveedor Mayorista AliExpress**: [https://www.aliexpress.com/item/1005005236582798.html](https://www.aliexpress.com/item/1005005236582798.html)
 - **Sourcing Directo CJ Dropshipping**: [https://cjdropshipping.com/list-detail.html?search=ultrasonic%20tooth%20cleaner](https://cjdropshipping.com/list-detail.html?search=ultrasonic%20tooth%20cleaner)
 - **Línea Logística Homologada**: CJPacket Fast Line / YunExpress Ordinary (7 - 10 días laborables)
 - **Especificación de Empaque**: Dispositivo IPX6 impermeable, 2 puntas de acero quirúrgico 316, espejo dental antivaho, cable USB-C
@@ -194,7 +194,7 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 
 #### Enlaces a Proveedores y Logística
 
-- **Proveedor Mayorista AliExpress**: [https://www.aliexpress.com/w/wholesale-steamy-cat-brush.html](https://www.aliexpress.com/w/wholesale-steamy-cat-brush.html)
+- **Proveedor Mayorista AliExpress**: [https://www.aliexpress.com/item/1005007791672610.html](https://www.aliexpress.com/item/1005007791672610.html)
 - **Sourcing Directo CJ Dropshipping**: [https://cjdropshipping.com/list-detail.html?search=steamy%20pet%20brush](https://cjdropshipping.com/list-detail.html?search=steamy%20pet%20brush)
 - **Línea Logística Homologada**: YunExpress Ordinary / CJPacket Fast Line (7 - 10 días laborables)
 - **Especificación de Empaque**: Cepillo con cerdas de silicona médica, micronebulizador ultrasónico USB-C, depósito de recarga
@@ -315,7 +315,7 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 
 #### Enlaces a Proveedores y Logística
 
-- **Proveedor Mayorista AliExpress**: [https://www.aliexpress.com/w/wholesale-lumbar-traction-belt.html](https://www.aliexpress.com/w/wholesale-lumbar-traction-belt.html)
+- **Proveedor Mayorista AliExpress**: [https://www.aliexpress.com/item/1005006626002554.html](https://www.aliexpress.com/item/1005006626002554.html)
 - **Sourcing Directo CJ Dropshipping**: [https://cjdropshipping.com/list-detail.html?search=lumbar%20traction%20belt](https://cjdropshipping.com/list-detail.html?search=lumbar%20traction%20belt)
 - **Línea Logística Homologada**: YunExpress Specialty Line (7 - 10 días laborables)
 - **Especificación de Empaque**: Caja neutra con bolsa TPU, bomba manual con manómetro, correa extensora
@@ -438,7 +438,7 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 
 #### Enlaces a Proveedores y Logística
 
-- **Proveedor Mayorista AliExpress**: [https://www.aliexpress.com/w/wholesale-turbo-jet-fan.html](https://www.aliexpress.com/w/wholesale-turbo-jet-fan.html)
+- **Proveedor Mayorista AliExpress**: [https://www.aliexpress.com/item/1005009719197258.html](https://www.aliexpress.com/item/1005009719197258.html)
 - **Sourcing Directo CJ Dropshipping**: [https://cjdropshipping.com/list-detail.html?search=turbo%20jet%20fan](https://cjdropshipping.com/list-detail.html?search=turbo%20jet%20fan)
 - **Línea Logística Homologada**: YunExpress Special Battery Line / CJPacket Sensitive (UN38.3) (8 - 11 días hábiles)
 - **Especificación de Empaque**: Carcasa de aleación CNC, boquilla magnética, cable USB-C de carga rápida, estuche rígido

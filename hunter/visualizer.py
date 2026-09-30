@@ -398,7 +398,7 @@ class Visualizer:
                 "trend": [30, 35, 45, 60, 78, 92, 100],
                 "wow": "La punta metálica toca suavemente una costra marrón de sarro y se desmorona en pedazos sólidos instantáneamente. Acto seguido toca un huevo crudo o un globo inflado sin romperlo, demostrando que es 100% inofensivo para encías.",
                 "pain": "Vergüenza profunda de sonreír en fotos o citas por dientes amarillos y no tener $350 dólares para pagar una limpieza clínica cada 6 meses.",
-                "supplier_url": "https://www.aliexpress.com/w/wholesale-ultrasonic-dental-calculus-remover.html",
+                "supplier_url": "https://www.aliexpress.com/item/1005005236582798.html",
                 "hooks": [
                     {"title": "🪝 1. Curiosidad Disruptiva", "text": "¿Cómo es posible que esto rompa piedra dental pero no pueda reventar un globo inflado? Porque tiene un sensor acústico que solo se activa al tocar sarro mineral."},
                     {"title": "🪝 2. Agitación de Dolor Real", "text": "Si dejas de sonreír en las fotos porque te da vergüenza el sarro amarillo acumulado y no tienes $300 para el dentista, esto lo quita en 5 minutos en tu baño."},
@@ -412,7 +412,7 @@ class Visualizer:
                 "trend": [40, 50, 65, 75, 88, 95, 100],
                 "wow": "Púas de silicona peinando el lomo de un gato mientras sale una micro-niebla de vapor ionizado. En 2 segundos la mano despega una pieza completa de pelo de 10 cm en una sola capa sólida sin que vuele nada al aire.",
                 "pain": "Pelos de gato y perro por toda la ropa negra, el sofá y la comida, sumado al estrés de bañar a la mascota con agua que la aterroriza.",
-                "supplier_url": "https://www.aliexpress.com/w/wholesale-steamy-cat-brush.html",
+                "supplier_url": "https://www.aliexpress.com/item/1005007791672610.html",
                 "hooks": [
                     {"title": "🪝 1. Curiosidad Disruptiva", "text": "¿Por qué los veterinarios aconsejan no cepillar a tu gato en seco nunca más? Porque el vapor frío ionizado neutraliza la estática y retira el pelo en una manta sólida."},
                     {"title": "🪝 2. Agitación de Dolor Real", "text": "¿Cansado de encontrar pelos de gato en tu ropa, en el sofá y hasta en tu comida? El cepillado común solo los esparce por el aire; esto los atrapa al 100%."},
@@ -426,7 +426,7 @@ class Visualizer:
                 "trend": [55, 60, 70, 75, 82, 90, 97],
                 "wow": "La faja se ajusta y al presionar la bomba manual dos veces, las 24 columnas de aire se inflan verticalmente estirando el torso y separando las vértebras L1-L5 con alivio visual instantáneo.",
                 "pain": "Dolor punzante de ciática, hernia discal o rigidez extrema que impide levantarse de la cama o manejar más de 20 minutos.",
-                "supplier_url": "https://www.aliexpress.com/w/wholesale-lumbar-traction-belt.html",
+                "supplier_url": "https://www.aliexpress.com/item/1005006626002554.html",
                 "hooks": [
                     {"title": "🪝 1. Curiosidad Disruptiva", "text": "¿Por qué los camioneros tienen prohibido manejar sin inflarse esto? Porque en 30 segundos separa tus vértebras 7 milímetros y libera el nervio ciático."},
                     {"title": "🪝 2. Agitación de Dolor Real", "text": "Si levantarte de la cama o del auto te toma 5 minutos por ese ardor lumbar insoportable, tus vértebras están aplastando este nervio ahora mismo."},
@@ -440,7 +440,7 @@ class Visualizer:
                 "trend": [45, 52, 68, 77, 85, 93, 98],
                 "wow": "Un disparo de aire a 52 m/s pulveriza el agua y barro de un espejo de auto en 0.5 segundos sin tocar la carrocería ni dejar rayones de microfibra.",
                 "pain": "Rayones circulares (swirl marks) en la pintura del auto por usar trapos de secado y gastar dinero en latas de aire comprimido descartables.",
-                "supplier_url": "https://www.aliexpress.com/w/wholesale-turbo-jet-fan.html",
+                "supplier_url": "https://www.aliexpress.com/item/1005009719197258.html",
                 "hooks": [
                     {"title": "🪝 1. Curiosidad Disruptiva", "text": "¿Cómo es legal tener un motor de avión en el bolsillo? 130,000 revoluciones por minuto para secar tu auto o limpiar tu PC en segundos."},
                     {"title": "🪝 2. Agitación de Dolor Real", "text": "Si secas tu auto con toallas de microfibra estás arruinando tu pintura: una sola mota de polvo atrapada en el trapo y tu coche pierde el 30% de su valor."},
