@@ -91,7 +91,7 @@ class HunterEngine:
                 ad_active_days=34,
                 competitor_ad_count=38,
                 google_trends_momentum=52.4,
-                source_url="https://www.aliexpress.com/w/wholesale-lumbar-traction-belt.html",
+                source_url="https://www.aliexpress.com/item/1005005234918742.html",
                 target_demographics={
                     "age": "35-65",
                     "gender": "all",
@@ -123,7 +123,7 @@ class HunterEngine:
                 ad_active_days=28,
                 competitor_ad_count=42,
                 google_trends_momentum=68.2,
-                source_url="https://www.aliexpress.com/w/wholesale-turbo-jet-fan.html",
+                source_url="https://www.aliexpress.com/item/1005006392014856.html",
                 target_demographics={
                     "age": "20-48",
                     "gender": "male",
@@ -154,7 +154,7 @@ class HunterEngine:
                 ad_active_days=42,
                 competitor_ad_count=48,
                 google_trends_momentum=41.6,
-                source_url="https://www.aliexpress.com/w/wholesale-ultrasonic-dental-calculus-remover.html",
+                source_url="https://www.aliexpress.com/item/1005005831294812.html",
                 target_demographics={
                     "age": "22-58",
                     "gender": "all",
@@ -185,7 +185,7 @@ class HunterEngine:
                 ad_active_days=38,
                 competitor_ad_count=29,
                 google_trends_momentum=55.8,
-                source_url="https://www.aliexpress.com/w/wholesale-steamy-cat-brush.html",
+                source_url="https://www.aliexpress.com/item/1005006421389745.html",
                 target_demographics={
                     "age": "22-60",
                     "gender": "all",

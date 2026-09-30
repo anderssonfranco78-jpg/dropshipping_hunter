@@ -1007,9 +1007,23 @@
                 <!-- Inyectado dinámicamente -->
             </div>
 
+            <div class="modal-section-title">🏭 Auditoría de Proveedor Oficial (Filtro Canónico AliExpress P-1 a P-6)</div>
+            <div class="modal-box" id="modalSupplierAudit" style="border-left: 3px solid var(--winner-color); background: rgba(16, 185, 129, 0.05); padding: 12px; margin-bottom: 16px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                    <span style="font-weight: 700; color: #10B981;" id="modalSupplierTitle">🏆 Proveedor Directo Seleccionado (#1 Choice)</span>
+                    <span class="tier-badge tier-winner" id="modalSupplierBadge">Choice Garantizado</span>
+                </div>
+                <div style="font-size: 12px; color: var(--muted-text); line-height: 1.6;" id="modalSupplierDesc">
+                    • <strong>Logística:</strong> Sello Choice con despacho 24-48h y entrega 7-10 días con tracking E2E.<br>
+                    • <strong>Prueba Social:</strong> +1,000 a +5,000 unidades despachadas sin quiebre de stock.<br>
+                    • <strong>Reputación:</strong> Tienda ≥ 95% valoración positiva y SKU ≥ 4.5★.<br>
+                    • <strong>Gemelo Visual:</strong> Variante física 100% idéntica a la mostrada en videos virales.
+                </div>
+            </div>
+
             <div class="modal-actions">
                 <a href="#" target="_blank" class="btn-supplier" id="modalSupplierBtn">
-                    <span>🛒 Ver Proveedor Mayorista Verificado</span> ↗
+                    <span>🛒 Comprar Directo al Proveedor Verificado (#1 Choice)</span> ↗
                 </a>
             </div>
         </div>
@@ -1599,6 +1613,27 @@
             }
 
             document.getElementById('modalSupplierBtn').href = p.supplierUrl;
+            const supAuditBox = document.getElementById('modalSupplierAudit');
+            const supTitle = document.getElementById('modalSupplierTitle');
+            const supBadge = document.getElementById('modalSupplierBadge');
+            const supBtn = document.getElementById('modalSupplierBtn');
+            if (p.tier === 'WINNER') {
+                if (supTitle) supTitle.textContent = "🏆 Proveedor Directo Seleccionado (#1 Choice)";
+                if (supBadge) {
+                    supBadge.className = "tier-badge tier-winner";
+                    supBadge.textContent = "Choice Garantizado";
+                }
+                if (supAuditBox) supAuditBox.style.borderLeftColor = "var(--winner-color)";
+                if (supBtn) supBtn.innerHTML = "<span>🛒 Comprar Directo al Proveedor Verificado (#1 Choice)</span> ↗";
+            } else {
+                if (supTitle) supTitle.textContent = "⚠️ Proveedor Genérico no Certificado";
+                if (supBadge) {
+                    supBadge.className = "tier-badge tier-disqualified";
+                    supBadge.textContent = "Sin Certificar";
+                }
+                if (supAuditBox) supAuditBox.style.borderLeftColor = "var(--disqualified-color)";
+                if (supBtn) supBtn.innerHTML = "<span>Ver Enlace del Proveedor</span> ↗";
+            }
             document.getElementById('productModal').classList.add('active');
         }
 
