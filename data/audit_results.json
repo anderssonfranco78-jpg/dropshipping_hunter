@@ -105,110 +105,6 @@
   },
   {
     "candidate": {
-      "candidate_id": "steamfur-pro",
-      "name": "SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer",
-      "category": "Pet Supplies & Home Care",
-      "description": "Conical silicone pet brush with integrated cold ion ultrasonic mist that neutralizes static and allows peeling off shed pet hair in a single solid sheet in 2 seconds.",
-      "supplier_cost": 1.0,
-      "shipping_cost": 2.5,
-      "suggested_price": 29.99,
-      "shipping_days_min": 7,
-      "shipping_days_max": 10,
-      "shipping_carrier": "YunExpress Ordinary",
-      "has_fragile_material": false,
-      "has_sizing_requirements": false,
-      "demo_visual_speed_sec": 2.0,
-      "pain_level_score": 88.0,
-      "retail_availability_score": 85.0,
-      "ad_active_days": 38,
-      "competitor_ad_count": 29,
-      "google_trends_momentum": 55.8,
-      "source_url": "https://www.aliexpress.com/item/1005007791672610.html",
-      "target_demographics": {
-        "age": "22-60",
-        "gender": "all",
-        "interests": [
-          "cats",
-          "dogs",
-          "pet pampering",
-          "clean home"
-        ]
-      }
-    },
-    "financials": {
-      "landed_cost": 3.5,
-      "srp": 29.99,
-      "markup_multiplier": 8.57,
-      "processor_fee": 1.17,
-      "reserve_buffer": 0.3,
-      "net_profit": 25.02,
-      "net_margin_pct": 83.43
-    },
-    "rule_scores": {
-      "1": {
-        "rule_id": 1,
-        "name": "Visual WOW (0-3s)",
-        "raw_score": 100.0,
-        "weight": 0.2,
-        "weighted_score": 20.0,
-        "passed": true
-      },
-      "2": {
-        "rule_id": 2,
-        "name": "Acute Pain / Passion",
-        "raw_score": 100.0,
-        "weight": 0.2,
-        "weighted_score": 20.0,
-        "passed": true
-      },
-      "3": {
-        "rule_id": 3,
-        "name": "Retail Scarcity",
-        "raw_score": 100.0,
-        "weight": 0.1,
-        "weighted_score": 10.0,
-        "passed": true
-      },
-      "4": {
-        "rule_id": 4,
-        "name": "Unit Economics & Markup",
-        "raw_score": 100.0,
-        "weight": 0.2,
-        "weighted_score": 20.0,
-        "passed": true
-      },
-      "5": {
-        "rule_id": 5,
-        "name": "Ticket Range Sweet Spot",
-        "raw_score": 100.0,
-        "weight": 0.1,
-        "weighted_score": 10.0,
-        "passed": true
-      },
-      "6": {
-        "rule_id": 6,
-        "name": "Zero Sizing / Fragility",
-        "raw_score": 100.0,
-        "weight": 0.1,
-        "weighted_score": 10.0,
-        "passed": true
-      },
-      "7": {
-        "rule_id": 7,
-        "name": "Fast Tracked Logistics",
-        "raw_score": 100.0,
-        "weight": 0.1,
-        "weighted_score": 10.0,
-        "passed": true
-      }
-    },
-    "ko_gates_tripped": [],
-    "composite_score": 100.0,
-    "tier": "WINNER",
-    "passed_audit": true
-  },
-  {
-    "candidate": {
       "candidate_id": "spinerelief-pro",
       "name": "SpineRelief Pro™ — Inflatable Lumbar Traction Belt",
       "category": "Health & Ergonomics",
@@ -355,6 +251,110 @@
       "reserve_buffer": 0.6,
       "net_profit": 40.55,
       "net_margin_pct": 67.59
+    },
+    "rule_scores": {
+      "1": {
+        "rule_id": 1,
+        "name": "Visual WOW (0-3s)",
+        "raw_score": 100.0,
+        "weight": 0.2,
+        "weighted_score": 20.0,
+        "passed": true
+      },
+      "2": {
+        "rule_id": 2,
+        "name": "Acute Pain / Passion",
+        "raw_score": 100.0,
+        "weight": 0.2,
+        "weighted_score": 20.0,
+        "passed": true
+      },
+      "3": {
+        "rule_id": 3,
+        "name": "Retail Scarcity",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "4": {
+        "rule_id": 4,
+        "name": "Unit Economics & Markup",
+        "raw_score": 85.0,
+        "weight": 0.2,
+        "weighted_score": 17.0,
+        "passed": true
+      },
+      "5": {
+        "rule_id": 5,
+        "name": "Ticket Range Sweet Spot",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "6": {
+        "rule_id": 6,
+        "name": "Zero Sizing / Fragility",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "7": {
+        "rule_id": 7,
+        "name": "Fast Tracked Logistics",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      }
+    },
+    "ko_gates_tripped": [],
+    "composite_score": 97.0,
+    "tier": "WINNER",
+    "passed_audit": true
+  },
+  {
+    "candidate": {
+      "candidate_id": "steamfur-pro",
+      "name": "SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer",
+      "category": "Pet Supplies & Home Care",
+      "description": "Conical silicone pet brush with integrated cold ion ultrasonic mist that neutralizes static and allows peeling off shed pet hair in a single solid sheet in 2 seconds.",
+      "supplier_cost": 7.7,
+      "shipping_cost": 0.0,
+      "suggested_price": 29.99,
+      "shipping_days_min": 7,
+      "shipping_days_max": 10,
+      "shipping_carrier": "AliExpress Choice (Free Shipping 7-10D)",
+      "has_fragile_material": false,
+      "has_sizing_requirements": false,
+      "demo_visual_speed_sec": 2.0,
+      "pain_level_score": 88.0,
+      "retail_availability_score": 85.0,
+      "ad_active_days": 38,
+      "competitor_ad_count": 29,
+      "google_trends_momentum": 55.8,
+      "source_url": "https://www.aliexpress.com/item/1005007791672610.html",
+      "target_demographics": {
+        "age": "22-60",
+        "gender": "all",
+        "interests": [
+          "cats",
+          "dogs",
+          "pet pampering",
+          "clean home"
+        ]
+      }
+    },
+    "financials": {
+      "landed_cost": 7.7,
+      "srp": 29.99,
+      "markup_multiplier": 3.89,
+      "processor_fee": 1.17,
+      "reserve_buffer": 0.3,
+      "net_profit": 20.82,
+      "net_margin_pct": 69.42
     },
     "rule_scores": {
       "1": {

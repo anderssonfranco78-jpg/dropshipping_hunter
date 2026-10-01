@@ -171,12 +171,12 @@ class HunterEngine:
                     "Conical silicone pet brush with integrated cold ion ultrasonic mist that neutralizes "
                     "static and allows peeling off shed pet hair in a single solid sheet in 2 seconds."
                 ),
-                supplier_cost=1.00,
-                shipping_cost=2.50,
+                supplier_cost=7.70,
+                shipping_cost=0.00,
                 suggested_price=29.99,
                 shipping_days_min=7,
                 shipping_days_max=10,
-                shipping_carrier="YunExpress Ordinary",
+                shipping_carrier="AliExpress Choice (Free Shipping 7-10D)",
                 has_fragile_material=False,
                 has_sizing_requirements=False,
                 demo_visual_speed_sec=2.0,

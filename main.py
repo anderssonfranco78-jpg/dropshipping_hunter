@@ -47,6 +47,7 @@ from hunter.audit_engine import AuditEngine
 from hunter.dossier_generator import DossierGenerator
 from hunter.hunter_engine import HunterEngine
 from hunter.models import AuditResult, RawCandidate
+from hunter.scrapers.live_supplier_sync import LiveSupplierSync
 
 # Lazy/conditional import for visualizer
 try:
@@ -92,7 +93,23 @@ def run_harvest_stage(
 
     engine = HunterEngine(offline_mode=offline_mode)
     candidates = engine.harvest(search_keywords=keywords, include_seeds=True)
-    
+
+    if not offline_mode:
+        try:
+            logger.info(" [LIVE SYNC] Consultando precios reales en vivo desde proveedores Choice...")
+            syncer = LiveSupplierSync()
+            target_ids = {"steamfur-pro", "prosmile-ultrasonic", "spinerelief-pro", "aeroforce-x3"}
+            for cand in candidates:
+                if cand.candidate_id in target_ids:
+                    quote = syncer.fetch_live_quote(cand.candidate_id)
+                    cand.supplier_cost = quote.product_price_usd
+                    cand.shipping_cost = quote.shipping_cost_usd
+                    cand.shipping_carrier = quote.carrier
+                    cand.source_url = quote.source_url
+            logger.info(" [+] Sincronización en vivo completada exitosamente.")
+        except Exception as e:
+            logger.warning(" [LIVE SYNC] Sincronización en vivo no disponible (%s). Usando valores de referencia verificados.", e)
+
     candidates_path = data_dir / "candidates.json"
     engine.save_candidates(candidates, output_path=candidates_path)
     logger.info(" [+] Extracted %d product candidates -> %s", len(candidates), candidates_path)

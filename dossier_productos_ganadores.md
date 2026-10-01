@@ -2,7 +2,7 @@
 title: "Dossier Oficial de Productos Ganadores Validados"
 source: "dropshipping_hunter"
 date: "2026-09-30"
-generated_at: "2026-09-30T17:30:01.099594+00:00"
+generated_at: "2026-10-01T03:28:01.269013+00:00"
 evaluation_engine_version: "1.0.0"
 audit_standard: "Antigravity 7 Golden Rules"
 scoring_threshold_approval: 80
@@ -10,15 +10,11 @@ currency: "USD"
 summary:
   total_candidates_analyzed: 10
   winners_approved: 4
-  avg_markup_factor: 5.03
-  avg_net_margin_percentage: 72.9
+  avg_markup_factor: 3.86
+  avg_net_margin_percentage: 69.4
 products:
   - id: "prosmile-ultrasonic"
     name: "ProSmile Ultrasonic™ — Smart Plaque & Calculus Scaler"
-    score: 100.0
-    status: "WINNER"
-  - id: "steamfur-pro"
-    name: "SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer"
     score: 100.0
     status: "WINNER"
   - id: "spinerelief-pro"
@@ -29,6 +25,10 @@ products:
     name: "AeroForce X3™ — 130,000 RPM Violent Turbo Blower"
     score: 97.0
     status: "WINNER"
+  - id: "steamfur-pro"
+    name: "SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer"
+    score: 97.0
+    status: "WINNER"
 ---
 
 # DOSSIER OFICIAL: PRODUCTOS GANADORES VALIDADOS (2026)
@@ -36,7 +36,7 @@ products:
 > **Estándar de Evaluación**: Filtro de Acero de las 7 Reglas de Oro de Antigravity  
 > **Fecha de Generación**: 2026-09-30 | **Entorno**: 100% Programático & Headless  
 > **Candidatos Analizados**: 10 | **Ganadores Aprobados**: 4  
-> **Markup Promedio**: 5.03x | **Margen Neto Promedio**: 72.9%
+> **Markup Promedio**: 3.86x | **Margen Neto Promedio**: 69.4%
 
 ---
 
@@ -171,128 +171,7 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 
 ---
 
-### 🏆 GANADOR #2: SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer
-
-**Categoría / Nicho**: Pet Supplies & Home Care  
-**ID de Referencia**: `steamfur-pro`  
-**Puntuación Compuesta**: **100.0 / 100** | **Estado**: `🏆 WINNER`  
-**Descripción**: Conical silicone pet brush with integrated cold ion ultrasonic mist that neutralizes static and allows peeling off shed pet hair in a single solid sheet in 2 seconds.
-
-#### Ficha Técnica y Desglose Financiero
-
-| Parámetro Financiero | Valor USD / % | Estándar Canónico Antigravity | Estado |
-|---|:---:|:---:|:---:|
-| **Costo de Proveedor** (CoGS) | $1.00 USD | Costo mayorista de fábrica | ✅ Verificado |
-| **Costo de Envío Tracked** | $2.50 USD | YunExpress Ordinary / CJPacket Fast Line | ✅ Verificado |
-| **Landed Cost** (Costo Puesto) | $3.50 USD | CoGS + Flete internacional | ✅ Calculado |
-| **Precio de Venta Sugerido** (SRP) | $29.99 USD | Sweet spot de impulso ($29 – $69 USD) | ✅ Cumple R5 |
-| **Markup Multiplier** | **8.57x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
-| **Comisión Pasarela** (Stripe 2.9% + $0.30) | $1.17 USD | Deducción automática por transacción | ✅ Incluido |
-| **Buffer de Reserva** (1.0%) | $0.30 USD | Fondo para imprevistos / chargebacks | ✅ Incluido |
-| **Beneficio Neto Limpio por Unidad** | **$25.02 USD** | Ganancia neta líquida operativa | ✅ Auditado |
-| **Margen Neto** (%) | **83.4%** | Mínimo requerido: $\ge 65.0\%$ | ✅ EXCELENTE |
-
-#### Enlaces a Proveedores y Logística
-
-- **Proveedor Mayorista AliExpress**: [https://www.aliexpress.com/item/1005007791672610.html](https://www.aliexpress.com/item/1005007791672610.html)
-- **Sourcing Directo CJ Dropshipping**: [https://cjdropshipping.com/list-detail.html?search=steamy%20pet%20brush](https://cjdropshipping.com/list-detail.html?search=steamy%20pet%20brush)
-- **Línea Logística Homologada**: YunExpress Ordinary / CJPacket Fast Line (7 - 10 días laborables)
-- **Especificación de Empaque**: Cepillo con cerdas de silicona médica, micronebulizador ultrasónico USB-C, depósito de recarga
-- **Países Tier 1 Homologados**: US, CA, UK, AU
-
-#### Auditoría Forense de las 7 Reglas de Oro
-
-- **Regla 1 (Visual WOW (0-3s))**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
-- **Regla 2 (Acute Pain / Passion)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
-- **Regla 3 (Retail Scarcity)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Regla 4 (Unit Economics & Markup)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
-- **Regla 5 (Ticket Range Sweet Spot)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Regla 6 (Zero Sizing / Fragility)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Regla 7 (Fast Tracked Logistics)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Puertas de Knockout (KO-1 a KO-4)**: ✅ Limpio (Cero puertas KO activadas: Ninguna)
-
-#### Estrategia Demográfica y Franja Horaria Recomendada
-
-- **Age**: 22-60
-- **Gender**: all
-- **Interests**: cats, dogs, pet pampering, clean home
-
-**Franja Horaria Recomendada de Publicación Orgánica**:
-- **Slot 1 (Matutino)** (08:00 – 09:30 Hora local del target): Alimentación matutina y cepillado rápido antes de salir a trabajar.
-- **Slot 2 (Vespertino Sofá)** (18:00 – 20:30 Hora local del target): Tiempo de caricias con la mascota en el sofá; pelos volando por el salón.
-
-#### Mecanismo WOW de Demostración (0 a 3 Segundos)
-
-> Segundo 0.0-1.5: Púas de silicona peinando el lomo de un gato esponjoso; sale una micro-niebla de vapor ionizado blanco ([SFX: STEAM_HISS]). Segundo 1.5-3.0: La mano levanta una pieza de fieltro de pelo completa de 10 cm en una sola capa sólida sin dejar ni un pelo suelto en el aire.
-
-#### Ganchos de Conversión (Remotion Modalidad 3)
-
-A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la partitura canónica de Remotion Modalidad 3:
-
-##### 🪝 Gancho 1: Curiosidad Disruptiva (Pattern Interrupt)
-*Curiosidad Disruptiva: La Manta de Pelo Extraída en 3 Segundos*
-
-- **Voz Cliente (`es-US-Neural2-C`)**: *"¿Por qué los veterinarios aconsejan no cepillar a tu gato en seco nunca más?"*
-- **Voz Creador (`es-US-Neural2-B`)**: *"Porque el vapor frío ionizado neutraliza la estática y retira el pelo muerto en una manta sólida."*
-
-| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
-|:---:|:---|:---|:---|:---|:---|
-| **0.0 - 1.2s** | Púas de silicona peinando el lomo de un gato esponjoso; sale una columna de vapor frío blanco. | Snap Zoom macro (1.0x -> 1.4x) a la nube de niebla ionizada. | Voz Cliente (es-US-Neural2-C): '¿Por qué los veterinarios aconsejan no cepillar a tu gato en seco nunca más?' | [SFX: STEAM_HISS] | '¿NO EN SECO?' en cian neón extruido |
-| **1.2 - 2.0s** | La mano de la dueña levanta una pieza de fieltro de pelo completa de 10 cm sin romperla. | Paneo lateral acelerado (1.8x rush). | Voz Creador (es-US-Neural2-B): 'Porque el vapor frío ionizado neutraliza la estática y retira el pelo en una sola manta sólida.' | [SFX: VINE_BOOM] | 'MANTA SÓLIDA' en verde esmeralda 3D |
-| **2.0 - 3.0s** | CONGELADO EN LA MANTA DE PELO FLOTANDO EN LA MANO. | Pausa acústica de 1.0s de silencio total. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
-| **3.0 - 4.5s** | El gato ronronea relajado cerrando los ojos bajo el masaje de vapor. | Beat Drop. Flash blanco y Speed Ramp (2.0x -> 0.18x meseta técnica). | Explota la base rítmica de Show Me (LiQWYD). | [SFX: BEAT_DROP + PURR_LOUD] | 'CERO ESTRÉS' en oro 3D flotante |
-| **4.5 - 7.0s** | Comparativa: Cepillo normal (nube de pelo volando por el salón) vs SteamFur Pro (cero pelo en el aire). | Split screen animado dinámico. | Voz Creador (es-US-Neural2-B): 'Atrapa el 99% del pelo muerto antes de que caiga en tu comida o en tu sofá.' | [SFX: DING_WIN] | '99% ATRAPADO' en titanio |
-| **7.0 - 10.0s** | Cepillo recargable USB-C disponible en verde menta y amarillo pastel. | Zoom out suave. | Voz Creador (es-US-Neural2-B): 'Apto para perros y gatos de todo tipo de pelo. Pide el tuyo con 50% de descuento.' | [SFX: BELL_CHIME] | '50% OFF HOY' |
-
-##### 🪝 Gancho 2: Agitación de Dolor Real (Emotional Visceral Trigger)
-*Agitación de Dolor Real: La Pesadilla de los Pelos en Toda la Casa*
-
-- **Voz Cliente (`es-US-Neural2-C`)**: *"¿Cansado de encontrar pelos de gato en tu ropa, en el sofá y hasta en tu comida?"*
-- **Voz Creador (`es-US-Neural2-B`)**: *"El cepillado común solo esparce los pelos por el aire; esto los atrapa al 100%."*
-
-| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
-|:---:|:---|:---|:---|:---|:---|
-| **0.0 - 1.2s** | Persona comiendo que saca un pelo largo de gato de su plato con frustración total. | Snap zoom al tenedor con el pelo. | Voz Cliente (es-US-Neural2-C): '¿Cansado de encontrar pelos de gato en tu ropa, en el sofá y hasta en tu comida?' | [SFX: RECORD_SCRATCH] | '¿PELOS EN TU COMIDA?' en rojo fuego |
-| **1.2 - 2.0s** | Dueño pasando un rodillo adhesivo que se satura a la segunda pasada sin quitar nada. | Shake de frustración doméstica. | Voz Creador (es-US-Neural2-B): 'El cepillado común solo esparce los pelos por el aire; esto los atrapa al 100%.' | [SFX: VINE_BOOM] | 'ESPARCEN TODO' en naranja |
-| **2.0 - 3.0s** | CONGELADO EN EL PANTALÓN NEGRO LLENO DE PELOS BLANCOS. | Silencio sepulcral de 1.0s. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
-| **3.0 - 4.5s** | El SteamFur Pro pasa por el lomo del animal y la nube de vapor fija todo el pelo al cepillo. | Beat Drop. Destello blanco y cámara lenta dinámica. | Beat y bajo enérgico LiQWYD. | [SFX: BEAT_DROP + STEAM] | 'VAPOR IONIZADO' en cian 3D |
-| **4.5 - 7.0s** | Con un solo movimiento de dedos, la capa de pelo se despega en bloque directo a la papelera. | Macro toma ultra-satisfactoria. | Voz Creador (es-US-Neural2-B): 'Sin electricidad estática, sin nubes de polvo y con depósito para esencia aromática.' | [SFX: POP_CLEAN] | 'DESPEGUE LIMPIO' en verde esmeralda |
-| **7.0 - 10.0s** | Mascota limpia y sala de estar impoluta sin un solo pelo en los muebles. | Zoom out fluido. | Voz Creador (es-US-Neural2-B): 'El gadget definitivo para vivir con mascotas sin volverse loco. Envío rápido hoy.' | [SFX: CASH_REGISTER] | 'ORDENA AHORA' |
-
-##### 🪝 Gancho 3: Contrariano (Challenging Conventional Wisdom)
-*Contrariano: La Trampa de los Rodillos de Pegamento Adhesivo*
-
-- **Voz Cliente (`es-US-Neural2-C`)**: *"Por qué los rodillos adhesivos de papel son el peor gasto para dueños de mascotas..."*
-- **Voz Creador (`es-US-Neural2-B`)**: *"Gastas una fortuna en rollos que no quitan la raíz del pelaje suelto."*
-
-| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
-|:---:|:---|:---|:---|:---|:---|
-| **0.0 - 1.2s** | Un rollo de papel adhesivo lleno de pelos que ya no pega nada siendo arrojado a la basura. | Snap zoom al rodillo inservible. | Voz Cliente (es-US-Neural2-C): 'Por qué los rodillos adhesivos de papel son el peor gasto para dueños de mascotas...' | [SFX: TRASH_SLAM] | 'DINERO PERDIDO' en rojo sangre |
-| **1.2 - 2.0s** | El gato sacudiéndose y soltando otra nube de pelos sobre la ropa recién despeluzada. | Cámara lenta dramática. | Voz Creador (es-US-Neural2-B): 'Gastas una fortuna en rollos que solo limpian la superficie sin quitar el pelo muerto de raíz.' | [SFX: VINE_BOOM] | 'NO VAN A LA RAÍZ' en naranja 3D |
-| **2.0 - 3.0s** | CONGELADO EN LA MONTAÑA DE ROLLOS DE PAPEL USADOS. | Pausa acústica de 1.0s de silencio total. | Silencio sepulcral. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
-| **3.0 - 4.5s** | Entrada del SteamFur Pro cepillando suavemente con micro-niebla calmante. | Beat Drop. Flash blanco y Speed Ramp no lineal. | Explota el track musical. | [SFX: BEAT_DROP + STEAM_HISS] | 'SOLUCIÓN DEFINITIVA' en titanio 3D |
-| **4.5 - 7.0s** | Demostración de masaje con las cerdas de silicona médica ultra-suaves. | Macro a la cara de placer del animal. | Voz Creador (es-US-Neural2-B): 'Cerdas de silicona que no arañan la piel y depósito para agua tibia o loción desenredante.' | [SFX: DING_SUCCESS] | 'SILICONA MÉDICA' en cian neón |
-| **7.0 - 10.0s** | Kit con cable de carga y dosificador de líquido aromático. | Zoom out suave. | Voz Creador (es-US-Neural2-B): 'Ahorra cientos de dólares en peluquería canina y felina. Pide el tuyo con garantía total.' | [SFX: BELL_CHIME] | 'GARANTÍA TOTAL' |
-
-##### 🪝 Gancho 4: Transformación Inmediata (Before vs After)
-*Transformación Inmediata: De la Lucha del Baño al Placer del Vapor*
-
-- **Voz Cliente (`es-US-Neural2-C`)**: *"De pasar 40 minutos persiguiendo a tu mascota con un cepillo que la estresa..."*
-- **Voz Creador (`es-US-Neural2-B`)**: *"A retirarle toda la capa muerta en 3 minutos mientras disfruta de un masaje de vapor."*
-
-| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
-|:---:|:---|:---|:---|:---|:---|
-| **0.0 - 1.2s** | Gato corriendo asustado debajo de la cama al ver un cepillo de alambre de metal agresivo. | Snap zoom al gato escondido con ojos asustados. | Voz Cliente (es-US-Neural2-C): 'De pasar 40 minutos persiguiendo a tu mascota con un cepillo que la estresa...' | [SFX: SAD_SCRATCH] | 'ESTRÉS TOTAL' en rojo |
-| **1.2 - 2.0s** | La misma mascota acostada panza arriba ronroneando mientras el SteamFur Pro la masajea. | Snap zoom a la escena de calma y ronroneo. | Voz Creador (es-US-Neural2-B): 'A retirarle toda la capa muerta en 3 minutos mientras disfruta de un masaje de vapor.' | [SFX: PURR_SOFT] | 'SPA EN CASA' en verde esmeralda 3D |
-| **2.0 - 3.0s** | CONGELADO EN EL CONTRASTE DE LA ESCENA ANTERIOR VS ACTUAL. | Silencio dramático riguroso de 1.0s. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
-| **3.0 - 4.5s** | Extracción en cámara lenta de una almohadilla compacta de pelo retirada de una sola pasada. | Beat Drop. Flash blanco y Speed Ramp dinámico (1.8x -> 0.18x). | Beat y bajo enérgico LiQWYD. | [SFX: BEAT_DROP + STEAM] | 'UNA SOLA PASADA' en oro 3D |
-| **4.5 - 7.0s** | El pelaje de la mascota queda suave, brillante y con un aroma fresco sin haberla bañado con agua. | Paneo suave a 60 fps. | Voz Creador (es-US-Neural2-B): 'Deja el pelo brillante como recién salido del groomer profesional sin una gota de estrés.' | [SFX: SHINE_CHIME] | 'BRILLO PROFESIONAL' en cian neón |
-| **7.0 - 10.0s** | Unboxing del cepillo con sus accesorios y caja regalo. | Zoom out final. | Voz Creador (es-US-Neural2-B): 'Stock de alta demanda. Pídelo hoy y recíbelo en 7 a 10 días en tu puerta.' | [SFX: CASH_REGISTER] | 'ENVÍO 7-10 DÍAS' |
-
-
----
-
-### 🏆 GANADOR #3: SpineRelief Pro™ — Inflatable Lumbar Traction Belt
+### 🏆 GANADOR #2: SpineRelief Pro™ — Inflatable Lumbar Traction Belt
 
 **Categoría / Nicho**: Health & Ergonomics  
 **ID de Referencia**: `spinerelief-pro`  
@@ -415,7 +294,7 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 
 ---
 
-### 🏆 GANADOR #4: AeroForce X3™ — 130,000 RPM Violent Turbo Blower
+### 🏆 GANADOR #3: AeroForce X3™ — 130,000 RPM Violent Turbo Blower
 
 **Categoría / Nicho**: Automotive & Tactical Tools  
 **ID de Referencia**: `aeroforce-x3`  
@@ -533,6 +412,127 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 | **3.0 - 4.5s** | Paneo general del coche con acabado impecable bajo luces de estudio de detallado. | Beat Drop. Destello blanco y movimiento cinematográfico. | Música en su punto álgido LiQWYD. | [SFX: BEAT_DROP] | 'ACABADO PROFESIONAL' en oro 3D |
 | **4.5 - 7.0s** | El creador sopla las rejillas de ventilación: sale nube de polvo seco y queda como nuevo. | Macro zoom al habitáculo interior. | Voz Creador (es-US-Neural2-B): 'La herramienta que usan los detailers profesionales ahora en el bolsillo de tu pantalón.' | [SFX: AIR_PUFF] | 'NIVEL DETAILER' en titanio |
 | **7.0 - 10.0s** | Empaque premium con boquilla magnética snap-on. | Zoom out dinámico. | Voz Creador (es-US-Neural2-B): 'Pídelo hoy y recíbelo en tu puerta con seguimiento garantizado.' | [SFX: NOTIFICATION_SUCCESS] | 'ORDENA CON 50% OFF' |
+
+
+---
+
+### 🏆 GANADOR #4: SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer
+
+**Categoría / Nicho**: Pet Supplies & Home Care  
+**ID de Referencia**: `steamfur-pro`  
+**Puntuación Compuesta**: **97.0 / 100** | **Estado**: `🏆 WINNER`  
+**Descripción**: Conical silicone pet brush with integrated cold ion ultrasonic mist that neutralizes static and allows peeling off shed pet hair in a single solid sheet in 2 seconds.
+
+#### Ficha Técnica y Desglose Financiero
+
+| Parámetro Financiero | Valor USD / % | Estándar Canónico Antigravity | Estado |
+|---|:---:|:---:|:---:|
+| **Costo de Proveedor** (CoGS) | $7.70 USD | Costo mayorista de fábrica | ✅ Verificado |
+| **Costo de Envío Tracked** | $0.00 USD | YunExpress Ordinary / CJPacket Fast Line | ✅ Verificado |
+| **Landed Cost** (Costo Puesto) | $7.70 USD | CoGS + Flete internacional | ✅ Calculado |
+| **Precio de Venta Sugerido** (SRP) | $29.99 USD | Sweet spot de impulso ($29 – $69 USD) | ✅ Cumple R5 |
+| **Markup Multiplier** | **3.89x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
+| **Comisión Pasarela** (Stripe 2.9% + $0.30) | $1.17 USD | Deducción automática por transacción | ✅ Incluido |
+| **Buffer de Reserva** (1.0%) | $0.30 USD | Fondo para imprevistos / chargebacks | ✅ Incluido |
+| **Beneficio Neto Limpio por Unidad** | **$20.82 USD** | Ganancia neta líquida operativa | ✅ Auditado |
+| **Margen Neto** (%) | **69.4%** | Mínimo requerido: $\ge 65.0\%$ | ✅ EXCELENTE |
+
+#### Enlaces a Proveedores y Logística
+
+- **Proveedor Mayorista AliExpress**: [https://www.aliexpress.com/item/1005007791672610.html](https://www.aliexpress.com/item/1005007791672610.html)
+- **Sourcing Directo CJ Dropshipping**: [https://cjdropshipping.com/list-detail.html?search=steamy%20pet%20brush](https://cjdropshipping.com/list-detail.html?search=steamy%20pet%20brush)
+- **Línea Logística Homologada**: YunExpress Ordinary / CJPacket Fast Line (7 - 10 días laborables)
+- **Especificación de Empaque**: Cepillo con cerdas de silicona médica, micronebulizador ultrasónico USB-C, depósito de recarga
+- **Países Tier 1 Homologados**: US, CA, UK, AU
+
+#### Auditoría Forense de las 7 Reglas de Oro
+
+- **Regla 1 (Visual WOW (0-3s))**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
+- **Regla 2 (Acute Pain / Passion)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
+- **Regla 3 (Retail Scarcity)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 4 (Unit Economics & Markup)**: ✅ Score: 85.0/100 (Ponderado: 17.0 pts) — Aprobado
+- **Regla 5 (Ticket Range Sweet Spot)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 6 (Zero Sizing / Fragility)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 7 (Fast Tracked Logistics)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Puertas de Knockout (KO-1 a KO-4)**: ✅ Limpio (Cero puertas KO activadas: Ninguna)
+
+#### Estrategia Demográfica y Franja Horaria Recomendada
+
+- **Age**: 22-60
+- **Gender**: all
+- **Interests**: cats, dogs, pet pampering, clean home
+
+**Franja Horaria Recomendada de Publicación Orgánica**:
+- **Slot 1 (Matutino)** (08:00 – 09:30 Hora local del target): Alimentación matutina y cepillado rápido antes de salir a trabajar.
+- **Slot 2 (Vespertino Sofá)** (18:00 – 20:30 Hora local del target): Tiempo de caricias con la mascota en el sofá; pelos volando por el salón.
+
+#### Mecanismo WOW de Demostración (0 a 3 Segundos)
+
+> Segundo 0.0-1.5: Púas de silicona peinando el lomo de un gato esponjoso; sale una micro-niebla de vapor ionizado blanco ([SFX: STEAM_HISS]). Segundo 1.5-3.0: La mano levanta una pieza de fieltro de pelo completa de 10 cm en una sola capa sólida sin dejar ni un pelo suelto en el aire.
+
+#### Ganchos de Conversión (Remotion Modalidad 3)
+
+A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la partitura canónica de Remotion Modalidad 3:
+
+##### 🪝 Gancho 1: Curiosidad Disruptiva (Pattern Interrupt)
+*Curiosidad Disruptiva: La Manta de Pelo Extraída en 3 Segundos*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"¿Por qué los veterinarios aconsejan no cepillar a tu gato en seco nunca más?"*
+- **Voz Creador (`es-US-Neural2-B`)**: *"Porque el vapor frío ionizado neutraliza la estática y retira el pelo muerto en una manta sólida."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Púas de silicona peinando el lomo de un gato esponjoso; sale una columna de vapor frío blanco. | Snap Zoom macro (1.0x -> 1.4x) a la nube de niebla ionizada. | Voz Cliente (es-US-Neural2-C): '¿Por qué los veterinarios aconsejan no cepillar a tu gato en seco nunca más?' | [SFX: STEAM_HISS] | '¿NO EN SECO?' en cian neón extruido |
+| **1.2 - 2.0s** | La mano de la dueña levanta una pieza de fieltro de pelo completa de 10 cm sin romperla. | Paneo lateral acelerado (1.8x rush). | Voz Creador (es-US-Neural2-B): 'Porque el vapor frío ionizado neutraliza la estática y retira el pelo en una sola manta sólida.' | [SFX: VINE_BOOM] | 'MANTA SÓLIDA' en verde esmeralda 3D |
+| **2.0 - 3.0s** | CONGELADO EN LA MANTA DE PELO FLOTANDO EN LA MANO. | Pausa acústica de 1.0s de silencio total. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | El gato ronronea relajado cerrando los ojos bajo el masaje de vapor. | Beat Drop. Flash blanco y Speed Ramp (2.0x -> 0.18x meseta técnica). | Explota la base rítmica de Show Me (LiQWYD). | [SFX: BEAT_DROP + PURR_LOUD] | 'CERO ESTRÉS' en oro 3D flotante |
+| **4.5 - 7.0s** | Comparativa: Cepillo normal (nube de pelo volando por el salón) vs SteamFur Pro (cero pelo en el aire). | Split screen animado dinámico. | Voz Creador (es-US-Neural2-B): 'Atrapa el 99% del pelo muerto antes de que caiga en tu comida o en tu sofá.' | [SFX: DING_WIN] | '99% ATRAPADO' en titanio |
+| **7.0 - 10.0s** | Cepillo recargable USB-C disponible en verde menta y amarillo pastel. | Zoom out suave. | Voz Creador (es-US-Neural2-B): 'Apto para perros y gatos de todo tipo de pelo. Pide el tuyo con 50% de descuento.' | [SFX: BELL_CHIME] | '50% OFF HOY' |
+
+##### 🪝 Gancho 2: Agitación de Dolor Real (Emotional Visceral Trigger)
+*Agitación de Dolor Real: La Pesadilla de los Pelos en Toda la Casa*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"¿Cansado de encontrar pelos de gato en tu ropa, en el sofá y hasta en tu comida?"*
+- **Voz Creador (`es-US-Neural2-B`)**: *"El cepillado común solo esparce los pelos por el aire; esto los atrapa al 100%."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Persona comiendo que saca un pelo largo de gato de su plato con frustración total. | Snap zoom al tenedor con el pelo. | Voz Cliente (es-US-Neural2-C): '¿Cansado de encontrar pelos de gato en tu ropa, en el sofá y hasta en tu comida?' | [SFX: RECORD_SCRATCH] | '¿PELOS EN TU COMIDA?' en rojo fuego |
+| **1.2 - 2.0s** | Dueño pasando un rodillo adhesivo que se satura a la segunda pasada sin quitar nada. | Shake de frustración doméstica. | Voz Creador (es-US-Neural2-B): 'El cepillado común solo esparce los pelos por el aire; esto los atrapa al 100%.' | [SFX: VINE_BOOM] | 'ESPARCEN TODO' en naranja |
+| **2.0 - 3.0s** | CONGELADO EN EL PANTALÓN NEGRO LLENO DE PELOS BLANCOS. | Silencio sepulcral de 1.0s. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | El SteamFur Pro pasa por el lomo del animal y la nube de vapor fija todo el pelo al cepillo. | Beat Drop. Destello blanco y cámara lenta dinámica. | Beat y bajo enérgico LiQWYD. | [SFX: BEAT_DROP + STEAM] | 'VAPOR IONIZADO' en cian 3D |
+| **4.5 - 7.0s** | Con un solo movimiento de dedos, la capa de pelo se despega en bloque directo a la papelera. | Macro toma ultra-satisfactoria. | Voz Creador (es-US-Neural2-B): 'Sin electricidad estática, sin nubes de polvo y con depósito para esencia aromática.' | [SFX: POP_CLEAN] | 'DESPEGUE LIMPIO' en verde esmeralda |
+| **7.0 - 10.0s** | Mascota limpia y sala de estar impoluta sin un solo pelo en los muebles. | Zoom out fluido. | Voz Creador (es-US-Neural2-B): 'El gadget definitivo para vivir con mascotas sin volverse loco. Envío rápido hoy.' | [SFX: CASH_REGISTER] | 'ORDENA AHORA' |
+
+##### 🪝 Gancho 3: Contrariano (Challenging Conventional Wisdom)
+*Contrariano: La Trampa de los Rodillos de Pegamento Adhesivo*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"Por qué los rodillos adhesivos de papel son el peor gasto para dueños de mascotas..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"Gastas una fortuna en rollos que no quitan la raíz del pelaje suelto."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Un rollo de papel adhesivo lleno de pelos que ya no pega nada siendo arrojado a la basura. | Snap zoom al rodillo inservible. | Voz Cliente (es-US-Neural2-C): 'Por qué los rodillos adhesivos de papel son el peor gasto para dueños de mascotas...' | [SFX: TRASH_SLAM] | 'DINERO PERDIDO' en rojo sangre |
+| **1.2 - 2.0s** | El gato sacudiéndose y soltando otra nube de pelos sobre la ropa recién despeluzada. | Cámara lenta dramática. | Voz Creador (es-US-Neural2-B): 'Gastas una fortuna en rollos que solo limpian la superficie sin quitar el pelo muerto de raíz.' | [SFX: VINE_BOOM] | 'NO VAN A LA RAÍZ' en naranja 3D |
+| **2.0 - 3.0s** | CONGELADO EN LA MONTAÑA DE ROLLOS DE PAPEL USADOS. | Pausa acústica de 1.0s de silencio total. | Silencio sepulcral. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | Entrada del SteamFur Pro cepillando suavemente con micro-niebla calmante. | Beat Drop. Flash blanco y Speed Ramp no lineal. | Explota el track musical. | [SFX: BEAT_DROP + STEAM_HISS] | 'SOLUCIÓN DEFINITIVA' en titanio 3D |
+| **4.5 - 7.0s** | Demostración de masaje con las cerdas de silicona médica ultra-suaves. | Macro a la cara de placer del animal. | Voz Creador (es-US-Neural2-B): 'Cerdas de silicona que no arañan la piel y depósito para agua tibia o loción desenredante.' | [SFX: DING_SUCCESS] | 'SILICONA MÉDICA' en cian neón |
+| **7.0 - 10.0s** | Kit con cable de carga y dosificador de líquido aromático. | Zoom out suave. | Voz Creador (es-US-Neural2-B): 'Ahorra cientos de dólares en peluquería canina y felina. Pide el tuyo con garantía total.' | [SFX: BELL_CHIME] | 'GARANTÍA TOTAL' |
+
+##### 🪝 Gancho 4: Transformación Inmediata (Before vs After)
+*Transformación Inmediata: De la Lucha del Baño al Placer del Vapor*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"De pasar 40 minutos persiguiendo a tu mascota con un cepillo que la estresa..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"A retirarle toda la capa muerta en 3 minutos mientras disfruta de un masaje de vapor."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Gato corriendo asustado debajo de la cama al ver un cepillo de alambre de metal agresivo. | Snap zoom al gato escondido con ojos asustados. | Voz Cliente (es-US-Neural2-C): 'De pasar 40 minutos persiguiendo a tu mascota con un cepillo que la estresa...' | [SFX: SAD_SCRATCH] | 'ESTRÉS TOTAL' en rojo |
+| **1.2 - 2.0s** | La misma mascota acostada panza arriba ronroneando mientras el SteamFur Pro la masajea. | Snap zoom a la escena de calma y ronroneo. | Voz Creador (es-US-Neural2-B): 'A retirarle toda la capa muerta en 3 minutos mientras disfruta de un masaje de vapor.' | [SFX: PURR_SOFT] | 'SPA EN CASA' en verde esmeralda 3D |
+| **2.0 - 3.0s** | CONGELADO EN EL CONTRASTE DE LA ESCENA ANTERIOR VS ACTUAL. | Silencio dramático riguroso de 1.0s. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | Extracción en cámara lenta de una almohadilla compacta de pelo retirada de una sola pasada. | Beat Drop. Flash blanco y Speed Ramp dinámico (1.8x -> 0.18x). | Beat y bajo enérgico LiQWYD. | [SFX: BEAT_DROP + STEAM] | 'UNA SOLA PASADA' en oro 3D |
+| **4.5 - 7.0s** | El pelaje de la mascota queda suave, brillante y con un aroma fresco sin haberla bañado con agua. | Paneo suave a 60 fps. | Voz Creador (es-US-Neural2-B): 'Deja el pelo brillante como recién salido del groomer profesional sin una gota de estrés.' | [SFX: SHINE_CHIME] | 'BRILLO PROFESIONAL' en cian neón |
+| **7.0 - 10.0s** | Unboxing del cepillo con sus accesorios y caja regalo. | Zoom out final. | Voz Creador (es-US-Neural2-B): 'Stock de alta demanda. Pídelo hoy y recíbelo en 7 a 10 días en tu puerta.' | [SFX: CASH_REGISTER] | 'ENVÍO 7-10 DÍAS' |
 
 
 ---

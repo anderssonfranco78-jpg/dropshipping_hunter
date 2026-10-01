@@ -179,8 +179,8 @@ class AliExpressFreightScraper(BaseScraper):
                 "max_days": 10,
             },
             "steamfur": {
-                "carrier": "YunExpress Ordinary",
-                "cost": 2.50,
+                "carrier": "AliExpress Choice (Free Shipping 7-10D)",
+                "cost": 0.00,
                 "min_days": 7,
                 "max_days": 10,
             },

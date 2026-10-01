@@ -33,7 +33,7 @@ Todo producto cosechado es evaluado matemáticamente bajo el **Filtro de Acero d
 | # | Producto | Nicho | Costo Puesto | Venta | Ganancia Limpia | Margen | Markup |
 |:---:|---|---|:---:|:---:|:---:|:---:|:---:|
 | **1** | **ProSmile Ultrasonic™** | Salud Dental | $8.20 | $34.99 | **+$25.13** | **71.8%** | 4.27x |
-| **2** | **SteamFur Pro™** | Mascotas & Hogar | $3.50 | $29.99 | **+$25.02** | **83.4%** | 8.57x |
+| **2** | **SteamFur Pro™** | Mascotas & Hogar | $7.70 | $29.99 | **+$20.82** | **69.4%** | 3.89x |
 | **3** | **SpineRelief Pro™** | Salud & Ergonomía | $14.80 | $54.99 | **+$37.75** | **68.7%** | 3.72x |
 | **4** | **AeroForce X3™** | Autos & Táctico | $16.80 | $59.99 | **+$40.55** | **67.6%** | 3.57x |
 
