@@ -1,8 +1,8 @@
 ---
 title: "Dossier Oficial de Productos Ganadores Validados"
 source: "dropshipping_hunter"
-date: "2026-09-30"
-generated_at: "2026-10-01T03:28:01.269013+00:00"
+date: "2026-10-01"
+generated_at: "2026-10-01T17:55:10.400025+00:00"
 evaluation_engine_version: "1.0.0"
 audit_standard: "Antigravity 7 Golden Rules"
 scoring_threshold_approval: 80
@@ -34,7 +34,7 @@ products:
 # DOSSIER OFICIAL: PRODUCTOS GANADORES VALIDADOS (2026)
 
 > **Estándar de Evaluación**: Filtro de Acero de las 7 Reglas de Oro de Antigravity  
-> **Fecha de Generación**: 2026-09-30 | **Entorno**: 100% Programático & Headless  
+> **Fecha de Generación**: 2026-10-01 | **Entorno**: 100% Programático & Headless  
 > **Candidatos Analizados**: 10 | **Ganadores Aprobados**: 4  
 > **Markup Promedio**: 3.86x | **Margen Neto Promedio**: 69.4%
 
@@ -61,8 +61,8 @@ Cada ficha técnica incluye su desglose financiero completo, proveedores mayoris
 
 | Parámetro Financiero | Valor USD / % | Estándar Canónico Antigravity | Estado |
 |---|:---:|:---:|:---:|
-| **Costo de Proveedor** (CoGS) | $4.50 USD | Costo mayorista de fábrica | ✅ Verificado |
-| **Costo de Envío Tracked** | $3.70 USD | CJPacket Fast Line / YunExpress Ordinary | ✅ Verificado |
+| **Costo de Proveedor** (CoGS) | $8.20 USD | Costo mayorista de fábrica | ✅ Verificado |
+| **Costo de Envío Tracked** | $0.00 USD | CJPacket Fast Line / YunExpress Ordinary | ✅ Verificado |
 | **Landed Cost** (Costo Puesto) | $8.20 USD | CoGS + Flete internacional | ✅ Calculado |
 | **Precio de Venta Sugerido** (SRP) | $34.99 USD | Sweet spot de impulso ($29 – $69 USD) | ✅ Cumple R5 |
 | **Markup Multiplier** | **4.27x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
@@ -182,8 +182,8 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 
 | Parámetro Financiero | Valor USD / % | Estándar Canónico Antigravity | Estado |
 |---|:---:|:---:|:---:|
-| **Costo de Proveedor** (CoGS) | $10.00 USD | Costo mayorista de fábrica | ✅ Verificado |
-| **Costo de Envío Tracked** | $4.80 USD | YunExpress Specialty Line | ✅ Verificado |
+| **Costo de Proveedor** (CoGS) | $14.80 USD | Costo mayorista de fábrica | ✅ Verificado |
+| **Costo de Envío Tracked** | $0.00 USD | YunExpress Specialty Line | ✅ Verificado |
 | **Landed Cost** (Costo Puesto) | $14.80 USD | CoGS + Flete internacional | ✅ Calculado |
 | **Precio de Venta Sugerido** (SRP) | $54.99 USD | Sweet spot de impulso ($29 – $69 USD) | ✅ Cumple R5 |
 | **Markup Multiplier** | **3.72x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
@@ -305,8 +305,8 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 
 | Parámetro Financiero | Valor USD / % | Estándar Canónico Antigravity | Estado |
 |---|:---:|:---:|:---:|
-| **Costo de Proveedor** (CoGS) | $12.00 USD | Costo mayorista de fábrica | ✅ Verificado |
-| **Costo de Envío Tracked** | $4.80 USD | YunExpress Special Battery Line / CJPacket Sensitive (UN38.3) | ✅ Verificado |
+| **Costo de Proveedor** (CoGS) | $16.80 USD | Costo mayorista de fábrica | ✅ Verificado |
+| **Costo de Envío Tracked** | $0.00 USD | YunExpress Special Battery Line / CJPacket Sensitive (UN38.3) | ✅ Verificado |
 | **Landed Cost** (Costo Puesto) | $16.80 USD | CoGS + Flete internacional | ✅ Calculado |
 | **Precio de Venta Sugerido** (SRP) | $59.99 USD | Sweet spot de impulso ($29 – $69 USD) | ✅ Cumple R5 |
 | **Markup Multiplier** | **3.57x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
