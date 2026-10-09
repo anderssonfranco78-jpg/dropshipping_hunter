@@ -4,6 +4,29 @@ Sistema integral y automatizado de inteligencia de mercado y prospección de pro
 
 ---
 
+## ✅ Cómo se opera hoy (octubre 2026)
+
+**El Hunter es el cerebro de decisión, no un buscador de proveedores.** Tú eliges producto y proveedor (búsqueda por imagen + lista de 5 puntos de la Nota 17); DSers sincroniza stock y pedidos con Shopify; el Hunter decide si el producto merece importarse.
+
+1. **Tus datos van en `data/user_products.json`** (el robot solo lo lee, nunca lo escribe):
+   - `unit_cost_usd` + `shipping_cost_usd` (con envío a EE. UU.), `srp_usd`.
+   - `verified_stock` (unidades de la variante elegida) y `verified_date` (AAAA-MM-DD).
+   - `rule_inputs`: tus puntuaciones de las 7 Reglas de Oro; `trends_keyword` para Google Trends.
+2. **Reglas automáticas:**
+   - Stock < 100 → **KO-STOCK** (descalificado sin importar el puntaje).
+   - Stock sin verificar o con más de 7 días → no puede ser Ganador (*Contendiente condicional*).
+   - **Margen estresado** = venta − costo puesto − pasarela (3.49% + $0.49) − 15% de reemplazos − 1% contracargos.
+3. **Actualizar:** doble clic en `iniciar_centinela.bat` → panel en `http://127.0.0.1:8765` → **Actualizar ahora**. Todo en segundo plano, sin ventanas. En la nube corre solo cada día a las 06:00 (El Salvador).
+4. **Alertas del panel:** 🔴 requiere acción (KO-STOCK, margen estresado < 50%, Google Trends caído, errores en tu archivo) · 🟡 verificación pendiente · gris = fuente retirada (TikTok/Meta/Freight, no se consultan).
+
+Flags opcionales de `main.py`: `--scrape-suppliers` (intenta leer AliExpress con Chrome headless; suele ser bloqueado), `--probe-all-sources` (intenta TikTok/Meta/Freight), `--require-live` (código 3 si hay alertas rojas), `--offline` (solo pruebas, datos MOCK).
+
+> ⚠️ Si el repositorio es público, GitHub Pages publica también costos y márgenes de `data/`.
+
+> La tabla "Ganadores Actuales Validados" de abajo es histórica (septiembre 2026); la fuente vigente es `data/user_products.json` y el panel.
+
+---
+
 ## 🚀 ¿Qué es Dropshipping Hunter?
 
 Es un motor privado y 100% gratuito que rastrea y audita señales de demanda real en internet conectándose de forma silenciosa y programática a:

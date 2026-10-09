@@ -15,11 +15,13 @@ import argparse
 import json
 import logging
 import os
+import re
 import sys
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Union
 
 from hunter.models import RawCandidate
+from hunter.provenance import LIVE, MOCK, NO_LIVE_DATA, UNAVAILABLE, NoLiveDataError
 from hunter.scrapers.aliexpress_freight import AliExpressFreightScraper
 from hunter.scrapers.google_trends import GoogleTrendsScraper
 from hunter.scrapers.meta_ad_library import MetaAdLibraryScraper
@@ -41,13 +43,22 @@ if not logger.handlers:
 class HunterEngine:
     """Orchestrates candidate hunting, cross-source enrichment, and dataset persistence."""
 
+    # Search keyword -> candidate_id (the old code derived a slug from the keyword that never matched
+    # a real candidate id, so live signals were silently never applied).
+    KEYWORD_TO_CANDIDATE = {
+        "lumbar traction": "spinerelief-pro",
+        "turbo jet fan": "aeroforce-x3",
+        "dental calculus": "prosmile-ultrasonic",
+        "steamy pet brush": "steamfur-pro",
+    }
+
     DEFAULT_OUTPUT_PATH = Path(__file__).resolve().parent.parent / "data" / "candidates.json"
 
     def __init__(self, offline_mode: bool = False, timeout: float = 12.0):
         """Initialize HunterEngine with sub-scrapers.
         
         Args:
-            offline_mode: If True, uses deterministic offline mocks across all scrapers.
+            offline_mode: DEV/TEST ONLY. Uses deterministic MOCK fixtures; results are stamped MOCK.
             timeout: Network timeout in seconds.
         """
         self.offline_mode = offline_mode
@@ -171,12 +182,12 @@ class HunterEngine:
                     "Conical silicone pet brush with integrated cold ion ultrasonic mist that neutralizes "
                     "static and allows peeling off shed pet hair in a single solid sheet in 2 seconds."
                 ),
-                supplier_cost=7.70,
+                supplier_cost=8.27,  # Green Mango variant (994 units). The $7.70 variant has ~17 units: a trap.
                 shipping_cost=0.00,
                 suggested_price=29.99,
                 shipping_days_min=7,
-                shipping_days_max=10,
-                shipping_carrier="AliExpress Choice (Free Shipping 7-10D)",
+                shipping_days_max=12,
+                shipping_carrier="AliExpress Choice (Free Shipping 7-12D)",
                 has_fragile_material=False,
                 has_sizing_requirements=False,
                 demo_visual_speed_sec=2.0,
@@ -358,46 +369,101 @@ class HunterEngine:
             for seed in self.get_seed_candidates():
                 candidates_map[seed.candidate_id] = seed
 
-        keywords = search_keywords or ["lumbar traction", "turbo jet fan", "dental calculus", "steamy pet brush"]
+        keywords = search_keywords or list(self.KEYWORD_TO_CANDIDATE)
 
         logger.info(f"[{self.__class__.__name__}] Commencing candidate harvesting across {len(keywords)} keyword targets...")
 
         for kw in keywords:
-            try:
-                # 1. TikTok Top Ads signal
-                tiktok_ads = self.tiktok_scraper.search_top_ads(keyword=kw, min_duration_days=21)
-                ad_active_days = max([ad["duration_days"] for ad in tiktok_ads], default=25)
-
-                # 2. Meta Ad Library scaling signal
-                meta_res = self.meta_scraper.analyze_scaling_footprint(query=kw)
-                competitor_ad_count = meta_res["active_ad_count"]
-
-                # 3. Google Trends momentum signal
-                trends_res = self.trends_scraper.get_trend_analysis(keyword=kw)
-                momentum = trends_res["momentum_pct"]
-
-                # 4. AliExpress Logistics & Landed Cost signal
-                slug = kw.lower().replace(" ", "-")
-                freight_res = self.freight_scraper.get_freight_options(product_id=slug, supplier_cost=10.0)
-
-                # If existing in seed, update signals
-                if slug in candidates_map:
-                    candidate = candidates_map[slug]
-                    candidate.ad_active_days = ad_active_days
-                    candidate.competitor_ad_count = competitor_ad_count
-                    candidate.google_trends_momentum = momentum
-                    candidate.shipping_carrier = freight_res["selected_carrier"]
-                    candidate.shipping_cost = freight_res["shipping_cost"]
-                    candidate.shipping_days_min = freight_res["shipping_days_min"]
-                    candidate.shipping_days_max = freight_res["shipping_days_max"]
-                    logger.info(f"Updated live signals for existing candidate '{slug}'")
-
-            except Exception as exc:
-                logger.warning(f"Error during enrichment of keyword '{kw}': {exc}")
+            cid = self.KEYWORD_TO_CANDIDATE.get(kw.lower().strip(), kw.lower().strip().replace(" ", "-"))
+            candidate = candidates_map.get(cid)
+            if candidate is None:
+                logger.info(f"Keyword '{kw}' no corresponde a ningún candidato conocido; se omite.")
+                continue
+            self._enrich(candidate, kw, sources=("tiktok", "meta", "trends", "freight"), apply_freight_costs=True)
 
         result_list = list(candidates_map.values())
         logger.info(f"Harvest complete. Total candidates available: {len(result_list)}")
         return result_list
+
+    # Sources whose public endpoints are retired/blocked (404/403 as of Oct 2026). Not queried by
+    # default: they are shown grey "No disponible" instead of a daily red alarm.
+    RETIRED_SOURCES = ("tiktok", "meta", "freight")
+
+    def _enrich(
+        self,
+        candidate: RawCandidate,
+        kw: str,
+        sources,
+        apply_freight_costs: bool,
+    ) -> None:
+        """Query the requested sources for one candidate; mark every other tracked source UNAVAILABLE.
+
+        Each signal is independent: one blocked source must not hide the others, and a failure is
+        recorded as NO_LIVE_DATA instead of keeping/inventing a value.
+        """
+        cid = candidate.candidate_id
+        ok_status = MOCK if self.offline_mode else LIVE
+
+        def signal(name: str, fetch):
+            if name not in sources:
+                candidate.data_status[name] = UNAVAILABLE
+                return None
+            try:
+                result = fetch()
+                candidate.data_status[name] = ok_status
+                return result
+            except NoLiveDataError as exc:
+                candidate.data_status[name] = NO_LIVE_DATA
+                logger.warning(f"[{cid}] {name}: {exc}")
+            except Exception as exc:  # parsing bug / unexpected payload: still never fabricate
+                candidate.data_status[name] = NO_LIVE_DATA
+                logger.warning(f"[{cid}] {name}: error inesperado: {exc}")
+            return None
+
+        tiktok_ads = signal("tiktok", lambda: self.tiktok_scraper.search_top_ads(keyword=kw, min_duration_days=21))
+        if tiktok_ads:
+            candidate.ad_active_days = max(ad["duration_days"] for ad in tiktok_ads)
+
+        meta_res = signal("meta", lambda: self.meta_scraper.analyze_scaling_footprint(query=kw))
+        if meta_res is not None:
+            candidate.competitor_ad_count = meta_res["active_ad_count"]
+
+        trends_res = signal("trends", lambda: self.trends_scraper.get_trend_analysis(keyword=kw))
+        if trends_res is not None:
+            candidate.google_trends_momentum = trends_res["momentum_pct"]
+
+        freight_res = signal(
+            "freight",
+            lambda: self.freight_scraper.get_freight_options(
+                product_id=(re.search(r"/item/(\d+)", candidate.source_url) or [None, cid])[1],
+                supplier_cost=candidate.supplier_cost,
+            ),
+        )
+        if freight_res is not None:
+            candidate.shipping_carrier = freight_res["selected_carrier"]
+            candidate.shipping_days_min = freight_res["shipping_days_min"]
+            candidate.shipping_days_max = freight_res["shipping_days_max"]
+            if apply_freight_costs:  # operator-verified costs are never overwritten
+                candidate.shipping_cost = freight_res["shipping_cost"]
+
+        logger.info(f"[{cid}] señales: {candidate.data_status}")
+
+    def harvest_products(self, candidates: List[RawCandidate], probe_all: bool = False) -> List[RawCandidate]:
+        """Enrich operator products (data/user_products.json) with live signals.
+
+        By default only Google Trends is queried (the one source that answers). ``probe_all`` also tries
+        the retired TikTok/Meta/Freight endpoints. Operator costs and stock are never modified here.
+        """
+        sources = ("trends",) + (self.RETIRED_SOURCES if probe_all else ())
+        for candidate in candidates:
+            if candidate.trends_keyword:
+                self._enrich(candidate, candidate.trends_keyword, sources=sources, apply_freight_costs=False)
+            else:
+                for name in ("tiktok", "meta", "freight"):
+                    candidate.data_status[name] = UNAVAILABLE
+                logger.info(f"[{candidate.candidate_id}] sin trends_keyword: Google Trends no consultado")
+        logger.info(f"Harvest (productos del operador) completo: {len(candidates)} productos")
+        return candidates
 
     def save_candidates(
         self,
@@ -448,7 +514,7 @@ def main():
         "--offline",
         action="store_true",
         default=False,
-        help="Run in 100%% deterministic offline mock mode without making live network calls.",
+        help="DEV/TEST ONLY: deterministic MOCK fixtures, no network. Results are stamped MOCK and must not be published.",
     )
     parser.add_argument(
         "--seed-only",

@@ -1,0 +1,176 @@
+{
+  "_instrucciones": [
+    "Este archivo es TUYO: el robot (local o GitHub) solo lo lee, nunca lo escribe.",
+    "Para agregar un producto copia un bloque completo de 'products', cambia el 'id' y los valores.",
+    "Costos en USD con envío a EE. UU.: unit_cost_usd (precio de la variante) + shipping_cost_usd.",
+    "Stock: anota verified_stock (unidades de la variante elegida) y verified_date (AAAA-MM-DD). Vence a los 7 días.",
+    "Menos de 100 unidades = KO-STOCK (descalificado). Sin stock o sin fecha = no puede ser Ganador.",
+    "rule_inputs son tus puntuaciones de las 7 Reglas de Oro (Nota 07): el robot no las mide, las calcula a partir de ellas."
+  ],
+  "products": [
+    {
+      "id": "steamfur-pro",
+      "name": "SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer",
+      "category": "Pet Supplies & Home Care",
+      "source_url": "https://www.aliexpress.com/item/1005007791672610.html",
+      "srp_usd": 29.99,
+      "unit_cost_usd": 4.73,
+      "shipping_cost_usd": 3.54,
+      "target_variant_name": "green",
+      "verified_stock": 994,
+      "verified_date": "2026-10-08",
+      "notes": "Variante verde mango con cerdas naranja. Precio de página $4.73 + envío $3.54 = $8.27 (bitácora §24.3). Stock leído en vivo el 2026-10-08: green 994 uds; yellow solo 17 uds (descartada).",
+      "trends_keyword": "steamy pet brush",
+      "description": "Conical silicone pet brush with integrated cold ion ultrasonic mist that neutralizes static and allows peeling off shed pet hair in a single solid sheet in 2 seconds.",
+      "shipping": {
+        "days_min": 7,
+        "days_max": 12,
+        "carrier": "AliExpress Choice (Free Shipping 7-12D)"
+      },
+      "rule_inputs": {
+        "demo_visual_speed_sec": 2.0,
+        "pain_level_score": 88.0,
+        "retail_availability_score": 85.0,
+        "has_fragile_material": false,
+        "has_sizing_requirements": false,
+        "ad_active_days": 38,
+        "competitor_ad_count": 29,
+        "google_trends_momentum": 55.8
+      },
+      "target_demographics": {
+        "age": "22-60",
+        "gender": "all",
+        "interests": [
+          "cats",
+          "dogs",
+          "pet pampering",
+          "clean home"
+        ]
+      }
+    },
+    {
+      "id": "prosmile-ultrasonic",
+      "name": "ProSmile Ultrasonic™ — Smart Plaque & Calculus Scaler",
+      "category": "Dental Health & Personal Care",
+      "source_url": "https://www.aliexpress.com/item/1005005236582798.html",
+      "srp_usd": 34.99,
+      "unit_cost_usd": 4.5,
+      "shipping_cost_usd": 3.7,
+      "target_variant_name": null,
+      "verified_stock": null,
+      "verified_date": null,
+      "notes": "Costo SIN verificar (estimación de la semilla). Verificar precio con envío a EE. UU. y stock de la variante.",
+      "trends_keyword": "dental calculus",
+      "description": "Home dental hygiene scaler with 40 kHz acoustic micro-vibrations and bioelectric sensor that shatters solid calculus instantly while stopping automatically on gums.",
+      "shipping": {
+        "days_min": 7,
+        "days_max": 10,
+        "carrier": "CJPacket Fast Line"
+      },
+      "rule_inputs": {
+        "demo_visual_speed_sec": 1.5,
+        "pain_level_score": 92.0,
+        "retail_availability_score": 92.0,
+        "has_fragile_material": false,
+        "has_sizing_requirements": false,
+        "ad_active_days": 42,
+        "competitor_ad_count": 48,
+        "google_trends_momentum": 41.6
+      },
+      "target_demographics": {
+        "age": "22-58",
+        "gender": "all",
+        "interests": [
+          "teeth whitening",
+          "coffee/tea drinkers",
+          "smokers",
+          "dental hygiene"
+        ]
+      }
+    },
+    {
+      "id": "spinerelief-pro",
+      "name": "SpineRelief Pro™ — Inflatable Lumbar Traction Belt",
+      "category": "Health & Ergonomics",
+      "source_url": "https://www.aliexpress.com/item/1005006626002554.html",
+      "srp_usd": 54.99,
+      "unit_cost_usd": 10.0,
+      "shipping_cost_usd": 4.8,
+      "target_variant_name": null,
+      "verified_stock": null,
+      "verified_date": null,
+      "notes": "ALERTA: lectura en vivo del 2026-10-08 mostró sus 3 variantes por debajo de 100 uds (no quedaron registrados los números exactos). Verificar y anotar el stock real: si es < 100 quedará bloqueado (KO-STOCK).",
+      "trends_keyword": "lumbar traction",
+      "description": "Clinical-grade inflatable lumbar traction belt with 24 pneumatic columns providing 2.5 bar decompression for L1-L5 vertebrae and acute sciatica nerve relief.",
+      "shipping": {
+        "days_min": 8,
+        "days_max": 10,
+        "carrier": "YunExpress Specialty Line"
+      },
+      "rule_inputs": {
+        "demo_visual_speed_sec": 1.5,
+        "pain_level_score": 95.0,
+        "retail_availability_score": 95.0,
+        "has_fragile_material": false,
+        "has_sizing_requirements": false,
+        "ad_active_days": 34,
+        "competitor_ad_count": 38,
+        "google_trends_momentum": 52.4
+      },
+      "target_demographics": {
+        "age": "35-65",
+        "gender": "all",
+        "occupations": [
+          "truck drivers",
+          "warehouse staff",
+          "office desk workers"
+        ],
+        "symptoms": [
+          "chronic lumbar stiffness",
+          "sciatica nerve compression",
+          "herniated disc pain"
+        ]
+      }
+    },
+    {
+      "id": "aeroforce-x3",
+      "name": "AeroForce X3™ — 130,000 RPM Violent Turbo Blower",
+      "category": "Automotive & Tactical Tools",
+      "source_url": "https://www.aliexpress.com/item/1005009719197258.html",
+      "srp_usd": 59.99,
+      "unit_cost_usd": 12.0,
+      "shipping_cost_usd": 4.8,
+      "target_variant_name": null,
+      "verified_stock": null,
+      "verified_date": null,
+      "notes": "Costo SIN verificar (estimación de la semilla). Verificar precio con envío a EE. UU. y stock de la variante.",
+      "trends_keyword": "turbo jet fan",
+      "description": "Handheld micro-turbine jet fan with 130,000 RPM brushless motor delivering 52 m/s wind speed for contact-free car drying, detailing, and keyboard cleaning without swirl marks.",
+      "shipping": {
+        "days_min": 8,
+        "days_max": 11,
+        "carrier": "YunExpress Special Battery Line"
+      },
+      "rule_inputs": {
+        "demo_visual_speed_sec": 1.2,
+        "pain_level_score": 90.0,
+        "retail_availability_score": 90.0,
+        "has_fragile_material": false,
+        "has_sizing_requirements": false,
+        "ad_active_days": 28,
+        "competitor_ad_count": 42,
+        "google_trends_momentum": 68.2
+      },
+      "target_demographics": {
+        "age": "20-48",
+        "gender": "male",
+        "interests": [
+          "car detailing",
+          "PC gaming hardware",
+          "tactical gear",
+          "grilling"
+        ]
+      }
+    }
+  ]
+}

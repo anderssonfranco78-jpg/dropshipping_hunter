@@ -4,12 +4,12 @@
     "name": "SpineRelief Pro™ — Inflatable Lumbar Traction Belt",
     "category": "Health & Ergonomics",
     "description": "Clinical-grade inflatable lumbar traction belt with 24 pneumatic columns providing 2.5 bar decompression for L1-L5 vertebrae and acute sciatica nerve relief.",
-    "supplier_cost": 14.8,
-    "shipping_cost": 0.0,
+    "supplier_cost": 10.0,
+    "shipping_cost": 4.5,
     "suggested_price": 54.99,
-    "shipping_days_min": 8,
-    "shipping_days_max": 10,
-    "shipping_carrier": "AliExpress Choice (Free Shipping 7-10D)",
+    "shipping_days_min": 7,
+    "shipping_days_max": 12,
+    "shipping_carrier": "YunExpress Direct",
     "has_fragile_material": false,
     "has_sizing_requirements": false,
     "demo_visual_speed_sec": 1.5,
@@ -32,19 +32,33 @@
         "sciatica nerve compression",
         "herniated disc pain"
       ]
-    }
+    },
+    "data_status": {
+      "trends": "MOCK",
+      "tiktok": "MOCK",
+      "meta": "MOCK",
+      "freight": "MOCK",
+      "supplier": "MANUAL"
+    },
+    "supplier_variant": null,
+    "supplier_stock": null,
+    "cost_note": null,
+    "stock_verified_date": null,
+    "stock_status": null,
+    "trends_keyword": null,
+    "notes": null
   },
   {
     "candidate_id": "aeroforce-x3",
     "name": "AeroForce X3™ — 130,000 RPM Violent Turbo Blower",
     "category": "Automotive & Tactical Tools",
     "description": "Handheld micro-turbine jet fan with 130,000 RPM brushless motor delivering 52 m/s wind speed for contact-free car drying, detailing, and keyboard cleaning without swirl marks.",
-    "supplier_cost": 16.8,
-    "shipping_cost": 0.0,
+    "supplier_cost": 12.0,
+    "shipping_cost": 4.5,
     "suggested_price": 59.99,
-    "shipping_days_min": 8,
-    "shipping_days_max": 11,
-    "shipping_carrier": "AliExpress Choice (Free Shipping 7-10D)",
+    "shipping_days_min": 7,
+    "shipping_days_max": 12,
+    "shipping_carrier": "YunExpress Direct",
     "has_fragile_material": false,
     "has_sizing_requirements": false,
     "demo_visual_speed_sec": 1.2,
@@ -63,19 +77,33 @@
         "tactical gear",
         "grilling"
       ]
-    }
+    },
+    "data_status": {
+      "trends": "MOCK",
+      "tiktok": "MOCK",
+      "meta": "MOCK",
+      "freight": "MOCK",
+      "supplier": "MANUAL"
+    },
+    "supplier_variant": null,
+    "supplier_stock": null,
+    "cost_note": null,
+    "stock_verified_date": null,
+    "stock_status": null,
+    "trends_keyword": null,
+    "notes": null
   },
   {
     "candidate_id": "prosmile-ultrasonic",
     "name": "ProSmile Ultrasonic™ — Smart Plaque & Calculus Scaler",
     "category": "Dental Health & Personal Care",
     "description": "Home dental hygiene scaler with 40 kHz acoustic micro-vibrations and bioelectric sensor that shatters solid calculus instantly while stopping automatically on gums.",
-    "supplier_cost": 8.2,
-    "shipping_cost": 0.0,
+    "supplier_cost": 4.5,
+    "shipping_cost": 4.5,
     "suggested_price": 34.99,
     "shipping_days_min": 7,
-    "shipping_days_max": 10,
-    "shipping_carrier": "AliExpress Choice (Free Shipping 7-10D)",
+    "shipping_days_max": 12,
+    "shipping_carrier": "YunExpress Direct",
     "has_fragile_material": false,
     "has_sizing_requirements": false,
     "demo_visual_speed_sec": 1.5,
@@ -94,19 +122,33 @@
         "smokers",
         "dental hygiene"
       ]
-    }
+    },
+    "data_status": {
+      "trends": "MOCK",
+      "tiktok": "MOCK",
+      "meta": "MOCK",
+      "freight": "MOCK",
+      "supplier": "MANUAL"
+    },
+    "supplier_variant": null,
+    "supplier_stock": null,
+    "cost_note": null,
+    "stock_verified_date": null,
+    "stock_status": null,
+    "trends_keyword": null,
+    "notes": null
   },
   {
     "candidate_id": "steamfur-pro",
     "name": "SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer",
     "category": "Pet Supplies & Home Care",
     "description": "Conical silicone pet brush with integrated cold ion ultrasonic mist that neutralizes static and allows peeling off shed pet hair in a single solid sheet in 2 seconds.",
-    "supplier_cost": 7.7,
-    "shipping_cost": 0.0,
+    "supplier_cost": 8.27,
+    "shipping_cost": 4.5,
     "suggested_price": 29.99,
     "shipping_days_min": 7,
-    "shipping_days_max": 10,
-    "shipping_carrier": "AliExpress Choice (Free Shipping 7-10D)",
+    "shipping_days_max": 12,
+    "shipping_carrier": "YunExpress Direct",
     "has_fragile_material": false,
     "has_sizing_requirements": false,
     "demo_visual_speed_sec": 2.0,
@@ -125,7 +167,21 @@
         "pet pampering",
         "clean home"
       ]
-    }
+    },
+    "data_status": {
+      "trends": "MOCK",
+      "tiktok": "MOCK",
+      "meta": "MOCK",
+      "freight": "MOCK",
+      "supplier": "MANUAL"
+    },
+    "supplier_variant": null,
+    "supplier_stock": null,
+    "cost_note": null,
+    "stock_verified_date": null,
+    "stock_status": null,
+    "trends_keyword": null,
+    "notes": null
   },
   {
     "candidate_id": "hydroclean-mop",
@@ -150,7 +206,21 @@
     "target_demographics": {
       "age": "25-60",
       "gender": "all"
-    }
+    },
+    "data_status": {
+      "trends": "MANUAL",
+      "tiktok": "MANUAL",
+      "meta": "MANUAL",
+      "freight": "MANUAL",
+      "supplier": "MANUAL"
+    },
+    "supplier_variant": null,
+    "supplier_stock": null,
+    "cost_note": null,
+    "stock_verified_date": null,
+    "stock_status": null,
+    "trends_keyword": null,
+    "notes": null
   },
   {
     "candidate_id": "glowpillow-velvet",
@@ -175,7 +245,21 @@
     "target_demographics": {
       "age": "20-50",
       "gender": "female"
-    }
+    },
+    "data_status": {
+      "trends": "MANUAL",
+      "tiktok": "MANUAL",
+      "meta": "MANUAL",
+      "freight": "MANUAL",
+      "supplier": "MANUAL"
+    },
+    "supplier_variant": null,
+    "supplier_stock": null,
+    "cost_note": null,
+    "stock_verified_date": null,
+    "stock_status": null,
+    "trends_keyword": null,
+    "notes": null
   },
   {
     "candidate_id": "glassaura-teapot",
@@ -200,7 +284,21 @@
     "target_demographics": {
       "age": "25-60",
       "gender": "all"
-    }
+    },
+    "data_status": {
+      "trends": "MANUAL",
+      "tiktok": "MANUAL",
+      "meta": "MANUAL",
+      "freight": "MANUAL",
+      "supplier": "MANUAL"
+    },
+    "supplier_variant": null,
+    "supplier_stock": null,
+    "cost_note": null,
+    "stock_verified_date": null,
+    "stock_status": null,
+    "trends_keyword": null,
+    "notes": null
   },
   {
     "candidate_id": "slimfit-silk-dress",
@@ -225,7 +323,21 @@
     "target_demographics": {
       "age": "20-40",
       "gender": "female"
-    }
+    },
+    "data_status": {
+      "trends": "MANUAL",
+      "tiktok": "MANUAL",
+      "meta": "MANUAL",
+      "freight": "MANUAL",
+      "supplier": "MANUAL"
+    },
+    "supplier_variant": null,
+    "supplier_stock": null,
+    "cost_note": null,
+    "stock_verified_date": null,
+    "stock_status": null,
+    "trends_keyword": null,
+    "notes": null
   },
   {
     "candidate_id": "heavyduty-garden-hose",
@@ -250,7 +362,21 @@
     "target_demographics": {
       "age": "30-65",
       "gender": "all"
-    }
+    },
+    "data_status": {
+      "trends": "MANUAL",
+      "tiktok": "MANUAL",
+      "meta": "MANUAL",
+      "freight": "MANUAL",
+      "supplier": "MANUAL"
+    },
+    "supplier_variant": null,
+    "supplier_stock": null,
+    "cost_note": null,
+    "stock_verified_date": null,
+    "stock_status": null,
+    "trends_keyword": null,
+    "notes": null
   },
   {
     "candidate_id": "vintage-leather-watch",
@@ -275,6 +401,20 @@
     "target_demographics": {
       "age": "18-50",
       "gender": "male"
-    }
+    },
+    "data_status": {
+      "trends": "MANUAL",
+      "tiktok": "MANUAL",
+      "meta": "MANUAL",
+      "freight": "MANUAL",
+      "supplier": "MANUAL"
+    },
+    "supplier_variant": null,
+    "supplier_stock": null,
+    "cost_note": null,
+    "stock_verified_date": null,
+    "stock_status": null,
+    "trends_keyword": null,
+    "notes": null
   }
 ]

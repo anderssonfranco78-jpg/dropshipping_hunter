@@ -1,8 +1,9 @@
-"""Base scraper class with retry logic, rate limit handling, and deterministic offline fallbacks.
+"""Base scraper class with retry logic and rate limit handling.
 
-Adheres strictly to the operational constraints:
-- Zero Desktop GUI Control (pure headless HTTP/JSON)
-- Deterministic offline fallback fixtures for air-gapped / rate-limited environments
+Honesty contract:
+- LIVE mode never fabricates data. If the source blocks, rate-limits or is unreachable,
+  ``fetch_json`` raises ``NoLiveDataError`` and the caller marks the signal "Sin datos en vivo".
+- Deterministic fixtures exist ONLY behind the explicit ``offline_mode=True`` dev/test flag.
 """
 
 from __future__ import annotations
@@ -13,6 +14,7 @@ import time
 from abc import ABC, abstractmethod
 from typing import Any, Dict, Optional, Union
 import requests
+from hunter.provenance import NoLiveDataError
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -52,7 +54,8 @@ class BaseScraper(ABC):
             timeout: Network request timeout in seconds.
             max_retries: Maximum retry attempts for transient errors.
             backoff_factor: Multiplier for exponential backoff sleep.
-            offline_mode: If True, bypasses network calls and uses deterministic fallbacks.
+            offline_mode: Dev/test only. If True, bypasses the network and returns deterministic
+                fixtures stamped as MOCK. Never use for published results.
         """
         self.name = name
         self.timeout = timeout
@@ -100,7 +103,7 @@ class BaseScraper(ABC):
         json_data: Optional[Dict[str, Any]] = None,
         fallback_key: Optional[str] = None,
     ) -> Dict[str, Any]:
-        """Fetch JSON payload from an endpoint with automatic retry, backoff, and offline fallback.
+        """Fetch JSON payload from an endpoint with automatic retry and backoff.
         
         Args:
             url: Target URL.
@@ -111,12 +114,16 @@ class BaseScraper(ABC):
             fallback_key: Identifier passed to _offline_fallback if network fails or offline.
 
         Returns:
-            Dictionary containing parsed JSON data (from network or deterministic mock).
+            Parsed JSON data from the network (or a MOCK fixture when offline_mode=True).
+
+        Raises:
+            NoLiveDataError: live mode and the source did not deliver real data.
         """
         if self.offline_mode:
             logger.info(f"[{self.name}] Offline mode enabled. Using deterministic mock for key='{fallback_key}'.")
             return self._offline_fallback(fallback_key=fallback_key, url=url, params=params)
 
+        last_error = "sin respuesta válida"
         for attempt in range(1, self.max_retries + 1):
             try:
                 req_headers = dict(self.session.headers)
@@ -144,12 +151,11 @@ class BaseScraper(ABC):
                             return requests.compat.json.loads(clean_text)
                         raise
 
-                # Non-transient client errors: immediate fallback
+                # Non-transient client errors: the source refuses us. Do NOT invent data.
                 if response.status_code in (401, 403, 404):
-                    logger.info(
-                        f"[{self.name}] HTTP {response.status_code} received from {url}. Engaging deterministic offline fallback (key='{fallback_key}')."
+                    raise NoLiveDataError(
+                        self.name, f"HTTP {response.status_code} desde {url} (key='{fallback_key}')"
                     )
-                    return self._offline_fallback(fallback_key=fallback_key, url=url, params=params)
 
                 if response.status_code == 429:
                     # Rate limited: apply exponential backoff with jitter
@@ -157,25 +163,27 @@ class BaseScraper(ABC):
                     logger.warning(
                         f"[{self.name}] HTTP 429 Rate Limit on {url}. Backing off for {wait_time:.2f}s..."
                     )
+                    last_error = "HTTP 429 (rate limit)"
                     time.sleep(wait_time)
                     continue
 
                 if response.status_code >= 500:
+                    last_error = f"HTTP {response.status_code}"
                     logger.warning(
                         f"[{self.name}] Server error {response.status_code} from {url} on attempt {attempt}"
                     )
                     time.sleep(self.backoff_factor * attempt)
 
+            except NoLiveDataError:
+                raise
             except (requests.RequestException, Exception) as exc:
+                last_error = str(exc)
                 logger.warning(f"[{self.name}] Network error on attempt {attempt}/{self.max_retries}: {exc}")
                 if attempt < self.max_retries:
                     time.sleep(self.backoff_factor * attempt)
 
-        # All network attempts failed or timed out: fall back deterministically
-        logger.info(
-            f"[{self.name}] Network unavailable or blocked for {url}. Engaging deterministic offline fallback (key='{fallback_key}')."
-        )
-        return self._offline_fallback(fallback_key=fallback_key, url=url, params=params)
+        # All network attempts failed: fail honestly, never fabricate.
+        raise NoLiveDataError(self.name, f"{last_error} tras {self.max_retries} intentos ({url})")
 
     @abstractmethod
     def _offline_fallback(
@@ -184,9 +192,9 @@ class BaseScraper(ABC):
         url: Optional[str] = None,
         params: Optional[Dict[str, Any]] = None,
     ) -> Dict[str, Any]:
-        """Produce deterministic, realistic mock data conforming to the endpoint's schema.
-        
-        Subclasses MUST implement this method.
+        """DEV/TEST ONLY (offline_mode=True): deterministic fixture matching the endpoint schema.
+
+        Never reached in live mode. Subclasses MUST implement this method.
         """
         pass
 

@@ -6,6 +6,10 @@ on:
     - cron: '0 12 * * *'
   workflow_dispatch: # Permite presionar un botón en GitHub para ejecutarlo manualmente cuando quieras
 
+concurrency:
+  group: hunter-cloud-bot
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -28,22 +32,36 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Ejecutar motor de prospección y auditoría
+      # Si alguna prueba falla, no se publica nada.
+      - name: Pruebas (no abren navegador)
+        run: |
+          python -m unittest discover -s tests -t .
+
+      # Lee data/user_products.json (costo, stock y fecha que escribe el operador) y solo consulta
+      # Google Trends. Sin datos inventados. Selenium/AliExpress queda apagado (sin --scrape-suppliers).
+      - name: Ejecutar motor de auditoría
         run: |
           python main.py
 
-      - name: Sincronizar plataforma web
+      # Blindaje: el robot jamás debe modificar el archivo del operador.
+      - name: Verificar que user_products.json no fue modificado
         run: |
-          cp ranking_productos.html index.html
+          if ! git diff --quiet -- data/user_products.json; then
+            echo "::error::El robot modificó data/user_products.json. Se aborta la publicación."
+            exit 1
+          fi
 
+      # index.html es estático y lee data/dashboard_data.js. ranking_productos.html es el panel clásico.
       - name: Guardar y publicar actualizaciones automáticas
         run: |
           git config --global user.name "Dropshipping Hunter Bot"
           git config --global user.email "bot@dropshipping-hunter.local"
-          git add data/ ranking_productos.* index.html dossier_productos_ganadores.md
+          git add data/candidates.json data/audit_results.json data/data_health.json data/dashboard_data.js \
+                  ranking_productos.* dossier_productos_ganadores.md
           if ! git diff --staged --quiet; then
-            git commit -m "🤖 chore(auto): actualización diaria de tendencias y ganadores [skip ci]"
+            git commit -m "🤖 chore(auto): actualización diaria de tendencias y auditoría [skip ci]"
+            git pull --rebase --autostash
             git push
           else
-            echo "No se detectaron cambios en el ranking hoy."
+            echo "No se detectaron cambios hoy."
           fi

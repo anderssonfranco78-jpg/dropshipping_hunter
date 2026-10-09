@@ -1,0 +1,57 @@
+{
+  "mode": "LIVE",
+  "generated_at": "2026-10-09 02:46:23 UTC",
+  "sources": {
+    "trends": {
+      "LIVE": 3,
+      "NO_LIVE_DATA": 1,
+      "MANUAL": 0,
+      "MOCK": 0,
+      "UNAVAILABLE": 0
+    },
+    "tiktok": {
+      "LIVE": 0,
+      "NO_LIVE_DATA": 0,
+      "MANUAL": 0,
+      "MOCK": 0,
+      "UNAVAILABLE": 4
+    },
+    "meta": {
+      "LIVE": 0,
+      "NO_LIVE_DATA": 0,
+      "MANUAL": 0,
+      "MOCK": 0,
+      "UNAVAILABLE": 4
+    },
+    "freight": {
+      "LIVE": 0,
+      "NO_LIVE_DATA": 0,
+      "MANUAL": 0,
+      "MOCK": 0,
+      "UNAVAILABLE": 4
+    },
+    "supplier": {
+      "LIVE": 0,
+      "NO_LIVE_DATA": 0,
+      "MANUAL": 4,
+      "MOCK": 0,
+      "UNAVAILABLE": 0
+    }
+  },
+  "alerts_red": [
+    "SteamFur Pro™: Google Trends — Sin datos en vivo"
+  ],
+  "alerts_yellow": [
+    "ProSmile Ultrasonic™: stock sin verificar — anota unidades y fecha",
+    "SpineRelief Pro™: stock sin verificar — anota unidades y fecha",
+    "AeroForce X3™: stock sin verificar — anota unidades y fecha"
+  ],
+  "alerts": [
+    "SteamFur Pro™: Google Trends — Sin datos en vivo",
+    "ProSmile Ultrasonic™: stock sin verificar — anota unidades y fecha",
+    "SpineRelief Pro™: stock sin verificar — anota unidades y fecha",
+    "AeroForce X3™: stock sin verificar — anota unidades y fecha"
+  ],
+  "has_failures": true,
+  "is_mock": false
+}

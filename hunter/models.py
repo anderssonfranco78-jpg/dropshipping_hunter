@@ -13,6 +13,8 @@ import json
 from dataclasses import dataclass, field, asdict
 from typing import Optional, List, Dict, Any
 
+from hunter.provenance import default_status
+
 
 @dataclass
 class RawCandidate:
@@ -37,6 +39,16 @@ class RawCandidate:
     google_trends_momentum: float          # 3-month growth rate percentage (e.g. +45.0)
     source_url: str                        # Supplier or ad intelligence URL
     target_demographics: Dict[str, Any] = field(default_factory=dict)  # Age, gender, occupations
+    # Provenance per signal (LIVE / MANUAL / MOCK / NO_LIVE_DATA). See hunter.provenance.
+    data_status: Dict[str, str] = field(default_factory=default_status)
+    supplier_variant: Optional[str] = None  # Variant actually quoted (e.g. "Green Mango")
+    supplier_stock: Optional[int] = None    # Units in the Choice warehouse for that variant
+    cost_note: Optional[str] = None         # Why the live price was not adopted (if it was not)
+    # Operator inputs (data/user_products.json). None for legacy seed candidates.
+    stock_verified_date: Optional[str] = None  # ISO date the operator checked the stock
+    stock_status: Optional[str] = None         # OK / LOW / EXPIRED / UNVERIFIED (hunter.provenance)
+    trends_keyword: Optional[str] = None       # Google Trends query for this product
+    notes: Optional[str] = None                # Free text from the operator
 
     def validate(self) -> List[str]:
         """Validate candidate fields against expected bounds and types.
@@ -123,6 +135,14 @@ class RawCandidate:
             google_trends_momentum=float(data.get("google_trends_momentum", 0.0)),
             source_url=str(data.get("source_url", "")),
             target_demographics=dict(data.get("target_demographics", {})),
+            data_status=dict(data.get("data_status") or default_status()),
+            supplier_variant=data.get("supplier_variant"),
+            supplier_stock=(int(data["supplier_stock"]) if data.get("supplier_stock") is not None else None),
+            cost_note=data.get("cost_note"),
+            stock_verified_date=data.get("stock_verified_date"),
+            stock_status=data.get("stock_status"),
+            trends_keyword=data.get("trends_keyword"),
+            notes=data.get("notes"),
         )
 
     def to_json(self, indent: int = 2) -> str:
@@ -202,10 +222,14 @@ class AuditResult:
     composite_score: float                 # 0 to 100
     tier: str                              # "WINNER", "CONTENDER", "DISQUALIFIED"
     passed_audit: bool                     # True if tier == "WINNER"
+    stressed: Dict[str, Any] = field(default_factory=dict)  # Stressed unit economics (hunter.stress)
+    tier_reasons: List[str] = field(default_factory=list)   # Why the tier was forced (stock gate, ...)
 
     def to_dict(self) -> Dict[str, Any]:
         """Convert AuditResult to nested dictionary."""
         return {
+            "stressed": dict(self.stressed),
+            "tier_reasons": list(self.tier_reasons),
             "candidate": self.candidate.to_dict(),
             "financials": self.financials.to_dict(),
             "rule_scores": {str(k): v.to_dict() for k, v in self.rule_scores.items()},
@@ -235,6 +259,8 @@ class AuditResult:
             composite_score=float(data.get("composite_score", 0.0)),
             tier=str(data.get("tier", "DISQUALIFIED")),
             passed_audit=bool(data.get("passed_audit", False)),
+            stressed=dict(data.get("stressed") or {}),
+            tier_reasons=list(data.get("tier_reasons") or []),
         )
 
     def to_json(self, indent: int = 2) -> str:

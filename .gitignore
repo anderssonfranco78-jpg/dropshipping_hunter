@@ -5,3 +5,6 @@ __pycache__/
 .coverage
 htmlcov/
 *.log
+.chrome_profile/
+_backup_pre_refactor_*/
+data/ultima_corrida.log

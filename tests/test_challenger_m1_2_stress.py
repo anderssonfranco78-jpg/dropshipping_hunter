@@ -43,129 +43,121 @@ class TestGoogleTrends429ExponentialBackoff(unittest.TestCase):
             offline_mode=False,
         )
 
+    # --- helpers: the live flow is explore (widget token) -> widgetdata/multiline (real series) ---
+    @staticmethod
+    def _resp(payload, prefixed=False):
+        m = MagicMock()
+        m.status_code = 200
+        body = json.dumps(payload)
+        m.text = (")]}',\n" + body) if prefixed else body
+        if prefixed:
+            m.json.side_effect = ValueError("No JSON object could be decoded")
+        else:
+            m.json.return_value = payload
+        return m
+
+    @staticmethod
+    def _explore():
+        return {"widgets": [{"id": "TIMESERIES", "token": "tok", "request": {"time": "today 3-m"}}]}
+
+    @staticmethod
+    def _series(values):
+        return {"default": {"timelineData": [{"value": [v]} for v in values]}}
+
     def test_single_429_recovery(self):
-        """Verifies scraper sleeps with exponential backoff on 429 and recovers if subsequent request succeeds."""
+        """429 -> exponential backoff -> recovers and computes momentum from the REAL series."""
         mock_response_429 = MagicMock()
         mock_response_429.status_code = 429
-
-        mock_response_200 = MagicMock()
-        mock_response_200.status_code = 200
-        mock_response_200.text = json.dumps({
-            "timeline_values": [50] * 76 + [80] * 14,
-            "breakout_queries": ["sciatica decompression belt"],
-        })
-        mock_response_200.json.return_value = {
-            "timeline_values": [50] * 76 + [80] * 14,
-            "breakout_queries": ["sciatica decompression belt"],
-        }
-
+        responses = [
+            mock_response_429,
+            self._resp(self._explore()),
+            self._resp(self._series([50] * 76 + [80] * 14)),
+        ]
         sleep_calls = []
 
-        def mock_sleep(seconds):
-            sleep_calls.append(seconds)
-
-        with patch.object(self.scraper.session, "request", side_effect=[mock_response_429, mock_response_200]) as mock_req:
-            with patch("time.sleep", side_effect=mock_sleep):
-                # Suppress priming cookie request to isolate explore endpoint
+        with patch.object(self.scraper.session, "request", side_effect=responses) as mock_req:
+            with patch("time.sleep", side_effect=sleep_calls.append):
                 self.scraper._cookie_primed = True
                 result = self.scraper.get_trend_analysis("lumbar traction")
 
-        # Must have made 2 request attempts
-        self.assertEqual(mock_req.call_count, 2)
-        # Sleep calls: 1 proactive pacing jitter (0.5 - 1.2s) + 1 reactive 429 backoff
-        self.assertEqual(len(sleep_calls), 2)
-        pacing_sleep = sleep_calls[0]
-        backoff_sleep = sleep_calls[1]
-        self.assertGreaterEqual(pacing_sleep, 0.5)
-        self.assertLessEqual(pacing_sleep, 1.2)
-        # Attempt 1 backoff: (2.0 ** 1) + [0.5, 1.5] = [2.5, 3.5]
-        self.assertGreaterEqual(backoff_sleep, 2.5)
-        self.assertLessEqual(backoff_sleep, 3.5)
-        # Must have parsed recovered live data
+        self.assertEqual(mock_req.call_count, 3)
+        # pacing before explore, 429 backoff, pacing before multiline
+        self.assertEqual(len(sleep_calls), 3)
+        self.assertTrue(0.5 <= sleep_calls[0] <= 1.2)
+        self.assertTrue(2.5 <= sleep_calls[1] <= 3.5)  # (2.0 ** 1) + [0.5, 1.5]
         self.assertEqual(result["keyword"], "lumbar traction")
+        self.assertEqual(result["status"], "LIVE")
+        self.assertAlmostEqual(result["momentum_pct"], 60.0, places=1)
         self.assertTrue(result["is_breakout"])
-        self.assertGreater(result["momentum_pct"], 30.0)
 
-    def test_repeated_429_exhaustion_strictly_exponential_then_fallback(self):
-        """Verifies 3 consecutive 429s follow strictly increasing exponential backoff and gracefully trigger offline fallback."""
+    def test_repeated_429_exhaustion_raises_no_live_data(self):
+        """3 consecutive 429s follow exponential backoff, then fail HONESTLY (no fabricated numbers)."""
+        from hunter.provenance import NoLiveDataError
+
         mock_response_429 = MagicMock()
         mock_response_429.status_code = 429
-
         sleep_calls = []
 
-        def mock_sleep(seconds):
-            sleep_calls.append(seconds)
-
         with patch.object(self.scraper.session, "request", return_value=mock_response_429) as mock_req:
-            with patch("time.sleep", side_effect=mock_sleep):
+            with patch("time.sleep", side_effect=sleep_calls.append):
                 self.scraper._cookie_primed = True
-                result = self.scraper.get_trend_analysis("turbo jet fan")
+                with self.assertRaises(NoLiveDataError) as ctx:
+                    self.scraper.get_trend_analysis("turbo jet fan")
 
-        # Exceeded max_retries (3 attempts)
+        self.assertIn("Sin datos en vivo", str(ctx.exception))
         self.assertEqual(mock_req.call_count, 3)
-        # Sleep calls: 1 proactive pacing jitter (0.5 - 1.2s) + 3 reactive 429 backoffs
-        self.assertEqual(len(sleep_calls), 4)
-
-        pacing_sleep = sleep_calls[0]
-        backoff_calls = sleep_calls[1:]
-        self.assertGreaterEqual(pacing_sleep, 0.5)
-        self.assertLessEqual(pacing_sleep, 1.2)
-
-        # Monotonically increasing exponential progression of backoff calls
-        self.assertLess(backoff_calls[0], backoff_calls[1])
-        self.assertLess(backoff_calls[1], backoff_calls[2])
-
-        # Attempt 1: (2.0 ** 1) + [0.5, 1.5] -> [2.5, 3.5]
-        self.assertGreaterEqual(backoff_calls[0], 2.5)
-        self.assertLessEqual(backoff_calls[0], 3.5)
-
-        # Attempt 2: (2.0 ** 2) + [0.5, 1.5] -> [4.5, 5.5]
-        self.assertGreaterEqual(backoff_calls[1], 4.5)
-        self.assertLessEqual(backoff_calls[1], 5.5)
-
-        # Attempt 3: (2.0 ** 3) + [0.5, 1.5] -> [8.5, 9.5]
-        self.assertGreaterEqual(backoff_calls[2], 8.5)
-        self.assertLessEqual(backoff_calls[2], 9.5)
-
-        # Successfully fell back to deterministic mock without crashing
-        self.assertIsNotNone(result)
-        self.assertEqual(result["status"], "VALIDATED")
-        self.assertEqual(result["keyword"], "turbo jet fan")
-        self.assertAlmostEqual(result["momentum_pct"], 68.2, places=1)
-        self.assertTrue(result["is_breakout"])
+        self.assertEqual(len(sleep_calls), 4)  # 1 pacing + 3 backoffs
+        backoffs = sleep_calls[1:]
+        self.assertLess(backoffs[0], backoffs[1])
+        self.assertLess(backoffs[1], backoffs[2])
+        self.assertTrue(2.5 <= backoffs[0] <= 3.5)
+        self.assertTrue(4.5 <= backoffs[1] <= 5.5)
+        self.assertTrue(8.5 <= backoffs[2] <= 9.5)
 
     def test_strip_google_security_prefix_under_200(self):
-        """Verifies stripping of Google Trends security prefix ')]}\',\n' before JSON parsing."""
-        raw_google_body = ")]}',\n{\"widgets\": [], \"timeline_values\": [50, 50, 75], \"breakout_queries\": [\"test\"]}"
-        mock_response = MagicMock()
-        mock_response.status_code = 200
-        mock_response.text = raw_google_body
-        # Simulate response.json() raising ValueError due to leading security token
-        mock_response.json.side_effect = ValueError("No JSON object could be decoded")
+        """The ')]}',' prefix is stripped from both explore and multiline bodies."""
+        responses = [
+            self._resp(self._explore(), prefixed=True),
+            self._resp(self._series([50] * 76 + [75] * 14), prefixed=True),
+        ]
+        with patch.object(self.scraper.session, "request", side_effect=responses):
+            with patch("time.sleep"):
+                self.scraper._cookie_primed = True
+                result = self.scraper.get_trend_analysis("steam brush")
 
-        with patch.object(self.scraper.session, "request", return_value=mock_response):
-            self.scraper._cookie_primed = True
-            result = self.scraper.get_trend_analysis("steam brush")
-
-        self.assertIn("breakout_queries", result)
-        self.assertEqual(result["breakout_queries"], ["test"])
+        self.assertEqual(result["status"], "LIVE")
+        self.assertAlmostEqual(result["momentum_pct"], 50.0, places=1)
 
     def test_cache_hits_prevent_network_spam(self):
-        """Verifies second call for same keyword uses memory cache and bypasses HTTP session completely."""
+        """Second call for same keyword is served from memory (2 HTTP calls total, not 4)."""
         self.scraper._cache.clear()
-        mock_response = MagicMock()
-        mock_response.status_code = 200
-        mock_response.text = json.dumps({"timeline_values": [60] * 90, "breakout_queries": []})
-        mock_response.json.return_value = {"timeline_values": [60] * 90, "breakout_queries": []}
+        responses = [self._resp(self._explore()), self._resp(self._series([60] * 90))]
 
-        with patch.object(self.scraper.session, "request", return_value=mock_response) as mock_req:
-            self.scraper._cookie_primed = True
-            res1 = self.scraper.get_trend_analysis("lumbar")
-            res2 = self.scraper.get_trend_analysis("lumbar")
+        with patch.object(self.scraper.session, "request", side_effect=responses) as mock_req:
+            with patch("time.sleep"):
+                self.scraper._cookie_primed = True
+                res1 = self.scraper.get_trend_analysis("lumbar")
+                res2 = self.scraper.get_trend_analysis("lumbar")
 
-        # Session request must be called only once
-        self.assertEqual(mock_req.call_count, 1)
+        self.assertEqual(mock_req.call_count, 2)
         self.assertEqual(res1, res2)
+
+    def test_missing_widget_or_series_never_synthesizes_data(self):
+        """No TIMESERIES widget / empty series => NoLiveDataError, never random numbers."""
+        from hunter.provenance import NoLiveDataError
+
+        with patch.object(self.scraper.session, "request", return_value=self._resp({"widgets": []})):
+            with patch("time.sleep"):
+                self.scraper._cookie_primed = True
+                with self.assertRaises(NoLiveDataError):
+                    self.scraper.get_trend_analysis("no widget")
+
+        responses = [self._resp(self._explore()), self._resp(self._series([]))]
+        self.scraper._cache.clear()
+        with patch.object(self.scraper.session, "request", side_effect=responses):
+            with patch("time.sleep"):
+                with self.assertRaises(NoLiveDataError):
+                    self.scraper.get_trend_analysis("empty series")
 
     def test_cookie_priming_survives_429(self):
         """Verifies cookie priming endpoint returning 429 does not crash the scraper."""

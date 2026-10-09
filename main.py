@@ -47,7 +47,10 @@ from hunter.audit_engine import AuditEngine
 from hunter.dossier_generator import DossierGenerator
 from hunter.hunter_engine import HunterEngine
 from hunter.models import AuditResult, RawCandidate
-from hunter.scrapers.live_supplier_sync import LiveSupplierSync
+from hunter.dashboard_data import write_dashboard_files
+from hunter.provenance import LIVE, MOCK, NO_LIVE_DATA
+from hunter.scrapers.live_supplier_sync import VERIFIED_SUPPLIERS, LiveSupplierSync
+from hunter.user_products import load_user_products
 
 # Lazy/conditional import for visualizer
 try:
@@ -80,35 +83,65 @@ def setup_logging(verbose: bool = False, quiet: bool = False) -> None:
         logger.addHandler(handler)
 
 
+# Errors found in data/user_products.json during the last harvest (shown as red alerts in the panel).
+INPUT_ERRORS: List[str] = []
+
+
 def run_harvest_stage(
     data_dir: Path,
     offline_mode: bool = False,
     keywords: Optional[List[str]] = None,
+    scrape_suppliers: bool = False,
+    probe_all_sources: bool = False,
 ) -> Tuple[List[RawCandidate], Path]:
-    """Execute Stage 1: Prospecting across TikTok, Meta, Trends, and AliExpress."""
+    """Execute Stage 1: load operator products and enrich them with live signals.
+
+    Source of truth: data/user_products.json (read-only for the robot). If that file does not exist
+    (fresh checkout / tests), the legacy seed candidates in HunterEngine are used instead.
+    """
     logger.info("================================================================================")
-    logger.info(" [STAGE 1/4] PROSPECTING & MULTI-SOURCE EXTRACTION (HunterEngine)")
+    logger.info(" [STAGE 1/4] PRODUCTOS DEL OPERADOR + SEÑALES EN VIVO (HunterEngine)")
     logger.info("================================================================================")
-    logger.info(" Mode: %s", "Deterministic Offline Mock" if offline_mode else "Live Network Scraping")
+    logger.info(" Mode: %s", "Deterministic Offline Mock" if offline_mode else "Live")
 
     engine = HunterEngine(offline_mode=offline_mode)
-    candidates = engine.harvest(search_keywords=keywords, include_seeds=True)
-
-    if not offline_mode:
+    INPUT_ERRORS.clear()
+    products_path = data_dir / "user_products.json"
+    if products_path.exists():
         try:
-            logger.info(" [LIVE SYNC] Consultando precios reales en vivo desde proveedores Choice...")
-            syncer = LiveSupplierSync()
-            target_ids = {"steamfur-pro", "prosmile-ultrasonic", "spinerelief-pro", "aeroforce-x3"}
-            for cand in candidates:
-                if cand.candidate_id in target_ids:
-                    quote = syncer.fetch_live_quote(cand.candidate_id)
-                    cand.supplier_cost = quote.product_price_usd
-                    cand.shipping_cost = quote.shipping_cost_usd
-                    cand.shipping_carrier = quote.carrier
-                    cand.source_url = quote.source_url
-            logger.info(" [+] Sincronización en vivo completada exitosamente.")
-        except Exception as e:
-            logger.warning(" [LIVE SYNC] Sincronización en vivo no disponible (%s). Usando valores de referencia verificados.", e)
+            candidates, errors = load_user_products(products_path)
+        except (ValueError, OSError) as exc:  # unreadable JSON: stop, never fall back to stale data
+            raise RuntimeError(f"No se pudo leer {products_path}: {exc}") from exc
+        INPUT_ERRORS.extend(errors)
+        for err in errors:
+            logger.error(" [user_products.json] %s", err)
+        logger.info(" [+] %d productos leídos de %s", len(candidates), products_path)
+        candidates = engine.harvest_products(candidates, probe_all=probe_all_sources)
+    else:
+        logger.warning(" %s no existe: usando los candidatos semilla del código.", products_path)
+        candidates = engine.harvest(search_keywords=keywords, include_seeds=True)
+
+    if offline_mode:
+        for cand in candidates:
+            cand.data_status["supplier"] = MOCK
+        logger.warning(" [MOCK] Modo offline: TODOS los datos son fixtures. NO publicar estos resultados.")
+    elif scrape_suppliers:
+        os.environ["SCRAPE_ALIEXPRESS"] = "1"
+        logger.info(" [SUPPLIER] Leyendo precio y stock por variante en AliExpress (headless)...")
+        syncer = LiveSupplierSync(enabled=True)
+        for cand in candidates:
+            if cand.candidate_id not in VERIFIED_SUPPLIERS:
+                continue
+            quote = syncer.fetch_live_quote(cand.candidate_id)
+            if syncer.apply_quote(cand, quote):
+                cand.data_status["supplier"] = LIVE
+                logger.info(" [+] %s: %s $%.2f, stock %s", cand.candidate_id, quote.variant_name,
+                            quote.product_price_usd, quote.variant_stock)
+            else:
+                cand.data_status["supplier"] = NO_LIVE_DATA
+                logger.error(" [!] %s: SIN DATOS EN VIVO / variante no sana -> %s", cand.candidate_id, quote.reason)
+    else:
+        logger.info(" [SUPPLIER] Scraping de AliExpress apagado (por defecto): se usan costo y stock del operador.")
 
     candidates_path = data_dir / "candidates.json"
     engine.save_candidates(candidates, output_path=candidates_path)
@@ -213,7 +246,7 @@ Examples:
         "--offline",
         action="store_true",
         default=False,
-        help="Execute in 100%% deterministic offline fallback mode with local fixtures (zero network calls)",
+        help="DEV/TEST ONLY: MOCK fixtures, zero network calls. Results are stamped MOCK; never publish them.",
     )
 
     # Single-stage execution switches
@@ -250,6 +283,24 @@ Examples:
         default=None,
         metavar="PATH",
         help="Export structured audit results to JSON (default: data/audit_results.json)",
+    )
+    parser.add_argument(
+        "--scrape-suppliers",
+        action="store_true",
+        default=False,
+        help="Opt-in: leer precio/stock por variante en AliExpress con Chrome headless (apagado por defecto).",
+    )
+    parser.add_argument(
+        "--probe-all-sources",
+        action="store_true",
+        default=False,
+        help="Opt-in: consultar también TikTok/Meta/Freight (endpoints retirados; por defecto 'No disponible').",
+    )
+    parser.add_argument(
+        "--require-live",
+        action="store_true",
+        default=False,
+        help="Exit with code 3 if any source has no live data (or MOCK mode). Use in CI to avoid publishing stale results.",
     )
     parser.add_argument(
         "--generate-dossier",
@@ -321,7 +372,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     try:
         # Check single-stage triggers
         if args.harvest_only:
-            run_harvest_stage(data_dir=data_dir, offline_mode=args.offline, keywords=args.keywords)
+            run_harvest_stage(data_dir=data_dir, offline_mode=args.offline, keywords=args.keywords,
+                              scrape_suppliers=args.scrape_suppliers, probe_all_sources=args.probe_all_sources)
             print("\n[SUCCESS] Stage 1 (Harvest) completed successfully.")
             return 0
 
@@ -329,7 +381,8 @@ def main(argv: Optional[List[str]] = None) -> int:
             candidates_path = data_dir / "candidates.json"
             if not candidates_path.exists():
                 logger.info("candidates.json not found; running harvest first...")
-                candidates, _ = run_harvest_stage(data_dir=data_dir, offline_mode=args.offline, keywords=args.keywords)
+                candidates, _ = run_harvest_stage(data_dir=data_dir, offline_mode=args.offline, keywords=args.keywords,
+                              scrape_suppliers=args.scrape_suppliers, probe_all_sources=args.probe_all_sources)
             else:
                 with open(candidates_path, "r", encoding="utf-8") as f:
                     raw_data = json.load(f)
@@ -368,6 +421,8 @@ def main(argv: Optional[List[str]] = None) -> int:
             data_dir=data_dir,
             offline_mode=args.offline,
             keywords=args.keywords,
+            scrape_suppliers=args.scrape_suppliers,
+            probe_all_sources=args.probe_all_sources,
         )
 
         # 2. Audit
@@ -376,6 +431,12 @@ def main(argv: Optional[List[str]] = None) -> int:
             data_dir=data_dir,
             export_json_path=args.export_json,
         )
+
+        # 3a. Data health + dashboard payload for index.html
+        files = write_dashboard_files(audit_results, data_dir, offline=args.offline, input_errors=INPUT_ERRORS)
+        health = json.loads(files["health"].read_text(encoding="utf-8"))
+        for alert in health["alerts"]:
+            logger.error(" 🔴 %s", alert)
 
         # 3. Visualize
         run_visualize_stage(
@@ -401,6 +462,9 @@ def main(argv: Optional[List[str]] = None) -> int:
         logger.info(" 5. Winner Dossier     : %s", dossier_path)
         logger.info("================================================================================")
         print(f"\n[SUCCESS] End-to-End Execution Complete. Winner dossier ready at: {dossier_path}")
+        if args.require_live and (health["has_failures"] or health["is_mock"]):
+            print("\n[FAIL] --require-live: hay fuentes sin datos en vivo o modo MOCK.")
+            return 3
         return 0
 
     except Exception as exc:

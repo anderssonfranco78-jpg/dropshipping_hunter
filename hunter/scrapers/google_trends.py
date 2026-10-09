@@ -6,7 +6,8 @@ Implements:
 - 3-Month Momentum calculation:
     M = (Mean(Last 14 Days) - Mean(Prior 45 Days)) / Mean(Prior 45 Days) * 100%
 - Breakout query detection (> 5,000% growth)
-- 24-hour local caching and deterministic offline fallback
+- 24-hour local caching
+- NO synthetic data: if Google blocks us, NoLiveDataError is raised ("Sin datos en vivo")
 """
 
 from __future__ import annotations
@@ -18,6 +19,7 @@ import time
 import urllib.parse
 from typing import Any, Dict, List, Optional, Tuple
 
+from hunter.provenance import LIVE, MOCK, NoLiveDataError
 from hunter.scrapers.base import BaseScraper
 
 logger = logging.getLogger("hunter.scrapers.google_trends")
@@ -104,26 +106,52 @@ class GoogleTrendsScraper(BaseScraper):
             "category": 0,
             "property": "",
         }
-        explore_url = f"{self.BASE_URL}/explore"
-        params = {
-            "hl": "en-US",
-            "tz": "360",
-            "req": json.dumps(req_obj),
-        }
+        common = {"hl": "en-US", "tz": "360"}
 
         # Pacing jitter to prevent rapid 429 triggers
         time.sleep(random.uniform(0.5, 1.2))
 
-        response_data = self.fetch_json(
-            url=explore_url,
+        # Step 1: explore -> widget tokens
+        explore = self.fetch_json(
+            url=f"{self.BASE_URL}/explore",
             method="GET",
-            params=params,
+            params={**common, "req": json.dumps(req_obj)},
             fallback_key=keyword,
         )
+        widget = next(
+            (w for w in explore.get("widgets", []) if w.get("id") == "TIMESERIES"), None
+        )
+        if not widget or "token" not in widget or "request" not in widget:
+            raise NoLiveDataError(self.name, f"explore sin widget TIMESERIES para '{keyword}'")
 
-        analysis = self._process_trends_payload(keyword, response_data)
+        # Step 2: multiline -> the real interest-over-time series
+        time.sleep(random.uniform(0.5, 1.2))
+        series = self.fetch_json(
+            url=f"{self.BASE_URL}/widgetdata/multiline",
+            method="GET",
+            params={**common, "req": json.dumps(widget["request"]), "token": widget["token"]},
+            fallback_key=keyword,
+        )
+        timeline_values = self.parse_timeline(series)
+        if not timeline_values:
+            raise NoLiveDataError(self.name, f"serie vacía para '{keyword}'")
+
+        analysis = self._process_trends_payload(
+            keyword, {"timeline_values": timeline_values}
+        )
         self._cache[cache_key] = analysis
         return analysis
+
+    @staticmethod
+    def parse_timeline(payload: Dict[str, Any]) -> List[int]:
+        """Extract the interest-over-time values from a widgetdata/multiline payload."""
+        points = (payload.get("default") or {}).get("timelineData") or []
+        values: List[int] = []
+        for point in points:
+            vals = point.get("value") or []
+            if vals:
+                values.append(int(vals[0]))
+        return values
 
     def _process_trends_payload(
         self, keyword: str, payload: Dict[str, Any]
@@ -138,8 +166,7 @@ class GoogleTrendsScraper(BaseScraper):
         breakout_queries = payload.get("breakout_queries", [])
 
         if not timeline_values:
-            # Generate synthetic realistic timeline if widgets were not fully queried
-            timeline_values = [random.randint(40, 95) for _ in range(90)]
+            raise NoLiveDataError(self.name, f"sin serie temporal real para '{keyword}'")
 
         # Calculate momentum slope:
         # Last 14 days vs prior 45 days
@@ -151,8 +178,10 @@ class GoogleTrendsScraper(BaseScraper):
             recent_14 = timeline_values[midpoint:]
             prior_45 = timeline_values[:midpoint]
 
-        mean_recent = sum(recent_14) / len(recent_14) if recent_14 else 50.0
-        mean_prior = sum(prior_45) / len(prior_45) if prior_45 else 50.0
+        if not recent_14 or not prior_45:
+            raise NoLiveDataError(self.name, f"serie demasiado corta para '{keyword}'")
+        mean_recent = sum(recent_14) / len(recent_14)
+        mean_prior = sum(prior_45) / len(prior_45)
 
         if mean_prior > 0:
             momentum_pct = round(((mean_recent - mean_prior) / mean_prior) * 100.0, 1)
@@ -169,7 +198,7 @@ class GoogleTrendsScraper(BaseScraper):
             "mean_recent": round(mean_recent, 1),
             "mean_prior": round(mean_prior, 1),
             "timeline_data": timeline_values[-14:],
-            "status": "VALIDATED",
+            "status": LIVE,
         }
 
         logger.info(
@@ -321,7 +350,7 @@ class GoogleTrendsScraper(BaseScraper):
                     "mean_recent": fixture["mean_recent"],
                     "mean_prior": fixture["mean_prior"],
                     "timeline_data": [50, 52, 55, 60, 65, 70, 75, 78, 80, 82, 85, 87, 89, int(fixture["mean_recent"])],
-                    "status": "VALIDATED",
+                    "status": MOCK,
                 }
 
         # Default fallback for uncataloged keywords
@@ -333,5 +362,5 @@ class GoogleTrendsScraper(BaseScraper):
             "mean_recent": 52.0,
             "mean_prior": 46.2,
             "timeline_data": [45, 46, 48, 50, 50, 51, 52, 53, 52, 52, 53, 52, 52, 52],
-            "status": "VALIDATED",
+            "status": MOCK,
         }
