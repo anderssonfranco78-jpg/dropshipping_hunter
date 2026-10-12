@@ -2,9 +2,21 @@ name: 🤖 Dropshipping Hunter Cloud Bot
 
 on:
   schedule:
-    # Se ejecuta todos los días a las 12:00 UTC (06:00 AM hora de El Salvador)
-    - cron: '0 12 * * *'
-  workflow_dispatch: # Permite presionar un botón en GitHub para ejecutarlo manualmente cuando quieras
+    # Cada 6 horas: 00:00, 06:00, 12:00 y 18:00 UTC = 6 p. m., 12 a. m., 6 a. m. y 12 p. m. en El Salvador.
+    # Google Trends se consulta como máximo una vez al día por término (data/trends_cache.json).
+    - cron: '0 0,6,12,18 * * *'
+  # Botón «Actualizar» del panel del teléfono (API de GitHub) o «Run workflow» en la web.
+  workflow_dispatch:
+  # Al guardar un producto desde el teléfono o cambiar el código. Los commits del robot y del PC llevan
+  # [skip ci], así que nunca se dispara a sí mismo.
+  push:
+    branches: [main]
+    paths:
+      - 'data/user_products.json'
+      - 'data/radar_ideas.json'
+      - 'hunter/**'
+      - 'main.py'
+      - '.github/workflows/actualizar_tendencias.yml'
 
 concurrency:
   group: hunter-cloud-bot
@@ -16,6 +28,7 @@ permissions:
 jobs:
   actualizar-tendencias:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
       - name: Descargar código del repositorio

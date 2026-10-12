@@ -56,9 +56,19 @@ def load_state(data_dir: Path) -> Dict[str, Any]:
         return {"ideas": {}}
 
 
+RADAR_TRENDS_FRESH_HOURS = 72  # a category's weekly curve barely moves in 3 days: spare Google
+
+
 def run_radar(data_dir: Path, trends_scraper, youtube_scraper, batch: int = BATCH,
-              rising_per_run: int = RISING_PER_RUN, google_paused: bool = False) -> Dict[str, Any]:
-    """Measure the stalest ideas and persist data/radar.json. Never raises for a source failure."""
+              rising_per_run: int = RISING_PER_RUN, google_paused: bool = False,
+              trends_fn=None, rising_fn=None) -> Dict[str, Any]:
+    """Measure the stalest ideas and persist data/radar.json. Never raises for a source failure.
+
+    ``trends_fn(keyword, fresh_hours=...)`` / ``rising_fn(keyword)`` let the engine share its Google cache,
+    circuit breaker and block pause with the radar (main.py passes HunterEngine._trends / .rising).
+    """
+    trends_fn = trends_fn or (lambda kw, fresh_hours=None: trends_scraper.get_trend_analysis(kw))
+    rising_fn = rising_fn or trends_scraper.rising_queries
     ideas = load_ideas(data_dir)
     state = load_state(data_dir)
     measured = state["ideas"]
@@ -81,18 +91,19 @@ def run_radar(data_dir: Path, trends_scraper, youtube_scraper, batch: int = BATC
         tk = idea.get("trends_keyword")
         if tk and google_ok:
             try:
-                t = trends_scraper.get_trend_analysis(tk)
+                t = trends_fn(tk, fresh_hours=RADAR_TRENDS_FRESH_HOURS)
                 entry["trends"] = {k: t.get(k) for k in ("momentum_pct", "low_volume", "peak_ratio", "mean_recent")}
                 entry["trends_series"] = (t.get("timeline_data") or [])[-26:]
                 entry["trends_status"] = LIVE
-                entry["trends_at"] = _now()
-                if rising_left > 0:
+                entry["trends_at"] = t.get("_measured_at") or _now()
+                if rising_left > 0 and not t.get("_cached"):
                     rising_left -= 1
-                    entry["rising"] = trends_scraper.rising_queries(tk)
+                    entry["rising"] = rising_fn(tk)
                     entry["rising_at"] = _now()
             except NoLiveDataError as exc:
-                entry["trends_status"] = NO_LIVE_DATA
-                google_ok = "429" not in str(exc)  # rate limited: leave Google alone for this run
+                if not entry.get("trends"):  # an older real measurement stays visible with its date
+                    entry["trends_status"] = NO_LIVE_DATA
+                google_ok = "429" not in str(exc) and "bloque" not in str(exc)  # leave Google alone this run
                 logger.warning("[radar] %s trends: %s", iid, exc)
             except Exception as exc:
                 entry["trends_status"] = NO_LIVE_DATA

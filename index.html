@@ -595,6 +595,7 @@
     <nav class="nav">
       <button type="button" data-help><i data-lucide="circle-help"></i>¿Cómo funciona?</button>
       <button type="button" data-phone><i data-lucide="smartphone"></i>Verlo en el teléfono</button>
+      <button type="button" data-connect><i data-lucide="github"></i>Conectar con GitHub</button>
       <button type="button" data-new><i data-lucide="plus"></i>Evaluar producto nuevo</button>
       <a href="dossier_productos_ganadores.md" target="_blank" rel="noopener"><i data-lucide="file-text"></i>Guiones completos (dossier)</a>
     </nav>
@@ -1346,7 +1347,8 @@
     var nm = idea ? idea.name : c.name, vk = idea ? idea.video_keyword : c.video_keyword, tk = idea ? idea.trends_keyword : c.trends_keyword;
     $('formBody').innerHTML = '<div class="dlg-head"><div><h2><i data-lucide="' + (isNew ? 'plus' : 'pencil') + '"></i>' + (isNew ? 'Evaluar producto nuevo' : 'Editar ' + esc(shortName(c.name))) + '</h2>' +
       '<p>' + (isNew ? 'Busca el producto en DSers y copia aquí sus números. Al guardar, el Hunter lo mide y lo ubica en el ranking.' : 'Cambia lo que veas distinto en DSers. Al guardar, el Hunter recalcula todo.') + '</p></div><button type="button" class="icon-btn" data-close="formModal" aria-label="Cerrar"><i data-lucide="x"></i></button></div>' +
-      '<form class="dlg-body" id="pForm" novalidate>' + (CAN_EDIT ? '' : '<p class="msg warn"><i data-lucide="monitor"></i>' + (MODE === 'cloud' ? 'Desde el teléfono no se puede guardar directo: copia el producto y pégalo en GitHub (botón abajo), o guárdalo desde el panel de tu PC.' : 'Para guardar abre el Hunter en tu PC (ícono «Dropshipping Hunter» del escritorio).') + '</p>') +
+      '<form class="dlg-body" id="pForm" novalidate>' + (CAN_EDIT ? '' : ghToken() ? '<p class="msg ok"><i data-lucide="cloud"></i>Se guardará en GitHub y el robot de la nube lo medirá (3–5 min).</p>' :
+        '<p class="msg warn"><i data-lucide="plug"></i><span>Para guardar desde aquí conecta este dispositivo con GitHub (una sola vez) o usa el panel de tu PC. <button type="button" class="link" data-connect>Conectar ahora</button></span></p>') +
       '<div class="fgrid">' +
         '<label class="fld full"><span>Nombre del producto</span><input type="text" name="name" required value="' + v(nm) + '" placeholder="Ej. FurFresh — Cat Water Fountain"></label>' +
         '<label class="fld"><span>Nicho</span><input type="text" name="category" value="' + v(idea ? idea.niche : c.category) + '" placeholder="Mascotas, Hogar, Salud…"></label>' +
@@ -1371,8 +1373,7 @@
       '</div></div>' +
       '<div class="preview" id="fPreview"></div>' +
       '<div class="form-acts">' + (isNew ? '' : '<button type="button" class="btn btn-red left" id="fDelete"><i data-lucide="trash-2"></i>Quitar del ranking</button>') +
-        (CAN_EDIT ? '' : '<button type="button" class="btn" id="fCopy"><i data-lucide="copy"></i>Copiar producto</button><a class="btn" href="' + esc(repoUrl('/edit/main/data/user_products.json')) + '" target="_blank" rel="noopener"><i data-lucide="github"></i>Pegar en GitHub</a>') +
-        '<button type="submit" class="btn btn-lime"' + (CAN_EDIT ? '' : ' disabled') + '><i data-lucide="save"></i>' + (isNew ? 'Guardar y evaluar' : 'Guardar y recalcular') + '</button></div></form>';
+        '<button type="submit" class="btn btn-lime"' + (canSave() ? '' : ' disabled') + '><i data-lucide="save"></i>' + (isNew ? 'Guardar y evaluar' : 'Guardar y recalcular') + '</button></div></form>';
     openDlg($('formModal'));
     var form = $('pForm');
     var outs = function () { form.querySelectorAll('[data-out]').forEach(function (o) { var k = o.dataset.out, x = fnum(form, k); o.textContent = k === 'demo_visual_speed_sec' ? x + ' s' : x + '/100'; }); };
@@ -1391,7 +1392,6 @@
       if (!btn.dataset.armed) { btn.dataset.armed = '1'; btn.innerHTML = '<i data-lucide="trash-2"></i>¿Seguro? Toca otra vez'; icons(); setTimeout(function () { if (btn.isConnected) { delete btn.dataset.armed; btn.innerHTML = '<i data-lucide="trash-2"></i>Quitar del ranking'; icons(); } }, 4000); return; }
       postProduct({ id: c.candidate_id, _delete: true }, shortName(c.name) + ' quitado del ranking');
     };
-    if ($('fCopy')) $('fCopy').onclick = function () { var b = formBody(form, r); if (b) copy(JSON.stringify(b, null, 2), 'Producto copiado: pégalo dentro de "products" en GitHub'); };
   }
   function formBody(form, r) {
     var name = String(fval(form, 'name') || '').trim(), srp = fnum(form, 'srp_usd'), cost = fnum(form, 'unit_cost_usd'), ship = fnum(form, 'shipping_cost_usd');
@@ -1411,7 +1411,7 @@
   }
   function submitForm(form, r) { var b = formBody(form, r); if (b) postProduct(b, r ? 'Cambios guardados' : 'Producto agregado'); }
   async function postProduct(body, okMsg, noRefresh) {
-    if (!CAN_EDIT) { toast(MODE === 'cloud' ? 'Desde la nube no se puede guardar: usa «Copiar producto» → GitHub, o el panel de tu PC' : 'Abre el Hunter en tu PC para guardar', 'warn', 6000); return false; }
+    if (!CAN_EDIT) { if (ghToken()) return cloudPost(body, okMsg, noRefresh); openConnect(false); return false; }
     try {
       var res = await fetch('api/product', { method: 'POST', headers: { 'X-Hunter': '1', 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
       var j = await res.json().catch(function () { return {}; });
@@ -1426,7 +1426,7 @@
   async function toggleStore(id) {
     var r = byId(id); if (!r) return;
     var to = !r.candidate.in_store;
-    if (!CAN_EDIT) { toast(MODE === 'cloud' ? 'Esto se guarda desde el panel de tu PC (o editando en GitHub «en_tienda»)' : 'Abre el Hunter en tu PC para guardar', 'warn', 6000); return; }
+    if (!canSave()) { openConnect(false); return; }
     if (await postProduct({ id: id, en_tienda: to }, to ? shortName(r.candidate.name) + ' marcado en tu tienda' : shortName(r.candidate.name) + ' quitado de tu tienda', true)) {
       r.candidate.in_store = to; renderAll(false);
       if (to) setCheck(id, 'store', true);
@@ -1441,10 +1441,11 @@
     var cloud = MODE === 'cloud';
     showRefresh(head(cloud ? 'cloud' : 'plug-zap', cloud ? 'Estás viendo la versión en la nube' : 'El motor de tu PC está apagado') +
       '<div class="dlg-body">' + (cloud
-        ? '<p style="margin:0">Desde el teléfono no se puede encender tu PC. Así se actualiza este panel:</p><ol class="steps"><li><b>Solo, cada día a las 6:00 a. m.</b> (El Salvador) el robot de GitHub mide todo y publica aquí.</li><li><b>Cuando tu PC actualiza</b> (motor encendido), los datos suben a GitHub y aparecen aquí en 1–2 minutos.</li><li><b>Forzarlo ahora</b>: botón de abajo → «Run workflow» (necesitas tu sesión de GitHub).</li></ol>' +
-          '<div style="display:flex;flex-wrap:wrap;gap:8px"><a class="btn btn-lime" href="' + esc(repoUrl('/actions/workflows/actualizar_tendencias.yml')) + '" target="_blank" rel="noopener"><i data-lucide="play"></i>Actualizar en la nube</a><button type="button" class="btn" id="reReadBtn"><i data-lucide="refresh-cw"></i>Releer datos ahora</button></div>'
+        ? '<p style="margin:0">Aquí quien mide es el <b>robot de la nube</b> (GitHub), aunque tu PC esté apagada:</p><ol class="steps"><li><b>Solo, cada 6 horas</b>: 6 a. m., 12 p. m., 6 p. m. y 12 a. m. (El Salvador).</li><li><b>Cuando tú quieras</b>: botón «Actualizar» → enciende el robot al instante y ves su avance aquí (3–5 min).</li><li><b>Cuando tu PC mide</b>, sus datos también llegan aquí.</li></ol>' +
+          '<p class="msg warn" style="margin:0"><i data-lucide="plug"></i>Para que «Actualizar» encienda el robot desde este teléfono, conéctalo con GitHub una sola vez.</p>' +
+          '<div style="display:flex;flex-wrap:wrap;gap:8px"><button type="button" class="btn btn-lime" data-connect="refresh"><i data-lucide="github"></i>Conectar y actualizar</button><button type="button" class="btn" id="reReadBtn"><i data-lucide="refresh-cw"></i>Releer datos ahora</button></div>'
         : '<p style="margin:0">El panel no mide nada por sí solo: quien mide es el <b>motor del Hunter</b>, un programa que corre escondido en tu PC.</p><ol class="steps"><li>Doble clic en <b>«Dropshipping Hunter»</b> en tu escritorio. Se abre este panel ya conectado.</li><li>Desde ahí, «Actualizar ahora» funciona y los datos suben solos a tu teléfono.</li></ol><p class="note">El motor arranca solo cada vez que enciendes la computadora. Si lo cerraste, el ícono del escritorio lo vuelve a encender (no abre ventanas negras).</p>' +
-          '<div style="display:flex;flex-wrap:wrap;gap:8px"><a class="btn btn-lime" href="' + LOCAL + '"><i data-lucide="plug"></i>Ya lo encendí: conectar</a><button type="button" class="btn" id="reReadBtn"><i data-lucide="refresh-cw"></i>Releer datos</button></div>') + '</div>', true);
+          '<div style="display:flex;flex-wrap:wrap;gap:8px"><a class="btn btn-lime" href="' + LOCAL + '"><i data-lucide="plug"></i>Ya lo encendí: conectar</a>' + (ghToken() ? '<button type="button" class="btn" data-cloudrun><i data-lucide="cloud"></i>Mejor, usar la nube</button>' : '') + '<button type="button" class="btn" id="reReadBtn"><i data-lucide="refresh-cw"></i>Releer datos</button></div>') + '</div>', true);
     $('reReadBtn').onclick = function () { closeDlg(rm); reloadData(true).then(function (ch) { toast(ch ? 'Datos nuevos cargados' : 'Ya tienes lo más reciente', ch ? 'ok' : 'info'); }); };
   }
   function fmtElapsed(st) { var s = Math.max(0, Math.round(((st.finished_at || Date.now() / 1000) - (st.started_at || Date.now() / 1000)))); return Math.floor(s / 60) + ' min ' + (s % 60) + ' s'; }
@@ -1459,8 +1460,8 @@
     CAN_EDIT = !!(st && st.can_edit);
     if (!st) {
       var cloud = MODE === 'cloud';
-      chip.className = 'chip' + (cloud ? ' info' : ''); chip.innerHTML = '<span class="ping ' + (cloud ? 'info' : 'off') + '"></span>' + (cloud ? 'Nube · auto 6 a. m.' : 'Motor del PC apagado');
-      chip.title = cloud ? 'Versión en GitHub Pages. Toca para ver cómo se actualiza.' : 'Toca para ver cómo encenderlo'; ping.className = 'ping ' + (cloud ? 'info' : 'off'); lbl.textContent = cloud ? 'Nube' : 'Motor apagado';
+      chip.className = 'chip' + (cloud ? ' info' : ''); chip.innerHTML = '<span class="ping ' + (cloud ? 'info' : 'off') + '"></span>' + (cloud ? (ghToken() ? 'Nube conectada' : 'Nube · cada 6 h') : 'Motor del PC apagado');
+      chip.title = cloud ? (ghToken() ? 'El botón Actualizar enciende el robot de GitHub' : 'Se actualiza cada 6 h. Toca para conectar el botón Actualizar') : 'Toca para ver cómo encenderlo'; ping.className = 'ping ' + (cloud ? 'info' : 'off'); lbl.textContent = cloud ? 'Nube' : 'Motor apagado';
     } else if (st.running) { chip.className = 'chip warn'; chip.innerHTML = '<span class="ping warn"></span>Midiendo… ' + fmtElapsed(st); chip.title = 'El Hunter mide en segundo plano'; ping.className = 'ping warn'; lbl.textContent = 'Midiendo…'; }
     else {
       var sy = st.sync || {};
@@ -1480,6 +1481,7 @@
     setCent(st);
     if (!st) {
       if (fromAuto) { var ch = await reloadData(false); if (ch) toast('Llegaron datos nuevos', 'ok', 4500); }
+      else if (MODE === 'cloud' && ghToken()) { closeDlg(rm); cloudRefresh(); }
       else showNoMotor();
       return;
     }
@@ -1529,6 +1531,139 @@
     });
   }
 
+
+  /* ---------- Nube: el robot de GitHub, lanzado desde el teléfono ----------
+     El panel del teléfono es una página estática: para encender el robot usa la API de GitHub con un permiso
+     (token) que el dueño crea UNA vez y queda guardado solo en ese teléfono (localStorage). El permiso solo
+     sirve para este repositorio: Actions (lanzar el robot) y Contents (guardar productos). */
+  var WF = 'actualizar_tendencias.yml', TOKEN_KEY = 'hunter-gh-token';
+  function repoSlug() { var m = location.hostname.match(/^(.+)\.github\.io$/), repo = location.pathname.split('/')[1]; return m && repo ? m[1] + '/' + repo : REPO; }
+  function ghToken() { return String(store.get(TOKEN_KEY, '') || ''); }
+  function canSave() { return CAN_EDIT || !!ghToken(); }
+  var sleep = function (ms) { return new Promise(function (r) { setTimeout(r, ms); }); };
+  async function gh(path, opt) {
+    opt = opt || {};
+    var h = { 'Accept': 'application/vnd.github+json', 'Authorization': 'Bearer ' + ghToken(), 'X-GitHub-Api-Version': '2022-11-28' };
+    if (opt.body) h['Content-Type'] = 'application/json';
+    var r = await fetch('https://api.github.com/repos/' + repoSlug() + path, { method: opt.method || 'GET', headers: h, body: opt.body ? JSON.stringify(opt.body) : undefined, cache: 'no-store' });
+    var j = null; try { j = r.status === 204 ? {} : await r.json(); } catch (e) {}
+    if (!r.ok) { var err = new Error(r.status === 401 ? 'el permiso de GitHub ya no es válido (vuelve a conectar)' : r.status === 403 || r.status === 404 ? 'al permiso le falta acceso a este repositorio (Actions y Contents: Read and write)' : (j && j.message) || 'HTTP ' + r.status); err.status = r.status; throw err; }
+    return j;
+  }
+  function tokenUrl() {
+    var owner = repoSlug().split('/')[0], q = function (x) { return encodeURIComponent(x); };
+    return 'https://github.com/settings/personal-access-tokens/new?name=' + q('Hunter telefono') + '&description=' + q('Boton Actualizar y guardar productos del panel Hunter') +
+      '&target_name=' + q(owner) + '&expires_in=366&actions=write&contents=write';
+  }
+  function openConnect(thenRefresh) {
+    var on = !!ghToken();
+    $('infoBody').innerHTML = head('github', on ? 'Teléfono conectado con GitHub' : 'Conectar el teléfono con GitHub (una sola vez)').replace('refreshModal', 'infoModal') +
+      '<div class="dlg-body">' + (on ? '<p class="msg ok" style="margin:0"><i data-lucide="check"></i>Listo: «Actualizar» enciende el robot de GitHub y puedes guardar productos desde aquí.</p>' : '') +
+      '<p style="margin:0">Así el botón <b>Actualizar</b> enciende el robot de GitHub al instante y puedes <b>guardar productos</b> desde el teléfono, sin tu PC.</p>' +
+      '<ol class="steps"><li>Toca <b>«Crear permiso»</b>: GitHub abre el formulario ya rellenado (nombre y permisos <b>Actions</b> y <b>Contents</b>).</li>' +
+      '<li>En <b>Repository access</b> elige <b>Only select repositories</b> → <b>' + esc(repoSlug().split('/')[1]) + '</b>.</li>' +
+      '<li>Abajo toca <b>Generate token</b> y copia el código (empieza con <code>github_pat_</code>).</li><li>Pégalo aquí y toca <b>Conectar</b>.</li></ol>' +
+      '<div style="display:flex;flex-wrap:wrap;gap:8px"><a class="btn" href="' + esc(tokenUrl()) + '" target="_blank" rel="noopener"><i data-lucide="key-round"></i>Crear permiso</a></div>' +
+      '<label class="fld"><span>Código del permiso</span><input type="password" id="ghTok" autocomplete="off" placeholder="github_pat_…"></label>' +
+      '<div style="display:flex;flex-wrap:wrap;gap:8px"><button type="button" class="btn btn-lime" id="ghSave"><i data-lucide="plug"></i>Conectar</button>' + (on ? '<button type="button" class="btn btn-red" id="ghOff"><i data-lucide="unplug"></i>Desconectar este teléfono</button>' : '') + '</div>' +
+      '<p class="note">El código queda guardado <b>solo en este teléfono</b> y solo sirve para este proyecto (lanzar el robot y guardar productos). Puedes borrarlo cuando quieras en GitHub → Settings → Developer settings → Personal access tokens.</p></div>';
+    openDlg($('infoModal'));
+    $('ghSave').onclick = async function () {
+      var tok = String($('ghTok').value || '').trim();
+      if (!/^(github_pat_|ghp_)[A-Za-z0-9_]{20,}$/.test(tok)) { toast('Ese código no parece un permiso de GitHub (empieza con github_pat_)', 'warn', 6000); return; }
+      var prev = ghToken(); store.set(TOKEN_KEY, tok);
+      try { await gh('/actions/workflows/' + WF); }
+      catch (e) { store.set(TOKEN_KEY, prev); toast('No funcionó: ' + e.message, 'bad', 8000); return; }
+      closeDlg($('infoModal')); setCent(null); toast('Teléfono conectado con GitHub', 'ok', 4000);
+      if (thenRefresh) cloudRefresh();
+    };
+    if ($('ghOff')) $('ghOff').onclick = function () { store.set(TOKEN_KEY, ''); closeDlg($('infoModal')); setCent(null); toast('Teléfono desconectado de GitHub', 'info'); };
+  }
+  var cloud = null;
+  function cloudView() {
+    if (!cloud) return;
+    var s = Math.round((Date.now() - cloud.t0) / 1000), el = Math.floor(s / 60) + ' min ' + (s % 60) + ' s';
+    var step = function (k, txt) { var order = ['start', 'run', 'publish', 'done'], i = order.indexOf(cloud.phase), j = order.indexOf(k); return '<div><span class="sdot ' + (cloud.error && i === j ? 'bad' : i > j ? 'ok' : i === j ? 'warn' : 'off') + '"></span><span>' + txt + '</span></div>'; };
+    var title = cloud.error ? 'El robot de la nube falló' : cloud.phase === 'done' ? 'Listo: datos nuevos en tu teléfono' : 'El robot de la nube está midiendo…';
+    showRefresh(head(cloud.error ? 'octagon-x' : cloud.phase === 'done' ? 'check-circle-2' : 'loader', title, cloud.error ? 'red' : 'lime') +
+      '<div class="dlg-body"><div class="vlist">' + step('start', 'Encender el robot en GitHub') + step('run', 'Medir YouTube, Google y el Radar' + (cloud.stepName ? ' · <span class="muted">' + esc(cloud.stepName) + '</span>' : '')) +
+      step('publish', 'Publicar en tu teléfono') + '</div><p class="note" style="margin:0">Tiempo: ' + el + ' · suele tardar 3–5 min. Puedes cerrar esto: el panel se actualiza solo al terminar.</p>' +
+      (cloud.error ? '<p class="msg bad" style="margin:0"><i data-lucide="triangle-alert"></i>' + esc(cloud.error) + '</p>' : '') +
+      (cloud.url ? '<a class="link" href="' + esc(cloud.url) + '" target="_blank" rel="noopener">Ver el detalle en GitHub</a>' : '') + '</div>', cloud.open);
+    cloud.open = false;
+  }
+  async function cloudRefresh(sinceCommit) {
+    if (!ghToken()) { openConnect(true); return; }
+    if (cloud && !cloud.finished) { cloud.open = true; cloudView(); return; }
+    cloud = { t0: Date.now(), phase: 'start', open: true };
+    cloudView();
+    var c = cloud, prevGen = (D.health || {}).generated_at;
+    try {
+      if (!sinceCommit) await gh('/actions/workflows/' + WF + '/dispatches', { method: 'POST', body: { ref: 'main' } });
+      var since = (sinceCommit || c.t0) - 60000, run = null;
+      for (var i = 0; i < 40 && !run; i++) {
+        await sleep(4000);
+        var list = await gh('/actions/workflows/' + WF + '/runs?per_page=5');
+        run = (list.workflow_runs || []).filter(function (x) { return Date.parse(x.created_at) >= since; })[0] || null;
+      }
+      if (!run) throw new Error('GitHub no arrancó el robot. Revisa en GitHub → Actions que el flujo esté activo.');
+      c.phase = 'run'; c.url = run.html_url; cloudView();
+      while (run.status !== 'completed') {
+        await sleep(5000);
+        run = await gh('/actions/runs/' + run.id);
+        try { var jobs = await gh('/actions/runs/' + run.id + '/jobs'); var st = ((jobs.jobs || [])[0] || {}).steps || []; var cur = st.filter(function (x) { return x.status === 'in_progress'; })[0]; c.stepName = cur ? cur.name : c.stepName; } catch (e) {}
+        cloudView();
+        if (Date.now() - c.t0 > 25 * 60000) throw new Error('El robot tarda más de lo normal. Revisa el detalle en GitHub.');
+      }
+      if (run.conclusion !== 'success') throw new Error('El robot terminó con error (' + run.conclusion + '). Tus datos anteriores siguen intactos.');
+      c.phase = 'publish'; c.stepName = ''; cloudView();
+      for (var k = 0; k < 36; k++) {
+        await reloadData(false);
+        if ((D.health || {}).generated_at !== prevGen) break;
+        await sleep(10000);
+      }
+      c.phase = 'done'; c.finished = true; cloudView();
+      var su = D.summary || {};
+      toast('Nube actualizada · ' + (su.launch || 0) + ' de ' + (su.total || 0) + ' cumplen todo', 'ok', 6000);
+    } catch (e) {
+      c.error = e.message; c.finished = true; cloudView();
+      if (!rm.open) toast('Nube: ' + e.message, 'bad', 8000);
+    }
+  }
+  function b64d(s) { var bin = atob(String(s).replace(/\s/g, '')), bytes = new Uint8Array(bin.length); for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i); return new TextDecoder().decode(bytes); }
+  function b64e(str) { var bytes = new TextEncoder().encode(str), bin = ''; for (var i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000)); return btoa(bin); }
+  function slugify(t) { return String(t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 48) || 'producto'; }
+  /* Mismo resultado que save_product() de centinela_local.py, pero escrito con la API de GitHub. */
+  async function cloudSaveProduct(body, msg) {
+    var f = await gh('/contents/data/user_products.json?ref=main'), raw = JSON.parse(b64d(f.content)), items = Array.isArray(raw) ? raw : raw.products;
+    var id = body.id, idx = -1;
+    items.forEach(function (p, i) { if (p.id === id) idx = i; });
+    if (body._delete) { if (idx < 0) throw new Error('ese producto no existe'); items.splice(idx, 1); }
+    else {
+      var item = idx >= 0 ? JSON.parse(JSON.stringify(items[idx])) : {};
+      if (idx < 0) { id = slugify(body.video_keyword || body.name); if (items.some(function (p) { return p.id === id; })) throw new Error('ya existe un producto con id «' + id + '»'); item.id = id; }
+      Object.keys(body).forEach(function (k) {
+        if (k === 'id' || k === '_delete') return;
+        item[k] = (k === 'shipping' || k === 'rule_inputs') && body[k] ? Object.assign({}, item[k] || {}, body[k]) : body[k];
+      });
+      if (!item.source_url) item.source_url = aliSearch(item.video_keyword || item.name);
+      if (idx >= 0) items[idx] = item; else items.push(item);
+    }
+    var t = Date.now();
+    await gh('/contents/data/user_products.json', { method: 'PUT', body: { message: '📱 ' + msg + ' (desde el teléfono)', content: b64e(JSON.stringify(raw, null, 2) + '\n'), sha: f.sha, branch: 'main' } });
+    return { id: id, t: t };
+  }
+  async function cloudPost(body, okMsg, noRefresh) {
+    try {
+      var res = await cloudSaveProduct(body, okMsg);
+      closeDlg($('formModal'));
+      if (body.id === undefined && res.id) { state.sel = res.id; store.set('hunter-sel', res.id); }
+      toast(okMsg + ' · guardado en GitHub; la nube lo recalcula (3–5 min)', 'ok', 6000);
+      if (!noRefresh) cloudRefresh(res.t);   // el commit enciende el robot (workflow con «push»); aquí solo se sigue
+      return true;
+    } catch (e) { toast('No se guardó: ' + e.message, 'bad', 8000); if (e.status === 401) openConnect(false); return false; }
+  }
+
   /* ---------- actualización automática ---------- */
   var AUTO_OPTS = [0, 1, 2, 3, 6, 12, 24];
   var autoH = parseInt(store.get('hunter-auto-hours', '6'), 10); if (AUTO_OPTS.indexOf(autoH) < 0) autoH = 6;
@@ -1566,14 +1701,14 @@
       ['LANZAR', 'PROBAR', 'VIGILAR', 'DESCARTAR', 'MANTENER', 'RETIRAR'].map(function (k) { return '<div>' + vdBadge({ code: k, why: VD[k].short }) + '<span class="muted">' + VD[k].short + '</span></div>'; }).join('') + '</div>' +
       '<ol class="steps" start="4"><li><b>Tú lo lanzas</b>: lo buscas en DSers, eliges proveedor AliExpress Choice, lo publicas en Shopify y creas una cuenta por plataforma (YouTube Shorts, Instagram Reels, Facebook Reels).</li>' +
       '<li><b>Sigue vigilando</b>: márcalo «En mi tienda». Si sus números caen 3 corridas seguidas, te dice «Retirar». El Radar mientras busca los próximos.</li></ol>' +
-      '<p class="note">El motor corre en tu PC (arranca solo con Windows) y además un robot en GitHub actualiza todo cada día a las 6:00 a. m. aunque tu PC esté apagada.</p></div>';
+      '<p class="note">El motor corre en tu PC (arranca solo con Windows) y además un robot en GitHub actualiza todo cada 6 horas aunque tu PC esté apagada; desde el teléfono también puedes encenderlo con «Actualizar».</p></div>';
     openDlg($('infoModal'));
   }
   function openPhone() {
     $('infoBody').innerHTML = head('smartphone', 'Verlo en el teléfono').replace('refreshModal', 'infoModal') +
       '<div class="dlg-body"><p style="margin:0">Abre este enlace en el navegador de tu teléfono y guárdalo en la pantalla de inicio («Agregar a inicio»):</p>' +
       '<p style="margin:0"><code>' + PAGES + '</code></p><div style="display:flex;flex-wrap:wrap;gap:8px"><button type="button" class="btn btn-lime" id="cpPhone"><i data-lucide="copy"></i>Copiar enlace</button><a class="btn" href="' + PAGES + '" target="_blank" rel="noopener"><i data-lucide="external-link"></i>Abrir</a></div>' +
-      '<p class="note">Se actualiza solo: cada día 6:00 a. m. desde GitHub y cada vez que tu PC termina una medición. Desde el teléfono puedes ver todo; para guardar costos o marcar «En mi tienda» usa el panel de tu PC.</p></div>';
+      '<p class="note">Se actualiza solo cada 6 horas desde GitHub y cada vez que tu PC termina una medición. Conecta el teléfono con GitHub (una vez) para que «Actualizar» encienda el robot y puedas guardar productos desde ahí.</p><button type="button" class="btn" data-connect><i data-lucide="github"></i>Conectar con GitHub</button></div>';
     openDlg($('infoModal'));
     $('cpPhone').onclick = function () { copy(PAGES, 'Enlace copiado'); };
   }
@@ -1599,7 +1734,7 @@
 
   /* ---------- eventos ---------- */
   document.addEventListener('click', function (e) {
-    var t = e.target.closest('[data-close],[data-pick],[data-detail],[data-edit],[data-eval],[data-new],[data-store],[data-copytext],[data-eye],[data-src],[data-chip],[data-vd],[data-help],[data-phone],[data-tab],[data-row]');
+    var t = e.target.closest('[data-close],[data-pick],[data-detail],[data-edit],[data-eval],[data-new],[data-store],[data-copytext],[data-eye],[data-src],[data-chip],[data-vd],[data-help],[data-phone],[data-tab],[data-row],[data-connect],[data-cloudrun]');
     if (!t) return;
     if (t.dataset.close) { closeDlg($(t.dataset.close)); if (!t.dataset.edit) return; }
     if (t.dataset.store) { e.preventDefault(); toggleStore(t.dataset.store); return; }
@@ -1616,6 +1751,8 @@
     else if (t.dataset.vd) { state.vd = t.dataset.vd; renderRanking(); }
     else if (t.hasAttribute('data-help')) { closeSide(); openHelp(); }
     else if (t.hasAttribute('data-phone')) { closeSide(); openPhone(); }
+    else if (t.hasAttribute('data-connect')) { closeSide(); closeDlg(rm); closeDlg($('formModal')); openConnect(t.dataset.connect === 'refresh'); }
+    else if (t.hasAttribute('data-cloudrun')) { closeDlg(rm); cloudRefresh(); }
     else if (t.dataset.tab) setView(t.dataset.tab, true);
   });
   document.addEventListener('change', function (e) {
@@ -1641,7 +1778,7 @@
   $('dockRefresh').addEventListener('click', function () { startRefresh(false); });
   $('centChip').addEventListener('click', async function () {
     var st = await getStatus(); setCent(st);
-    if (!st) showNoMotor();
+    if (!st) { if (MODE === 'cloud' && ghToken()) { if (cloud && !cloud.finished) { cloud.open = true; cloudView(); } else openConnect(false); } else showNoMotor(); }
     else if (st.running) { showRefresh(head('loader', 'El Hunter está midiendo…', 'lime') + '<div class="dlg-body">' + logBox(st) + '</div>', true); if (!polling) poll(); }
     else toast('Motor listo' + (st.sync ? ' · Teléfono: ' + st.sync.message : ''), 'ok', 5000);
   });
@@ -1677,6 +1814,7 @@
   var dayKey = new Date().toDateString();
   setInterval(function () {
     renderSync(); renderAuto(); checkAuto(); if (scanSince) renderScanLbl();
+    if (cloud && !cloud.finished && rm.open) cloudView();
     var k = new Date().toDateString(); if (k !== dayKey) { dayKey = k; renderAll(false); }
   }, 1000);
   async function heartbeat() { if (polling) return; var st = await getStatus(); if (st) MODE = 'local'; setCent(st); if (st && st.running && !polling) poll(); }

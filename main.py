@@ -152,7 +152,7 @@ def run_harvest_stage(
         logger.info(" [RADAR] Midiendo ideas nuevas (YouTube Shorts + Google Trends)...")
         try:
             state = run_radar(data_dir, engine.trends_scraper, engine.youtube_scraper,
-                              google_paused=engine.google_paused)
+                              google_paused=engine.google_paused, trends_fn=engine._trends, rising_fn=engine.rising)
             logger.info(" [RADAR] %d ideas con medición guardada en data/radar.json", len(state["ideas"]))
         except Exception as exc:  # the radar must never break the main evaluation
             logger.error(" [RADAR] falló sin afectar la evaluación: %s", exc)

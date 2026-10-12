@@ -15,6 +15,7 @@ import argparse
 import json
 import logging
 import os
+import random
 import re
 import sys
 import time
@@ -72,6 +73,7 @@ class HunterEngine:
         # Last REAL Google measurement per keyword (data/trends_cache.json). Used, dated, when Google
         # refuses a run, so a rate limit does not reshuffle the ranking. Never older than 7 days.
         self.trends_cache: Dict[str, Dict[str, Any]] = {}
+        self._last_google = 0.0
         self.timeout = timeout
         
         self.tiktok_scraper = TikTokCreativeScraper(offline_mode=offline_mode, timeout=timeout)
@@ -464,6 +466,7 @@ class HunterEngine:
                                      if k in trends_res}
             if trends_res.get("_cached"):
                 candidate.trends_meta["measured_at"] = trends_res.get("_measured_at")
+                candidate.trends_meta["cache"] = trends_res.get("_why", "respaldo")
         else:
             candidate.trends_series = None  # failed / not queried: never keep a stale series
             candidate.trends_labels = None
@@ -484,27 +487,75 @@ class HunterEngine:
                 candidate.shipping_cost = freight_res["shipping_cost"]
 
 
-    TRENDS_CACHE_DAYS = 7
+    # Google Trends is WEEKLY data: asking more than once a day per term adds nothing and gets the network
+    # flagged ("unusual traffic" + CAPTCHA). The cache (data/trends_cache.json) is shared by the PC and the
+    # cloud robot through git, so whoever runs first measures and the other reuses it.
+    TRENDS_CACHE_DAYS = 7        # dated fallback when Google refuses
+    TRENDS_FRESH_HOURS = 20      # younger than this: reuse, do not ask Google again
+    BLOCK_PAUSE_HOURS = 6        # after a 429/CAPTCHA on the PC, leave Google alone this long
+    GOOGLE_GAP_SEC = (4.0, 7.0)  # spacing between two real Google lookups
 
-    def _trends(self, keyword: str) -> Dict[str, Any]:
-        """Google Trends with a circuit breaker (after one 429 the run skips Google) and a dated fallback."""
+    @staticmethod
+    def _in_cloud() -> bool:
+        return os.environ.get("GITHUB_ACTIONS") == "true"
+
+    def _block_key(self) -> str:
+        return "__bloqueo_nube__" if self._in_cloud() else "__bloqueo_pc__"
+
+    def google_blocked_until(self) -> float:
+        if self._in_cloud():  # cloud runners get a new IP every run: a past block does not apply
+            return 0.0
+        return float((self.trends_cache.get(self._block_key()) or {}).get("until_ts", 0.0))
+
+    def _trends(self, keyword: str, fresh_hours: Optional[float] = None) -> Dict[str, Any]:
+        """Google Trends: fresh cache first, then ONE careful request, then a dated fallback.
+
+        Never retries a refusal in the same run (circuit breaker) and, on the PC, pauses Google for
+        BLOCK_PAUSE_HOURS after a 429/CAPTCHA so the block can expire instead of getting longer.
+        """
         key = keyword.lower().strip()
+        cached = self.trends_cache.get(key)
+        age = time.time() - (cached or {}).get("_measured_ts", 0)
+        fresh = (fresh_hours if fresh_hours is not None else self.TRENDS_FRESH_HOURS) * 3600
+        if not self.offline_mode and cached and age <= fresh:
+            return dict(cached, _cached=True, _why="reciente")
         try:
             if self.google_paused:
                 raise NoLiveDataError("GoogleTrendsScraper", "Google pidió una pausa (HTTP 429): no se insiste en esta corrida")
+            if self.google_blocked_until() > time.time():
+                raise NoLiveDataError("GoogleTrendsScraper", "Google bloqueó temporalmente esta red (CAPTCHA): se respeta la pausa")
+            if not self.offline_mode:
+                wait = random.uniform(*self.GOOGLE_GAP_SEC) - (time.time() - self._last_google)
+                if wait > 0:
+                    time.sleep(wait)
+                self._last_google = time.time()
             result = self.trends_scraper.get_trend_analysis(keyword=keyword)
         except NoLiveDataError as exc:
             if "429" in str(exc):
                 self.google_paused = True
-            cached = self.trends_cache.get(key)
-            if not self.offline_mode and cached and time.time() - cached.get("_measured_ts", 0) <= self.TRENDS_CACHE_DAYS * 86400:
+                if not self._in_cloud() and not self.offline_mode:
+                    self.trends_cache[self._block_key()] = {
+                        "until_ts": time.time() + self.BLOCK_PAUSE_HOURS * 3600,
+                        "at": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime())}
+            if not self.offline_mode and cached and age <= self.TRENDS_CACHE_DAYS * 86400:
                 logger.warning(f"Google no respondió para '{keyword}': se usa su medición real del {cached.get('_measured_at')}")
-                return dict(cached, _cached=True)
+                return dict(cached, _cached=True, _why="respaldo")
             raise
         if not self.offline_mode and result.get("status") == LIVE:
             self.trends_cache[key] = dict(result, _measured_ts=time.time(),
                                           _measured_at=time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()))
         return result
+
+    def rising(self, keyword: str) -> List[Dict[str, str]]:
+        """Google's rising searches, only when Google is answering in this run (one extra request)."""
+        if self.google_paused or self.google_blocked_until() > time.time() or self.offline_mode:
+            return []
+        try:
+            return self.trends_scraper.rising_queries(keyword)
+        except NoLiveDataError as exc:
+            if "429" in str(exc):
+                self.google_paused = True
+            return []
 
     def load_trends_cache(self, path: Union[str, Path]) -> None:
         try:
@@ -514,8 +565,9 @@ class HunterEngine:
             self.trends_cache = {}
 
     def save_trends_cache(self, path: Union[str, Path]) -> None:
-        cutoff = time.time() - self.TRENDS_CACHE_DAYS * 86400
-        keep = {k: v for k, v in self.trends_cache.items() if v.get("_measured_ts", 0) >= cutoff}
+        cutoff, now = time.time() - self.TRENDS_CACHE_DAYS * 86400, time.time()
+        keep = {k: v for k, v in self.trends_cache.items()
+                if v.get("_measured_ts", 0) >= cutoff or v.get("until_ts", 0) > now}
         Path(path).write_text(json.dumps(keep, ensure_ascii=False, indent=1), encoding="utf-8")
 
     def _measure_youtube(self, candidate: RawCandidate) -> None:

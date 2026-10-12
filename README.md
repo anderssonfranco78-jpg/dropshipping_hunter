@@ -32,9 +32,11 @@ El stock **no hace falta anotarlo**: DSers lo revisa al importar y lo sincroniza
 | Dónde | Cuándo | Qué hace |
 |---|---|---|
 | **Tu PC** (motor / centinela) | Arranca solo con Windows, sin ventanas. Botón «Actualizar ahora» o cada N horas | Mide, recalcula y **sube los datos a GitHub** para tu teléfono |
-| **GitHub Actions** (nube) | Todos los días 06:00 (El Salvador), aunque tu PC esté apagada | Lo mismo, y publica en el panel del teléfono |
+| **GitHub Actions** (nube) | Cada 6 h (6 a. m., 12 p. m., 6 p. m., 12 a. m.; GitHub puede retrasarlo varias horas), al guardar un producto desde el teléfono, o **al instante con «Actualizar» en el teléfono** | Lo mismo, y publica en el panel del teléfono |
 
-Google a veces pide una pausa (HTTP 429) si se le pregunta mucho seguido: el Hunter deja de insistir en esa corrida y usa la última medición real de Google (máximo 7 días, con su fecha).
+**Botón «Actualizar» en el teléfono:** la primera vez toca «Conectar con GitHub», crea el permiso (el enlace ya viene rellenado; elige el repositorio `dropshipping_hunter`) y pega el código. Queda guardado solo en ese teléfono. Desde ahí «Actualizar» enciende el robot y muestra su avance, y puedes guardar productos sin la PC.
+
+**Google:** sus datos son semanales, así que el Hunter pregunta **una vez al día por término** y comparte esa medición entre PC y nube (`data/trends_cache.json`). Si Google bloquea la red (429 / CAPTCHA por «tráfico inusual»), no insiste: en el PC hace una pausa de 6 h y usa la última medición real (máx. 7 días, con su fecha). La nube cambia de IP en cada corrida.
 
 ## Archivos
 

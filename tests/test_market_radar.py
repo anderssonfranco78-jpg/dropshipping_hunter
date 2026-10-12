@@ -120,6 +120,39 @@ class TestTrendsFallback(unittest.TestCase):
         self.assertIsNone(cand.trends_series)
 
 
+class TestGoogleCourtesy(unittest.TestCase):
+    """Google flags networks that ask too often (429 + CAPTCHA): ask once a day, pause after a block."""
+
+    def engine(self):
+        from hunter.hunter_engine import HunterEngine
+        e = HunterEngine(offline_mode=False)
+        e.GOOGLE_GAP_SEC = (0.0, 0.0)
+        return e
+
+    def test_fresh_measurement_is_reused_without_asking_google(self):
+        e = self.engine()
+        live = {"momentum_pct": 5.0, "timeline_data": [1, 2], "low_volume": False, "status": LIVE}
+        with patch.object(e.trends_scraper, "get_trend_analysis", return_value=live) as g:
+            e._trends("cat brush")
+            again = e._trends("Cat Brush ")
+        self.assertEqual(g.call_count, 1)
+        self.assertEqual(again["_why"], "reciente")
+
+    def test_block_pauses_google_on_the_pc_but_not_in_the_cloud(self):
+        import os
+        e = self.engine()
+        refused = NoLiveDataError("GoogleTrendsScraper", "HTTP 429 (rate limit)")
+        with patch.dict(os.environ, {"GITHUB_ACTIONS": ""}),              patch.object(e.trends_scraper, "get_trend_analysis", side_effect=refused) as g:
+            for kw in ("a", "b", "c"):
+                with self.assertRaises(NoLiveDataError):
+                    e._trends(kw)
+            self.assertEqual(g.call_count, 1)                 # circuit breaker: one refusal per run
+            self.assertGreater(e.google_blocked_until(), 0)  # remembered for the next runs on this PC
+        e.google_paused = False
+        with patch.dict(os.environ, {"GITHUB_ACTIONS": "true"}):
+            self.assertEqual(e.google_blocked_until(), 0.0)   # the cloud gets a new IP every run
+
+
 class TempDir(unittest.TestCase):
     def setUp(self):
         self.tmp = Path(tempfile.mkdtemp())
