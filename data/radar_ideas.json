@@ -1,0 +1,42 @@
+{
+  "_instrucciones": [
+    "Universo de ideas del Radar. El robot mide cada idea (YouTube Shorts + Google Trends) por turnos, unas pocas por corrida.",
+    "Aquí NO van costos: el costo sale de DSers cuando decides evaluar una idea (botón 'Evaluar' del panel).",
+    "video_keyword = cómo lo llama la gente en videos (en inglés, EE. UU.). trends_keyword = la categoría amplia que sí se busca en Google.",
+    "Puedes agregar o quitar ideas libremente: copia un bloque, cambia el id y las palabras."
+  ],
+  "ideas": [
+    {"id": "cat-water-fountain", "name": "Fuente de agua para gatos", "niche": "Mascotas", "video_keyword": "cat water fountain", "trends_keyword": "cat water fountain", "why": "Dolor real (gatos que no beben), demo visual inmediata"},
+    {"id": "dog-paw-cleaner", "name": "Limpiador de patas para perro", "niche": "Mascotas", "video_keyword": "dog paw cleaner cup", "trends_keyword": "dog paw cleaner", "why": "Antes/después en 3 s, problema diario (barro en casa)"},
+    {"id": "lick-mat", "name": "Tapete lamedor para ansiedad", "niche": "Mascotas", "video_keyword": "dog lick mat", "trends_keyword": "lick mat", "why": "Ansiedad del perro, barato de enviar, no frágil"},
+    {"id": "laser-cat-toy", "name": "Juguete láser automático para gato", "niche": "Mascotas", "video_keyword": "automatic laser cat toy", "trends_keyword": "cat toy", "why": "Reacción del gato = WOW instantáneo"},
+    {"id": "pet-hair-roller", "name": "Rodillo quita-pelo reutilizable", "niche": "Mascotas / Hogar", "video_keyword": "pet hair remover roller", "trends_keyword": "pet hair remover", "why": "Demo satisfactoria, dolor diario en sofás"},
+    {"id": "spin-scrubber", "name": "Cepillo eléctrico giratorio", "niche": "Limpieza", "video_keyword": "electric spin scrubber", "trends_keyword": "spin scrubber", "why": "Limpieza satisfactoria en video, ahorra esfuerzo"},
+    {"id": "magnetic-window-cleaner", "name": "Limpiavidrios magnético doble cara", "niche": "Limpieza", "video_keyword": "magnetic window cleaner", "trends_keyword": "window cleaner", "why": "WOW visual, difícil de encontrar en tienda física"},
+    {"id": "shower-filter", "name": "Filtro de ducha para agua dura", "niche": "Belleza / Hogar", "video_keyword": "shower head filter", "trends_keyword": "shower filter", "why": "Dolor (caída de cabello, piel seca), demo del filtro sucio"},
+    {"id": "portable-blender", "name": "Licuadora portátil USB", "niche": "Cocina", "video_keyword": "portable blender", "trends_keyword": "portable blender", "why": "Clásico probado; medir si sigue vivo o saturado"},
+    {"id": "veggie-chopper", "name": "Picador de verduras manual", "niche": "Cocina", "video_keyword": "vegetable chopper", "trends_keyword": "vegetable chopper", "why": "Demo de 3 s, ahorra tiempo diario"},
+    {"id": "oil-sprayer", "name": "Atomizador de aceite de cocina", "niche": "Cocina", "video_keyword": "oil sprayer for cooking", "trends_keyword": "oil sprayer", "why": "Air fryer en tendencia, bajo costo, no frágil (plástico)"},
+    {"id": "milk-frother", "name": "Espumador de leche eléctrico", "niche": "Cocina", "video_keyword": "electric milk frother", "trends_keyword": "milk frother", "why": "Café en casa, demo rápida"},
+    {"id": "red-light-wand", "name": "Varita de luz roja facial", "niche": "Belleza", "video_keyword": "red light therapy wand", "trends_keyword": "red light therapy", "why": "Tendencia skincare, ticket medio-alto"},
+    {"id": "scalp-massager", "name": "Masajeador eléctrico de cuero cabelludo", "niche": "Belleza / Bienestar", "video_keyword": "electric scalp massager", "trends_keyword": "scalp massager", "why": "Reacción relajante en video, regalo fácil"},
+    {"id": "ice-roller", "name": "Rodillo de hielo facial", "niche": "Belleza", "video_keyword": "ice roller face", "trends_keyword": "ice roller", "why": "Hinchazón matutina, demo visual"},
+    {"id": "posture-corrector", "name": "Corrector de postura", "niche": "Salud", "video_keyword": "posture corrector", "trends_keyword": "posture corrector", "why": "Dolor de espalda de oficina; ojo: puede requerir tallas"},
+    {"id": "neck-stretcher", "name": "Estirador cervical", "niche": "Salud", "video_keyword": "neck stretcher cervical traction", "trends_keyword": "neck stretcher", "why": "Dolor agudo de cuello, misma lógica que SpineRelief"},
+    {"id": "foot-massager", "name": "Masajeador de pies eléctrico", "niche": "Salud / Bienestar", "video_keyword": "foot massager machine", "trends_keyword": "foot massager", "why": "Dolor de pies (trabajos de pie), ticket alto"},
+    {"id": "heated-eye-massager", "name": "Masajeador de ojos con calor", "niche": "Bienestar", "video_keyword": "heated eye massager", "trends_keyword": "eye massager", "why": "Pantallas + migraña, reacción en video"},
+    {"id": "mini-massage-gun", "name": "Mini pistola de masaje", "niche": "Fitness", "video_keyword": "mini massage gun", "trends_keyword": "massage gun", "why": "Dolor muscular, demo visual de la piel vibrando"},
+    {"id": "car-gap-filler", "name": "Relleno del hueco del asiento del carro", "niche": "Auto", "video_keyword": "car seat gap filler", "trends_keyword": "car seat gap filler", "why": "Dolor universal (cosas que caen), barato"},
+    {"id": "cordless-car-vacuum", "name": "Aspiradora inalámbrica para carro", "niche": "Auto", "video_keyword": "cordless car vacuum", "trends_keyword": "car vacuum", "why": "Antes/después satisfactorio"},
+    {"id": "magsafe-car-mount", "name": "Soporte magnético para celular (carro)", "niche": "Auto / Tech", "video_keyword": "magnetic phone car mount", "trends_keyword": "car phone mount", "why": "Demo de 1 s; ojo: muy competido"},
+    {"id": "magnetic-power-bank", "name": "Batería magnética inalámbrica", "niche": "Tech", "video_keyword": "magnetic power bank", "trends_keyword": "magnetic power bank", "why": "Uso diario; revisar reglas de envío de baterías"},
+    {"id": "sunset-lamp", "name": "Lámpara de atardecer", "niche": "Hogar / Decoración", "video_keyword": "sunset lamp", "trends_keyword": "sunset lamp", "why": "Puro WOW visual; medir si ya pasó la moda"},
+    {"id": "galaxy-projector", "name": "Proyector de galaxia", "niche": "Hogar / Niños", "video_keyword": "galaxy projector", "trends_keyword": "galaxy projector", "why": "WOW visual nocturno, regalo"},
+    {"id": "sleep-headband", "name": "Banda bluetooth para dormir", "niche": "Bienestar / Tech", "video_keyword": "sleep headphones headband", "trends_keyword": "sleep headphones", "why": "Insomnio / ronquidos de pareja"},
+    {"id": "baby-nail-trimmer", "name": "Lima de uñas eléctrica para bebé", "niche": "Bebés", "video_keyword": "baby nail trimmer electric", "trends_keyword": "baby nail trimmer", "why": "Miedo a cortar al bebé = dolor emocional fuerte"},
+    {"id": "lcd-drawing-tablet", "name": "Pizarra LCD para niños", "niche": "Niños", "video_keyword": "lcd writing tablet kids", "trends_keyword": "lcd writing tablet", "why": "Reemplaza papel, demo instantánea"},
+    {"id": "solar-garden-lights", "name": "Luces solares de jardín", "niche": "Jardín", "video_keyword": "solar garden lights", "trends_keyword": "solar lights", "why": "Transformación antes/después de noche; estacional"},
+    {"id": "camping-lantern", "name": "Linterna de camping recargable", "niche": "Exterior", "video_keyword": "rechargeable camping lantern", "trends_keyword": "camping lantern", "why": "Apagones/huracanes en EE. UU., utilidad clara"},
+    {"id": "electric-lint-remover", "name": "Quitapelusas eléctrico de ropa", "niche": "Hogar", "video_keyword": "fabric shaver lint remover", "trends_keyword": "lint remover", "why": "Demo muy satisfactoria, ropa 'como nueva'"}
+  ]
+}

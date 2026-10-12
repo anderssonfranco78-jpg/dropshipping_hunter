@@ -8,7 +8,10 @@ Each product (see data/user_products.json for a full example):
 
     id, name, category, source_url, srp_usd, unit_cost_usd, shipping_cost_usd   (required)
     target_variant_name, verified_stock, verified_date (YYYY-MM-DD), notes       (stock check)
-    trends_keyword                                                               (Google Trends)
+    trends_keyword   (category term for Google Trends, e.g. "cat brush")         (Google Trends)
+    video_keyword    (product phrase for YouTube Shorts, e.g. "steamy cat brush") (YouTube Shorts)
+    en_tienda        (true if it is published in the Shopify store right now)    (keep / retire)
+    image_url  (optional: https URL or relative path like assets/images/x.webp)  (panel photo slot)
     shipping {days_min, days_max, carrier}                                       (logistics)
     rule_inputs {demo_visual_speed_sec, pain_level_score, retail_availability_score,
                  has_fragile_material, has_sizing_requirements,
@@ -51,6 +54,21 @@ def stock_status(verified_stock: Optional[int], verified_date: Optional[str], to
     return STOCK_OK
 
 
+def clean_image_url(value: Any) -> Optional[str]:
+    """Validate the optional photo for the panel slot: https/http URL or a relative project path."""
+    if value in (None, ""):
+        return None
+    if not isinstance(value, str):
+        raise ValueError("image_url debe ser texto (URL https:// o ruta como assets/images/x.webp)")
+    url = value.strip().replace("\\", "/")
+    lowered = url.lower()
+    if lowered.startswith(("https://", "http://")):
+        return url
+    if ":" in url.split("/")[0] or url.startswith("/") or ".." in url.split("/"):
+        raise ValueError(f"image_url '{value}' no es válida: usa https://… o una ruta como assets/images/x.webp")
+    return url
+
+
 def product_to_candidate(item: Dict[str, Any], today: Optional[date] = None) -> RawCandidate:
     """Map one user_products.json entry to a RawCandidate. Raises ValueError with a clear message."""
     missing = [f for f in REQUIRED_FIELDS if item.get(f) in (None, "")]
@@ -66,6 +84,7 @@ def product_to_candidate(item: Dict[str, Any], today: Optional[date] = None) -> 
         status = stock_status(stock, vdate, today)
     except ValueError:
         raise ValueError(f"verified_date '{vdate}' no tiene formato AAAA-MM-DD")
+    image_url = clean_image_url(item.get("image_url"))
 
     ship = item.get("shipping") or {}
     data_status = default_status()
@@ -99,6 +118,9 @@ def product_to_candidate(item: Dict[str, Any], today: Optional[date] = None) -> 
         stock_status=status,
         trends_keyword=item.get("trends_keyword"),
         notes=item.get("notes"),
+        image_url=image_url,
+        video_keyword=(str(item["video_keyword"]).strip() or None) if item.get("video_keyword") else None,
+        in_store=bool(item.get("en_tienda", False)),
     )
     errors = candidate.validate()
     if errors:

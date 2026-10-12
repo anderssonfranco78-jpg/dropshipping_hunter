@@ -3,9 +3,12 @@
     "Este archivo es TUYO: el robot (local o GitHub) solo lo lee, nunca lo escribe.",
     "Para agregar un producto copia un bloque completo de 'products', cambia el 'id' y los valores.",
     "Costos en USD con envío a EE. UU.: unit_cost_usd (precio de la variante) + shipping_cost_usd.",
-    "Stock: anota verified_stock (unidades de la variante elegida) y verified_date (AAAA-MM-DD). Vence a los 7 días.",
-    "Menos de 100 unidades = KO-STOCK (descalificado). Sin stock o sin fecha = no puede ser Ganador.",
-    "rule_inputs son tus puntuaciones de las 7 Reglas de Oro (Nota 07): el robot no las mide, las calcula a partir de ellas."
+    "Stock (opcional): verified_stock (unidades de la variante) y verified_date (AAAA-MM-DD). Menos de 100 unidades = KO-STOCK (descalificado).",
+    "rule_inputs son tus puntuaciones de las 7 Reglas de Oro (Nota 07): el robot no las mide, las calcula a partir de ellas.",
+    "trends_keyword = categoría amplia que la gente busca en Google (ej. 'cat brush'); video_keyword = cómo se llama el producto en videos (ej. 'steamy cat brush'), se mide en YouTube Shorts.",
+    "en_tienda = true si ya lo vendes en Shopify: el Hunter te dirá MANTENER o RETIRAR según sus números (puedes marcarlo desde el panel).",
+    "Si no anotas stock no pasa nada: DSers confirma proveedor e inventario cuando importas el producto a Shopify.",
+    "Foto (opcional): agrega \"image_url\": \"assets/images/steamfur.webp\" (o una URL https:// de Shopify). Sin image_url el panel muestra el slot vacío. Ver assets/images/README.md."
   ],
   "products": [
     {
@@ -20,7 +23,9 @@
       "verified_stock": 994,
       "verified_date": "2026-10-08",
       "notes": "Variante verde mango con cerdas naranja. Precio de página $4.73 + envío $3.54 = $8.27 (bitácora §24.3). Stock leído en vivo el 2026-10-08: green 994 uds; yellow solo 17 uds (descartada).",
-      "trends_keyword": "steamy pet brush",
+      "trends_keyword": "cat brush",
+      "video_keyword": "steamy cat brush",
+      "en_tienda": false,
       "description": "Conical silicone pet brush with integrated cold ion ultrasonic mist that neutralizes static and allows peeling off shed pet hair in a single solid sheet in 2 seconds.",
       "shipping": {
         "days_min": 7,
@@ -60,7 +65,9 @@
       "verified_stock": null,
       "verified_date": null,
       "notes": "Costo SIN verificar (estimación de la semilla). Verificar precio con envío a EE. UU. y stock de la variante.",
-      "trends_keyword": "dental calculus",
+      "trends_keyword": "plaque remover",
+      "video_keyword": "ultrasonic tooth cleaner",
+      "en_tienda": false,
       "description": "Home dental hygiene scaler with 40 kHz acoustic micro-vibrations and bioelectric sensor that shatters solid calculus instantly while stopping automatically on gums.",
       "shipping": {
         "days_min": 7,
@@ -101,6 +108,8 @@
       "verified_date": null,
       "notes": "ALERTA: lectura en vivo del 2026-10-08 mostró sus 3 variantes por debajo de 100 uds (no quedaron registrados los números exactos). Verificar y anotar el stock real: si es < 100 quedará bloqueado (KO-STOCK).",
       "trends_keyword": "lumbar traction",
+      "video_keyword": "lumbar traction belt",
+      "en_tienda": false,
       "description": "Clinical-grade inflatable lumbar traction belt with 24 pneumatic columns providing 2.5 bar decompression for L1-L5 vertebrae and acute sciatica nerve relief.",
       "shipping": {
         "days_min": 8,
@@ -144,7 +153,9 @@
       "verified_stock": null,
       "verified_date": null,
       "notes": "Costo SIN verificar (estimación de la semilla). Verificar precio con envío a EE. UU. y stock de la variante.",
-      "trends_keyword": "turbo jet fan",
+      "trends_keyword": "air duster",
+      "video_keyword": "turbo jet fan",
+      "en_tienda": false,
       "description": "Handheld micro-turbine jet fan with 130,000 RPM brushless motor delivering 52 m/s wind speed for contact-free car drying, detailing, and keyboard cleaning without swirl marks.",
       "shipping": {
         "days_min": 8,

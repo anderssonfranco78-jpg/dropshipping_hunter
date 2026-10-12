@@ -172,16 +172,12 @@ class TestStockGateInAudit(unittest.TestCase):
         self.assertIn("inventario frágil", r.tier_reasons[0])
         self.assertGreater(r.composite_score, 80)  # it WOULD have won: the gate is what blocks it
 
-    def test_expired_stock_downgrades_winner_to_conditional_contender(self):
-        r = self.audit(verified_date="2026-09-01")
-        self.assertEqual(r.tier, "CONTENDER")
-        self.assertIn("vencido", r.tier_reasons[0])
-        self.assertIn("condicional", r.tier_reasons[0])
-
-    def test_unverified_stock_cannot_be_winner(self):
-        r = self.audit(verified_stock=None, verified_date=None)
-        self.assertEqual(r.tier, "CONTENDER")
-        self.assertIn("sin verificar", r.tier_reasons[0])
+    def test_old_or_missing_stock_check_does_not_block_a_winner(self):
+        # The Hunter cannot read supplier stock; DSers confirms it at import. Only < 100 units blocks.
+        for over in ({"verified_date": "2026-09-01"}, {"verified_stock": None, "verified_date": None}):
+            r = self.audit(**over)
+            self.assertEqual(r.tier, "WINNER", over)
+            self.assertEqual(r.tier_reasons, [], over)
 
     def test_legacy_seed_candidates_are_unaffected(self):
         results = AuditEngine().audit_candidates(HunterEngine.get_seed_candidates())
@@ -211,11 +207,19 @@ class TestHealthAlerts(unittest.TestCase):
         self.assertEqual(h["sources"]["tiktok"][UNAVAILABLE], 1)
         self.assertFalse(h["has_failures"])
 
-    def test_ko_stock_is_red_and_expired_is_yellow(self):
-        h = self.health([product(id="a", verified_stock=17), product(id="b", verified_date="2026-09-01")])
+    def test_ko_stock_is_red_and_old_or_missing_stock_check_is_not_an_alert(self):
+        h = self.health([product(id="a", verified_stock=17), product(id="b", verified_date="2026-09-01"),
+                         product(id="c", verified_stock=None, verified_date=None)])
         self.assertTrue(any("KO-STOCK" in a for a in h["alerts_red"]))
-        self.assertTrue(any("vencido" in a for a in h["alerts_yellow"]))
+        self.assertEqual(h["alerts_yellow"], [])
         self.assertTrue(h["has_failures"])
+
+    def test_youtube_failure_is_yellow_not_red(self):
+        results = [AuditEngine().audit_candidate(product_to_candidate(product(), today=TODAY))]
+        results[0].candidate.data_status["youtube"] = NO_LIVE_DATA
+        h = build_health(results, offline=False)
+        self.assertEqual(h["alerts_red"], [])
+        self.assertTrue(any("YouTube" in a for a in h["alerts_yellow"]))
 
     def test_trends_failure_and_input_errors_are_red(self):
         results = [AuditEngine().audit_candidate(product_to_candidate(product(), today=TODAY))]
@@ -266,6 +270,35 @@ class TestHarvestProducts(unittest.TestCase):
         self.assertEqual(cand.shipping_cost, 3.54)
         self.assertEqual(cand.data_status["trends"], NO_LIVE_DATA)
         self.assertEqual(cand.data_status["freight"], "LIVE")
+
+    def test_real_trends_series_reaches_the_candidate_and_survives_roundtrip(self):
+        from hunter.models import RawCandidate
+
+        cand = product_to_candidate(product(), today=TODAY)
+        engine = HunterEngine(offline_mode=False)
+        series = [40, 42, 45, 50, 55, 60, 58, 61, 64, 70, 72, 75, 80, 83]
+        with patch.object(engine.trends_scraper, "get_trend_analysis",
+                          return_value={"momentum_pct": 30.0, "timeline_data": series}):
+            engine.harvest_products([cand])
+        self.assertEqual(cand.trends_series, series)
+        again = RawCandidate.from_dict(json.loads(cand.to_json()))
+        self.assertEqual(again.trends_series, series)
+
+    def test_failed_trends_never_keeps_a_stale_series(self):
+        cand = product_to_candidate(product(), today=TODAY)
+        cand.trends_series = [10, 20, 30]
+        engine = HunterEngine(offline_mode=False)
+        with patch.object(engine.trends_scraper, "get_trend_analysis", side_effect=NoLiveDataError("t", "429")):
+            engine.harvest_products([cand])
+        self.assertIsNone(cand.trends_series)
+        self.assertEqual(cand.data_status["trends"], NO_LIVE_DATA)
+
+    def test_malformed_series_points_are_dropped_not_fatal(self):
+        clean = HunterEngine._clean_series
+        self.assertEqual(clean([50, None, "x", 61.0, float("nan"), True, 70]), [50, 61, 70])
+        self.assertIsNone(clean([55]))          # one point is not a curve
+        self.assertIsNone(clean(None))
+        self.assertEqual(clean(list(range(60))), list(range(8, 60)))  # last 52 (one year of weeks)
 
 
 class TestScrapingOffByDefault(unittest.TestCase):
@@ -320,6 +353,46 @@ class TestPipelineRespectsOperatorFile(unittest.TestCase):
             self.assertIn("KO-STOCK", audit["thin"]["ko_gates_tripped"])
             js = (data / "dashboard_data.js").read_text("utf-8")
             self.assertTrue(js.startswith("window.HUNTER_DATA = "))
+        finally:
+            shutil.rmtree(tmp, ignore_errors=True)
+
+
+class TestProductImageSlot(unittest.TestCase):
+    """Optional photo for the panel's image slot: user_products.json -> candidate -> dashboard_data.js."""
+
+    def test_missing_image_means_empty_slot(self):
+        self.assertIsNone(product_to_candidate(product(), today=TODAY).image_url)
+        self.assertIsNone(product_to_candidate(product(image_url=""), today=TODAY).image_url)
+
+    def test_relative_path_and_https_url_are_kept_and_survive_roundtrip(self):
+        from hunter.models import RawCandidate
+
+        for url in ("assets/images/steamfur.webp", "https://cdn.shopify.com/s/files/1/steamfur.webp"):
+            cand = product_to_candidate(product(image_url=url), today=TODAY)
+            self.assertEqual(cand.image_url, url)
+            self.assertEqual(RawCandidate.from_dict(json.loads(cand.to_json())).image_url, url)
+        win = product_to_candidate(product(image_url=r"assets\images\steamfur.webp"), today=TODAY)
+        self.assertEqual(win.image_url, "assets/images/steamfur.webp")
+
+    def test_unsafe_image_values_are_reported_not_rendered(self):
+        for bad in ("javascript:alert(1)", "data:image/png;base64,AAAA", "../secret.png", "/etc/x.png", 42):
+            with self.assertRaises(ValueError, msg=repr(bad)):
+                product_to_candidate(product(image_url=bad), today=TODAY)
+
+    def test_image_reaches_the_dashboard_payload(self):
+        import main
+
+        tmp = Path(tempfile.mkdtemp())
+        try:
+            data = tmp / "data"
+            data.mkdir()
+            write_products(data, [product(image_url="assets/images/steamfur.webp"), product(id="nofoto")])
+            with patch.object(main, "PROJECT_ROOT", tmp), patch.object(main, "run_visualize_stage"),                  patch.object(main, "run_dossier_stage", return_value=tmp / "d.md"):
+                self.assertEqual(main.main(["--offline", "--data-dir", "data", "--quiet"]), 0)
+            js = (data / "dashboard_data.js").read_text("utf-8")
+            payload = json.loads(js[len("window.HUNTER_DATA = "):].rstrip().rstrip(";"))
+            imgs = {r["candidate"]["candidate_id"]: r["candidate"]["image_url"] for r in payload["results"]}
+            self.assertEqual(imgs, {"steamfur-pro": "assets/images/steamfur.webp", "nofoto": None})
         finally:
             shutil.rmtree(tmp, ignore_errors=True)
 

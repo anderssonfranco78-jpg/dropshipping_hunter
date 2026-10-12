@@ -22,7 +22,7 @@ STOCK_EXPIRED = "EXPIRED"        # verified more than N days ago -> re-verify
 STOCK_UNVERIFIED = "UNVERIFIED"  # no stock or no date recorded yet
 
 # Signals tracked per candidate
-SIGNALS = ("trends", "tiktok", "meta", "freight", "supplier")
+SIGNALS = ("trends", "youtube", "tiktok", "meta", "freight", "supplier")
 
 
 class NoLiveDataError(RuntimeError):

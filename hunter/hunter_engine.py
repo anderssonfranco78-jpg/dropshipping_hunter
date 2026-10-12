@@ -26,6 +26,7 @@ from hunter.scrapers.aliexpress_freight import AliExpressFreightScraper
 from hunter.scrapers.google_trends import GoogleTrendsScraper
 from hunter.scrapers.meta_ad_library import MetaAdLibraryScraper
 from hunter.scrapers.tiktok_creative import TikTokCreativeScraper
+from hunter.scrapers.youtube_shorts import YouTubeShortsScraper
 
 # Configure logging
 logger = logging.getLogger("hunter.engine")
@@ -54,14 +55,19 @@ class HunterEngine:
 
     DEFAULT_OUTPUT_PATH = Path(__file__).resolve().parent.parent / "data" / "candidates.json"
 
-    def __init__(self, offline_mode: bool = False, timeout: float = 12.0):
+    def __init__(self, offline_mode: bool = False, timeout: float = 12.0, youtube: bool = False):
         """Initialize HunterEngine with sub-scrapers.
         
         Args:
             offline_mode: DEV/TEST ONLY. Uses deterministic MOCK fixtures; results are stamped MOCK.
             timeout: Network timeout in seconds.
+            youtube: also measure YouTube Shorts per product (main.py turns it on; tests leave it off
+                so they never touch the network). Never queried in offline mode.
         """
         self.offline_mode = offline_mode
+        self.youtube_enabled = youtube and not offline_mode
+        self.youtube_scraper = YouTubeShortsScraper()
+        self.google_paused = False  # set on the first HTTP 429: Google is not asked again this run
         self.timeout = timeout
         
         self.tiktok_scraper = TikTokCreativeScraper(offline_mode=offline_mode, timeout=timeout)
@@ -380,6 +386,7 @@ class HunterEngine:
                 logger.info(f"Keyword '{kw}' no corresponde a ningún candidato conocido; se omite.")
                 continue
             self._enrich(candidate, kw, sources=("tiktok", "meta", "trends", "freight"), apply_freight_costs=True)
+            logger.info(f"[{candidate.candidate_id}] señales: {candidate.data_status}")
 
         result_list = list(candidates_map.values())
         logger.info(f"Harvest complete. Total candidates available: {len(result_list)}")
@@ -388,6 +395,17 @@ class HunterEngine:
     # Sources whose public endpoints are retired/blocked (404/403 as of Oct 2026). Not queried by
     # default: they are shown grey "No disponible" instead of a daily red alarm.
     RETIRED_SOURCES = ("tiktok", "meta", "freight")
+
+    @staticmethod
+    def _clean_series(series) -> Optional[List[int]]:
+        """Real Trends points (0-100, last 14) or None. Malformed points are dropped, never invented."""
+        if not isinstance(series, (list, tuple)):
+            return None
+        clean = [
+            int(v) for v in series
+            if isinstance(v, (int, float)) and not isinstance(v, bool) and v == v and abs(v) != float("inf")
+        ]
+        return clean[-52:] if len(clean) >= 2 else None
 
     def _enrich(
         self,
@@ -428,9 +446,20 @@ class HunterEngine:
         if meta_res is not None:
             candidate.competitor_ad_count = meta_res["active_ad_count"]
 
-        trends_res = signal("trends", lambda: self.trends_scraper.get_trend_analysis(keyword=kw))
+        trends_res = signal("trends", lambda: self._trends(kw))
         if trends_res is not None:
             candidate.google_trends_momentum = trends_res["momentum_pct"]
+            candidate.trends_series = self._clean_series(trends_res.get("timeline_data"))
+            labels = trends_res.get("timeline_labels") or []
+            candidate.trends_labels = (labels[-len(candidate.trends_series):]
+                                       if candidate.trends_series and len(labels) >= len(candidate.trends_series) else None)
+            candidate.trends_meta = {k: trends_res[k] for k in
+                                     ("low_volume", "zero_share", "peak_ratio", "mean_recent", "mean_prior", "resolution")
+                                     if k in trends_res}
+        else:
+            candidate.trends_series = None  # failed / not queried: never keep a stale series
+            candidate.trends_labels = None
+            candidate.trends_meta = None
 
         freight_res = signal(
             "freight",
@@ -446,7 +475,34 @@ class HunterEngine:
             if apply_freight_costs:  # operator-verified costs are never overwritten
                 candidate.shipping_cost = freight_res["shipping_cost"]
 
-        logger.info(f"[{cid}] señales: {candidate.data_status}")
+
+    def _trends(self, keyword: str) -> Dict[str, Any]:
+        """Google Trends with a circuit breaker: after one 429 the rest of the run skips Google."""
+        if self.google_paused:
+            raise NoLiveDataError("GoogleTrendsScraper", "Google pidió una pausa (HTTP 429): no se insiste en esta corrida")
+        try:
+            return self.trends_scraper.get_trend_analysis(keyword=keyword)
+        except NoLiveDataError as exc:
+            if "429" in str(exc):
+                self.google_paused = True
+            raise
+
+    def _measure_youtube(self, candidate: RawCandidate) -> None:
+        """YouTube Shorts interest for the product phrase. Off (UNAVAILABLE) unless enabled."""
+        kw = candidate.video_keyword or candidate.trends_keyword
+        candidate.youtube = None
+        if not self.youtube_enabled or not kw:
+            candidate.data_status["youtube"] = UNAVAILABLE
+            return
+        try:
+            candidate.youtube = self.youtube_scraper.measure(kw)
+            candidate.data_status["youtube"] = LIVE
+        except NoLiveDataError as exc:
+            candidate.data_status["youtube"] = NO_LIVE_DATA
+            logger.warning(f"[{candidate.candidate_id}] youtube: {exc}")
+        except Exception as exc:  # parsing bug: still never fabricate
+            candidate.data_status["youtube"] = NO_LIVE_DATA
+            logger.warning(f"[{candidate.candidate_id}] youtube: error inesperado: {exc}")
 
     def harvest_products(self, candidates: List[RawCandidate], probe_all: bool = False) -> List[RawCandidate]:
         """Enrich operator products (data/user_products.json) with live signals.
@@ -462,6 +518,8 @@ class HunterEngine:
                 for name in ("tiktok", "meta", "freight"):
                     candidate.data_status[name] = UNAVAILABLE
                 logger.info(f"[{candidate.candidate_id}] sin trends_keyword: Google Trends no consultado")
+            self._measure_youtube(candidate)
+            logger.info(f"[{candidate.candidate_id}] señales: {candidate.data_status}")
         logger.info(f"Harvest (productos del operador) completo: {len(candidates)} productos")
         return candidates
 

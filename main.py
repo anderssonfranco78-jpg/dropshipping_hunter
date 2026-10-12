@@ -51,6 +51,7 @@ from hunter.dashboard_data import write_dashboard_files
 from hunter.provenance import LIVE, MOCK, NO_LIVE_DATA
 from hunter.scrapers.live_supplier_sync import VERIFIED_SUPPLIERS, LiveSupplierSync
 from hunter.user_products import load_user_products
+from hunter.radar import run_radar
 
 # Lazy/conditional import for visualizer
 try:
@@ -93,6 +94,7 @@ def run_harvest_stage(
     keywords: Optional[List[str]] = None,
     scrape_suppliers: bool = False,
     probe_all_sources: bool = False,
+    radar: bool = True,
 ) -> Tuple[List[RawCandidate], Path]:
     """Execute Stage 1: load operator products and enrich them with live signals.
 
@@ -104,7 +106,7 @@ def run_harvest_stage(
     logger.info("================================================================================")
     logger.info(" Mode: %s", "Deterministic Offline Mock" if offline_mode else "Live")
 
-    engine = HunterEngine(offline_mode=offline_mode)
+    engine = HunterEngine(offline_mode=offline_mode, youtube=True)  # YouTube is never queried offline
     INPUT_ERRORS.clear()
     products_path = data_dir / "user_products.json"
     if products_path.exists():
@@ -142,6 +144,15 @@ def run_harvest_stage(
                 logger.error(" [!] %s: SIN DATOS EN VIVO / variante no sana -> %s", cand.candidate_id, quote.reason)
     else:
         logger.info(" [SUPPLIER] Scraping de AliExpress apagado (por defecto): se usan costo y stock del operador.")
+
+    if radar and not offline_mode:
+        logger.info(" [RADAR] Midiendo ideas nuevas (YouTube Shorts + Google Trends)...")
+        try:
+            state = run_radar(data_dir, engine.trends_scraper, engine.youtube_scraper,
+                              google_paused=engine.google_paused)
+            logger.info(" [RADAR] %d ideas con medición guardada en data/radar.json", len(state["ideas"]))
+        except Exception as exc:  # the radar must never break the main evaluation
+            logger.error(" [RADAR] falló sin afectar la evaluación: %s", exc)
 
     candidates_path = data_dir / "candidates.json"
     engine.save_candidates(candidates, output_path=candidates_path)
@@ -297,6 +308,12 @@ Examples:
         help="Opt-in: consultar también TikTok/Meta/Freight (endpoints retirados; por defecto 'No disponible').",
     )
     parser.add_argument(
+        "--no-radar",
+        action="store_true",
+        default=False,
+        help="No medir las ideas del Radar en esta corrida (solo los productos en evaluación).",
+    )
+    parser.add_argument(
         "--require-live",
         action="store_true",
         default=False,
@@ -423,6 +440,7 @@ def main(argv: Optional[List[str]] = None) -> int:
             keywords=args.keywords,
             scrape_suppliers=args.scrape_suppliers,
             probe_all_sources=args.probe_all_sources,
+            radar=not args.no_radar,
         )
 
         # 2. Audit

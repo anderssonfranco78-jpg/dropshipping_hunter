@@ -1,0 +1,197 @@
+"""Market score, verdicts (LANZAR / PROBAR / VIGILAR / DESCARTAR / MANTENER / RETIRAR), YouTube Shorts
+parsing, the radar's 429 circuit breaker, run history and product edits from the panel."""
+
+import json
+import shutil
+import tempfile
+import unittest
+from pathlib import Path
+from unittest.mock import MagicMock, patch
+
+from hunter.history import load_runs, previous_bases, save_run
+from hunter.market import market_score, trend_score, verdict, video_score
+from hunter.provenance import LIVE, NO_LIVE_DATA, NoLiveDataError
+from hunter.radar import radar_payload, run_radar
+from hunter.scrapers.youtube_shorts import extract_shorts, parse_views, summarize
+
+YT = {"median_views_top10": 100_000, "max_views": 3_800_000, "over_1m": 1, "over_100k": 6}
+
+
+class TestMarketScore(unittest.TestCase):
+    def test_video_score_is_log_scaled(self):
+        self.assertEqual(video_score({"median_views_top10": 1_000}), 30)
+        self.assertEqual(video_score({"median_views_top10": 100_000}), 80)
+        self.assertEqual(video_score({"median_views_top10": 50_000_000}), 100)
+        self.assertIsNone(video_score(None))
+
+    def test_low_google_volume_is_ignored_not_punished(self):
+        self.assertIsNone(trend_score({"momentum_pct": 3000.0, "low_volume": True}))
+        m = market_score(YT, {"momentum_pct": 3000.0, "low_volume": True})
+        self.assertEqual(m["score"], 80)
+        self.assertTrue(m["partial"])
+        self.assertTrue(any("casi no se busca" in r for r in m["reasons"]))
+
+    def test_crowding_penalty_and_combination(self):
+        crowded = dict(YT, over_1m=5)
+        self.assertEqual(market_score(crowded, None)["score"], 65)  # 80 - 15
+        both = market_score(YT, {"momentum_pct": 30.0, "low_volume": False})
+        self.assertEqual(both["score"], 88)  # 0.6*80 + 0.4*100
+
+    def test_no_measurement_means_no_score(self):
+        m = market_score(None, None)
+        self.assertIsNone(m["score"])
+        self.assertIn("sin datos", " ".join(m["reasons"]))
+
+
+class TestVerdict(unittest.TestCase):
+    def test_base_verdicts(self):
+        self.assertEqual(verdict("WINNER", 70)["code"], "LANZAR")
+        self.assertEqual(verdict("WINNER", 50)["code"], "PROBAR")
+        self.assertEqual(verdict("CONTENDER", 70)["code"], "PROBAR")
+        self.assertEqual(verdict("CONTENDER", 50)["code"], "VIGILAR")
+        self.assertEqual(verdict("DISQUALIFIED", 99)["code"], "DESCARTAR")
+
+    def test_never_launch_without_market_data(self):
+        self.assertEqual(verdict("WINNER", None)["code"], "VIGILAR")
+
+    def test_in_store_retire_rule(self):
+        self.assertEqual(verdict("WINNER", 70, in_store=True)["code"], "MANTENER")
+        self.assertEqual(verdict("DISQUALIFIED", 70, in_store=True)["code"], "RETIRAR")
+        cooling = verdict("WINNER", 30, in_store=True, recent_verdicts=["VIGILAR"])
+        self.assertEqual(cooling["code"], "MANTENER")
+        self.assertIn("1 corrida", cooling["why"])
+        self.assertEqual(verdict("WINNER", 30, in_store=True, recent_verdicts=["VIGILAR", "VIGILAR"])["code"], "RETIRAR")
+        # it bounced back once: the streak is broken
+        self.assertEqual(verdict("WINNER", 30, in_store=True, recent_verdicts=["VIGILAR", "LANZAR"])["code"], "MANTENER")
+
+
+class TestYouTubeParsing(unittest.TestCase):
+    def test_parse_views(self):
+        self.assertEqual(parse_views("68K views"), 68_000)
+        self.assertEqual(parse_views("1.2M views"), 1_200_000)
+        self.assertEqual(parse_views("2,306 views"), 2_306)
+        self.assertEqual(parse_views("1 view"), 1)
+        self.assertEqual(parse_views("No views"), 0)
+        self.assertIsNone(parse_views("Streamed live"))
+
+    def test_extract_and_summarize(self):
+        def short(vid, title, views):
+            return {"shortsLockupViewModel": {
+                "overlayMetadata": {"primaryText": {"content": title}, "secondaryText": {"content": views}},
+                "onTap": {"innertubeCommand": {"reelWatchEndpoint": {"videoId": vid}}}}}
+        page = {"contents": [short("a", "A", "3.8M views"), {"x": [short("b", "B", "68K views")]},
+                             short("a", "A dup", "3.8M views"), short("c", "C", "1,000 views")]}
+        shorts = extract_shorts(page)
+        self.assertEqual([s["url"][-1] for s in shorts], ["a", "b", "c"])
+        s = summarize("kw", shorts)
+        self.assertEqual((s["median_views_top10"], s["over_1m"], s["over_100k"], s["status"]), (68_000, 1, 1, LIVE))
+        with self.assertRaises(NoLiveDataError):
+            summarize("kw", [])
+
+
+class TempDir(unittest.TestCase):
+    def setUp(self):
+        self.tmp = Path(tempfile.mkdtemp())
+
+    def tearDown(self):
+        shutil.rmtree(self.tmp, ignore_errors=True)
+
+
+class TestRadar(TempDir):
+    def write_ideas(self, n=3):
+        ideas = [{"id": f"i{k}", "name": f"Idea {k}", "video_keyword": f"video {k}", "trends_keyword": f"cat {k}"}
+                 for k in range(n)]
+        (self.tmp / "radar_ideas.json").write_text(json.dumps({"ideas": ideas}), encoding="utf-8")
+
+    def test_measures_and_stops_asking_google_after_429(self):
+        self.write_ideas(3)
+        yt = MagicMock()
+        yt.measure.return_value = dict(YT, shorts_found=20, top=[], status=LIVE)
+        trends = MagicMock()
+        trends.get_trend_analysis.side_effect = NoLiveDataError("GoogleTrendsScraper", "HTTP 429 (rate limit)")
+        state = run_radar(self.tmp, trends, yt, batch=3)
+        self.assertEqual(trends.get_trend_analysis.call_count, 1)  # circuit breaker
+        self.assertEqual(yt.measure.call_count, 3)
+        self.assertEqual({v["youtube_status"] for v in state["ideas"].values()}, {LIVE})
+        rows = radar_payload(self.tmp, {"video 1"})
+        self.assertEqual(rows[0]["market"]["score"], 80)
+        self.assertTrue(next(r for r in rows if r["id"] == "i1")["evaluating"])
+
+    def test_stalest_ideas_are_measured_first_and_failures_are_honest(self):
+        self.write_ideas(3)
+        yt = MagicMock()
+        yt.measure.side_effect = NoLiveDataError("YouTubeShorts", "bloqueado")
+        trends = MagicMock()
+        trends.get_trend_analysis.return_value = {"momentum_pct": 12.0, "low_volume": False, "timeline_data": [1, 2]}
+        trends.rising_queries.return_value = [{"query": "new thing", "growth": "Breakout"}]
+        run_radar(self.tmp, trends, yt, batch=2)
+        rows = {r["id"]: r for r in radar_payload(self.tmp)}
+        self.assertIsNone(rows["i2"]["measured_at"])  # not reached yet
+        self.assertIsNone(rows["i0"]["youtube"])       # failed -> nothing shown, never invented
+        self.assertEqual(rows["i0"]["youtube_status"], NO_LIVE_DATA)
+        self.assertEqual(rows["i0"]["market"]["score"], 85)  # Google only
+        run_radar(self.tmp, trends, yt, batch=1)
+        self.assertIsNotNone({r["id"]: r for r in radar_payload(self.tmp)}["i2"]["measured_at"])
+
+
+class TestHistory(TempDir):
+    def test_runs_are_unique_files_newest_first(self):
+        save_run(self.tmp, "t1", {"p": {"base": "VIGILAR", "rank": 2}})
+        with patch("hunter.history.time.strftime", return_value="29991231T000000Z"):
+            save_run(self.tmp, "t2", {"p": {"base": "LANZAR", "rank": 1}})
+        runs = load_runs(self.tmp)
+        self.assertEqual([r["generated_at"] for r in runs], ["t2", "t1"])
+        self.assertEqual(previous_bases(runs, "p"), ["LANZAR", "VIGILAR"])
+        (self.tmp / "history" / "broken.json").write_text("{", encoding="utf-8")
+        self.assertEqual(len(load_runs(self.tmp)), 2)  # unreadable file skipped, never fatal
+
+
+class TestPanelProductEdits(TempDir):
+    def setUp(self):
+        super().setUp()
+        import centinela_local
+        from tests.test_user_products import product
+        self.mod = centinela_local
+        self.path = self.tmp / "user_products.json"
+        self.path.write_text(json.dumps({"_instrucciones": ["x"], "products": [product()]}), encoding="utf-8")
+        patcher = patch.object(centinela_local, "PRODUCTS", self.path)
+        patcher.start()
+        self.addCleanup(patcher.stop)
+
+    def read(self):
+        return json.loads(self.path.read_text(encoding="utf-8"))
+
+    def test_toggle_store_and_edit_cost_keep_everything_else(self):
+        self.mod.save_product({"id": "steamfur-pro", "en_tienda": True, "unit_cost_usd": 5.1})
+        data = self.read()
+        p = data["products"][0]
+        self.assertTrue(p["en_tienda"])
+        self.assertEqual(p["unit_cost_usd"], 5.1)
+        self.assertEqual(p["verified_stock"], 994)
+        self.assertEqual(data["_instrucciones"], ["x"])
+
+    def test_create_from_radar_idea_and_delete(self):
+        out = self.mod.save_product({
+            "name": "Cat water fountain", "category": "Mascotas", "video_keyword": "cat water fountain",
+            "trends_keyword": "cat water fountain", "srp_usd": 34.99, "unit_cost_usd": 7.5, "shipping_cost_usd": 3.0,
+            "shipping": {"days_min": 7, "days_max": 12, "carrier": "AliExpress Choice"},
+            "rule_inputs": {"demo_visual_speed_sec": 2, "pain_level_score": 70, "retail_availability_score": 60,
+                            "has_fragile_material": False, "has_sizing_requirements": False},
+        })
+        self.assertEqual(out["id"], "cat-water-fountain")
+        created = self.read()["products"][1]
+        self.assertIn("aliexpress.com/wholesale", created["source_url"])  # search link when no URL given
+        self.mod.save_product({"id": "cat-water-fountain", "_delete": True})
+        self.assertEqual(len(self.read()["products"]), 1)
+
+    def test_invalid_edit_is_rejected_and_file_untouched(self):
+        before = self.path.read_text(encoding="utf-8")
+        with self.assertRaises(ValueError):
+            self.mod.save_product({"id": "steamfur-pro", "image_url": "javascript:alert(1)"})
+        with self.assertRaises(ValueError):
+            self.mod.save_product({"name": "x"})  # no prices / rule inputs
+        self.assertEqual(self.path.read_text(encoding="utf-8"), before)
+
+
+if __name__ == "__main__":
+    unittest.main()

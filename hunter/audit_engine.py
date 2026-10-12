@@ -28,7 +28,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple, Union
 
 from hunter.models import AuditResult, FinancialMetrics, RawCandidate, RuleScore
-from hunter.provenance import STOCK_EXPIRED, STOCK_LOW, STOCK_UNVERIFIED
+from hunter.provenance import STOCK_LOW
 from hunter.stress import compute_stressed
 
 # Windows console encoding safeguard
@@ -387,9 +387,10 @@ def apply_stock_gate(
 ) -> Tuple[str, bool, List[str]]:
     """Apply the operator's stock verification on top of the 7-rule tier.
 
-    - LOW (< 100 units)        -> KO-STOCK, DISQUALIFIED whatever the score.
-    - EXPIRED / UNVERIFIED     -> a WINNER is downgraded to CONTENDER until the stock is re-checked.
-    - None (legacy seeds/tests) -> unchanged.
+    - LOW (< 100 units recorded by the operator) -> KO-STOCK, DISQUALIFIED whatever the score.
+    - EXPIRED / UNVERIFIED / None -> unchanged. The Hunter cannot read supplier stock (AliExpress
+      blocks robots); DSers confirms the supplier and syncs inventory when the product is imported
+      into Shopify, so a missing manual check is a launch-checklist item, not a downgrade.
     Mutates ``ko_gates`` (appends KO-STOCK) so the gate is visible next to KO-1..KO-4.
     """
     status = candidate.stock_status
@@ -397,12 +398,6 @@ def apply_stock_gate(
         if "KO-STOCK" not in ko_gates:
             ko_gates.append("KO-STOCK")
         return "DISQUALIFIED", False, [KO_STOCK_REASON + f": {candidate.supplier_stock} uds"]
-    if status in (STOCK_EXPIRED, STOCK_UNVERIFIED):
-        why = ("Stock vencido (verificado hace más de 7 días) — re-verificar" if status == STOCK_EXPIRED
-               else "Stock sin verificar — anota unidades y fecha en user_products.json")
-        if tier == "WINNER":
-            return "CONTENDER", False, [why + " (Contendiente condicional)"]
-        return tier, passed_audit, [why]
     return tier, passed_audit, []
 
 

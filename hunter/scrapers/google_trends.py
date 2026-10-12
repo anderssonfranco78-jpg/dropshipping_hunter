@@ -3,8 +3,11 @@
 Implements:
 - Multi-tiered request pipeline with session cookie priming
 - Strip Google security prefix ")]}',"
-- 3-Month Momentum calculation:
-    M = (Mean(Last 14 Days) - Mean(Prior 45 Days)) / Mean(Prior 45 Days) * 100%
+- Momentum on the 12-month WEEKLY series (default, robust for niche products):
+    M = (Mean(last 4 complete weeks) - Mean(the 12 weeks before)) / Mean(those 12 weeks) * 100%
+  Daily 3-month series (>= 59 points) keep the legacy formula: last 14 days vs prior 45 days.
+  Google reports 0 for weeks/days below its volume threshold: if too many points are 0 the series is
+  flagged ``low_volume`` and the momentum is NOT treated as a real growth signal.
 - Breakout query detection (> 5,000% growth)
 - 24-hour local caching
 - NO synthetic data: if Google blocks us, NoLiveDataError is raised ("Sin datos en vivo")
@@ -46,6 +49,7 @@ class GoogleTrendsScraper(BaseScraper):
             offline_mode=offline_mode,
         )
         self._cache: Dict[str, Dict[str, Any]] = {}
+        self._widgets: Dict[str, List[Dict[str, Any]]] = {}
         self._cookie_primed = False
 
     def _prime_cookies(self) -> None:
@@ -70,14 +74,14 @@ class GoogleTrendsScraper(BaseScraper):
         self,
         keyword: str,
         geo: str = "US",
-        timeframe: str = "today 3-m",
+        timeframe: str = "today 12-m",
     ) -> Dict[str, Any]:
         """Harvest search interest momentum and breakout queries for a keyword.
         
         Args:
             keyword: The search query term.
             geo: Regional code (e.g. 'US').
-            timeframe: Google Trends time window (default: 'today 3-m' for 90 days).
+            timeframe: Google Trends time window (default: 'today 12-m', one point per week).
 
         Returns:
             Dict containing:
@@ -118,6 +122,7 @@ class GoogleTrendsScraper(BaseScraper):
             params={**common, "req": json.dumps(req_obj)},
             fallback_key=keyword,
         )
+        self._widgets[cache_key] = explore.get("widgets", [])
         widget = next(
             (w for w in explore.get("widgets", []) if w.get("id") == "TIMESERIES"), None
         )
@@ -137,21 +142,62 @@ class GoogleTrendsScraper(BaseScraper):
             raise NoLiveDataError(self.name, f"serie vacía para '{keyword}'")
 
         analysis = self._process_trends_payload(
-            keyword, {"timeline_values": timeline_values}
+            keyword, {"timeline_values": timeline_values, "labels": self.parse_labels(series)}
         )
         self._cache[cache_key] = analysis
         return analysis
 
+    def rising_queries(self, keyword: str, geo: str = "US", timeframe: str = "today 12-m", limit: int = 6) -> List[Dict[str, str]]:
+        """Searches growing fastest next to ``keyword`` (Google's "Rising" list): real emerging phrases.
+
+        Reuses the explore widgets of a previous ``get_trend_analysis`` call (one extra request only).
+        Returns [] when Google has no rising list; raises NoLiveDataError if the request fails.
+        """
+        cache_key = f"{keyword.lower().strip()}_{geo}_{timeframe}"
+        if self.offline_mode:
+            return []
+        widgets = self._widgets.get(cache_key)
+        if widgets is None:
+            self.get_trend_analysis(keyword, geo=geo, timeframe=timeframe)
+            widgets = self._widgets.get(cache_key) or []
+        widget = next((w for w in widgets if w.get("id") == "RELATED_QUERIES"), None)
+        if not widget or "token" not in widget or "request" not in widget:
+            return []
+        time.sleep(random.uniform(0.5, 1.2))
+        payload = self.fetch_json(
+            url=f"{self.BASE_URL}/widgetdata/relatedsearches",
+            method="GET",
+            params={"hl": "en-US", "tz": "360", "req": json.dumps(widget["request"]), "token": widget["token"]},
+            fallback_key=keyword,
+        )
+        lists = (payload.get("default") or {}).get("rankedList") or []
+        rising = lists[1].get("rankedKeyword", []) if len(lists) > 1 else []
+        return [{"query": k.get("query", ""), "growth": k.get("formattedValue", "")}
+                for k in rising[:limit] if k.get("query")]
+
     @staticmethod
-    def parse_timeline(payload: Dict[str, Any]) -> List[int]:
+    def _complete_points(payload: Dict[str, Any]) -> List[Dict[str, Any]]:
+        """Points with a value; the trailing partial (still running) period is dropped."""
+        points = [p for p in ((payload.get("default") or {}).get("timelineData") or []) if p.get("value")]
+        while points and points[-1].get("isPartial"):
+            points.pop()
+        return points
+
+    @classmethod
+    def parse_timeline(cls, payload: Dict[str, Any]) -> List[int]:
         """Extract the interest-over-time values from a widgetdata/multiline payload."""
-        points = (payload.get("default") or {}).get("timelineData") or []
-        values: List[int] = []
-        for point in points:
-            vals = point.get("value") or []
-            if vals:
-                values.append(int(vals[0]))
-        return values
+        return [int(p["value"][0]) for p in cls._complete_points(payload)]
+
+    @classmethod
+    def parse_labels(cls, payload: Dict[str, Any]) -> List[str]:
+        """ISO start date of each point (same order as ``parse_timeline``); '' when Google omits it."""
+        labels = []
+        for p in cls._complete_points(payload):
+            try:
+                labels.append(time.strftime("%Y-%m-%d", time.gmtime(int(p.get("time")))))
+            except (TypeError, ValueError):
+                labels.append("")
+        return labels
 
     def _process_trends_payload(
         self, keyword: str, payload: Dict[str, Any]
@@ -168,11 +214,14 @@ class GoogleTrendsScraper(BaseScraper):
         if not timeline_values:
             raise NoLiveDataError(self.name, f"sin serie temporal real para '{keyword}'")
 
-        # Calculate momentum slope:
-        # Last 14 days vs prior 45 days
+        # Momentum windows: daily series (>= 59 points) -> last 14 days vs prior 45 days;
+        # weekly series (12 months) -> last 4 weeks vs the 12 weeks before; short series -> halves.
         if len(timeline_values) >= 59:
             recent_14 = timeline_values[-14:]
             prior_45 = timeline_values[-59:-14]
+        elif len(timeline_values) >= 16:
+            recent_14 = timeline_values[-4:]
+            prior_45 = timeline_values[-16:-4]
         else:
             midpoint = len(timeline_values) // 2
             recent_14 = timeline_values[midpoint:]
@@ -188,8 +237,17 @@ class GoogleTrendsScraper(BaseScraper):
         else:
             momentum_pct = 0.0
 
-        is_breakout = momentum_pct > 30.0 or len(breakout_queries) > 0
+        # Below Google's volume threshold the points come back as 0: a jump from "0" is not growth.
+        window = list(prior_45) + list(recent_14)
+        zero_share = sum(1 for v in window if v == 0) / len(window)
+        low_volume = zero_share > 0.25 or mean_prior < 3.0
+        peak = max(timeline_values) or 1
 
+        is_breakout = (momentum_pct > 30.0 and not low_volume) or len(breakout_queries) > 0
+
+        labels = payload.get("labels") or []
+        weekly = len(timeline_values) < 59
+        keep = 52 if weekly else 14
         result = {
             "keyword": keyword,
             "momentum_pct": momentum_pct,
@@ -197,7 +255,12 @@ class GoogleTrendsScraper(BaseScraper):
             "breakout_queries": breakout_queries,
             "mean_recent": round(mean_recent, 1),
             "mean_prior": round(mean_prior, 1),
-            "timeline_data": timeline_values[-14:],
+            "timeline_data": timeline_values[-keep:],
+            "timeline_labels": labels[-keep:] if len(labels) == len(timeline_values) else [],
+            "resolution": "WEEK" if weekly else "DAY",
+            "low_volume": low_volume,
+            "zero_share": round(zero_share, 2),
+            "peak_ratio": round(mean_recent / peak, 2),
             "status": LIVE,
         }
 

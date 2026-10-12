@@ -49,6 +49,19 @@ class RawCandidate:
     stock_status: Optional[str] = None         # OK / LOW / EXPIRED / UNVERIFIED (hunter.provenance)
     trends_keyword: Optional[str] = None       # Google Trends query for this product
     notes: Optional[str] = None                # Free text from the operator
+    # Real Google Trends interest-over-time points (0-100, last 14) measured in THIS run.
+    # None when Trends was not queried or failed: the dashboard then shows "Sin datos en vivo".
+    trends_series: Optional[List[int]] = None
+    # Product photo for the panel's image slot: https URL (e.g. Shopify CDN) or a path relative to
+    # the project such as "assets/images/steamfur.webp". None = the panel shows an empty slot.
+    image_url: Optional[str] = None
+    # Specific product phrase people use in short video (YouTube Shorts search). trends_keyword is the
+    # broader CATEGORY term measured on Google (niche gadgets have ~0 Google volume by name).
+    video_keyword: Optional[str] = None
+    in_store: bool = False                          # operator sells it in the Shopify store now
+    trends_labels: Optional[List[str]] = None       # ISO start date of each trends_series point
+    trends_meta: Optional[Dict[str, Any]] = None    # low_volume, peak_ratio, resolution... (this run)
+    youtube: Optional[Dict[str, Any]] = None        # YouTube Shorts measurement (this run) or None
 
     def validate(self) -> List[str]:
         """Validate candidate fields against expected bounds and types.
@@ -143,6 +156,17 @@ class RawCandidate:
             stock_status=data.get("stock_status"),
             trends_keyword=data.get("trends_keyword"),
             notes=data.get("notes"),
+            trends_series=(
+                [int(v) for v in data["trends_series"]
+                 if isinstance(v, (int, float)) and not isinstance(v, bool) and v == v]
+                if isinstance(data.get("trends_series"), list) else None
+            ),
+            image_url=data.get("image_url") or None,
+            video_keyword=data.get("video_keyword") or None,
+            in_store=bool(data.get("in_store", False)),
+            trends_labels=(list(data["trends_labels"]) if isinstance(data.get("trends_labels"), list) else None),
+            trends_meta=(dict(data["trends_meta"]) if isinstance(data.get("trends_meta"), dict) else None),
+            youtube=(dict(data["youtube"]) if isinstance(data.get("youtube"), dict) else None),
         )
 
     def to_json(self, indent: int = 2) -> str:
