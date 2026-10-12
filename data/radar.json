@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-10-12 10:33:16 UTC",
+ "updated_at": "2026-10-12 11:25:50 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
     "keyword": "cat water fountain",
-    "shorts_found": 25,
-    "median_views_top10": 67500,
+    "shorts_found": 28,
+    "median_views_top10": 116000,
     "max_views": 6000000,
-    "over_100k": 4,
-    "over_1m": 2,
+    "over_100k": 5,
+    "over_1m": 1,
     "top": [
      {
       "title": "Anti-Gravity Water Fountain For Cats #goodtoknow #vet #medicine #educational #funfacts #lifehacks",
@@ -16,9 +16,9 @@
       "url": "https://www.youtube.com/shorts/dKXyh-A32Kk"
      },
      {
-      "title": "New water fountain 😸❤️ #cat #youcat #asmr",
-      "views": 4100000,
-      "url": "https://www.youtube.com/shorts/FHNhQsx2moo"
+      "title": "This little water fountain by @oneisall_official - no cords, super quiet, and they love it!",
+      "views": 378000,
+      "url": "https://www.youtube.com/shorts/_RMsX31WeFw"
      },
      {
       "title": "Cat water fountain upgrade🐱 linked in bio on Amazon! #catwaterbowl #catwaterfountain #amazongadgets",
@@ -31,47 +31,47 @@
       "url": "https://www.youtube.com/shorts/2rNva4yBN9A"
      },
      {
-      "title": "Vet Reveals: The Best Cat Fountain On The Market",
-      "views": 68000,
-      "url": "https://www.youtube.com/shorts/y_sGInJ_UNM"
+      "title": "The best kinds of fountains for cats!",
+      "views": 160000,
+      "url": "https://www.youtube.com/shorts/PfP8zSZHD80"
      }
     ],
     "status": "LIVE"
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": -18.2,
+    "momentum_pct": -19.0,
     "low_volume": false,
     "peak_ratio": 0.38,
     "mean_recent": 37.8
    },
    "trends_series": [
-    81,
-    60,
-    46,
-    46,
-    69,
     83,
-    62,
+    61,
+    47,
+    47,
     69,
-    92,
+    84,
+    63,
+    70,
+    95,
     100,
-    94,
-    62,
+    95,
+    64,
     54,
-    39,
+    40,
     39,
     40,
     36,
     37,
     36,
-    35,
+    34,
     39,
-    43,
-    39,
-    37,
-    39,
-    36
+    45,
+    40,
+    36,
+    38,
+    37
    ],
    "trends_status": "LIVE",
    "rising": [
@@ -102,32 +102,43 @@
    ],
    "rising_at": "2026-10-12 10:07:17 UTC",
    "market": {
-    "score": 57,
-    "video_score": 76,
+    "score": 65,
+    "video_score": 82,
     "trend_score": 40,
-    "crowding": "media",
+    "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 68K vistas (el mayor, 6M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -18% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 116K vistas (el mayor, 6M)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Google (EE. UU.): baja -19% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 10:07:17 UTC"
+   "measured_at": "2026-10-12 11:25:23 UTC",
+   "trends_at": "2026-10-12 11:25:23 UTC"
   },
   "dog-paw-cleaner": {
    "youtube": {
     "keyword": "dog paw cleaner cup",
-    "shorts_found": 25,
-    "median_views_top10": 2400,
-    "max_views": 15000,
-    "over_100k": 0,
+    "shorts_found": 32,
+    "median_views_top10": 5350,
+    "max_views": 652000,
+    "over_100k": 1,
     "over_1m": 0,
     "top": [
+     {
+      "title": "An automatic paw cleaner 🙌🐾 #dog #dogs #paw #paws #clean",
+      "views": 652000,
+      "url": "https://www.youtube.com/shorts/j_aMdxdU0IA"
+     },
      {
       "title": "Muddy paws? 🐾 This paw cleaner cup for dogs #shorts",
       "views": 15000,
       "url": "https://www.youtube.com/shorts/w_7DDnZijRA"
+     },
+     {
+      "title": "🐾 Dog Paw Cleaner Cup #petlovers#doglife#cleaning#cat #catfun#pets#petsupplies#puppy #dog#fun#dogs",
+      "views": 15000,
+      "url": "https://www.youtube.com/shorts/gVIBN1Vlt1c"
      },
      {
       "title": "Portable Silicone Pet Paw Cleaner Cup 🐶🐱 #shorts",
@@ -135,57 +146,47 @@
       "url": "https://www.youtube.com/shorts/TkDQWcR11xg"
      },
      {
-      "title": "Silicone Paw Cleaner Cup Review: Stop Muddy Paws Fast! #shorts",
-      "views": 3100,
-      "url": "https://www.youtube.com/shorts/OqOpjo7tUtY"
-     },
-     {
-      "title": "This Dog Paw Cleaner Is a Game Changer! #shorts",
-      "views": 3100,
-      "url": "https://www.youtube.com/shorts/5Jj9gHjfzcs"
-     },
-     {
-      "title": "Automatic Pet Paw Cleaner Cup | Arbasa",
-      "views": 2800,
-      "url": "https://www.youtube.com/shorts/Kinj9HV4mOo"
+      "title": "Automatic Pet Paw Cleaning Cup🐾",
+      "views": 7000,
+      "url": "https://www.youtube.com/shorts/OwgMSB1xhek"
      }
     ],
     "status": "LIVE"
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": -37.6,
+    "momentum_pct": -59.8,
     "low_volume": true,
-    "peak_ratio": 0.07,
-    "mean_recent": 6.5
+    "peak_ratio": 0.03,
+    "mean_recent": 3.2
    },
    "trends_series": [
     79,
-    58,
+    55,
+    35,
     36,
-    36,
-    54,
-    52,
+    51,
+    55,
+    31,
     30,
-    34,
     40,
-    36,
+    34,
     39,
     15,
-    19,
     10,
     10,
-    15,
-    0,
-    9,
     0,
     0,
     0,
-    8,
+    13,
     0,
-    12,
+    0,
+    0,
+    10,
+    0,
+    0,
     6,
-    8
+    7
    ],
    "trends_status": "LIVE",
    "rising": [
@@ -208,28 +209,44 @@
    ],
    "rising_at": "2026-10-12 10:07:22 UTC",
    "market": {
-    "score": 40,
-    "video_score": 40,
+    "score": 48,
+    "video_score": 48,
     "trend_score": null,
     "crowding": "baja",
     "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 2K vistas (el mayor, 15K)",
+     "Shorts: los 10 más vistos tienen una mediana de 5K vistas (el mayor, 652K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google: casi no se busca por nombre (normal en gadgets que se descubren en video)"
     ]
    },
-   "measured_at": "2026-10-12 10:07:22 UTC"
+   "measured_at": "2026-10-12 11:25:32 UTC",
+   "trends_at": "2026-10-12 11:25:32 UTC"
   },
   "lick-mat": {
    "youtube": {
     "keyword": "dog lick mat",
-    "shorts_found": 25,
-    "median_views_top10": 4750,
-    "max_views": 77000,
-    "over_100k": 0,
-    "over_1m": 0,
+    "shorts_found": 30,
+    "median_views_top10": 18500,
+    "max_views": 33000000,
+    "over_100k": 3,
+    "over_1m": 1,
     "top": [
+     {
+      "title": "Lick mat time for Bubu🪻 #animalshorts #cat #pets #cuteanimals",
+      "views": 33000000,
+      "url": "https://www.youtube.com/shorts/SK7mEiQv6ow"
+     },
+     {
+      "title": "*ASMR* PUPPY LICK MAT! #asmr #restock #dog #petproducts #amazonstorefront",
+      "views": 421000,
+      "url": "https://www.youtube.com/shorts/MYuszDwVx7A"
+     },
+     {
+      "title": "Raw lick mats for my dogs 🥩🥛👅 ASMR 🐕 #dog #shorts",
+      "views": 127000,
+      "url": "https://www.youtube.com/shorts/qsDBnYsiTnM"
+     },
      {
       "title": "Healthy lick mat recipe for my dogs 🐟👅🐕 #shorts",
       "views": 77000,
@@ -239,80 +256,66 @@
       "title": "Perfect lick mat for any dog! #shorts #dachshund #lickmat #enrichment #dogenrichment #dogs",
       "views": 19000,
       "url": "https://www.youtube.com/shorts/MBO-h6SpZtM"
-     },
-     {
-      "title": "Lick mat for dogs #lickmat #asmr #dogshorts #shorts",
-      "views": 11000,
-      "url": "https://www.youtube.com/shorts/ccm711G6wTA"
-     },
-     {
-      "title": "Dog Lick Mat 🐶 | Easy Treat-Time Enrichment #Shorts",
-      "views": 6400,
-      "url": "https://www.youtube.com/shorts/vq_eIefBi7o"
-     },
-     {
-      "title": "2-in-1 Lick Mat & Slow Feeder | Calm Mealtime Enrichment #Shorts",
-      "views": 5300,
-      "url": "https://www.youtube.com/shorts/i1L01DlCuaQ"
      }
     ],
     "status": "LIVE"
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": -18.8,
+    "momentum_pct": -20.7,
     "low_volume": false,
     "peak_ratio": 0.29,
-    "mean_recent": 29.5
+    "mean_recent": 29.0
    },
    "trends_series": [
     100,
-    78,
-    59,
-    43,
-    82,
-    67,
-    51,
-    49,
+    76,
+    57,
     47,
+    84,
+    69,
+    50,
+    45,
+    50,
     49,
-    56,
-    52,
+    53,
+    50,
     40,
-    37,
-    34,
+    39,
+    39,
     26,
     33,
-    33,
-    29,
     35,
-    31,
-    30,
-    33,
-    30,
+    29,
+    34,
+    29,
+    32,
+    35,
+    26,
     26,
     29
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 44,
-    "video_score": 47,
+    "score": 53,
+    "video_score": 62,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 5K vistas (el mayor, 77K)",
+     "Shorts: los 10 más vistos tienen una mediana de 18K vistas (el mayor, 33M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
-     "Google (EE. UU.): baja -19% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): baja -21% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 10:07:26 UTC"
+   "measured_at": "2026-10-12 11:25:40 UTC",
+   "trends_at": "2026-10-12 11:25:40 UTC"
   },
   "laser-cat-toy": {
    "youtube": {
     "keyword": "automatic laser cat toy",
-    "shorts_found": 25,
-    "median_views_top10": 2850,
+    "shorts_found": 30,
+    "median_views_top10": 2700,
     "max_views": 114000,
     "over_100k": 1,
     "over_1m": 0,
@@ -328,14 +331,14 @@
       "url": "https://www.youtube.com/shorts/vxGaDmFDJ5U"
      },
      {
-      "title": "PetSafe Laser Tail Automatic Laser Light Cat Toy",
-      "views": 11000,
-      "url": "https://www.youtube.com/shorts/YIrvKO0EOWc"
-     },
-     {
       "title": "Unleash the Fun with the Automatic Cat Laser Toy!",
       "views": 6200,
       "url": "https://www.youtube.com/shorts/9g3XGmWfgXs"
+     },
+     {
+      "title": "Crazy Cats vs Laser Pointer! Best Toy for Active Kitties #Shorts #Cats",
+      "views": 4600,
+      "url": "https://www.youtube.com/shorts/S3MJ19QmyIo"
      },
      {
       "title": "The Automatic Laser Toy That Babysits Your Cat 🐈",
@@ -347,38 +350,38 @@
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": -15.3,
+    "momentum_pct": -14.7,
     "low_volume": false,
-    "peak_ratio": 0.31,
-    "mean_recent": 31.0
+    "peak_ratio": 0.29,
+    "mean_recent": 29.5
    },
    "trends_series": [
     100,
-    72,
+    75,
+    64,
+    63,
+    77,
+    65,
+    50,
+    50,
+    59,
+    55,
     61,
-    68,
-    82,
-    71,
-    54,
-    52,
-    63,
-    58,
-    63,
-    40,
-    37,
-    34,
-    35,
+    39,
     35,
     32,
     33,
     32,
-    34,
+    30,
+    30,
+    30,
     32,
-    32,
-    29,
-    33,
-    32,
-    30
+    31,
+    30,
+    28,
+    31,
+    30,
+    29
    ],
    "trends_status": "LIVE",
    "market": {
@@ -393,7 +396,8 @@
      "Google (EE. UU.): baja -15% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 10:07:30 UTC"
+   "measured_at": "2026-10-12 11:25:50 UTC",
+   "trends_at": "2026-10-12 11:25:50 UTC"
   },
   "pet-hair-roller": {
    "youtube": {
@@ -1803,6 +1807,236 @@
     ]
    },
    "measured_at": "2026-10-12 10:33:16 UTC"
+  },
+  "camping-lantern": {
+   "youtube": {
+    "keyword": "rechargeable camping lantern",
+    "shorts_found": 31,
+    "median_views_top10": 38500,
+    "max_views": 6700000,
+    "over_100k": 2,
+    "over_1m": 1,
+    "top": [
+     {
+      "title": "First Look! New Camping Lantern Launching Soon 🏕️ Do You Like the Design?#shorts",
+      "views": 6700000,
+      "url": "https://www.youtube.com/shorts/SQg58vaNOoI"
+     },
+     {
+      "title": "Yardwe Led Camping Lantern Solar Panel Hand-Powered Tent 🌐 #solarlight #lamp #campinglife #shorts",
+      "views": 350000,
+      "url": "https://www.youtube.com/shorts/cqSZRf1oIdU"
+     },
+     {
+      "title": "Solar Rechargeable Led Camping Lantern Light | Camping Lantern #shorts",
+      "views": 75000,
+      "url": "https://www.youtube.com/shorts/Al7xj5KgraU"
+     },
+     {
+      "title": "Refillable Gas Camping Light | Outdoor Lantern #shorts #lantern #gaslight",
+      "views": 62000,
+      "url": "https://www.youtube.com/shorts/TYYkdOo9w24"
+     },
+     {
+      "title": "🔋 Rechargeable Camping Light | Solar + USB Power #trending",
+      "views": 46000,
+      "url": "https://www.youtube.com/shorts/4n4FqaF51s4"
+     }
+    ],
+    "status": "LIVE"
+   },
+   "youtube_status": "LIVE",
+   "trends": {
+    "momentum_pct": -32.1,
+    "low_volume": false,
+    "peak_ratio": 0.19,
+    "mean_recent": 19.0
+   },
+   "trends_series": [
+    88,
+    61,
+    46,
+    42,
+    79,
+    100,
+    75,
+    73,
+    92,
+    80,
+    74,
+    42,
+    38,
+    20,
+    22,
+    22,
+    22,
+    20,
+    20,
+    18,
+    20,
+    18,
+    18,
+    23,
+    17,
+    18
+   ],
+   "trends_status": "LIVE",
+   "trends_at": "2026-10-12 11:24:52 UTC",
+   "rising": [
+    {
+     "query": "led camping lantern",
+     "growth": "+150%"
+    },
+    {
+     "query": "led lantern",
+     "growth": "+140%"
+    },
+    {
+     "query": "camping lantern rechargeable",
+     "growth": "+130%"
+    },
+    {
+     "query": "rechargeable lantern",
+     "growth": "+130%"
+    },
+    {
+     "query": "kids camping lantern",
+     "growth": "+90%"
+    },
+    {
+     "query": "camping light",
+     "growth": "+80%"
+    }
+   ],
+   "rising_at": "2026-10-12 11:24:57 UTC",
+   "market": {
+    "score": 50,
+    "video_score": 70,
+    "trend_score": 20,
+    "crowding": "baja",
+    "partial": false,
+    "reasons": [
+     "Shorts: los 10 más vistos tienen una mediana de 38K vistas (el mayor, 6.7M)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Google (EE. UU.): baja -32% en las últimas 4 semanas vs las 12 anteriores"
+    ]
+   },
+   "measured_at": "2026-10-12 11:24:57 UTC"
+  },
+  "electric-lint-remover": {
+   "youtube": {
+    "keyword": "fabric shaver lint remover",
+    "shorts_found": 32,
+    "median_views_top10": 127000,
+    "max_views": 4200000,
+    "over_100k": 5,
+    "over_1m": 1,
+    "top": [
+     {
+      "title": "Cheap Vs Expensive Lint Remover #shorts",
+      "views": 4200000,
+      "url": "https://www.youtube.com/shorts/QXPvnPcnS6o"
+     },
+     {
+      "title": "Lint remover from clothes Amazon  #shorts Lint remover review lint remover meesho",
+      "views": 974000,
+      "url": "https://www.youtube.com/shorts/YvCh7nRn4XM"
+     },
+     {
+      "title": "I Tried This Lint Remover… WOW!😲",
+      "views": 566000,
+      "url": "https://www.youtube.com/shorts/GEqxFg0eHJY"
+     },
+     {
+      "title": "Revamp Your Clothes: Fabric Shaver Hack! #fabricshaver #lintremover",
+      "views": 173000,
+      "url": "https://www.youtube.com/shorts/INmi6I7-WMQ"
+     },
+     {
+      "title": "Fabric Shaver Electric Lint Remover, Bobling Remover for ClothesUSB Rechargeable.",
+      "views": 165000,
+      "url": "https://www.youtube.com/shorts/7nYhFh4PQwc"
+     }
+    ],
+    "status": "LIVE"
+   },
+   "youtube_status": "LIVE",
+   "trends": {
+    "momentum_pct": -15.1,
+    "low_volume": false,
+    "peak_ratio": 0.15,
+    "mean_recent": 15.5
+   },
+   "trends_series": [
+    100,
+    76,
+    48,
+    40,
+    57,
+    63,
+    39,
+    35,
+    49,
+    42,
+    44,
+    28,
+    19,
+    15,
+    12,
+    15,
+    12,
+    15,
+    16,
+    14,
+    13,
+    16,
+    13,
+    22,
+    12,
+    15
+   ],
+   "trends_status": "LIVE",
+   "trends_at": "2026-10-12 11:25:13 UTC",
+   "rising": [
+    {
+     "query": "portable lint remover",
+     "growth": "+300%"
+    },
+    {
+     "query": "reusable lint remover",
+     "growth": "+200%"
+    },
+    {
+     "query": "reusable lint roller",
+     "growth": "+200%"
+    },
+    {
+     "query": "laundry lint remover",
+     "growth": "+170%"
+    },
+    {
+     "query": "lint remover tool",
+     "growth": "+160%"
+    },
+    {
+     "query": "pet hair remover",
+     "growth": "+140%"
+    }
+   ],
+   "rising_at": "2026-10-12 11:25:15 UTC",
+   "market": {
+    "score": 66,
+    "video_score": 83,
+    "trend_score": 40,
+    "crowding": "baja",
+    "partial": false,
+    "reasons": [
+     "Shorts: los 10 más vistos tienen una mediana de 127K vistas (el mayor, 4.2M)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Google (EE. UU.): baja -15% en las últimas 4 semanas vs las 12 anteriores"
+    ]
+   },
+   "measured_at": "2026-10-12 11:25:15 UTC"
   }
  }
 }

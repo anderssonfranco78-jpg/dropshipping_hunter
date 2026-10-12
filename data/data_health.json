@@ -1,11 +1,11 @@
 {
   "mode": "LIVE",
-  "generated_at": "2026-10-12 10:33:16 UTC",
+  "generated_at": "2026-10-12 11:25:50 UTC",
   "sources": {
     "trends": {
-      "LIVE": 0,
+      "LIVE": 4,
       "CACHED": 0,
-      "NO_LIVE_DATA": 4,
+      "NO_LIVE_DATA": 0,
       "MANUAL": 0,
       "MOCK": 0,
       "UNAVAILABLE": 0
@@ -51,19 +51,9 @@
       "UNAVAILABLE": 0
     }
   },
-  "alerts_red": [
-    "ProSmile Ultrasonic™: Google Trends — Sin datos en vivo",
-    "SteamFur Pro™: Google Trends — Sin datos en vivo",
-    "SpineRelief Pro™: Google Trends — Sin datos en vivo",
-    "AeroForce X3™: Google Trends — Sin datos en vivo"
-  ],
+  "alerts_red": [],
   "alerts_yellow": [],
-  "alerts": [
-    "ProSmile Ultrasonic™: Google Trends — Sin datos en vivo",
-    "SteamFur Pro™: Google Trends — Sin datos en vivo",
-    "SpineRelief Pro™: Google Trends — Sin datos en vivo",
-    "AeroForce X3™: Google Trends — Sin datos en vivo"
-  ],
-  "has_failures": true,
+  "alerts": [],
+  "has_failures": false,
   "is_mock": false
 }

@@ -2,7 +2,7 @@
 title: "Dossier Oficial de Productos Ganadores Validados"
 source: "dropshipping_hunter"
 date: "2026-10-12"
-generated_at: "2026-10-12T10:33:16.948437+00:00"
+generated_at: "2026-10-12T11:25:50.948916+00:00"
 evaluation_engine_version: "1.0.0"
 audit_standard: "Antigravity 7 Golden Rules"
 scoring_threshold_approval: 80
@@ -15,19 +15,19 @@ summary:
 products:
   - id: "prosmile-ultrasonic"
     name: "ProSmile Ultrasonic™ — Smart Plaque & Calculus Scaler"
-    score: 100.0
+    score: 90.0
     status: "WINNER"
   - id: "steamfur-pro"
     name: "SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer"
-    score: 97.0
+    score: 87.0
     status: "WINNER"
   - id: "spinerelief-pro"
     name: "SpineRelief Pro™ — Inflatable Lumbar Traction Belt"
-    score: 97.0
+    score: 87.0
     status: "WINNER"
   - id: "aeroforce-x3"
     name: "AeroForce X3™ — 130,000 RPM Violent Turbo Blower"
-    score: 97.0
+    score: 87.0
     status: "WINNER"
 ---
 
@@ -54,7 +54,7 @@ Cada ficha técnica incluye su desglose financiero completo, proveedores mayoris
 
 **Categoría / Nicho**: Dental Health & Personal Care  
 **ID de Referencia**: `prosmile-ultrasonic`  
-**Puntuación Compuesta**: **100.0 / 100** | **Estado**: `🏆 WINNER`  
+**Puntuación Compuesta**: **90.0 / 100** | **Estado**: `🏆 WINNER`  
 **Descripción**: Home dental hygiene scaler with 40 kHz acoustic micro-vibrations and bioelectric sensor that shatters solid calculus instantly while stopping automatically on gums.
 
 #### Ficha Técnica y Desglose Financiero
@@ -175,7 +175,7 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 
 **Categoría / Nicho**: Pet Supplies & Home Care  
 **ID de Referencia**: `steamfur-pro`  
-**Puntuación Compuesta**: **97.0 / 100** | **Estado**: `🏆 WINNER`  
+**Puntuación Compuesta**: **87.0 / 100** | **Estado**: `🏆 WINNER`  
 **Descripción**: Conical silicone pet brush with integrated cold ion ultrasonic mist that neutralizes static and allows peeling off shed pet hair in a single solid sheet in 2 seconds.
 
 #### Ficha Técnica y Desglose Financiero
@@ -296,7 +296,7 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 
 **Categoría / Nicho**: Health & Ergonomics  
 **ID de Referencia**: `spinerelief-pro`  
-**Puntuación Compuesta**: **97.0 / 100** | **Estado**: `🏆 WINNER`  
+**Puntuación Compuesta**: **87.0 / 100** | **Estado**: `🏆 WINNER`  
 **Descripción**: Clinical-grade inflatable lumbar traction belt with 24 pneumatic columns providing 2.5 bar decompression for L1-L5 vertebrae and acute sciatica nerve relief.
 
 #### Ficha Técnica y Desglose Financiero
@@ -419,7 +419,7 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 
 **Categoría / Nicho**: Automotive & Tactical Tools  
 **ID de Referencia**: `aeroforce-x3`  
-**Puntuación Compuesta**: **97.0 / 100** | **Estado**: `🏆 WINNER`  
+**Puntuación Compuesta**: **87.0 / 100** | **Estado**: `🏆 WINNER`  
 **Descripción**: Handheld micro-turbine jet fan with 130,000 RPM brushless motor delivering 52 m/s wind speed for contact-free car drying, detailing, and keyboard cleaning without swirl marks.
 
 #### Ficha Técnica y Desglose Financiero
