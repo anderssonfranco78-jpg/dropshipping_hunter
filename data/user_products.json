@@ -1,6 +1,6 @@
 {
   "_instrucciones": [
-    "Este archivo es TUYO: el robot (local o GitHub) solo lo lee, nunca lo escribe.",
+    "Este archivo es TUYO: el robot (PC o GitHub) solo lo lee. Lo cambias tú, a mano o con los botones del panel en tu PC (Evaluar, Editar, En mi tienda).",
     "Para agregar un producto copia un bloque completo de 'products', cambia el 'id' y los valores.",
     "Costos en USD con envío a EE. UU.: unit_cost_usd (precio de la variante) + shipping_cost_usd.",
     "Stock (opcional): verified_stock (unidades de la variante) y verified_date (AAAA-MM-DD). Menos de 100 unidades = KO-STOCK (descalificado).",

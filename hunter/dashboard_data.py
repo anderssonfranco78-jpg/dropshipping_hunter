@@ -25,7 +25,7 @@ from hunter.market import market_score, verdict
 from hunter.models import AuditResult
 from hunter.radar import load_state, radar_payload
 from hunter.provenance import (
-    LIVE, MANUAL, MOCK, NO_LIVE_DATA, SIGNALS, STOCK_LOW, UNAVAILABLE,
+    CACHED, LIVE, MANUAL, MOCK, NO_LIVE_DATA, SIGNALS, STOCK_LOW, UNAVAILABLE,
 )
 from hunter.stress import STRESSED_MARGIN_FLOOR_PCT
 
@@ -47,7 +47,7 @@ def build_health(
     results: List[AuditResult], offline: bool, input_errors: Optional[List[str]] = None
 ) -> Dict[str, Any]:
     """Aggregate provenance and operational alerts across audited products."""
-    states = (LIVE, NO_LIVE_DATA, MANUAL, MOCK, UNAVAILABLE)
+    states = (LIVE, CACHED, NO_LIVE_DATA, MANUAL, MOCK, UNAVAILABLE)
     sources: Dict[str, Dict[str, int]] = {s: {st: 0 for st in states} for s in SIGNALS}
     red: List[str] = [f"user_products.json — {e}" for e in (input_errors or [])]
     yellow: List[str] = []
@@ -90,7 +90,8 @@ def market_inputs(c) -> Tuple[Optional[Dict[str, Any]], Optional[Dict[str, Any]]
     """Only measurements taken live in THIS run feed the market score (MOCK/failed -> None)."""
     status = c.data_status or {}
     yt = c.youtube if status.get("youtube") == LIVE else None
-    tr = {"momentum_pct": c.google_trends_momentum, **(c.trends_meta or {})} if status.get("trends") == LIVE else None
+    tr = ({"momentum_pct": c.google_trends_momentum, **(c.trends_meta or {})}
+          if status.get("trends") in (LIVE, CACHED) else None)  # CACHED = last real measurement, <= 7 days
     return yt, tr
 
 

@@ -37,8 +37,9 @@ jobs:
         run: |
           python -m unittest discover -s tests -t .
 
-      # Lee data/user_products.json (costo, stock y fecha que escribe el operador) y solo consulta
-      # Google Trends. Sin datos inventados. Selenium/AliExpress queda apagado (sin --scrape-suppliers).
+      # Lee data/user_products.json (costos de DSers que anota el operador) y mide el mercado real:
+      # Google Trends (semanal, 12 meses) + YouTube Shorts, y unas pocas ideas del Radar.
+      # Sin datos inventados: si una fuente falla queda "Sin datos". AliExpress/Selenium sigue apagado.
       - name: Ejecutar motor de auditoría
         run: |
           python main.py
@@ -56,11 +57,12 @@ jobs:
         run: |
           git config --global user.name "Dropshipping Hunter Bot"
           git config --global user.email "bot@dropshipping-hunter.local"
-          git add data/candidates.json data/audit_results.json data/data_health.json data/dashboard_data.js \
-                  ranking_productos.* dossier_productos_ganadores.md
+          # todo lo generado en data/ (user_products.json ya se verificó intacto arriba) + panel clásico + dossier
+          git add -A data ranking_productos.* dossier_productos_ganadores.md
           if ! git diff --staged --quiet; then
             git commit -m "🤖 chore(auto): actualización diaria de tendencias y auditoría [skip ci]"
-            git pull --rebase --autostash
+            # el PC también sube datos: si chocan, ganan los de esta corrida (el historial nunca choca)
+            git pull --rebase --autostash -X theirs
             git push
           else
             echo "No se detectaron cambios hoy."

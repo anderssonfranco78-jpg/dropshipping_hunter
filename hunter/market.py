@@ -88,8 +88,9 @@ def market_score(youtube: Optional[Dict[str, Any]], trends: Optional[Dict[str, A
         reasons.append("Shorts: sin datos en vivo en esta corrida")
     if ts is not None:
         m = trends["momentum_pct"]
+        when = f" (medido el {trends['measured_at']}: hoy Google pidió una pausa)" if trends.get("measured_at") else ""
         reasons.append(f"Google (EE. UU.): {'sube' if m > 10 else 'baja' if m < -10 else 'estable'} "
-                       f"{m:+.0f}% en las últimas 4 semanas vs las 12 anteriores")
+                       f"{m:+.0f}% en las últimas 4 semanas vs las 12 anteriores{when}")
     elif trends and trends.get("low_volume"):
         reasons.append("Google: casi no se busca por nombre (normal en gadgets que se descubren en video)")
     else:

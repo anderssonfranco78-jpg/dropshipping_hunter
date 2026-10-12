@@ -117,7 +117,7 @@ CANONICAL_SUPPLIER_DATA: Dict[str, Dict[str, Any]] = {
                 "slot_name": "Slot 1 (Mediodía)",
                 "time_range": "12:00 – 13:30",
                 "timezone": "Hora local del target",
-                "rational": "Pausa de almuerzo, consumo rápido de contenido táctico/gadgets en TikTok.",
+                "rational": "Pausa de almuerzo, consumo rápido de contenido táctico/gadgets en YouTube Shorts e Instagram/Facebook Reels.",
             },
             {
                 "slot_name": "Slot 2 (Tarde / Salida)",

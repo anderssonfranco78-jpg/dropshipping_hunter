@@ -107,6 +107,9 @@ def run_harvest_stage(
     logger.info(" Mode: %s", "Deterministic Offline Mock" if offline_mode else "Live")
 
     engine = HunterEngine(offline_mode=offline_mode, youtube=True)  # YouTube is never queried offline
+    trends_cache_path = data_dir / "trends_cache.json"
+    if not offline_mode:
+        engine.load_trends_cache(trends_cache_path)
     INPUT_ERRORS.clear()
     products_path = data_dir / "user_products.json"
     if products_path.exists():
@@ -153,6 +156,9 @@ def run_harvest_stage(
             logger.info(" [RADAR] %d ideas con medición guardada en data/radar.json", len(state["ideas"]))
         except Exception as exc:  # the radar must never break the main evaluation
             logger.error(" [RADAR] falló sin afectar la evaluación: %s", exc)
+
+    if not offline_mode:
+        engine.save_trends_cache(trends_cache_path)
 
     candidates_path = data_dir / "candidates.json"
     engine.save_candidates(candidates, output_path=candidates_path)

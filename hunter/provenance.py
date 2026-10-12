@@ -14,6 +14,7 @@ MANUAL = "MANUAL"                # Hand-curated seed value (not measured by the 
 MOCK = "MOCK"                    # Deterministic fixture, only via explicit --offline (dev/tests)
 NO_LIVE_DATA = "NO_LIVE_DATA"    # Source failed; value NOT refreshed, shown as "Sin datos en vivo"
 UNAVAILABLE = "UNAVAILABLE"      # Source known to be retired/blocked; not queried by default (grey, no alarm)
+CACHED = "CACHED"                # Source refused THIS run; the last real measurement (<= 7 days, dated) is shown
 
 # Operator stock verification status (data/user_products.json)
 STOCK_OK = "OK"                  # >= MIN stock, verified within the freshness window

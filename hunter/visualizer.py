@@ -1359,7 +1359,7 @@ class Visualizer:
                         </button>
                     </div>
                     <div class="status-badge" id="statusBadge">
-                        <span class="status-dot"></span> Conectado a TikTok Creative, Meta & Google Trends
+                        <span class="status-dot"></span> Datos: Google Trends + YouTube Shorts + costos de DSers
                     </div>
                 </div>
             </div>
@@ -1752,7 +1752,7 @@ class Visualizer:
             const tbody = document.getElementById('productsTableBody');
 
             icon.style.transform = 'rotate(720deg)';
-            text.textContent = 'Consultando TikTok, Meta y Trends...';
+            text.textContent = 'Consultando Google Trends y YouTube Shorts...';
             btn.style.opacity = '0.85';
             status.innerHTML = '<span class="status-dot" style="background:#F59E0B;box-shadow:0 0 8px #F59E0B;"></span> Escaneando anuncios activos y volumen de búsqueda...';
             tbody.style.opacity = '0.4';

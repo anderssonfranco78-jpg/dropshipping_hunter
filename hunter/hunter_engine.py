@@ -17,11 +17,12 @@ import logging
 import os
 import re
 import sys
+import time
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Union
 
 from hunter.models import RawCandidate
-from hunter.provenance import LIVE, MOCK, NO_LIVE_DATA, UNAVAILABLE, NoLiveDataError
+from hunter.provenance import CACHED, LIVE, MOCK, NO_LIVE_DATA, UNAVAILABLE, NoLiveDataError
 from hunter.scrapers.aliexpress_freight import AliExpressFreightScraper
 from hunter.scrapers.google_trends import GoogleTrendsScraper
 from hunter.scrapers.meta_ad_library import MetaAdLibraryScraper
@@ -68,6 +69,9 @@ class HunterEngine:
         self.youtube_enabled = youtube and not offline_mode
         self.youtube_scraper = YouTubeShortsScraper()
         self.google_paused = False  # set on the first HTTP 429: Google is not asked again this run
+        # Last REAL Google measurement per keyword (data/trends_cache.json). Used, dated, when Google
+        # refuses a run, so a rate limit does not reshuffle the ranking. Never older than 7 days.
+        self.trends_cache: Dict[str, Dict[str, Any]] = {}
         self.timeout = timeout
         
         self.tiktok_scraper = TikTokCreativeScraper(offline_mode=offline_mode, timeout=timeout)
@@ -447,6 +451,8 @@ class HunterEngine:
             candidate.competitor_ad_count = meta_res["active_ad_count"]
 
         trends_res = signal("trends", lambda: self._trends(kw))
+        if trends_res is not None and trends_res.get("_cached"):
+            candidate.data_status["trends"] = CACHED
         if trends_res is not None:
             candidate.google_trends_momentum = trends_res["momentum_pct"]
             candidate.trends_series = self._clean_series(trends_res.get("timeline_data"))
@@ -456,6 +462,8 @@ class HunterEngine:
             candidate.trends_meta = {k: trends_res[k] for k in
                                      ("low_volume", "zero_share", "peak_ratio", "mean_recent", "mean_prior", "resolution")
                                      if k in trends_res}
+            if trends_res.get("_cached"):
+                candidate.trends_meta["measured_at"] = trends_res.get("_measured_at")
         else:
             candidate.trends_series = None  # failed / not queried: never keep a stale series
             candidate.trends_labels = None
@@ -476,16 +484,39 @@ class HunterEngine:
                 candidate.shipping_cost = freight_res["shipping_cost"]
 
 
+    TRENDS_CACHE_DAYS = 7
+
     def _trends(self, keyword: str) -> Dict[str, Any]:
-        """Google Trends with a circuit breaker: after one 429 the rest of the run skips Google."""
-        if self.google_paused:
-            raise NoLiveDataError("GoogleTrendsScraper", "Google pidió una pausa (HTTP 429): no se insiste en esta corrida")
+        """Google Trends with a circuit breaker (after one 429 the run skips Google) and a dated fallback."""
+        key = keyword.lower().strip()
         try:
-            return self.trends_scraper.get_trend_analysis(keyword=keyword)
+            if self.google_paused:
+                raise NoLiveDataError("GoogleTrendsScraper", "Google pidió una pausa (HTTP 429): no se insiste en esta corrida")
+            result = self.trends_scraper.get_trend_analysis(keyword=keyword)
         except NoLiveDataError as exc:
             if "429" in str(exc):
                 self.google_paused = True
+            cached = self.trends_cache.get(key)
+            if not self.offline_mode and cached and time.time() - cached.get("_measured_ts", 0) <= self.TRENDS_CACHE_DAYS * 86400:
+                logger.warning(f"Google no respondió para '{keyword}': se usa su medición real del {cached.get('_measured_at')}")
+                return dict(cached, _cached=True)
             raise
+        if not self.offline_mode and result.get("status") == LIVE:
+            self.trends_cache[key] = dict(result, _measured_ts=time.time(),
+                                          _measured_at=time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()))
+        return result
+
+    def load_trends_cache(self, path: Union[str, Path]) -> None:
+        try:
+            data = json.loads(Path(path).read_text(encoding="utf-8"))
+            self.trends_cache = data if isinstance(data, dict) else {}
+        except (OSError, ValueError):
+            self.trends_cache = {}
+
+    def save_trends_cache(self, path: Union[str, Path]) -> None:
+        cutoff = time.time() - self.TRENDS_CACHE_DAYS * 86400
+        keep = {k: v for k, v in self.trends_cache.items() if v.get("_measured_ts", 0) >= cutoff}
+        Path(path).write_text(json.dumps(keep, ensure_ascii=False, indent=1), encoding="utf-8")
 
     def _measure_youtube(self, candidate: RawCandidate) -> None:
         """YouTube Shorts interest for the product phrase. Off (UNAVAILABLE) unless enabled."""

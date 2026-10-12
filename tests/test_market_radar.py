@@ -89,6 +89,37 @@ class TestYouTubeParsing(unittest.TestCase):
             summarize("kw", [])
 
 
+class TestTrendsFallback(unittest.TestCase):
+    def test_google_refusal_uses_last_real_measurement_dated_and_never_too_old(self):
+        import time as _time
+        from hunter.hunter_engine import HunterEngine
+        from hunter.provenance import CACHED
+        from hunter.user_products import product_to_candidate
+        from tests.test_user_products import TODAY, product
+
+        engine = HunterEngine(offline_mode=False)
+        live = {"momentum_pct": 12.0, "timeline_data": [40, 50, 60], "low_volume": False, "status": LIVE}
+        with patch.object(engine.trends_scraper, "get_trend_analysis", return_value=live):
+            engine.harvest_products([product_to_candidate(product(), today=TODAY)])
+        self.assertIn("steamy pet brush", engine.trends_cache)
+
+        refused = NoLiveDataError("GoogleTrendsScraper", "HTTP 429 (rate limit)")
+        cand = product_to_candidate(product(), today=TODAY)
+        with patch.object(engine.trends_scraper, "get_trend_analysis", side_effect=refused):
+            engine.harvest_products([cand])
+        self.assertEqual(cand.data_status["trends"], CACHED)
+        self.assertEqual(cand.trends_series, [40, 50, 60])
+        self.assertIn("measured_at", cand.trends_meta)
+
+        engine.trends_cache["steamy pet brush"]["_measured_ts"] = _time.time() - 8 * 86400  # too old
+        engine.google_paused = False
+        cand = product_to_candidate(product(), today=TODAY)
+        with patch.object(engine.trends_scraper, "get_trend_analysis", side_effect=refused):
+            engine.harvest_products([cand])
+        self.assertEqual(cand.data_status["trends"], NO_LIVE_DATA)
+        self.assertIsNone(cand.trends_series)
+
+
 class TempDir(unittest.TestCase):
     def setUp(self):
         self.tmp = Path(tempfile.mkdtemp())

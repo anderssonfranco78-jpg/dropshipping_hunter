@@ -179,9 +179,9 @@ class Job:
 # Edición de productos (data/user_products.json) desde el panel
 # ----------------------------------------------------------------------------------------------
 PRODUCT_LOCK = threading.Lock()
-TOP_FIELDS = {"name", "category", "source_url", "srp_usd", "unit_cost_usd", "shipping_cost_usd", "target_variant_name",
+TOP_FIELDS = ("name", "category", "source_url", "srp_usd", "unit_cost_usd", "shipping_cost_usd", "target_variant_name",
               "verified_stock", "verified_date", "notes", "trends_keyword", "video_keyword", "en_tienda", "image_url",
-              "description"}
+              "description")  # ordered: new products are written in a readable field order
 SHIP_FIELDS = {"days_min", "days_max", "carrier"}
 RULE_FIELDS = {"demo_visual_speed_sec", "pain_level_score", "retail_availability_score", "has_fragile_material",
                "has_sizing_requirements", "ad_active_days", "competitor_ad_count", "google_trends_momentum"}
@@ -212,7 +212,7 @@ def save_product(body: dict) -> dict:
                 if any(p.get("id") == pid for p in items):
                     raise ValueError(f"ya existe un producto con id '{pid}'")
                 item["id"] = pid
-            for key in TOP_FIELDS & body.keys():
+            for key in (k for k in TOP_FIELDS if k in body):
                 value = body[key]
                 item[key] = value.strip() if isinstance(value, str) else value
             for group, allowed in (("shipping", SHIP_FIELDS), ("rule_inputs", RULE_FIELDS)):
