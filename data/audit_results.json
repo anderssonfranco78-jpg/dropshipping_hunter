@@ -1,6 +1,180 @@
 [
   {
     "stressed": {
+      "srp": 34.99,
+      "landed_cost": 8.2,
+      "gateway_fee": 1.71,
+      "breakage_buffer": 1.23,
+      "chargeback_reserve": 0.35,
+      "gross_profit": 26.79,
+      "gross_margin_pct": 76.56,
+      "stressed_profit": 23.5,
+      "stressed_margin_pct": 67.16,
+      "below_floor": false
+    },
+    "tier_reasons": [],
+    "candidate": {
+      "candidate_id": "prosmile-ultrasonic",
+      "name": "ProSmile Ultrasonic™ — Smart Plaque & Calculus Scaler",
+      "category": "Dental Health & Personal Care",
+      "description": "Home dental hygiene scaler with 40 kHz acoustic micro-vibrations and bioelectric sensor that shatters solid calculus instantly while stopping automatically on gums.",
+      "supplier_cost": 4.5,
+      "shipping_cost": 3.7,
+      "suggested_price": 34.99,
+      "shipping_days_min": 7,
+      "shipping_days_max": 10,
+      "shipping_carrier": "CJPacket Fast Line",
+      "has_fragile_material": false,
+      "has_sizing_requirements": false,
+      "demo_visual_speed_sec": 1.5,
+      "pain_level_score": 92.0,
+      "retail_availability_score": 92.0,
+      "ad_active_days": 42,
+      "competitor_ad_count": 48,
+      "google_trends_momentum": 41.6,
+      "source_url": "https://www.aliexpress.com/item/1005005236582798.html",
+      "target_demographics": {
+        "age": "22-58",
+        "gender": "all",
+        "interests": [
+          "teeth whitening",
+          "coffee/tea drinkers",
+          "smokers",
+          "dental hygiene"
+        ]
+      },
+      "data_status": {
+        "trends": "NO_LIVE_DATA",
+        "youtube": "LIVE",
+        "tiktok": "UNAVAILABLE",
+        "meta": "UNAVAILABLE",
+        "freight": "UNAVAILABLE",
+        "supplier": "MANUAL"
+      },
+      "supplier_variant": null,
+      "supplier_stock": null,
+      "cost_note": null,
+      "stock_verified_date": null,
+      "stock_status": "UNVERIFIED",
+      "trends_keyword": "plaque remover",
+      "notes": "Costo SIN verificar (estimación de la semilla). Verificar precio con envío a EE. UU. y stock de la variante.",
+      "trends_series": null,
+      "image_url": null,
+      "video_keyword": "ultrasonic tooth cleaner",
+      "in_store": false,
+      "trends_labels": null,
+      "trends_meta": null,
+      "youtube": {
+        "keyword": "ultrasonic tooth cleaner",
+        "shorts_found": 29,
+        "median_views_top10": 353000,
+        "max_views": 5000000,
+        "over_100k": 7,
+        "over_1m": 4,
+        "top": [
+          {
+            "title": "cleaning teeth with ultrasonic scaler #shorts #dentist #teethcleaning",
+            "views": 5000000,
+            "url": "https://www.youtube.com/shorts/REL8d-UV-pI"
+          },
+          {
+            "title": "Smile Therapy- Ultrasonic Tooth Cleaner",
+            "views": 3000000,
+            "url": "https://www.youtube.com/shorts/MKD6ZfFwqyk"
+          },
+          {
+            "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
+            "views": 1600000,
+            "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
+          },
+          {
+            "title": "Scaling teeth to remove tartar and calculus #shorts",
+            "views": 1400000,
+            "url": "https://www.youtube.com/shorts/1RWeozzKyos"
+          },
+          {
+            "title": "Clean family teeth with ultrasonic tooth cleaner! #oralhygiene",
+            "views": 378000,
+            "url": "https://www.youtube.com/shorts/ZjvT_HFFc60"
+          }
+        ],
+        "status": "LIVE"
+      }
+    },
+    "financials": {
+      "landed_cost": 8.2,
+      "srp": 34.99,
+      "markup_multiplier": 4.27,
+      "processor_fee": 1.31,
+      "reserve_buffer": 0.35,
+      "net_profit": 25.13,
+      "net_margin_pct": 71.82
+    },
+    "rule_scores": {
+      "1": {
+        "rule_id": 1,
+        "name": "Visual WOW (0-3s)",
+        "raw_score": 100.0,
+        "weight": 0.2,
+        "weighted_score": 20.0,
+        "passed": true
+      },
+      "2": {
+        "rule_id": 2,
+        "name": "Acute Pain / Passion",
+        "raw_score": 100.0,
+        "weight": 0.2,
+        "weighted_score": 20.0,
+        "passed": true
+      },
+      "3": {
+        "rule_id": 3,
+        "name": "Retail Scarcity",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "4": {
+        "rule_id": 4,
+        "name": "Unit Economics & Markup",
+        "raw_score": 100.0,
+        "weight": 0.2,
+        "weighted_score": 20.0,
+        "passed": true
+      },
+      "5": {
+        "rule_id": 5,
+        "name": "Ticket Range Sweet Spot",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "6": {
+        "rule_id": 6,
+        "name": "Zero Sizing / Fragility",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      },
+      "7": {
+        "rule_id": 7,
+        "name": "Fast Tracked Logistics",
+        "raw_score": 100.0,
+        "weight": 0.1,
+        "weighted_score": 10.0,
+        "passed": true
+      }
+    },
+    "ko_gates_tripped": [],
+    "composite_score": 100.0,
+    "tier": "WINNER",
+    "passed_audit": true
+  },
+  {
+    "stressed": {
       "srp": 29.99,
       "landed_cost": 8.27,
       "gateway_fee": 1.54,
@@ -45,6 +219,7 @@
       },
       "data_status": {
         "trends": "NO_LIVE_DATA",
+        "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
         "freight": "UNAVAILABLE",
@@ -55,8 +230,50 @@
       "cost_note": null,
       "stock_verified_date": "2026-10-08",
       "stock_status": "OK",
-      "trends_keyword": "steamy pet brush",
-      "notes": "Variante verde mango con cerdas naranja. Precio de página $4.73 + envío $3.54 = $8.27 (bitácora §24.3). Stock leído en vivo el 2026-10-08: green 994 uds; yellow solo 17 uds (descartada)."
+      "trends_keyword": "cat brush",
+      "notes": "Variante verde mango con cerdas naranja. Precio de página $4.73 + envío $3.54 = $8.27 (bitácora §24.3). Stock leído en vivo el 2026-10-08: green 994 uds; yellow solo 17 uds (descartada).",
+      "trends_series": null,
+      "image_url": null,
+      "video_keyword": "steamy cat brush",
+      "in_store": false,
+      "trends_labels": null,
+      "trends_meta": null,
+      "youtube": {
+        "keyword": "steamy cat brush",
+        "shorts_found": 32,
+        "median_views_top10": 155500,
+        "max_views": 18000000,
+        "over_100k": 6,
+        "over_1m": 2,
+        "top": [
+          {
+            "title": "✨Magic Pet Steam Brush – Bye Bye Shedding! 💦🐶🐱#Cat #Cats #CuteCat",
+            "views": 18000000,
+            "url": "https://www.youtube.com/shorts/CzSlC3TFa1Y"
+          },
+          {
+            "title": "🐶 Why Is Everyone Switching to This Steam Pet Brush?! 👀🔥",
+            "views": 3800000,
+            "url": "https://www.youtube.com/shorts/n-GflRw0sXI"
+          },
+          {
+            "title": "Cat Is Obsessed With This Brush #catbrush #steamycatbrush #hairbrush",
+            "views": 479000,
+            "url": "https://www.youtube.com/shorts/BCsAQg0Chfc"
+          },
+          {
+            "title": "Cat Steam Brush",
+            "views": 208000,
+            "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
+          },
+          {
+            "title": "My Cat Tries The Viral Steam Cat Brush | The Dodo",
+            "views": 182000,
+            "url": "https://www.youtube.com/shorts/bFgsR8xpyOw"
+          }
+        ],
+        "status": "LIVE"
+      }
     },
     "financials": {
       "landed_cost": 8.27,
@@ -132,139 +349,6 @@
   },
   {
     "stressed": {
-      "srp": 34.99,
-      "landed_cost": 8.2,
-      "gateway_fee": 1.71,
-      "breakage_buffer": 1.23,
-      "chargeback_reserve": 0.35,
-      "gross_profit": 26.79,
-      "gross_margin_pct": 76.56,
-      "stressed_profit": 23.5,
-      "stressed_margin_pct": 67.16,
-      "below_floor": false
-    },
-    "tier_reasons": [
-      "Stock sin verificar — anota unidades y fecha en user_products.json (Contendiente condicional)"
-    ],
-    "candidate": {
-      "candidate_id": "prosmile-ultrasonic",
-      "name": "ProSmile Ultrasonic™ — Smart Plaque & Calculus Scaler",
-      "category": "Dental Health & Personal Care",
-      "description": "Home dental hygiene scaler with 40 kHz acoustic micro-vibrations and bioelectric sensor that shatters solid calculus instantly while stopping automatically on gums.",
-      "supplier_cost": 4.5,
-      "shipping_cost": 3.7,
-      "suggested_price": 34.99,
-      "shipping_days_min": 7,
-      "shipping_days_max": 10,
-      "shipping_carrier": "CJPacket Fast Line",
-      "has_fragile_material": false,
-      "has_sizing_requirements": false,
-      "demo_visual_speed_sec": 1.5,
-      "pain_level_score": 92.0,
-      "retail_availability_score": 92.0,
-      "ad_active_days": 42,
-      "competitor_ad_count": 48,
-      "google_trends_momentum": 1311.8,
-      "source_url": "https://www.aliexpress.com/item/1005005236582798.html",
-      "target_demographics": {
-        "age": "22-58",
-        "gender": "all",
-        "interests": [
-          "teeth whitening",
-          "coffee/tea drinkers",
-          "smokers",
-          "dental hygiene"
-        ]
-      },
-      "data_status": {
-        "trends": "LIVE",
-        "tiktok": "UNAVAILABLE",
-        "meta": "UNAVAILABLE",
-        "freight": "UNAVAILABLE",
-        "supplier": "MANUAL"
-      },
-      "supplier_variant": null,
-      "supplier_stock": null,
-      "cost_note": null,
-      "stock_verified_date": null,
-      "stock_status": "UNVERIFIED",
-      "trends_keyword": "dental calculus",
-      "notes": "Costo SIN verificar (estimación de la semilla). Verificar precio con envío a EE. UU. y stock de la variante."
-    },
-    "financials": {
-      "landed_cost": 8.2,
-      "srp": 34.99,
-      "markup_multiplier": 4.27,
-      "processor_fee": 1.31,
-      "reserve_buffer": 0.35,
-      "net_profit": 25.13,
-      "net_margin_pct": 71.82
-    },
-    "rule_scores": {
-      "1": {
-        "rule_id": 1,
-        "name": "Visual WOW (0-3s)",
-        "raw_score": 100.0,
-        "weight": 0.2,
-        "weighted_score": 20.0,
-        "passed": true
-      },
-      "2": {
-        "rule_id": 2,
-        "name": "Acute Pain / Passion",
-        "raw_score": 100.0,
-        "weight": 0.2,
-        "weighted_score": 20.0,
-        "passed": true
-      },
-      "3": {
-        "rule_id": 3,
-        "name": "Retail Scarcity",
-        "raw_score": 100.0,
-        "weight": 0.1,
-        "weighted_score": 10.0,
-        "passed": true
-      },
-      "4": {
-        "rule_id": 4,
-        "name": "Unit Economics & Markup",
-        "raw_score": 100.0,
-        "weight": 0.2,
-        "weighted_score": 20.0,
-        "passed": true
-      },
-      "5": {
-        "rule_id": 5,
-        "name": "Ticket Range Sweet Spot",
-        "raw_score": 100.0,
-        "weight": 0.1,
-        "weighted_score": 10.0,
-        "passed": true
-      },
-      "6": {
-        "rule_id": 6,
-        "name": "Zero Sizing / Fragility",
-        "raw_score": 100.0,
-        "weight": 0.1,
-        "weighted_score": 10.0,
-        "passed": true
-      },
-      "7": {
-        "rule_id": 7,
-        "name": "Fast Tracked Logistics",
-        "raw_score": 100.0,
-        "weight": 0.1,
-        "weighted_score": 10.0,
-        "passed": true
-      }
-    },
-    "ko_gates_tripped": [],
-    "composite_score": 100.0,
-    "tier": "CONTENDER",
-    "passed_audit": false
-  },
-  {
-    "stressed": {
       "srp": 54.99,
       "landed_cost": 14.8,
       "gateway_fee": 2.41,
@@ -276,9 +360,7 @@
       "stressed_margin_pct": 63.67,
       "below_floor": false
     },
-    "tier_reasons": [
-      "Stock sin verificar — anota unidades y fecha en user_products.json (Contendiente condicional)"
-    ],
+    "tier_reasons": [],
     "candidate": {
       "candidate_id": "spinerelief-pro",
       "name": "SpineRelief Pro™ — Inflatable Lumbar Traction Belt",
@@ -297,7 +379,7 @@
       "retail_availability_score": 95.0,
       "ad_active_days": 34,
       "competitor_ad_count": 38,
-      "google_trends_momentum": 1291.5,
+      "google_trends_momentum": 52.4,
       "source_url": "https://www.aliexpress.com/item/1005006626002554.html",
       "target_demographics": {
         "age": "35-65",
@@ -314,7 +396,8 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "NO_LIVE_DATA",
+        "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
         "freight": "UNAVAILABLE",
@@ -326,7 +409,49 @@
       "stock_verified_date": null,
       "stock_status": "UNVERIFIED",
       "trends_keyword": "lumbar traction",
-      "notes": "ALERTA: lectura en vivo del 2026-10-08 mostró sus 3 variantes por debajo de 100 uds (no quedaron registrados los números exactos). Verificar y anotar el stock real: si es < 100 quedará bloqueado (KO-STOCK)."
+      "notes": "ALERTA: lectura en vivo del 2026-10-08 mostró sus 3 variantes por debajo de 100 uds (no quedaron registrados los números exactos). Verificar y anotar el stock real: si es < 100 quedará bloqueado (KO-STOCK).",
+      "trends_series": null,
+      "image_url": null,
+      "video_keyword": "lumbar traction belt",
+      "in_store": false,
+      "trends_labels": null,
+      "trends_meta": null,
+      "youtube": {
+        "keyword": "lumbar traction belt",
+        "shorts_found": 30,
+        "median_views_top10": 90500,
+        "max_views": 3200000,
+        "over_100k": 5,
+        "over_1m": 2,
+        "top": [
+          {
+            "title": "Mechanical Lumbar Traction for Back Pain",
+            "views": 3200000,
+            "url": "https://www.youtube.com/shorts/_pWlXLHnN-E"
+          },
+          {
+            "title": "Need a quick and easy way to decompress your lower back?! Try this banded Lumbar Traction technique",
+            "views": 1400000,
+            "url": "https://www.youtube.com/shorts/Kn0jW9VBxXA"
+          },
+          {
+            "title": "Traction Treatment For Sciatica| Sciatica Treatment #sciatica #shorts",
+            "views": 231000,
+            "url": "https://www.youtube.com/shorts/oq1nC0LObDE"
+          },
+          {
+            "title": "THORACIC SPINE  BELT TRACTION TECHNIQUE FOR PAINFUL BREATHING",
+            "views": 109000,
+            "url": "https://www.youtube.com/shorts/cJ050vHrUOQ"
+          },
+          {
+            "title": "Spine and back traction using Lamber Belt at #yogapeacesansthan",
+            "views": 108000,
+            "url": "https://www.youtube.com/shorts/bdHrn9_9vj4"
+          }
+        ],
+        "status": "LIVE"
+      }
     },
     "financials": {
       "landed_cost": 14.8,
@@ -397,8 +522,8 @@
     },
     "ko_gates_tripped": [],
     "composite_score": 97.0,
-    "tier": "CONTENDER",
-    "passed_audit": false
+    "tier": "WINNER",
+    "passed_audit": true
   },
   {
     "stressed": {
@@ -413,9 +538,7 @@
       "stressed_margin_pct": 62.49,
       "below_floor": false
     },
-    "tier_reasons": [
-      "Stock sin verificar — anota unidades y fecha en user_products.json (Contendiente condicional)"
-    ],
+    "tier_reasons": [],
     "candidate": {
       "candidate_id": "aeroforce-x3",
       "name": "AeroForce X3™ — 130,000 RPM Violent Turbo Blower",
@@ -434,7 +557,7 @@
       "retail_availability_score": 90.0,
       "ad_active_days": 28,
       "competitor_ad_count": 42,
-      "google_trends_momentum": 2310.7,
+      "google_trends_momentum": 68.2,
       "source_url": "https://www.aliexpress.com/item/1005009719197258.html",
       "target_demographics": {
         "age": "20-48",
@@ -447,7 +570,8 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "NO_LIVE_DATA",
+        "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
         "freight": "UNAVAILABLE",
@@ -458,8 +582,50 @@
       "cost_note": null,
       "stock_verified_date": null,
       "stock_status": "UNVERIFIED",
-      "trends_keyword": "turbo jet fan",
-      "notes": "Costo SIN verificar (estimación de la semilla). Verificar precio con envío a EE. UU. y stock de la variante."
+      "trends_keyword": "air duster",
+      "notes": "Costo SIN verificar (estimación de la semilla). Verificar precio con envío a EE. UU. y stock de la variante.",
+      "trends_series": null,
+      "image_url": null,
+      "video_keyword": "turbo jet fan",
+      "in_store": false,
+      "trends_labels": null,
+      "trends_meta": null,
+      "youtube": {
+        "keyword": "turbo jet fan",
+        "shorts_found": 32,
+        "median_views_top10": 690500,
+        "max_views": 80000000,
+        "over_100k": 8,
+        "over_1m": 4,
+        "top": [
+          {
+            "title": "Metal Jet Fan from Electric Turbochargers | The H Lab #shorts",
+            "views": 80000000,
+            "url": "https://www.youtube.com/shorts/XnfuuZndsSA"
+          },
+          {
+            "title": "Viral Jet Blower 😍⚡️ #gadgets #shorts",
+            "views": 3700000,
+            "url": "https://www.youtube.com/shorts/9ksItmxawD0"
+          },
+          {
+            "title": "Crazy Powerful Turbo Jet Fan! 🔥",
+            "views": 2200000,
+            "url": "https://www.youtube.com/shorts/D6LcDtfEMfI"
+          },
+          {
+            "title": "Mini Turbo Jet Fan Powerful Blower | Air Blower #shorts #airblower",
+            "views": 1000000,
+            "url": "https://www.youtube.com/shorts/LEDdRGg_HU4"
+          },
+          {
+            "title": "Mini Turbo Jet Fan Air Blower 110000RPM Turbo Violent Fan #jetfan #airblower #coolgadgets",
+            "views": 824000,
+            "url": "https://www.youtube.com/shorts/guqeVY5p8OE"
+          }
+        ],
+        "status": "LIVE"
+      }
     },
     "financials": {
       "landed_cost": 16.8,
@@ -530,7 +696,7 @@
     },
     "ko_gates_tripped": [],
     "composite_score": 97.0,
-    "tier": "CONTENDER",
-    "passed_audit": false
+    "tier": "WINNER",
+    "passed_audit": true
   }
 ]

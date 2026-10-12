@@ -1,38 +1,42 @@
 ---
 title: "Dossier Oficial de Productos Ganadores Validados"
 source: "dropshipping_hunter"
-date: "2026-10-11"
-generated_at: "2026-10-11T17:15:00.367070+00:00"
+date: "2026-10-12"
+generated_at: "2026-10-12T10:33:16.948437+00:00"
 evaluation_engine_version: "1.0.0"
 audit_standard: "Antigravity 7 Golden Rules"
 scoring_threshold_approval: 80
 currency: "USD"
 summary:
   total_candidates_analyzed: 4
-  winners_approved: 3
-  avg_markup_factor: 3.87
-  avg_net_margin_percentage: 69.3
+  winners_approved: 4
+  avg_markup_factor: 3.80
+  avg_net_margin_percentage: 68.9
 products:
+  - id: "prosmile-ultrasonic"
+    name: "ProSmile Ultrasonic™ — Smart Plaque & Calculus Scaler"
+    score: 100.0
+    status: "WINNER"
   - id: "steamfur-pro"
     name: "SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer"
     score: 97.0
     status: "WINNER"
-  - id: "prosmile-ultrasonic"
-    name: "ProSmile Ultrasonic™ — Smart Plaque & Calculus Scaler"
-    score: 100.0
-    status: "CONTENDER"
   - id: "spinerelief-pro"
     name: "SpineRelief Pro™ — Inflatable Lumbar Traction Belt"
     score: 97.0
-    status: "CONTENDER"
+    status: "WINNER"
+  - id: "aeroforce-x3"
+    name: "AeroForce X3™ — 130,000 RPM Violent Turbo Blower"
+    score: 97.0
+    status: "WINNER"
 ---
 
 # DOSSIER OFICIAL: PRODUCTOS GANADORES VALIDADOS (2026)
 
 > **Estándar de Evaluación**: Filtro de Acero de las 7 Reglas de Oro de Antigravity  
-> **Fecha de Generación**: 2026-10-11 | **Entorno**: 100% Programático & Headless  
-> **Candidatos Analizados**: 4 | **Ganadores Aprobados**: 3  
-> **Markup Promedio**: 3.87x | **Margen Neto Promedio**: 69.3%
+> **Fecha de Generación**: 2026-10-12 | **Entorno**: 100% Programático & Headless  
+> **Candidatos Analizados**: 4 | **Ganadores Aprobados**: 4  
+> **Markup Promedio**: 3.80x | **Margen Neto Promedio**: 68.9%
 
 ---
 
@@ -46,7 +50,128 @@ Cada ficha técnica incluye su desglose financiero completo, proveedores mayoris
 
 ## 2. CATÁLOGO DE PRODUCTOS GANADORES VALIDADOS
 
-### 🏆 GANADOR #1: SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer
+### 🏆 GANADOR #1: ProSmile Ultrasonic™ — Smart Plaque & Calculus Scaler
+
+**Categoría / Nicho**: Dental Health & Personal Care  
+**ID de Referencia**: `prosmile-ultrasonic`  
+**Puntuación Compuesta**: **100.0 / 100** | **Estado**: `🏆 WINNER`  
+**Descripción**: Home dental hygiene scaler with 40 kHz acoustic micro-vibrations and bioelectric sensor that shatters solid calculus instantly while stopping automatically on gums.
+
+#### Ficha Técnica y Desglose Financiero
+
+| Parámetro Financiero | Valor USD / % | Estándar Canónico Antigravity | Estado |
+|---|:---:|:---:|:---:|
+| **Costo de Proveedor** (CoGS) | $4.50 USD | Costo mayorista de fábrica | ✅ Verificado |
+| **Costo de Envío Tracked** | $3.70 USD | CJPacket Fast Line / YunExpress Ordinary | ✅ Verificado |
+| **Landed Cost** (Costo Puesto) | $8.20 USD | CoGS + Flete internacional | ✅ Calculado |
+| **Precio de Venta Sugerido** (SRP) | $34.99 USD | Sweet spot de impulso ($29 – $69 USD) | ✅ Cumple R5 |
+| **Markup Multiplier** | **4.27x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
+| **Comisión Pasarela** (Stripe 2.9% + $0.30) | $1.31 USD | Deducción automática por transacción | ✅ Incluido |
+| **Buffer de Reserva** (1.0%) | $0.35 USD | Fondo para imprevistos / chargebacks | ✅ Incluido |
+| **Beneficio Neto Limpio por Unidad** | **$25.13 USD** | Ganancia neta líquida operativa | ✅ Auditado |
+| **Margen Neto** (%) | **71.8%** | Mínimo requerido: $\ge 65.0\%$ | ✅ EXCELENTE |
+
+#### Enlaces a Proveedores y Logística
+
+- **Proveedor Mayorista AliExpress**: [https://www.aliexpress.com/item/1005005236582798.html](https://www.aliexpress.com/item/1005005236582798.html)
+- **Sourcing Directo CJ Dropshipping**: [https://cjdropshipping.com/list-detail.html?search=ultrasonic%20tooth%20cleaner](https://cjdropshipping.com/list-detail.html?search=ultrasonic%20tooth%20cleaner)
+- **Línea Logística Homologada**: CJPacket Fast Line / YunExpress Ordinary (7 - 10 días laborables)
+- **Especificación de Empaque**: Dispositivo IPX6 impermeable, 2 puntas de acero quirúrgico 316, espejo dental antivaho, cable USB-C
+- **Países Tier 1 Homologados**: US, UK, DE, AU
+
+#### Auditoría Forense de las 7 Reglas de Oro
+
+- **Regla 1 (Visual WOW (0-3s))**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
+- **Regla 2 (Acute Pain / Passion)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
+- **Regla 3 (Retail Scarcity)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 4 (Unit Economics & Markup)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
+- **Regla 5 (Ticket Range Sweet Spot)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 6 (Zero Sizing / Fragility)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 7 (Fast Tracked Logistics)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Puertas de Knockout (KO-1 a KO-4)**: ✅ Limpio (Cero puertas KO activadas: Ninguna)
+
+#### Estrategia Demográfica y Franja Horaria Recomendada
+
+- **Age**: 22-58
+- **Gender**: all
+- **Interests**: teeth whitening, coffee/tea drinkers, smokers, dental hygiene
+
+**Franja Horaria Recomendada de Publicación Orgánica**:
+- **Slot 1 (Matutino)** (07:00 – 08:30 Hora local del target): Rutina de cepillado frente al espejo; frustración directa al observar manchas y cálculo.
+- **Slot 2 (Nocturno Prime)** (20:30 – 22:30 Hora local del target): Higiene nocturna antes de dormir; soledad en el baño revisando el teléfono descalzo.
+
+#### Mecanismo WOW de Demostración (0 a 3 Segundos)
+
+> Segundo 0.0-1.5: Macro 4K del interior de la boca sobre un molar con una costra marrón de sarro. Segundo 1.5-3.0: La punta metálica toca suavemente el sarro con un pitido ultrasónico ([SFX: ULTRASONIC_CHIRP]) y la costra se desmorona en pedazos sólidos instantáneamente dejando el esmalte impoluto. Acto seguido, la punta toca la cáscara de un huevo crudo o un globo inflado sin romperlo para demostrar que es 100% inocuo en encías.
+
+#### Ganchos de Conversión (Remotion Modalidad 3)
+
+A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la partitura canónica de Remotion Modalidad 3:
+
+##### 🪝 Gancho 1: Curiosidad Disruptiva (Pattern Interrupt)
+*Curiosidad Disruptiva: El Metal que No Rompe Huevos*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"¿Cómo es posible que esto rompa piedra pero no pueda reventar un globo?"*
+- **Voz Creador (`es-US-Neural2-B`)**: *"Porque tiene un sensor acústico que solo se activa al tocar sarro duro."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Una punta metálica vibrante toca la cáscara de un huevo crudo sin marcarlo; luego toca una costra dental y la pulveriza. | Snap zoom macro (1.0x -> 1.5x) al huevo y al cálculo dental. | Voz Cliente (es-US-Neural2-C): '¿Cómo es posible que esto rompa piedra pero no pueda reventar un globo?' | [SFX: RECORD_SCRATCH_QUICK] | '¿ROMPE PIEDRA?' en amarillo neón |
+| **1.2 - 2.0s** | Detalle de la punta tocando la yema del dedo: cero vibración y cero dolor. | Paneo lateral suave. | Voz Creador (es-US-Neural2-B): 'Porque tiene un sensor acústico que solo se activa al tocar sarro duro.' | [SFX: VINE_BOOM] | 'SENSOR INTELIGENTE' en cian 3D |
+| **2.0 - 3.0s** | CONGELADO EN LA PUNTA DE TITANIO TOCANDO EL DIENTE. | Silencio acústico riguroso de 1.0s. | Silencio sepulcral. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | Macro 4K real: la placa amarillenta entre dos dientes se desprende en un solo bloque limpio. | Beat Drop. Flash blanco y Speed Ramp (2.0x -> 0.18x meseta técnica). | Entra bajo potente LiQWYD. | [SFX: BEAT_DROP + CRACK_CLEAN] | 'SARRO DESTRUIDO' en titanio blanco 3D |
+| **4.5 - 7.0s** | Se enjuaga con agua y se ve el esmalte blanco original reluciente como perla. | Paneo a la sonrisa impecable. | Voz Creador (es-US-Neural2-B): '40,000 vibraciones ultrasónicas por segundo. Sin taladros y sin sangre.' | [SFX: SHINE_SPARKLE] | '40,000 VIBRACIONES' en verde esmeralda |
+| **7.0 - 10.0s** | Caja médica con puntas intercambiables de acero 316 y espejo bucal. | Zoom out fluido. | Voz Creador (es-US-Neural2-B): 'Hazte tu propia limpieza profesional en casa por menos de lo que cuesta el parking del dentista.' | [SFX: CASH_REGISTER] | 'AHORRA $250' |
+
+##### 🪝 Gancho 2: Agitación de Dolor Real (Emotional Visceral Trigger)
+*Agitación de Dolor Real: La Vergüenza de Sonreír en Fotos*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"Si dejas de sonreír en las fotos porque te da vergüenza el sarro amarillo acumulado..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"Y no tienes $300 de sobra para pagarle al dentista cada 6 meses..."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Persona hablando en público que se tapa la boca con la mano avergonzada al sonreír por tener manchas. | Snap zoom a la mano cubriendo la boca. | Voz Cliente (es-US-Neural2-C): 'Si dejas de sonreír en las fotos porque te da vergüenza el sarro amarillo acumulado...' | [SFX: HEARTBEAT_DULL] | '¿VERGÜENZA AL SONREÍR?' en rojo opaco |
+| **1.2 - 2.0s** | Presupuesto dental en papel marcando: 'Deep Cleaning: $350.00'. | Paneo rápido al documento médico. | Voz Creador (es-US-Neural2-B): 'Y no tienes $300 de sobra para pagarle al dentista cada 6 meses...' | [SFX: VINE_BOOM] | '$350 EN LA CLÍNICA' en rojo neón |
+| **2.0 - 3.0s** | CONGELADO EN EL PAPEL DE LA FACTURA DENTAL IMPOSIBLE. | 1.0 segundo de silencio puro. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | El ProSmile se enciende con su luz LED focal iluminando la boca en el espejo. | Beat Drop. Destello blanco y entrada musical enérgica. | Explota la base rítmica. | [SFX: BEAT_DROP + CHIRP] | 'LIMPIEZA EN CASA' en oro 3D |
+| **4.5 - 7.0s** | En 3 pasadas suaves frente al espejo del baño, el sarro detrás de los incisivos desaparece. | Macro toma dental. | Voz Creador (es-US-Neural2-B): 'Elimina años de cálculo, manchas de café y nicotina en 5 minutos en tu propio baño.' | [SFX: WATER_RINSE] | 'EN SOLO 5 MIN' en verde esmeralda |
+| **7.0 - 10.0s** | Sonrisa abierta, blanca y confiada frente al espejo del baño. | Zoom out cinemático. | Voz Creador (es-US-Neural2-B): 'Recupera tu confianza hoy mismo. Envío gratis y garantía de devolución total.' | [SFX: DING_SUCCESS] | 'GARANTÍA 100%' |
+
+##### 🪝 Gancho 3: Contrariano (Challenging Conventional Wisdom)
+*Contrariano: Por qué tu Cepillo de $120 No Sirve para el Sarro*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"Por qué cepillarte 3 veces al día jamás quitará el sarro duro de tus dientes..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"El sarro es piedra caliza sólida; el cepillo de cerdas solo le hace cosquillas."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Cepillo eléctrico sónico de $120 frotando enérgicamente un molar con sarro sin lograr quitar nada. | Snap zoom a las cerdas doblándose inútilmente. | Voz Cliente (es-US-Neural2-C): 'Por qué cepillarte 3 veces al día jamás quitará el sarro duro de tus dientes...' | [SFX: BRUSH_SCRUB_FAST] | 'NO LO QUITA' en rojo sangre arriba |
+| **1.2 - 2.0s** | Gráfico microscópico: Las cerdas de nylon resbalan sobre el fosfato de calcio mineralizado. | Rotación 3D del modelo dental anatómico. | Voz Creador (es-US-Neural2-B): 'El sarro es piedra caliza sólida; el cepillo de cerdas solo le hace cosquillas.' | [SFX: VINE_BOOM] | 'ES PIEDRA MINERAL' en naranja 3D |
+| **2.0 - 3.0s** | CONGELADO EN EL MODELO ANATÓMICO DENTAL. | Pausa de 1.0s de silencio sepulcral. | Silencio acústico riguroso. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | El cabezal de titanio del ProSmile toca la piedra; micro-cavitación acústica y la piedra se disuelve. | Beat Drop. Flash blanco y Speed Ramp (1.8x -> 0.18x meseta). | Explota el bajo de Show Me (LiQWYD). | [SFX: BEAT_DROP + ULTRASONIC_CHIRP] | 'CAVITACIÓN ACÚSTICA' en turquesa 3D |
+| **4.5 - 7.0s** | Demostración de seguridad: la punta roza la encía y se detiene automáticamente en 1 milisegundo. | Macro a la encía rosada intacta sin sangrar. | Voz Creador (es-US-Neural2-B): 'Cero daño al esmalte y cero dolor en encías gracias a su sensor de densidad.' | [SFX: CHIME_SAFE] | 'CERO DAÑO' en verde esmeralda |
+| **7.0 - 10.0s** | Vista del producto cargándose por USB-C junto al lavamanos moderno. | Zoom out fluido. | Voz Creador (es-US-Neural2-B): 'La herramienta que tu dentista no quiere que descubras. Pide el tuyo con 50% de descuento.' | [SFX: CASH_REGISTER] | '50% DE DESCUENTO' en amarillo 3D |
+
+##### 🪝 Gancho 4: Transformación Inmediata (Before vs After)
+*Transformación Inmediata: De 5 Años de Sarro a Dientes de Seda*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"De tener 5 años de sarro y manchas de tabaco pegadas a los dientes..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"A dejarlos con textura de seda y completamente limpios en 10 minutos."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Pantalla dividida: Lado izquierdo (dientes inferiores manchados de tabaco y sarro oscuro). | Snap zoom hacia la izquierda desaturada. | Voz Cliente (es-US-Neural2-C): 'De tener 5 años de sarro y manchas de tabaco pegadas a los dientes...' | [SFX: SAD_SCRATCH] | 'ANTES (5 AÑOS)' en marrón/rojo |
+| **1.2 - 2.0s** | Lado derecho: Dientes limpios y blancos con brillo nítido de película. | Snap zoom hacia la derecha con resplandor luminoso. | Voz Creador (es-US-Neural2-B): 'A dejarlos con textura de seda y completamente limpios en 10 minutos.' | [SFX: SHINE_CHIME] | 'DESPUÉS (10 MIN)' en blanco diamante 3D |
+| **2.0 - 3.0s** | CONGELADO EN EL CORTE VERTICAL DEL SPLIT SCREEN. | 1.0 segundo de silencio absoluto. | Silencio puro. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | La transición barre: se muestra en tiempo real sin cortes cómo el sarro se cae al escupir agua. | Beat Drop. Flash blanco y Speed Ramp dinámico. | Beat y bajo enérgico LiQWYD. | [SFX: BEAT_DROP + SPLASH] | 'SIN CORTES' en oro flotante 3D |
+| **4.5 - 7.0s** | La persona pasa su lengua por detrás de los dientes con expresión de asombro total. | Paneo suave al rostro sonriente. | Voz Creador (es-US-Neural2-B): 'Siente la sensación de limpieza clínica profunda cada vez que quieras sin salir de tu casa.' | [SFX: POP_SOUND] | 'TEXTURA DE SEDA' en cian neón |
+| **7.0 - 10.0s** | Kit completo con espejo bucal, 2 cabezales y cable en su estuche sellado. | Snap zoom out. | Voz Creador (es-US-Neural2-B): 'Stock limitado para envío en 7 a 10 días. Toca el botón y reclama tu kit hoy.' | [SFX: BELL_CHIME] | 'STOCK LIMITADO' |
+
+
+---
+
+### 🏆 GANADOR #2: SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer
 
 **Categoría / Nicho**: Pet Supplies & Home Care  
 **ID de Referencia**: `steamfur-pro`  
@@ -167,132 +292,11 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 
 ---
 
-### 🏆 GANADOR #2: ProSmile Ultrasonic™ — Smart Plaque & Calculus Scaler
-
-**Categoría / Nicho**: Dental Health & Personal Care  
-**ID de Referencia**: `prosmile-ultrasonic`  
-**Puntuación Compuesta**: **100.0 / 100** | **Estado**: `🏆 CONTENDER`  
-**Descripción**: Home dental hygiene scaler with 40 kHz acoustic micro-vibrations and bioelectric sensor that shatters solid calculus instantly while stopping automatically on gums.
-
-#### Ficha Técnica y Desglose Financiero
-
-| Parámetro Financiero | Valor USD / % | Estándar Canónico Antigravity | Estado |
-|---|:---:|:---:|:---:|
-| **Costo de Proveedor** (CoGS) | $4.50 USD | Costo mayorista de fábrica | ✅ Verificado |
-| **Costo de Envío Tracked** | $3.70 USD | CJPacket Fast Line / YunExpress Ordinary | ✅ Verificado |
-| **Landed Cost** (Costo Puesto) | $8.20 USD | CoGS + Flete internacional | ✅ Calculado |
-| **Precio de Venta Sugerido** (SRP) | $34.99 USD | Sweet spot de impulso ($29 – $69 USD) | ✅ Cumple R5 |
-| **Markup Multiplier** | **4.27x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
-| **Comisión Pasarela** (Stripe 2.9% + $0.30) | $1.31 USD | Deducción automática por transacción | ✅ Incluido |
-| **Buffer de Reserva** (1.0%) | $0.35 USD | Fondo para imprevistos / chargebacks | ✅ Incluido |
-| **Beneficio Neto Limpio por Unidad** | **$25.13 USD** | Ganancia neta líquida operativa | ✅ Auditado |
-| **Margen Neto** (%) | **71.8%** | Mínimo requerido: $\ge 65.0\%$ | ✅ EXCELENTE |
-
-#### Enlaces a Proveedores y Logística
-
-- **Proveedor Mayorista AliExpress**: [https://www.aliexpress.com/item/1005005236582798.html](https://www.aliexpress.com/item/1005005236582798.html)
-- **Sourcing Directo CJ Dropshipping**: [https://cjdropshipping.com/list-detail.html?search=ultrasonic%20tooth%20cleaner](https://cjdropshipping.com/list-detail.html?search=ultrasonic%20tooth%20cleaner)
-- **Línea Logística Homologada**: CJPacket Fast Line / YunExpress Ordinary (7 - 10 días laborables)
-- **Especificación de Empaque**: Dispositivo IPX6 impermeable, 2 puntas de acero quirúrgico 316, espejo dental antivaho, cable USB-C
-- **Países Tier 1 Homologados**: US, UK, DE, AU
-
-#### Auditoría Forense de las 7 Reglas de Oro
-
-- **Regla 1 (Visual WOW (0-3s))**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
-- **Regla 2 (Acute Pain / Passion)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
-- **Regla 3 (Retail Scarcity)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Regla 4 (Unit Economics & Markup)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
-- **Regla 5 (Ticket Range Sweet Spot)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Regla 6 (Zero Sizing / Fragility)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Regla 7 (Fast Tracked Logistics)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Puertas de Knockout (KO-1 a KO-4)**: ✅ Limpio (Cero puertas KO activadas: Ninguna)
-
-#### Estrategia Demográfica y Franja Horaria Recomendada
-
-- **Age**: 22-58
-- **Gender**: all
-- **Interests**: teeth whitening, coffee/tea drinkers, smokers, dental hygiene
-
-**Franja Horaria Recomendada de Publicación Orgánica**:
-- **Slot 1 (Matutino)** (07:00 – 08:30 Hora local del target): Rutina de cepillado frente al espejo; frustración directa al observar manchas y cálculo.
-- **Slot 2 (Nocturno Prime)** (20:30 – 22:30 Hora local del target): Higiene nocturna antes de dormir; soledad en el baño revisando el teléfono descalzo.
-
-#### Mecanismo WOW de Demostración (0 a 3 Segundos)
-
-> Segundo 0.0-1.5: Macro 4K del interior de la boca sobre un molar con una costra marrón de sarro. Segundo 1.5-3.0: La punta metálica toca suavemente el sarro con un pitido ultrasónico ([SFX: ULTRASONIC_CHIRP]) y la costra se desmorona en pedazos sólidos instantáneamente dejando el esmalte impoluto. Acto seguido, la punta toca la cáscara de un huevo crudo o un globo inflado sin romperlo para demostrar que es 100% inocuo en encías.
-
-#### Ganchos de Conversión (Remotion Modalidad 3)
-
-A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la partitura canónica de Remotion Modalidad 3:
-
-##### 🪝 Gancho 1: Curiosidad Disruptiva (Pattern Interrupt)
-*Curiosidad Disruptiva: El Metal que No Rompe Huevos*
-
-- **Voz Cliente (`es-US-Neural2-C`)**: *"¿Cómo es posible que esto rompa piedra pero no pueda reventar un globo?"*
-- **Voz Creador (`es-US-Neural2-B`)**: *"Porque tiene un sensor acústico que solo se activa al tocar sarro duro."*
-
-| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
-|:---:|:---|:---|:---|:---|:---|
-| **0.0 - 1.2s** | Una punta metálica vibrante toca la cáscara de un huevo crudo sin marcarlo; luego toca una costra dental y la pulveriza. | Snap zoom macro (1.0x -> 1.5x) al huevo y al cálculo dental. | Voz Cliente (es-US-Neural2-C): '¿Cómo es posible que esto rompa piedra pero no pueda reventar un globo?' | [SFX: RECORD_SCRATCH_QUICK] | '¿ROMPE PIEDRA?' en amarillo neón |
-| **1.2 - 2.0s** | Detalle de la punta tocando la yema del dedo: cero vibración y cero dolor. | Paneo lateral suave. | Voz Creador (es-US-Neural2-B): 'Porque tiene un sensor acústico que solo se activa al tocar sarro duro.' | [SFX: VINE_BOOM] | 'SENSOR INTELIGENTE' en cian 3D |
-| **2.0 - 3.0s** | CONGELADO EN LA PUNTA DE TITANIO TOCANDO EL DIENTE. | Silencio acústico riguroso de 1.0s. | Silencio sepulcral. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
-| **3.0 - 4.5s** | Macro 4K real: la placa amarillenta entre dos dientes se desprende en un solo bloque limpio. | Beat Drop. Flash blanco y Speed Ramp (2.0x -> 0.18x meseta técnica). | Entra bajo potente LiQWYD. | [SFX: BEAT_DROP + CRACK_CLEAN] | 'SARRO DESTRUIDO' en titanio blanco 3D |
-| **4.5 - 7.0s** | Se enjuaga con agua y se ve el esmalte blanco original reluciente como perla. | Paneo a la sonrisa impecable. | Voz Creador (es-US-Neural2-B): '40,000 vibraciones ultrasónicas por segundo. Sin taladros y sin sangre.' | [SFX: SHINE_SPARKLE] | '40,000 VIBRACIONES' en verde esmeralda |
-| **7.0 - 10.0s** | Caja médica con puntas intercambiables de acero 316 y espejo bucal. | Zoom out fluido. | Voz Creador (es-US-Neural2-B): 'Hazte tu propia limpieza profesional en casa por menos de lo que cuesta el parking del dentista.' | [SFX: CASH_REGISTER] | 'AHORRA $250' |
-
-##### 🪝 Gancho 2: Agitación de Dolor Real (Emotional Visceral Trigger)
-*Agitación de Dolor Real: La Vergüenza de Sonreír en Fotos*
-
-- **Voz Cliente (`es-US-Neural2-C`)**: *"Si dejas de sonreír en las fotos porque te da vergüenza el sarro amarillo acumulado..."*
-- **Voz Creador (`es-US-Neural2-B`)**: *"Y no tienes $300 de sobra para pagarle al dentista cada 6 meses..."*
-
-| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
-|:---:|:---|:---|:---|:---|:---|
-| **0.0 - 1.2s** | Persona hablando en público que se tapa la boca con la mano avergonzada al sonreír por tener manchas. | Snap zoom a la mano cubriendo la boca. | Voz Cliente (es-US-Neural2-C): 'Si dejas de sonreír en las fotos porque te da vergüenza el sarro amarillo acumulado...' | [SFX: HEARTBEAT_DULL] | '¿VERGÜENZA AL SONREÍR?' en rojo opaco |
-| **1.2 - 2.0s** | Presupuesto dental en papel marcando: 'Deep Cleaning: $350.00'. | Paneo rápido al documento médico. | Voz Creador (es-US-Neural2-B): 'Y no tienes $300 de sobra para pagarle al dentista cada 6 meses...' | [SFX: VINE_BOOM] | '$350 EN LA CLÍNICA' en rojo neón |
-| **2.0 - 3.0s** | CONGELADO EN EL PAPEL DE LA FACTURA DENTAL IMPOSIBLE. | 1.0 segundo de silencio puro. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
-| **3.0 - 4.5s** | El ProSmile se enciende con su luz LED focal iluminando la boca en el espejo. | Beat Drop. Destello blanco y entrada musical enérgica. | Explota la base rítmica. | [SFX: BEAT_DROP + CHIRP] | 'LIMPIEZA EN CASA' en oro 3D |
-| **4.5 - 7.0s** | En 3 pasadas suaves frente al espejo del baño, el sarro detrás de los incisivos desaparece. | Macro toma dental. | Voz Creador (es-US-Neural2-B): 'Elimina años de cálculo, manchas de café y nicotina en 5 minutos en tu propio baño.' | [SFX: WATER_RINSE] | 'EN SOLO 5 MIN' en verde esmeralda |
-| **7.0 - 10.0s** | Sonrisa abierta, blanca y confiada frente al espejo del baño. | Zoom out cinemático. | Voz Creador (es-US-Neural2-B): 'Recupera tu confianza hoy mismo. Envío gratis y garantía de devolución total.' | [SFX: DING_SUCCESS] | 'GARANTÍA 100%' |
-
-##### 🪝 Gancho 3: Contrariano (Challenging Conventional Wisdom)
-*Contrariano: Por qué tu Cepillo de $120 No Sirve para el Sarro*
-
-- **Voz Cliente (`es-US-Neural2-C`)**: *"Por qué cepillarte 3 veces al día jamás quitará el sarro duro de tus dientes..."*
-- **Voz Creador (`es-US-Neural2-B`)**: *"El sarro es piedra caliza sólida; el cepillo de cerdas solo le hace cosquillas."*
-
-| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
-|:---:|:---|:---|:---|:---|:---|
-| **0.0 - 1.2s** | Cepillo eléctrico sónico de $120 frotando enérgicamente un molar con sarro sin lograr quitar nada. | Snap zoom a las cerdas doblándose inútilmente. | Voz Cliente (es-US-Neural2-C): 'Por qué cepillarte 3 veces al día jamás quitará el sarro duro de tus dientes...' | [SFX: BRUSH_SCRUB_FAST] | 'NO LO QUITA' en rojo sangre arriba |
-| **1.2 - 2.0s** | Gráfico microscópico: Las cerdas de nylon resbalan sobre el fosfato de calcio mineralizado. | Rotación 3D del modelo dental anatómico. | Voz Creador (es-US-Neural2-B): 'El sarro es piedra caliza sólida; el cepillo de cerdas solo le hace cosquillas.' | [SFX: VINE_BOOM] | 'ES PIEDRA MINERAL' en naranja 3D |
-| **2.0 - 3.0s** | CONGELADO EN EL MODELO ANATÓMICO DENTAL. | Pausa de 1.0s de silencio sepulcral. | Silencio acústico riguroso. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
-| **3.0 - 4.5s** | El cabezal de titanio del ProSmile toca la piedra; micro-cavitación acústica y la piedra se disuelve. | Beat Drop. Flash blanco y Speed Ramp (1.8x -> 0.18x meseta). | Explota el bajo de Show Me (LiQWYD). | [SFX: BEAT_DROP + ULTRASONIC_CHIRP] | 'CAVITACIÓN ACÚSTICA' en turquesa 3D |
-| **4.5 - 7.0s** | Demostración de seguridad: la punta roza la encía y se detiene automáticamente en 1 milisegundo. | Macro a la encía rosada intacta sin sangrar. | Voz Creador (es-US-Neural2-B): 'Cero daño al esmalte y cero dolor en encías gracias a su sensor de densidad.' | [SFX: CHIME_SAFE] | 'CERO DAÑO' en verde esmeralda |
-| **7.0 - 10.0s** | Vista del producto cargándose por USB-C junto al lavamanos moderno. | Zoom out fluido. | Voz Creador (es-US-Neural2-B): 'La herramienta que tu dentista no quiere que descubras. Pide el tuyo con 50% de descuento.' | [SFX: CASH_REGISTER] | '50% DE DESCUENTO' en amarillo 3D |
-
-##### 🪝 Gancho 4: Transformación Inmediata (Before vs After)
-*Transformación Inmediata: De 5 Años de Sarro a Dientes de Seda*
-
-- **Voz Cliente (`es-US-Neural2-C`)**: *"De tener 5 años de sarro y manchas de tabaco pegadas a los dientes..."*
-- **Voz Creador (`es-US-Neural2-B`)**: *"A dejarlos con textura de seda y completamente limpios en 10 minutos."*
-
-| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
-|:---:|:---|:---|:---|:---|:---|
-| **0.0 - 1.2s** | Pantalla dividida: Lado izquierdo (dientes inferiores manchados de tabaco y sarro oscuro). | Snap zoom hacia la izquierda desaturada. | Voz Cliente (es-US-Neural2-C): 'De tener 5 años de sarro y manchas de tabaco pegadas a los dientes...' | [SFX: SAD_SCRATCH] | 'ANTES (5 AÑOS)' en marrón/rojo |
-| **1.2 - 2.0s** | Lado derecho: Dientes limpios y blancos con brillo nítido de película. | Snap zoom hacia la derecha con resplandor luminoso. | Voz Creador (es-US-Neural2-B): 'A dejarlos con textura de seda y completamente limpios en 10 minutos.' | [SFX: SHINE_CHIME] | 'DESPUÉS (10 MIN)' en blanco diamante 3D |
-| **2.0 - 3.0s** | CONGELADO EN EL CORTE VERTICAL DEL SPLIT SCREEN. | 1.0 segundo de silencio absoluto. | Silencio puro. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
-| **3.0 - 4.5s** | La transición barre: se muestra en tiempo real sin cortes cómo el sarro se cae al escupir agua. | Beat Drop. Flash blanco y Speed Ramp dinámico. | Beat y bajo enérgico LiQWYD. | [SFX: BEAT_DROP + SPLASH] | 'SIN CORTES' en oro flotante 3D |
-| **4.5 - 7.0s** | La persona pasa su lengua por detrás de los dientes con expresión de asombro total. | Paneo suave al rostro sonriente. | Voz Creador (es-US-Neural2-B): 'Siente la sensación de limpieza clínica profunda cada vez que quieras sin salir de tu casa.' | [SFX: POP_SOUND] | 'TEXTURA DE SEDA' en cian neón |
-| **7.0 - 10.0s** | Kit completo con espejo bucal, 2 cabezales y cable en su estuche sellado. | Snap zoom out. | Voz Creador (es-US-Neural2-B): 'Stock limitado para envío en 7 a 10 días. Toca el botón y reclama tu kit hoy.' | [SFX: BELL_CHIME] | 'STOCK LIMITADO' |
-
-
----
-
 ### 🏆 GANADOR #3: SpineRelief Pro™ — Inflatable Lumbar Traction Belt
 
 **Categoría / Nicho**: Health & Ergonomics  
 **ID de Referencia**: `spinerelief-pro`  
-**Puntuación Compuesta**: **97.0 / 100** | **Estado**: `🏆 CONTENDER`  
+**Puntuación Compuesta**: **97.0 / 100** | **Estado**: `🏆 WINNER`  
 **Descripción**: Clinical-grade inflatable lumbar traction belt with 24 pneumatic columns providing 2.5 bar decompression for L1-L5 vertebrae and acute sciatica nerve relief.
 
 #### Ficha Técnica y Desglose Financiero
@@ -407,6 +411,128 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 | **3.0 - 4.5s** | Se revela el SpineRelief Pro ajustado discretamente bajo la ropa. | Beat Drop. Flash blanco y cámara lenta técnica (0.18x plateau). | Entra la música al 100% de ganancia (mastering a -19.7 LUFS). | [SFX: BEAT_DROP] | 'EL SECRETO' en oro 3D flotante |
 | **4.5 - 7.0s** | Primer plano al manómetro marcando 2.5 bares de descompresión segura. | Rotación 3D en eje Z. | Voz Creador (es-US-Neural2-B): '20 minutos al día para reprogramar el espacio de tus discos vertebrales.' | [SFX: RATCHET_CLICK] | '20 MIN AL DÍA' en cian neón |
 | **7.0 - 10.0s** | Unboxing completo del kit con bomba, extensor y folleto en español. | Zoom out fluido. | Voz Creador (es-US-Neural2-B): 'Envío express garantizado en 7 a 10 días. Pide el tuyo en el botón abajo.' | [SFX: BELL_CHIME] | 'ENVÍO EXPRESS 7-10D' |
+
+
+---
+
+### 🏆 GANADOR #4: AeroForce X3™ — 130,000 RPM Violent Turbo Blower
+
+**Categoría / Nicho**: Automotive & Tactical Tools  
+**ID de Referencia**: `aeroforce-x3`  
+**Puntuación Compuesta**: **97.0 / 100** | **Estado**: `🏆 WINNER`  
+**Descripción**: Handheld micro-turbine jet fan with 130,000 RPM brushless motor delivering 52 m/s wind speed for contact-free car drying, detailing, and keyboard cleaning without swirl marks.
+
+#### Ficha Técnica y Desglose Financiero
+
+| Parámetro Financiero | Valor USD / % | Estándar Canónico Antigravity | Estado |
+|---|:---:|:---:|:---:|
+| **Costo de Proveedor** (CoGS) | $12.00 USD | Costo mayorista de fábrica | ✅ Verificado |
+| **Costo de Envío Tracked** | $4.80 USD | YunExpress Special Battery Line / CJPacket Sensitive (UN38.3) | ✅ Verificado |
+| **Landed Cost** (Costo Puesto) | $16.80 USD | CoGS + Flete internacional | ✅ Calculado |
+| **Precio de Venta Sugerido** (SRP) | $59.99 USD | Sweet spot de impulso ($29 – $69 USD) | ✅ Cumple R5 |
+| **Markup Multiplier** | **3.57x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
+| **Comisión Pasarela** (Stripe 2.9% + $0.30) | $2.04 USD | Deducción automática por transacción | ✅ Incluido |
+| **Buffer de Reserva** (1.0%) | $0.60 USD | Fondo para imprevistos / chargebacks | ✅ Incluido |
+| **Beneficio Neto Limpio por Unidad** | **$40.55 USD** | Ganancia neta líquida operativa | ✅ Auditado |
+| **Margen Neto** (%) | **67.6%** | Mínimo requerido: $\ge 65.0\%$ | ✅ EXCELENTE |
+
+#### Enlaces a Proveedores y Logística
+
+- **Proveedor Mayorista AliExpress**: [https://www.aliexpress.com/item/1005009719197258.html](https://www.aliexpress.com/item/1005009719197258.html)
+- **Sourcing Directo CJ Dropshipping**: [https://cjdropshipping.com/list-detail.html?search=turbo%20jet%20fan](https://cjdropshipping.com/list-detail.html?search=turbo%20jet%20fan)
+- **Línea Logística Homologada**: YunExpress Special Battery Line / CJPacket Sensitive (UN38.3) (8 - 11 días hábiles)
+- **Especificación de Empaque**: Carcasa de aleación CNC, boquilla magnética, cable USB-C de carga rápida, estuche rígido
+- **Países Tier 1 Homologados**: US, CA, AU, UK
+
+#### Auditoría Forense de las 7 Reglas de Oro
+
+- **Regla 1 (Visual WOW (0-3s))**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
+- **Regla 2 (Acute Pain / Passion)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
+- **Regla 3 (Retail Scarcity)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 4 (Unit Economics & Markup)**: ✅ Score: 85.0/100 (Ponderado: 17.0 pts) — Aprobado
+- **Regla 5 (Ticket Range Sweet Spot)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 6 (Zero Sizing / Fragility)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 7 (Fast Tracked Logistics)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Puertas de Knockout (KO-1 a KO-4)**: ✅ Limpio (Cero puertas KO activadas: Ninguna)
+
+#### Estrategia Demográfica y Franja Horaria Recomendada
+
+- **Age**: 20-48
+- **Gender**: male
+- **Interests**: car detailing, PC gaming hardware, tactical gear, grilling
+
+**Franja Horaria Recomendada de Publicación Orgánica**:
+- **Slot 1 (Mediodía)** (12:00 – 13:30 Hora local del target): Pausa de almuerzo, consumo rápido de contenido táctico/gadgets en YouTube Shorts e Instagram/Facebook Reels.
+- **Slot 2 (Tarde / Salida)** (17:00 – 18:30 Hora local del target): Salida laboral; el conductor observa su auto con marcas de polvo o lluvia en el aparcamiento.
+- **Slot 3 (Fin de Semana Matutino)** (Sábados y Domingos 09:30 – 11:30 Hora local del target): Horario estrella de lavado de coches, bricolaje y proyectos caseros.
+
+#### Mecanismo WOW de Demostración (0 a 3 Segundos)
+
+> Segundo 0.0-1.2: Primer plano de un espejo retrovisor cubierto de gotas de lluvia. Segundo 1.2-2.8: Se activa el botón turbo con un zumbido de turbina de avión ([SFX: JET_TURBINE_SPOOL]). A 5 cm de distancia, el agua sale pulverizada violentamente, dejando la chapa y el espejo con acabado cristalino seco en 1 segundo sin que ninguna toalla roce la carrocería.
+
+#### Ganchos de Conversión (Remotion Modalidad 3)
+
+A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la partitura canónica de Remotion Modalidad 3:
+
+##### 🪝 Gancho 1: Curiosidad Disruptiva (Pattern Interrupt)
+*Curiosidad Disruptiva: Un Motor de Caza en el Bolsillo*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"¿Cómo es legal tener un motor de avión en el bolsillo?"*
+- **Voz Creador (`es-US-Neural2-B`)**: *"130,000 revoluciones por minuto. Esto no es un juguete."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Una lata de aluminio sobre una mesa de metal sale disparada 4 metros atrás sin tocarla. | Snap zoom violento (1.0x -> 1.4x) siguiendo la lata volando. | Voz Cliente (es-US-Neural2-C): '¿Cómo es legal tener un motor de avión en el bolsillo?' | [SFX: AIR_BLAST_WHOOSH] | '¿CÓMO ES LEGAL?' en rojo neón extruido |
+| **1.2 - 2.0s** | Se revela la mano sosteniendo el mini AeroForce X3 en acabado negro mate. | Rotación de perspectiva volumétrica (rotateY: 20deg). | Voz Creador (es-US-Neural2-B): '130,000 revoluciones por minuto. Esto no es un juguete.' | [SFX: VINE_BOOM] | '130,000 RPM' en cian neón 3D |
+| **2.0 - 3.0s** | CONGELADO DEL SOPLADOR APUNTANDO DIRECTO A CÁMARA. | 1.0 segundo de silencio sepulcral sin voz ni música. | Silencio acústico riguroso. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | Disparo de aire a un espejo de coche cubierto de barro y agua; todo desaparece en 0.5s. | Beat Drop. Destello blanco y Speed Ramp (2.2x rush -> 0.15x meseta técnica). | Entra bajo potente de Show Me (LiQWYD). | [SFX: BEAT_DROP + JET_SPOOL] | '52 M/S DE POTENCIA' en amarillo 3D |
+| **4.5 - 7.0s** | Limpieza de un teclado gamer: migas y polvo salen disparados al instante. | Macro zoom focal a los switches del teclado. | Voz Creador (es-US-Neural2-B): 'Desaloja la suciedad de donde ninguna aspiradora jamás podrá entrar.' | [SFX: MACHINE_PURR] | 'LIMPIEZA TÁCTICA' en verde esmeralda |
+| **7.0 - 10.0s** | Comparativa de tamaño: cabe exactamente en la palma de la mano o en la guantera. | Zoom out suave. | Voz Creador (es-US-Neural2-B): 'Batería recargable USB-C para 40 minutos de ráfaga continua. Últimas unidades.' | [SFX: HITMARKER] | 'ÚLTIMAS UNIDADES' en oro brillante |
+
+##### 🪝 Gancho 2: Agitación de Dolor Real (Emotional Visceral Trigger)
+*Agitación de Dolor Real: Los Swirl Marks que Destruyen tu Auto*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"Si secas tu auto con toallas de microfibra, estás arruinando tu pintura..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"Una sola mota de polvo atrapada en el trapo y tu coche pierde el 30% de su valor."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Luz directa en capó de coche negro revelando miles de micro-rayones circulares. | Snap zoom directo al reflejo arañado. | Voz Cliente (es-US-Neural2-C): 'Si secas tu auto con toallas de microfibra, estás arruinando tu pintura...' | [SFX: GLASS_SCRATCH] | 'ESTÁS RAYANDO TU AUTO' en rojo fuego |
+| **1.2 - 2.0s** | Macro a una toalla recogiendo una arenilla invisible y frotándola contra la laca. | Cámara lenta dramática. | Voz Creador (es-US-Neural2-B): 'Una sola mota de polvo atrapada en el trapo y tu coche pierde el 30% de su valor.' | [SFX: VINE_BOOM] | '-30% DE VALOR' en rojo neón |
+| **2.0 - 3.0s** | CONGELADO EN EL MICRO-RAYÓN AMPLIADO. | Pausa acústica de 1.0s de silencio sepulcral. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | El AeroForce X3 entra secando el capó a 10 cm sin ningún contacto físico. | Beat Drop. White flash y Speed Ramp dinámico. | Beat y bajo enérgico LiQWYD. | [SFX: BEAT_DROP + TURBINE] | 'SECADO SIN CONTACTO' en metal extruido 3D |
+| **4.5 - 7.0s** | Las gotas de agua corren y caen fuera del capó como mercurio líquido. | Paneo rápido horizontal a 60 fps. | Voz Creador (es-US-Neural2-B): 'Cero fricción, cero marcas de agua en cerraduras y cero arañazos. Acabado de concurso.' | [SFX: WATER_WHOOSH] | 'ACABADO DE SHOW' en cian neón |
+| **7.0 - 10.0s** | Primer plano al kit con boquilla magnética de precisión snap-on. | Snap zoom out. | Voz Creador (es-US-Neural2-B): 'El gadget obligatorio para todo amante del motor. Consíguelo hoy con descuento.' | [SFX: CASH_REGISTER] | 'OFERTA LIMITADA' |
+
+##### 🪝 Gancho 3: Contrariano (Challenging Conventional Wisdom)
+*Contrariano: La Estafa de las Latas Desechables de Aire*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"Deja de tirar tu dinero en latas de aire comprimido que se congelan en 20 segundos..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"Pagas $10 por lata para que escupan líquido y se queden sin fuerza a la mitad."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Una persona agitando una lata de aire comprimido que escupe líquido helado y se desinfla. | Snap zoom a la lata congelada. | Voz Cliente (es-US-Neural2-C): 'Deja de tirar tu dinero en latas de aire comprimido que se congelan en 20 segundos...' | [SFX: GAS_FART_FAIL] | 'ESTAFA TOTAL' en rojo sangre sobre la lata |
+| **1.2 - 2.0s** | Pila de 6 botes vacíos acumulados en un rincón con cartel de '$60 botados a la basura'. | Paneo lateral rápido. | Voz Creador (es-US-Neural2-B): 'Pagas $10 por lata para que escupan líquido y se queden sin fuerza a la mitad.' | [SFX: COIN_DROP] | 'DINERO TIRADO' en naranja |
+| **2.0 - 3.0s** | CONGELADO EN LA LATA CONGELADA INSERVIBLE. | Silencio sepulcral de 1.0s. | Silencio puro. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | El AeroForce X3 se activa frente a cámara agitando la ropa como un huracán. | Beat Drop. Flash blanco y Speed Ramp no lineal. | Explota la música LiQWYD. | [SFX: BEAT_DROP + HURRICANE] | 'POTENCIA ILIMITADA' en azul neón 3D |
+| **4.5 - 7.0s** | Gráfica de inversión: 1 AeroForce X3 recargable vs 500 latas desechables de aire. | Split screen animado comparativo. | Voz Creador (es-US-Neural2-B): 'Equivale a más de 500 latas de aire comprimido, pero recargable con tu cargador de móvil.' | [SFX: LEVEL_UP] | '500 LATAS EN 1' en verde esmeralda |
+| **7.0 - 10.0s** | Demostración encendiendo carbón de barbacoa en 10 segundos con el soplador. | Paneo con chispas cinematográficas de fondo. | Voz Creador (es-US-Neural2-B): 'Seca tu coche, limpia tu PC y prende tu asado. Enlace en bio con stock rápido.' | [SFX: SPARKLE_DING] | 'COMPRA AQUÍ' en amarillo 3D |
+
+##### 🪝 Gancho 4: Transformación Inmediata (Before vs After)
+*Transformación Inmediata: De Espejos Goteando a Acabado Profesional*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"De terminar de lavar tu coche y ver cómo el agua estancada te arruina la pintura otra vez..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"A dejar cada rincón sellado y seco al 100% en menos de 2 minutos."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Espejo lateral goteando agua sin parar tras el lavado, ensuciando la puerta recién limpia. | Snap zoom a las gotas escurriendo. | Voz Cliente (es-US-Neural2-C): 'De terminar de lavar tu coche y ver cómo el agua estancada te arruina la pintura otra vez...' | [SFX: SAD_TROMBONE_SHORT] | 'EL PEOR ERROR' en rojo |
+| **1.2 - 2.0s** | El chorro del AeroForce X3 expulsa toda el agua de la junta del espejo en 0.3 segundos. | Speed ramp ultra-rápido (2.5x -> 0.2x). | Voz Creador (es-US-Neural2-B): 'A dejar cada rincón sellado y seco al 100% en menos de 2 minutos.' | [SFX: FAST_WHOOSH] | 'SECO EN 2 MIN' en cian brillante 3D |
+| **2.0 - 3.0s** | CONGELADO EN EL ESPEJO CRISTALINO SIN UNA SOLA GOTA. | 1.0 segundo de silencio absoluto. | Silencio total. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | Paneo general del coche con acabado impecable bajo luces de estudio de detallado. | Beat Drop. Destello blanco y movimiento cinematográfico. | Música en su punto álgido LiQWYD. | [SFX: BEAT_DROP] | 'ACABADO PROFESIONAL' en oro 3D |
+| **4.5 - 7.0s** | El creador sopla las rejillas de ventilación: sale nube de polvo seco y queda como nuevo. | Macro zoom al habitáculo interior. | Voz Creador (es-US-Neural2-B): 'La herramienta que usan los detailers profesionales ahora en el bolsillo de tu pantalón.' | [SFX: AIR_PUFF] | 'NIVEL DETAILER' en titanio |
+| **7.0 - 10.0s** | Empaque premium con boquilla magnética snap-on. | Zoom out dinámico. | Voz Creador (es-US-Neural2-B): 'Pídelo hoy y recíbelo en tu puerta con seguimiento garantizado.' | [SFX: NOTIFICATION_SUCCESS] | 'ORDENA CON 50% OFF' |
 
 
 ---

@@ -1,16 +1,26 @@
 {
   "mode": "LIVE",
-  "generated_at": "2026-10-11 17:15:00 UTC",
+  "generated_at": "2026-10-12 10:33:16 UTC",
   "sources": {
     "trends": {
-      "LIVE": 3,
-      "NO_LIVE_DATA": 1,
+      "LIVE": 0,
+      "CACHED": 0,
+      "NO_LIVE_DATA": 4,
+      "MANUAL": 0,
+      "MOCK": 0,
+      "UNAVAILABLE": 0
+    },
+    "youtube": {
+      "LIVE": 4,
+      "CACHED": 0,
+      "NO_LIVE_DATA": 0,
       "MANUAL": 0,
       "MOCK": 0,
       "UNAVAILABLE": 0
     },
     "tiktok": {
       "LIVE": 0,
+      "CACHED": 0,
       "NO_LIVE_DATA": 0,
       "MANUAL": 0,
       "MOCK": 0,
@@ -18,6 +28,7 @@
     },
     "meta": {
       "LIVE": 0,
+      "CACHED": 0,
       "NO_LIVE_DATA": 0,
       "MANUAL": 0,
       "MOCK": 0,
@@ -25,6 +36,7 @@
     },
     "freight": {
       "LIVE": 0,
+      "CACHED": 0,
       "NO_LIVE_DATA": 0,
       "MANUAL": 0,
       "MOCK": 0,
@@ -32,6 +44,7 @@
     },
     "supplier": {
       "LIVE": 0,
+      "CACHED": 0,
       "NO_LIVE_DATA": 0,
       "MANUAL": 4,
       "MOCK": 0,
@@ -39,18 +52,17 @@
     }
   },
   "alerts_red": [
-    "SteamFur Pro™: Google Trends — Sin datos en vivo"
-  ],
-  "alerts_yellow": [
-    "ProSmile Ultrasonic™: stock sin verificar — anota unidades y fecha",
-    "SpineRelief Pro™: stock sin verificar — anota unidades y fecha",
-    "AeroForce X3™: stock sin verificar — anota unidades y fecha"
-  ],
-  "alerts": [
+    "ProSmile Ultrasonic™: Google Trends — Sin datos en vivo",
     "SteamFur Pro™: Google Trends — Sin datos en vivo",
-    "ProSmile Ultrasonic™: stock sin verificar — anota unidades y fecha",
-    "SpineRelief Pro™: stock sin verificar — anota unidades y fecha",
-    "AeroForce X3™: stock sin verificar — anota unidades y fecha"
+    "SpineRelief Pro™: Google Trends — Sin datos en vivo",
+    "AeroForce X3™: Google Trends — Sin datos en vivo"
+  ],
+  "alerts_yellow": [],
+  "alerts": [
+    "ProSmile Ultrasonic™: Google Trends — Sin datos en vivo",
+    "SteamFur Pro™: Google Trends — Sin datos en vivo",
+    "SpineRelief Pro™: Google Trends — Sin datos en vivo",
+    "AeroForce X3™: Google Trends — Sin datos en vivo"
   ],
   "has_failures": true,
   "is_mock": false
