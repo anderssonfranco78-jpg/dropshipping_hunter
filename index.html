@@ -564,6 +564,7 @@
     .dock .btn .mlbl { display: block !important; }
     #toasts { right: 10px; left: 10px; align-items: stretch; bottom: 80px; }
     .top-actions #refreshBtn { display: none; } /* en el teléfono, «Actualizar» vive en la barra de abajo */
+    .sync-l { display: none; }
     .sync { flex: 1; min-width: 0; }
     .top-actions { width: auto; margin-left: auto; }
     .top-actions #centChip { max-width: 46vw; overflow: hidden; text-overflow: ellipsis; }
@@ -606,7 +607,7 @@
       <button id="menuBtn" type="button" class="icon-btn only-mobile" aria-label="Abrir menú"><i data-lucide="menu"></i></button>
       <div class="sync" id="syncBox" title="">
         <span class="dots-deco" aria-hidden="true"></span>
-        <span>Datos medidos · <b id="syncAgo">—</b></span>
+        <span><span class="sync-l">Datos medidos · </span><b id="syncAgo">—</b></span>
       </div>
       <div class="top-actions">
         <button id="centChip" type="button" class="chip"><span class="ping off"></span>Revisando motor…</button>
@@ -1449,6 +1450,7 @@
   function fmtElapsed(st) { var s = Math.max(0, Math.round(((st.finished_at || Date.now() / 1000) - (st.started_at || Date.now() / 1000)))); return Math.floor(s / 60) + ' min ' + (s % 60) + ' s'; }
   function logBox(st) { return '<pre class="logbox">' + esc((st.log || []).join('\n') || '…') + '</pre>'; }
   async function getStatus() {
+    if (MODE === 'cloud' || MODE === 'file') return null; // GitHub Pages / archivo suelto: no hay motor que consultar
     try { var r = await fetch('api/status', { cache: 'no-store' }); if (!r.ok) return null; var j = await r.json(); return j && j.available ? j : null; } catch (e) { return null; }
   }
   function renderScanLbl() { $('refreshLbl').textContent = scanSince ? 'Midiendo mercado… ' + fmtElapsed({ started_at: scanSince }) : 'Actualizar ahora'; }
@@ -1457,7 +1459,7 @@
     CAN_EDIT = !!(st && st.can_edit);
     if (!st) {
       var cloud = MODE === 'cloud';
-      chip.className = 'chip' + (cloud ? ' info' : ''); chip.innerHTML = '<span class="ping ' + (cloud ? 'info' : 'off') + '"></span>' + (cloud ? 'Nube · se actualiza sola 6 a. m.' : 'Motor del PC apagado');
+      chip.className = 'chip' + (cloud ? ' info' : ''); chip.innerHTML = '<span class="ping ' + (cloud ? 'info' : 'off') + '"></span>' + (cloud ? 'Nube · auto 6 a. m.' : 'Motor del PC apagado');
       chip.title = cloud ? 'Versión en GitHub Pages. Toca para ver cómo se actualiza.' : 'Toca para ver cómo encenderlo'; ping.className = 'ping ' + (cloud ? 'info' : 'off'); lbl.textContent = cloud ? 'Nube' : 'Motor apagado';
     } else if (st.running) { chip.className = 'chip warn'; chip.innerHTML = '<span class="ping warn"></span>Midiendo… ' + fmtElapsed(st); chip.title = 'El Hunter mide en segundo plano'; ping.className = 'ping warn'; lbl.textContent = 'Midiendo…'; }
     else {
