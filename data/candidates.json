@@ -167,10 +167,10 @@
     },
     "youtube": {
       "keyword": "steamy cat brush",
-      "shorts_found": 36,
-      "median_views_top10": 155500,
+      "shorts_found": 27,
+      "median_views_top10": 195000,
       "max_views": 3800000,
-      "over_100k": 6,
+      "over_100k": 7,
       "over_1m": 2,
       "top": [
         {
@@ -194,9 +194,9 @@
           "url": "https://www.youtube.com/shorts/BCsAQg0Chfc"
         },
         {
-          "title": "My Cat Tries The Viral Steam Cat Brush | The Dodo",
-          "views": 182000,
-          "url": "https://www.youtube.com/shorts/bFgsR8xpyOw"
+          "title": "Cat Steam Brush",
+          "views": 208000,
+          "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
         }
       ],
       "status": "LIVE"
@@ -370,12 +370,17 @@
     },
     "youtube": {
       "keyword": "ultrasonic tooth cleaner",
-      "shorts_found": 32,
-      "median_views_top10": 1400000,
-      "max_views": 5300000,
+      "shorts_found": 30,
+      "median_views_top10": 1500000,
+      "max_views": 14000000,
       "over_100k": 10,
-      "over_1m": 6,
+      "over_1m": 7,
       "top": [
+        {
+          "title": "Leela Gets A Dental Cleaning 🦷 #shorts #cats #pets #hairlesscat #dental",
+          "views": 14000000,
+          "url": "https://www.youtube.com/shorts/eSl1wWhF0Rs"
+        },
         {
           "title": "5 years worth of cheese build up on teeth. #cheese #tartarremoval #plaque #teethcleaning #dentist",
           "views": 5300000,
@@ -395,11 +400,6 @@
           "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
           "views": 1600000,
           "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
-        },
-        {
-          "title": "Scaling teeth to remove tartar and calculus #shorts",
-          "views": 1400000,
-          "url": "https://www.youtube.com/shorts/1RWeozzKyos"
         }
       ],
       "status": "LIVE"
@@ -578,16 +578,11 @@
     "youtube": {
       "keyword": "lumbar traction belt",
       "shorts_found": 29,
-      "median_views_top10": 888000,
-      "max_views": 79000000,
-      "over_100k": 10,
-      "over_1m": 5,
+      "median_views_top10": 368000,
+      "max_views": 13000000,
+      "over_100k": 9,
+      "over_1m": 4,
       "top": [
-        {
-          "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
-          "views": 79000000,
-          "url": "https://www.youtube.com/shorts/VsfXV5vUhUk"
-        },
         {
           "title": "Stretch Your Spine Automatically",
           "views": 13000000,
@@ -607,6 +602,11 @@
           "title": "Need a quick and easy way to decompress your lower back?! Try this banded Lumbar Traction technique",
           "views": 1400000,
           "url": "https://www.youtube.com/shorts/Kn0jW9VBxXA"
+        },
+        {
+          "title": "Decompress Your Lower Back at Home #Shorts",
+          "views": 376000,
+          "url": "https://www.youtube.com/shorts/3VKai4c84wI"
         }
       ],
       "status": "LIVE"
@@ -780,7 +780,7 @@
     },
     "youtube": {
       "keyword": "turbo jet fan",
-      "shorts_found": 32,
+      "shorts_found": 31,
       "median_views_top10": 691000,
       "max_views": 80000000,
       "over_100k": 9,
