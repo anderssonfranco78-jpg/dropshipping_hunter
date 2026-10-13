@@ -177,26 +177,16 @@
         "mean_prior": 24.4,
         "resolution": "WEEK",
         "measured_at": "2026-10-12 11:24 UTC",
-        "cache": "reciente"
+        "cache": "respaldo"
       },
       "youtube": {
         "keyword": "ultrasonic tooth cleaner",
         "shorts_found": 32,
-        "median_views_top10": 1500000,
-        "max_views": 20000000,
-        "over_100k": 11,
-        "over_1m": 7,
+        "median_views_top10": 889500,
+        "max_views": 5000000,
+        "over_100k": 8,
+        "over_1m": 5,
         "top": [
-          {
-            "title": "Scaling of tartar & calculus from teeth #teeth #dentist #dental",
-            "views": 20000000,
-            "url": "https://www.youtube.com/shorts/sDtWwT3OsvQ"
-          },
-          {
-            "title": "5 years worth of cheese build up on teeth. #cheese #tartarremoval #plaque #teethcleaning #dentist",
-            "views": 5300000,
-            "url": "https://www.youtube.com/shorts/cX5fdk_85r0"
-          },
           {
             "title": "cleaning teeth with ultrasonic scaler #shorts #dentist #teethcleaning",
             "views": 5000000,
@@ -209,8 +199,18 @@
           },
           {
             "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
-            "views": 1600000,
+            "views": 1700000,
             "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
+          },
+          {
+            "title": "Scaling teeth to remove tartar and calculus #shorts",
+            "views": 1400000,
+            "url": "https://www.youtube.com/shorts/1RWeozzKyos"
+          },
+          {
+            "title": "Teeth cleaning at a dental office #shorts #teethcleaning",
+            "views": 1400000,
+            "url": "https://www.youtube.com/shorts/h49huCMJ2RY"
           }
         ],
         "status": "LIVE"
@@ -320,7 +320,7 @@
       "retail_availability_score": 85.0,
       "ad_active_days": 38,
       "competitor_ad_count": 29,
-      "google_trends_momentum": -31.6,
+      "google_trends_momentum": -30.6,
       "source_url": "https://www.aliexpress.com/item/1005007791672610.html",
       "target_demographics": {
         "age": "22-60",
@@ -333,7 +333,7 @@
         ]
       },
       "data_status": {
-        "trends": "CACHED",
+        "trends": "LIVE",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -349,55 +349,55 @@
       "notes": "Variante verde mango con cerdas naranja. Precio de página $4.73 + envío $3.54 = $8.27 (bitácora §24.3). Stock leído en vivo el 2026-10-08: green 994 uds; yellow solo 17 uds (descartada).",
       "trends_series": [
         10,
-        11,
+        10,
         10,
         13,
-        13,
+        12,
         11,
+        12,
+        13,
+        12,
+        12,
         13,
         14,
-        12,
-        12,
-        14,
-        15,
-        13,
         13,
         12,
         12,
-        13,
+        12,
+        12,
+        19,
         20,
-        21,
         16,
         15,
         16,
         16,
-        32,
-        70,
-        90,
+        29,
+        67,
+        88,
         100,
-        71,
+        68,
+        47,
+        41,
+        67,
+        72,
+        43,
+        44,
+        59,
+        51,
         49,
-        42,
-        69,
-        75,
-        46,
-        46,
-        61,
-        52,
-        50,
+        21,
         22,
-        23,
         16,
-        18,
-        15,
-        16,
-        16,
-        16,
+        17,
         15,
         15,
+        16,
         15,
+        14,
+        15,
+        14,
         13,
-        16,
+        15,
         13,
         12
       ],
@@ -461,21 +461,24 @@
       "trends_meta": {
         "low_volume": false,
         "zero_share": 0.0,
-        "peak_ratio": 0.14,
-        "mean_recent": 13.5,
-        "mean_prior": 19.8,
-        "resolution": "WEEK",
-        "measured_at": "2026-10-12 11:24 UTC",
-        "cache": "reciente"
+        "peak_ratio": 0.13,
+        "mean_recent": 13.2,
+        "mean_prior": 19.1,
+        "resolution": "WEEK"
       },
       "youtube": {
         "keyword": "steamy cat brush",
         "shorts_found": 29,
         "median_views_top10": 195000,
-        "max_views": 3800000,
+        "max_views": 18000000,
         "over_100k": 7,
-        "over_1m": 2,
+        "over_1m": 3,
         "top": [
+          {
+            "title": "✨Magic Pet Steam Brush – Bye Bye Shedding! 💦🐶🐱#Cat #Cats #CuteCat",
+            "views": 18000000,
+            "url": "https://www.youtube.com/shorts/CzSlC3TFa1Y"
+          },
           {
             "title": "🐶 Why Is Everyone Switching to This Steam Pet Brush?! 👀🔥",
             "views": 3800000,
@@ -487,13 +490,8 @@
             "url": "https://www.youtube.com/shorts/0kU6kGTG0Q8"
           },
           {
-            "title": "Steam Grooming Brush: For Cats and Dogs",
-            "views": 799000,
-            "url": "https://www.youtube.com/shorts/-OKLMmMRIhY"
-          },
-          {
             "title": "Cat Is Obsessed With This Brush #catbrush #steamycatbrush #hairbrush",
-            "views": 482000,
+            "views": 483000,
             "url": "https://www.youtube.com/shorts/BCsAQg0Chfc"
           },
           {
@@ -759,25 +757,25 @@
         "mean_prior": 33.3,
         "resolution": "WEEK",
         "measured_at": "2026-10-12 11:24 UTC",
-        "cache": "reciente"
+        "cache": "respaldo"
       },
       "youtube": {
         "keyword": "lumbar traction belt",
-        "shorts_found": 28,
-        "median_views_top10": 201500,
-        "max_views": 13000000,
-        "over_100k": 7,
+        "shorts_found": 31,
+        "median_views_top10": 562500,
+        "max_views": 79000000,
+        "over_100k": 9,
         "over_1m": 4,
         "top": [
           {
-            "title": "Stretch Your Spine Automatically",
-            "views": 13000000,
-            "url": "https://www.youtube.com/shorts/IK9sl-o50d0"
+            "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
+            "views": 79000000,
+            "url": "https://www.youtube.com/shorts/VsfXV5vUhUk"
           },
           {
-            "title": "Scoliosis Back Brace 💪🦴 #shorts",
-            "views": 7200000,
-            "url": "https://www.youtube.com/shorts/hsYOi_SZAWc"
+            "title": "Easy Way to Decompress Your Back #Shorts",
+            "views": 9600000,
+            "url": "https://www.youtube.com/shorts/PNFvCw3uygY"
           },
           {
             "title": "Mechanical Lumbar Traction for Back Pain",
@@ -790,9 +788,9 @@
             "url": "https://www.youtube.com/shorts/Kn0jW9VBxXA"
           },
           {
-            "title": "Traction Treatment For Sciatica| Sciatica Treatment #sciatica #shorts",
-            "views": 231000,
-            "url": "https://www.youtube.com/shorts/oq1nC0LObDE"
+            "title": "Decompress your low back with this lumbar traction exercise",
+            "views": 749000,
+            "url": "https://www.youtube.com/shorts/06WrOEPN1Y0"
           }
         ],
         "status": "LIVE"
@@ -1048,15 +1046,15 @@
         "mean_prior": 31.8,
         "resolution": "WEEK",
         "measured_at": "2026-10-12 11:24 UTC",
-        "cache": "reciente"
+        "cache": "respaldo"
       },
       "youtube": {
         "keyword": "turbo jet fan",
-        "shorts_found": 32,
-        "median_views_top10": 692000,
+        "shorts_found": 30,
+        "median_views_top10": 912500,
         "max_views": 80000000,
-        "over_100k": 8,
-        "over_1m": 4,
+        "over_100k": 9,
+        "over_1m": 5,
         "top": [
           {
             "title": "Metal Jet Fan from Electric Turbochargers | The H Lab #shorts",
@@ -1069,6 +1067,11 @@
             "url": "https://www.youtube.com/shorts/9ksItmxawD0"
           },
           {
+            "title": "This Turbo Jet Fan From Amazon is🔥",
+            "views": 2800000,
+            "url": "https://www.youtube.com/shorts/mlWwPS1daBM"
+          },
+          {
             "title": "Crazy Powerful Turbo Jet Fan! 🔥",
             "views": 2200000,
             "url": "https://www.youtube.com/shorts/D6LcDtfEMfI"
@@ -1077,11 +1080,6 @@
             "title": "Mini Turbo Jet Fan Powerful Blower | Air Blower #shorts #airblower",
             "views": 1000000,
             "url": "https://www.youtube.com/shorts/LEDdRGg_HU4"
-          },
-          {
-            "title": "Mini Turbo Jet Fan Air Blower 110000RPM Turbo Violent Fan #jetfan #airblower #coolgadgets",
-            "views": 825000,
-            "url": "https://www.youtube.com/shorts/guqeVY5p8OE"
           }
         ],
         "status": "LIVE"
