@@ -1,13 +1,13 @@
 {
- "updated_at": "2026-10-13 03:39:59 UTC",
+ "updated_at": "2026-10-13 04:05:59 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
     "keyword": "cat water fountain",
-    "shorts_found": 28,
-    "median_views_top10": 116000,
+    "shorts_found": 38,
+    "median_views_top10": 70000,
     "max_views": 6000000,
-    "over_100k": 5,
+    "over_100k": 4,
     "over_1m": 1,
     "top": [
      {
@@ -31,9 +31,9 @@
       "url": "https://www.youtube.com/shorts/2rNva4yBN9A"
      },
      {
-      "title": "The best kinds of fountains for cats!",
-      "views": 160000,
-      "url": "https://www.youtube.com/shorts/PfP8zSZHD80"
+      "title": "The #1 Vet Recommended Cat Fountain 😸",
+      "views": 72000,
+      "url": "https://www.youtube.com/shorts/a5CPvyFg4vE"
      }
     ],
     "status": "LIVE"
@@ -102,29 +102,34 @@
    ],
    "rising_at": "2026-10-12 10:07:17 UTC",
    "market": {
-    "score": 65,
-    "video_score": 82,
+    "score": 62,
+    "video_score": 76,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 116K vistas (el mayor, 6M)",
+     "Shorts: los 10 más vistos tienen una mediana de 70K vistas (el mayor, 6M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -19% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 11:25:23 UTC",
+   "measured_at": "2026-10-13 04:05:56 UTC",
    "trends_at": "2026-10-12 11:25:23 UTC"
   },
   "dog-paw-cleaner": {
    "youtube": {
     "keyword": "dog paw cleaner cup",
-    "shorts_found": 32,
-    "median_views_top10": 5350,
-    "max_views": 652000,
-    "over_100k": 1,
-    "over_1m": 0,
+    "shorts_found": 29,
+    "median_views_top10": 2400,
+    "max_views": 43000000,
+    "over_100k": 2,
+    "over_1m": 1,
     "top": [
+     {
+      "title": "Dog paw Cleaner 🐾",
+      "views": 43000000,
+      "url": "https://www.youtube.com/shorts/OsTk6ZC1qyI"
+     },
      {
       "title": "An automatic paw cleaner 🙌🐾 #dog #dogs #paw #paws #clean",
       "views": 652000,
@@ -132,23 +137,18 @@
      },
      {
       "title": "Muddy paws? 🐾 This paw cleaner cup for dogs #shorts",
-      "views": 15000,
+      "views": 26000,
       "url": "https://www.youtube.com/shorts/w_7DDnZijRA"
      },
      {
-      "title": "🐾 Dog Paw Cleaner Cup #petlovers#doglife#cleaning#cat #catfun#pets#petsupplies#puppy #dog#fun#dogs",
-      "views": 15000,
-      "url": "https://www.youtube.com/shorts/gVIBN1Vlt1c"
+      "title": "The pet animal wash foot cup review!! #dog #labrador #shortsvideo #adorabledog #reviews",
+      "views": 3700,
+      "url": "https://www.youtube.com/shorts/C1Fgtf3tWXk"
      },
      {
-      "title": "Portable Silicone Pet Paw Cleaner Cup 🐶🐱 #shorts",
-      "views": 13000,
-      "url": "https://www.youtube.com/shorts/TkDQWcR11xg"
-     },
-     {
-      "title": "Automatic Pet Paw Cleaning Cup🐾",
-      "views": 7000,
-      "url": "https://www.youtube.com/shorts/OwgMSB1xhek"
+      "title": "Dog Paw Cleaner Cup | Clean Muddy Paws Before They Hit the Floor #Shorts",
+      "views": 2600,
+      "url": "https://www.youtube.com/shorts/4P0zKr9HoZc"
      }
     ],
     "status": "LIVE"
@@ -209,18 +209,18 @@
    ],
    "rising_at": "2026-10-12 10:07:22 UTC",
    "market": {
-    "score": 48,
-    "video_score": 48,
+    "score": 40,
+    "video_score": 40,
     "trend_score": null,
     "crowding": "baja",
     "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 5K vistas (el mayor, 652K)",
+     "Shorts: los 10 más vistos tienen una mediana de 2K vistas (el mayor, 43M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google: casi no se busca por nombre (normal en gadgets que se descubren en video)"
     ]
    },
-   "measured_at": "2026-10-12 11:25:32 UTC",
+   "measured_at": "2026-10-13 04:05:59 UTC",
    "trends_at": "2026-10-12 11:25:32 UTC"
   },
   "lick-mat": {
@@ -2738,28 +2738,65 @@
   },
   "lcd-drawing-tablet": {
    "youtube_status": "NO_LIVE_DATA",
-   "trends_status": "NO_LIVE_DATA",
+   "trends_status": "LIVE",
    "market": {
-    "score": null,
+    "score": 20,
     "video_score": null,
-    "trend_score": null,
+    "trend_score": 20,
     "crowding": null,
-    "partial": false,
+    "partial": true,
     "reasons": [
      "Shorts: sin datos en vivo en esta corrida",
-     "Google: sin datos en vivo en esta corrida"
+     "Google (EE. UU.): baja -46% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 10:33:12 UTC"
+   "measured_at": "2026-10-13 04:05:39 UTC",
+   "trends": {
+    "momentum_pct": -45.7,
+    "low_volume": false,
+    "peak_ratio": 0.09,
+    "mean_recent": 9.0
+   },
+   "trends_series": [
+    100,
+    62,
+    44,
+    56,
+    68,
+    66,
+    40,
+    41,
+    44,
+    39,
+    30,
+    29,
+    20,
+    22,
+    0,
+    14,
+    20,
+    10,
+    13,
+    10,
+    17,
+    14,
+    14,
+    0,
+    9,
+    13
+   ],
+   "trends_at": "2026-10-13 04:05:22 UTC",
+   "rising": [],
+   "rising_at": "2026-10-13 04:05:39 UTC"
   },
   "solar-garden-lights": {
    "youtube": {
     "keyword": "solar garden lights",
-    "shorts_found": 33,
-    "median_views_top10": 112500,
+    "shorts_found": 31,
+    "median_views_top10": 382500,
     "max_views": 48000000,
-    "over_100k": 5,
-    "over_1m": 1,
+    "over_100k": 9,
+    "over_1m": 4,
     "top": [
      {
       "title": "Solar garden lamp street lamp #solarcharging",
@@ -2767,24 +2804,24 @@
       "url": "https://www.youtube.com/shorts/z0hfmm4hQZQ"
      },
      {
+      "title": "My neighbor laughed at me when I said I could remove the haze in 1 second! #diyhome #diy #diyhacks",
+      "views": 8700000,
+      "url": "https://www.youtube.com/shorts/CWah1yzRJTA"
+     },
+     {
+      "title": "Viral solar lights from Meesho #solarlight #viralfinds #meeshohaul #shortsindia #shorts",
+      "views": 2300000,
+      "url": "https://www.youtube.com/shorts/tbv-J6axspk"
+     },
+     {
+      "title": "Product Link in Bio ( 414 ) ▶️ Solar-Powered Floating Jellyfish Garden Lights⁠",
+      "views": 1000000,
+      "url": "https://www.youtube.com/shorts/HcWUfkm2BBM"
+     },
+     {
       "title": "⚡Solar Powered Wall Light #walllights #solarlight  #lighting",
-      "views": 428000,
+      "views": 429000,
       "url": "https://www.youtube.com/shorts/y8UnY40K-0I"
-     },
-     {
-      "title": "Outdoor Solar Light #shorts #solarlight",
-      "views": 363000,
-      "url": "https://www.youtube.com/shorts/Oox_TjbeUmE"
-     },
-     {
-      "title": "Amazon Solar Lights for Your Backyard Deck Patio Garden! #amazonstyle",
-      "views": 296000,
-      "url": "https://www.youtube.com/shorts/yy6Czrz9sTk"
-     },
-     {
-      "title": "A Colorful Solar Light for Your Home#short",
-      "views": 141000,
-      "url": "https://www.youtube.com/shorts/o3xkq8A0sP8"
      }
     ],
     "status": "LIVE"
@@ -2792,24 +2829,24 @@
    "youtube_status": "LIVE",
    "trends_status": "NO_LIVE_DATA",
    "market": {
-    "score": 81,
-    "video_score": 81,
+    "score": 80,
+    "video_score": 95,
     "trend_score": null,
-    "crowding": "baja",
+    "crowding": "alta",
     "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 112K vistas (el mayor, 48M)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Shorts: los 10 más vistos tienen una mediana de 382K vistas (el mayor, 48M)",
+     "Competencia alta: 4 Shorts pasan el millón de vistas",
      "Google: sin datos en vivo en esta corrida"
     ]
    },
-   "measured_at": "2026-10-12 10:33:16 UTC"
+   "measured_at": "2026-10-13 04:05:43 UTC"
   },
   "camping-lantern": {
    "youtube": {
     "keyword": "rechargeable camping lantern",
-    "shorts_found": 31,
-    "median_views_top10": 38500,
+    "shorts_found": 33,
+    "median_views_top10": 32500,
     "max_views": 6700000,
     "over_100k": 2,
     "over_1m": 1,
@@ -2821,7 +2858,7 @@
      },
      {
       "title": "Yardwe Led Camping Lantern Solar Panel Hand-Powered Tent 🌐 #solarlight #lamp #campinglife #shorts",
-      "views": 350000,
+      "views": 351000,
       "url": "https://www.youtube.com/shorts/cqSZRf1oIdU"
      },
      {
@@ -2831,13 +2868,13 @@
      },
      {
       "title": "Refillable Gas Camping Light | Outdoor Lantern #shorts #lantern #gaslight",
-      "views": 62000,
+      "views": 63000,
       "url": "https://www.youtube.com/shorts/TYYkdOo9w24"
      },
      {
-      "title": "🔋 Rechargeable Camping Light | Solar + USB Power #trending",
-      "views": 46000,
-      "url": "https://www.youtube.com/shorts/4n4FqaF51s4"
+      "title": "Solar Camping Lantern 🔥 | Amazing Emergency Light #Shorts",
+      "views": 34000,
+      "url": "https://www.youtube.com/shorts/7YpQ4_l1Mqg"
      }
     ],
     "status": "LIVE"
@@ -2907,41 +2944,31 @@
    ],
    "rising_at": "2026-10-12 11:24:57 UTC",
    "market": {
-    "score": 50,
-    "video_score": 70,
+    "score": 49,
+    "video_score": 68,
     "trend_score": 20,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 38K vistas (el mayor, 6.7M)",
+     "Shorts: los 10 más vistos tienen una mediana de 32K vistas (el mayor, 6.7M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -32% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 11:24:57 UTC"
+   "measured_at": "2026-10-13 04:05:48 UTC"
   },
   "electric-lint-remover": {
    "youtube": {
     "keyword": "fabric shaver lint remover",
-    "shorts_found": 32,
-    "median_views_top10": 127000,
-    "max_views": 4200000,
-    "over_100k": 5,
-    "over_1m": 1,
+    "shorts_found": 33,
+    "median_views_top10": 59000,
+    "max_views": 567000,
+    "over_100k": 3,
+    "over_1m": 0,
     "top": [
      {
-      "title": "Cheap Vs Expensive Lint Remover #shorts",
-      "views": 4200000,
-      "url": "https://www.youtube.com/shorts/QXPvnPcnS6o"
-     },
-     {
-      "title": "Lint remover from clothes Amazon  #shorts Lint remover review lint remover meesho",
-      "views": 974000,
-      "url": "https://www.youtube.com/shorts/YvCh7nRn4XM"
-     },
-     {
       "title": "I Tried This Lint Remover… WOW!😲",
-      "views": 566000,
+      "views": 567000,
       "url": "https://www.youtube.com/shorts/GEqxFg0eHJY"
      },
      {
@@ -2953,6 +2980,16 @@
       "title": "Fabric Shaver Electric Lint Remover, Bobling Remover for ClothesUSB Rechargeable.",
       "views": 165000,
       "url": "https://www.youtube.com/shorts/7nYhFh4PQwc"
+     },
+     {
+      "title": "Reseller TikTok Q&A- Fabric Shaver and Lint Remover Recommendations",
+      "views": 70000,
+      "url": "https://www.youtube.com/shorts/gJM_5i1-xyo"
+     },
+     {
+      "title": "Trying a Fabric Shaver",
+      "views": 64000,
+      "url": "https://www.youtube.com/shorts/VqzaUx09oIc"
      }
     ],
     "status": "LIVE"
@@ -3022,18 +3059,18 @@
    ],
    "rising_at": "2026-10-12 11:25:15 UTC",
    "market": {
-    "score": 66,
-    "video_score": 83,
+    "score": 60,
+    "video_score": 74,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 127K vistas (el mayor, 4.2M)",
+     "Shorts: los 10 más vistos tienen una mediana de 59K vistas (el mayor, 567K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -15% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 11:25:15 UTC"
+   "measured_at": "2026-10-13 04:05:52 UTC"
   }
  }
 }
