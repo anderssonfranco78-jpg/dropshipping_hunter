@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-13 13:02:19 UTC",
+ "updated_at": "2026-10-13 22:01:18 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -402,10 +402,10 @@
   "pet-hair-roller": {
    "youtube": {
     "keyword": "pet hair remover roller",
-    "shorts_found": 34,
-    "median_views_top10": 39000,
+    "shorts_found": 30,
+    "median_views_top10": 6600,
     "max_views": 389000000,
-    "over_100k": 2,
+    "over_100k": 3,
     "over_1m": 1,
     "top": [
      {
@@ -419,73 +419,73 @@
       "url": "https://www.youtube.com/shorts/-ODkUQHCeYk"
      },
      {
-      "title": "Best version of Lint Roller for Pet Hair Removal | Reusable, Portable & Cleaner",
-      "views": 88000,
-      "url": "https://www.youtube.com/shorts/hgy84ZDVZCM"
+      "title": "Detailing- The FASTEST Pet HAIR Remover…. #shorts #asmr #car",
+      "views": 143000,
+      "url": "https://www.youtube.com/shorts/GHS9piTOcxU"
      },
      {
-      "title": "Best Dog hair remover from sofa,bed,clothes👍👆 watch video for link #pet #hair #amazon #dog #shorts",
-      "views": 86000,
-      "url": "https://www.youtube.com/shorts/id_1_yOqJhg"
+      "title": "Nootie Pet Hair Lint Roller #unboxing #lintroller #blinkit #shorts",
+      "views": 33000,
+      "url": "https://www.youtube.com/shorts/Rk_Z9JBi494"
      },
      {
-      "title": "Lint Roller🆚Yomi Pet Hair Removal Gloves #pethairremoval #petproducts #pets",
-      "views": 45000,
-      "url": "https://www.youtube.com/shorts/Vb58e1IND6M"
+      "title": "This Gadget Removes Cat Hair Like Magic!",
+      "views": 8800,
+      "url": "https://www.youtube.com/shorts/h8za2o8bhpM"
      }
     ],
     "status": "LIVE"
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": -36.4,
+    "momentum_pct": -35.0,
     "low_volume": false,
     "peak_ratio": 0.12,
-    "mean_recent": 11.5
+    "mean_recent": 11.8
    },
    "trends_series": [
-    96,
+    94,
     62,
     49,
-    39,
-    67,
+    38,
+    68,
     70,
     46,
     41,
-    58,
+    56,
     53,
     47,
     24,
     20,
     15,
-    17,
+    16,
     13,
     12,
-    14,
+    16,
     14,
     11,
     15,
     14,
-    13,
     12,
+    14,
     11,
     10
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 50,
-    "video_score": 70,
+    "score": 38,
+    "video_score": 50,
     "trend_score": 20,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 39K vistas (el mayor, 389M)",
+     "Shorts: los 10 más vistos tienen una mediana de 7K vistas (el mayor, 389M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -35% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 16:03:49 UTC",
-   "trends_at": "2026-10-12 16:03:47 UTC",
+   "measured_at": "2026-10-13 22:01:04 UTC",
+   "trends_at": "2026-10-12 12:04 UTC",
    "rising": [
     {
      "query": "pure path pet hair remover",
@@ -518,9 +518,9 @@
    "youtube": {
     "keyword": "electric spin scrubber",
     "shorts_found": 29,
-    "median_views_top10": 8250,
+    "median_views_top10": 53000,
     "max_views": 2100000,
-    "over_100k": 2,
+    "over_100k": 4,
     "over_1m": 1,
     "top": [
      {
@@ -529,44 +529,45 @@
       "url": "https://www.youtube.com/shorts/1gudMQbGsv0"
      },
      {
+      "title": "This viral amazon scrubber is INCREDIBLE",
+      "views": 660000,
+      "url": "https://www.youtube.com/shorts/vpcUs3fqPdQ"
+     },
+     {
       "title": "Electric Spin Scrubber AMAZON FINDS",
-      "views": 394000,
+      "views": 395000,
       "url": "https://www.youtube.com/shorts/1wNm9y-8-7A"
      },
      {
-      "title": "Electric Spin Scrubber 🔥 AGARO Royal #shorts #spinscrubber #shortvideo #viralvideo",
-      "views": 28000,
-      "url": "https://www.youtube.com/shorts/Y_VHBuSNw-U"
+      "title": "Cordless Spin Scrubber! 🚗 🫧",
+      "views": 113000,
+      "url": "https://www.youtube.com/shorts/APbDsjvfZUw"
      },
      {
-      "title": "Viral Magic Electric Spin Scrubber #shorts",
-      "views": 16000,
-      "url": "https://www.youtube.com/shorts/55wBuldQw2E"
-     },
-     {
-      "title": "This Electric Spin Scrubber Makes Cleaning Your Pan SO Much Easier 🌀",
-      "views": 14000,
-      "url": "https://www.youtube.com/shorts/djHxVy_C3Mc"
+      "title": "HOTO Electric Spin Scrubber | Cleaning Brush | How to Use & Tips | Brushes for Multiple Scenarios",
+      "views": 62000,
+      "url": "https://www.youtube.com/shorts/QFP11oBgEHg"
      }
     ],
     "status": "LIVE"
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": -37.0,
+    "momentum_pct": -37.7,
     "low_volume": false,
     "peak_ratio": 0.22,
     "mean_recent": 21.8
    },
    "trends_series": [
-    100,
-    69,
-    59,
-    53,
-    74,
-    75,
-    52,
+    99,
+    70,
     60,
+    53,
+    75,
+    76,
+    53,
+    60,
+    72,
     72,
     68,
     41,
@@ -587,19 +588,19 @@
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 40,
-    "video_score": 53,
+    "score": 52,
+    "video_score": 73,
     "trend_score": 20,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 8K vistas (el mayor, 2.1M)",
+     "Shorts: los 10 más vistos tienen una mediana de 53K vistas (el mayor, 2.1M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -38% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 16:03:56 UTC",
-   "trends_at": "2026-10-12 16:03:54 UTC",
+   "measured_at": "2026-10-13 22:01:07 UTC",
+   "trends_at": "2026-10-12 12:04 UTC",
    "rising": [
     {
      "query": "hoto flexi cordless spin scrubber",
@@ -631,11 +632,11 @@
   "magnetic-window-cleaner": {
    "youtube": {
     "keyword": "magnetic window cleaner",
-    "shorts_found": 31,
-    "median_views_top10": 2289000,
+    "shorts_found": 30,
+    "median_views_top10": 839000,
     "max_views": 23000000,
-    "over_100k": 9,
-    "over_1m": 5,
+    "over_100k": 7,
+    "over_1m": 4,
     "top": [
      {
       "title": "This Magnetic Window Cleaner is My New Favorite Toy! ✨ So CLEVER! #cleaninggadget #windowwashing",
@@ -644,8 +645,13 @@
      },
      {
       "title": "▶️ Clean both sides easily Double Side Magnetic Window Cleaner Brush Tool ( # 2121 )",
-      "views": 21000000,
+      "views": 22000000,
       "url": "https://www.youtube.com/shorts/KpW-e3zhSbg"
+     },
+     {
+      "title": "Double Side Magnetic Window Cleaner Brush Tool 🎯Product Link in Description & Comments!🎯",
+      "views": 16000000,
+      "url": "https://www.youtube.com/shorts/gFzvm6zPhiA"
      },
      {
       "title": "Does this magnetic window cleaner really work?",
@@ -653,9 +659,9 @@
       "url": "https://www.youtube.com/shorts/-CW9PIm3XJI"
      },
      {
-      "title": "Meesho Magnetic Window Cleaners #youtubeshorts #meeshofinds #cleaning",
-      "views": 3700000,
-      "url": "https://www.youtube.com/shorts/029B5lMhWUc"
+      "title": "how to use a magnetic glass cleaner?",
+      "views": 879000,
+      "url": "https://www.youtube.com/shorts/vQNbom6sW8o"
      }
     ],
     "status": "LIVE"
@@ -669,55 +675,55 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 2.3M vistas (el mayor, 23M)",
-     "Competencia alta: 5 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 839K vistas (el mayor, 23M)",
+     "Competencia alta: 4 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -14% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 16:04:01 UTC",
+   "measured_at": "2026-10-13 22:01:12 UTC",
    "trends": {
-    "momentum_pct": -14.2,
+    "momentum_pct": -14.3,
     "low_volume": false,
     "peak_ratio": 0.3,
-    "mean_recent": 29.8
+    "mean_recent": 30.0
    },
    "trends_series": [
     100,
-    71,
-    55,
+    72,
+    56,
     48,
-    79,
-    96,
-    64,
-    67,
-    87,
-    72,
-    72,
+    80,
+    94,
+    65,
+    68,
+    88,
+    73,
+    73,
     40,
-    35,
+    36,
     30,
     29,
     34,
     32,
     28,
     26,
+    29,
+    32,
+    31,
     28,
+    29,
     31,
-    31,
-    27,
-    30,
-    30,
     32
    ],
-   "trends_at": "2026-10-12 16:04:01 UTC"
+   "trends_at": "2026-10-12 12:04 UTC"
   },
   "shower-filter": {
    "youtube": {
     "keyword": "shower head filter",
-    "shorts_found": 33,
-    "median_views_top10": 109000,
-    "max_views": 1800000,
-    "over_100k": 6,
+    "shorts_found": 30,
+    "median_views_top10": 249000,
+    "max_views": 5200000,
+    "over_100k": 10,
     "over_1m": 2,
     "top": [
      {
@@ -731,24 +737,19 @@
       "url": "https://www.youtube.com/shorts/J8W5ItzbGBc"
      },
      {
-      "title": "Replacing my showerhead filter! #shorts #amazonfinds #asmrsounds",
-      "views": 1700000,
-      "url": "https://www.youtube.com/shorts/gAJo4YHWVL0"
+      "title": "Ultimate Hydro Jet Shower Head Review: The Best High-Pressure Shower Experience! #hydrojet #shower",
+      "views": 282000,
+      "url": "https://www.youtube.com/shorts/Cl6LNTj29bM"
      },
      {
       "title": "Top Amazon Finds You’ll Love, Filtered Shower Head with Handheld #amazonfinds #amazongadgets",
-      "views": 270000,
+      "views": 271000,
       "url": "https://www.youtube.com/shorts/vAcqXZtOzoU"
      },
      {
-      "title": "3 months of using my Jolie filtered shower head and I definitely see the difference in my hair",
-      "views": 234000,
-      "url": "https://www.youtube.com/shorts/yu9DGlba1Xw"
-     },
-     {
-      "title": "it’s time to change the filter shower🚿🤍 #organizing #selfcare #cleangirl #filtershower",
-      "views": 112000,
-      "url": "https://www.youtube.com/shorts/EAtc627e7uo"
+      "title": "Best rain shower head #shorts #trending",
+      "views": 264000,
+      "url": "https://www.youtube.com/shorts/zi1Bw3FjGBI"
      }
     ],
     "status": "LIVE"
@@ -756,34 +757,34 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 52,
-    "video_score": 81,
+    "score": 57,
+    "video_score": 90,
     "trend_score": 20,
     "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 109K vistas (el mayor, 1.8M)",
+     "Shorts: los 10 más vistos tienen una mediana de 249K vistas (el mayor, 5.2M)",
      "Competencia media: 2 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -40% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): baja -39% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 16:04:08 UTC",
+   "measured_at": "2026-10-13 22:01:18 UTC",
    "trends": {
-    "momentum_pct": -39.7,
+    "momentum_pct": -38.8,
     "low_volume": false,
     "peak_ratio": 0.17,
-    "mean_recent": 17.2
+    "mean_recent": 17.5
    },
    "trends_series": [
-    96,
-    66,
+    94,
+    65,
     51,
     41,
     66,
     91,
+    60,
     61,
-    61,
-    72,
+    71,
     60,
     65,
     37,
@@ -800,9 +801,9 @@
     17,
     19,
     17,
-    16
+    17
    ],
-   "trends_at": "2026-10-12 16:04:08 UTC"
+   "trends_at": "2026-10-12 12:04 UTC"
   },
   "portable-blender": {
    "youtube": {
@@ -1399,12 +1400,17 @@
   "ice-roller": {
    "youtube": {
     "keyword": "ice roller face",
-    "shorts_found": 31,
-    "median_views_top10": 428000,
-    "max_views": 1300000,
-    "over_100k": 10,
-    "over_1m": 2,
+    "shorts_found": 34,
+    "median_views_top10": 428500,
+    "max_views": 2600000,
+    "over_100k": 8,
+    "over_1m": 4,
     "top": [
+     {
+      "title": "Ice roller✨💗 #skincare #brightskin #iceroller #beauty #homeremedies #skincareroutine  #shorts",
+      "views": 2600000,
+      "url": "https://www.youtube.com/shorts/2bSCfEv3_F8"
+     },
      {
       "title": "Beetroot Ice Roller💗✨ #shorts #ytshorts #trending #viralvideo #skincare #explore #youtubeshorts",
       "views": 1300000,
@@ -1416,14 +1422,9 @@
       "url": "https://www.youtube.com/shorts/G8HEuFZAMYc"
      },
      {
-      "title": "Ice roller for face to minimise open pores #iceroller #shorts #meesho #shortsyoutube",
-      "views": 978000,
-      "url": "https://www.youtube.com/shorts/72rgikj7S1E"
-     },
-     {
-      "title": "My Face Burn🔥 Using Ice Roller 😭 #iceroller #faceroller #viralshort #shortsfeed #shorts",
-      "views": 606000,
-      "url": "https://www.youtube.com/shorts/qWAA7hD7I2k"
+      "title": "I Tried Viral Ice Roller 🧊 🤩 | Meesho Finds #shubnandufamily #shorts",
+      "views": 1200000,
+      "url": "https://www.youtube.com/shorts/w-sCcYMx1i0"
      },
      {
       "title": "Ice roller✨💗 #skincare #brightskin #iceroller #beauty #homeremedies #skincareroutine  #shorts",
@@ -1436,18 +1437,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 69,
+    "score": 59,
     "video_score": 96,
     "trend_score": 40,
-    "crowding": "media",
+    "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 428K vistas (el mayor, 1.3M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 428K vistas (el mayor, 2.6M)",
+     "Competencia alta: 4 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -17% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 12:08:53 UTC",
+   "measured_at": "2026-10-13 22:00:56 UTC",
    "trends": {
     "momentum_pct": -17.4,
     "low_volume": false,
@@ -1482,15 +1483,15 @@
     24,
     22
    ],
-   "trends_at": "2026-10-12 12:08:53 UTC"
+   "trends_at": "2026-10-12 12:08 UTC"
   },
   "posture-corrector": {
    "youtube": {
     "keyword": "posture corrector",
     "shorts_found": 30,
-    "median_views_top10": 3000000,
+    "median_views_top10": 3150000,
     "max_views": 90000000,
-    "over_100k": 15,
+    "over_100k": 13,
     "over_1m": 7,
     "top": [
      {
@@ -1504,14 +1505,14 @@
       "url": "https://www.youtube.com/shorts/XLZooRAuxIQ"
      },
      {
-      "title": "Fix Rounded Shoulders in 30 Seconds | Daily Posture Exercise #shorts",
-      "views": 8600000,
-      "url": "https://www.youtube.com/shorts/IOQEy6EK03c"
-     },
-     {
       "title": "Scoliosis Back Brace 💪🦴 #shorts",
       "views": 7200000,
       "url": "https://www.youtube.com/shorts/hsYOi_SZAWc"
+     },
+     {
+      "title": "Fix Your Posture in Just 1 Minute a Day: Hunchback, Uneven Shoulders, and Forward Neck! #shorts",
+      "views": 4700000,
+      "url": "https://www.youtube.com/shorts/nzCEGzMPnAY"
      },
      {
       "title": "Adjustable Back Posture Corrector Slouching Relieve Pain Belt for Women Men #correctposture",
@@ -1530,12 +1531,12 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 3M vistas (el mayor, 90M)",
+     "Shorts: los 10 más vistos tienen una mediana de 3.1M vistas (el mayor, 90M)",
      "Competencia alta: 7 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -31% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 12:08:59 UTC",
+   "measured_at": "2026-10-13 22:01:00 UTC",
    "trends": {
     "momentum_pct": -30.9,
     "low_volume": false,
@@ -1570,7 +1571,7 @@
     19,
     18
    ],
-   "trends_at": "2026-10-12 12:08:59 UTC"
+   "trends_at": "2026-10-12 12:08 UTC"
   },
   "neck-stretcher": {
    "youtube": {
