@@ -320,7 +320,7 @@
       "retail_availability_score": 85.0,
       "ad_active_days": 38,
       "competitor_ad_count": 29,
-      "google_trends_momentum": -30.6,
+      "google_trends_momentum": -30.5,
       "source_url": "https://www.aliexpress.com/item/1005007791672610.html",
       "target_demographics": {
         "age": "22-60",
@@ -333,7 +333,7 @@
         ]
       },
       "data_status": {
-        "trends": "CACHED",
+        "trends": "LIVE",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -349,56 +349,56 @@
       "notes": "Variante verde mango con cerdas naranja. Precio de página $4.73 + envío $3.54 = $8.27 (bitácora §24.3). Stock leído en vivo el 2026-10-08: green 994 uds; yellow solo 17 uds (descartada).",
       "trends_series": [
         10,
-        10,
-        10,
-        13,
-        12,
         11,
+        10,
         12,
         13,
-        12,
-        12,
+        11,
         13,
+        13,
+        13,
+        11,
         14,
+        15,
+        13,
         13,
         12,
         12,
-        12,
-        12,
+        13,
         19,
-        20,
+        21,
         16,
         15,
         16,
         16,
-        29,
-        67,
-        88,
-        100,
+        31,
         68,
-        47,
+        95,
+        100,
+        69,
+        48,
         41,
-        67,
-        72,
-        43,
-        44,
-        59,
-        51,
-        49,
-        21,
+        69,
+        73,
+        45,
+        45,
+        58,
+        52,
+        48,
         22,
+        22,
+        16,
+        18,
+        15,
         16,
         17,
         15,
         15,
-        16,
-        15,
-        14,
         15,
         14,
         13,
         15,
-        13,
+        14,
         12
       ],
       "image_url": null,
@@ -461,16 +461,14 @@
       "trends_meta": {
         "low_volume": false,
         "zero_share": 0.0,
-        "peak_ratio": 0.13,
-        "mean_recent": 13.2,
-        "mean_prior": 19.1,
-        "resolution": "WEEK",
-        "measured_at": "2026-10-13 13:01 UTC",
-        "cache": "reciente"
+        "peak_ratio": 0.14,
+        "mean_recent": 13.5,
+        "mean_prior": 19.4,
+        "resolution": "WEEK"
       },
       "youtube": {
         "keyword": "steamy cat brush",
-        "shorts_found": 28,
+        "shorts_found": 27,
         "median_views_top10": 195000,
         "max_views": 3800000,
         "over_100k": 7,
@@ -493,7 +491,7 @@
           },
           {
             "title": "Cat Is Obsessed With This Brush #catbrush #steamycatbrush #hairbrush",
-            "views": 485000,
+            "views": 486000,
             "url": "https://www.youtube.com/shorts/BCsAQg0Chfc"
           },
           {
@@ -763,21 +761,21 @@
       },
       "youtube": {
         "keyword": "lumbar traction belt",
-        "shorts_found": 28,
-        "median_views_top10": 816000,
-        "max_views": 13000000,
-        "over_100k": 8,
+        "shorts_found": 27,
+        "median_views_top10": 888500,
+        "max_views": 79000000,
+        "over_100k": 9,
         "over_1m": 5,
         "top": [
+          {
+            "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
+            "views": 79000000,
+            "url": "https://www.youtube.com/shorts/VsfXV5vUhUk"
+          },
           {
             "title": "Stretch Your Spine Automatically",
             "views": 13000000,
             "url": "https://www.youtube.com/shorts/IK9sl-o50d0"
-          },
-          {
-            "title": "Easy Way to Decompress Your Back #Shorts",
-            "views": 9600000,
-            "url": "https://www.youtube.com/shorts/PNFvCw3uygY"
           },
           {
             "title": "Scoliosis Back Brace 💪🦴 #shorts",
@@ -1052,10 +1050,10 @@
       },
       "youtube": {
         "keyword": "turbo jet fan",
-        "shorts_found": 33,
-        "median_views_top10": 695500,
+        "shorts_found": 30,
+        "median_views_top10": 895500,
         "max_views": 80000000,
-        "over_100k": 9,
+        "over_100k": 10,
         "over_1m": 4,
         "top": [
           {
@@ -1079,9 +1077,9 @@
             "url": "https://www.youtube.com/shorts/LEDdRGg_HU4"
           },
           {
-            "title": "Mini Turbo Jet Fan Air Blower 110000RPM Turbo Violent Fan #jetfan #airblower #coolgadgets",
-            "views": 825000,
-            "url": "https://www.youtube.com/shorts/guqeVY5p8OE"
+            "title": "Mini Jet Turbo Strong Fan",
+            "views": 965000,
+            "url": "https://www.youtube.com/shorts/3x_X3y3A2S4"
           }
         ],
         "status": "LIVE"
