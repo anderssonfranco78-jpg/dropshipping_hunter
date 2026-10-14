@@ -44,7 +44,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -175,15 +175,17 @@
         "peak_ratio": 0.21,
         "mean_recent": 21.5,
         "mean_prior": 25.9,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-10-13 22:00 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "ultrasonic tooth cleaner",
-        "shorts_found": 32,
+        "shorts_found": 31,
         "median_views_top10": 2350000,
         "max_views": 20000000,
-        "over_100k": 13,
-        "over_1m": 9,
+        "over_100k": 12,
+        "over_1m": 8,
         "top": [
           {
             "title": "Scaling of tartar & calculus from teeth #teeth #dentist #dental",
@@ -332,7 +334,7 @@
       },
       "data_status": {
         "trends": "CACHED",
-        "youtube": "NO_LIVE_DATA",
+        "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
         "freight": "UNAVAILABLE",
@@ -466,7 +468,42 @@
         "measured_at": "2026-10-13 13:01 UTC",
         "cache": "reciente"
       },
-      "youtube": null
+      "youtube": {
+        "keyword": "steamy cat brush",
+        "shorts_found": 28,
+        "median_views_top10": 195000,
+        "max_views": 3800000,
+        "over_100k": 7,
+        "over_1m": 2,
+        "top": [
+          {
+            "title": "🐶 Why Is Everyone Switching to This Steam Pet Brush?! 👀🔥",
+            "views": 3800000,
+            "url": "https://www.youtube.com/shorts/n-GflRw0sXI"
+          },
+          {
+            "title": "I Tried a Steam Brush on my Feisty Cat 😳",
+            "views": 2800000,
+            "url": "https://www.youtube.com/shorts/0kU6kGTG0Q8"
+          },
+          {
+            "title": "Steam Grooming Brush: For Cats and Dogs",
+            "views": 800000,
+            "url": "https://www.youtube.com/shorts/-OKLMmMRIhY"
+          },
+          {
+            "title": "Cat Is Obsessed With This Brush #catbrush #steamycatbrush #hairbrush",
+            "views": 485000,
+            "url": "https://www.youtube.com/shorts/BCsAQg0Chfc"
+          },
+          {
+            "title": "Cat Steam Brush",
+            "views": 208000,
+            "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
+          }
+        ],
+        "status": "LIVE"
+      }
     },
     "financials": {
       "landed_cost": 8.27,
@@ -589,7 +626,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -720,14 +757,16 @@
         "peak_ratio": 0.26,
         "mean_recent": 25.8,
         "mean_prior": 32.4,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-10-13 22:00 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "lumbar traction belt",
-        "shorts_found": 29,
-        "median_views_top10": 888000,
+        "shorts_found": 28,
+        "median_views_top10": 816000,
         "max_views": 13000000,
-        "over_100k": 9,
+        "over_100k": 8,
         "over_1m": 5,
         "top": [
           {
@@ -876,7 +915,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -1007,14 +1046,16 @@
         "peak_ratio": 0.24,
         "mean_recent": 23.8,
         "mean_prior": 31.8,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-10-13 22:00 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "turbo jet fan",
-        "shorts_found": 30,
-        "median_views_top10": 623500,
+        "shorts_found": 33,
+        "median_views_top10": 695500,
         "max_views": 80000000,
-        "over_100k": 10,
+        "over_100k": 9,
         "over_1m": 4,
         "top": [
           {

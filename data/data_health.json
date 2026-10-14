@@ -1,19 +1,19 @@
 {
   "mode": "LIVE",
-  "generated_at": "2026-10-13 22:01:18 UTC",
+  "generated_at": "2026-10-14 02:19:19 UTC",
   "sources": {
     "trends": {
-      "LIVE": 3,
-      "CACHED": 1,
+      "LIVE": 0,
+      "CACHED": 4,
       "NO_LIVE_DATA": 0,
       "MANUAL": 0,
       "MOCK": 0,
       "UNAVAILABLE": 0
     },
     "youtube": {
-      "LIVE": 3,
+      "LIVE": 4,
       "CACHED": 0,
-      "NO_LIVE_DATA": 1,
+      "NO_LIVE_DATA": 0,
       "MANUAL": 0,
       "MOCK": 0,
       "UNAVAILABLE": 0
@@ -52,12 +52,8 @@
     }
   },
   "alerts_red": [],
-  "alerts_yellow": [
-    "SteamFur Pro™: YouTube Shorts — Sin datos en vivo"
-  ],
-  "alerts": [
-    "SteamFur Pro™: YouTube Shorts — Sin datos en vivo"
-  ],
+  "alerts_yellow": [],
+  "alerts": [],
   "has_failures": false,
   "is_mock": false
 }

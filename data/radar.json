@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-13 22:01:18 UTC",
+ "updated_at": "2026-10-14 02:19:19 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -808,11 +808,11 @@
   "portable-blender": {
    "youtube": {
     "keyword": "portable blender",
-    "shorts_found": 28,
-    "median_views_top10": 222500,
+    "shorts_found": 31,
+    "median_views_top10": 2050000,
     "max_views": 587000000,
-    "over_100k": 7,
-    "over_1m": 5,
+    "over_100k": 9,
+    "over_1m": 6,
     "top": [
      {
       "title": "Orange in portable Blender",
@@ -821,33 +821,23 @@
      },
      {
       "title": "The Fastest Way To Make Fresh Juice!",
-      "views": 193000000,
+      "views": 194000000,
       "url": "https://www.youtube.com/shorts/IXJYL3IyNTs"
      },
      {
-      "title": "Healthy Smoothie For Gaining in Portable Blender 💪🏻😍 #shorts #shortvideo",
-      "views": 3000000,
-      "url": "https://www.youtube.com/shorts/a5QFwAQXJkI"
+      "title": "What should we blend next? 🍓🫐 #freshjuice #smoothie #milkshake #portableblender #foryoupage",
+      "views": 14000000,
+      "url": "https://www.youtube.com/shorts/eE4IzQwbHk4"
+     },
+     {
+      "title": "Oreo Cookie Shake in Portable Blender 🍪✨️ #shorts #asmr",
+      "views": 2300000,
+      "url": "https://www.youtube.com/shorts/HGaLjWKiuh4"
      },
      {
       "title": "Portable Blender Smoothies Personal Blender Mini Shakes Juicer Cup USB Rechargeable.#shorts",
       "views": 2100000,
       "url": "https://www.youtube.com/shorts/aW55pWnvifU"
-     },
-     {
-      "title": "Check the portable blender!Perfect for shakes and smoothies.Compact 600ML design for on-the-go use.",
-      "views": 2000000,
-      "url": "https://www.youtube.com/shorts/wG6Ris7oVp8"
-     },
-     {
-      "title": "Best Portable Blender!🤩🧃",
-      "views": 504000,
-      "url": "https://www.youtube.com/shorts/ueMXK5JcaO8"
-     },
-     {
-      "title": "🤯 This Tiny Portable Blender 😍 Is a Game Changer! 🥤 #Shorts",
-      "views": 389000,
-      "url": "https://www.youtube.com/shorts/CUzGCCeXeuc"
      }
     ],
     "status": "LIVE"
@@ -855,31 +845,31 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 56,
-    "video_score": 89,
+    "score": 53,
+    "video_score": 100,
     "trend_score": 20,
-    "crowding": "media",
+    "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 222K vistas (el mayor, 587M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 2M vistas (el mayor, 587M)",
+     "Competencia alta: 6 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -62% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 16:04:14 UTC",
+   "measured_at": "2026-10-14 02:19:03 UTC",
    "trends": {
-    "momentum_pct": -62.0,
+    "momentum_pct": -62.5,
     "low_volume": false,
     "peak_ratio": 0.02,
     "mean_recent": 2.2
    },
    "trends_series": [
     100,
-    81,
-    62,
-    75,
-    64,
-    21,
+    83,
+    63,
+    76,
+    65,
+    22,
     17,
     17,
     19,
@@ -894,33 +884,28 @@
     3,
     3,
     3,
-    3,
+    4,
     3,
     2,
     3,
     2,
     2
    ],
-   "trends_at": "2026-10-12 16:04:14 UTC"
+   "trends_at": "2026-10-12 12:04 UTC"
   },
   "veggie-chopper": {
    "youtube": {
     "keyword": "vegetable chopper",
-    "shorts_found": 28,
-    "median_views_top10": 975000,
-    "max_views": 122000000,
-    "over_100k": 12,
-    "over_1m": 5,
+    "shorts_found": 36,
+    "median_views_top10": 830000,
+    "max_views": 21000000,
+    "over_100k": 14,
+    "over_1m": 4,
     "top": [
      {
-      "title": "Multifunctional vegetable cutter. #kitchen #food #foryou",
-      "views": 122000000,
-      "url": "https://www.youtube.com/shorts/NudYDSYKZO8"
-     },
-     {
-      "title": "Viral Vegetable Slicer Test 🥕",
-      "views": 28000000,
-      "url": "https://www.youtube.com/shorts/s7W-fLzgfaA"
+      "title": "Vegetable Cutting Peeler #shorts #gadgets #vegetablecutter #products",
+      "views": 21000000,
+      "url": "https://www.youtube.com/shorts/41bdME7I8Bs"
      },
      {
       "title": "Handpress Vegetable Chopper || Viral chopper Review #shortsfeed #shorts #viral",
@@ -928,14 +913,19 @@
       "url": "https://www.youtube.com/shorts/DCMlBk3hUps"
      },
      {
-      "title": "This veggie chopper is a game changer for your kitchen.",
-      "views": 1400000,
-      "url": "https://www.youtube.com/shorts/8yZju_vk_CY"
+      "title": "Top-rated Amazon food chopper✨ #veggiechopper  #amazonfinds #kitchen #cookinghacks #kitchengadgets",
+      "views": 2100000,
+      "url": "https://www.youtube.com/shorts/L03A3PCFdZE"
      },
      {
-      "title": "This veggie chopper is a game changer for your kitchen.",
-      "views": 1400000,
-      "url": "https://www.youtube.com/shorts/8yZju_vk_CY"
+      "title": "Premium Manual Pull Food Chopper | Multi-Function Kitchen Chopper #shorts",
+      "views": 2000000,
+      "url": "https://www.youtube.com/shorts/DFJ_lX16p5w"
+     },
+     {
+      "title": "இஎண்னாடி இது 🤔 Electric Vegetable Cutter🔪❌  #shorts",
+      "views": 923000,
+      "url": "https://www.youtube.com/shorts/0Jsg9In57JY"
      }
     ],
     "status": "LIVE"
@@ -943,53 +933,53 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 61,
+    "score": 53,
     "video_score": 100,
-    "trend_score": 40,
+    "trend_score": 20,
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 975K vistas (el mayor, 122M)",
-     "Competencia alta: 5 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -25% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 830K vistas (el mayor, 21M)",
+     "Competencia alta: 4 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): baja -26% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 16:04:20 UTC",
+   "measured_at": "2026-10-14 02:19:06 UTC",
    "trends": {
-    "momentum_pct": -24.7,
+    "momentum_pct": -25.7,
     "low_volume": false,
     "peak_ratio": 0.27,
     "mean_recent": 27.2
    },
    "trends_series": [
     100,
-    73,
-    58,
-    55,
-    77,
-    79,
+    74,
+    59,
     56,
-    65,
+    78,
+    80,
+    57,
+    66,
     73,
     70,
-    83,
+    84,
     38,
     37,
-    31,
-    34,
+    32,
+    35,
     33,
     26,
     33,
-    30,
-    30,
     31,
+    31,
+    32,
     28,
     26,
     26,
     25,
     32
    ],
-   "trends_at": "2026-10-12 16:04:20 UTC"
+   "trends_at": "2026-10-12 12:04 UTC"
   },
   "oil-sprayer": {
    "youtube": {
@@ -1576,15 +1566,20 @@
   "neck-stretcher": {
    "youtube": {
     "keyword": "neck stretcher cervical traction",
-    "shorts_found": 30,
-    "median_views_top10": 125000,
-    "max_views": 498000,
-    "over_100k": 7,
+    "shorts_found": 31,
+    "median_views_top10": 230000,
+    "max_views": 529000,
+    "over_100k": 10,
     "over_1m": 0,
     "top": [
      {
+      "title": "Deep Cervical Traction Without the Thrust #ystrap",
+      "views": 529000,
+      "url": "https://www.youtube.com/shorts/twCBT25autQ"
+     },
+     {
       "title": "Ever Seen This Neck-Stretching Machine?",
-      "views": 498000,
+      "views": 499000,
       "url": "https://www.youtube.com/shorts/2hrRnffV2c4"
      },
      {
@@ -1593,19 +1588,14 @@
       "url": "https://www.youtube.com/shorts/NZ9iampU0Fs"
      },
      {
+      "title": "Door-Mounted Cervical Traction Device – Relieve Neck Pain at Home!",
+      "views": 346000,
+      "url": "https://www.youtube.com/shorts/H6J7iTuBjjA"
+     },
+     {
       "title": "I Bought Neck Stretcher on Amazon #amazonfinds #gadgets",
-      "views": 243000,
+      "views": 244000,
       "url": "https://www.youtube.com/shorts/Bpnwae-_UdE"
-     },
-     {
-      "title": "Neck stretcher from Amazon. Is it worth it?",
-      "views": 145000,
-      "url": "https://www.youtube.com/shorts/6TU2ky7d-yA"
-     },
-     {
-      "title": "Cervical Neck Traction Device",
-      "views": 143000,
-      "url": "https://www.youtube.com/shorts/L2ObTeN2J7c"
      }
     ],
     "status": "LIVE"
@@ -1613,18 +1603,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 65,
-    "video_score": 82,
+    "score": 69,
+    "video_score": 89,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 125K vistas (el mayor, 498K)",
+     "Shorts: los 10 más vistos tienen una mediana de 230K vistas (el mayor, 529K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -24% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 20:29:12 UTC",
+   "measured_at": "2026-10-14 02:19:10 UTC",
    "trends": {
     "momentum_pct": -24.0,
     "low_volume": false,
@@ -1659,7 +1649,7 @@
     20,
     23
    ],
-   "trends_at": "2026-10-12 20:29:10 UTC",
+   "trends_at": "2026-10-12 20:29 UTC",
    "rising": [
     {
      "query": "mediness neck massager",
@@ -1691,11 +1681,11 @@
   "foot-massager": {
    "youtube": {
     "keyword": "foot massager machine",
-    "shorts_found": 34,
-    "median_views_top10": 781000,
+    "shorts_found": 28,
+    "median_views_top10": 142000,
     "max_views": 131000000,
-    "over_100k": 8,
-    "over_1m": 5,
+    "over_100k": 5,
+    "over_1m": 2,
     "top": [
      {
       "title": "Foot Massage Cushion #satisfying #shot",
@@ -1703,24 +1693,24 @@
       "url": "https://www.youtube.com/shorts/vcEh30GmBEk"
      },
      {
-      "title": "Product Link in Bio ( # 2581  ) ▶️ Multi-Point Reflexology Stress Relief Foot Massage Mat",
-      "views": 27000000,
-      "url": "https://www.youtube.com/shorts/EmHM-LOfAAI"
-     },
-     {
-      "title": "Upgrade Your Shower Routine! Ultimate Hands-Free Foot Massage 🧼🦶",
-      "views": 5600000,
-      "url": "https://www.youtube.com/shorts/Dl09Clz9bxA"
-     },
-     {
       "title": "Mini Massager Foot Pain Relief Uses Physiotherapy #shorts #shortvideo #physiotherapy",
       "views": 1900000,
       "url": "https://www.youtube.com/shorts/muh4awUNlJg"
      },
      {
-      "title": "Agaro Foot 🦶 Massager Review & Unboxing ||  #shorts #productreview Link In Description #ytshorts",
-      "views": 1100000,
-      "url": "https://www.youtube.com/shorts/zTGKy6mrS5M"
+      "title": "Lifelong Foot Massager Machine with Heating #viral #ytshorts #india #trending #shorts #2024 #health",
+      "views": 464000,
+      "url": "https://www.youtube.com/shorts/VbuxwfiT5ng"
+     },
+     {
+      "title": "EMS Foot Massager - Unwind with Daily Relief 🌟",
+      "views": 359000,
+      "url": "https://www.youtube.com/shorts/3_2WOM815vc"
+     },
+     {
+      "title": "Amazon foot massager! ✨ #amazonfinds #amazonproducts #amazon #amazonhome #footmassager #tech",
+      "views": 187000,
+      "url": "https://www.youtube.com/shorts/YafKuJuliPE"
      }
     ],
     "status": "LIVE"
@@ -1729,17 +1719,17 @@
    "trends_status": "LIVE",
    "market": {
     "score": 61,
-    "video_score": 100,
+    "video_score": 84,
     "trend_score": 40,
-    "crowding": "alta",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 781K vistas (el mayor, 131M)",
-     "Competencia alta: 5 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 142K vistas (el mayor, 131M)",
+     "Competencia media: 2 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -23% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 20:29:19 UTC",
+   "measured_at": "2026-10-14 02:19:13 UTC",
    "trends": {
     "momentum_pct": -23.2,
     "low_volume": false,
@@ -1774,7 +1764,7 @@
     20,
     23
    ],
-   "trends_at": "2026-10-12 20:29:16 UTC",
+   "trends_at": "2026-10-12 20:29 UTC",
    "rising": [
     {
      "query": "ornexis foot massager",
@@ -1807,16 +1797,11 @@
    "youtube": {
     "keyword": "heated eye massager",
     "shorts_found": 30,
-    "median_views_top10": 15500,
-    "max_views": 93000,
+    "median_views_top10": 14500,
+    "max_views": 47000,
     "over_100k": 0,
     "over_1m": 0,
     "top": [
-     {
-      "title": "Eye Massager 😳 Relax Tired Eyes in Minutes Gadget #shorts #amazonelevate #amazongreatindianfestival",
-      "views": 93000,
-      "url": "https://www.youtube.com/shorts/8G32SeWXYQg"
-     },
      {
       "title": "Tired eyes from scrolling? These Japanese self heating eye masks come in clutch! #shorts",
       "views": 47000,
@@ -1836,6 +1821,11 @@
       "title": "This Eye Massager is the ultimate spa tool #shorts",
       "views": 21000,
       "url": "https://www.youtube.com/shorts/YltMGZhBV-4"
+     },
+     {
+      "title": "Mini Electric eye massager review||Does it really works #shorts",
+      "views": 19000,
+      "url": "https://www.youtube.com/shorts/DUK8pMBxrx0"
      }
     ],
     "status": "LIVE"
@@ -1843,18 +1833,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 44,
-    "video_score": 60,
+    "score": 43,
+    "video_score": 59,
     "trend_score": 20,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 16K vistas (el mayor, 93K)",
+     "Shorts: los 10 más vistos tienen una mediana de 14K vistas (el mayor, 47K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -28% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 20:29:24 UTC",
+   "measured_at": "2026-10-14 02:19:16 UTC",
    "trends": {
     "momentum_pct": -27.6,
     "low_volume": false,
@@ -1889,40 +1879,40 @@
     11,
     13
    ],
-   "trends_at": "2026-10-12 20:29:24 UTC"
+   "trends_at": "2026-10-12 20:29 UTC"
   },
   "mini-massage-gun": {
    "youtube": {
     "keyword": "mini massage gun",
-    "shorts_found": 31,
-    "median_views_top10": 119500,
-    "max_views": 2400000,
-    "over_100k": 5,
+    "shorts_found": 29,
+    "median_views_top10": 150000,
+    "max_views": 1300000,
+    "over_100k": 6,
     "over_1m": 1,
     "top": [
      {
-      "title": "My massage gun hack for emptying out bottles",
-      "views": 2400000,
-      "url": "https://www.youtube.com/shorts/bX05kY2hbek"
+      "title": "Using a Mini Massage Gun for Foot and Ankle Rehab",
+      "views": 1300000,
+      "url": "https://www.youtube.com/shorts/WLWkx2V__kU"
      },
      {
       "title": "⭐ Product Link in Comments ⭐Mini Electric Body Neck Relief Massager",
-      "views": 965000,
+      "views": 967000,
       "url": "https://www.youtube.com/shorts/7g1YOuh2aW4"
      },
      {
       "title": "Mini Massage Gun | Say Goodbye to Back Pain: How a Massage Gun Can Help",
-      "views": 786000,
+      "views": 791000,
       "url": "https://www.youtube.com/shorts/1lxcxe8DzyM"
      },
      {
       "title": "Massage Gun vs. Scraper Tool Debate...Which one do you prefer?",
-      "views": 289000,
+      "views": 290000,
       "url": "https://www.youtube.com/shorts/aWDRsPcSduI"
      },
      {
       "title": "2 Ta Rechargeable Body Massage Gun Small & Big Unboxing😱",
-      "views": 185000,
+      "views": 191000,
       "url": "https://www.youtube.com/shorts/jw_H7TeXYJg"
      }
     ],
@@ -1931,18 +1921,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 65,
-    "video_score": 82,
+    "score": 66,
+    "video_score": 84,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 120K vistas (el mayor, 2.4M)",
+     "Shorts: los 10 más vistos tienen una mediana de 150K vistas (el mayor, 1.3M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -21% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-12 20:29:30 UTC",
+   "measured_at": "2026-10-14 02:19:19 UTC",
    "trends": {
     "momentum_pct": -21.1,
     "low_volume": false,
@@ -1977,7 +1967,7 @@
     34,
     34
    ],
-   "trends_at": "2026-10-12 20:29:30 UTC"
+   "trends_at": "2026-10-12 20:29 UTC"
   },
   "car-gap-filler": {
    "youtube": {
