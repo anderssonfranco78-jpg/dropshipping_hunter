@@ -1,0 +1,46 @@
+{
+ "generated_at": "2026-10-14 21:03:09 UTC",
+ "source": "nube",
+ "products": {
+  "prosmile-ultrasonic": {
+   "rank": 1,
+   "base": "PROBAR",
+   "code": "PROBAR",
+   "score": 90.0,
+   "market": 61,
+   "overall": 76,
+   "profit": 23.5,
+   "tier": "WINNER"
+  },
+  "aeroforce-x3": {
+   "rank": 2,
+   "base": "PROBAR",
+   "code": "PROBAR",
+   "score": 87.0,
+   "market": 61,
+   "overall": 74,
+   "profit": 37.49,
+   "tier": "WINNER"
+  },
+  "steamfur-pro": {
+   "rank": 3,
+   "base": "PROBAR",
+   "code": "PROBAR",
+   "score": 87.0,
+   "market": 54,
+   "overall": 70,
+   "profit": 18.64,
+   "tier": "WINNER"
+  },
+  "spinerelief-pro": {
+   "rank": 4,
+   "base": "PROBAR",
+   "code": "PROBAR",
+   "score": 87.0,
+   "market": 54,
+   "overall": 70,
+   "profit": 35.01,
+   "tier": "WINNER"
+  }
+ }
+}

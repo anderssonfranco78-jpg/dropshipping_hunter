@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-10-14 16:02:54 UTC",
+ "updated_at": "2026-10-14 21:03:09 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
     "keyword": "cat water fountain",
-    "shorts_found": 38,
-    "median_views_top10": 70000,
+    "shorts_found": 30,
+    "median_views_top10": 70500,
     "max_views": 6000000,
     "over_100k": 4,
-    "over_1m": 1,
+    "over_1m": 2,
     "top": [
      {
       "title": "Anti-Gravity Water Fountain For Cats #goodtoknow #vet #medicine #educational #funfacts #lifehacks",
@@ -16,19 +16,19 @@
       "url": "https://www.youtube.com/shorts/dKXyh-A32Kk"
      },
      {
-      "title": "This little water fountain by @oneisall_official - no cords, super quiet, and they love it!",
-      "views": 378000,
-      "url": "https://www.youtube.com/shorts/_RMsX31WeFw"
+      "title": "Pancake conquered every water bowl… now he’s successfully flipped a water fountain too 😂🤦‍♀️ #cats",
+      "views": 1500000,
+      "url": "https://www.youtube.com/shorts/rBaK8rAAXnE"
      },
      {
       "title": "Cat water fountain upgrade🐱 linked in bio on Amazon! #catwaterbowl #catwaterfountain #amazongadgets",
-      "views": 250000,
+      "views": 251000,
       "url": "https://www.youtube.com/shorts/NI9oZLyLSL0"
      },
      {
-      "title": "Pet water fountain #cat #bestpetsupplies #petcareprovider",
-      "views": 166000,
-      "url": "https://www.youtube.com/shorts/2rNva4yBN9A"
+      "title": "The @kittyspout Wireless Fountain 2.0 finally got Mofu to drink water! #cat #ragdoll",
+      "views": 229000,
+      "url": "https://www.youtube.com/shorts/8KEjHa5Lbk0"
      },
      {
       "title": "The #1 Vet Recommended Cat Fountain 😸",
@@ -102,27 +102,27 @@
    ],
    "rising_at": "2026-10-12 10:07:17 UTC",
    "market": {
-    "score": 62,
+    "score": 57,
     "video_score": 76,
     "trend_score": 40,
-    "crowding": "baja",
+    "crowding": "media",
     "partial": false,
     "reasons": [
      "Shorts: los 10 más vistos tienen una mediana de 70K vistas (el mayor, 6M)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Competencia media: 2 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -19% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-13 04:05:56 UTC",
+   "measured_at": "2026-10-14 21:02:48 UTC",
    "trends_at": "2026-10-12 11:25:23 UTC"
   },
   "dog-paw-cleaner": {
    "youtube": {
     "keyword": "dog paw cleaner cup",
-    "shorts_found": 29,
-    "median_views_top10": 2400,
+    "shorts_found": 32,
+    "median_views_top10": 20000,
     "max_views": 43000000,
-    "over_100k": 2,
+    "over_100k": 3,
     "over_1m": 1,
     "top": [
      {
@@ -132,23 +132,23 @@
      },
      {
       "title": "An automatic paw cleaner 🙌🐾 #dog #dogs #paw #paws #clean",
-      "views": 652000,
+      "views": 653000,
       "url": "https://www.youtube.com/shorts/j_aMdxdU0IA"
      },
      {
+      "title": "Is this the best way to clean muddy paws? #dogproducts #trending",
+      "views": 129000,
+      "url": "https://www.youtube.com/shorts/shoJwDc3NIE"
+     },
+     {
+      "title": "PetPals Automatic Dog Paw Cleaner, USB Rechargeable Silicone Portable Pet Paw Washer for Small to",
+      "views": 46000,
+      "url": "https://www.youtube.com/shorts/8XFwns9dxxA"
+     },
+     {
       "title": "Muddy paws? 🐾 This paw cleaner cup for dogs #shorts",
-      "views": 26000,
+      "views": 27000,
       "url": "https://www.youtube.com/shorts/w_7DDnZijRA"
-     },
-     {
-      "title": "The pet animal wash foot cup review!! #dog #labrador #shortsvideo #adorabledog #reviews",
-      "views": 3700,
-      "url": "https://www.youtube.com/shorts/C1Fgtf3tWXk"
-     },
-     {
-      "title": "Dog Paw Cleaner Cup | Clean Muddy Paws Before They Hit the Floor #Shorts",
-      "views": 2600,
-      "url": "https://www.youtube.com/shorts/4P0zKr9HoZc"
      }
     ],
     "status": "LIVE"
@@ -209,28 +209,28 @@
    ],
    "rising_at": "2026-10-12 10:07:22 UTC",
    "market": {
-    "score": 40,
-    "video_score": 40,
+    "score": 63,
+    "video_score": 63,
     "trend_score": null,
     "crowding": "baja",
     "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 2K vistas (el mayor, 43M)",
+     "Shorts: los 10 más vistos tienen una mediana de 20K vistas (el mayor, 43M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google: casi no se busca por nombre (normal en gadgets que se descubren en video)"
     ]
    },
-   "measured_at": "2026-10-13 04:05:59 UTC",
+   "measured_at": "2026-10-14 21:02:52 UTC",
    "trends_at": "2026-10-12 11:25:32 UTC"
   },
   "lick-mat": {
    "youtube": {
     "keyword": "dog lick mat",
-    "shorts_found": 34,
-    "median_views_top10": 72500,
+    "shorts_found": 31,
+    "median_views_top10": 51500,
     "max_views": 33000000,
-    "over_100k": 4,
-    "over_1m": 2,
+    "over_100k": 3,
+    "over_1m": 1,
     "top": [
      {
       "title": "Lick mat time for Bubu🪻 #animalshorts #cat #pets #cuteanimals",
@@ -238,13 +238,8 @@
       "url": "https://www.youtube.com/shorts/SK7mEiQv6ow"
      },
      {
-      "title": "Do you freeze your lick mats? 🧊😋 #thebkshop #shorts #lickmat",
-      "views": 2700000,
-      "url": "https://www.youtube.com/shorts/ECq1iK8lLqo"
-     },
-     {
       "title": "*ASMR* PUPPY LICK MAT! #asmr #restock #dog #petproducts #amazonstorefront",
-      "views": 422000,
+      "views": 424000,
       "url": "https://www.youtube.com/shorts/MYuszDwVx7A"
      },
      {
@@ -256,6 +251,11 @@
       "title": "Healthy lick mat recipe for my dogs 🐟👅🐕 #shorts",
       "views": 77000,
       "url": "https://www.youtube.com/shorts/8tG4rZZaEoE"
+     },
+     {
+      "title": "Healthy lick mats for rescue dogs 🥛🥩🦮🥹 #shorts #dog",
+      "views": 68000,
+      "url": "https://www.youtube.com/shorts/0ObRdWf1Rzo"
      }
     ],
     "status": "LIVE"
@@ -297,32 +297,32 @@
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 57,
-    "video_score": 77,
+    "score": 60,
+    "video_score": 73,
     "trend_score": 40,
-    "crowding": "media",
+    "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 72K vistas (el mayor, 33M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 52K vistas (el mayor, 33M)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -21% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-13 13:01:58 UTC",
+   "measured_at": "2026-10-14 21:02:57 UTC",
    "trends_at": "2026-10-12 11:25:40 UTC"
   },
   "laser-cat-toy": {
    "youtube": {
     "keyword": "automatic laser cat toy",
-    "shorts_found": 36,
-    "median_views_top10": 6950,
-    "max_views": 114000,
+    "shorts_found": 34,
+    "median_views_top10": 2700,
+    "max_views": 115000,
     "over_100k": 1,
     "over_1m": 0,
     "top": [
      {
       "title": "Watch Your Cat Chase the Laser! | Cat Collar Laser Light Toy  #cat",
-      "views": 114000,
+      "views": 115000,
       "url": "https://www.youtube.com/shorts/xskoPNHf0qg"
      },
      {
@@ -336,14 +336,14 @@
       "url": "https://www.youtube.com/shorts/vxGaDmFDJ5U"
      },
      {
-      "title": "Your Cat Will OBSESS Over This Laser Collar! 😹✨ | 40% OFF for New Users!#shorts",
-      "views": 12000,
-      "url": "https://www.youtube.com/shorts/gQNGrnXqtnM"
+      "title": "Unleash the Fun with the Automatic Cat Laser Toy!",
+      "views": 6200,
+      "url": "https://www.youtube.com/shorts/9g3XGmWfgXs"
      },
      {
-      "title": "cats vs cool automatic laser feather toy 😎 #shorts",
-      "views": 7700,
-      "url": "https://www.youtube.com/shorts/qF3qW6AVdng"
+      "title": "The Automatic Laser Toy That Babysits Your Cat 🐈",
+      "views": 3100,
+      "url": "https://www.youtube.com/shorts/c-U_Ooz3k6U"
      }
     ],
     "status": "LIVE"
@@ -385,18 +385,18 @@
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 47,
-    "video_score": 51,
+    "score": 41,
+    "video_score": 41,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 7K vistas (el mayor, 114K)",
+     "Shorts: los 10 más vistos tienen una mediana de 3K vistas (el mayor, 115K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -15% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-13 13:02:02 UTC",
+   "measured_at": "2026-10-14 21:03:01 UTC",
    "trends_at": "2026-10-12 11:25:50 UTC"
   },
   "pet-hair-roller": {
@@ -985,9 +985,9 @@
    "youtube": {
     "keyword": "oil sprayer for cooking",
     "shorts_found": 31,
-    "median_views_top10": 126000,
+    "median_views_top10": 224500,
     "max_views": 2000000,
-    "over_100k": 5,
+    "over_100k": 7,
     "over_1m": 2,
     "top": [
      {
@@ -1001,19 +1001,19 @@
       "url": "https://www.youtube.com/shorts/UgXlrSlRKNY"
      },
      {
+      "title": "Oil Dispenser For Cooking #shorts",
+      "views": 485000,
+      "url": "https://www.youtube.com/shorts/V3WsN0FO6Rs"
+     },
+     {
+      "title": "Oil spray bottle for cooking review|Glass oil dispenser bottle",
+      "views": 336000,
+      "url": "https://www.youtube.com/shorts/XvX2uNsDo_E"
+     },
+     {
       "title": "Oil bottle. Cooking oil spray #temu #temuproducts #amazon #amazonfinds #amazonproducts",
-      "views": 261000,
+      "views": 262000,
       "url": "https://www.youtube.com/shorts/wtNoU2NCGRI"
-     },
-     {
-      "title": "This oil sprayer is a kitchen must have!",
-      "views": 187000,
-      "url": "https://www.youtube.com/shorts/vf0SyHgKJe4"
-     },
-     {
-      "title": "Olive oil cooking spray 👉 Could save you thousands of calories in a week",
-      "views": 155000,
-      "url": "https://www.youtube.com/shorts/ymhjkwt8GIM"
      }
     ],
     "status": "LIVE"
@@ -1021,18 +1021,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 53,
-    "video_score": 83,
+    "score": 56,
+    "video_score": 89,
     "trend_score": 20,
     "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 126K vistas (el mayor, 2M)",
+     "Shorts: los 10 más vistos tienen una mediana de 224K vistas (el mayor, 2M)",
      "Competencia media: 2 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -36% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-13 13:02:06 UTC",
+   "measured_at": "2026-10-14 21:03:05 UTC",
    "trends": {
     "momentum_pct": -36.3,
     "low_volume": false,
@@ -1099,35 +1099,35 @@
   "milk-frother": {
    "youtube": {
     "keyword": "electric milk frother",
-    "shorts_found": 36,
-    "median_views_top10": 180000,
-    "max_views": 2100000,
+    "shorts_found": 33,
+    "median_views_top10": 191000,
+    "max_views": 7100000,
     "over_100k": 6,
     "over_1m": 1,
     "top": [
      {
-      "title": "How To Make Delicious Frothy Coffee With Milk Frother | Super Easy! #shorts",
-      "views": 2100000,
-      "url": "https://www.youtube.com/shorts/GF1HPf29OaY"
-     },
-     {
-      "title": "Zulay FrothMate Milk Frother-Café-Style Foam at Home in Seconds! #coffee #linkinbio  #latte",
-      "views": 493000,
-      "url": "https://www.youtube.com/shorts/qpERPoVyYfQ"
+      "title": "Best Useful Home Product - Milk Frother !! ✨✨#viral #gadgets  #telugu  #india  #shorts #instacuppa",
+      "views": 7100000,
+      "url": "https://www.youtube.com/shorts/iUm2Ms9woD0"
      },
      {
       "title": "Best Handheld Milk Frothers for Coffee Lovers – Buyer’s Guide",
-      "views": 436000,
+      "views": 437000,
       "url": "https://www.youtube.com/shorts/RXTOnRtgcoM"
      },
      {
       "title": "Electric Milk Frother - Effortless Barista-Style Froth - Durable & Non-Battery Operated",
-      "views": 398000,
+      "views": 399000,
       "url": "https://www.youtube.com/shorts/U7xJwL3hREA"
      },
      {
+      "title": "How to froth milk, taught by Luna! #shorts",
+      "views": 259000,
+      "url": "https://www.youtube.com/shorts/JEDq_99rtWY"
+     },
+     {
       "title": "DEVINC 4-in-1 Milk Frother and Steamer Hot & Cold Foam Maker with Auto Shut-Off  #coffee  #homecafe",
-      "views": 199000,
+      "views": 200000,
       "url": "https://www.youtube.com/shorts/380SI1BaBC4"
      }
     ],
@@ -1137,17 +1137,17 @@
    "trends_status": "LIVE",
    "market": {
     "score": 68,
-    "video_score": 86,
+    "video_score": 87,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 180K vistas (el mayor, 2.1M)",
+     "Shorts: los 10 más vistos tienen una mediana de 191K vistas (el mayor, 7.1M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -11% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-13 13:02:10 UTC",
+   "measured_at": "2026-10-14 21:03:09 UTC",
    "trends": {
     "momentum_pct": -11.2,
     "low_volume": false,
