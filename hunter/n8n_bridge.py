@@ -57,9 +57,10 @@ def normalize_n8n_item(raw: Dict[str, Any]) -> List[Dict[str, Any]]:
     if not isinstance(raw, dict):
         raise ValueError("El payload de n8n debe ser un objeto JSON")
 
-    if isinstance(raw.get("updates"), list):
+    batch_list = raw.get("updates") if isinstance(raw.get("updates"), list) else raw.get("items")
+    if isinstance(batch_list, list):
         out: List[Dict[str, Any]] = []
-        for entry in raw["updates"]:
+        for entry in batch_list:
             if isinstance(entry, dict):
                 out.extend(normalize_n8n_item(entry))
         return out
@@ -119,9 +120,9 @@ def normalize_n8n_item(raw: Dict[str, Any]) -> List[Dict[str, Any]]:
         normalized["verified_date"] = str(raw.get("verified_date") or _today_iso())
 
     for num_field, aliases in (
-        ("unit_cost_usd", ("unit_cost_usd", "supplier_cost", "cost_usd")),
+        ("unit_cost_usd", ("unit_cost_usd", "supplier_cost_usd", "supplier_cost", "cost_usd")),
         ("shipping_cost_usd", ("shipping_cost_usd", "shipping_cost")),
-        ("srp_usd", ("srp_usd", "suggested_price", "price_usd")),
+        ("srp_usd", ("srp_usd", "retail_price_usd", "suggested_price", "price_usd")),
     ):
         for alias in aliases:
             if raw.get(alias) is not None:
@@ -181,6 +182,10 @@ def sync_dsers_stock_payload(
             stressed = compute_stressed(cand.suggested_price, cand.supplier_cost, cand.shipping_cost)
             st_status = stock_status(cand.supplier_stock, cand.stock_verified_date, today=today)
             ko_stock = st_status == STOCK_LOW
+            landed = stressed["landed_cost"]
+            markup = (cand.suggested_price / landed) if landed > 0 else 0.0
+            ko_margin = bool(stressed["below_floor"])
+            ko_multiplier = markup < 3.0
 
             items[idx] = merged
             results.append({
@@ -190,19 +195,21 @@ def sync_dsers_stock_payload(
                 "verified_date": cand.stock_verified_date,
                 "stock_status": st_status,
                 "ko_stock": ko_stock,
+                "ko_margin": ko_margin,
+                "ko_multiplier": ko_multiplier,
                 "min_stock_required": MIN_STOCK,
                 "en_tienda": cand.in_store,
                 "srp_usd": cand.suggested_price,
-                "landed_cost_usd": stressed["landed_cost"],
+                "landed_cost_usd": landed,
                 "stressed_profit_usd": stressed["stressed_profit"],
                 "stressed_margin_pct": stressed["stressed_margin_pct"],
-                "margin_below_floor": stressed["below_floor"],
+                "margin_below_floor": ko_margin,
                 "alert": (
                     f"KO-STOCK en {cand.name}: quedan {cand.supplier_stock} uds (< {MIN_STOCK})"
                     if ko_stock
                     else (
                         f"Margen estresado bajo en {cand.name}: {stressed['stressed_margin_pct']:.1f}%"
-                        if stressed["below_floor"]
+                        if ko_margin or ko_multiplier
                         else None
                     )
                 ),

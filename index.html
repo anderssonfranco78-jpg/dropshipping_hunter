@@ -1072,7 +1072,7 @@
     return '<button type="button" class="sw' + (on ? ' on' : '') + (small ? ' sm' : '') + '" data-store="' + esc(r.candidate.candidate_id) + '" aria-pressed="' + on + '" title="Márcalo cuando ya esté publicado en Shopify: el Hunter te dirá si mantenerlo o retirarlo"><span class="knob"></span>' + (small ? 'Tienda' : 'En mi tienda') + '</button>';
   }
   function hubUrl(id) {
-    var base = /github\.io$/.test(location.hostname) ? 'https://anderssonfranco78-jpg.github.io/multi_account_hub/' : (location.port === '8765' ? '/multi_account_hub/index.html' : '../multi_account_hub/index.html');
+    var base = /github\.io$/.test(location.hostname) ? 'cuentas.html' : (location.port === '8765' ? '/multi_account_hub/index.html' : '../multi_account_hub/index.html');
     return id ? base + '?focus=' + encodeURIComponent(id) : base;
   }
   function syncHubLinks(id) {
@@ -1702,9 +1702,9 @@
     var on = !!ghToken();
     $('infoBody').innerHTML = head('github', on ? 'Teléfono conectado con GitHub' : 'Conectar el teléfono con GitHub (una sola vez)').replace('refreshModal', 'infoModal') +
       '<div class="dlg-body">' + (on ? '<p class="msg ok" style="margin:0"><i data-lucide="check"></i>Listo: «Actualizar» enciende el robot de GitHub y puedes guardar productos desde aquí.</p>' : '') +
-      '<p style="margin:0">Así el botón <b>Actualizar</b> enciende el robot de GitHub al instante y puedes <b>guardar productos</b> desde el teléfono, sin tu PC.</p>' +
+      '<p style="margin:0">Así el botón <b>Actualizar</b> enciende el robot de GitHub al instante, puedes <b>guardar productos</b> desde el teléfono y <b>desbloquear tu Bóveda Privada de Cuentas</b> (<code>multi_account_hub</code>).</p>' +
       '<ol class="steps"><li>Toca <b>«Crear permiso»</b>: GitHub abre el formulario ya rellenado (nombre y permisos <b>Actions</b> y <b>Contents</b>).</li>' +
-      '<li>En <b>Repository access</b> elige <b>Only select repositories</b> → <b>' + esc(repoSlug().split('/')[1]) + '</b>.</li>' +
+      '<li>En <b>Repository access</b> elige <b>Only select repositories</b> → marca <b>' + esc(repoSlug().split('/')[1]) + '</b> y también <b>multi_account_hub</b> (para ver tus cuentas privadas en el teléfono).</li>' +
       '<li>Abajo toca <b>Generate token</b> y copia el código (empieza con <code>github_pat_</code>).</li><li>Pégalo aquí y toca <b>Conectar</b>.</li></ol>' +
       '<div style="display:flex;flex-wrap:wrap;gap:8px"><a class="btn" href="' + esc(tokenUrl()) + '" target="_blank" rel="noopener"><i data-lucide="key-round"></i>Crear permiso</a></div>' +
       '<label class="fld"><span>Código del permiso</span><input type="password" id="ghTok" autocomplete="off" placeholder="github_pat_…"></label>' +

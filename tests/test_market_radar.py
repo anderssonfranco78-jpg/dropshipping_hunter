@@ -353,6 +353,25 @@ class TestN8nDsersBridge(TempDir):
         self.assertTrue(u["ko_multiplier"])
         self.assertTrue(cost_spike["has_alerts"])
 
+    def test_mobile_private_vault_gateway_cuentas_html(self):
+        cuentas = ROOT / "cuentas.html"
+        index = ROOT / "index.html"
+        self.assertTrue(cuentas.exists(), "cuentas.html must exist for mobile GitHub Pages gateway")
+        html = cuentas.read_text(encoding="utf-8")
+        # Ensure zero raw private credentials leak in public HTML
+        self.assertNotIn("ops.steamfur@gmail.com", html)
+        self.assertNotIn("proxy-pool.net", html)
+        self.assertNotIn("Profile-Dolphin-", html)
+        self.assertIn("🔒 Privado · Desbloquea con tu Token", html)
+        # Ensure GitHub private repo API endpoint & WebP images are wired
+        self.assertIn("anderssonfranco78-jpg/multi_account_hub", html)
+        self.assertIn("/contents/data/negocios.json", html)
+        self.assertIn("application/vnd.github.raw+json", html)
+        self.assertIn("assets/images/steamfur.webp", html)
+        # Ensure index.html points github.io to cuentas.html
+        idx_html = index.read_text(encoding="utf-8")
+        self.assertIn("? 'cuentas.html' :", idx_html)
+
 
 if __name__ == "__main__":
     unittest.main()

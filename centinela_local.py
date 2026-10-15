@@ -58,7 +58,7 @@ from hunter.user_products import product_to_candidate  # noqa: E402  (validation
 # ----------------------------------------------------------------------------------------------
 SYNC_PATHS = ["data/user_products.json", "data/radar_ideas.json", "data/candidates.json", "data/audit_results.json",
               "data/data_health.json", "data/dashboard_data.js", "data/radar.json", "data/trends_cache.json",
-              "data/history", "assets/images", "ranking_productos.html", "ranking_productos.png", "dossier_productos_ganadores.md"]
+              "data/history", "assets/images", "cuentas.html", "ranking_productos.html", "ranking_productos.png", "dossier_productos_ganadores.md"]
 
 
 class Sync:

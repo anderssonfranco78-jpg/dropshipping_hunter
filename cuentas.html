@@ -1,0 +1,1859 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0C0C0C">
+<title>Multi-Account Hub · Bóveda Privada Móvil &amp; Centro de Mando D2C</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Silkscreen:wght@400;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.469.0/dist/umd/lucide.min.js"></script>
+<style>
+  :root {
+    --bg: #0C0C0C; --side: #151515; --card: #181818; --el: #1F1F1F; --el2: #262626;
+    --line: rgba(255,255,255,.07); --line2: rgba(255,255,255,.13);
+    --tx: #F4F4F4; --mut: #8E8E8E; --dim: #5A5A5A;
+    --lime: #B5FE4D; --cyan: #37B0FF; --amber: #E88503; --red: #EF4444; --accent-emerald: #10B981;
+    --g-win: linear-gradient(155deg, rgba(181,254,77,.12), rgba(55,176,255,.05) 48%, #181818 78%);
+    --g-con: linear-gradient(155deg, rgba(55,176,255,.12), rgba(181,254,77,.04) 48%, #181818 78%);
+    --g-warn: linear-gradient(155deg, rgba(232,133,3,.14), rgba(232,133,3,.03) 48%, #181818 78%);
+    --r: 22px; --r-sm: 14px;
+    --sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --dm: 'Silkscreen', ui-monospace, monospace;
+    --mono: 'JetBrains Mono', ui-monospace, Consolas, monospace;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--tx); font-family: var(--sans); font-size: 14px; -webkit-font-smoothing: antialiased; }
+  body { min-height: 100vh; padding: 10px 10px 96px; overflow-x: hidden; }
+  button, input, select, textarea { font: inherit; color: inherit; }
+  a { color: inherit; }
+
+  .dm { font-family: var(--dm); letter-spacing: .02em; font-variant-numeric: tabular-nums; line-height: 1.08; }
+  .mono { font-family: var(--mono); font-size: 12px; }
+  .muted { color: var(--mut); }
+  .lime { color: var(--lime); } .cyan { color: var(--cyan); } .amber { color: var(--amber); } .red { color: var(--red); } .emerald { color: var(--accent-emerald); }
+  body.masked .mask { filter: blur(8px); user-select: none; transition: filter .2s; }
+
+  .app { max-width: 1640px; margin: 0 auto; background: #101010; border: 1px solid var(--line); border-radius: 30px; padding: 12px; display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 14px; min-height: calc(100vh - 24px); }
+  .side { background: var(--side); border: 1px solid var(--line); border-radius: 22px; padding: 14px; display: flex; flex-direction: column; gap: 12px; position: sticky; top: 10px; max-height: calc(100vh - 28px); overflow-y: auto; }
+  .brand { display: flex; align-items: center; gap: 10px; padding: 2px 4px; }
+  .logo { width: 36px; height: 36px; border-radius: 12px; background: var(--cyan); color: #06121c; display: grid; place-items: center; flex-shrink: 0; box-shadow: 0 0 24px rgba(55,176,255,.32); }
+  .logo svg.lucide { width: 19px; height: 19px; stroke-width: 2.3; }
+  .brand b { display: block; font-size: 15px; letter-spacing: -.01em; }
+  .brand small { display: block; font-size: 11px; color: var(--mut); }
+
+  .seg { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; background: #0E0E0E; border: 1px solid var(--line); border-radius: 13px; padding: 4px; }
+  .seg button { border: 0; background: transparent; color: var(--mut); font: 600 11.5px var(--sans); padding: 8px 4px; border-radius: 9px; cursor: pointer; transition: background .15s, color .15s; }
+  .seg button:hover { color: var(--tx); }
+  .seg button.on { background: #262626; color: var(--tx); box-shadow: 0 2px 8px rgba(0,0,0,.4); }
+
+  .eco-switch { display: inline-flex; align-items: center; gap: 7px; height: 38px; padding: 0 12px; border-radius: 12px; border: 1px solid rgba(181,254,77,.38); background: linear-gradient(135deg, rgba(181,254,77,.14), rgba(55,176,255,.08)); color: #ecffcf; font: 700 12px var(--sans); text-decoration: none; cursor: pointer; transition: transform .15s, border-color .15s, box-shadow .15s; white-space: nowrap; }
+  .eco-switch:hover { border-color: var(--lime); color: #fff; transform: translateY(-1px); box-shadow: 0 6px 20px rgba(181,254,77,.2); }
+  .eco-switch svg.lucide { width: 14px; height: 14px; color: var(--lime); }
+
+  .nav-label { font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--dim); padding: 4px 6px 0; display: flex; justify-content: space-between; align-items: center; }
+  .nav-label .count { font-family: var(--dm); color: var(--mut); font-size: 11px; }
+
+  .watch { display: flex; flex-direction: column; gap: 6px; }
+  .wl { width: 100%; border: 1px solid var(--line); background: #1A1A1A; border-radius: 16px; padding: 9px 10px; display: grid; grid-template-columns: 30px minmax(0, 1fr) auto; align-items: center; gap: 9px; text-align: left; cursor: pointer; transition: border-color .15s, background .15s, transform .12s; }
+  .wl:hover { border-color: var(--line2); background: #202020; transform: translateY(-1px); }
+  .wl.on { border-color: rgba(181,254,77,.55); background: linear-gradient(135deg, rgba(181,254,77,.11), #1A1A1A 68%); }
+  .coin { width: 28px; height: 28px; border-radius: 9px; display: grid; place-items: center; font: 700 11px var(--dm); color: #0B0B0B; background: var(--lime); flex-shrink: 0; }
+  .coin.prep { background: var(--cyan); } .coin.warn { background: var(--amber); }
+  .wl-main { min-width: 0; }
+  .wl-main b { display: block; font-size: 12.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .wl-main small { display: block; font-size: 10.5px; color: var(--mut); }
+  .wl-val { text-align: right; }
+  .wl-val b { display: block; font-size: 12.5px; }
+  .wl-val small { font-size: 10px; color: var(--mut); }
+
+  .sources, .nav { display: flex; flex-direction: column; gap: 4px; }
+  .src, .nav button, .nav a { border: 1px solid transparent; background: transparent; border-radius: 11px; padding: 7px 9px; display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--mut); text-decoration: none; cursor: pointer; text-align: left; transition: background .15s, color .15s; }
+  .src:hover, .nav button:hover, .nav a:hover { background: rgba(255,255,255,.04); color: var(--tx); }
+  .src-name { flex: 1; color: var(--tx); font-weight: 500; }
+  .src-val { font-size: 11px; font-family: var(--dm); }
+  .src-val.ok { color: var(--lime); } .src-val.info { color: var(--cyan); } .src-val.warn { color: var(--amber); }
+  .sdot { width: 7px; height: 7px; border-radius: 50%; background: var(--dim); flex-shrink: 0; }
+  .sdot.ok { background: var(--lime); box-shadow: 0 0 8px var(--lime); }
+  .sdot.info { background: var(--cyan); } .sdot.warn { background: var(--amber); } .sdot.bad { background: var(--red); }
+  .side-foot { margin-top: auto; padding: 10px; border-radius: 14px; background: rgba(255,255,255,.025); border: 1px solid var(--line); font-size: 11px; color: var(--mut); line-height: 1.45; }
+  .scrim { display: none; }
+
+  .main { min-width: 0; display: flex; flex-direction: column; gap: 14px; padding: 2px 4px 12px; }
+  .topbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding-bottom: 4px; }
+  .sync { display: inline-flex; align-items: center; gap: 10px; padding: 7px 12px; background: var(--side); border: 1px solid var(--line); border-radius: 999px; font-size: 12px; color: var(--mut); }
+  .sync b { color: var(--tx); font-weight: 600; }
+  .dots-deco { width: 22px; height: 14px; background-image: radial-gradient(rgba(55,176,255,.75) 1.3px, transparent 1.4px); background-size: 5px 5px; display: inline-block; flex-shrink: 0; }
+  .top-actions { margin-left: auto; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+
+  .vault-banner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding: 13px 16px; border-radius: 18px; border: 1px solid rgba(55,176,255,.38); background: linear-gradient(135deg, rgba(55,176,255,.12), rgba(181,254,77,.05)); font-size: 12.5px; line-height: 1.45; }
+  .vault-banner.unlocked { border-color: rgba(181,254,77,.42); background: linear-gradient(135deg, rgba(181,254,77,.12), rgba(16,185,129,.05)); }
+  .vault-banner b { color: #fff; display: flex; align-items: center; gap: 7px; font-size: 13px; margin-bottom: 2px; }
+
+  .btn { height: 36px; padding: 0 13px; border-radius: 12px; border: 1px solid var(--line2); background: var(--el); color: var(--tx); font: 600 12.5px var(--sans); display: inline-flex; align-items: center; gap: 7px; cursor: pointer; text-decoration: none; transition: transform .12s, background .15s, border-color .15s, box-shadow .15s; white-space: nowrap; }
+  .btn:hover:not(:disabled) { background: var(--el2); border-color: rgba(255,255,255,.22); transform: translateY(-1px); }
+  .btn:disabled { opacity: .45; cursor: not-allowed; }
+  .btn.sm { height: 30px; padding: 0 10px; font-size: 11.5px; border-radius: 10px; gap: 5px; }
+  .btn.ghost { background: rgba(255,255,255,.03); border-color: var(--line); }
+  .btn-lime { background: var(--lime); color: #0B0B0B; border-color: transparent; font-weight: 700; }
+  .btn-lime:hover:not(:disabled) { background: #c5ff6b; color: #0B0B0B; box-shadow: 0 6px 22px rgba(181,254,77,.28); }
+  .btn-cyan { background: rgba(55,176,255,.16); color: #bfe5ff; border-color: rgba(55,176,255,.38); font-weight: 700; }
+  .btn-cyan:hover:not(:disabled) { background: rgba(55,176,255,.25); color: #fff; }
+  .btn-red { background: rgba(239,68,68,.14); color: #ff9a9a; border-color: rgba(239,68,68,.35); }
+  .icon-btn { width: 36px; height: 36px; border-radius: 12px; border: 1px solid var(--line); background: var(--el); color: var(--mut); display: inline-grid; place-items: center; cursor: pointer; transition: color .15s, border-color .15s, background .15s; flex-shrink: 0; position: relative; }
+  .icon-btn:hover { color: var(--tx); border-color: var(--line2); background: var(--el2); }
+  .icon-btn.sm { width: 28px; height: 28px; border-radius: 9px; }
+  .only-mobile { display: none; }
+  svg.lucide { width: 15px; height: 15px; stroke-width: 1.9; flex-shrink: 0; }
+
+  .chip { height: 36px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--side); color: var(--mut); font: 600 12px var(--sans); display: inline-flex; align-items: center; gap: 8px; cursor: pointer; white-space: nowrap; }
+  .chip.ok { color: var(--tx); border-color: rgba(181,254,77,.35); }
+  .chip.info { color: #b7e3ff; border-color: rgba(55,176,255,.35); }
+  .chip.warn { color: var(--amber); border-color: rgba(232,133,3,.4); }
+  .ping { width: 8px; height: 8px; border-radius: 50%; background: var(--lime); position: relative; display: inline-block; flex-shrink: 0; }
+  .ping.info { background: var(--cyan); } .ping.warn { background: var(--amber); } .ping.off { background: var(--dim); }
+
+  .bdg { display: inline-flex; align-items: center; gap: 5px; padding: 4px 9px; border-radius: 999px; font-size: 11px; font-weight: 700; letter-spacing: .01em; border: 1px solid var(--line); background: rgba(255,255,255,.04); color: var(--mut); white-space: nowrap; }
+  .bdg svg.lucide { width: 12px; height: 12px; }
+  .bdg.ok { background: rgba(181,254,77,.13); color: var(--lime); border-color: rgba(181,254,77,.32); }
+  .bdg.info { background: rgba(55,176,255,.13); color: #8cd3ff; border-color: rgba(55,176,255,.32); }
+  .bdg.warn { background: rgba(232,133,3,.14); color: #ffb54c; border-color: rgba(232,133,3,.36); }
+  .bdg.bad { background: rgba(239,68,68,.14); color: #ff8b8b; border-color: rgba(239,68,68,.36); }
+
+  .view { display: none; flex-direction: column; gap: 14px; }
+  body[data-view="clusters"] #vClusters, body[data-view="reloj"] #vReloj, body[data-view="escudo"] #vEscudo { display: flex; }
+
+  .hero-bar { background: var(--g-win); border: 1px solid var(--line2); border-radius: var(--r); padding: 18px 20px; display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1.7fr); gap: 16px; align-items: center; }
+  .hero-bar h1 { margin: 4px 0 6px; font-size: clamp(20px, 2.5vw, 27px); letter-spacing: -.02em; }
+  .hero-bar p { margin: 0; font-size: 12.5px; color: #cfcfcf; line-height: 1.5; }
+  .kpis5 { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 9px; }
+  .kpi { background: rgba(14,14,14,.78); border: 1px solid var(--line); border-radius: 16px; padding: 11px 12px; display: flex; flex-direction: column; gap: 5px; }
+  .kpi-h { display: flex; align-items: center; justify-content: space-between; gap: 6px; font-size: 11px; color: var(--mut); font-weight: 600; }
+  .kpi-v { font-size: 20px; font-weight: 800; line-height: 1.1; }
+  .kpi-s { font-size: 10.5px; color: var(--mut); }
+
+  .toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 10px 12px; }
+  .search { position: relative; flex: 1; min-width: 220px; }
+  .search svg.lucide { position: absolute; left: 12px; top: 10px; color: var(--mut); }
+  .search input { width: 100%; height: 36px; border-radius: 12px; border: 1px solid var(--line); background: var(--el); color: var(--tx); padding: 0 12px 0 36px; font: 500 13px var(--sans); outline: none; }
+  .search input:focus { border-color: rgba(181,254,77,.45); box-shadow: 0 0 0 3px rgba(181,254,77,.1); }
+  .sel { height: 36px; border-radius: 12px; border: 1px solid var(--line); background: var(--el); padding: 0 10px; cursor: pointer; font-size: 12.5px; font-weight: 600; }
+  .chips { display: flex; flex-wrap: wrap; gap: 5px; }
+  .tchip { height: 32px; padding: 0 11px; border-radius: 999px; border: 1px solid var(--line); background: #141414; color: var(--mut); font: 600 11.5px var(--sans); cursor: pointer; transition: border-color .15s, color .15s, background .15s; }
+  .tchip:hover { color: var(--tx); border-color: var(--line2); }
+  .tchip.on { background: rgba(181,254,77,.14); color: var(--lime); border-color: rgba(181,254,77,.42); }
+
+  .bgrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+  .bcard { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 18px; display: flex; flex-direction: column; gap: 13px; transition: border-color .18s, transform .18s, box-shadow .18s; position: relative; }
+  .bcard:hover { border-color: var(--line2); transform: translateY(-2px); box-shadow: 0 16px 40px rgba(0,0,0,.45); }
+  .bcard.active-biz { background: var(--g-win); border-color: rgba(181,254,77,.35); }
+  .bcard.focus-ring { box-shadow: 0 0 0 3px var(--lime), 0 18px 50px rgba(181,254,77,.22); }
+  .bhead { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+  .btitle { display: flex; align-items: flex-start; gap: 12px; min-width: 0; flex: 1; }
+  .bthumb { width: 64px; height: 64px; border-radius: 16px; object-fit: cover; border: 1px solid var(--line2); background: #111; flex-shrink: 0; }
+  .wl-thumb { width: 28px; height: 28px; border-radius: 9px; object-fit: cover; border: 1px solid var(--line2); background: #111; flex-shrink: 0; }
+  .btitle h2 { margin: 4px 0 2px; font-size: 19px; letter-spacing: -.01em; display: flex; align-items: center; gap: 8px; }
+  .btitle p { margin: 0; font-size: 12px; color: var(--mut); }
+
+  .ring { position: relative; width: 54px; height: 54px; flex-shrink: 0; cursor: pointer; }
+  .ring svg { width: 54px; height: 54px; transform: rotate(-90deg); }
+  .ring span { position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--dm); font-size: 13px; }
+  .ring .trk { stroke: rgba(255,255,255,.08); }
+
+  .econ-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; padding: 10px; border-radius: 15px; background: rgba(0,0,0,.32); border: 1px solid var(--line); }
+  .econ-cell small { display: block; font-size: 10px; color: var(--mut); text-transform: uppercase; letter-spacing: .04em; }
+  .econ-cell b { display: block; font-size: 14px; margin-top: 2px; }
+
+  .ch-list { display: grid; gap: 7px; }
+  .ch-row { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr) auto; align-items: center; gap: 8px; padding: 9px 11px; border-radius: 13px; background: rgba(255,255,255,.025); border: 1px solid var(--line); }
+  .ch-row:hover { border-color: var(--line2); }
+  .ch-plat { display: flex; align-items: center; gap: 8px; min-width: 0; }
+  .ch-plat b { font-size: 12px; white-space: nowrap; }
+  .ch-plat small { font-family: var(--mono); font-size: 11px; color: var(--cyan); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .ch-stats { display: flex; gap: 10px; font-size: 11px; color: var(--mut); justify-content: flex-end; }
+  .ch-stats b { color: var(--tx); font-family: var(--dm); }
+  .ch-acts { display: flex; align-items: center; gap: 4px; }
+
+  .iso-strip { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; padding: 9px 11px; border-radius: 13px; background: #121212; border: 1px solid var(--line); font-size: 11.5px; color: var(--mut); }
+  .bfoot { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; margin-top: auto; padding-top: 6px; border-top: 1px solid var(--line); }
+
+  .row2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+  .row3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .card-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .card-head h3 { margin: 0; font-size: 13.5px; font-weight: 700; display: flex; align-items: center; gap: 7px; }
+  .card-head h3 svg.lucide { color: var(--lime); }
+
+  .clock-big { font-family: var(--dm); font-size: clamp(24px, 3vw, 34px); color: var(--lime); }
+  .win-box { padding: 12px; border-radius: 15px; border: 1px solid var(--line2); background: #121212; display: flex; flex-direction: column; gap: 6px; }
+  .checks { display: grid; gap: 6px; }
+  .ck { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 10px; align-items: start; padding: 9px 10px; border-radius: 12px; border: 1px solid var(--line); background: rgba(0,0,0,.22); cursor: pointer; }
+  .ck input { appearance: none; -webkit-appearance: none; width: 20px; height: 20px; border-radius: 6px; border: 1.5px solid var(--line2); margin: 0; display: grid; place-items: center; cursor: pointer; background: transparent; }
+  .ck input:checked { background: var(--lime); border-color: var(--lime); }
+  .ck input:checked::after { content: '✓'; color: #0B0B0B; font: 800 13px var(--sans); }
+  .ck.done { background: rgba(181,254,77,.05); }
+  .ck.done b { text-decoration: line-through; color: var(--mut); }
+  .ck b { font-size: 12.5px; display: block; }
+  .ck small { display: block; color: var(--mut); font-size: 11.5px; margin-top: 2px; line-height: 1.4; }
+
+  .codebox { background: #090909; border: 1px solid var(--line2); border-radius: 14px; padding: 12px; font: 11.5px/1.55 var(--mono); color: #d4ffd4; white-space: pre-wrap; word-break: break-all; max-height: 220px; overflow: auto; margin: 0; }
+  .tbl { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  .tbl th, .tbl td { padding: 9px 10px; border-bottom: 1px solid var(--line); text-align: left; }
+  .tbl th { font-size: 10.5px; text-transform: uppercase; letter-spacing: .05em; color: var(--dim); font-weight: 700; }
+
+  .dock { position: fixed; left: 50%; bottom: max(14px, env(safe-area-inset-bottom)); transform: translateX(-50%); z-index: 50; display: flex; align-items: center; gap: 6px; padding: 6px; background: rgba(22,22,22,.88); -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); border: 1px solid var(--line2); border-radius: 18px; box-shadow: 0 18px 50px rgba(0,0,0,.65); max-width: calc(100vw - 20px); }
+  .dock .btn { height: 40px; flex-shrink: 0; }
+  .dock .tab.on { background: #2E2E2E; color: #fff; border-color: var(--line2); }
+  .dock .sep { width: 1px; height: 24px; background: var(--line2); margin: 0 2px; }
+  .mlbl { display: none; }
+
+  dialog { background: var(--card); color: var(--tx); border: 1px solid var(--line2); border-radius: 22px; padding: 0; width: min(780px, 95vw); max-height: 90vh; overflow: auto; box-shadow: 0 30px 80px rgba(0,0,0,.75); }
+  dialog::backdrop { background: rgba(0,0,0,.74); -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px); }
+  .dlg-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; padding: 18px 20px; border-bottom: 1px solid var(--line); position: sticky; top: 0; background: var(--card); z-index: 2; }
+  .dlg-head h2 { margin: 0; font-size: 17px; display: flex; align-items: center; gap: 8px; }
+  .dlg-head p { margin: 4px 0 0; color: var(--mut); font-size: 12px; }
+  .dlg-body { padding: 18px 20px 22px; display: grid; gap: 14px; font-size: 13px; line-height: 1.5; }
+  .fgrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 11px; }
+  .fld { display: grid; gap: 5px; min-width: 0; }
+  .fld.full { grid-column: 1 / -1; }
+  .fld > span { font-size: 11.5px; font-weight: 600; color: #d6d6d6; }
+  .fld input, .fld select, .fld textarea { height: 38px; border-radius: 11px; border: 1px solid var(--line); background: var(--el); color: var(--tx); padding: 0 11px; font: 500 13px var(--sans); outline: none; width: 100%; }
+  .fld input:focus, .fld select:focus, .fld textarea:focus { border-color: var(--lime); }
+  .bar { height: 7px; border-radius: 999px; background: #262626; overflow: hidden; }
+  .bar i { display: block; height: 100%; border-radius: 999px; background: var(--lime); }
+
+  #toasts { position: fixed; right: 16px; bottom: 86px; z-index: 95; display: flex; flex-direction: column; gap: 8px; align-items: flex-end; pointer-events: none; }
+  .toast { pointer-events: auto; display: flex; align-items: center; gap: 10px; max-width: min(390px, 92vw); padding: 10px 14px; border-radius: 14px; background: rgba(26,26,26,.96); border: 1px solid var(--line2); box-shadow: 0 12px 30px rgba(0,0,0,.55); font-size: 12.5px; cursor: pointer; }
+  .tdot { width: 8px; height: 8px; border-radius: 50%; background: var(--cyan); flex-shrink: 0; }
+  .toast.ok .tdot { background: var(--lime); } .toast.warn .tdot { background: var(--amber); } .toast.bad .tdot { background: var(--red); }
+
+  @media (max-width: 1180px) {
+    .hero-bar { grid-template-columns: minmax(0, 1fr); }
+    .kpis5 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .bgrid { grid-template-columns: minmax(0, 1fr); }
+  }
+  @media (max-width: 1023px) {
+    .app { grid-template-columns: minmax(0, 1fr); padding: 8px; border-radius: 22px; }
+    .side { position: fixed; inset: 0 auto 0 0; top: 0; width: min(310px, 88vw); max-height: none; height: 100%; z-index: 70; border-radius: 0 22px 22px 0; transform: translateX(-105%); transition: transform .25s ease; }
+    body.side-open .side { transform: none; box-shadow: 20px 0 60px rgba(0,0,0,.6); }
+    .scrim { display: block; position: fixed; inset: 0; background: rgba(0,0,0,.6); z-index: 65; opacity: 0; pointer-events: none; transition: opacity .25s; }
+    body.side-open .scrim { opacity: 1; pointer-events: auto; }
+    .only-mobile { display: inline-grid !important; }
+    .row2, .row3 { grid-template-columns: minmax(0, 1fr); }
+  }
+  @media (max-width: 680px) {
+    .kpis5, .econ-strip, .fgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .ch-row { grid-template-columns: minmax(0, 1fr); }
+    .ch-stats { justify-content: flex-start; }
+    .dock { left: 8px; right: 8px; transform: none; max-width: none; justify-content: space-between; }
+    .dock .lbl, .dock .sep { display: none; }
+    .dock .btn { flex: 1; padding: 0 6px; flex-direction: column; gap: 2px; height: 50px; font-size: 10px; }
+    .dock .btn .mlbl { display: block !important; }
+  }
+</style>
+</head>
+<body data-view="clusters">
+
+<div class="app">
+  <!-- ============ SIDEBAR ============ -->
+  <aside id="side" class="side" aria-label="Navegación del Hub">
+    <div class="brand">
+      <span class="logo"><i data-lucide="layers"></i></span>
+      <div><b>Multi-Account Hub</b><small>Bóveda Privada Móvil · D2C</small></div>
+      <button id="sideClose" type="button" class="icon-btn sm only-mobile" aria-label="Cerrar menú"><i data-lucide="x"></i></button>
+    </div>
+
+    <div class="seg" id="viewSeg" role="tablist" aria-label="Vista" style="grid-template-columns:repeat(4,1fr)">
+      <button type="button" id="tab-btn-negocios" data-view="clusters" class="on" role="tab">Negocios</button>
+      <button type="button" id="tab-btn-salud" data-view="reloj" role="tab">Salud</button>
+      <button type="button" id="tab-btn-rotacion" data-view="reloj" role="tab">Rotación</button>
+      <button type="button" id="tab-btn-creativos" data-view="escudo" role="tab">Anti-Hash</button>
+    </div>
+
+    <a id="sideHunterBtn" href="index.html" class="eco-switch" title="Volver al Evaluador de Productos Ganadores (Dropshipping Hunter)">
+      <i data-lucide="crosshair"></i><span>Ir a Dropshipping Hunter</span><i data-lucide="arrow-up-right" style="margin-left:auto"></i>
+    </a>
+
+    <div class="nav-label">Tus Negocios &amp; Clústeres <span class="count" id="sideCount">4</span></div>
+    <div id="sideWatch" class="watch"></div>
+
+    <div class="nav-label">Estado de la Bóveda Privada</div>
+    <div class="sources">
+      <button type="button" class="src" data-connect>
+        <span class="sdot info" id="srcVaultDot"></span><span class="src-name">Repo Privado GitHub</span><span class="src-val info" id="srcVaultVal">PROTEGIDO</span>
+      </button>
+      <button type="button" class="src" data-src="Cada negocio opera con 1 correo aislado, 1 perfil Dolphin{anty}, 1 proxy móvil EE. UU. y 3 canales (YT Shorts, IG Reels, FB Reels).">
+        <span class="sdot ok"></span><span class="src-name">Aislamiento Anti-Ban</span><span class="src-val ok">100% OK</span>
+      </button>
+      <button type="button" class="src" data-src="El robot Centinela en GitHub Actions recalcula la salud de las cuentas cada 6 horas dentro de tu repositorio privado multi_account_hub.">
+        <span class="sdot info" id="srcCloudDot"></span><span class="src-name">Centinela GitHub</span><span class="src-val info" id="srcCloudVal">CADA 6 H</span>
+      </button>
+    </div>
+
+    <div class="nav-label">Acciones Rápidas</div>
+    <nav class="nav">
+      <button type="button" data-connect><i data-lucide="key-round"></i>Desbloquear Bóveda Privada</button>
+      <button type="button" data-newbiz><i data-lucide="plus-circle"></i>Incorporar Nuevo Negocio</button>
+      <button type="button" data-export><i data-lucide="download"></i>Descargar negocios.json</button>
+      <button type="button" data-help><i data-lucide="circle-help"></i>¿Cómo verlo en el teléfono?</button>
+    </nav>
+
+    <div class="side-foot">
+      <b>Bóveda Cero-Exposición Pública:</b> Tus correos y proxies reales residen en tu repositorio <b>privado</b> <code>multi_account_hub</code> y solo se descargan cuando tu teléfono presenta tu Token de GitHub.
+    </div>
+  </aside>
+  <div id="scrim" class="scrim"></div>
+
+  <!-- ============ MAIN ============ -->
+  <main class="main">
+    <header class="topbar">
+      <button id="menuBtn" type="button" class="icon-btn only-mobile" aria-label="Abrir menú"><i data-lucide="menu"></i></button>
+      <div class="sync" id="syncBox">
+        <span class="dots-deco" aria-hidden="true"></span>
+        <span>Sincronizado · <b id="syncAgo">verificando…</b> · Hora EE. UU. (EST): <b class="dm lime" id="topEstClock">--:--</b></span>
+      </div>
+      <div class="top-actions">
+        <a id="topHunterBtn" href="index.html" class="eco-switch" title="Conmutar al Dropshipping Hunter (Evaluador de Productos y Radar)">
+          <i data-lucide="crosshair"></i><span>Dropshipping Hunter</span>
+        </a>
+        <button id="centChip" type="button" class="chip info"><span class="ping info" id="centPing"></span><span id="centTxt">Bóveda Privada</span></button>
+        <button type="button" class="icon-btn" data-eye title="Ocultar / mostrar cifras y credenciales sensibles"><i data-lucide="eye"></i></button>
+        <button type="button" class="btn" data-newbiz><i data-lucide="plus"></i>Nuevo Negocio</button>
+        <button id="refreshBtn" type="button" class="btn btn-lime" title="Recalcular Salud Algorítmica y sincronizar con tu repositorio privado multi_account_hub"><i data-lucide="refresh-cw"></i><span id="refreshLbl">Sincronizar Salud</span></button>
+      </div>
+    </header>
+
+    <div id="vaultBanner" class="vault-banner"></div>
+
+    <!-- ============ VISTA 1: CLÚSTERES & CUENTAS ============ -->
+    <section class="view" id="vClusters">
+      <section class="hero-bar">
+        <div>
+          <div class="bdg ok" style="margin-bottom:6px"><i data-lucide="shield-check"></i>Pasarela Móvil Cifrada · Lurn GOTY Edition</div>
+          <h1>Centro de Mando Multi-Cuentas</h1>
+          <p>Administra desde tu teléfono o PC tus tiendas Shopify, tus 12 cuentas orgánicas (YouTube Shorts, Instagram Reels y Facebook Reels) y el Account Health Score conectando de forma privada con <code>multi_account_hub</code>.</p>
+        </div>
+        <div class="kpis5">
+          <div class="kpi" title="Negocios con estado Activo publicando contenido diario">
+            <div class="kpi-h"><span>Negocios Activos</span><i data-lucide="store" class="lime"></i></div>
+            <div class="kpi-v dm lime" id="kpi-negocios-activos">1 / 4</div>
+            <div class="kpi-s" id="kpi-negocios-pct">25% en producción diaria</div>
+          </div>
+          <div class="kpi" title="Canales activos dentro del Triángulo Orgánico (YT Shorts + IG Reels + FB Reels)">
+            <div class="kpi-h"><span>Canales Sociales</span><i data-lucide="share-2" class="cyan"></i></div>
+            <div class="kpi-v dm" id="kpi-canales-totales">3 / 12</div>
+            <div class="kpi-s" id="kpi-canales-breakdown">4 YT · 4 IG · 4 FB</div>
+          </div>
+          <div class="kpi" title="Salud algorítmica promedio de las cuentas activas (0 a 100)">
+            <div class="kpi-h"><span>Salud Promedio</span><i data-lucide="heart-pulse" class="lime"></i></div>
+            <div class="kpi-v dm lime" id="kpi-salud-media">95.0</div>
+            <div class="kpi-s">Consistencia + Momentum</div>
+          </div>
+          <div class="kpi" title="Videos publicados hoy vs meta diaria (2 por negocio activo)">
+            <div class="kpi-h"><span>Videos Hoy</span><i data-lucide="clapperboard" class="amber"></i></div>
+            <div class="kpi-v dm" id="kpi-videos-hoy">0 / 2</div>
+            <div class="kpi-s" id="kpi-trafico-estimado">0 vistas hoy</div>
+          </div>
+          <div class="kpi" title="Clics hacia el enlace de la tienda Shopify hoy">
+            <div class="kpi-h"><span>Clics a Tienda</span><i data-lucide="mouse-pointer-click" class="cyan"></i></div>
+            <div class="kpi-v dm cyan" id="kpi-clics-tienda">0 Clics</div>
+            <div class="kpi-s">Tráfico orgánico D2C</div>
+          </div>
+        </div>
+      </section>
+
+      <div class="toolbar">
+        <div class="search">
+          <i data-lucide="search"></i>
+          <input id="searchInput" type="search" placeholder="Buscar marca, producto, @handle, correo o proxy…" aria-label="Buscar negocio o cuenta">
+        </div>
+        <div class="chips" id="statusChips">
+          <button type="button" class="tchip on" data-st="all">Todos</button>
+          <button type="button" class="tchip" data-st="activo">Activos</button>
+          <button type="button" class="tchip" data-st="en_preparacion">En Preparación</button>
+          <button type="button" class="tchip" data-st="archivado">En Reserva</button>
+          <button type="button" class="tchip" data-st="alerta">Con Alerta (&lt;60 pts)</button>
+        </div>
+        <select id="filter-nicho" class="sel" aria-label="Filtrar por nicho">
+          <option value="all">Todos los Nichos</option>
+        </select>
+        <select id="filter-plataforma" class="sel" aria-label="Filtrar por plataforma">
+          <option value="all">3 Plataformas (YT + IG + FB)</option>
+          <option value="youtube_shorts">YouTube Shorts</option>
+          <option value="instagram_reels">Instagram Reels</option>
+          <option value="facebook_reels">Facebook Reels</option>
+        </select>
+        <select id="sortSelect" class="sel" aria-label="Ordenar negocios">
+          <option value="hunter">Ordenar: Score Hunter</option>
+          <option value="health">Ordenar: Salud Algorítmica</option>
+          <option value="margin">Ordenar: Margen Neto</option>
+        </select>
+        <span class="muted" style="font-size:12px" id="results-count">Mostrando 4 de 4 negocios</span>
+      </div>
+
+      <div id="businesses-grid" class="bgrid"></div>
+      <div id="empty-state" class="card" hidden style="text-align:center;padding:32px">
+        <p style="margin:0 0 10px;color:var(--mut)">Ningún negocio coincide con los filtros actuales.</p>
+        <div><button type="button" class="btn btn-lime" id="resetFiltersBtn"><i data-lucide="rotate-ccw"></i>Restablecer filtros</button></div>
+      </div>
+    </section>
+
+    <!-- ============ VISTA 2: SALUD & RELOJ ALGORÍTMICO EE. UU. ============ -->
+    <section class="view" id="vReloj">
+      <div class="row3">
+        <article class="card">
+          <div class="card-head"><h3><i data-lucide="clock"></i>Reloj Operativo El Salvador ⇄ EE. UU.</h3><span class="bdg ok">EN VIVO</span></div>
+          <div class="win-box">
+            <small class="muted">Tu hora local (San Salvador · CST UTC−6)</small>
+            <div class="clock-big" id="clockSv">--:--:--</div>
+          </div>
+          <div class="win-box">
+            <small class="muted">Hora objetivo del algoritmo (Nueva York / Miami · EST/EDT)</small>
+            <div class="clock-big cyan" id="clockUs">--:--:--</div>
+          </div>
+          <p style="margin:0;font-size:12px;color:var(--mut)" id="nextWinTxt">Calculando próxima ventana óptima de publicación…</p>
+        </article>
+
+        <article class="card">
+          <div class="card-head"><h3><i data-lucide="calendar-clock"></i>Ventanas de Oro de Publicación (EE. UU.)</h3><span class="bdg info">2 Videos / Día</span></div>
+          <div class="win-box">
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <b>Ventana 1 · Mañana / Almuerzo USA</b>
+              <span class="bdg ok dm">11:00 AM EST</span>
+            </div>
+            <small class="muted">Equivale a las <b>09:00 AM / 10:00 AM en El Salvador</b>. Captura la pausa de media mañana en la Costa Este y apertura en California.</small>
+          </div>
+          <div class="win-box">
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <b>Ventana 2 · Prime Time Nocturno USA</b>
+              <span class="bdg info dm">07:00 PM EST</span>
+            </div>
+            <small class="muted">Equivale a las <b>05:00 PM / 06:00 PM en El Salvador</b>. Mayor pico de consumo en sofá y mayor conversión móvil en Shopify.</small>
+          </div>
+          <p style="margin:0;font-size:11.5px;color:var(--mut)"><b>Regla Anti-Spam:</b> Deja mínimo 4 horas de separación entre el Video 1 y el Video 2 del mismo canal.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <h3><i data-lucide="flame"></i>Checklist Warm-Up (5 Días)</h3>
+            <select id="warmupBizSel" class="sel" style="height:30px;font-size:11.5px"></select>
+          </div>
+          <div id="warmupBody" class="checks"></div>
+        </article>
+      </div>
+
+      <article class="card">
+        <div class="card-head">
+          <h3><i data-lucide="activity"></i>Matriz de Account Health Score en Tiempo Real (4 Pilares Matemáticos)</h3>
+          <span class="bdg mut"><span id="stat-W">Consistencia 35%</span> · <span id="stat-D">Momentum 30%</span> · <span id="stat-C">Recencia 25%</span> · <span id="stat-H">Conversión 10%</span></span>
+        </div>
+        <div style="overflow-x:auto">
+          <table class="tbl" id="healthMatrixTbl"></table>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ VISTA 3: ESCUDO ANTI-HASH & AUTOMATIZACIÓN ============ -->
+    <section class="view" id="vEscudo">
+      <div class="row2">
+        <article class="card">
+          <div class="card-head">
+            <h3><i data-lucide="terminal"></i>Sanitizador Anti-Hash FFmpeg / Remotion (3 Variantes)</h3>
+            <span class="bdg ok"><i data-lucide="shield"></i>pHash + MD5 Único</span>
+          </div>
+          <p style="margin:0;font-size:12.5px;color:var(--mut)">
+            Nunca subas el mismo archivo <code>.mp4</code> crudo a YouTube Shorts, Instagram Reels y Facebook Reels: los algoritmos detectan el mismo <code>MD5 / pHash</code> y reducen el alcance. Elige el negocio y el archivo maestro para generar el comando que crea las 3 variantes limpias al instante:
+          </p>
+          <div class="fgrid">
+            <label class="fld">
+              <span>Negocio / Clúster</span>
+              <select id="hashBizSel"></select>
+            </label>
+            <label class="fld">
+              <span>Archivo de video maestro (.mp4)</span>
+              <input type="text" id="hashFileIn" value="steamfur_hook1_master.mp4" placeholder="video_master.mp4">
+            </label>
+          </div>
+          <pre class="codebox" id="hashCmdOut"></pre>
+          <div style="display:flex;flex-wrap:wrap;gap:8px">
+            <button type="button" class="btn btn-lime" id="copyHashCmdBtn"><i data-lucide="copy"></i>Copiar comando PowerShell + FFmpeg</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <h3><i data-lucide="lock"></i>¿Cómo ver tus cuentas privadas en el teléfono sin hacer público el repositorio?</h3>
+            <span class="bdg ok">100% Gratis · Seguro</span>
+          </div>
+          <p style="margin:0;font-size:12.5px;color:var(--mut)">
+            Claude puso tu repositorio <code>anderssonfranco78-jpg/multi_account_hub</code> en <b>Privado</b> para que ningún desconocido en internet pueda ver tus correos, proxies ni cuentas. Como GitHub gratuito no crea páginas web para repositorios privados, esta pasarela (<code>cuentas.html</code>) resuelve el problema sin exponer nada:
+          </p>
+          <div class="win-box">
+            <b>1. Cero datos privados expuestos al público</b>
+            <small class="muted">En este archivo HTML público no hay ningún correo ni proxy guardado. Si un extraño entra a este link, solo ve candados <code>🔒 Privado</code>.</small>
+          </div>
+          <div class="win-box">
+            <b>2. Tu teléfono desbloquea tus cuentas en vivo</b>
+            <small class="muted">Cuando tú entras desde tu teléfono con tu Token de GitHub conectado, tu navegador descarga en vivo <code>data/negocios.json</code> desde la API privada de <code>multi_account_hub</code> y desbloquea tus cuentas solo en tu pantalla.</small>
+          </div>
+          <div style="display:flex;flex-wrap:wrap;gap:8px">
+            <button type="button" class="btn btn-lime" data-connect><i data-lucide="key-round"></i>Desbloquear / Configurar Token</button>
+            <button type="button" class="btn" data-export><i data-lucide="download"></i>Descargar negocios.json</button>
+            <label class="btn" style="cursor:pointer"><i data-lucide="upload"></i>Importar JSON<input type="file" id="importJsonIn" accept=".json" hidden></label>
+            <button type="button" class="btn btn-red" id="resetSeedBtn"><i data-lucide="rotate-ccw"></i>Limpiar caché local</button>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+</div>
+
+<!-- ============ DOCK INFERIOR ============ -->
+<nav class="dock" aria-label="Navegación rápida">
+  <button type="button" class="btn ghost tab on" data-tab="clusters"><i data-lucide="layers"></i><span class="lbl">Cuentas</span><span class="mlbl">Cuentas</span></button>
+  <button type="button" class="btn ghost tab" data-tab="reloj"><i data-lucide="clock"></i><span class="lbl">Salud &amp; USA</span><span class="mlbl">Salud</span></button>
+  <button type="button" class="btn ghost tab" data-tab="escudo"><i data-lucide="shield"></i><span class="lbl">Bóveda &amp; Hash</span><span class="mlbl">Bóveda</span></button>
+  <a id="dockHunterBtn" href="index.html" class="btn ghost" title="Ir a Dropshipping Hunter"><i data-lucide="crosshair"></i><span class="lbl">Hunter</span><span class="mlbl">Hunter</span></a>
+  <span class="sep"></span>
+  <button type="button" class="btn ghost" id="dockRefreshBtn"><i data-lucide="refresh-cw"></i><span class="lbl">Sincronizar</span><span class="mlbl">Sync</span></button>
+</nav>
+
+<div id="toasts" aria-live="polite"></div>
+<dialog id="detailModal"><div id="detailBody"></div></dialog>
+<dialog id="logModal"><div id="logBody"></div></dialog>
+<dialog id="newBizModal"><div id="newBizBody"></div></dialog>
+<dialog id="infoModal"><div id="infoBody"></div></dialog>
+
+<script>
+(function () {
+  'use strict';
+
+  var REPO = 'anderssonfranco78-jpg/multi_account_hub';
+  var LOCAL_API = 'http://127.0.0.1:8766';
+  var TOKEN_KEY = 'hunter-gh-token'; // compartido en el mismo dominio github.io con Dropshipping Hunter
+  var STORAGE_KEY = 'antigravity_hub_businesses_v3_0';
+  var STORAGE_TS_KEY = 'antigravity_hub_updated_at_v3_0';
+
+  /* ---------- Plantilla Pública Enmascarada (CERO credenciales reales en el HTML público) ---------- */
+  var LOCKED_CRED = {
+    correo_gestion: '🔒 Privado · Desbloquea con tu Token',
+    perfil_antidetect: '🔒 Privado · Desbloquea con tu Token',
+    proxy_asignado: '🔒 Privado · Desbloquea con tu Token',
+    sim_mcc: '🔒 Privado',
+    burner_device: '🔒 Privado · Desbloquea con tu Token',
+    n8n_credential_ref: '🔒 Privado'
+  };
+
+  var INITIAL_SEED_DATA = {
+    version: '1.1.0',
+    updated_at: '2026-10-15T10:33:40Z',
+    total_businesses: 4,
+    businesses: [
+      {
+        id: 'steamfur-pro',
+        nombre: 'SteamFur Pro™',
+        nicho: 'Mascotas & Cuidado del Hogar',
+        producto_asociado: {
+          nombre_completo: 'SteamFur Pro™ — Cepillo de Vapor Iónico 3 en 1 para Mascotas',
+          product_image: 'assets/images/steamfur.webp',
+          categoria: 'Pet Supplies & Home Care',
+          descripcion: 'Cepillo ultrasónico 3 en 1 de vapor frío para mascotas que neutraliza la estática y retira el pelo muerto en una sola lámina en 2 segundos.',
+          precio_sugerido_usd: 29.99,
+          costo_proveedor_usd: 4.73,
+          costo_envio_usd: 3.54,
+          costo_puesto_usd: 8.27,
+          beneficio_neto_usd: 18.64,
+          margen_neto_pct: 62.15,
+          markup_multiplier: 3.63,
+          proveedor_url: 'https://www.aliexpress.com/item/1005007791672610.html',
+          linea_logistica: 'AliExpress Choice (7–11 días a EE. UU. · 602 uds verificadas en DSers)',
+          paises_objetivo: ['US', 'CA', 'UK', 'AU']
+        },
+        score_hunter: 100.0,
+        enlace_tienda: 'https://ralfandco.myshopify.com/products/steamfur-pro',
+        cluster_canales: {
+          youtube_shorts: { handle: '@SteamFurPro', canal_url: 'https://www.youtube.com/@SteamFurPro', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          instagram_reels: { handle: '@steamfurpro', canal_url: 'https://www.instagram.com/steamfurpro', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          facebook_reels: { handle: 'SteamFur Pro Official', canal_url: 'https://www.facebook.com/profile.php?id=61594892791830', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null }
+        },
+        credenciales_aisladas: Object.assign({}, LOCKED_CRED),
+        metricas_resumen: {
+          videos_hoy: 0, vistas_hoy: 0, clics_tienda_hoy: 0, vistas_ultimos_7_dias: 0,
+          tasa_conversion_bio_pct: 0.0, dias_sin_publicar: 0, account_health_score: 95.0, health_status: 'optimo', alertas_activas: []
+        },
+        historial_metricas: [],
+        ganchos_conversion: {
+          gancho_1_curiosidad: {
+            nombre: 'Curiosidad Disruptiva (El Secreto de Peluquería)',
+            voz_cliente: 'Wait... why is nobody talking about how normal wire brushes actually scratch your cat\'s skin?',
+            voz_creador: 'Because traditional pet stores want you buying shed-control shampoos every month. Watch what happens when you turn on the ultrasonic cool mist: all the loose undercoat peels off in one single satisfying sheet in two seconds.',
+            sfx: 'SFX_WATER_MIST_WHOOSH', texto_3d: '2-SECOND PEEL'
+          },
+          gancho_2_agitacion: {
+            nombre: 'Agitación de Dolor Real (Pelo en el Sofá)',
+            voz_cliente: 'I love my cat, but I am honestly sick of vacuuming my black couch three times a day!',
+            voz_creador: 'Stop fighting static fur with lint rollers. The cool ion mist neutralizes static electricity on contact, trapping 95% of shedding hair before it ever hits your sofa or clothes.',
+            sfx: 'SFX_STATIC_ZAP_POP', texto_3d: 'ZERO COUCH FUR'
+          },
+          gancho_3_contrariano: {
+            nombre: 'Ángulo Contrariano (No Bañes a tu Gato)',
+            voz_cliente: 'Do not bathe your indoor cat with water this week—do this instead.',
+            voz_creador: 'Water baths strip natural oils and trigger clawing panic. This 3-in-1 micron mist cleans, deodorizes, and massages their coat while they purr on your lap.',
+            sfx: 'SFX_CAT_PURR_CHIME', texto_3d: 'NO BATH PANIC'
+          },
+          gancho_4_transformacion: {
+            nombre: 'Transformación Inmediata (El Reto de 1 Pasada)',
+            voz_cliente: 'One brush stroke on a shedding Golden Retriever... let\'s see if this viral mist brush is actually real.',
+            voz_creador: 'Press the mist button, glide once from neck to tail, and pop the silicone pad. Look at that thick mat of dead fur—and his coat looks like he just walked out of a $90 groomer.',
+            sfx: 'SFX_BASS_DROP_DING', texto_3d: '$90 GROOMER LOOK'
+          }
+        },
+        status: 'activo',
+        warmup_day: 5,
+        created_at: '2026-09-24T02:00:00Z'
+      },
+      {
+        id: 'prosmile-ultrasonic',
+        nombre: 'ProSmile Ultrasonic™',
+        nicho: 'Salud Dental & Cuidado Personal',
+        producto_asociado: {
+          nombre_completo: 'ProSmile Ultrasonic™ — Limpiador Dental Ultrasónico de Sarro y Placa',
+          product_image: 'assets/images/prosmile.webp',
+          categoria: 'Dental Health & Personal Care',
+          descripcion: 'Limpiador dental ultrasónico de 40 kHz que solo vibra al tocar superficies duras (sarro/esmalte) y se detiene automáticamente al tocar las encías.',
+          precio_sugerido_usd: 34.99,
+          costo_proveedor_usd: 4.50,
+          costo_envio_usd: 3.70,
+          costo_puesto_usd: 8.20,
+          beneficio_neto_usd: 25.13,
+          margen_neto_pct: 71.82,
+          markup_multiplier: 4.27,
+          proveedor_url: 'https://www.aliexpress.com/item/1005005236582798.html',
+          linea_logistica: 'AliExpress Choice (7–10 días a EE. UU.)',
+          paises_objetivo: ['US', 'UK', 'DE', 'AU']
+        },
+        score_hunter: 100.0,
+        enlace_tienda: 'https://getprosmile.com/products/ultrasonic-scaler',
+        cluster_canales: {
+          youtube_shorts: { handle: '@ProSmileDental', canal_url: 'https://youtube.com/@ProSmileDental', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          instagram_reels: { handle: '@prosmile_smile', canal_url: 'https://instagram.com/prosmile_smile', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          facebook_reels: { handle: 'ProSmile Oral Care', canal_url: 'https://facebook.com/prosmile_oralcare', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null }
+        },
+        credenciales_aisladas: Object.assign({}, LOCKED_CRED),
+        metricas_resumen: {
+          videos_hoy: 0, vistas_hoy: 0, clics_tienda_hoy: 0, vistas_ultimos_7_dias: 0,
+          tasa_conversion_bio_pct: 0.0, dias_sin_publicar: 0, account_health_score: 75.0, health_status: 'en_espera', alertas_activas: []
+        },
+        historial_metricas: [],
+        ganchos_conversion: {
+          gancho_1_curiosidad: {
+            nombre: 'Curiosidad Disruptiva (La Prueba de la Encía)',
+            voz_cliente: 'Watch what happens when I press this 40,000 Hz dental scaler directly against a soft balloon...',
+            voz_creador: 'Nothing! Because smart piezoelectric resonance only activates on hard calcified tartar—never on soft gum tissue.',
+            sfx: 'SFX_ULTRASONIC_PING', texto_3d: 'GUM-SAFE TECH'
+          },
+          gancho_2_agitacion: {
+            nombre: 'Agitación de Dolor Real (La Factura de $280)',
+            voz_cliente: 'My dentist just quoted me $280 for a 15-minute tartar scraping session without insurance.',
+            voz_creador: 'And they use the exact same ultrasonic frequency you can now use in your bathroom mirror.',
+            sfx: 'SFX_CASH_REGISTER_BUZZ', texto_3d: 'SAVE $280'
+          },
+          gancho_3_contrariano: {
+            nombre: 'Ángulo Contrariano (Por Qué el Cepillado Falla)',
+            voz_cliente: 'You can brush three times a day and still have yellow tartar build-up between your bottom teeth.',
+            voz_creador: 'Once plaque calcifies after 48 hours, nylon bristles literally bounce right off it.',
+            sfx: 'SFX_SONIC_SWEEP', texto_3d: '40,000 VIBRATIONS/S'
+          },
+          gancho_4_transformacion: {
+            nombre: 'Transformación Inmediata (Manchas de Café)',
+            voz_cliente: 'Five years of iced coffee and tea stains on the back of my teeth... let\'s test the LED tip.',
+            voz_creador: 'Turn on the spotlight LED, touch the tip to the dark ridge, and watch the calcified layer flake right off.',
+            sfx: 'SFX_SPARKLE_CHIME', texto_3d: 'INSTANT WHITE'
+          }
+        },
+        status: 'en_preparacion',
+        created_at: '2026-09-19T10:00:00Z'
+      },
+      {
+        id: 'spinerelief-pro',
+        nombre: 'SpineRelief Pro™',
+        nicho: 'Ergonomía & Salud Lumbar',
+        producto_asociado: {
+          nombre_completo: 'SpineRelief Pro™ — Cinturón Neumático de Descompresión Lumbar L1-L5',
+          product_image: 'assets/images/spinerelief.webp',
+          categoria: 'Health & Ergonomics',
+          descripcion: 'Cinturón clínico inflable de tracción lumbar con 24 columnas neumáticas de descompresión para vértebras L1-L5 y alivio de ciática.',
+          precio_sugerido_usd: 54.99,
+          costo_proveedor_usd: 10.00,
+          costo_envio_usd: 4.80,
+          costo_puesto_usd: 14.80,
+          beneficio_neto_usd: 37.75,
+          margen_neto_pct: 68.65,
+          markup_multiplier: 3.72,
+          proveedor_url: 'https://www.aliexpress.com/item/1005006626002554.html',
+          linea_logistica: 'YunExpress Specialty Line (7–10 días laborables)',
+          paises_objetivo: ['US', 'UK', 'CA', 'AU']
+        },
+        score_hunter: 97.0,
+        enlace_tienda: 'https://spinerelief.store/products/traction-belt',
+        cluster_canales: {
+          youtube_shorts: { handle: '@SpineReliefTech', canal_url: 'https://youtube.com/@SpineReliefTech', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          instagram_reels: { handle: '@spinerelief_us', canal_url: 'https://instagram.com/spinerelief_us', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          facebook_reels: { handle: 'SpineRelief Official', canal_url: 'https://facebook.com/spinerelief_official', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null }
+        },
+        credenciales_aisladas: Object.assign({}, LOCKED_CRED),
+        metricas_resumen: {
+          videos_hoy: 0, vistas_hoy: 0, clics_tienda_hoy: 0, vistas_ultimos_7_dias: 0,
+          tasa_conversion_bio_pct: 0.0, dias_sin_publicar: 0, account_health_score: 75.0, health_status: 'en_espera', alertas_activas: []
+        },
+        historial_metricas: [],
+        ganchos_conversion: {
+          gancho_1_curiosidad: {
+            nombre: 'Curiosidad Disruptiva (El Espacio L4-L5)',
+            voz_cliente: 'Why does your lower back feel locked up every morning even after 8 hours of sleep?',
+            voz_creador: 'Because sitting 9 hours a day crushes your L4 and L5 discs together. Watch how pneumatic air-bag lift gently opens the lumbar gap.',
+            sfx: 'SFX_AIR_INFLATE_RELIEF', texto_3d: 'L4-L5 DECOMPRESS'
+          },
+          gancho_2_agitacion: {
+            nombre: 'Agitación de Dolor Real (El Costo del Quiropráctico)',
+            voz_cliente: 'I was spending $75 a week at the chiropractor just to survive my desk job without sciatic pain.',
+            voz_creador: 'Instead of paying $300 a month for temporary adjustments, combine dynamic pneumatic traction with deep support at home.',
+            sfx: 'SFX_HEAT_WAVE_HUM', texto_3d: '15 MIN A DAY'
+          },
+          gancho_3_contrariano: {
+            nombre: 'Ángulo Contrariano (La Farsa de las Fajas de Farmacia)',
+            voz_cliente: 'Why spending $150 on pharmacy elastic belts makes lower back pain worse...',
+            voz_creador: 'Squeezing your abdomen horizontally does not vertically decompress your lumbar discs.',
+            sfx: 'SFX_ALERT_CHIME', texto_3d: 'VERTICAL LIFT'
+          },
+          gancho_4_transformacion: {
+            nombre: 'Transformación Inmediata (El Suspiro de los 10 Segundos)',
+            voz_cliente: 'From struggling to tie my shoes because of sciatic nerve pinching...',
+            voz_creador: 'To standing 6 hours straight without a single lower-back spasm.',
+            sfx: 'SFX_DEEP_RELIEF_SIGH', texto_3d: 'INSTANT RELIEF'
+          }
+        },
+        status: 'en_preparacion',
+        created_at: '2026-09-20T14:00:00Z'
+      },
+      {
+        id: 'aeroforce-x3',
+        nombre: 'AeroForce X3™',
+        nicho: 'Automotriz & Herramientas Tácticas',
+        producto_asociado: {
+          nombre_completo: 'AeroForce X3™ — Micro-Turbina Violenta de 130,000 RPM para Secado y Detailing',
+          product_image: 'assets/images/aeroforce.webp',
+          categoria: 'Automotive & Tactical Tools',
+          descripcion: 'Turbina portátil sin escobillas de 130,000 RPM capaz de generar ráfagas de 52 m/s para secar autos sin contacto y limpiar interiores.',
+          precio_sugerido_usd: 59.99,
+          costo_proveedor_usd: 12.00,
+          costo_envio_usd: 4.80,
+          costo_puesto_usd: 16.80,
+          beneficio_neto_usd: 40.55,
+          margen_neto_pct: 67.59,
+          markup_multiplier: 3.57,
+          proveedor_url: 'https://www.aliexpress.com/item/1005009719197258.html',
+          linea_logistica: 'YunExpress Special Battery Line (8–11 días hábiles)',
+          paises_objetivo: ['US', 'CA', 'AU', 'UK']
+        },
+        score_hunter: 97.0,
+        enlace_tienda: 'https://aeroforcejet.com/products/x3-turbo-fan',
+        cluster_canales: {
+          youtube_shorts: { handle: '@AeroForceTurbine', canal_url: 'https://youtube.com/@AeroForceTurbine', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          instagram_reels: { handle: '@aeroforce_x3', canal_url: 'https://instagram.com/aeroforce_x3', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          facebook_reels: { handle: 'AeroForce Jet Fan', canal_url: 'https://facebook.com/aeroforce_fan', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null }
+        },
+        credenciales_aisladas: Object.assign({}, LOCKED_CRED),
+        metricas_resumen: {
+          videos_hoy: 0, vistas_hoy: 0, clics_tienda_hoy: 0, vistas_ultimos_7_dias: 0,
+          tasa_conversion_bio_pct: 0.0, dias_sin_publicar: 0, account_health_score: 75.0, health_status: 'en_espera', alertas_activas: []
+        },
+        historial_metricas: [],
+        ganchos_conversion: {
+          gancho_1_curiosidad: {
+            nombre: 'Curiosidad Disruptiva (La Balanza de Cocina)',
+            voz_cliente: 'What happens when a pocket-sized 130,000 RPM brushless jet turbine points straight down at a kitchen scale?',
+            voz_creador: 'It pushes over 180 grams of pure thrust in Half a Second! Watch it blast water off a freshly washed car mirror without leaving a single micro-scratch.',
+            sfx: 'SFX_JET_TURBINE_SPOOL', texto_3d: '130,000 RPM'
+          },
+          gancho_2_agitacion: {
+            nombre: 'Agitación de Dolor Real (Latas de Aire Comprimido)',
+            voz_cliente: 'Stop buying $12 cans of compressed air that freeze up after five seconds.',
+            voz_creador: 'One USB-C charge on the AeroForce X3 gives you hurricane-force dry air on demand.',
+            sfx: 'SFX_AIR_BLAST_WHOOSH', texto_3d: 'NO MORE CANS'
+          },
+          gancho_3_contrariano: {
+            nombre: 'Ángulo Contrariano (No Uses Toallas de Microfibra)',
+            voz_cliente: 'Car detailers will never dry a black car with a towel if there is dust trapped in the crevices.',
+            voz_creador: 'Dragging a towel across emblems and side mirrors grinds grit into your clear coat. Blow the water out touch-free in 10 seconds flat.',
+            sfx: 'SFX_WATER_SHEET_BLOW', texto_3d: 'TOUCH-FREE DRY'
+          },
+          gancho_4_transformacion: {
+            nombre: 'Transformación Inmediata (Teclado Mecánico en 3 Segundos)',
+            voz_cliente: 'Two years of crumbs and dust inside a gaming keyboard vs level-3 turbo mode...',
+            voz_creador: 'One pass and every keycap switch looks factory-new.',
+            sfx: 'SFX_TURBO_CLICK_ROAR', texto_3d: '52 M/S WIND'
+          }
+        },
+        status: 'en_preparacion',
+        created_at: '2026-09-20T16:00:00Z'
+      }
+    ]
+  };
+
+  /* ---------- Utilidades ---------- */
+  var $ = function (id) { return document.getElementById(id); };
+  var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]; }); };
+  var money = function (n) { var x = Number(n); return isFinite(x) ? (x < 0 ? '−$' : '$') + Math.abs(x).toFixed(2) : '—'; };
+  function icons() { if (window.lucide && lucide.createIcons) { try { lucide.createIcons(); } catch (e) {} } }
+  function toast(msg, tone, ms) {
+    var box = $('toasts'), el = document.createElement('div');
+    el.className = 'toast ' + (tone || 'info');
+    el.innerHTML = '<span class="tdot"></span><span>' + esc(msg) + '</span>';
+    el.onclick = function () { el.remove(); };
+    box.appendChild(el);
+    while (box.children.length > 4) box.firstChild.remove();
+    setTimeout(function () { el.remove(); }, ms || 3200);
+  }
+  function copyText(text, label) {
+    var ok = function () { toast(label || 'Copiado al portapapeles', 'ok'); };
+    if (navigator.clipboard && window.isSecureContext) { navigator.clipboard.writeText(text).then(ok); return; }
+    try { var ta = document.createElement('textarea'); ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0'; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); ok(); } catch (e) { toast('Copia manual: ' + text, 'warn', 5000); }
+  }
+  function openDlg(d) { if (!d.open) { if (typeof d.showModal === 'function') d.showModal(); else d.setAttribute('open', ''); } icons(); }
+  function closeDlg(d) { if (typeof d.close === 'function') d.close(); else d.removeAttribute('open'); }
+
+  function hunterUrl(id) {
+    var base = 'index.html';
+    return id ? base + '?focus=' + encodeURIComponent(id) : base;
+  }
+
+  /* ---------- Motor Matemático de Salud Algorítmica (0–100, paridad exacta con hub_engine.py) ---------- */
+  function computeHealthBreakdown(b) {
+    var m = b.metricas_resumen || {};
+    if (b.status !== 'activo') {
+      return {
+        score: 75.0, status: 'en_espera', label: 'EN ESPERA (STANDBY)', col: '#37B0FF', cls: 'info',
+        cPts: 25, mPts: 20, rPts: 25, vPts: 5, penalty: 0,
+        reasons: ['Negocio en preparación: las cuentas están reservadas en standby sin penalización por inactividad.']
+      };
+    }
+    var videosHoy = Number(m.videos_hoy || 0);
+    var vistasHoy = Number(m.vistas_hoy || 0);
+    var vistas7d = Number(m.vistas_ultimos_7_dias || 0);
+    var clicsHoy = Number(m.clics_tienda_hoy || 0);
+    var diasSin = Number(m.dias_sin_publicar || 0);
+    var hist = Array.isArray(b.historial_metricas) ? b.historial_metricas : [];
+    var chVids = getChannels(b).reduce(function (s, ch) { return s + Number(ch.data.videos_publicados || 0); }, 0);
+
+    if (!hist.length && videosHoy === 0 && vistasHoy === 0 && diasSin === 0 && chVids === 0) {
+      return {
+        score: 95.0, status: 'optimo', label: 'ÓPTIMO', col: '#B5FE4D', cls: 'ok',
+        cPts: 35, mPts: 25, rPts: 25, vPts: 10, penalty: 0,
+        reasons: ['Tienda activa en Día 0 / Warm-Up limpio: lista para publicar en las Ventanas de Oro EST sin penalización de shadowban.']
+      };
+    }
+
+    var ctr = Number(m.tasa_conversion_bio_pct || (vistasHoy > 0 ? (clicsHoy / vistasHoy * 100) : 0));
+    var cPts = Math.min(35, Math.round((videosHoy / 2) * 35 * 10) / 10);
+    var avgDaily = vistas7d / 7;
+    var mPts = 26;
+    if (avgDaily > 50) {
+      var ratio = vistasHoy / avgDaily;
+      mPts = ratio >= 1.0 ? 30 : ratio >= 0.7 ? 24 : ratio >= 0.35 ? 14 : 5;
+    } else if (videosHoy >= 2) {
+      mPts = 28;
+    } else if (videosHoy === 1) {
+      mPts = 20;
+    } else {
+      mPts = 10;
+    }
+    var rPts = videosHoy > 0 || diasSin === 0 ? 25 : diasSin === 1 ? 22 : diasSin === 2 ? 16 : 10;
+    var vPts = ctr >= 0.8 ? 10 : ctr >= 0.4 ? 7.5 : videosHoy > 0 ? 8 : 2.5;
+
+    var penalty = 0, reasons = [];
+    if (videosHoy > 0 && diasSin <= 2 && vistasHoy < 50) {
+      penalty += 20;
+      reasons.push('RIESGO_SHADOWBAN: publicaciones activas hoy con menos de 50 vistas (−20 pts).');
+    } else if (avgDaily >= 200 && vistasHoy < avgDaily * 0.20) {
+      penalty += 35;
+      reasons.push('posible_shadowban_detectado: Caída >80% vs promedio de 7 días (revisar IP/Proxy y pHash).');
+    }
+    if (videosHoy === 0) {
+      reasons.push('Aún no se han registrado los 2 videos del día para mantener tracción orgánica.');
+    } else {
+      reasons.push('Cadencia diaria activa (' + videosHoy + ' video(s) hoy). Triángulo Orgánico sincronizado.');
+    }
+
+    var raw = Math.max(0, Math.min(100, Math.round((cPts + mPts + rPts + vPts - penalty) * 10) / 10));
+    var st = raw >= 85 ? { status: 'optimo', label: 'ÓPTIMO', col: '#B5FE4D', cls: 'ok' } :
+             raw >= 70 ? { status: 'estable', label: 'SALUDABLE', col: '#37B0FF', cls: 'info' } :
+             raw >= 50 ? { status: 'alerta', label: 'ADVERTENCIA', col: '#E88503', cls: 'warn' } :
+                         { status: 'critico', label: 'RIESGO CRÍTICO', col: '#EF4444', cls: 'bad' };
+    return { score: raw, status: st.status, label: st.label, col: st.col, cls: st.cls, cPts: cPts, mPts: mPts, rPts: rPts, vPts: vPts, penalty: penalty, reasons: reasons };
+  }
+
+  function ringSvg(score, col) {
+    var R = 22, C = 2 * Math.PI * R, sc = isFinite(score) ? score : 0, off = C * (1 - Math.max(0, Math.min(100, sc)) / 100);
+    return '<div class="ring"><svg viewBox="0 0 54 54" aria-hidden="true"><circle cx="27" cy="27" r="' + R + '" fill="none" stroke-width="5" class="trk"/><circle cx="27" cy="27" r="' + R + '" fill="none" stroke-width="5" stroke-linecap="round" stroke="' + col + '" stroke-dasharray="' + C.toFixed(1) + '" stroke-dashoffset="' + off.toFixed(1) + '"/></svg><span>' + Math.round(sc) + '</span></div>';
+  }
+
+  /* ---------- Estado Global ---------- */
+  var state = {
+    updatedAt: INITIAL_SEED_DATA.updated_at,
+    businesses: [],
+    focusId: 'steamfur-pro',
+    view: 'clusters',
+    q: '',
+    statusFilter: 'all',
+    nicheFilter: 'all',
+    platFilter: 'all',
+    sortBy: 'hunter',
+    localMotor: false,
+    vaultUnlocked: false,
+    masked: true
+  };
+
+  function normalizeBusiness(b) {
+    var h = computeHealthBreakdown(b);
+    b.metricas_resumen = b.metricas_resumen || {};
+    b.metricas_resumen.account_health_score = h.score;
+    b.metricas_resumen.health_status = h.status;
+    return b;
+  }
+
+  function saveState(pushRemote) {
+    state.updatedAt = new Date().toISOString();
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state.businesses));
+      localStorage.setItem(STORAGE_TS_KEY, state.updatedAt);
+    } catch (e) {}
+    renderSyncLabel();
+    if (pushRemote) syncToBackend();
+  }
+
+  function ghToken() {
+    try {
+      var t = localStorage.getItem(TOKEN_KEY) || localStorage.getItem('hub_gh_token') || '';
+      if (t) return t;
+      var cfg = JSON.parse(localStorage.getItem('hunter_gh_cfg') || 'null');
+      return (cfg && cfg.token) ? String(cfg.token) : '';
+    } catch (e) { return ''; }
+  }
+  function b64e(str) { var bytes = new TextEncoder().encode(str), bin = ''; for (var i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000)); return btoa(bin); }
+  function b64d(s) { var bin = atob(String(s).replace(/\s/g, '')), bytes = new Uint8Array(bin.length); for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i); return new TextDecoder().decode(bytes); }
+
+  async function fetchPrivateRepoJson() {
+    var tok = ghToken();
+    if (!tok) return null;
+    try {
+      var r = await fetch('https://api.github.com/repos/' + REPO + '/contents/data/negocios.json', {
+        headers: {
+          'Accept': 'application/vnd.github.raw+json',
+          'Authorization': 'Bearer ' + tok,
+          'X-GitHub-Api-Version': '2022-11-28'
+        },
+        cache: 'no-store'
+      });
+      if (!r.ok) return null;
+      var j = await r.json();
+      if (j && j.content && j.encoding === 'base64') return JSON.parse(b64d(j.content));
+      return j;
+    } catch (e) { return null; }
+  }
+
+  async function loadInitialData() {
+    var remoteData = null;
+    // 1. Si estamos en el PC (127.0.0.1:8765), lee ../multi_account_hub/data/negocios.json
+    if (location.hostname === '127.0.0.1' || location.hostname === 'localhost') {
+      try {
+        var rLocal = await fetch('/multi_account_hub/data/negocios.json?t=' + Date.now(), { cache: 'no-store' });
+        if (rLocal.ok) {
+          remoteData = await rLocal.json();
+          state.localMotor = true;
+          state.vaultUnlocked = true;
+        }
+      } catch (e) {}
+    }
+    // 2. En el teléfono (github.io): usa el Token de GitHub para leer en vivo el repositorio PRIVADO multi_account_hub
+    if (!remoteData && ghToken()) {
+      var priv = await fetchPrivateRepoJson();
+      if (priv && Array.isArray(priv.businesses)) {
+        remoteData = priv;
+        state.vaultUnlocked = true;
+      }
+    }
+
+    var localRaw = null, localTs = '';
+    try {
+      localRaw = JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null');
+      localTs = localStorage.getItem(STORAGE_TS_KEY) || '';
+    } catch (e) {}
+
+    if (remoteData && Array.isArray(remoteData.businesses)) {
+      state.businesses = remoteData.businesses.map(normalizeBusiness);
+      state.updatedAt = remoteData.updated_at || INITIAL_SEED_DATA.updated_at;
+      state.masked = false;
+      document.body.classList.remove('masked');
+      saveState(false);
+    } else if (state.vaultUnlocked && localRaw && Array.isArray(localRaw) && localRaw.length) {
+      state.businesses = localRaw.map(normalizeBusiness);
+      state.updatedAt = localTs || INITIAL_SEED_DATA.updated_at;
+      state.masked = false;
+      document.body.classList.remove('masked');
+    } else {
+      state.businesses = JSON.parse(JSON.stringify(INITIAL_SEED_DATA.businesses)).map(normalizeBusiness);
+      state.updatedAt = INITIAL_SEED_DATA.updated_at;
+      state.masked = true;
+      document.body.classList.add('masked');
+    }
+
+    try {
+      var fp = new URLSearchParams(location.search).get('focus') || localStorage.getItem('antigravity_active_product');
+      if (fp && state.businesses.some(function (b) { return b.id === fp; })) state.focusId = fp;
+    } catch (e) {}
+  }
+
+  function renderVaultBanner() {
+    var box = $('vaultBanner'); if (!box) return;
+    if (state.vaultUnlocked) {
+      box.className = 'vault-banner unlocked';
+      box.innerHTML =
+        '<div><b><i data-lucide="shield-check" class="lime"></i>Bóveda Privada Desbloqueada (' + (state.localMotor ? 'PC Local' : 'GitHub API Privada') + ')</b>' +
+        '<span class="muted">Tus cuentas y credenciales reales se leen directamente desde tu repositorio privado <code>anderssonfranco78-jpg/multi_account_hub</code> sin exponerse al público.</span></div>' +
+        '<div style="display:flex;gap:8px"><button type="button" class="btn sm" data-connect><i data-lucide="github"></i>Configurar Token</button></div>';
+    } else {
+      box.className = 'vault-banner';
+      box.innerHTML =
+        '<div><b><i data-lucide="lock" class="cyan"></i>Modo Privado Activo · Tus credenciales reales están protegidas</b>' +
+        '<span class="muted">Como Claude puso tu repositorio <code>multi_account_hub</code> en <b>Privado</b> para proteger tus cuentas, esta página pública oculta tus correos y proxies a desconocidos. Toca <b>«Desbloquear Bóveda»</b> en tu teléfono para cargar tus datos reales desde GitHub.</span></div>' +
+        '<div style="display:flex;gap:8px"><button type="button" class="btn sm btn-lime" data-connect><i data-lucide="key-round"></i>Desbloquear Bóveda con tu Token</button></div>';
+    }
+  }
+
+  function renderSyncLabel() {
+    var d = new Date(state.updatedAt);
+    if (isNaN(d.getTime())) { $('syncAgo').textContent = 'al día'; return; }
+    var mins = Math.max(0, Math.floor((Date.now() - d.getTime()) / 60000));
+    $('syncAgo').textContent = mins < 1 ? 'ahora mismo' : mins < 60 ? 'hace ' + mins + ' min' : 'hace ' + Math.floor(mins / 60) + ' h';
+  }
+
+  function getChannels(b) {
+    var c = b.cluster_canales || {};
+    return [
+      { key: 'youtube_shorts', name: 'YouTube Shorts', icon: 'youtube', col: '#ff6b6b', data: c.youtube_shorts || { handle: '@canal', canal_url: '#', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0 } },
+      { key: 'instagram_reels', name: 'Instagram Reels', icon: 'instagram', col: '#f472b6', data: c.instagram_reels || { handle: '@cuenta', canal_url: '#', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0 } },
+      { key: 'facebook_reels', name: 'Facebook Reels', icon: 'facebook', col: '#60a5fa', data: c.facebook_reels || { handle: 'Página FB', canal_url: '#', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0 } }
+    ];
+  }
+  function getHooks(b) {
+    var g = b.ganchos_conversion || {};
+    if (Array.isArray(g)) return g;
+    var keys = ['gancho_1_curiosidad', 'gancho_2_agitacion', 'gancho_3_contrariano', 'gancho_4_transformacion'];
+    var out = [];
+    keys.forEach(function (k, idx) {
+      if (g[k]) out.push({
+        num: idx + 1,
+        nombre: g[k].nombre || ('Gancho #' + (idx + 1)),
+        cliente: g[k].voz_cliente || '',
+        creador: g[k].voz_creador || '',
+        sfx: g[k].sfx || 'SFX_IMPACT',
+        texto_3d: g[k].texto_3d || 'WOW'
+      });
+    });
+    return out;
+  }
+
+  var BIZ_IMAGES = {
+    'steamfur-pro': 'assets/images/steamfur.webp',
+    'prosmile-ultrasonic': 'assets/images/prosmile.webp',
+    'spinerelief-pro': 'assets/images/spinerelief.webp',
+    'aeroforce-x3': 'assets/images/aeroforce.webp'
+  };
+  function bizImg(b) {
+    return (b && b.producto_asociado && (b.producto_asociado.product_image || b.producto_asociado.image_url)) || BIZ_IMAGES[b && b.id] || '';
+  }
+
+  function syncHunterLinks() {
+    var u = hunterUrl(state.focusId);
+    ['sideHunterBtn', 'topHunterBtn', 'dockHunterBtn'].forEach(function (k) { var el = $(k); if (el) el.href = u; });
+  }
+
+  function renderSidebar() {
+    $('sideCount').textContent = String(state.businesses.length);
+    $('sideWatch').innerHTML = state.businesses.map(function (b) {
+      var h = computeHealthBreakdown(b), act = b.status === 'activo', img = bizImg(b);
+      return '<button type="button" class="wl' + (b.id === state.focusId ? ' on' : '') + '" data-focus="' + esc(b.id) + '">' +
+        (img ? '<img class="wl-thumb" src="' + esc(img) + '" alt="' + esc(b.nombre) + '" loading="lazy">' : '<span class="coin ' + (act ? '' : 'prep') + '">' + esc((b.nombre || 'B').charAt(0)) + '</span>') +
+        '<span class="wl-main"><b>' + esc(b.nombre) + '</b><small style="color:' + h.col + '">' + (act ? 'Activo · ' + h.label : 'En preparación') + '</small></span>' +
+        '<span class="wl-val"><b class="dm" style="color:' + h.col + '">' + Math.round(h.score) + '</b><small>salud</small></span>' +
+      '</button>';
+    }).join('');
+  }
+
+  function renderKPIs() {
+    var total = state.businesses.length;
+    var activos = state.businesses.filter(function (b) { return b.status === 'activo'; });
+    var nAct = activos.length;
+    var totalCanales = total * 3, canalesActivos = 0, videosHoy = 0, vistasHoy = 0, clicsHoy = 0, sumHealth = 0;
+
+    state.businesses.forEach(function (b) {
+      var h = computeHealthBreakdown(b);
+      if (b.status === 'activo') sumHealth += h.score;
+      getChannels(b).forEach(function (ch) { if (ch.data.estado === 'activo') canalesActivos++; });
+      var m = b.metricas_resumen || {};
+      videosHoy += Number(m.videos_hoy || 0);
+      vistasHoy += Number(m.vistas_hoy || 0);
+      clicsHoy += Number(m.clics_tienda_hoy || 0);
+    });
+
+    var avgHealth = nAct > 0 ? (sumHealth / nAct).toFixed(1) : '75.0';
+    $('kpi-negocios-activos').textContent = nAct + ' / ' + total;
+    $('kpi-negocios-pct').textContent = (total ? Math.round(nAct / total * 100) : 0) + '% Operativo';
+    $('kpi-canales-totales').textContent = canalesActivos + ' / ' + totalCanales + ' Canales';
+    $('kpi-canales-breakdown').textContent = total + ' YT · ' + total + ' IG · ' + total + ' FB (Triángulo Orgánico)';
+    $('kpi-salud-media').textContent = avgHealth + ' / 100';
+    $('kpi-videos-hoy').textContent = videosHoy + ' / ' + Math.max(2, nAct * 2) + ' Videos';
+    $('kpi-trafico-estimado').textContent = vistasHoy.toLocaleString('en-US') + ' vistas hoy';
+    $('kpi-clics-tienda').textContent = clicsHoy.toLocaleString('en-US') + ' Clics';
+  }
+
+  function populateSelectors() {
+    var niches = Array.from(new Set(state.businesses.map(function (b) { return b.nicho; }).filter(Boolean)));
+    $('filter-nicho').innerHTML = '<option value="all">Todos los Nichos</option>' + niches.map(function (n) {
+      return '<option value="' + esc(n) + '"' + (state.nicheFilter === n ? ' selected' : '') + '>' + esc(n) + '</option>';
+    }).join('');
+    var bOpts = state.businesses.map(function (b) { return '<option value="' + esc(b.id) + '"' + (b.id === state.focusId ? ' selected' : '') + '>' + esc(b.nombre) + '</option>'; }).join('');
+    if ($('warmupBizSel')) $('warmupBizSel').innerHTML = bOpts;
+    if ($('hashBizSel')) $('hashBizSel').innerHTML = bOpts;
+  }
+
+  function getWarmupCount(id, b) {
+    var w = getWarmup(id), c = 0;
+    ['d1', 'd2', 'd3', 'd4', 'd5'].forEach(function (k) { if (w[k]) c++; });
+    if (c === 0 && b && typeof b.warmup_day === 'number') return Math.max(0, Math.min(5, b.warmup_day));
+    if (c === 0 && b && b.status === 'activo') return 5;
+    return c;
+  }
+
+  function renderGrid() {
+    var q = state.q.toLowerCase().trim();
+    var list = state.businesses.filter(function (b) {
+      var h = computeHealthBreakdown(b);
+      if (state.statusFilter === 'activo' && b.status !== 'activo') return false;
+      if (state.statusFilter === 'en_preparacion' && b.status !== 'en_preparacion') return false;
+      if (state.statusFilter === 'archivado' && b.status !== 'archivado' && b.status !== 'reserva') return false;
+      if (state.statusFilter === 'alerta' && h.score >= 60) return false;
+      if (state.nicheFilter !== 'all' && b.nicho !== state.nicheFilter) return false;
+      if (state.platFilter !== 'all') {
+        var ch = getChannels(b).filter(function (x) { return x.key === state.platFilter; })[0];
+        if (!ch) return false;
+      }
+      if (q) {
+        var hay = [b.nombre, b.nicho, (b.producto_asociado || {}).nombre_completo, (b.credenciales_aisladas || {}).correo_gestion, (b.credenciales_aisladas || {}).proxy_asignado, b.enlace_tienda]
+          .concat(getChannels(b).map(function (c) { return c.data.handle; })).join(' ').toLowerCase();
+        if (hay.indexOf(q) < 0) return false;
+      }
+      return true;
+    }).slice().sort(function (a, b) {
+      if (state.sortBy === 'health') return computeHealthBreakdown(b).score - computeHealthBreakdown(a).score;
+      if (state.sortBy === 'margin') return Number((b.producto_asociado || {}).margen_neto_pct || 0) - Number((a.producto_asociado || {}).margen_neto_pct || 0);
+      return Number(b.score_hunter || 0) - Number(a.score_hunter || 0);
+    });
+
+    $('results-count').textContent = 'Mostrando ' + list.length + ' de ' + state.businesses.length + ' negocios (' + (list.length * 3) + ' canales)';
+    $('empty-state').hidden = list.length > 0;
+    $('businesses-grid').innerHTML = list.map(function (b) {
+      var p = b.producto_asociado || {}, cr = b.credenciales_aisladas || {}, m = b.metricas_resumen || {};
+      var h = computeHealthBreakdown(b), act = b.status === 'activo', img = bizImg(b);
+      var channels = getChannels(b), wDay = getWarmupCount(b.id, b);
+      return '<article class="bcard' + (act ? ' active-biz' : '') + (b.id === state.focusId ? ' focus-ring' : '') + '" id="card-' + esc(b.id) + '">' +
+        '<div class="bhead">' +
+          '<div class="btitle">' +
+            (img ? '<img class="bthumb" src="' + esc(img) + '" alt="' + esc(b.nombre) + '" loading="lazy">' : '') +
+            '<div style="min-width:0;flex:1">' +
+              '<div style="display:flex;flex-wrap:wrap;gap:6px;align-items:center">' +
+                '<span class="bdg ' + (act ? 'ok' : 'info') + '"><span class="sdot ' + (act ? 'ok' : 'info') + '"></span>' + (act ? 'ACTIVO EN TIENDA' : 'EN PREPARACIÓN') + '</span>' +
+                '<span class="bdg mut">' + esc(b.nicho) + '</span>' +
+                '<span class="bdg ok dm" title="Puntaje en Dropshipping Hunter">Hunter ' + (b.score_hunter || 95) + '/100</span>' +
+              '</div>' +
+              '<h2>' + esc(b.nombre) + '</h2>' +
+              '<p>' + esc(p.nombre_completo || '') + '</p>' +
+            '</div>' +
+          '</div>' +
+          '<div data-open="' + esc(b.id) + '" data-tab="salud" title="Salud algorítmica: ' + h.score + '/100 (' + h.label + '). Clic para ver el desglose matemático.">' +
+            ringSvg(h.score, h.col) +
+          '</div>' +
+        '</div>' +
+
+        '<div class="econ-strip">' +
+          '<div class="econ-cell"><small>Venta Shopify</small><b class="dm mask">' + money(p.precio_sugerido_usd) + '</b></div>' +
+          '<div class="econ-cell"><small>Costo Puesto</small><b class="dm mask">' + money(p.costo_puesto_usd) + '</b></div>' +
+          '<div class="econ-cell"><small>Ganancia Real</small><b class="dm lime mask">+' + money(p.beneficio_neto_usd) + '</b></div>' +
+          '<div class="econ-cell"><small>Videos / Vistas Hoy</small><b class="dm">' + (m.videos_hoy || 0) + 'v · ' + Number(m.vistas_hoy || 0).toLocaleString('en-US') + '</b></div>' +
+        '</div>' +
+
+        '<div class="ch-list">' +
+          channels.map(function (ch) {
+            var chOn = ch.data.estado === 'activo';
+            return '<div class="ch-row">' +
+              '<div class="ch-plat">' +
+                '<i data-lucide="' + ch.icon + '" style="color:' + ch.col + '"></i>' +
+                '<div style="min-width:0"><b>' + esc(ch.name) + '</b> <small>' + esc(ch.data.handle) + '</small></div>' +
+              '</div>' +
+              '<div class="ch-stats">' +
+                '<span title="Estado del canal"><span class="sdot ' + (chOn ? 'ok' : 'info') + '" style="display:inline-block;margin-right:4px"></span>' + (chOn ? 'Activo' : 'En espera') + '</span>' +
+                '<span><b>' + Number(ch.data.videos_publicados || 0) + '</b> vids</span>' +
+                '<span><b>' + Number(ch.data.reproducciones_totales || 0).toLocaleString('en-US') + '</b> views</span>' +
+              '</div>' +
+              '<div class="ch-acts">' +
+                '<button type="button" class="icon-btn sm" data-copy="' + esc(ch.data.handle) + '" title="Copiar handle ' + esc(ch.data.handle) + '"><i data-lucide="copy"></i></button>' +
+                '<a class="icon-btn sm" href="' + esc(ch.data.canal_url || '#') + '" target="_blank" rel="noopener noreferrer" title="Abrir canal en nueva pestaña"><i data-lucide="external-link"></i></a>' +
+              '</div>' +
+            '</div>';
+          }).join('') +
+        '</div>' +
+
+        '<div class="iso-strip">' +
+          '<span><i data-lucide="mail" style="vertical-align:-2px;margin-right:4px"></i><b class="mono mask">' + esc(cr.correo_gestion || '—') + '</b></span>' +
+          '<span><i data-lucide="shield" style="vertical-align:-2px;margin-right:4px"></i><b class="mono mask">' + esc(cr.perfil_antidetect || '—') + '</b></span>' +
+          '<a class="link mono" href="' + esc(b.enlace_tienda || '#') + '" target="_blank" rel="noopener" style="color:var(--lime);text-decoration:none"><i data-lucide="shopping-bag" style="vertical-align:-2px;margin-right:4px"></i>Tienda Shopify ↗</a>' +
+        '</div>' +
+
+        '<div class="bfoot">' +
+          '<button type="button" class="btn sm btn-lime" data-log="' + esc(b.id) + '"><i data-lucide="plus-circle"></i>Registrar Vistas / Videos Hoy</button>' +
+          '<button type="button" class="btn sm" data-warmup-plus="' + esc(b.id) + '" title="Avanzar 1 día del protocolo de calentamiento orgánico (5 días)"><i data-lucide="flame"></i>+1 Día Warmup (' + wDay + '/5)</button>' +
+          '<button type="button" class="btn sm" data-open="' + esc(b.id) + '" data-tab="credenciales"><i data-lucide="key-round"></i>Credenciales &amp; Ganchos</button>' +
+          '<button type="button" class="btn sm ghost" data-toggle-status="' + esc(b.id) + '" title="Cambiar entre Activo y En Preparación"><i data-lucide="power"></i>' + (act ? 'Poner en Espera' : 'Activar Clúster') + '</button>' +
+          '<a class="btn sm ghost" href="' + esc(hunterUrl(b.id)) + '" style="margin-left:auto" title="Ver análisis de mercado de este producto en el Hunter"><i data-lucide="crosshair"></i>Hunter</a>' +
+        '</div>' +
+      '</article>';
+    }).join('');
+  }
+
+  var WARMUP_STEPS = [
+    ['d1', 'Día 1 · Creación limpia (SIM EE. UU. / Proxy residencial)', 'Crea la cuenta desde el perfil Dolphin{anty} asignado o teléfono con SIM USA. No subas video en las primeras 24 h.'],
+    ['d2', 'Día 2 · Entrenamiento del algoritmo (15 min scroll)', 'Busca palabras del nicho en inglés (ej. «cat grooming», «pet hair hack»), mira Shorts/Reels completos y guarda 3 referentes.'],
+    ['d3', 'Día 3 · Foto de perfil, Bio D2C y enlace a Shopify', 'Coloca el logo limpio, promesa en 1 línea y el enlace directo a tu producto en Shopify.'],
+    ['d4', 'Día 4 · Primer video (Gancho #1 Curiosidad Disruptiva)', 'Sube la variante única exportada con el sanitizador Anti-Hash en la Ventana 1 (11:00 AM EST).'],
+    ['d5', 'Día 5 · Cadencia de crucero (2 videos diarios)', 'Publica en Ventana 1 (11:00 AM EST) y Ventana 2 (07:00 PM EST) y registra tus vistas aquí en el Hub.']
+  ];
+  function warmupKey(id) { return 'hub-warmup-' + id; }
+  function getWarmup(id) { try { return JSON.parse(localStorage.getItem(warmupKey(id)) || '{}') || {}; } catch (e) { return {}; } }
+  function setWarmup(id, step, val) { var w = getWarmup(id); w[step] = val; try { localStorage.setItem(warmupKey(id), JSON.stringify(w)); } catch (e) {} }
+
+  function renderWarmup() {
+    var sel = $('warmupBizSel'); if (!sel) return;
+    var id = sel.value || state.focusId, w = getWarmup(id);
+    $('warmupBody').innerHTML = WARMUP_STEPS.map(function (s) {
+      var on = !!w[s[0]];
+      return '<label class="ck' + (on ? ' done' : '') + '"><input type="checkbox" data-warm="' + esc(id + '|' + s[0]) + '"' + (on ? ' checked' : '') + '><span><b>' + esc(s[1]) + '</b><small>' + esc(s[2]) + '</small></span></label>';
+    }).join('');
+  }
+
+  function renderHealthMatrix() {
+    var tbl = $('healthMatrixTbl'); if (!tbl) return;
+    var rows = state.businesses.map(function (b) {
+      var h = computeHealthBreakdown(b);
+      return '<tr>' +
+        '<td><b>' + esc(b.nombre) + '</b><br><small class="muted">' + esc(b.nicho) + '</small></td>' +
+        '<td><span class="bdg ' + h.cls + '">' + h.label + '</span></td>' +
+        '<td class="dm" style="color:' + h.col + ';font-size:16px">' + h.score.toFixed(1) + ' / 100</td>' +
+        '<td class="dm">' + h.cPts + ' / 35</td>' +
+        '<td class="dm">' + h.mPts + ' / 30</td>' +
+        '<td class="dm">' + h.rPts + ' / 25</td>' +
+        '<td class="dm">' + h.vPts + ' / 10</td>' +
+        '<td><small class="muted">' + esc(h.reasons[0] || '') + '</small></td>' +
+        '<td><button type="button" class="btn sm btn-lime" data-log="' + esc(b.id) + '"><i data-lucide="plus"></i>Anotar hoy</button></td>' +
+      '</tr>';
+    }).join('');
+    tbl.innerHTML = '<thead><tr><th>Negocio</th><th>Estado Salud</th><th>Puntaje Total</th><th>Consistencia</th><th>Momentum</th><th>Recencia</th><th>Conversión</th><th>Diagnóstico Matemático</th><th>Acción</th></tr></thead><tbody>' + rows + '</tbody>';
+  }
+
+  function tickClocks() {
+    var now = new Date();
+    try {
+      var sv = now.toLocaleTimeString('es-SV', { timeZone: 'America/El_Salvador', hour12: true, hour: '2-digit', minute: '2-digit', second: '2-digit' });
+      var us = now.toLocaleTimeString('en-US', { timeZone: 'America/New_York', hour12: true, hour: '2-digit', minute: '2-digit', second: '2-digit' });
+      var usShort = now.toLocaleTimeString('en-US', { timeZone: 'America/New_York', hour12: true, hour: '2-digit', minute: '2-digit' });
+      if ($('clockSv')) $('clockSv').textContent = sv;
+      if ($('clockUs')) $('clockUs').textContent = us;
+      if ($('topEstClock')) $('topEstClock').textContent = usShort;
+
+      var usParts = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', hour12: false, hour: 'numeric', minute: 'numeric' }).formatToParts(now);
+      var hr = 0, mn = 0;
+      usParts.forEach(function (p) { if (p.type === 'hour') hr = parseInt(p.value, 10); if (p.type === 'minute') mn = parseInt(p.value, 10); });
+      var curMins = hr * 60 + mn, w1 = 11 * 60, w2 = 19 * 60, diff = 0, label = '';
+      if (curMins < w1) { diff = w1 - curMins; label = 'Próxima Ventana 1 (11:00 AM EST) en '; }
+      else if (curMins < w2) { diff = w2 - curMins; label = 'Próxima Ventana 2 Prime Time (07:00 PM EST) en '; }
+      else { diff = (24 * 60 - curMins) + w1; label = 'Próxima Ventana 1 mañana (11:00 AM EST) en '; }
+      var dh = Math.floor(diff / 60), dm = diff % 60;
+      if ($('nextWinTxt')) $('nextWinTxt').innerHTML = '<span class="sdot ok" style="display:inline-block;margin-right:6px"></span>' + label + '<b class="dm lime">' + dh + 'h ' + dm + 'm</b>';
+    } catch (e) {}
+  }
+
+  function renderHashCmd() {
+    var sel = $('hashBizSel'), fIn = $('hashFileIn'), out = $('hashCmdOut');
+    if (!sel || !fIn || !out) return;
+    var bId = sel.value || 'steamfur-pro';
+    var file = (fIn.value || 'video_master.mp4').trim();
+    var base = file.replace(/\.mp4$/i, '');
+    out.textContent =
+      '# Sanitizador Anti-Hash Tripartito para ' + bId + ' (PowerShell + FFmpeg)\n' +
+      'ffmpeg -y -i "' + file + '" -map_metadata -1 -vf "crop=iw*0.99:ih*0.99,scale=1080:1920,eq=contrast=1.01:saturation=1.02" -af "atempo=1.01" -c:v libx264 -b:v 8200k -c:a aac "' + base + '_YT_Shorts.mp4"\n' +
+      'ffmpeg -y -i "' + file + '" -map_metadata -1 -vf "crop=iw*0.985:ih*0.985,scale=1080:1920,eq=brightness=0.01:saturation=1.03" -af "atempo=0.99" -c:v libx264 -b:v 8500k -c:a aac "' + base + '_IG_Reels.mp4"\n' +
+      'ffmpeg -y -i "' + file + '" -map_metadata -1 -vf "crop=iw*0.992:ih*0.992,scale=1080:1920,eq=contrast=1.02" -c:v libx264 -b:v 7900k -c:a aac "' + base + '_FB_Reels.mp4"';
+  }
+
+  function openLogModal(id) {
+    var b = state.businesses.filter(function (x) { return x.id === id; })[0];
+    if (!b) return;
+    var m = b.metricas_resumen || {}, chs = getChannels(b);
+    $('logBody').innerHTML =
+      '<div class="dlg-head">' +
+        '<div><h2><i data-lucide="activity" class="lime"></i>Registrar Métricas de Hoy · ' + esc(b.nombre) + '</h2>' +
+        '<p>Al guardar, el motor recalcula al instante el puntaje de Salud Algorítmica (0–100) y sincroniza con tu repositorio privado.</p></div>' +
+        '<button type="button" class="icon-btn" data-close="logModal"><i data-lucide="x"></i></button>' +
+      '</div>' +
+      '<form class="dlg-body" id="logForm">' +
+        '<div class="fgrid">' +
+          '<label class="fld"><span>Videos publicados hoy (Meta: 2)</span><input type="number" min="0" max="20" name="videos_hoy" value="' + Number(m.videos_hoy || 0) + '"></label>' +
+          '<label class="fld"><span>Vistas totales de hoy (3 canales)</span><input type="number" min="0" step="10" name="vistas_hoy" value="' + Number(m.vistas_hoy || 0) + '"></label>' +
+          '<label class="fld"><span>Vistas últimos 7 días (acumulado)</span><input type="number" min="0" step="50" name="vistas_7d" value="' + Number(m.vistas_ultimos_7_dias || 0) + '"></label>' +
+          '<label class="fld"><span>Clics al enlace de la tienda hoy</span><input type="number" min="0" step="1" name="clics_hoy" value="' + Number(m.clics_tienda_hoy || 0) + '"></label>' +
+        '</div>' +
+        '<h4 style="margin:4px 0 0;font-size:11px;text-transform:uppercase;color:var(--mut)">Totales acumulados por canal</h4>' +
+        '<div class="fgrid">' +
+          chs.map(function (c) {
+            return '<label class="fld"><span>' + esc(c.name) + ' · Videos totales</span><input type="number" min="0" name="vids_' + c.key + '" value="' + Number(c.data.videos_publicados || 0) + '"></label>' +
+                   '<label class="fld"><span>' + esc(c.name) + ' · Reproducciones totales</span><input type="number" min="0" name="views_' + c.key + '" value="' + Number(c.data.reproducciones_totales || 0) + '"></label>';
+          }).join('') +
+        '</div>' +
+        '<div style="display:flex;justify-content:flex-end;gap:8px;padding-top:8px;border-top:1px solid var(--line)">' +
+          '<button type="button" class="btn" data-close="logModal">Cancelar</button>' +
+          '<button type="submit" class="btn btn-lime"><i data-lucide="save"></i>Guardar y Recalcular Salud</button>' +
+        '</div>' +
+      '</form>';
+    openDlg($('logModal'));
+    $('logForm').onsubmit = function (ev) {
+      ev.preventDefault();
+      var f = this.elements;
+      b.status = 'activo';
+      b.metricas_resumen = b.metricas_resumen || {};
+      b.metricas_resumen.videos_hoy = Math.max(0, parseInt(f.videos_hoy.value, 10) || 0);
+      b.metricas_resumen.vistas_hoy = Math.max(0, parseInt(f.vistas_hoy.value, 10) || 0);
+      b.metricas_resumen.vistas_ultimos_7_dias = Math.max(b.metricas_resumen.vistas_hoy, parseInt(f.vistas_7d.value, 10) || 0);
+      b.metricas_resumen.clics_tienda_hoy = Math.max(0, parseInt(f.clics_hoy.value, 10) || 0);
+      b.metricas_resumen.tasa_conversion_bio_pct = b.metricas_resumen.vistas_hoy > 0 ? Math.round((b.metricas_resumen.clics_tienda_hoy / b.metricas_resumen.vistas_hoy) * 10000) / 100 : 0;
+
+      ['youtube_shorts', 'instagram_reels', 'facebook_reels'].forEach(function (k) {
+        if (b.cluster_canales && b.cluster_canales[k]) {
+          b.cluster_canales[k].estado = 'activo';
+          b.cluster_canales[k].videos_publicados = Math.max(0, parseInt(f['vids_' + k].value, 10) || 0);
+          b.cluster_canales[k].reproducciones_totales = Math.max(0, parseInt(f['views_' + k].value, 10) || 0);
+          b.cluster_canales[k].ultimo_post = new Date().toISOString();
+        }
+      });
+      normalizeBusiness(b);
+      saveState(true);
+      renderAll();
+      closeDlg($('logModal'));
+      toast('Salud recalculada: ' + b.nombre + ' → ' + b.metricas_resumen.account_health_score + '/100', 'ok');
+    };
+  }
+
+  function openDetailModal(id, tab) {
+    var b = state.businesses.filter(function (x) { return x.id === id; })[0];
+    if (!b) return;
+    tab = tab || 'credenciales';
+    var cr = b.credenciales_aisladas || {}, p = b.producto_asociado || {}, h = computeHealthBreakdown(b), hooks = getHooks(b), chs = getChannels(b);
+
+    var tabCredHtml =
+      '<form id="editClusterForm" class="dlg-body" style="padding:0;gap:12px">' +
+        '<div class="fgrid">' +
+          '<label class="fld"><span>Correo de Gestión Aislado</span><input type="text" name="correo" value="' + esc(cr.correo_gestion || '') + '"></label>' +
+          '<label class="fld"><span>Enlace Tienda Shopify</span><input type="text" name="tienda" value="' + esc(b.enlace_tienda || '') + '"></label>' +
+          '<label class="fld"><span>Perfil Antidetect (Dolphin{anty})</span><input type="text" name="perfil" value="' + esc(cr.perfil_antidetect || '') + '"></label>' +
+          '<label class="fld"><span>Proxy Móvil EE. UU. (Sticky IP)</span><input type="text" name="proxy" value="' + esc(cr.proxy_asignado || '') + '"></label>' +
+          '<label class="fld"><span>YouTube Shorts (@handle)</span><input type="text" name="yt_h" value="' + esc(chs[0].data.handle) + '"></label>' +
+          '<label class="fld"><span>YouTube Shorts (URL)</span><input type="text" name="yt_u" value="' + esc(chs[0].data.canal_url) + '"></label>' +
+          '<label class="fld"><span>Instagram Reels (@handle)</span><input type="text" name="ig_h" value="' + esc(chs[1].data.handle) + '"></label>' +
+          '<label class="fld"><span>Instagram Reels (URL)</span><input type="text" name="ig_u" value="' + esc(chs[1].data.canal_url) + '"></label>' +
+          '<label class="fld"><span>Facebook Reels (Página)</span><input type="text" name="fb_h" value="' + esc(chs[2].data.handle) + '"></label>' +
+          '<label class="fld"><span>Facebook Reels (URL)</span><input type="text" name="fb_u" value="' + esc(chs[2].data.canal_url) + '"></label>' +
+        '</div>' +
+        '<div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;padding-top:10px;border-top:1px solid var(--line)">' +
+          '<button type="button" class="btn sm" data-copy="' + esc(cr.correo_gestion + ' | ' + cr.perfil_antidetect + ' | ' + cr.proxy_asignado) + '"><i data-lucide="copy"></i>Copiar Pack Credenciales</button>' +
+          '<button type="submit" class="btn sm btn-lime"><i data-lucide="save"></i>Guardar en Bóveda Privada</button>' +
+        '</div>' +
+      '</form>';
+
+    var tabHooksHtml =
+      '<div style="display:grid;gap:10px">' +
+        hooks.map(function (hk) {
+          var fullScript = 'HOOK (' + hk.nombre + '):\nClient: "' + hk.cliente + '"\nCreator: "' + hk.creador + '"\n3D Text: ' + hk.texto_3d + ' | SFX: ' + hk.sfx;
+          return '<div class="win-box">' +
+            '<div style="display:flex;justify-content:space-between;align-items:center;gap:8px">' +
+              '<b>' + hk.num + '. ' + esc(hk.nombre) + '</b>' +
+              '<div style="display:flex;gap:6px"><span class="bdg info dm">' + esc(hk.texto_3d) + '</span><button type="button" class="btn sm btn-lime" data-copy="' + esc(fullScript) + '"><i data-lucide="copy"></i>Copiar Guion</button></div>' +
+            '</div>' +
+            '<p style="margin:4px 0 0;font-size:12px;color:#d8d8d8"><b>Voz Cliente (0–3s):</b> «' + esc(hk.cliente) + '»</p>' +
+            '<p style="margin:2px 0 0;font-size:12px;color:var(--lime)"><b>Voz Creador (3–22s):</b> «' + esc(hk.creador) + '»</p>' +
+          '</div>';
+        }).join('') +
+      '</div>';
+
+    var tabSaludHtml =
+      '<div style="display:grid;gap:12px">' +
+        '<div class="win-box" style="display:flex;flex-direction:row;align-items:center;gap:14px">' +
+          ringSvg(h.score, h.col) +
+          '<div><b style="font-size:15px;color:' + h.col + '">Salud Algorítmica: ' + h.score.toFixed(1) + ' / 100 (' + h.label + ')</b>' +
+          '<p style="margin:4px 0 0;font-size:12px;color:var(--mut)">' + esc(h.reasons.join(' ')) + '</p></div>' +
+        '</div>' +
+        '<div class="fgrid">' +
+          '<div class="win-box"><div style="display:flex;justify-content:space-between"><span>1. Consistencia Diaria</span><b class="dm">' + h.cPts + ' / 35 pts</b></div><div class="bar"><i style="width:' + (h.cPts / 35 * 100) + '%"></i></div><small class="muted">Meta: 2 videos diarios por negocio activo.</small></div>' +
+          '<div class="win-box"><div style="display:flex;justify-content:space-between"><span>2. Momentum de Vistas</span><b class="dm">' + h.mPts + ' / 30 pts</b></div><div class="bar"><i style="width:' + (h.mPts / 30 * 100) + '%"></i></div><small class="muted">Compara las vistas de hoy contra la media móvil de 7 días.</small></div>' +
+          '<div class="win-box"><div style="display:flex;justify-content:space-between"><span>3. Recencia de Posteo</span><b class="dm">' + h.rPts + ' / 25 pts</b></div><div class="bar"><i style="width:' + (h.rPts / 25 * 100) + '%"></i></div><small class="muted">Penaliza si pasan más de 48 h sin publicar en cuentas activas.</small></div>' +
+          '<div class="win-box"><div style="display:flex;justify-content:space-between"><span>4. Conversión Bio D2C</span><b class="dm">' + h.vPts + ' / 10 pts</b></div><div class="bar"><i style="width:' + (h.vPts / 10 * 100) + '%"></i></div><small class="muted">Clics al enlace de Shopify sobre vistas totales.</small></div>' +
+        '</div>' +
+      '</div>';
+
+    $('detailBody').innerHTML =
+      '<div class="dlg-head">' +
+        '<div><h2><i data-lucide="layers" class="cyan"></i>' + esc(b.nombre) + ' · Centro de Comando</h2>' +
+        '<p>' + esc(p.nombre_completo || '') + ' · Costo puesto ' + money(p.costo_puesto_usd) + ' → Venta ' + money(p.precio_sugerido_usd) + '</p></div>' +
+        '<button type="button" class="icon-btn" data-close="detailModal"><i data-lucide="x"></i></button>' +
+      '</div>' +
+      '<div class="dlg-body">' +
+        '<div class="seg" id="dlgTabs">' +
+          '<button type="button" data-dtab="credenciales" class="' + (tab === 'credenciales' ? 'on' : '') + '">1. Credenciales &amp; Canales</button>' +
+          '<button type="button" data-dtab="ganchos" class="' + (tab === 'ganchos' ? 'on' : '') + '">2. Los 4 Ganchos Virales</button>' +
+          '<button type="button" data-dtab="salud" class="' + (tab === 'salud' ? 'on' : '') + '">3. Fórmula de Salud (' + Math.round(h.score) + '/100)</button>' +
+        '</div>' +
+        '<div id="dtab-credenciales"' + (tab === 'credenciales' ? '' : ' hidden') + '>' + tabCredHtml + '</div>' +
+        '<div id="dtab-ganchos"' + (tab === 'ganchos' ? '' : ' hidden') + '>' + tabHooksHtml + '</div>' +
+        '<div id="dtab-salud"' + (tab === 'salud' ? '' : ' hidden') + '>' + tabSaludHtml + '</div>' +
+      '</div>';
+
+    openDlg($('detailModal'));
+    $('dlgTabs').onclick = function (e) {
+      var bt = e.target.closest('[data-dtab]'); if (!bt) return;
+      var k = bt.dataset.dtab;
+      ['credenciales', 'ganchos', 'salud'].forEach(function (x) { $('dtab-' + x).hidden = x !== k; });
+      $('dlgTabs').querySelectorAll('button').forEach(function (el) { el.classList.toggle('on', el.dataset.dtab === k); });
+    };
+    var form = $('editClusterForm');
+    if (form) {
+      form.onsubmit = function (ev) {
+        ev.preventDefault();
+        var f = this.elements;
+        b.enlace_tienda = f.tienda.value.trim();
+        b.credenciales_aisladas = b.credenciales_aisladas || {};
+        b.credenciales_aisladas.correo_gestion = f.correo.value.trim();
+        b.credenciales_aisladas.perfil_antidetect = f.perfil.value.trim();
+        b.credenciales_aisladas.proxy_asignado = f.proxy.value.trim();
+        b.cluster_canales = b.cluster_canales || {};
+        if (b.cluster_canales.youtube_shorts) { b.cluster_canales.youtube_shorts.handle = f.yt_h.value.trim(); b.cluster_canales.youtube_shorts.canal_url = f.yt_u.value.trim(); }
+        if (b.cluster_canales.instagram_reels) { b.cluster_canales.instagram_reels.handle = f.ig_h.value.trim(); b.cluster_canales.instagram_reels.canal_url = f.ig_u.value.trim(); }
+        if (b.cluster_canales.facebook_reels) { b.cluster_canales.facebook_reels.handle = f.fb_h.value.trim(); b.cluster_canales.facebook_reels.canal_url = f.fb_u.value.trim(); }
+        saveState(true);
+        renderAll();
+        closeDlg($('detailModal'));
+        toast('Clúster ' + b.nombre + ' actualizado', 'ok');
+      };
+    }
+  }
+
+  function openNewBizModal() {
+    $('newBizBody').innerHTML =
+      '<div class="dlg-head">' +
+        '<div><h2><i data-lucide="plus-circle" class="lime"></i>Incorporar Nuevo Negocio Ganador al Hub</h2>' +
+        '<p>Crea su clúster aislado con sus 3 cuentas del Triángulo Orgánico (YouTube Shorts, Instagram Reels, Facebook Reels).</p></div>' +
+        '<button type="button" class="icon-btn" data-close="newBizModal"><i data-lucide="x"></i></button>' +
+      '</div>' +
+      '<form class="dlg-body" id="newBizForm">' +
+        '<div class="fgrid">' +
+          '<label class="fld"><span>Nombre de Marca</span><input type="text" name="nombre" required placeholder="Ej. AquaGlow Pro™"></label>' +
+          '<label class="fld"><span>Nicho</span><input type="text" name="nicho" required placeholder="Belleza, Mascotas, Hogar…"></label>' +
+          '<label class="fld full"><span>Nombre Completo del Producto</span><input type="text" name="producto" required placeholder="Ej. AquaGlow Pro™ — Limpiador Ultrasónico Facial"></label>' +
+          '<label class="fld"><span>Precio de Venta Shopify (USD)</span><input type="number" step="0.01" name="srp" value="34.99" required></label>' +
+          '<label class="fld"><span>Costo Proveedor + Envío (USD)</span><input type="number" step="0.01" name="landed" value="8.50" required></label>' +
+          '<label class="fld"><span>Correo Aislado</span><input type="email" name="correo" required placeholder="ops.aquaglow@gmail.com"></label>' +
+          '<label class="fld"><span>Enlace Tienda Shopify</span><input type="url" name="tienda" required placeholder="https://ralfandco.myshopify.com/products/aquaglow"></label>' +
+          '<label class="fld"><span>YouTube Shorts (@handle)</span><input type="text" name="yt" placeholder="@AquaGlowPro"></label>' +
+          '<label class="fld"><span>Instagram Reels (@handle)</span><input type="text" name="ig" placeholder="@aquaglow.pro"></label>' +
+          '<label class="fld full"><span>Facebook Reels (Nombre Página)</span><input type="text" name="fb" placeholder="AquaGlow Official"></label>' +
+        '</div>' +
+        '<div style="display:flex;justify-content:flex-end;gap:8px;padding-top:8px;border-top:1px solid var(--line)">' +
+          '<button type="button" class="btn" data-close="newBizModal">Cancelar</button>' +
+          '<button type="submit" class="btn btn-lime"><i data-lucide="check"></i>Crear Clúster en el Hub</button>' +
+        '</div>' +
+      '</form>';
+    openDlg($('newBizModal'));
+    $('newBizForm').onsubmit = function (ev) {
+      ev.preventDefault();
+      var f = this.elements;
+      var nombre = f.nombre.value.trim();
+      var slug = nombre.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || ('negocio-' + Date.now());
+      var srp = parseFloat(f.srp.value) || 34.99;
+      var landed = parseFloat(f.landed.value) || 8.50;
+      var gw = srp * 0.0349 + 0.49, br = landed * 0.15, cb = srp * 0.01;
+      var profit = Math.round((srp - landed - gw - br - cb) * 100) / 100;
+      var margin = Math.round((profit / srp) * 10000) / 100;
+      var markup = Math.round((srp / Math.max(0.01, landed)) * 100) / 100;
+
+      var nb = normalizeBusiness({
+        id: slug,
+        nombre: nombre,
+        nicho: f.nicho.value.trim(),
+        producto_asociado: {
+          nombre_completo: f.producto.value.trim(),
+          categoria: f.nicho.value.trim(),
+          precio_sugerido_usd: srp,
+          costo_proveedor_usd: Math.round(landed * 0.65 * 100) / 100,
+          costo_envio_usd: Math.round(landed * 0.35 * 100) / 100,
+          costo_puesto_usd: landed,
+          beneficio_neto_usd: profit,
+          margen_neto_pct: margin,
+          markup_multiplier: markup,
+          linea_logistica: 'AliExpress Choice (7–11 días a EE. UU.)'
+        },
+        score_hunter: 95.0,
+        enlace_tienda: f.tienda.value.trim(),
+        cluster_canales: {
+          youtube_shorts: { handle: f.yt.value.trim() || ('@' + slug), canal_url: 'https://www.youtube.com/', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0 },
+          instagram_reels: { handle: f.ig.value.trim() || ('@' + slug), canal_url: 'https://www.instagram.com/', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0 },
+          facebook_reels: { handle: f.fb.value.trim() || (nombre + ' Official'), canal_url: 'https://www.facebook.com/', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0 }
+        },
+        credenciales_aisladas: {
+          correo_gestion: f.correo.value.trim(),
+          perfil_antidetect: 'Profile-Dolphin-' + slug,
+          proxy_asignado: 'us-res-sticky.proxy-pool.net:8080'
+        },
+        metricas_resumen: { videos_hoy: 0, vistas_hoy: 0, clics_tienda_hoy: 0, vistas_ultimos_7_dias: 0, tasa_conversion_bio_pct: 0, account_health_score: 75.0, health_status: 'en_espera' },
+        ganchos_conversion: INITIAL_SEED_DATA.businesses[0].ganchos_conversion,
+        status: 'en_preparacion',
+        created_at: new Date().toISOString()
+      });
+      state.businesses.unshift(nb);
+      state.focusId = nb.id;
+      saveState(true);
+      populateSelectors();
+      renderAll();
+      closeDlg($('newBizModal'));
+      toast('Negocio ' + nb.nombre + ' incorporado con éxito', 'ok');
+    };
+  }
+
+  async function syncToBackend() {
+    var payload = { version: '1.1.0', updated_at: state.updatedAt, total_businesses: state.businesses.length, businesses: state.businesses };
+    var endpoints = ['http://127.0.0.1:8765/api/hub/save', LOCAL_API + '/api/save'];
+    for (var i = 0; i < endpoints.length; i++) {
+      try {
+        var r = await fetch(endpoints[i], { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
+        if (r.ok) { state.localMotor = true; state.vaultUnlocked = true; updateCentinelaBadge(); toast('Guardado en data/negocios.json (PC)', 'ok', 2200); return true; }
+      } catch (e) {}
+    }
+    var tok = ghToken();
+    if (tok) {
+      try {
+        var headers = { 'Accept': 'application/vnd.github+json', 'Authorization': 'Bearer ' + tok, 'X-GitHub-Api-Version': '2022-11-28', 'Content-Type': 'application/json' };
+        var getRes = await fetch('https://api.github.com/repos/' + REPO + '/contents/data/negocios.json?ref=master', { headers: headers, cache: 'no-store' });
+        if (getRes.ok) {
+          var meta = await getRes.json();
+          var putRes = await fetch('https://api.github.com/repos/' + REPO + '/contents/data/negocios.json', {
+            method: 'PUT',
+            headers: headers,
+            body: JSON.stringify({ message: '🛡️ chore(hub): actualizacion desde Boveda Movil [skip ci]', content: b64e(JSON.stringify(payload, null, 2) + '\n'), sha: meta.sha, branch: 'master' })
+          });
+          if (putRes.ok) { toast('Guardado en tu repositorio privado multi_account_hub', 'ok', 2800); return true; }
+        }
+      } catch (e) {}
+    }
+    return false;
+  }
+
+  async function triggerLiveRefresh() {
+    $('refreshLbl').textContent = 'Sincronizando…';
+    var refreshEndpoints = ['http://127.0.0.1:8765/api/hub/refresh', LOCAL_API + '/api/refresh'];
+    for (var k = 0; k < refreshEndpoints.length; k++) {
+      try {
+        var rf = await fetch(refreshEndpoints[k], { method: 'POST' });
+        if (rf.ok) { state.localMotor = true; state.vaultUnlocked = true; break; }
+      } catch (e) {}
+    }
+    if (ghToken()) {
+      var priv = await fetchPrivateRepoJson();
+      if (priv && Array.isArray(priv.businesses)) {
+        state.businesses = priv.businesses.map(normalizeBusiness);
+        state.updatedAt = priv.updated_at || new Date().toISOString();
+        state.vaultUnlocked = true;
+        state.masked = false;
+        document.body.classList.remove('masked');
+      }
+      try {
+        await fetch('https://api.github.com/repos/' + REPO + '/actions/workflows/centinela_metricas.yml/dispatches', {
+          method: 'POST',
+          headers: { 'Accept': 'application/vnd.github+json', 'Authorization': 'Bearer ' + ghToken(), 'X-GitHub-Api-Version': '2022-11-28', 'Content-Type': 'application/json' },
+          body: JSON.stringify({ ref: 'master' })
+        });
+      } catch (e) {}
+    }
+    state.businesses = state.businesses.map(normalizeBusiness);
+    saveState(state.vaultUnlocked);
+    renderAll();
+    $('refreshLbl').textContent = 'Sincronizar Salud';
+    toast(state.vaultUnlocked ? 'Bóveda privada sincronizada y salud recalculada' : 'Salud recalculada · Conecta tu Token para leer tu repositorio privado', state.vaultUnlocked ? 'ok' : 'info');
+  }
+
+  function openConnectModal() {
+    var on = !!ghToken();
+    $('infoBody').innerHTML =
+      '<div class="dlg-head"><div><h2><i data-lucide="key-round" class="lime"></i>' + (state.vaultUnlocked ? 'Bóveda Privada Desbloqueada en este Teléfono' : 'Desbloquear tu Bóveda Privada (multi_account_hub)') + '</h2>' +
+      '<p>Ve tus cuentas privadas desde el teléfono sin hacer público tu repositorio.</p></div><button type="button" class="icon-btn" data-close="infoModal"><i data-lucide="x"></i></button></div>' +
+      '<div class="dlg-body">' +
+        '<div class="win-box">' +
+          '<b>¿Por qué estaba dando error el link anterior en el teléfono?</b>' +
+          '<small class="muted">Claude puso <code>anderssonfranco78-jpg/multi_account_hub</code> en <b>Privado</b> para proteger tus cuentas, y GitHub gratuito apaga GitHub Pages cuando un repositorio pasa a privado. Ahora entras por este link (<code>/dropshipping_hunter/cuentas.html</code>) y tu teléfono descarga tus datos privados usando tu código personal:</small>' +
+        '</div>' +
+        '<ol style="margin:0;padding-left:18px;color:#d6d6d6;font-size:12.5px;line-height:1.6">' +
+          '<li>Si ya conectaste el Hunter en tu teléfono, asegúrate de que tu permiso (Token) en GitHub tenga seleccionados <b>ambos repositorios</b>: <code>dropshipping_hunter</code> y <code>multi_account_hub</code> (con permisos <b>Actions: Read &amp; write</b> y <b>Contents: Read &amp; write</b>).</li>' +
+          '<li>Pega tu código <code>github_pat_...</code> aquí abajo y toca <b>Desbloquear Bóveda</b>.</li>' +
+        '</ol>' +
+        '<label class="fld"><span>Código del permiso (GitHub Token)</span><input type="password" id="ghTokIn" value="' + esc(ghToken()) + '" placeholder="github_pat_…"></label>' +
+        '<div style="display:flex;flex-wrap:wrap;gap:8px">' +
+          '<button type="button" class="btn btn-lime" id="saveGhTokBtn"><i data-lucide="unlock"></i>Desbloquear Bóveda Ahora</button>' +
+          '<a class="btn" href="https://github.com/settings/personal-access-tokens" target="_blank" rel="noopener"><i data-lucide="external-link"></i>Abrir mis Tokens en GitHub</a>' +
+          (on ? '<button type="button" class="btn btn-red" id="clearGhTokBtn"><i data-lucide="lock"></i>Bloquear / Cerrar sesión</button>' : '') +
+        '</div>' +
+      '</div>';
+    openDlg($('infoModal'));
+    $('saveGhTokBtn').onclick = async function () {
+      var v = ($('ghTokIn').value || '').trim();
+      if (!v) { toast('Escribe tu código github_pat_…', 'warn'); return; }
+      try {
+        localStorage.setItem(TOKEN_KEY, v);
+        localStorage.setItem('hub_gh_token', v);
+      } catch (e) {}
+      var priv = await fetchPrivateRepoJson();
+      if (priv && Array.isArray(priv.businesses)) {
+        state.businesses = priv.businesses.map(normalizeBusiness);
+        state.updatedAt = priv.updated_at || new Date().toISOString();
+        state.vaultUnlocked = true;
+        state.masked = false;
+        document.body.classList.remove('masked');
+        saveState(false);
+        populateSelectors();
+        renderAll();
+        closeDlg($('infoModal'));
+        toast('🔓 ¡Bóveda privada desbloqueada! Tus cuentas reales están cargadas.', 'ok', 4500);
+      } else {
+        updateCentinelaBadge();
+        closeDlg($('infoModal'));
+        toast('Token guardado, pero aún no tiene permiso sobre multi_account_hub. Agrega multi_account_hub en Repository access.', 'warn', 6500);
+      }
+    };
+    if ($('clearGhTokBtn')) $('clearGhTokBtn').onclick = function () {
+      try {
+        localStorage.removeItem(TOKEN_KEY);
+        localStorage.removeItem('hub_gh_token');
+        localStorage.removeItem(STORAGE_KEY);
+      } catch (e) {}
+      state.vaultUnlocked = false;
+      state.masked = true;
+      document.body.classList.add('masked');
+      state.businesses = JSON.parse(JSON.stringify(INITIAL_SEED_DATA.businesses)).map(normalizeBusiness);
+      renderAll();
+      closeDlg($('infoModal'));
+      toast('🔒 Bóveda bloqueada en este dispositivo', 'info');
+    };
+  }
+
+  function openHelpModal() {
+    openConnectModal();
+  }
+
+  function updateCentinelaBadge() {
+    var ok = state.vaultUnlocked || state.localMotor;
+    $('centChip').className = 'chip ' + (ok ? 'ok' : 'info');
+    $('centPing').className = 'ping ' + (ok ? '' : 'info');
+    $('centTxt').textContent = state.localMotor ? 'PC Conectado' : ok ? 'Bóveda Desbloqueada' : '🔒 Bóveda Protegida';
+    if ($('srcVaultDot')) $('srcVaultDot').className = 'sdot ' + (ok ? 'ok' : 'info');
+    if ($('srcVaultVal')) $('srcVaultVal').textContent = ok ? 'DESBLOQUEADO' : 'PROTEGIDO';
+    if ($('srcCloudVal')) $('srcCloudVal').textContent = ok ? 'CONECTADO' : 'CADA 6 H';
+  }
+
+  function setView(v) {
+    if (v === 'negocios') v = 'clusters';
+    else if (v === 'rotacion' || v === 'creativos') v = 'reloj';
+    else if (v === 'salud') v = 'escudo';
+    if (['clusters', 'reloj', 'escudo'].indexOf(v) < 0) v = 'clusters';
+    state.view = v;
+    document.body.dataset.view = v;
+    document.querySelectorAll('#viewSeg button').forEach(function (b) { b.classList.toggle('on', b.dataset.view === v); });
+    document.querySelectorAll('.dock .tab').forEach(function (b) { b.classList.toggle('on', b.dataset.tab === v); });
+    document.body.classList.remove('side-open');
+  }
+  window.switchTab = setView;
+
+  function renderAll() {
+    syncHunterLinks();
+    renderVaultBanner();
+    renderSyncLabel();
+    renderSidebar();
+    renderKPIs();
+    renderGrid();
+    renderWarmup();
+    renderHealthMatrix();
+    renderHashCmd();
+    updateCentinelaBadge();
+    icons();
+  }
+
+  document.addEventListener('click', function (e) {
+    var t = e.target.closest('[data-view],[data-tab],[data-focus],[data-st],[data-copy],[data-log],[data-open],[data-toggle-status],[data-warmup-plus],[data-close],[data-newbiz],[data-connect],[data-export],[data-help],[data-eye],[data-src]');
+    if (!t) return;
+    if (t.dataset.close) { closeDlg($(t.dataset.close)); return; }
+    if (t.dataset.view) { setView(t.dataset.view); return; }
+    if (t.dataset.tab && !t.dataset.open) { setView(t.dataset.tab); return; }
+    if (t.dataset.focus) {
+      state.focusId = t.dataset.focus;
+      try { localStorage.setItem('antigravity_active_product', state.focusId); } catch (err) {}
+      setView('clusters');
+      renderAll();
+      var card = $('card-' + state.focusId);
+      if (card) card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      return;
+    }
+    if (t.dataset.st) {
+      state.statusFilter = t.dataset.st;
+      document.querySelectorAll('#statusChips .tchip').forEach(function (b) { b.classList.toggle('on', b.dataset.st === state.statusFilter); });
+      renderGrid(); icons(); return;
+    }
+    if (t.dataset.copy != null) { copyText(t.dataset.copy, 'Copiado: ' + t.dataset.copy.slice(0, 50)); return; }
+    if (t.dataset.log) { openLogModal(t.dataset.log); return; }
+    if (t.dataset.open) { openDetailModal(t.dataset.open, t.dataset.tab || 'credenciales'); return; }
+    if (t.dataset.warmupPlus) {
+      var wb = state.businesses.filter(function (x) { return x.id === t.dataset.warmupPlus; })[0];
+      if (wb) {
+        var w = getWarmup(wb.id);
+        var nextStep = WARMUP_STEPS.filter(function (s) { return !w[s[0]]; })[0];
+        if (nextStep) setWarmup(wb.id, nextStep[0], true);
+        var wNow = getWarmup(wb.id);
+        var doneCount = WARMUP_STEPS.filter(function (s) { return wNow[s[0]]; }).length;
+        wb.warmup_day = doneCount;
+        saveState(true);
+        renderAll();
+        toast(wb.nombre + ': Warm-Up Día ' + doneCount + '/5 completado', 'ok');
+      }
+      return;
+    }
+    if (t.dataset.toggleStatus) {
+      var b = state.businesses.filter(function (x) { return x.id === t.dataset.toggleStatus; })[0];
+      if (b) {
+        b.status = b.status === 'activo' ? 'en_preparacion' : 'activo';
+        getChannels(b).forEach(function (ch) { ch.data.estado = b.status === 'activo' ? 'activo' : 'pausado'; });
+        normalizeBusiness(b);
+        saveState(true);
+        renderAll();
+        toast(b.nombre + ' ahora está ' + (b.status === 'activo' ? 'ACTIVO' : 'EN PREPARACIÓN'), 'ok');
+      }
+      return;
+    }
+    if (t.hasAttribute('data-newbiz')) { openNewBizModal(); return; }
+    if (t.hasAttribute('data-connect')) { openConnectModal(); return; }
+    if (t.hasAttribute('data-help')) { openHelpModal(); return; }
+    if (t.hasAttribute('data-eye')) {
+      var m = document.body.classList.toggle('masked');
+      state.masked = m;
+      toast(m ? 'Cifras y credenciales ocultas' : 'Cifras visibles', 'info', 1600);
+      return;
+    }
+    if (t.dataset.src) { toast(t.dataset.src, 'info', 5500); return; }
+    if (t.hasAttribute('data-export')) {
+      var blob = new Blob([JSON.stringify({ version: '1.1.0', updated_at: state.updatedAt, total_businesses: state.businesses.length, businesses: state.businesses }, null, 2)], { type: 'application/json' });
+      var a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'negocios.json';
+      a.click();
+      toast('Archivo negocios.json descargado', 'ok');
+      return;
+    }
+  });
+
+  document.addEventListener('change', function (e) {
+    var w = e.target.closest('[data-warm]');
+    if (w) {
+      var p = w.dataset.warm.split('|');
+      setWarmup(p[0], p[1], w.checked);
+      w.closest('.ck').classList.toggle('done', w.checked);
+      toast(w.checked ? 'Paso de Warm-Up completado' : 'Paso desmarcado', 'ok', 1400);
+    }
+  });
+
+  $('searchInput').addEventListener('input', function (e) { state.q = e.target.value; renderGrid(); icons(); });
+  $('filter-nicho').addEventListener('change', function (e) { state.nicheFilter = e.target.value; renderGrid(); icons(); });
+  $('filter-plataforma').addEventListener('change', function (e) { state.platFilter = e.target.value; renderGrid(); icons(); });
+  if ($('sortSelect')) $('sortSelect').addEventListener('change', function (e) { state.sortBy = e.target.value; renderGrid(); icons(); });
+  $('resetFiltersBtn').addEventListener('click', function () {
+    state.q = ''; state.statusFilter = 'all'; state.nicheFilter = 'all'; state.platFilter = 'all'; state.sortBy = 'hunter';
+    $('searchInput').value = ''; $('filter-nicho').value = 'all'; $('filter-plataforma').value = 'all';
+    if ($('sortSelect')) $('sortSelect').value = 'hunter';
+    document.querySelectorAll('#statusChips .tchip').forEach(function (b) { b.classList.toggle('on', b.dataset.st === 'all'); });
+    renderGrid(); icons();
+  });
+  $('warmupBizSel').addEventListener('change', function () { renderWarmup(); icons(); });
+  $('hashBizSel').addEventListener('change', renderHashCmd);
+  $('hashFileIn').addEventListener('input', renderHashCmd);
+  $('copyHashCmdBtn').addEventListener('click', function () { copyText($('hashCmdOut').textContent, 'Comandos FFmpeg Anti-Hash copiados'); });
+  $('refreshBtn').addEventListener('click', triggerLiveRefresh);
+  $('dockRefreshBtn').addEventListener('click', triggerLiveRefresh);
+  $('centChip').addEventListener('click', openConnectModal);
+  $('menuBtn').addEventListener('click', function () { document.body.classList.add('side-open'); });
+  $('sideClose').addEventListener('click', function () { document.body.classList.remove('side-open'); });
+  $('scrim').addEventListener('click', function () { document.body.classList.remove('side-open'); });
+  $('importJsonIn').addEventListener('change', function (e) {
+    var file = e.target.files && e.target.files[0]; if (!file) return;
+    var reader = new FileReader();
+    reader.onload = function () {
+      try {
+        var parsed = JSON.parse(String(reader.result || '{}'));
+        var arr = Array.isArray(parsed) ? parsed : parsed.businesses;
+        if (!Array.isArray(arr) || !arr.length) throw new Error('JSON sin lista businesses');
+        state.businesses = arr.map(normalizeBusiness);
+        state.vaultUnlocked = true;
+        state.masked = false;
+        document.body.classList.remove('masked');
+        saveState(true); populateSelectors(); renderAll();
+        toast('Importados ' + state.businesses.length + ' negocios correctamente', 'ok');
+      } catch (err) { toast('Archivo JSON inválido: ' + err.message, 'bad'); }
+    };
+    reader.readAsText(file);
+  });
+  $('resetSeedBtn').addEventListener('click', function () {
+    try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+    state.businesses = JSON.parse(JSON.stringify(INITIAL_SEED_DATA.businesses)).map(normalizeBusiness);
+    populateSelectors(); renderAll();
+    toast('Caché local limpiada', 'ok');
+  });
+  ['detailModal', 'logModal', 'newBizModal', 'infoModal'].forEach(function (id) {
+    $(id).addEventListener('click', function (e) { if (e.target === this) closeDlg(this); });
+  });
+
+  loadInitialData().then(function () {
+    populateSelectors();
+    tickClocks();
+    renderAll();
+    ['http://127.0.0.1:8765/api/hub/status', LOCAL_API + '/api/status'].forEach(function (u) {
+      fetch(u, { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (st) {
+        if (st && st.available) { state.localMotor = true; state.vaultUnlocked = true; updateCentinelaBadge(); renderVaultBanner(); icons(); }
+      }).catch(function () {});
+    });
+  });
+  setInterval(tickClocks, 1000);
+  setInterval(renderSyncLabel, 30000);
+})();
+</script>
+</body>
+</html>
