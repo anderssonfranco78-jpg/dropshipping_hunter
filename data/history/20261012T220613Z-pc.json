@@ -1,0 +1,46 @@
+{
+ "generated_at": "2026-10-12 22:06:13 UTC",
+ "source": "pc",
+ "products": {
+  "prosmile-ultrasonic": {
+   "rank": 1,
+   "base": "VIGILAR",
+   "code": "VIGILAR",
+   "score": 90.0,
+   "market": 40,
+   "overall": 65,
+   "profit": 23.5,
+   "tier": "WINNER"
+  },
+  "spinerelief-pro": {
+   "rank": 2,
+   "base": "VIGILAR",
+   "code": "VIGILAR",
+   "score": 87.0,
+   "market": 40,
+   "overall": 64,
+   "profit": 35.01,
+   "tier": "WINNER"
+  },
+  "steamfur-pro": {
+   "rank": 3,
+   "base": "VIGILAR",
+   "code": "VIGILAR",
+   "score": 87.0,
+   "market": 20,
+   "overall": 54,
+   "profit": 18.64,
+   "tier": "WINNER"
+  },
+  "aeroforce-x3": {
+   "rank": 4,
+   "base": "VIGILAR",
+   "code": "VIGILAR",
+   "score": 87.0,
+   "market": 20,
+   "overall": 54,
+   "profit": 37.49,
+   "tier": "WINNER"
+  }
+ }
+}

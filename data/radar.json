@@ -1,24 +1,19 @@
 {
- "updated_at": "2026-10-15 02:00:50 UTC",
+ "updated_at": "2026-10-15 07:48:23 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
     "keyword": "cat water fountain",
-    "shorts_found": 30,
-    "median_views_top10": 70500,
+    "shorts_found": 31,
+    "median_views_top10": 34000,
     "max_views": 6000000,
-    "over_100k": 4,
-    "over_1m": 2,
+    "over_100k": 3,
+    "over_1m": 1,
     "top": [
      {
       "title": "Anti-Gravity Water Fountain For Cats #goodtoknow #vet #medicine #educational #funfacts #lifehacks",
       "views": 6000000,
       "url": "https://www.youtube.com/shorts/dKXyh-A32Kk"
-     },
-     {
-      "title": "Pancake conquered every water bowl… now he’s successfully flipped a water fountain too 😂🤦‍♀️ #cats",
-      "views": 1500000,
-      "url": "https://www.youtube.com/shorts/rBaK8rAAXnE"
      },
      {
       "title": "Cat water fountain upgrade🐱 linked in bio on Amazon! #catwaterbowl #catwaterfountain #amazongadgets",
@@ -31,47 +26,52 @@
       "url": "https://www.youtube.com/shorts/8KEjHa5Lbk0"
      },
      {
-      "title": "The #1 Vet Recommended Cat Fountain 😸",
-      "views": 72000,
-      "url": "https://www.youtube.com/shorts/a5CPvyFg4vE"
+      "title": "Pet Water fountain #cat #petpet #catlover",
+      "views": 67000,
+      "url": "https://www.youtube.com/shorts/Jr34_GU6htg"
+     },
+     {
+      "title": "Created a budget-friendly water fountain \"Who says luxury can't be affordable?\" #shorts #diy #viral",
+      "views": 35000,
+      "url": "https://www.youtube.com/shorts/63fTmgqdbgA"
      }
     ],
     "status": "LIVE"
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": -19.0,
+    "momentum_pct": -19.9,
     "low_volume": false,
-    "peak_ratio": 0.38,
-    "mean_recent": 37.8
+    "peak_ratio": 0.36,
+    "mean_recent": 36.5
    },
    "trends_series": [
-    83,
+    80,
+    59,
+    46,
+    45,
+    68,
+    82,
     61,
-    47,
-    47,
     69,
-    84,
-    63,
-    70,
-    95,
+    92,
     100,
-    95,
-    64,
-    54,
-    40,
+    93,
+    63,
+    52,
+    38,
     39,
-    40,
-    36,
+    39,
+    35,
     37,
     36,
     34,
-    39,
-    45,
-    40,
-    36,
     38,
-    37
+    43,
+    39,
+    35,
+    36,
+    36
    ],
    "trends_status": "LIVE",
    "rising": [
@@ -103,26 +103,26 @@
    "rising_at": "2026-10-12 10:07:17 UTC",
    "market": {
     "score": 57,
-    "video_score": 76,
+    "video_score": 68,
     "trend_score": 40,
     "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 70K vistas (el mayor, 6M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -19% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 34K vistas (el mayor, 6M)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Google (EE. UU.): baja -20% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 21:02:48 UTC",
-   "trends_at": "2026-10-12 11:25:23 UTC"
+   "measured_at": "2026-10-13 14:20:30 UTC",
+   "trends_at": "2026-10-13 14:20:30 UTC"
   },
   "dog-paw-cleaner": {
    "youtube": {
     "keyword": "dog paw cleaner cup",
-    "shorts_found": 32,
-    "median_views_top10": 20000,
+    "shorts_found": 34,
+    "median_views_top10": 5350,
     "max_views": 43000000,
-    "over_100k": 3,
+    "over_100k": 1,
     "over_1m": 1,
     "top": [
      {
@@ -131,9 +131,9 @@
       "url": "https://www.youtube.com/shorts/OsTk6ZC1qyI"
      },
      {
-      "title": "An automatic paw cleaner 🙌🐾 #dog #dogs #paw #paws #clean",
-      "views": 653000,
-      "url": "https://www.youtube.com/shorts/j_aMdxdU0IA"
+      "title": "Muddy Paws to Spotless in Seconds 🐾",
+      "views": 32000,
+      "url": "https://www.youtube.com/shorts/ViPe6dsmhXQ"
      },
      {
       "title": "Is this the best way to clean muddy paws? #dogproducts #trending",
@@ -149,6 +149,16 @@
       "title": "Muddy paws? 🐾 This paw cleaner cup for dogs #shorts",
       "views": 27000,
       "url": "https://www.youtube.com/shorts/w_7DDnZijRA"
+     },
+     {
+      "title": "Portable Silicone Pet Paw Cleaner Cup 🐶🐱 #shorts",
+      "views": 13000,
+      "url": "https://www.youtube.com/shorts/TkDQWcR11xg"
+     },
+     {
+      "title": "Automatic Pet Paw Cleaning Cup🐾",
+      "views": 7000,
+      "url": "https://www.youtube.com/shorts/OwgMSB1xhek"
      }
     ],
     "status": "LIVE"
@@ -215,31 +225,26 @@
     "crowding": "baja",
     "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 20K vistas (el mayor, 43M)",
+     "Shorts: los 10 más vistos tienen una mediana de 5K vistas (el mayor, 43M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google: casi no se busca por nombre (normal en gadgets que se descubren en video)"
     ]
    },
-   "measured_at": "2026-10-14 21:02:52 UTC",
+   "measured_at": "2026-10-13 14:20:55 UTC",
    "trends_at": "2026-10-12 11:25:32 UTC"
   },
   "lick-mat": {
    "youtube": {
     "keyword": "dog lick mat",
-    "shorts_found": 31,
-    "median_views_top10": 51500,
-    "max_views": 33000000,
-    "over_100k": 3,
-    "over_1m": 1,
+    "shorts_found": 30,
+    "median_views_top10": 8700,
+    "max_views": 425000,
+    "over_100k": 2,
+    "over_1m": 0,
     "top": [
      {
-      "title": "Lick mat time for Bubu🪻 #animalshorts #cat #pets #cuteanimals",
-      "views": 33000000,
-      "url": "https://www.youtube.com/shorts/SK7mEiQv6ow"
-     },
-     {
       "title": "*ASMR* PUPPY LICK MAT! #asmr #restock #dog #petproducts #amazonstorefront",
-      "views": 424000,
+      "views": 425000,
       "url": "https://www.youtube.com/shorts/MYuszDwVx7A"
      },
      {
@@ -248,14 +253,19 @@
       "url": "https://www.youtube.com/shorts/qsDBnYsiTnM"
      },
      {
-      "title": "Healthy lick mat recipe for my dogs 🐟👅🐕 #shorts",
-      "views": 77000,
-      "url": "https://www.youtube.com/shorts/8tG4rZZaEoE"
+      "title": "Perfect lick mat for any dog! #shorts #dachshund #lickmat #enrichment #dogenrichment #dogs",
+      "views": 19000,
+      "url": "https://www.youtube.com/shorts/MBO-h6SpZtM"
      },
      {
-      "title": "Healthy lick mats for rescue dogs 🥛🥩🦮🥹 #shorts #dog",
-      "views": 68000,
-      "url": "https://www.youtube.com/shorts/0ObRdWf1Rzo"
+      "title": "Lick mat for my puppy 🤎🐶 #puppy #dogtreats #dogparents #lickmat",
+      "views": 18000,
+      "url": "https://www.youtube.com/shorts/xjBhfVQ1Km0"
+     },
+     {
+      "title": "Benefits Of Lick Mats For Dogs #shorts",
+      "views": 11000,
+      "url": "https://www.youtube.com/shorts/gOpe_vJBv7o"
      }
     ],
     "status": "LIVE"
@@ -297,25 +307,25 @@
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 60,
-    "video_score": 73,
+    "score": 48,
+    "video_score": 53,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 52K vistas (el mayor, 33M)",
+     "Shorts: los 10 más vistos tienen una mediana de 9K vistas (el mayor, 425K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -21% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 21:02:57 UTC",
-   "trends_at": "2026-10-12 11:25:40 UTC"
+   "measured_at": "2026-10-15 07:48:06 UTC",
+   "trends_at": "2026-10-12 11:25 UTC"
   },
   "laser-cat-toy": {
    "youtube": {
     "keyword": "automatic laser cat toy",
     "shorts_found": 34,
-    "median_views_top10": 2700,
+    "median_views_top10": 9600,
     "max_views": 115000,
     "over_100k": 1,
     "over_1m": 0,
@@ -336,14 +346,14 @@
       "url": "https://www.youtube.com/shorts/vxGaDmFDJ5U"
      },
      {
-      "title": "Unleash the Fun with the Automatic Cat Laser Toy!",
-      "views": 6200,
-      "url": "https://www.youtube.com/shorts/9g3XGmWfgXs"
+      "title": "Electric Smart Amusing Collar for Kitten Laser Pointer Collar Automatic Cat Laser Collar Toy",
+      "views": 21000,
+      "url": "https://www.youtube.com/shorts/t173J1350bk"
      },
      {
-      "title": "The Automatic Laser Toy That Babysits Your Cat 🐈",
-      "views": 3100,
-      "url": "https://www.youtube.com/shorts/c-U_Ooz3k6U"
+      "title": "This USB rechargeable cat laser toy = hours of fun and zero effort – get it!",
+      "views": 13000,
+      "url": "https://www.youtube.com/shorts/UaF5az6Futo"
      }
     ],
     "status": "LIVE"
@@ -385,19 +395,19 @@
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 41,
-    "video_score": 41,
+    "score": 49,
+    "video_score": 55,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 3K vistas (el mayor, 115K)",
+     "Shorts: los 10 más vistos tienen una mediana de 10K vistas (el mayor, 115K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -15% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 21:03:01 UTC",
-   "trends_at": "2026-10-12 11:25:50 UTC"
+   "measured_at": "2026-10-15 07:48:10 UTC",
+   "trends_at": "2026-10-12 11:25 UTC"
   },
   "pet-hair-roller": {
    "youtube": {
@@ -984,26 +994,16 @@
   "oil-sprayer": {
    "youtube": {
     "keyword": "oil sprayer for cooking",
-    "shorts_found": 31,
-    "median_views_top10": 224500,
+    "shorts_found": 30,
+    "median_views_top10": 78500,
     "max_views": 2000000,
-    "over_100k": 7,
-    "over_1m": 2,
+    "over_100k": 4,
+    "over_1m": 1,
     "top": [
      {
       "title": "Testing a 2 in 1 Oil Dispenser and Sprayer from Amazon!",
       "views": 2000000,
       "url": "https://www.youtube.com/shorts/d6SRz7v1KCg"
-     },
-     {
-      "title": "olive oil spray & dispenser online shopping finds 🛍️🛒 #oildispenser #oliveoil #utilityproducts",
-      "views": 1700000,
-      "url": "https://www.youtube.com/shorts/UgXlrSlRKNY"
-     },
-     {
-      "title": "Oil Dispenser For Cooking #shorts",
-      "views": 485000,
-      "url": "https://www.youtube.com/shorts/V3WsN0FO6Rs"
      },
      {
       "title": "Oil spray bottle for cooking review|Glass oil dispenser bottle",
@@ -1014,6 +1014,16 @@
       "title": "Oil bottle. Cooking oil spray #temu #temuproducts #amazon #amazonfinds #amazonproducts",
       "views": 262000,
       "url": "https://www.youtube.com/shorts/wtNoU2NCGRI"
+     },
+     {
+      "title": "This oil sprayer is a kitchen must have!",
+      "views": 187000,
+      "url": "https://www.youtube.com/shorts/vf0SyHgKJe4"
+     },
+     {
+      "title": "You need these new reusable oil sprayers!",
+      "views": 90000,
+      "url": "https://www.youtube.com/shorts/eF8nHEeWFQs"
      }
     ],
     "status": "LIVE"
@@ -1021,18 +1031,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 56,
-    "video_score": 89,
+    "score": 54,
+    "video_score": 77,
     "trend_score": 20,
-    "crowding": "media",
+    "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 224K vistas (el mayor, 2M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 78K vistas (el mayor, 2M)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -36% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 21:03:05 UTC",
+   "measured_at": "2026-10-15 07:48:13 UTC",
    "trends": {
     "momentum_pct": -36.3,
     "low_volume": false,
@@ -1067,7 +1077,7 @@
     11,
     12
    ],
-   "trends_at": "2026-10-12 12:08:23 UTC",
+   "trends_at": "2026-10-12 12:08 UTC",
    "rising": [
     {
      "query": "roundup backpack sprayer",
@@ -1099,20 +1109,15 @@
   "milk-frother": {
    "youtube": {
     "keyword": "electric milk frother",
-    "shorts_found": 33,
-    "median_views_top10": 191000,
-    "max_views": 7100000,
-    "over_100k": 6,
-    "over_1m": 1,
+    "shorts_found": 32,
+    "median_views_top10": 9100,
+    "max_views": 438000,
+    "over_100k": 2,
+    "over_1m": 0,
     "top": [
      {
-      "title": "Best Useful Home Product - Milk Frother !! ✨✨#viral #gadgets  #telugu  #india  #shorts #instacuppa",
-      "views": 7100000,
-      "url": "https://www.youtube.com/shorts/iUm2Ms9woD0"
-     },
-     {
       "title": "Best Handheld Milk Frothers for Coffee Lovers – Buyer’s Guide",
-      "views": 437000,
+      "views": 438000,
       "url": "https://www.youtube.com/shorts/RXTOnRtgcoM"
      },
      {
@@ -1121,14 +1126,19 @@
       "url": "https://www.youtube.com/shorts/U7xJwL3hREA"
      },
      {
-      "title": "How to froth milk, taught by Luna! #shorts",
-      "views": 259000,
-      "url": "https://www.youtube.com/shorts/JEDq_99rtWY"
+      "title": "Tiny Electric Milk Frother ☕ | Satisfying Miniature Coffee ASMR",
+      "views": 40000,
+      "url": "https://www.youtube.com/shorts/1rtWYm49YuI"
      },
      {
-      "title": "DEVINC 4-in-1 Milk Frother and Steamer Hot & Cold Foam Maker with Auto Shut-Off  #coffee  #homecafe",
-      "views": 200000,
-      "url": "https://www.youtube.com/shorts/380SI1BaBC4"
+      "title": "💡Mixer Milk Frother Handheld USB, Rechargeable Electric Coffee Beater💥 || #twrvoice #shortsfeed ||",
+      "views": 20000,
+      "url": "https://www.youtube.com/shorts/ljaYqPB8qpM"
+     },
+     {
+      "title": "BEST Rechargeable COFFEE FROTHER | Portable MILK FROTHER #coffee #coffeelover #milk #shorts #asmr",
+      "views": 11000,
+      "url": "https://www.youtube.com/shorts/3LvqclL6m9k"
      }
     ],
     "status": "LIVE"
@@ -1136,18 +1146,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 68,
-    "video_score": 87,
+    "score": 48,
+    "video_score": 54,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 191K vistas (el mayor, 7.1M)",
+     "Shorts: los 10 más vistos tienen una mediana de 9K vistas (el mayor, 438K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -11% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 21:03:09 UTC",
+   "measured_at": "2026-10-15 07:48:16 UTC",
    "trends": {
     "momentum_pct": -11.2,
     "low_volume": false,
@@ -1182,7 +1192,7 @@
     32,
     32
    ],
-   "trends_at": "2026-10-12 12:08:34 UTC",
+   "trends_at": "2026-10-12 12:08 UTC",
    "rising": [
     {
      "query": "rechargeable milk frother",
@@ -1214,26 +1224,21 @@
   "red-light-wand": {
    "youtube": {
     "keyword": "red light therapy wand",
-    "shorts_found": 41,
-    "median_views_top10": 92500,
-    "max_views": 283000,
-    "over_100k": 5,
+    "shorts_found": 29,
+    "median_views_top10": 14800,
+    "max_views": 73000,
+    "over_100k": 0,
     "over_1m": 0,
     "top": [
      {
-      "title": "Red Light Therapy: Reverse Eye Aging in 3 Minutes!",
-      "views": 283000,
-      "url": "https://www.youtube.com/shorts/IB6UrhJPmuQ"
+      "title": "Red-Light-Therapy-for-Face and Neck, Red Light Therapy Wand, 7 Color Led Face Neck",
+      "views": 73000,
+      "url": "https://www.youtube.com/shorts/7R581NGCnSs"
      },
      {
-      "title": "Red Light Therapy At-Home #shorts",
-      "views": 201000,
-      "url": "https://www.youtube.com/shorts/z_H2t6cJBLk"
-     },
-     {
-      "title": "Red Light Therapy Explained in 60 Seconds 🔴 (What It Really Does to Your Body)",
-      "views": 194000,
-      "url": "https://www.youtube.com/shorts/Ik1ZWkjPkA0"
+      "title": "Red Light Therapy Mask goes wrong... #shorts",
+      "views": 36000,
+      "url": "https://www.youtube.com/shorts/MBogyfP54xM"
      },
      {
       "title": "This FDA Approved Red Light Therapy Changed My LIFE!",
@@ -1241,9 +1246,14 @@
       "url": "https://www.youtube.com/shorts/R5POhcY24AQ"
      },
      {
-      "title": "Red light LED therapy that actually works by Use my code ‘DRJEN’ for 15% off! 🚨 #currentbody",
-      "views": 105000,
-      "url": "https://www.youtube.com/shorts/jBqAHDPitCg"
+      "title": "Using  the Sola Wave Wand Red Light Therapy & the Activating Serum #solawavewand #shorts",
+      "views": 29000,
+      "url": "https://www.youtube.com/shorts/T-6rB7NqWs0"
+     },
+     {
+      "title": "Which red light therapy wand benefits are you most excited about? ✨ #solawavewand #solawave",
+      "views": 23000,
+      "url": "https://www.youtube.com/shorts/g0E7ZIQa5Qk"
      }
     ],
     "status": "LIVE"
@@ -1251,18 +1261,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 63,
-    "video_score": 79,
+    "score": 51,
+    "video_score": 59,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 92K vistas (el mayor, 283K)",
+     "Shorts: los 10 más vistos tienen una mediana de 15K vistas (el mayor, 73K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -17% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-15 02:00:31 UTC",
+   "measured_at": "2026-10-15 07:48:20 UTC",
    "trends": {
     "momentum_pct": -16.8,
     "low_volume": false,
@@ -1302,8 +1312,8 @@
   "scalp-massager": {
    "youtube": {
     "keyword": "electric scalp massager",
-    "shorts_found": 32,
-    "median_views_top10": 3200000,
+    "shorts_found": 31,
+    "median_views_top10": 1500000,
     "max_views": 51000000,
     "over_100k": 19,
     "over_1m": 7,
@@ -1345,12 +1355,12 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 3.2M vistas (el mayor, 51M)",
-     "Competencia alta: 7 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 1.5M vistas (el mayor, 51M)",
+     "Competencia alta: 6 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -31% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-15 02:00:35 UTC",
+   "measured_at": "2026-10-15 07:48:23 UTC",
    "trends": {
     "momentum_pct": -31.2,
     "low_volume": false,
@@ -1600,26 +1610,25 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 69,
-    "video_score": 89,
+    "score": 40,
+    "video_score": null,
     "trend_score": 40,
-    "crowding": "baja",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 230K vistas (el mayor, 529K)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
-     "Google (EE. UU.): baja -24% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: sin datos en vivo en esta corrida",
+     "Google (EE. UU.): baja -23% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 02:19:10 UTC",
+   "measured_at": "2026-10-12 22:05:45 UTC",
    "trends": {
-    "momentum_pct": -24.0,
+    "momentum_pct": -23.0,
     "low_volume": false,
-    "peak_ratio": 0.23,
-    "mean_recent": 23.5
+    "peak_ratio": 0.24,
+    "mean_recent": 23.8
    },
    "trends_series": [
     100,
@@ -1629,13 +1638,13 @@
     78,
     82,
     49,
-    51,
+    52,
     65,
     57,
     59,
     36,
     35,
-    29,
+    28,
     26,
     30,
     26,
@@ -1646,10 +1655,10 @@
     31,
     29,
     22,
-    20,
+    21,
     23
    ],
-   "trends_at": "2026-10-12 20:29 UTC",
+   "trends_at": "2026-10-12 22:05:44 UTC",
    "rising": [
     {
      "query": "mediness neck massager",
@@ -1657,7 +1666,7 @@
     },
     {
      "query": "cervical pillow",
-     "growth": "+350%"
+     "growth": "+300%"
     },
     {
      "query": "cervical neck pillow",
@@ -1668,15 +1677,15 @@
      "growth": "+250%"
     },
     {
-     "query": "cervical neck traction device",
-     "growth": "+190%"
+     "query": "cervical traction device",
+     "growth": "+200%"
     },
     {
-     "query": "neck traction",
+     "query": "cervical neck traction device",
      "growth": "+190%"
     }
    ],
-   "rising_at": "2026-10-12 20:29:12 UTC"
+   "rising_at": "2026-10-12 22:05:45 UTC"
   },
   "foot-massager": {
    "youtube": {
@@ -1715,30 +1724,29 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 61,
-    "video_score": 84,
+    "score": 40,
+    "video_score": null,
     "trend_score": 40,
-    "crowding": "media",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 142K vistas (el mayor, 131M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -23% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: sin datos en vivo en esta corrida",
+     "Google (EE. UU.): baja -24% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 02:19:13 UTC",
+   "measured_at": "2026-10-12 22:05:52 UTC",
    "trends": {
-    "momentum_pct": -23.2,
+    "momentum_pct": -23.7,
     "low_volume": false,
     "peak_ratio": 0.21,
-    "mean_recent": 21.5
+    "mean_recent": 21.2
    },
    "trends_series": [
     82,
-    65,
+    64,
     49,
     56,
     65,
@@ -1747,7 +1755,7 @@
     54,
     65,
     67,
-    65,
+    64,
     37,
     29,
     26,
@@ -1756,15 +1764,15 @@
     24,
     22,
     21,
-    23,
+    22,
     22,
     22,
     20,
     23,
     20,
-    23
+    22
    ],
-   "trends_at": "2026-10-12 20:29 UTC",
+   "trends_at": "2026-10-12 22:05:50 UTC",
    "rising": [
     {
      "query": "ornexis foot massager",
@@ -1787,11 +1795,11 @@
      "growth": "+1,250%"
     },
     {
-     "query": "human touch reflex sol foot and calf massager",
-     "growth": "+800%"
+     "query": "emsense foot massager",
+     "growth": "+350%"
     }
    ],
-   "rising_at": "2026-10-12 20:29:19 UTC"
+   "rising_at": "2026-10-12 22:05:52 UTC"
   },
   "heated-eye-massager": {
    "youtube": {
@@ -1830,26 +1838,25 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 43,
-    "video_score": 59,
+    "score": 20,
+    "video_score": null,
     "trend_score": 20,
-    "crowding": "baja",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 14K vistas (el mayor, 47K)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
-     "Google (EE. UU.): baja -28% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: sin datos en vivo en esta corrida",
+     "Google (EE. UU.): baja -29% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 02:19:16 UTC",
+   "measured_at": "2026-10-12 22:05:58 UTC",
    "trends": {
-    "momentum_pct": -27.6,
+    "momentum_pct": -28.6,
     "low_volume": false,
     "peak_ratio": 0.14,
-    "mean_recent": 14.0
+    "mean_recent": 13.8
    },
    "trends_series": [
     100,
@@ -1859,13 +1866,13 @@
     75,
     80,
     47,
-    46,
+    45,
     58,
     59,
     55,
     25,
     22,
-    16,
+    15,
     15,
     12,
     16,
@@ -1877,9 +1884,9 @@
     15,
     17,
     11,
-    13
+    12
    ],
-   "trends_at": "2026-10-12 20:29 UTC"
+   "trends_at": "2026-10-12 22:05:58 UTC"
   },
   "mini-massage-gun": {
    "youtube": {
@@ -1918,26 +1925,25 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 66,
-    "video_score": 84,
+    "score": 40,
+    "video_score": null,
     "trend_score": 40,
-    "crowding": "baja",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 150K vistas (el mayor, 1.3M)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
-     "Google (EE. UU.): baja -21% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: sin datos en vivo en esta corrida",
+     "Google (EE. UU.): baja -22% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 02:19:19 UTC",
+   "measured_at": "2026-10-12 22:06:03 UTC",
    "trends": {
-    "momentum_pct": -21.1,
+    "momentum_pct": -21.7,
     "low_volume": false,
     "peak_ratio": 0.33,
-    "mean_recent": 33.2
+    "mean_recent": 33.0
    },
    "trends_series": [
     82,
@@ -1947,27 +1953,27 @@
     67,
     78,
     63,
-    81,
+    80,
     83,
     71,
     78,
     43,
     41,
-    38,
+    37,
     37,
     37,
     36,
     37,
     49,
     36,
-    35,
+    36,
     39,
     32,
-    33,
+    32,
     34,
     34
    ],
-   "trends_at": "2026-10-12 20:29 UTC"
+   "trends_at": "2026-10-12 22:06:03 UTC"
   },
   "car-gap-filler": {
    "youtube": {
@@ -2006,21 +2012,20 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 42,
-    "video_score": 57,
+    "score": 20,
+    "video_score": null,
     "trend_score": 20,
-    "crowding": "baja",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 12K vistas (el mayor, 582K)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Shorts: sin datos en vivo en esta corrida",
      "Google (EE. UU.): baja -48% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 10:42:31 UTC",
+   "measured_at": "2026-10-12 22:06:09 UTC",
    "trends": {
     "momentum_pct": -47.7,
     "low_volume": false,
@@ -2029,7 +2034,7 @@
    },
    "trends_series": [
     100,
-    91,
+    90,
     62,
     46,
     53,
@@ -2055,7 +2060,7 @@
     5,
     6
    ],
-   "trends_at": "2026-10-12 20:29 UTC"
+   "trends_at": "2026-10-12 22:06:09 UTC"
   },
   "cordless-car-vacuum": {
    "youtube": {
@@ -2094,26 +2099,25 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 62,
-    "video_score": 99,
+    "score": 20,
+    "video_score": null,
     "trend_score": 20,
-    "crowding": "media",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 595K vistas (el mayor, 2.6M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -43% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: sin datos en vivo en esta corrida",
+     "Google (EE. UU.): baja -42% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 10:42:34 UTC",
+   "measured_at": "2026-10-12 22:06:13 UTC",
    "trends": {
-    "momentum_pct": -43.1,
+    "momentum_pct": -42.1,
     "low_volume": false,
-    "peak_ratio": 0.17,
-    "mean_recent": 17.5
+    "peak_ratio": 0.18,
+    "mean_recent": 17.8
    },
    "trends_series": [
     100,
@@ -2123,12 +2127,12 @@
     69,
     65,
     52,
-    50,
+    49,
     65,
     64,
     72,
     35,
-    32,
+    31,
     24,
     28,
     28,
@@ -2138,12 +2142,12 @@
     26,
     23,
     20,
-    18,
+    19,
     19,
     16,
     17
    ],
-   "trends_at": "2026-10-12 20:29 UTC"
+   "trends_at": "2026-10-12 22:06:13 UTC"
   },
   "magsafe-car-mount": {
    "youtube": {
@@ -2182,21 +2186,20 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 59,
-    "video_score": 94,
+    "score": 20,
+    "video_score": null,
     "trend_score": 20,
-    "crowding": "media",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 356K vistas (el mayor, 7.2M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Shorts: sin datos en vivo en esta corrida",
      "Google (EE. UU.): baja -30% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 10:42:38 UTC",
+   "measured_at": "2026-10-13 03:36:02 UTC",
    "trends": {
     "momentum_pct": -29.8,
     "low_volume": false,
@@ -2231,15 +2234,15 @@
     17,
     19
    ],
-   "trends_at": "2026-10-13 03:39 UTC",
+   "trends_at": "2026-10-13 03:35:59 UTC",
    "rising": [
     {
      "query": "car phone mount battery degradation",
      "growth": "Breakout"
     },
     {
-     "query": "phone stand for car",
-     "growth": "+150%"
+     "query": "phone mount in car",
+     "growth": "+100%"
     },
     {
      "query": "magnetic phone mount for car",
@@ -2250,15 +2253,15 @@
      "growth": "+60%"
     },
     {
-     "query": "magnetic phone holder",
-     "growth": "+50%"
+     "query": "magnetic car phone mount",
+     "growth": "+60%"
     },
     {
      "query": "magsafe phone mount",
      "growth": "+50%"
     }
    ],
-   "rising_at": "2026-10-13 03:39:28 UTC"
+   "rising_at": "2026-10-13 03:36:02 UTC"
   },
   "magnetic-power-bank": {
    "youtube": {
@@ -2297,21 +2300,20 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 53,
-    "video_score": 84,
+    "score": 20,
+    "video_score": null,
     "trend_score": 20,
-    "crowding": "media",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 144K vistas (el mayor, 4.9M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Shorts: sin datos en vivo en esta corrida",
      "Google (EE. UU.): baja -44% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 10:42:41 UTC",
+   "measured_at": "2026-10-13 03:36:10 UTC",
    "trends": {
     "momentum_pct": -44.0,
     "low_volume": false,
@@ -2346,7 +2348,7 @@
     9,
     9
    ],
-   "trends_at": "2026-10-13 03:39 UTC",
+   "trends_at": "2026-10-13 03:36:08 UTC",
    "rising": [
     {
      "query": "xiaomi ultrathin magnetic power bank 5000",
@@ -2357,23 +2359,23 @@
      "growth": "Breakout"
     },
     {
-     "query": "anker maggo 2 pro magnetic power bank",
-     "growth": "Breakout"
-    },
-    {
-     "query": "xiaomi ultrathin magnetic power bank 5000 15w",
-     "growth": "+300%"
-    },
-    {
-     "query": "xiaomi ultrathin magnetic power bank",
-     "growth": "+300%"
-    },
-    {
      "query": "ridge magnetic power bank",
      "growth": "+170%"
+    },
+    {
+     "query": "belkin magnetic wireless power bank",
+     "growth": "+90%"
+    },
+    {
+     "query": "belkin boostcharge pro magnetic power bank 5k",
+     "growth": "+80%"
+    },
+    {
+     "query": "slim magnetic power bank",
+     "growth": "+70%"
     }
    ],
-   "rising_at": "2026-10-13 03:39:34 UTC"
+   "rising_at": "2026-10-13 03:36:10 UTC"
   },
   "sunset-lamp": {
    "youtube": {
@@ -2412,21 +2414,20 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 59,
-    "video_score": 93,
+    "score": 20,
+    "video_score": null,
     "trend_score": 20,
-    "crowding": "media",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 334K vistas (el mayor, 2.1M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Shorts: sin datos en vivo en esta corrida",
      "Google (EE. UU.): baja -32% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 10:42:44 UTC",
+   "measured_at": "2026-10-13 03:36:16 UTC",
    "trends": {
     "momentum_pct": -31.8,
     "low_volume": false,
@@ -2461,7 +2462,7 @@
     22,
     22
    ],
-   "trends_at": "2026-10-13 03:39 UTC"
+   "trends_at": "2026-10-13 03:36:16 UTC"
   },
   "galaxy-projector": {
    "youtube": {
@@ -2500,21 +2501,20 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 56,
-    "video_score": 88,
+    "score": 20,
+    "video_score": null,
     "trend_score": 20,
-    "crowding": "media",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 214K vistas (el mayor, 9.5M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Shorts: sin datos en vivo en esta corrida",
      "Google (EE. UU.): baja -34% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 10:42:47 UTC",
+   "measured_at": "2026-10-13 03:36:22 UTC",
    "trends": {
     "momentum_pct": -33.6,
     "low_volume": false,
@@ -2549,7 +2549,7 @@
     20,
     17
    ],
-   "trends_at": "2026-10-13 03:39 UTC"
+   "trends_at": "2026-10-13 03:36:22 UTC"
   },
   "sleep-headband": {
    "youtube": {
@@ -2588,21 +2588,20 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 48,
-    "video_score": 66,
+    "score": 20,
+    "video_score": null,
     "trend_score": 20,
-    "crowding": "baja",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 27K vistas (el mayor, 962K)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Shorts: sin datos en vivo en esta corrida",
      "Google (EE. UU.): baja -37% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 16:02:29 UTC",
+   "measured_at": "2026-10-13 03:36:27 UTC",
    "trends": {
     "momentum_pct": -37.1,
     "low_volume": false,
@@ -2637,7 +2636,7 @@
     7,
     7
    ],
-   "trends_at": "2026-10-13 03:39 UTC"
+   "trends_at": "2026-10-13 03:36:27 UTC"
   },
   "baby-nail-trimmer": {
    "youtube": {
@@ -2676,21 +2675,20 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 59,
-    "video_score": 93,
+    "score": 20,
+    "video_score": null,
     "trend_score": 20,
-    "crowding": "media",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 330K vistas (el mayor, 2.8M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Shorts: sin datos en vivo en esta corrida",
      "Google (EE. UU.): baja -30% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 16:02:31 UTC",
+   "measured_at": "2026-10-13 03:36:34 UTC",
    "trends": {
     "momentum_pct": -30.3,
     "low_volume": false,
@@ -2725,7 +2723,7 @@
     8,
     11
    ],
-   "trends_at": "2026-10-13 03:39 UTC"
+   "trends_at": "2026-10-13 03:36:34 UTC"
   },
   "lcd-drawing-tablet": {
    "youtube_status": "NO_LIVE_DATA",
@@ -2741,78 +2739,99 @@
      "Google (EE. UU.): baja -46% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 16:02:35 UTC",
+   "measured_at": "2026-10-13 14:20:00 UTC",
    "trends": {
-    "momentum_pct": -45.7,
+    "momentum_pct": -46.2,
     "low_volume": false,
     "peak_ratio": 0.09,
-    "mean_recent": 9.0
+    "mean_recent": 8.8
    },
    "trends_series": [
     100,
-    62,
-    44,
+    64,
+    51,
     56,
-    68,
-    66,
-    40,
+    69,
+    63,
+    43,
     41,
-    44,
+    41,
     39,
-    30,
-    29,
-    20,
+    26,
+    23,
+    18,
     22,
     0,
-    14,
-    20,
-    10,
     13,
-    10,
     17,
+    11,
     14,
-    14,
+    16,
+    17,
+    18,
+    13,
     0,
     9,
     13
    ],
-   "trends_at": "2026-10-13 04:05 UTC",
-   "rising": [],
-   "rising_at": "2026-10-13 04:05:39 UTC"
+   "trends_at": "2026-10-13 14:19:50 UTC",
+   "rising": [
+    {
+     "query": "mafiti lcd writing tablet",
+     "growth": "+190%"
+    },
+    {
+     "query": "richgv lcd writing tablet",
+     "growth": "+140%"
+    },
+    {
+     "query": "8.5 lcd writing tablet",
+     "growth": "+50%"
+    },
+    {
+     "query": "bravokids lcd writing tablet",
+     "growth": "+50%"
+    },
+    {
+     "query": "boogie board lcd writing tablet",
+     "growth": "+40%"
+    }
+   ],
+   "rising_at": "2026-10-13 14:20:00 UTC"
   },
   "solar-garden-lights": {
    "youtube": {
     "keyword": "solar garden lights",
-    "shorts_found": 30,
-    "median_views_top10": 482000,
-    "max_views": 48000000,
-    "over_100k": 10,
-    "over_1m": 3,
+    "shorts_found": 31,
+    "median_views_top10": 58500,
+    "max_views": 2300000,
+    "over_100k": 4,
+    "over_1m": 1,
     "top": [
      {
-      "title": "Solar garden lamp street lamp #solarcharging",
-      "views": 48000000,
-      "url": "https://www.youtube.com/shorts/z0hfmm4hQZQ"
+      "title": "Viral solar lights from Meesho #solarlight #viralfinds #meeshohaul #shortsindia #shorts",
+      "views": 2300000,
+      "url": "https://www.youtube.com/shorts/tbv-J6axspk"
      },
      {
-      "title": "My neighbor laughed at me when I said I could remove the haze in 1 second! #diyhome #diy #diyhacks",
-      "views": 8700000,
-      "url": "https://www.youtube.com/shorts/CWah1yzRJTA"
+      "title": "⚡Solar Powered Wall Light #walllights #solarlight  #lighting",
+      "views": 430000,
+      "url": "https://www.youtube.com/shorts/y8UnY40K-0I"
      },
      {
-      "title": "Product Link in Bio ( 414 ) ▶️ Solar-Powered Floating Jellyfish Garden Lights⁠",
-      "views": 1000000,
-      "url": "https://www.youtube.com/shorts/HcWUfkm2BBM"
+      "title": "Amazon Solar Lights for Your Backyard Deck Patio Garden! #amazonstyle",
+      "views": 297000,
+      "url": "https://www.youtube.com/shorts/yy6Czrz9sTk"
      },
      {
-      "title": "Try this Solar lights hack to decorate any outdoor space 🤩 super easy and affordable",
-      "views": 653000,
-      "url": "https://www.youtube.com/shorts/aHZVZEP1siU"
+      "title": "A Colorful Solar Light for Your Home#short",
+      "views": 147000,
+      "url": "https://www.youtube.com/shorts/o3xkq8A0sP8"
      },
      {
-      "title": "How I use Dollar Tree solar lights to save $$$ #dollartree",
-      "views": 532000,
-      "url": "https://www.youtube.com/shorts/gCqR3Hlq7RE"
+      "title": "Solar Light for Balcony and Garden Decoration #shorts #gadgets #solarlight #products",
+      "views": 83000,
+      "url": "https://www.youtube.com/shorts/XngCpsLV9YE"
      }
     ],
     "status": "LIVE"
@@ -2820,95 +2839,90 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 79,
-    "video_score": 97,
+    "score": 70,
+    "video_score": 74,
     "trend_score": 65,
-    "crowding": "media",
+    "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 482K vistas (el mayor, 48M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): estable -8% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 58K vistas (el mayor, 2.3M)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Google (EE. UU.): estable -7% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 16:02:48 UTC",
+   "measured_at": "2026-10-13 14:20:10 UTC",
    "trends": {
-    "momentum_pct": -7.9,
+    "momentum_pct": -7.3,
     "low_volume": false,
     "peak_ratio": 0.4,
-    "mean_recent": 40.0
+    "mean_recent": 40.2
    },
    "trends_series": [
     97,
-    83,
-    72,
-    67,
+    79,
+    74,
+    68,
     100,
     96,
-    81,
-    83,
+    79,
+    86,
     86,
     77,
-    74,
-    48,
-    45,
+    77,
+    51,
+    42,
     39,
     40,
-    39,
-    44,
+    37,
     38,
+    41,
     37,
     39,
+    40,
+    40,
     39,
-    39,
-    39,
-    41,
+    42,
     38,
     42
    ],
-   "trends_at": "2026-10-14 16:02:40 UTC",
+   "trends_at": "2026-10-13 14:20:07 UTC",
    "rising": [
     {
-     "query": "8 pack solar pathway lights",
+     "query": "costco solar firefly lights",
+     "growth": "Breakout"
+    },
+    {
+     "query": "shop deals on solar powered garden lights",
+     "growth": "Breakout"
+    },
+    {
+     "query": "tuyluxe outdoor solar lights discount",
+     "growth": "+1,450%"
+    },
+    {
+     "query": "dollar tree mushroom solar lights",
+     "growth": "+1,300%"
+    },
+    {
+     "query": "solar flare northern lights",
      "growth": "+200%"
-    },
-    {
-     "query": "solar tea lights",
-     "growth": "+160%"
-    },
-    {
-     "query": "orange solar lights",
-     "growth": "+150%"
-    },
-    {
-     "query": "linkind solar lights",
-     "growth": "+130%"
     },
     {
      "query": "led solar lights outdoor waterproof",
      "growth": "+130%"
-    },
-    {
-     "query": "solar led lights outdoor",
-     "growth": "+110%"
     }
    ],
-   "rising_at": "2026-10-14 16:02:48 UTC"
+   "rising_at": "2026-10-13 14:20:10 UTC"
   },
   "camping-lantern": {
    "youtube": {
     "keyword": "rechargeable camping lantern",
-    "shorts_found": 32,
-    "median_views_top10": 28000,
-    "max_views": 6700000,
-    "over_100k": 2,
-    "over_1m": 1,
+    "shorts_found": 31,
+    "median_views_top10": 19500,
+    "max_views": 351000,
+    "over_100k": 1,
+    "over_1m": 0,
     "top": [
-     {
-      "title": "First Look! New Camping Lantern Launching Soon 🏕️ Do You Like the Design?#shorts",
-      "views": 6700000,
-      "url": "https://www.youtube.com/shorts/SQg58vaNOoI"
-     },
      {
       "title": "Yardwe Led Camping Lantern Solar Panel Hand-Powered Tent 🌐 #solarlight #lamp #campinglife #shorts",
       "views": 351000,
@@ -2928,47 +2942,52 @@
       "title": "( #Shopee ) Solar Rechargeable camping lantern w/ flashlight #shorts #solar #flashlight",
       "views": 31000,
       "url": "https://www.youtube.com/shorts/cYggvD6Cmvc"
+     },
+     {
+      "title": "This Solar Camping Lantern Is a Genius Gadget! ☀️🔦 #shorts",
+      "views": 21000,
+      "url": "https://www.youtube.com/shorts/Z9hnYEQw6-0"
      }
     ],
     "status": "LIVE"
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": -32.1,
+    "momentum_pct": -32.4,
     "low_volume": false,
     "peak_ratio": 0.19,
-    "mean_recent": 19.0
+    "mean_recent": 18.8
    },
    "trends_series": [
-    88,
-    61,
-    46,
-    42,
-    79,
+    86,
+    59,
+    45,
+    41,
+    77,
     100,
-    75,
-    73,
-    92,
-    80,
-    74,
-    42,
-    38,
+    72,
+    72,
+    90,
+    79,
+    72,
+    41,
+    36,
+    21,
+    21,
+    22,
+    22,
     20,
-    22,
-    22,
-    22,
+    20,
     20,
     20,
     18,
-    20,
-    18,
-    18,
-    23,
     17,
-    18
+    24,
+    17,
+    17
    ],
    "trends_status": "LIVE",
-   "trends_at": "2026-10-12 11:24 UTC",
+   "trends_at": "2026-10-13 14:20:16 UTC",
    "rising": [
     {
      "query": "led camping lantern",
@@ -2997,33 +3016,28 @@
    ],
    "rising_at": "2026-10-12 11:24:57 UTC",
    "market": {
-    "score": 48,
-    "video_score": 66,
+    "score": 45,
+    "video_score": 62,
     "trend_score": 20,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 28K vistas (el mayor, 6.7M)",
+     "Shorts: los 10 más vistos tienen una mediana de 20K vistas (el mayor, 351K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -32% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 16:02:51 UTC"
+   "measured_at": "2026-10-13 14:20:16 UTC"
   },
   "electric-lint-remover": {
    "youtube": {
     "keyword": "fabric shaver lint remover",
-    "shorts_found": 29,
-    "median_views_top10": 51500,
-    "max_views": 569000,
-    "over_100k": 3,
+    "shorts_found": 35,
+    "median_views_top10": 26000,
+    "max_views": 173000,
+    "over_100k": 2,
     "over_1m": 0,
     "top": [
-     {
-      "title": "I Tried This Lint Remover… WOW!😲",
-      "views": 569000,
-      "url": "https://www.youtube.com/shorts/GEqxFg0eHJY"
-     },
      {
       "title": "Revamp Your Clothes: Fabric Shaver Hack! #fabricshaver #lintremover",
       "views": 174000,
@@ -3035,55 +3049,60 @@
       "url": "https://www.youtube.com/shorts/7nYhFh4PQwc"
      },
      {
-      "title": "BEAUTURAL Fabric Shaver and Lint Remover Review!",
-      "views": 90000,
-      "url": "https://www.youtube.com/shorts/hYiu7Fa6qUw"
+      "title": "Essential Gadget: Fabric Shaver & Lint Remover for Clothes & Furniture",
+      "views": 38000,
+      "url": "https://www.youtube.com/shorts/QC5Dj1v4Fqw"
      },
      {
-      "title": "Trying a Fabric Shaver",
-      "views": 64000,
-      "url": "https://www.youtube.com/shorts/VqzaUx09oIc"
+      "title": "How to Use a Rechargeable Fabric Shaver👕 #Shorts #LintRemover #AmazonFinds #CleaningHack #GadgetDemo",
+      "views": 35000,
+      "url": "https://www.youtube.com/shorts/3nhqBT-ky0o"
+     },
+     {
+      "title": "We're blown away by this fabric shaver! Visit celsious.com #youtubeshorts #shorts",
+      "views": 30000,
+      "url": "https://www.youtube.com/shorts/L5QqFvXI6qQ"
      }
     ],
     "status": "LIVE"
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": -15.1,
+    "momentum_pct": -14.1,
     "low_volume": false,
     "peak_ratio": 0.15,
-    "mean_recent": 15.5
+    "mean_recent": 14.8
    },
    "trends_series": [
     100,
-    76,
-    48,
+    74,
+    50,
     40,
-    57,
-    63,
-    39,
-    35,
-    49,
-    42,
-    44,
-    28,
-    19,
+    56,
+    62,
+    36,
+    34,
+    48,
+    43,
+    38,
+    26,
+    18,
+    14,
+    13,
+    14,
+    11,
+    14,
     15,
-    12,
-    15,
-    12,
-    15,
-    16,
     14,
     13,
     16,
     13,
     22,
-    12,
-    15
+    10,
+    14
    ],
    "trends_status": "LIVE",
-   "trends_at": "2026-10-12 11:25 UTC",
+   "trends_at": "2026-10-13 14:20:24 UTC",
    "rising": [
     {
      "query": "portable lint remover",
@@ -3112,18 +3131,18 @@
    ],
    "rising_at": "2026-10-12 11:25:15 UTC",
    "market": {
-    "score": 60,
-    "video_score": 73,
+    "score": 55,
+    "video_score": 65,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 52K vistas (el mayor, 569K)",
+     "Shorts: los 10 más vistos tienen una mediana de 26K vistas (el mayor, 173K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
-     "Google (EE. UU.): baja -15% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): baja -14% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 16:02:54 UTC"
+   "measured_at": "2026-10-13 14:20:24 UTC"
   }
  }
 }
