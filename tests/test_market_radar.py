@@ -374,6 +374,38 @@ class TestN8nDsersBridge(TempDir):
         idx_html = index.read_text(encoding="utf-8")
         self.assertIn("? 'cuentas.html' :", idx_html)
 
+    def test_n8n_dsers_bridge_matches_by_aliexpress_item_id(self):
+        from hunter.n8n_bridge import get_n8n_bridge_status, sync_dsers_stock_payload
+
+        res = sync_dsers_stock_payload({
+            "aliexpress_item_id": "1005007791672610",
+            "stock": 602,
+            "unit_cost_usd": 4.73,
+            "shipping_usd": 3.54,
+        }, products_path=self.path)
+        self.assertTrue(res["ok"])
+        self.assertEqual(res["updated"][0]["id"], "steamfur-pro")
+        self.assertEqual(res["updated"][0]["verified_stock"], 602)
+        last_sync = self.tmp / "n8n_last_sync.json"
+        self.assertTrue(last_sync.exists())
+        st = get_n8n_bridge_status(self.path)
+        self.assertTrue(st["ok"])
+        self.assertEqual(st["products"][0]["verified_stock"], 602)
+
+    def test_n8n_workflow_json_is_valid_and_free_compatible(self):
+        from hunter.n8n_bridge import DEFAULT_WORKFLOW_PATH, build_n8n_workflow_template
+
+        self.assertTrue(DEFAULT_WORKFLOW_PATH.exists())
+        wf = json.loads(DEFAULT_WORKFLOW_PATH.read_text(encoding="utf-8"))
+        self.assertEqual(wf, build_n8n_workflow_template())
+        conns = wf["connections"]
+        # Both Webhook and Schedule Trigger must be connected into the pipeline
+        self.assertIn("1. Webhook Shopify (DSers Stock Update)", conns)
+        self.assertIn("1b. Consulta Espaciada (Cada 6h - Ahorro Cuota Gratis)", conns)
+        self.assertIn("2a. Leer Catálogo Shopify (Sincronizado por DSers)", conns)
+        self.assertIn("2b. Normalizar SKU / Stock / Costo DSers", conns)
+        self.assertIn("3. Actualizar Dropshipping Hunter Local", conns)
+
 
 if __name__ == "__main__":
     unittest.main()

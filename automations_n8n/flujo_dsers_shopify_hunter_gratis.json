@@ -14,7 +14,7 @@
       "typeVersion": 2,
       "position": [
         220,
-        240
+        220
       ]
     },
     {
@@ -23,18 +23,46 @@
           "interval": [
             {
               "field": "hours",
-              "hoursInterval": 12
+              "hoursInterval": 6
             }
           ]
         }
       },
-      "id": "node-schedule-12h",
-      "name": "1b. Consulta Espaciada (Cada 12h - Ahorro Cuota Gratis)",
+      "id": "node-schedule-6h",
+      "name": "1b. Consulta Espaciada (Cada 6h - Ahorro Cuota Gratis)",
       "type": "n8n-nodes-base.scheduleTrigger",
       "typeVersion": 1.2,
       "position": [
         220,
-        440
+        420
+      ]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://ralfandco.myshopify.com/products.json?limit=50",
+        "options": {}
+      },
+      "id": "node-shopify-poll",
+      "name": "2a. Leer Catálogo Shopify (Sincronizado por DSers)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        480,
+        420
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const raw = $input.first().json;\nif (Array.isArray(raw.products)) {\n  return [{ json: { updates: raw.products.map(p => ({ handle: p.handle, variants: p.variants })) } }];\n}\nreturn [{ json: raw }];"
+      },
+      "id": "node-normalize-payload",
+      "name": "2b. Normalizar SKU / Stock / Costo DSers",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        740,
+        320
       ]
     },
     {
@@ -60,12 +88,32 @@
         "options": {}
       },
       "id": "node-hunter-sync",
-      "name": "2. Actualizar Dropshipping Hunter Local",
+      "name": "3. Actualizar Dropshipping Hunter Local",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        540,
-        340
+        1000,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "boolean": [
+            {
+              "value1": "={{ Boolean($json.has_alerts) }}",
+              "value2": true
+            }
+          ]
+        }
+      },
+      "id": "node-ko-router",
+      "name": "4. Detector de Alerta KO-STOCK (< 100 uds)",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        1260,
+        320
       ]
     }
   ],
@@ -74,7 +122,51 @@
       "main": [
         [
           {
-            "node": "2. Actualizar Dropshipping Hunter Local",
+            "node": "2b. Normalizar SKU / Stock / Costo DSers",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "1b. Consulta Espaciada (Cada 6h - Ahorro Cuota Gratis)": {
+      "main": [
+        [
+          {
+            "node": "2a. Leer Catálogo Shopify (Sincronizado por DSers)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "2a. Leer Catálogo Shopify (Sincronizado por DSers)": {
+      "main": [
+        [
+          {
+            "node": "2b. Normalizar SKU / Stock / Costo DSers",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "2b. Normalizar SKU / Stock / Costo DSers": {
+      "main": [
+        [
+          {
+            "node": "3. Actualizar Dropshipping Hunter Local",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "3. Actualizar Dropshipping Hunter Local": {
+      "main": [
+        [
+          {
+            "node": "4. Detector de Alerta KO-STOCK (< 100 uds)",
             "type": "main",
             "index": 0
           }

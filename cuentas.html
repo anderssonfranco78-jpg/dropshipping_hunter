@@ -957,7 +957,9 @@
         cache: 'no-store'
       });
       if (!r.ok) return null;
-      var j = await r.json();
+      var text = await r.text();
+      var j = JSON.parse(text);
+      if (j && Array.isArray(j.businesses)) return j;
       if (j && j.content && j.encoding === 'base64') return JSON.parse(b64d(j.content));
       return j;
     } catch (e) { return null; }
@@ -1528,8 +1530,8 @@
         },
         credenciales_aisladas: {
           correo_gestion: f.correo.value.trim(),
-          perfil_antidetect: 'Profile-Dolphin-' + slug,
-          proxy_asignado: 'us-res-sticky.proxy-pool.net:8080'
+          perfil_antidetect: 'Perfil-Aislado-' + slug,
+          proxy_asignado: 'proxy-residencial-usa'
         },
         metricas_resumen: { videos_hoy: 0, vistas_hoy: 0, clics_tienda_hoy: 0, vistas_ultimos_7_dias: 0, tasa_conversion_bio_pct: 0, account_health_score: 75.0, health_status: 'en_espera' },
         ganchos_conversion: INITIAL_SEED_DATA.businesses[0].ganchos_conversion,

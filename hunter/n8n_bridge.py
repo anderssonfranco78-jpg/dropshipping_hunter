@@ -100,13 +100,17 @@ def normalize_n8n_item(raw: Dict[str, Any]) -> List[Dict[str, Any]]:
         or raw.get("product_id")
         or raw.get("candidate_id")
         or raw.get("handle")
+        or raw.get("shopify_handle")
         or raw.get("sku")
+        or raw.get("aliexpress_item_id")
         or ""
     ).strip()
     if not pid:
-        raise ValueError("Falta identificador de producto ('id', 'product_id' o 'handle')")
+        raise ValueError("Falta identificador de producto ('id', 'product_id', 'aliexpress_item_id' o 'handle')")
 
     normalized: Dict[str, Any] = {"id": pid}
+    if raw.get("aliexpress_item_id") is not None:
+        normalized["aliexpress_item_id"] = str(raw["aliexpress_item_id"]).strip()
     raw_stock = (
         raw["verified_stock"]
         if "verified_stock" in raw
@@ -121,7 +125,7 @@ def normalize_n8n_item(raw: Dict[str, Any]) -> List[Dict[str, Any]]:
 
     for num_field, aliases in (
         ("unit_cost_usd", ("unit_cost_usd", "supplier_cost_usd", "supplier_cost", "cost_usd")),
-        ("shipping_cost_usd", ("shipping_cost_usd", "shipping_cost")),
+        ("shipping_cost_usd", ("shipping_cost_usd", "shipping_cost", "shipping_usd")),
         ("srp_usd", ("srp_usd", "retail_price_usd", "suggested_price", "price_usd")),
     ):
         for alias in aliases:
@@ -140,6 +144,20 @@ def normalize_n8n_item(raw: Dict[str, Any]) -> List[Dict[str, Any]]:
         normalized["notes"] = str(raw["notes"]).strip()
 
     return [normalized]
+
+
+def _resolve_product_index(pid: str, ali_id: Optional[str], items: List[Dict[str, Any]]) -> Optional[int]:
+    """Busca un producto por su id exacto o por su aliexpress_item_id dentro de source_url."""
+    for idx, p in enumerate(items):
+        if str(p.get("id") or "").strip() == pid:
+            return idx
+    lookup_ali = ali_id or (pid if pid.isdigit() else None)
+    if lookup_ali:
+        for idx, p in enumerate(items):
+            src_url = str(p.get("source_url") or "")
+            if f"/item/{lookup_ali}" in src_url or str(p.get("aliexpress_item_id") or "") == lookup_ali:
+                return idx
+    return None
 
 
 def sync_dsers_stock_payload(
@@ -162,17 +180,17 @@ def sync_dsers_stock_payload(
         if not isinstance(items, list):
             raise ValueError("Formato inválido en user_products.json: falta lista 'products'")
 
-        by_id = {str(p.get("id") or "").strip(): idx for idx, p in enumerate(items)}
         results: List[Dict[str, Any]] = []
 
         for upd in updates:
             pid = upd["id"]
-            if pid not in by_id:
+            ali_id = upd.get("aliexpress_item_id")
+            idx = _resolve_product_index(pid, ali_id, items)
+            if idx is None:
                 raise ValueError(f"El producto '{pid}' no existe en user_products.json")
-            idx = by_id[pid]
             merged = dict(items[idx])
             for k, v in upd.items():
-                if k != "id":
+                if k not in ("id", "aliexpress_item_id"):
                     merged[k] = v
             if "verified_stock" in upd and not merged.get("verified_date"):
                 merged["verified_date"] = (today or dt.date.today()).isoformat()
@@ -219,15 +237,23 @@ def sync_dsers_stock_payload(
         tmp.write_text(json.dumps(raw_doc, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         os.replace(tmp, target_path)
 
-    alerts = [r["alert"] for r in results if r.get("alert")]
-    return {
-        "ok": True,
-        "source": "n8n_dsers_shopify_bridge",
-        "updated_count": len(results),
-        "updated": results,
-        "has_alerts": bool(alerts),
-        "alerts": alerts,
-    }
+        alerts = [r["alert"] for r in results if r.get("alert")]
+        summary_out = {
+            "ok": True,
+            "source": "n8n_dsers_shopify_bridge",
+            "synced_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+            "updated_count": len(results),
+            "updated": results,
+            "has_alerts": bool(alerts),
+            "alerts": alerts,
+        }
+        try:
+            last_sync_path = target_path.parent / "n8n_last_sync.json"
+            last_sync_path.write_text(json.dumps(summary_out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        except OSError:
+            pass
+
+    return summary_out
 
 
 def bridge_status(products_path: Optional[Union[str, Path]] = None) -> Dict[str, Any]:
@@ -273,6 +299,9 @@ def bridge_status(products_path: Optional[Union[str, Path]] = None) -> Dict[str,
     }
 
 
+get_n8n_bridge_status = bridge_status
+
+
 def build_n8n_workflow_template() -> Dict[str, Any]:
     """Genera el workflow JSON importable en n8n (Community Edition gratis o Cloud con ahorro de cuota)."""
     return {
@@ -289,19 +318,47 @@ def build_n8n_workflow_template() -> Dict[str, Any]:
                 "name": "1. Webhook Shopify (DSers Stock Update)",
                 "type": "n8n-nodes-base.webhook",
                 "typeVersion": 2,
-                "position": [220, 240],
+                "position": [220, 220],
             },
             {
                 "parameters": {
                     "rule": {
-                        "interval": [{"field": "hours", "hoursInterval": 12}],
+                        "interval": [{"field": "hours", "hoursInterval": 6}],
                     }
                 },
-                "id": "node-schedule-12h",
-                "name": "1b. Consulta Espaciada (Cada 12h - Ahorro Cuota Gratis)",
+                "id": "node-schedule-6h",
+                "name": "1b. Consulta Espaciada (Cada 6h - Ahorro Cuota Gratis)",
                 "type": "n8n-nodes-base.scheduleTrigger",
                 "typeVersion": 1.2,
-                "position": [220, 440],
+                "position": [220, 420],
+            },
+            {
+                "parameters": {
+                    "method": "GET",
+                    "url": "https://ralfandco.myshopify.com/products.json?limit=50",
+                    "options": {},
+                },
+                "id": "node-shopify-poll",
+                "name": "2a. Leer Catálogo Shopify (Sincronizado por DSers)",
+                "type": "n8n-nodes-base.httpRequest",
+                "typeVersion": 4.2,
+                "position": [480, 420],
+            },
+            {
+                "parameters": {
+                    "jsCode": (
+                        "const raw = $input.first().json;\n"
+                        "if (Array.isArray(raw.products)) {\n"
+                        "  return [{ json: { updates: raw.products.map(p => ({ handle: p.handle, variants: p.variants })) } }];\n"
+                        "}\n"
+                        "return [{ json: raw }];"
+                    ),
+                },
+                "id": "node-normalize-payload",
+                "name": "2b. Normalizar SKU / Stock / Costo DSers",
+                "type": "n8n-nodes-base.code",
+                "typeVersion": 2,
+                "position": [740, 320],
             },
             {
                 "parameters": {
@@ -320,16 +377,45 @@ def build_n8n_workflow_template() -> Dict[str, Any]:
                     "options": {},
                 },
                 "id": "node-hunter-sync",
-                "name": "2. Actualizar Dropshipping Hunter Local",
+                "name": "3. Actualizar Dropshipping Hunter Local",
                 "type": "n8n-nodes-base.httpRequest",
                 "typeVersion": 4.2,
-                "position": [540, 340],
+                "position": [1000, 320],
+            },
+            {
+                "parameters": {
+                    "conditions": {
+                        "boolean": [
+                            {
+                                "value1": "={{ Boolean($json.has_alerts) }}",
+                                "value2": True,
+                            }
+                        ]
+                    }
+                },
+                "id": "node-ko-router",
+                "name": "4. Detector de Alerta KO-STOCK (< 100 uds)",
+                "type": "n8n-nodes-base.if",
+                "typeVersion": 2,
+                "position": [1260, 320],
             },
         ],
         "connections": {
             "1. Webhook Shopify (DSers Stock Update)": {
-                "main": [[{"node": "2. Actualizar Dropshipping Hunter Local", "type": "main", "index": 0}]]
-            }
+                "main": [[{"node": "2b. Normalizar SKU / Stock / Costo DSers", "type": "main", "index": 0}]]
+            },
+            "1b. Consulta Espaciada (Cada 6h - Ahorro Cuota Gratis)": {
+                "main": [[{"node": "2a. Leer Catálogo Shopify (Sincronizado por DSers)", "type": "main", "index": 0}]]
+            },
+            "2a. Leer Catálogo Shopify (Sincronizado por DSers)": {
+                "main": [[{"node": "2b. Normalizar SKU / Stock / Costo DSers", "type": "main", "index": 0}]]
+            },
+            "2b. Normalizar SKU / Stock / Costo DSers": {
+                "main": [[{"node": "3. Actualizar Dropshipping Hunter Local", "type": "main", "index": 0}]]
+            },
+            "3. Actualizar Dropshipping Hunter Local": {
+                "main": [[{"node": "4. Detector de Alerta KO-STOCK (< 100 uds)", "type": "main", "index": 0}]]
+            },
         },
         "settings": {"executionOrder": "v1"},
     }
