@@ -57,13 +57,26 @@ jobs:
         run: |
           python main.py
 
-      # Blindaje: el robot jamás debe modificar el archivo del operador.
-      - name: Verificar que user_products.json no fue modificado
+      # Blindaje: el robot jamás debe modificar el archivo del operador ni el panel estático.
+      - name: Verificar que user_products.json e index.html no fueron modificados
         run: |
-          if ! git diff --quiet -- data/user_products.json; then
-            echo "::error::El robot modificó data/user_products.json. Se aborta la publicación."
+          if ! git diff --quiet -- data/user_products.json index.html; then
+            echo "::error::El robot modificó data/user_products.json o index.html. Se aborta la publicación."
             exit 1
           fi
+
+      - name: Publicar resumen de corrida en GitHub Actions
+        if: always()
+        run: |
+          python - << 'EOF' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+          p = Path("data/data_health.json")
+          if p.exists():
+              h = json.loads(p.read_text(encoding="utf-8"))
+              print(f"### 🤖 Dropshipping Hunter Cloud Run — `{h.get('generated_at', '—')}`")
+              print(f"- **Modo:** `{h.get('mode')}` | **Alertas rojas:** `{len(h.get('alerts_red', []))}` | **Avisos:** `{len(h.get('alerts_yellow', []))}`")
+          EOF
 
       # index.html es estático y lee data/dashboard_data.js. ranking_productos.html es el panel clásico.
       - name: Guardar y publicar actualizaciones automáticas
@@ -75,7 +88,7 @@ jobs:
           if ! git diff --staged --quiet; then
             git commit -m "🤖 chore(auto): actualización diaria de tendencias y auditoría [skip ci]"
             # el PC también sube datos: si chocan, ganan los de esta corrida (el historial nunca choca)
-            git pull --rebase --autostash -X theirs
+            git pull --rebase --autostash -X theirs || (git rebase --abort || true; git fetch origin main && git reset --soft origin/main && git checkout origin/main -- data/user_products.json index.html && git add -A data ranking_productos.* dossier_productos_ganadores.md && git commit -m "🤖 chore(auto): actualización diaria de tendencias y auditoría [skip ci]")
             git push
           else
             echo "No se detectaron cambios hoy."

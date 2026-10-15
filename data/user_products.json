@@ -14,7 +14,7 @@
     {
       "id": "steamfur-pro",
       "name": "SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer",
-      "image_url": "assets/products/steamfur-pro.svg",
+      "image_url": "assets/images/steamfur.webp",
       "category": "Pet Supplies & Home Care",
       "source_url": "https://www.aliexpress.com/item/1005007791672610.html",
       "srp_usd": 29.99,
@@ -57,7 +57,7 @@
     {
       "id": "prosmile-ultrasonic",
       "name": "ProSmile Ultrasonic™ — Smart Plaque & Calculus Scaler",
-      "image_url": "assets/products/prosmile-ultrasonic.svg",
+      "image_url": "assets/images/prosmile.webp",
       "category": "Dental Health & Personal Care",
       "source_url": "https://www.aliexpress.com/item/1005005236582798.html",
       "srp_usd": 34.99,
@@ -100,7 +100,7 @@
     {
       "id": "spinerelief-pro",
       "name": "SpineRelief Pro™ — Inflatable Lumbar Traction Belt",
-      "image_url": "assets/products/spinerelief-pro.svg",
+      "image_url": "assets/images/spinerelief.webp",
       "category": "Health & Ergonomics",
       "source_url": "https://www.aliexpress.com/item/1005006626002554.html",
       "srp_usd": 54.99,
@@ -147,7 +147,7 @@
     {
       "id": "aeroforce-x3",
       "name": "AeroForce X3™ — 130,000 RPM Violent Turbo Blower",
-      "image_url": "assets/products/aeroforce-x3.svg",
+      "image_url": "assets/images/aeroforce.webp",
       "category": "Automotive & Tactical Tools",
       "source_url": "https://www.aliexpress.com/item/1005009719197258.html",
       "srp_usd": 59.99,

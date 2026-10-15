@@ -570,6 +570,32 @@
     .top-actions #centChip { max-width: 46vw; overflow: hidden; text-overflow: ellipsis; }
   }
   .mlbl { display: none; }
+  /* ===== Ecosistema Hub + Módulos Tácticos D2C (STS & Keep-it 50%) ===== */
+  .eco-switch { display: inline-flex; align-items: center; gap: 7px; height: 36px; padding: 0 12px; border-radius: 12px; border: 1px solid rgba(55,176,255,.38); background: linear-gradient(135deg, rgba(55,176,255,.14), rgba(181,254,77,.08)); color: #d8f1ff; font: 700 12px var(--sans); text-decoration: none; cursor: pointer; transition: transform .15s, border-color .15s, box-shadow .15s; white-space: nowrap; }
+  .eco-switch:hover { border-color: var(--lime); color: #fff; transform: translateY(-1px); box-shadow: 0 6px 20px rgba(55,176,255,.2); }
+  .eco-switch svg.lucide { width: 14px; height: 14px; color: var(--cyan); }
+  .sts-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 8px; }
+  .sts-fld { display: flex; flex-direction: column; gap: 4px; background: #121212; border: 1px solid var(--line); border-radius: 12px; padding: 8px 10px; }
+  .sts-fld span { font-size: 10.5px; color: var(--mut); font-weight: 600; display: flex; justify-content: space-between; gap: 6px; }
+  .sts-fld span em { color: var(--lime); font-style: normal; font-family: var(--dm); font-size: 10px; }
+  .sts-fld input, .sts-fld select { height: 30px; border-radius: 8px; border: 1px solid var(--line2); background: var(--el); color: var(--tx); padding: 0 8px; font: 600 12px var(--sans); outline: none; }
+  .sts-fld input:focus, .sts-fld select:focus { border-color: var(--lime); }
+  .sts-banner { display: flex; align-items: center; gap: 12px; padding: 12px; border-radius: 16px; border: 1px solid var(--line2); background: rgba(255,255,255,.02); }
+  .sts-banner .sts-meta { flex: 1; min-width: 0; }
+  .sts-banner .sts-meta b { display: block; font-size: 13.5px; }
+  .sts-banner .sts-meta small { display: block; color: var(--mut); font-size: 11.5px; margin-top: 2px; line-height: 1.4; }
+  .tier-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 6px; }
+  .tier-c { border: 1px solid var(--line); border-radius: 14px; padding: 10px; background: #121212; display: flex; flex-direction: column; gap: 5px; }
+  .tier-c.t-ok { border-color: rgba(181,254,77,.28); background: linear-gradient(160deg, rgba(181,254,77,.07), #121212 70%); }
+  .tier-c.t-cy { border-color: rgba(55,176,255,.28); background: linear-gradient(160deg, rgba(55,176,255,.08), #121212 70%); }
+  .tier-c small { font-size: 10px; text-transform: uppercase; letter-spacing: .05em; color: var(--mut); font-weight: 700; }
+  .tier-c b.dm { font-size: 17px; }
+  .tier-c p { margin: 0; font-size: 11px; color: var(--mut); line-height: 1.38; }
+  .kit-box { border: 1px solid var(--line); border-radius: 14px; padding: 10px 12px; background: #111; display: grid; gap: 8px; margin-top: 8px; }
+  .kit-pre { max-height: 145px; overflow: auto; margin: 0; padding: 10px; border-radius: 10px; background: #0A0A0A; border: 1px solid var(--line); font: 11px/1.5 ui-monospace, Consolas, monospace; color: #cfcfcf; white-space: pre-wrap; }
+  @media (max-width: 767px) {
+    .sts-grid, .tier-cards { grid-template-columns: minmax(0, 1fr); }
+  }
 </style>
 </head>
 <body data-view="producto">
@@ -587,6 +613,7 @@
       <button type="button" data-view="ranking" role="tab">Ranking</button>
       <button type="button" data-view="radar" role="tab">Radar</button>
     </div>
+    <a id="sideHubBtn" href="../multi_account_hub/index.html" class="eco-switch" title="Ir al Centro de Mando de Cuentas Orgánicas (Multi-Account Hub)"><i data-lucide="layers"></i><span>Ir a Multi-Account Hub</span><i data-lucide="arrow-up-right" style="margin-left:auto"></i></a>
     <div class="nav-label">Tus productos <span class="count" id="wlCount"></span></div>
     <div id="watch" class="watch"></div>
     <div class="nav-label">Fuentes de datos</div>
@@ -611,6 +638,7 @@
         <span><span class="sync-l">Datos medidos · </span><b id="syncAgo">—</b></span>
       </div>
       <div class="top-actions">
+        <a id="topHubBtn" href="../multi_account_hub/index.html" class="eco-switch" title="Conmutar al Multi-Account Hub (Control de Cuentas, Salud 0-100 y Warm-Up)"><i data-lucide="layers"></i><span>Multi-Account Hub</span></a>
         <button id="centChip" type="button" class="chip"><span class="ping off"></span>Revisando motor…</button>
         <button type="button" class="icon-btn" data-help aria-label="¿Cómo funciona?" title="¿Cómo funciona?"><i data-lucide="circle-help"></i></button>
         <button id="bellBtn" type="button" class="icon-btn" aria-label="Ver alertas" title="Alertas"><i data-lucide="bell"></i><span class="bell-badge" id="bellCount"></span></button>
@@ -693,6 +721,17 @@
           <div id="launchBody"></div>
         </article>
       </section>
+
+      <section class="row2" id="tacticalRow">
+        <article class="card" id="stsCard">
+          <div class="card-head"><h3><i data-lucide="shield-check"></i>Auditor de proveedor AliExpress (STS · 6 Reglas)</h3><span id="stsBadge"></span></div>
+          <div id="stsBody"></div>
+        </article>
+        <article class="card" id="defenseCard">
+          <div class="card-head"><h3><i data-lucide="life-buoy"></i>Escudo Keep-it 50% &amp; Kit Shopify Sense / Remotion</h3><span class="bdg info"><i data-lucide="sparkles"></i>Doctrina 3 Capas</span></div>
+          <div id="defenseBody"></div>
+        </article>
+      </section>
     </section>
 
     <!-- ============ VISTA: RANKING ============ -->
@@ -734,6 +773,7 @@
   <button type="button" class="btn ghost tab" data-tab="producto" title="El producto seleccionado"><i data-lucide="crosshair"></i><span class="lbl">Producto</span><span class="mlbl">Producto</span></button>
   <button type="button" class="btn ghost tab" data-tab="ranking" title="Todos los productos ordenados"><i data-lucide="list-ordered"></i><span class="lbl">Ranking</span><span class="mlbl">Ranking</span></button>
   <button type="button" class="btn ghost tab" data-tab="radar" title="Ideas nuevas medidas solas"><i data-lucide="radar"></i><span class="lbl">Radar</span><span class="mlbl">Radar</span></button>
+  <a id="dockHubBtn" href="../multi_account_hub/index.html" class="btn ghost" title="Abrir Multi-Account Hub (Cuentas y Salud)"><i data-lucide="layers"></i><span class="lbl">Cuentas</span><span class="mlbl">Cuentas</span></a>
   <span class="sep"></span>
   <label class="btn ghost auto" title="Actualización automática"><i data-lucide="timer"></i><select id="autoSel" aria-label="Actualización automática"></select><span class="lbl muted" id="autoLbl">Próximo barrido en</span><span class="left dm" id="autoLeft"></span></label>
   <button id="dockRefresh" type="button" class="btn ghost" title="Actualizar ahora"><span id="dockPing" class="ping off"></span><span class="lbl" id="dockCentLbl">Motor</span><span class="mlbl">Actualizar</span></button>
@@ -1031,9 +1071,19 @@
     var on = !!r.candidate.in_store;
     return '<button type="button" class="sw' + (on ? ' on' : '') + (small ? ' sm' : '') + '" data-store="' + esc(r.candidate.candidate_id) + '" aria-pressed="' + on + '" title="Márcalo cuando ya esté publicado en Shopify: el Hunter te dirá si mantenerlo o retirarlo"><span class="knob"></span>' + (small ? 'Tienda' : 'En mi tienda') + '</button>';
   }
+  function hubUrl(id) {
+    var base = /github\.io$/.test(location.hostname) ? 'https://anderssonfranco78-jpg.github.io/multi_account_hub/' : (location.port === '8765' ? '/multi_account_hub/index.html' : '../multi_account_hub/index.html');
+    return id ? base + '?focus=' + encodeURIComponent(id) : base;
+  }
+  function syncHubLinks(id) {
+    var u = hubUrl(id);
+    ['sideHubBtn', 'topHubBtn', 'dockHubBtn'].forEach(function (k) { var el = $(k); if (el) el.href = u; });
+    try { if (id) localStorage.setItem('antigravity_active_product', id); } catch (e) {}
+  }
   function renderHero(r, anim) {
     if (!r) { $('heroName').textContent = 'Sin productos'; $('heroValue').textContent = '—'; $('heroSub').innerHTML = ''; $('heroEyebrow').innerHTML = ''; $('verdictBox').innerHTML = '<p>Pulsa «Evaluar producto» o «Actualizar ahora».</p>'; $('kpis').innerHTML = ''; $('heroSlot').innerHTML = ''; return; }
     var c = r.candidate, e = econ(r), t = tierOf(r), m = mkt(r), v = vdOf(r), z = zone(e.margin), n = D.results.length;
+    syncHubLinks(c.candidate_id);
     $('heroEyebrow').innerHTML = '<span class="dm" style="color:#fff">#' + (r.rank || '—') + '</span>' + deltaHtml(r) + '<span>de ' + n + '</span><span class="sep">·</span><b class="dm">' + esc(ticker(c)) + '</b><span>' + esc(c.category) + '</span>';
     $('heroSlot').innerHTML = slot(c, 'md');
     $('heroName').textContent = c.name;
@@ -1045,7 +1095,8 @@
     var reasons = (m.reasons || []).concat((r.tier_reasons || []).map(function (x) { return x; }));
     $('verdictBox').innerHTML = '<div class="hero-acts">' + vdBadge(v, true) + storeSwitch(r) +
       '<button type="button" class="btn sm" data-edit="' + esc(c.candidate_id) + '"><i data-lucide="pencil"></i>Editar costos</button>' +
-      '<button type="button" class="btn sm ghost" data-detail="' + esc(c.candidate_id) + '"><i data-lucide="file-search"></i>Ver las 7 reglas</button></div>' +
+      '<button type="button" class="btn sm ghost" data-detail="' + esc(c.candidate_id) + '"><i data-lucide="file-search"></i>Ver las 7 reglas</button>' +
+      '<a class="btn sm ghost" href="' + esc(hubUrl(c.candidate_id)) + '" title="Abrir las 3 cuentas orgánicas (YT Shorts, IG Reels, FB Reels) y la tienda de este producto en el Multi-Account Hub"><i data-lucide="layers"></i>Cuentas de este producto</a></div>' +
       '<p>' + esc(v.why) + '</p>' + (reasons.length ? '<ul>' + reasons.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>' : '');
     var kpi = function (icon, label, val, sub, sc, title) {
       return '<div class="kpi" title="' + esc(title) + '"><div class="kpi-h"><span>' + label + '</span><i data-lucide="' + icon + '"></i></div><div class="kpi-v">' + val + '</div>' +
@@ -1132,12 +1183,14 @@
       a = a1; delay += 160;
     });
     var loss = num(e.profit) && e.profit < 0, mk = Math.max(0, Math.min(80, e.margin || 0)) / 80 * 100;
+    var cpaMax = Math.max(0, e.profit || 0), roasMin = cpaMax > 0 ? (e.srp / cpaMax).toFixed(2) + '×' : '∞';
     body.innerHTML = '<div class="dial-wrap"><svg viewBox="0 0 220 118" role="img" aria-label="Desglose del precio de venta">' +
       '<path class="arc-ticks" d="' + arcD(cx, cy, R + 14, 180, 0) + '"/><path class="arc-track" d="' + arcD(cx, cy, R, 180, 0) + '"/>' + arcs + '</svg>' +
       '<div class="dial-center"><small>Te queda por venta</small><span class="dm mask ' + (loss ? 'red' : '') + '"' + kAttr(c.candidate_id, 'profit') + ' data-to="' + (e.profit || 0) + '" data-fmt="money">$0.00</span><small>de <span class="dm mask">' + money(e.srp) + '</span> · ' + pct(e.margin) + '</small></div></div>' +
       '<div class="zone" title="Margen real: ' + pct(e.margin) + '"><div class="zone-bar"><span class="zone-mark" style="left:' + mk.toFixed(1) + '%"></span></div><div class="zone-lbl"><span style="left:0">0%</span><span style="left:31%">peligro</span><span style="left:62.5%">50%</span><span style="left:75%">60%</span><span style="left:100%">80%</span></div>' +
       '<div class="zone-say"><span class="sdot ' + (z.k === 'ok' ? 'ok' : z.k === 'warn' ? 'warn' : 'bad') + '"></span><span><b>' + z.label + '.</b> ' + esc(z.say) + '</span></div></div>' +
-      '<div class="legend">' + segs.map(function (sg) { return '<div class="lg" title="' + esc(sg.k) + '"><i style="background:' + sg.col + '"></i><span>' + esc(sg.k) + '</span><b class="dm mask">' + money(sg.c === 'profit' ? e.profit : sg.v) + '</b><em>' + (sg.v / e.srp * 100).toFixed(1) + '%</em></div>'; }).join('') + '</div>';
+      '<div class="legend">' + segs.map(function (sg) { return '<div class="lg" title="' + esc(sg.k) + '"><i style="background:' + sg.col + '"></i><span>' + esc(sg.k) + '</span><b class="dm mask">' + money(sg.c === 'profit' ? e.profit : sg.v) + '</b><em>' + (sg.v / e.srp * 100).toFixed(1) + '%</em></div>'; }).join('') + '</div>' +
+      '<div class="stats" style="margin-top:10px;grid-template-columns:1fr 1fr"><div class="stat" title="Costo máximo por adquisición en anuncios antes de perder dinero (= ganancia neta estresada)"><small>CPA Break-Even</small><b class="dm lime mask">' + money(cpaMax) + '</b></div><div class="stat" title="Retorno mínimo en inversión publicitaria (SRP ÷ Ganancia neta estresada)"><small>ROAS Mínimo</small><b class="dm cyan">' + roasMin + '</b></div></div>';
     tweenIn(body);
   }
 
@@ -1200,7 +1253,7 @@
       '<div class="sec-t"><i data-lucide="sparkles"></i>4 ganchos para tus videos</div><div class="hooks">' +
       (hooks.length ? hooks.map(function (h, i) {
         var txt = h.client + (h.creator ? ' — ' + h.creator : '');
-        return '<div class="hook"><div class="hook-h"><b>' + (i + 1) + '. ' + esc(String(h.headline || '').split(':')[0]) + '</b><button type="button" class="icon-btn sm" data-copytext="' + esc(txt) + '" title="Copiar el guion" aria-label="Copiar el guion"><i data-lucide="copy"></i></button></div>' +
+        return '<div class="hook"><div class="hook-h"><b>' + (i + 1) + '. ' + esc(String(h.headline || '').split(':')[0]) + '</b><button type="button" class="btn sm ghost" data-copytext="' + esc(txt) + '" title="Copiar el guion" aria-label="Copiar el guion"><i data-lucide="copy"></i>Copiar</button></div>' +
           '<p><em>Gancho:</em> «' + esc(h.client) + '»</p>' + (h.creator ? '<p><em>Respuesta:</em> «' + esc(h.creator) + '»</p>' : '') + '</div>';
       }).join('') : '<p class="note">Sin ganchos para este producto todavía.</p>') + '</div>' +
       '<p class="note">Guion segundo a segundo de cada gancho en el <a class="link" href="dossier_productos_ganadores.md" target="_blank" rel="noopener">dossier</a>. Para ideas reales, mira los <a class="link" href="' + esc(ytSearch(kw)) + '" target="_blank" rel="noopener">Shorts de «' + esc(kw) + '»</a>.</p>';
@@ -1227,6 +1280,96 @@
   function renderProgress(r) {
     var ch = getChecks(r.candidate.candidate_id), keys = ['dsers', 'supplier', 'shopify', 'store', 'acc-yt', 'acc-ig', 'acc-fb', 'first-video'], done = keys.filter(function (k) { return ch[k]; }).length;
     $('launchProgress').innerHTML = '<span class="progress" title="Pasos completados (lanzamiento + contenido)"><span class="dm">' + done + '/' + keys.length + '</span><span class="meter" style="width:80px"><i style="width:' + (done / keys.length * 100) + '%;background:var(--lime)"></i></span></span>';
+  }
+
+  /* ---------- auditor de proveedor AliExpress (STS · 6 Reglas de Oro) & defensa Keep-it 50% ---------- */
+  var STS_PRESETS = {
+    'steamfur-pro':        { orders: 1250, rating: 4.8, choice: 'choice', photos: 65, days: 11, note: 'Listing oficial AliExpress Choice ID 1005007791672610 · 602 uds verificadas en DSers' },
+    'prosmile-ultrasonic': { orders: 1420, rating: 4.8, choice: 'choice', photos: 80, days: 10, note: 'Proveedor Choice grado IPX6 · cabezales acero quirúrgico 304' },
+    'spinerelief-pro':     { orders: 950,  rating: 4.7, choice: 'choice', photos: 48, days: 11, note: 'Proveedor Choice tracción lumbar · transformador certificado UL' },
+    'aeroforce-x3':        { orders: 1680, rating: 4.8, choice: 'choice', photos: 95, days: 10, note: 'Proveedor Choice motor brushless 130,000 RPM · chasis aluminio' }
+  };
+  function stsKey(id) { return 'hunter-sts-' + id; }
+  function getStsInput(r) {
+    var c = r.candidate, id = c.candidate_id, def = STS_PRESETS[id] || { orders: 600, rating: 4.7, choice: isChoice(c) ? 'choice' : 'std', photos: 35, days: c.shipping_days_max || 12, note: 'Valores editables según lo que veas en DSers / AliExpress' };
+    try { var saved = JSON.parse(store.get(stsKey(id), 'null')); if (saved && typeof saved === 'object') return Object.assign({}, def, saved); } catch (e) {}
+    return Object.assign({}, def);
+  }
+  function calcSts(inp, r) {
+    var e = econ(r), markup = (num(e.srp) && num(e.landed) && e.landed > 0) ? (e.srp / e.landed) : 3.0;
+    var sVol = inp.orders >= 1000 ? 100 : inp.orders >= 500 ? 80 : inp.orders >= 300 ? 60 : 0;
+    var sRat = inp.rating >= 4.9 ? 100 : inp.rating >= 4.8 ? 90 : inp.rating >= 4.7 ? 75 : inp.rating >= 4.6 ? 60 : 0;
+    var sLog = (inp.choice === 'choice' && inp.days <= 10) ? 100 : (inp.choice === 'choice' && inp.days <= 12) ? 85 : (inp.days <= 15) ? 65 : 0;
+    var sVis = inp.photos >= 50 ? 100 : inp.photos >= 20 ? 80 : inp.photos >= 10 ? 50 : 0;
+    var sMar = markup >= 4.0 ? 100 : markup >= 3.0 ? 85 : markup >= 2.5 ? 60 : 20;
+    var ko = [];
+    if (inp.orders < 300) ko.push('Menos de 300 vendidos (riesgo de stock fantasma)');
+    if (inp.rating < 4.6) ko.push('Rating < 4.6★ (alta tasa de defectos/disputas)');
+    if (inp.days > 15) ko.push('Envío > 15 días (rompe ventana de PayPal/Stripe)');
+    if (inp.photos < 10) ko.push('Menos de 10 fotos reales de clientes');
+    var total = Math.round(((sVol * 0.30) + (sRat * 0.25) + (sLog * 0.20) + (sVis * 0.15) + (sMar * 0.10)) * 10) / 10;
+    var status = ko.length || total < 70 ? { label: 'DESCARTAR PROVEEDOR', cls: 'bad', col: '#EF4444' } : total >= 80 ? { label: 'RECOMENDADO OFICIAL', cls: 'ok', col: '#B5FE4D' } : { label: 'ACEPTABLE CON RESERVA', cls: 'warn', col: '#E88503' };
+    return { total: total, sVol: sVol, sRat: sRat, sLog: sLog, sVis: sVis, sMar: sMar, markup: markup, ko: ko, status: status };
+  }
+  function renderSts(r) {
+    var body = $('stsBody'), bdg = $('stsBadge');
+    if (!r) { body.innerHTML = ''; bdg.innerHTML = ''; return; }
+    var c = r.candidate, id = c.candidate_id, inp = getStsInput(r), res = calcSts(inp, r);
+    bdg.innerHTML = '<span class="bdg ' + res.status.cls + '">STS ' + res.total.toFixed(1) + '/100 · ' + res.status.label + '</span>';
+    body.innerHTML =
+      '<div class="sts-banner" id="stsBanner">' + ring(res.total, res.status.col) +
+        '<div class="sts-meta"><b>' + esc(res.status.label) + ' · Markup ' + res.markup.toFixed(2) + '×</b>' +
+        '<small>' + esc(inp.note) + '</small>' +
+        (res.ko.length ? '<small class="red">⚠ KO: ' + esc(res.ko.join(' · ')) + '</small>' : '<small class="lime">✓ Pasa las 6 Reglas de Oro de selección de proveedor en AliExpress/DSers</small>') +
+        '</div></div>' +
+      '<div class="sts-grid" id="stsForm" data-stsid="' + esc(id) + '">' +
+        '<label class="sts-fld"><span>1. Pedidos reales (30%) <em id="stsVolPts">' + res.sVol + ' pts</em></span><input type="number" min="0" step="50" data-stsf="orders" value="' + inp.orders + '"></label>' +
+        '<label class="sts-fld"><span>2. Calificación ★ (25%) <em id="stsRatPts">' + res.sRat + ' pts</em></span><input type="number" min="1" max="5" step="0.1" data-stsf="rating" value="' + inp.rating + '"></label>' +
+        '<label class="sts-fld"><span>3. Logística Choice (20%) <em id="stsLogPts">' + res.sLog + ' pts</em></span><select data-stsf="choice"><option value="choice"' + (inp.choice === 'choice' ? ' selected' : '') + '>AliExpress Choice (Prioritario)</option><option value="std"' + (inp.choice !== 'choice' ? ' selected' : '') + '>Standard Shipping</option></select></label>' +
+        '<label class="sts-fld"><span>4. Días máx. a EE. UU. <em>≤12d ideal</em></span><input type="number" min="3" max="45" step="1" data-stsf="days" value="' + inp.days + '"></label>' +
+        '<label class="sts-fld"><span>5. Fotos de clientes (15%) <em id="stsVisPts">' + res.sVis + ' pts</em></span><input type="number" min="0" step="5" data-stsf="photos" value="' + inp.photos + '"></label>' +
+        '<div class="sts-fld"><span>6. Margen en DSers (10%) <em>' + res.sMar + ' pts</em></span><div style="display:flex;align-items:center;justify-content:space-between;height:30px;font-size:12px"><b class="dm mask">' + money(econ(r).landed) + ' → ' + money(econ(r).srp) + '</b><button type="button" class="btn sm ghost" data-stsreset="' + esc(id) + '" title="Restaurar valores verificados">Reset</button></div></div>' +
+      '</div>' +
+      '<p class="note" style="margin-top:6px">Fórmula canónica STS = Volumen(30%) + Rating(25%) + Choice(20%) + Fotos Reales(15%) + Margen(10%). Cambia cualquier número mientras miras un proveedor en DSers para saber al instante si sirve.</p>';
+  }
+  function renderDefense(r) {
+    var body = $('defenseBody');
+    if (!r) { body.innerHTML = ''; return; }
+    var c = r.candidate, e = econ(r), sName = shortName(c.name);
+    var srp = num(e.srp) ? e.srp : 29.99, landed = num(e.landed) ? e.landed : 8.27, gw = srp * 0.0349 + 0.49;
+    var keepItNet = (srp * 0.50) - landed - gw;
+    var fullRefundLoss = -(landed + gw);
+    var tier1Msg = 'Hi there! Thank you for reaching out to ' + sName + ' Support. Quick tip: for maximum output on your ' + sName + ', make sure to charge it for 45 minutes with a standard 5V USB cable and fill the tank with warm tap water (never distilled water, as minerals activate the ultrasonic mist sensor). Let us know if that solves it right away!';
+    var tier2Msg = 'Hi! Since your satisfaction means everything to us, you do NOT need to pack or ship the item back to our warehouse. As a VIP Keep-It Courtesy, we can issue an immediate 50% refund (' + money(srp * 0.5) + ' USD) back to your card today AND you keep the ' + sName + ' for free. Would you like us to process your 50% instant refund right now?';
+    var shopifyCopy = 'TITLE: ' + c.name + '\nPRICE: ' + money(srp) + ' USD (Compare at ' + money(srp * 1.65) + ' — Save 40% + Free US Tracked Shipping)\n\nWHY US CUSTOMERS LOVE IT:\n• Instant Visual Results in Seconds — Engineered to solve ' + (c.category || 'daily discomfort') + ' from the very first use.\n• Safe, Ergonomic & Built to Last — Premium materials tested for daily home use.\n• Fast 7-11 Business Day US Delivery with live USPS/Last-Mile tracking.\n• 30-Day Stress-Free Guarantee — VIP Customer Support included.';
+    var remotionSpec = JSON.stringify({
+      product_id: c.candidate_id,
+      brand: sName,
+      format: '9:16 Vertical (1080x1920 @ 30fps · H.264 · 22s)',
+      anti_ban_uniquizer: '3 variantes exportadas (pitch ±1.5%, crop 1.5%, metadatos limpios para YT Shorts, IG Reels y FB Reels)',
+      timeline: [
+        { sec: '0.0s - 1.5s', layer: 'Pattern Interrupt + SFX Impact', voice_en: (r.hooks && r.hooks[0]) ? r.hooks[0].client : 'Stop scrolling if you deal with this every day.' },
+        { sec: '1.5s - 3.0s', layer: 'Silent Visual WOW Demo (1.0s dead air before beat drop)', visual: 'Close-up macro demonstration of ' + sName },
+        { sec: '3.0s - 17.0s', layer: '3D Kinetic Typography + Mechanism Proof', voice_en: (r.hooks && r.hooks[0]) ? r.hooks[0].creator : 'Here is why thousands of US homes switched to ' + sName + '.' },
+        { sec: '17.0s - 22.0s', layer: 'Urgency CTA Banner', cta: 'Link in bio — 40% OFF + Free US Shipping today!' }
+      ]
+    }, null, 2);
+    body.innerHTML =
+      '<div class="tier-cards">' +
+        '<div class="tier-c t-ok"><small>Capa 1 · Soporte VIP (0% Reemb.)</small><b class="dm lime mask">+' + money(e.profit) + '</b><p>Resuelve duda de uso en 1 clic. Conservas el 100% de tu ganancia neta.</p><button type="button" class="btn sm" style="margin-top:auto" data-copytext="' + esc(tier1Msg) + '"><i data-lucide="copy"></i>Copiar Respuesta C1</button></div>' +
+        '<div class="tier-c t-cy"><small>Capa 2 · Keep-it 50% (Sin envío)</small><b class="dm ' + (keepItNet >= 0 ? 'cyan' : 'amber') + ' mask">' + (keepItNet >= 0 ? '+' : '') + money(keepItNet) + '</b><p>Cliente se queda el producto + 50% reembolso. Ahorras $10 de guía inversa y <b>aún ganas ' + money(keepItNet) + '</b>.</p><button type="button" class="btn sm" style="margin-top:auto" data-copytext="' + esc(tier2Msg) + '"><i data-lucide="copy"></i>Copiar Oferta 50%</button></div>' +
+        '<div class="tier-c"><small>Capa 3 · Anti-Chargeback (100%)</small><b class="dm red mask">' + money(fullRefundLoss) + '</b><p>Si amenaza disputa bancaria, reembolsa el 100% al instante y evita la multa de $15.00 de Stripe/PayPal.</p><span class="bdg mut" style="margin-top:auto"><i data-lucide="shield"></i>0% Disputas</span></div>' +
+      '</div>' +
+      '<div class="kit-box">' +
+        '<div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px">' +
+          '<b style="font-size:12.5px;display:flex;align-items:center;gap:6px"><i data-lucide="shopping-bag" class="lime"></i>Kit D2C listo para copiar (Shopify Sense + Remotion 9:16)</b>' +
+          '<div style="display:flex;flex-wrap:wrap;gap:6px">' +
+            '<button type="button" class="btn sm btn-lime" data-copytext="' + esc(shopifyCopy) + '"><i data-lucide="copy"></i>Copiar Ficha Shopify (EN)</button>' +
+            '<button type="button" class="btn sm" data-copytext="' + esc(remotionSpec) + '"><i data-lucide="film"></i>Copiar Blueprint Remotion</button>' +
+          '</div>' +
+        '</div>' +
+        '<pre class="kit-pre">' + esc(shopifyCopy) + '</pre>' +
+      '</div>';
   }
 
   /* ---------- ranking (lista tipo trader) ---------- */
@@ -1716,7 +1859,7 @@
   /* ---------- render global ---------- */
   function renderSelected(anim) {
     var r = selected();
-    renderHero(r, anim); renderMarket(r); renderDial(r); renderContent(r); renderLaunch(r);
+    renderHero(r, anim); renderMarket(r); renderDial(r); renderContent(r); renderLaunch(r); renderSts(r); renderDefense(r);
     if (r) $('simSel').value = r.candidate.candidate_id;
     renderSim(); markSel(); icons();
   }
@@ -1734,7 +1877,7 @@
 
   /* ---------- eventos ---------- */
   document.addEventListener('click', function (e) {
-    var t = e.target.closest('[data-close],[data-pick],[data-detail],[data-edit],[data-eval],[data-new],[data-store],[data-copytext],[data-eye],[data-src],[data-chip],[data-vd],[data-help],[data-phone],[data-tab],[data-row],[data-connect],[data-cloudrun]');
+    var t = e.target.closest('[data-close],[data-pick],[data-detail],[data-edit],[data-eval],[data-new],[data-store],[data-copytext],[data-eye],[data-src],[data-chip],[data-vd],[data-help],[data-phone],[data-tab],[data-row],[data-connect],[data-cloudrun],[data-stsreset]');
     if (!t) return;
     if (t.dataset.close) { closeDlg($(t.dataset.close)); if (!t.dataset.edit) return; }
     if (t.dataset.store) { e.preventDefault(); toggleStore(t.dataset.store); return; }
@@ -1753,9 +1896,34 @@
     else if (t.hasAttribute('data-phone')) { closeSide(); openPhone(); }
     else if (t.hasAttribute('data-connect')) { closeSide(); closeDlg(rm); closeDlg($('formModal')); openConnect(t.dataset.connect === 'refresh'); }
     else if (t.hasAttribute('data-cloudrun')) { closeDlg(rm); cloudRefresh(); }
+    else if (t.dataset.stsreset) { store.set(stsKey(t.dataset.stsreset), ''); renderSts(selected()); icons(); toast('Valores STS restaurados', 'ok', 1800); }
     else if (t.dataset.tab) setView(t.dataset.tab, true);
   });
+  function handleStsInput(e) {
+    var sf = e.target.closest('[data-stsf]'); if (!sf) return;
+    var r = selected(); if (!r) return;
+    var box = $('stsForm'); if (!box) return;
+    var inp = getStsInput(r);
+    box.querySelectorAll('[data-stsf]').forEach(function (el) {
+      var k = el.dataset.stsf;
+      inp[k] = k === 'choice' ? el.value : (parseFloat(el.value) || 0);
+    });
+    store.set(stsKey(r.candidate.candidate_id), JSON.stringify(inp));
+    var res = calcSts(inp, r);
+    $('stsBadge').innerHTML = '<span class="bdg ' + res.status.cls + '">STS ' + res.total.toFixed(1) + '/100 · ' + res.status.label + '</span>';
+    $('stsBanner').innerHTML = ring(res.total, res.status.col) +
+      '<div class="sts-meta"><b>' + esc(res.status.label) + ' · Markup ' + res.markup.toFixed(2) + '×</b>' +
+      '<small>' + esc(inp.note) + '</small>' +
+      (res.ko.length ? '<small class="red">⚠ KO: ' + esc(res.ko.join(' · ')) + '</small>' : '<small class="lime">✓ Pasa las 6 Reglas de Oro de selección de proveedor en AliExpress/DSers</small>') +
+      '</div>';
+    if ($('stsVolPts')) $('stsVolPts').textContent = res.sVol + ' pts';
+    if ($('stsRatPts')) $('stsRatPts').textContent = res.sRat + ' pts';
+    if ($('stsLogPts')) $('stsLogPts').textContent = res.sLog + ' pts';
+    if ($('stsVisPts')) $('stsVisPts').textContent = res.sVis + ' pts';
+  }
+  document.addEventListener('input', handleStsInput);
   document.addEventListener('change', function (e) {
+    if (e.target.closest('[data-stsf]')) { handleStsInput(e); return; }
     var cb = e.target.closest('[data-ck]'); if (!cb) return;
     var parts = cb.dataset.ck.split('|'); setCheck(parts[0], parts[1], cb.checked);
     cb.closest('.ck').classList.toggle('done', cb.checked);
@@ -1805,6 +1973,10 @@
   $('scrim').addEventListener('click', closeSide);
 
   /* ---------- arranque ---------- */
+  try {
+    var focusParam = new URLSearchParams(location.search).get('focus');
+    if (focusParam && byId(focusParam)) { state.sel = focusParam; store.set('hunter-sel', focusParam); state.view = 'producto'; store.set('hunter-view', 'producto'); }
+  } catch (e) {}
   if (store.get('hunter-mask', '0') === '1') document.body.classList.add('masked');
   setView(store.get('hunter-view', 'producto'));
   renderAll(false);

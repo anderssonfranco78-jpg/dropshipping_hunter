@@ -49,6 +49,7 @@ if sys.stderr is None or sys.stdout is None:
 
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
+from hunter.n8n_bridge import bridge_status, sync_dsers_stock_payload  # noqa: E402
 from hunter.user_products import product_to_candidate  # noqa: E402  (validation = same rules as the robot)
 
 
@@ -56,8 +57,8 @@ from hunter.user_products import product_to_candidate  # noqa: E402  (validation
 # Sincronización con GitHub (PC -> teléfono)
 # ----------------------------------------------------------------------------------------------
 SYNC_PATHS = ["data/user_products.json", "data/radar_ideas.json", "data/candidates.json", "data/audit_results.json",
-              "data/data_health.json", "data/dashboard_data.js", "data/radar.json", "data/history",
-              "ranking_productos.html", "ranking_productos.png", "dossier_productos_ganadores.md"]
+              "data/data_health.json", "data/dashboard_data.js", "data/radar.json", "data/trends_cache.json",
+              "data/history", "assets/images", "ranking_productos.html", "ranking_productos.png", "dossier_productos_ganadores.md"]
 
 
 class Sync:
@@ -74,6 +75,38 @@ class Sync:
         return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True, encoding="utf-8",
                               errors="replace", timeout=timeout, creationflags=NO_WINDOW)
 
+    def _merge_trends_cache(self) -> None:
+        """Preserve the newest measurement per keyword across local disk and git refs before staging."""
+        cache_path = ROOT / "data" / "trends_cache.json"
+        if not cache_path.exists():
+            return
+        try:
+            merged = json.loads(cache_path.read_text(encoding="utf-8"))
+            if not isinstance(merged, dict):
+                merged = {}
+        except (OSError, ValueError):
+            merged = {}
+        for ref in (":2:data/trends_cache.json", ":3:data/trends_cache.json", "HEAD:data/trends_cache.json"):
+            res = self._git("show", ref)
+            if res.returncode != 0:
+                continue
+            try:
+                other = json.loads(res.stdout)
+            except ValueError:
+                continue
+            if not isinstance(other, dict):
+                continue
+            for k, v in other.items():
+                if not isinstance(v, dict):
+                    continue
+                cur = merged.get(k)
+                cur_ts = (cur.get("_measured_ts") or cur.get("until_ts") or 0) if isinstance(cur, dict) else 0
+                new_ts = v.get("_measured_ts") or v.get("until_ts") or 0
+                if not isinstance(cur, dict) or new_ts > cur_ts:
+                    merged[k] = v
+        if merged:
+            cache_path.write_text(json.dumps(merged, ensure_ascii=False, indent=1), encoding="utf-8")
+
     def start(self, reason: str) -> None:
         if not self.enabled:
             return
@@ -88,6 +121,7 @@ class Sync:
         try:
             if self._git("rev-parse", "--is-inside-work-tree").returncode != 0:
                 raise RuntimeError("esta carpeta no es un repositorio de git")
+            self._merge_trends_cache()
             existing = [p for p in SYNC_PATHS if (ROOT / p).exists()]
             self._git("add", "--", *existing)
             if self._git("diff", "--cached", "--quiet").returncode != 0:
@@ -97,6 +131,7 @@ class Sync:
             pull = self._git("pull", "--rebase", "--autostash", "-X", "theirs", timeout=120)
             if pull.returncode != 0:
                 self._git("rebase", "--abort")
+                self._git("reset", "--merge")
                 raise RuntimeError("no se pudo combinar con GitHub: " + (pull.stderr.strip() or pull.stdout.strip())[:300])
             push = self._git("push", timeout=120)
             if push.returncode != 0:
@@ -243,9 +278,22 @@ SYNC = Sync(enabled=True)
 JOB = Job(SYNC)
 
 
+HUB_ROOT = ROOT.parent / "multi_account_hub"
+HUB_DATA = HUB_ROOT / "data" / "negocios.json"
+
+
 class Handler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(ROOT), **kwargs)
+
+    def translate_path(self, path: str) -> str:
+        clean = path.split("?", 1)[0].split("#", 1)[0]
+        if clean.startswith("/multi_account_hub/") and HUB_ROOT.exists():
+            rel = clean[len("/multi_account_hub/"):].lstrip("/") or "index.html"
+            target = (HUB_ROOT / rel).resolve()
+            if str(target).startswith(str(HUB_ROOT.resolve())):
+                return str(target)
+        return super().translate_path(path)
 
     def end_headers(self) -> None:
         self.send_header("Cache-Control", "no-store")  # the panel must always see fresh data
@@ -277,12 +325,75 @@ class Handler(SimpleHTTPRequestHandler):
         return data
 
     def do_GET(self) -> None:
-        if self.path.split("?")[0] == "/api/status":
+        route = self.path.split("?")[0]
+        if route == "/api/status":
             return self._json(JOB.snapshot())
+        if route == "/api/hub/status":
+            return self._json({"available": HUB_ROOT.exists(), "can_edit": HUB_DATA.exists()})
+        if route == "/api/n8n/status":
+            return self._json(bridge_status(PRODUCTS))
         return super().do_GET()
 
     def do_POST(self) -> None:
         route = self.path.split("?")[0]
+        if route == "/api/n8n/sync-stock":
+            if not self._same_origin():
+                return self._json({"error": "forbidden"}, HTTPStatus.FORBIDDEN)
+            try:
+                result = sync_dsers_stock_payload(self._body(), products_path=PRODUCTS)
+            except (ValueError, TypeError, KeyError) as exc:
+                return self._json({"ok": False, "error": str(exc)}, HTTPStatus.BAD_REQUEST)
+            SYNC.start("stock sincronizado desde DSers/Shopify vía n8n")
+            return self._json(result)
+        if route in ("/api/hub/refresh", "/api/hub/save", "/api/hub/action"):
+            if not self._same_origin():
+                return self._json({"error": "forbidden"}, HTTPStatus.FORBIDDEN)
+            if route == "/api/hub/refresh" and (HUB_ROOT / "hub_engine.py").exists():
+                proc = subprocess.run(
+                    [sys.executable, str(HUB_ROOT / "hub_engine.py"), "refresh", "--all"],
+                    cwd=str(HUB_ROOT), capture_output=True, text=True, encoding="utf-8", errors="replace", creationflags=NO_WINDOW,
+                )
+                return self._json({"ok": proc.returncode == 0, "output": (proc.stdout or "")[-400:]})
+            if route == "/api/hub/action" and (HUB_ROOT / "hub_engine.py").exists():
+                try:
+                    payload = self._body()
+                    act = str(payload.get("action") or "").strip()
+                    bid = str(payload.get("business_id") or "").strip()
+                    cmd = [sys.executable, str(HUB_ROOT / "hub_engine.py")]
+                    if act == "refresh":
+                        cmd += ["refresh", "--all"]
+                    elif act == "log_metrics" and bid:
+                        cmd += [
+                            "log-metrics", "--business-id", bid,
+                            "--videos", str(int(payload.get("videos", 0))),
+                            "--views", str(int(payload.get("views", 0))),
+                            "--clicks", str(int(payload.get("clicks", 0))),
+                        ]
+                    elif act == "set_status" and bid:
+                        cmd += ["set-status", "--business-id", bid, "--status", str(payload.get("status") or "activo")]
+                    elif act == "warmup_day" and bid:
+                        cmd += ["warmup", "--business-id", bid, "--day", str(int(payload.get("day", 1)))]
+                    else:
+                        return self._json({"ok": False, "error": "invalid hub action"}, HTTPStatus.BAD_REQUEST)
+                    proc = subprocess.run(
+                        cmd, cwd=str(HUB_ROOT), capture_output=True, text=True,
+                        encoding="utf-8", errors="replace", creationflags=NO_WINDOW,
+                    )
+                    data = json.loads(HUB_DATA.read_text(encoding="utf-8")) if HUB_DATA.exists() else {}
+                    return self._json({"ok": proc.returncode == 0, "output": (proc.stdout or "")[-400:], "data": data})
+                except Exception as exc:
+                    return self._json({"ok": False, "error": str(exc)}, HTTPStatus.BAD_REQUEST)
+            if route == "/api/hub/save" and HUB_DATA.exists():
+                try:
+                    payload = self._body()
+                    if isinstance(payload.get("businesses"), list):
+                        tmp = HUB_DATA.with_suffix(".tmp")
+                        tmp.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+                        os.replace(tmp, HUB_DATA)
+                        return self._json({"ok": True})
+                except Exception as exc:
+                    return self._json({"ok": False, "error": str(exc)}, HTTPStatus.BAD_REQUEST)
+            return self._json({"ok": False, "error": "hub unavailable"}, HTTPStatus.BAD_REQUEST)
         if route not in ("/api/refresh", "/api/product", "/api/sync"):
             return self._json({"error": "not found"}, HTTPStatus.NOT_FOUND)
         if not self._same_origin() or self.headers.get("X-Hunter") != "1":

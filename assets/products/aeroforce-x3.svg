@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" fill="none">
+  <defs>
+    <radialGradient id="turboGlow" cx="55%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#090D16" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gunGrad" x1="55" y1="60" x2="175" y2="185" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#090D16"/>
+    </linearGradient>
+    <linearGradient id="turboEdge" x1="55" y1="65" x2="185" y2="175" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="28" fill="#090D16"/>
+  <circle cx="125" cy="110" r="95" fill="url(#turboGlow)"/>
+  <!-- Supersonic Airflow Streamlines -->
+  <path d="M168 78 L216 68" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+  <path d="M172 90 L224 90" stroke="#34D399" stroke-width="3" stroke-linecap="round"/>
+  <path d="M168 102 L216 112" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+  <!-- Turbine Barrel -->
+  <rect x="62" y="68" width="92" height="44" rx="22" fill="url(#gunGrad)" stroke="url(#turboEdge)" stroke-width="2.2"/>
+  <!-- Nozzle Cone -->
+  <path d="M150 74 L168 81 L168 99 L150 106 Z" fill="#0F172A" stroke="#38BDF8" stroke-width="1.8"/>
+  <!-- Turbine Core -->
+  <circle cx="92" cy="90" r="13" fill="#090D16" stroke="#38BDF8" stroke-width="1.8"/>
+  <circle cx="92" cy="90" r="4" fill="#34D399"/>
+  <!-- Ergonomic Grip -->
+  <path d="M84 112 L74 182 C73 190, 105 190, 106 182 L114 112 Z" fill="url(#gunGrad)" stroke="url(#turboEdge)" stroke-width="2"/>
+  <!-- Trigger Button -->
+  <rect x="111" y="122" width="8" height="16" rx="4" fill="#38BDF8"/>
+  <!-- Badge -->
+  <rect x="18" y="198" width="96" height="22" rx="6" fill="#38BDF8" fill-opacity="0.14" stroke="#38BDF8" stroke-opacity="0.4"/>
+  <text x="66" y="213" fill="#38BDF8" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">AEROFORCE 110K</text>
+</svg>

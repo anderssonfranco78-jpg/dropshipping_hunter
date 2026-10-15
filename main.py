@@ -422,7 +422,12 @@ def main(argv: Optional[List[str]] = None) -> int:
             with open(audit_path, "r", encoding="utf-8") as f:
                 raw_audit = json.load(f)
             audit_results = [AuditResult.from_dict(item) for item in raw_audit]
-            run_visualize_stage(audit_results)
+            vis_dir = PROJECT_ROOT if data_dir == (PROJECT_ROOT / "data").resolve() else data_dir
+            run_visualize_stage(
+                audit_results,
+                output_png=str(vis_dir / "ranking_productos.png"),
+                output_html=str(vis_dir / "ranking_productos.html"),
+            )
             print("\n[SUCCESS] Stage 3 (Visualize) completed successfully.")
             return 0
 
@@ -463,10 +468,11 @@ def main(argv: Optional[List[str]] = None) -> int:
             logger.error(" 🔴 %s", alert)
 
         # 3. Visualize
+        vis_dir = PROJECT_ROOT if data_dir == (PROJECT_ROOT / "data").resolve() else data_dir
         run_visualize_stage(
             results=audit_results,
-            output_png="ranking_productos.png",
-            output_html="ranking_productos.html",
+            output_png=str(vis_dir / "ranking_productos.png"),
+            output_html=str(vis_dir / "ranking_productos.html"),
         )
 
         # 4. Dossier & Hooks

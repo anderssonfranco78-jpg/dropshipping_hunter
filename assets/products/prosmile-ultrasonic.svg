@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" fill="none">
+  <defs>
+    <radialGradient id="cyanGlow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#090D16" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wandBody" x1="80" y1="45" x2="160" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0B1120"/>
+    </linearGradient>
+    <linearGradient id="cyanEdge" x1="90" y1="35" x2="150" y2="195" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="28" fill="#090D16"/>
+  <circle cx="120" cy="112" r="95" fill="url(#cyanGlow)"/>
+  <!-- Ultrasonic Frequency Rings -->
+  <circle cx="126" cy="40" r="14" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="1.6" stroke-dasharray="3 3"/>
+  <circle cx="126" cy="40" r="24" stroke="#34D399" stroke-opacity="0.3" stroke-width="1.4"/>
+  <!-- Stainless Surgical Tip -->
+  <path d="M120 78 L120 52 C120 44, 128 38, 132 34" stroke="#E2E8F0" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="132" cy="34" r="2.5" fill="#38BDF8"/>
+  <!-- LED Spotlight Cone -->
+  <path d="M113 78 L127 78 L124 68 L116 68 Z" fill="#38BDF8" fill-opacity="0.8"/>
+  <!-- Main Ultrasonic Handpiece -->
+  <rect x="104" y="78" width="32" height="114" rx="16" fill="url(#wandBody)" stroke="url(#cyanEdge)" stroke-width="2"/>
+  <!-- Mode Indicators -->
+  <circle cx="120" cy="108" r="5" fill="#090D16" stroke="#38BDF8" stroke-width="1.8"/>
+  <circle cx="120" cy="126" r="2.5" fill="#34D399"/>
+  <circle cx="120" cy="136" r="2.5" fill="#38BDF8"/>
+  <circle cx="120" cy="146" r="2.5" fill="#64748B"/>
+  <!-- Grip Ridges -->
+  <line x1="111" y1="164" x2="129" y2="164" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
+  <line x1="111" y1="171" x2="129" y2="171" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
+  <!-- Badge -->
+  <rect x="18" y="198" width="92" height="22" rx="6" fill="#06B6D4" fill-opacity="0.14" stroke="#06B6D4" stroke-opacity="0.4"/>
+  <text x="64" y="213" fill="#38BDF8" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">PROSMILE 42KHZ</text>
+</svg>

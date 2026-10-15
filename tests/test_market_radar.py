@@ -256,6 +256,105 @@ class TestPanelProductEdits(TempDir):
             self.mod.save_product({"name": "x"})  # no prices / rule inputs
         self.assertEqual(self.path.read_text(encoding="utf-8"), before)
 
+    def test_sync_paths_includes_trends_cache_and_merges_newest_entries(self):
+        self.assertIn("data/trends_cache.json", self.mod.SYNC_PATHS)
+        data_dir = self.tmp / "data"
+        data_dir.mkdir(exist_ok=True)
+        cache_file = data_dir / "trends_cache.json"
+        cache_file.write_text(json.dumps({
+            "cat brush": {"keyword": "cat brush", "_measured_ts": 200.0},
+            "local only": {"keyword": "local only", "_measured_ts": 150.0},
+        }), encoding="utf-8")
+        remote = json.dumps({
+            "cat brush": {"keyword": "cat brush", "_measured_ts": 100.0},
+            "cloud only": {"keyword": "cloud only", "_measured_ts": 300.0},
+        })
+        sync = self.mod.Sync(enabled=False)
+        with patch.object(self.mod, "ROOT", self.tmp), \
+             patch.object(sync, "_git", return_value=type("R", (), {"returncode": 0, "stdout": remote})()):
+            sync._merge_trends_cache()
+        merged = json.loads(cache_file.read_text(encoding="utf-8"))
+        self.assertEqual(merged["cat brush"]["_measured_ts"], 200.0)
+        self.assertEqual(merged["local only"]["_measured_ts"], 150.0)
+        self.assertEqual(merged["cloud only"]["_measured_ts"], 300.0)
+
+
+class TestN8nDsersBridge(TempDir):
+    def setUp(self):
+        super().setUp()
+        from tests.test_user_products import product
+        self.path = self.tmp / "user_products.json"
+        self.path.write_text(json.dumps({"products": [product()]}), encoding="utf-8")
+
+    def test_shopify_webhook_variants_and_ko_stock_alert(self):
+        from hunter.n8n_bridge import bridge_status, sync_dsers_stock_payload
+
+        res = sync_dsers_stock_payload({
+            "handle": "steamfur-pro",
+            "target_variant_name": "green",
+            "variants": [
+                {"title": "yellow", "inventory_quantity": 12, "price": "29.99"},
+                {"title": "Green Mist", "inventory_quantity": 602, "price": "29.99"},
+            ],
+        }, products_path=self.path)
+        self.assertTrue(res["ok"])
+        self.assertFalse(res["has_alerts"])
+        self.assertEqual(res["updated"][0]["verified_stock"], 602)
+        self.assertTrue(res["updated"][0]["en_tienda"])
+
+        # Drop stock below 100 -> KO-STOCK alert
+        low = sync_dsers_stock_payload({"id": "steamfur-pro", "stock": 45}, products_path=self.path)
+        self.assertTrue(low["has_alerts"])
+        self.assertTrue(low["updated"][0]["ko_stock"])
+        st = bridge_status(self.path)
+        self.assertTrue(st["ok"])
+        self.assertEqual(st["products"][0]["verified_stock"], 45)
+
+    def test_invalid_or_unknown_product_leaves_file_untouched(self):
+        from hunter.n8n_bridge import sync_dsers_stock_payload
+
+        before = self.path.read_text(encoding="utf-8")
+        with self.assertRaises(ValueError):
+            sync_dsers_stock_payload({"id": "unknown-id", "stock": 500}, products_path=self.path)
+        with self.assertRaises(ValueError):
+            sync_dsers_stock_payload({"id": "steamfur-pro", "stock": -5}, products_path=self.path)
+        with self.assertRaises(ValueError):
+            sync_dsers_stock_payload("not-a-dict", products_path=self.path)  # type: ignore[arg-type]
+        with self.assertRaises(ValueError):
+            sync_dsers_stock_payload({"items": []}, products_path=self.path)
+        self.assertEqual(self.path.read_text(encoding="utf-8"), before)
+
+    def test_boundary_stock_100_vs_99_and_supplier_cost_spike(self):
+        from hunter.n8n_bridge import sync_dsers_stock_payload
+
+        # Boundary: exactly 100 units -> OK (not ko_stock)
+        ok_100 = sync_dsers_stock_payload({"id": "steamfur-pro", "stock": 100}, products_path=self.path)
+        self.assertFalse(ok_100["updated"][0]["ko_stock"])
+        self.assertFalse(ok_100["has_alerts"])
+
+        # Boundary: 99 units -> KO-STOCK alert
+        ko_99 = sync_dsers_stock_payload({"id": "steamfur-pro", "stock": 99}, products_path=self.path)
+        self.assertTrue(ko_99["updated"][0]["ko_stock"])
+        self.assertTrue(ko_99["has_alerts"])
+
+        # Supplier cost spike -> margin & multiplier drop below 55% / 3.0x
+        cost_spike = sync_dsers_stock_payload({
+            "items": [{
+                "id": "steamfur-pro",
+                "stock": 500,
+                "supplier_cost_usd": 12.50,
+                "shipping_cost_usd": 4.50,
+                "retail_price_usd": 29.99,
+            }]
+        }, products_path=self.path)
+        u = cost_spike["updated"][0]
+        self.assertFalse(u["ko_stock"])
+        self.assertTrue(u["ko_margin"])
+        self.assertTrue(u["ko_multiplier"])
+        self.assertTrue(cost_spike["has_alerts"])
+
 
 if __name__ == "__main__":
     unittest.main()
+
+

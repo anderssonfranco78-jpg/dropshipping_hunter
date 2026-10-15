@@ -303,40 +303,42 @@ class TestHeadlessExecutionPurity(unittest.TestCase):
         if sys.platform != "win32":
             self.skipTest("Win32 window allocation check is specific to Windows")
 
-        # Launch hunter engine in a subprocess
-        cmd = [sys.executable, "-m", "hunter.hunter_engine", "--offline"]
-        proc = subprocess.Popen(
-            cmd,
-            cwd=str(HUNTER_ROOT),
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            stdin=subprocess.DEVNULL,
-            text=True,
-        )
+        with tempfile.TemporaryDirectory() as tmp:
+            out_path = os.path.join(tmp, "candidates.json")
+            # Launch hunter engine in a subprocess
+            cmd = [sys.executable, "-m", "hunter.hunter_engine", "--offline", "--output", out_path]
+            proc = subprocess.Popen(
+                cmd,
+                cwd=str(HUNTER_ROOT),
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                stdin=subprocess.DEVNULL,
+                text=True,
+            )
 
-        detected_hwnds = []
+            detected_hwnds = []
 
-        @ctypes.WINFUNCTYPE(wintypes.BOOL, wintypes.HWND, wintypes.LPARAM)
-        def enum_windows_callback(hwnd, lparam):
-            pid = wintypes.DWORD()
-            ctypes.windll.user32.GetWindowThreadProcessId(hwnd, ctypes.byref(pid))
-            if pid.value == proc.pid:
-                # Check if visible or titled window
-                if ctypes.windll.user32.IsWindowVisible(hwnd):
-                    length = ctypes.windll.user32.GetWindowTextLengthW(hwnd)
-                    buf = ctypes.create_unicode_buffer(length + 1)
-                    ctypes.windll.user32.GetWindowTextW(hwnd, buf, length + 1)
-                    detected_hwnds.append((hwnd, buf.value))
-            return True
+            @ctypes.WINFUNCTYPE(wintypes.BOOL, wintypes.HWND, wintypes.LPARAM)
+            def enum_windows_callback(hwnd, lparam):
+                pid = wintypes.DWORD()
+                ctypes.windll.user32.GetWindowThreadProcessId(hwnd, ctypes.byref(pid))
+                if pid.value == proc.pid:
+                    # Check if visible or titled window
+                    if ctypes.windll.user32.IsWindowVisible(hwnd):
+                        length = ctypes.windll.user32.GetWindowTextLengthW(hwnd)
+                        buf = ctypes.create_unicode_buffer(length + 1)
+                        ctypes.windll.user32.GetWindowTextW(hwnd, buf, length + 1)
+                        detected_hwnds.append((hwnd, buf.value))
+                return True
 
-        # Sample for windows while running
-        start_time = time.time()
-        while proc.poll() is None and (time.time() - start_time) < 10:
-            ctypes.windll.user32.EnumWindows(enum_windows_callback, 0)
-            time.sleep(0.05)
+            # Sample for windows while running
+            start_time = time.time()
+            while proc.poll() is None and (time.time() - start_time) < 10:
+                ctypes.windll.user32.EnumWindows(enum_windows_callback, 0)
+                time.sleep(0.05)
 
-        stdout, stderr = proc.communicate(timeout=10)
-        self.assertEqual(proc.returncode, 0, f"Hunter engine failed with stderr: {stderr}")
+            stdout, stderr = proc.communicate(timeout=10)
+            self.assertEqual(proc.returncode, 0, f"Hunter engine failed with stderr: {stderr}")
 
         # Assert zero GUI windows allocated
         self.assertEqual(
@@ -347,16 +349,18 @@ class TestHeadlessExecutionPurity(unittest.TestCase):
 
     def test_non_blocking_stdin_redirection(self):
         """Verifies process runs to completion when stdin is redirected from $null / devnull."""
-        proc = subprocess.run(
-            [sys.executable, "-m", "hunter.hunter_engine", "--seed-only"],
-            cwd=str(HUNTER_ROOT),
-            stdin=subprocess.DEVNULL,
-            capture_output=True,
-            text=True,
-            timeout=10,
-        )
-        self.assertEqual(proc.returncode, 0)
-        self.assertIn("Harvested Candidates Summary Table", proc.stdout)
+        with tempfile.TemporaryDirectory() as tmp:
+            out_path = os.path.join(tmp, "candidates.json")
+            proc = subprocess.run(
+                [sys.executable, "-m", "hunter.hunter_engine", "--seed-only", "--output", out_path],
+                cwd=str(HUNTER_ROOT),
+                stdin=subprocess.DEVNULL,
+                capture_output=True,
+                text=True,
+                timeout=10,
+            )
+            self.assertEqual(proc.returncode, 0)
+            self.assertIn("Harvested Candidates Summary Table", proc.stdout)
 
 
 if __name__ == "__main__":

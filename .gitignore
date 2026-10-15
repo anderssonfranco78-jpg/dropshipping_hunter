@@ -8,3 +8,6 @@ htmlcov/
 .chrome_profile/
 _backup_pre_refactor_*/
 data/ultima_corrida.log
+crop_*.png
+reference_shot_*.jpg
+index_pre_lurn.html

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" fill="none">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.22"/>
+      <stop offset="65%" stop-color="#06B6D4" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#090D16" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bodyGrad" x1="50" y1="60" x2="170" y2="185" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#090D16"/>
+    </linearGradient>
+    <linearGradient id="emeraldEdge" x1="60" y1="55" x2="165" y2="175" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="steamGrad" x1="120" y1="55" x2="120" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="28" fill="#090D16"/>
+  <circle cx="120" cy="112" r="96" fill="url(#bgGlow)"/>
+  <!-- Mist / Ultrasonic Steam Waves -->
+  <path d="M96 56 C92 40, 104 30, 98 16" stroke="url(#steamGrad)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M120 52 C116 34, 128 24, 120 10" stroke="url(#steamGrad)" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M144 56 C140 40, 152 30, 146 16" stroke="url(#steamGrad)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="106" cy="30" r="2.5" fill="#38BDF8" opacity="0.7"/>
+  <circle cx="133" cy="26" r="2" fill="#34D399" opacity="0.8"/>
+  <circle cx="120" cy="38" r="3" fill="#38BDF8" opacity="0.6"/>
+  <!-- Silicone Bristles Row -->
+  <g stroke="#34D399" stroke-width="2.6" stroke-linecap="round" opacity="0.9">
+    <line x1="82" y1="74" x2="82" y2="62"/>
+    <line x1="94" y1="71" x2="94" y2="58"/>
+    <line x1="106" y1="69" x2="106" y2="55"/>
+    <line x1="120" y1="68" x2="120" y2="53"/>
+    <line x1="134" y1="69" x2="134" y2="55"/>
+    <line x1="146" y1="71" x2="146" y2="58"/>
+    <line x1="158" y1="74" x2="158" y2="62"/>
+  </g>
+  <!-- Brush Head Oval -->
+  <rect x="64" y="72" width="112" height="58" rx="29" fill="url(#bodyGrad)" stroke="url(#emeraldEdge)" stroke-width="2.2"/>
+  <!-- Ultrasonic Nozzle Core -->
+  <ellipse cx="120" cy="101" rx="22" ry="12" fill="#0B1324" stroke="#38BDF8" stroke-width="1.6"/>
+  <circle cx="120" cy="101" r="5" fill="#10B981"/>
+  <!-- Ergonomic Rotating Handle -->
+  <path d="M103 130 L107 196 C107.5 204, 132.5 204, 133 196 L137 130 Z" fill="url(#bodyGrad)" stroke="url(#emeraldEdge)" stroke-width="2"/>
+  <!-- Power LED Indicator -->
+  <circle cx="120" cy="154" r="4" fill="#10B981"/>
+  <circle cx="120" cy="154" r="7" stroke="#10B981" stroke-opacity="0.35" stroke-width="1.5"/>
+  <!-- Badge -->
+  <rect x="18" y="198" width="90" height="22" rx="6" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-opacity="0.4"/>
+  <text x="63" y="213" fill="#34D399" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">STEAMFUR 3-IN-1</text>
+</svg>

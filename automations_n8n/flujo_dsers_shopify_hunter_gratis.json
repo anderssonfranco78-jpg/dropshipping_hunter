@@ -1,0 +1,88 @@
+{
+  "name": "Ralf & Co — DSers + Shopify -> Dropshipping Hunter (Sincronizador Gratuito de Stock)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "shopify-dsers-inventory",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "id": "node-shopify-webhook",
+      "name": "1. Webhook Shopify (DSers Stock Update)",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        220,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 12
+            }
+          ]
+        }
+      },
+      "id": "node-schedule-12h",
+      "name": "1b. Consulta Espaciada (Cada 12h - Ahorro Cuota Gratis)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        220,
+        440
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8765/api/n8n/sync-stock",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Hunter",
+              "value": "1"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json) }}",
+        "options": {}
+      },
+      "id": "node-hunter-sync",
+      "name": "2. Actualizar Dropshipping Hunter Local",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        540,
+        340
+      ]
+    }
+  ],
+  "connections": {
+    "1. Webhook Shopify (DSers Stock Update)": {
+      "main": [
+        [
+          {
+            "node": "2. Actualizar Dropshipping Hunter Local",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}
