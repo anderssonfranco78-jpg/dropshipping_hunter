@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-10-15 10:38:46 UTC",
+ "updated_at": "2026-10-15 10:38:51 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
     "keyword": "cat water fountain",
     "shorts_found": 33,
-    "median_views_top10": 23000,
+    "median_views_top10": 193000,
     "max_views": 6000000,
-    "over_100k": 3,
-    "over_1m": 1,
+    "over_100k": 7,
+    "over_1m": 2,
     "top": [
      {
       "title": "Anti-Gravity Water Fountain For Cats #goodtoknow #vet #medicine #educational #funfacts #lifehacks",
@@ -16,24 +16,24 @@
       "url": "https://www.youtube.com/shorts/dKXyh-A32Kk"
      },
      {
+      "title": "Pancake conquered every water bowl… now he’s successfully flipped a water fountain too 😂🤦‍♀️ #cats",
+      "views": 1500000,
+      "url": "https://www.youtube.com/shorts/rBaK8rAAXnE"
+     },
+     {
+      "title": "This little water fountain by @oneisall_official - no cords, super quiet, and they love it!",
+      "views": 378000,
+      "url": "https://www.youtube.com/shorts/_RMsX31WeFw"
+     },
+     {
       "title": "Cat water fountain upgrade🐱 linked in bio on Amazon! #catwaterbowl #catwaterfountain #amazongadgets",
       "views": 251000,
       "url": "https://www.youtube.com/shorts/NI9oZLyLSL0"
      },
      {
-      "title": "Pet water fountain #cat #bestpetsupplies #petcareprovider",
-      "views": 167000,
-      "url": "https://www.youtube.com/shorts/2rNva4yBN9A"
-     },
-     {
-      "title": "Created a budget-friendly water fountain \"Who says luxury can't be affordable?\" #shorts #diy #viral",
-      "views": 35000,
-      "url": "https://www.youtube.com/shorts/63fTmgqdbgA"
-     },
-     {
-      "title": "Is your cat a fan of running water? 😺 Try a water fountain!! #Cat #WaterFountain #petproducts",
-      "views": 28000,
-      "url": "https://www.youtube.com/shorts/tXJ89NwPMjA"
+      "title": "🐶\"DIY Automatic water dispenser for pet\"😳🤩 #diy #diyprojects #diyideas #handmade #pets",
+      "views": 219000,
+      "url": "https://www.youtube.com/shorts/_xe7zR8MQg4"
      }
     ],
     "status": "LIVE"
@@ -102,25 +102,25 @@
    ],
    "rising_at": "2026-10-12 10:07:17 UTC",
    "market": {
-    "score": 54,
-    "video_score": 64,
+    "score": 63,
+    "video_score": 87,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 23K vistas (el mayor, 6M)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Shorts: los 10 más vistos tienen una mediana de 193K vistas (el mayor, 6M)",
+     "Competencia media: 2 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -20% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-15 10:38:42 UTC",
+   "measured_at": "2026-10-15 10:38:48 UTC",
    "trends_at": "2026-10-13 14:20 UTC"
   },
   "dog-paw-cleaner": {
    "youtube": {
     "keyword": "dog paw cleaner cup",
-    "shorts_found": 33,
-    "median_views_top10": 20500,
+    "shorts_found": 27,
+    "median_views_top10": 8900,
     "max_views": 43000000,
     "over_100k": 3,
     "over_1m": 1,
@@ -141,14 +141,14 @@
       "url": "https://www.youtube.com/shorts/shoJwDc3NIE"
      },
      {
-      "title": "PetPals Automatic Dog Paw Cleaner, USB Rechargeable Silicone Portable Pet Paw Washer for Small to",
-      "views": 46000,
-      "url": "https://www.youtube.com/shorts/8XFwns9dxxA"
-     },
-     {
       "title": "Muddy paws? 🐾 This paw cleaner cup for dogs #shorts",
       "views": 28000,
       "url": "https://www.youtube.com/shorts/w_7DDnZijRA"
+     },
+     {
+      "title": "🐾 Dog Paw Cleaner Cup #petlovers#doglife#cleaning#cat #catfun#pets#petsupplies#puppy #dog#fun#dogs",
+      "views": 15000,
+      "url": "https://www.youtube.com/shorts/gVIBN1Vlt1c"
      }
     ],
     "status": "LIVE"
@@ -209,18 +209,18 @@
    ],
    "rising_at": "2026-10-12 10:07:22 UTC",
    "market": {
-    "score": 63,
-    "video_score": 63,
+    "score": 54,
+    "video_score": 54,
     "trend_score": null,
     "crowding": "baja",
     "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 20K vistas (el mayor, 43M)",
+     "Shorts: los 10 más vistos tienen una mediana de 9K vistas (el mayor, 43M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google: casi no se busca por nombre (normal en gadgets que se descubren en video)"
     ]
    },
-   "measured_at": "2026-10-15 10:38:46 UTC",
+   "measured_at": "2026-10-15 10:38:51 UTC",
    "trends_at": "2026-10-12 11:25 UTC"
   },
   "lick-mat": {
@@ -2733,20 +2733,21 @@
    "trends_at": "2026-10-13 03:39 UTC"
   },
   "lcd-drawing-tablet": {
-   "youtube_status": "NO_LIVE_DATA",
+   "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 20,
-    "video_score": null,
+    "score": 45,
+    "video_score": 70,
     "trend_score": 20,
-    "crowding": null,
-    "partial": true,
+    "crowding": "media",
+    "partial": false,
     "reasons": [
-     "Shorts: sin datos en vivo en esta corrida",
+     "Shorts: los 10 más vistos tienen una mediana de 38K vistas (el mayor, 4.3M)",
+     "Competencia media: 2 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -46% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-15 10:38:28 UTC",
+   "measured_at": "2026-10-15 10:38:34 UTC",
    "trends": {
     "momentum_pct": -45.7,
     "low_volume": false,
@@ -2804,16 +2805,52 @@
      "growth": "+40%"
     }
    ],
-   "rising_at": "2026-10-13 14:20:00 UTC"
+   "rising_at": "2026-10-13 14:20:00 UTC",
+   "youtube": {
+    "keyword": "lcd writing tablet kids",
+    "shorts_found": 11,
+    "median_views_top10": 38500,
+    "max_views": 4300000,
+    "over_100k": 3,
+    "over_1m": 2,
+    "top": [
+     {
+      "title": "Small LCD Tablet Vs USB Charging  Writing Pad 🔥 Unboxing & Test",
+      "views": 4300000,
+      "url": "https://www.youtube.com/shorts/5JHCbpwlU4E"
+     },
+     {
+      "title": "LCD Panel Writing 🖍️Tablet Unboxing Testing 🔥",
+      "views": 1300000,
+      "url": "https://www.youtube.com/shorts/P2AG63NeqAA"
+     },
+     {
+      "title": "Unboxing LCD Writing Tablet 🤪",
+      "views": 360000,
+      "url": "https://www.youtube.com/shorts/lHyJrk6kgF8"
+     },
+     {
+      "title": "Portronics Ruffpad 8.5M Multicolor LCD Writing Pad",
+      "views": 79000,
+      "url": "https://www.youtube.com/shorts/3pgkgiR9gYM"
+     },
+     {
+      "title": "₹99 Small LCD Tablet 🆚 ₹189 USB Charging Writing Pad | Amazing Unboxing",
+      "views": 41000,
+      "url": "https://www.youtube.com/shorts/p8gmIQW-B-M"
+     }
+    ],
+    "status": "LIVE"
+   }
   },
   "solar-garden-lights": {
    "youtube": {
     "keyword": "solar garden lights",
-    "shorts_found": 29,
-    "median_views_top10": 216500,
+    "shorts_found": 43,
+    "median_views_top10": 1650000,
     "max_views": 48000000,
-    "over_100k": 6,
-    "over_1m": 2,
+    "over_100k": 16,
+    "over_1m": 6,
     "top": [
      {
       "title": "Solar garden lamp street lamp #solarcharging",
@@ -2821,24 +2858,24 @@
       "url": "https://www.youtube.com/shorts/z0hfmm4hQZQ"
      },
      {
+      "title": "3 Solar Lights for Janta!",
+      "views": 6000000,
+      "url": "https://www.youtube.com/shorts/2Yi8wJ_NpvI"
+     },
+     {
+      "title": "Solar LED light 💯🤯 #shorts",
+      "views": 5300000,
+      "url": "https://www.youtube.com/shorts/H8ZDMfg6oaU"
+     },
+     {
+      "title": "Solar Security Camera Light 💯🤯 #shorts",
+      "views": 4700000,
+      "url": "https://www.youtube.com/shorts/SwV300CJaWE"
+     },
+     {
       "title": "Viral solar lights from Meesho #solarlight #viralfinds #meeshohaul #shortsindia #shorts",
       "views": 2300000,
       "url": "https://www.youtube.com/shorts/tbv-J6axspk"
-     },
-     {
-      "title": "Affordable solar lights, no drill needed!🪴Perfect for my terrace garden! #TerraceGarden #unboxing",
-      "views": 599000,
-      "url": "https://www.youtube.com/shorts/WT0lGQH8ptY"
-     },
-     {
-      "title": "⚡Solar Powered Wall Light #walllights #solarlight  #lighting",
-      "views": 433000,
-      "url": "https://www.youtube.com/shorts/y8UnY40K-0I"
-     },
-     {
-      "title": "Amazon Solar Lights for Your Backyard Deck Patio Garden! #amazonstyle",
-      "views": 298000,
-      "url": "https://www.youtube.com/shorts/yy6Czrz9sTk"
      }
     ],
     "status": "LIVE"
@@ -2846,18 +2883,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 74,
-    "video_score": 88,
+    "score": 71,
+    "video_score": 100,
     "trend_score": 65,
-    "crowding": "media",
+    "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 216K vistas (el mayor, 48M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 1.6M vistas (el mayor, 48M)",
+     "Competencia alta: 6 Shorts pasan el millón de vistas",
      "Google (EE. UU.): estable -8% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-15 10:38:32 UTC",
+   "measured_at": "2026-10-15 10:38:38 UTC",
    "trends": {
     "momentum_pct": -7.9,
     "low_volume": false,
@@ -2924,36 +2961,36 @@
   "camping-lantern": {
    "youtube": {
     "keyword": "rechargeable camping lantern",
-    "shorts_found": 31,
-    "median_views_top10": 19500,
-    "max_views": 352000,
-    "over_100k": 1,
-    "over_1m": 0,
+    "shorts_found": 43,
+    "median_views_top10": 136000,
+    "max_views": 13000000,
+    "over_100k": 5,
+    "over_1m": 2,
     "top": [
+     {
+      "title": "⚡️ 4 in 1 Rechargeable Emergency Light ✨✨#viral #gadgets #telugu #india  #shorts #india  #light",
+      "views": 13000000,
+      "url": "https://www.youtube.com/shorts/oqOqjnmSMfM"
+     },
+     {
+      "title": "First Look! New Camping Lantern Launching Soon 🏕️ Do You Like the Design?#shorts",
+      "views": 6700000,
+      "url": "https://www.youtube.com/shorts/SQg58vaNOoI"
+     },
      {
       "title": "Yardwe Led Camping Lantern Solar Panel Hand-Powered Tent 🌐 #solarlight #lamp #campinglife #shorts",
       "views": 352000,
       "url": "https://www.youtube.com/shorts/cqSZRf1oIdU"
      },
      {
-      "title": "Solar Rechargeable Led Camping Lantern Light | Camping Lantern #shorts",
-      "views": 76000,
-      "url": "https://www.youtube.com/shorts/Al7xj5KgraU"
+      "title": "Wipro rechargeable emergency light #shorts | Wipro emergency light | rechargeable emergency light",
+      "views": 320000,
+      "url": "https://www.youtube.com/shorts/RuO8v6I-7Ww"
      },
      {
-      "title": "Solar Camping Lantern 🔥 | Amazing Emergency Light #Shorts",
-      "views": 34000,
-      "url": "https://www.youtube.com/shorts/7YpQ4_l1Mqg"
-     },
-     {
-      "title": "( #Shopee ) Solar Rechargeable camping lantern w/ flashlight #shorts #solar #flashlight",
-      "views": 31000,
-      "url": "https://www.youtube.com/shorts/cYggvD6Cmvc"
-     },
-     {
-      "title": "This Solar Camping Lantern Is a Genius Gadget! ☀️🔦 #shorts",
-      "views": 21000,
-      "url": "https://www.youtube.com/shorts/Z9hnYEQw6-0"
+      "title": "Solar Powered Rechargeable Emergency LED Light Bulb, Portable Waterproof Hanging Camping Lantern",
+      "views": 196000,
+      "url": "https://www.youtube.com/shorts/fM-LVRJ6fz8"
      }
     ],
     "status": "LIVE"
@@ -3023,52 +3060,52 @@
    ],
    "rising_at": "2026-10-12 11:24:57 UTC",
    "market": {
-    "score": 45,
-    "video_score": 62,
+    "score": 53,
+    "video_score": 83,
     "trend_score": 20,
-    "crowding": "baja",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 20K vistas (el mayor, 352K)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Shorts: los 10 más vistos tienen una mediana de 136K vistas (el mayor, 13M)",
+     "Competencia media: 2 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -32% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-15 10:38:35 UTC"
+   "measured_at": "2026-10-15 10:38:41 UTC"
   },
   "electric-lint-remover": {
    "youtube": {
     "keyword": "fabric shaver lint remover",
-    "shorts_found": 32,
-    "median_views_top10": 26000,
-    "max_views": 175000,
-    "over_100k": 1,
-    "over_1m": 0,
+    "shorts_found": 49,
+    "median_views_top10": 773000,
+    "max_views": 6400000,
+    "over_100k": 12,
+    "over_1m": 4,
     "top": [
      {
-      "title": "Revamp Your Clothes: Fabric Shaver Hack! #fabricshaver #lintremover",
-      "views": 175000,
-      "url": "https://www.youtube.com/shorts/INmi6I7-WMQ"
+      "title": "Best Home Gadget!! - Wireless Lint Remover #hindi #gadgets #trending #shorts #india #lintremover",
+      "views": 6400000,
+      "url": "https://www.youtube.com/shorts/8x_7UeuuKcw"
      },
      {
-      "title": "Trying a Fabric Shaver",
-      "views": 64000,
-      "url": "https://www.youtube.com/shorts/VqzaUx09oIc"
+      "title": "Best Lint Remover for Clothes under 300 #telugu #viral #gadgets #trending #shorts #india",
+      "views": 5200000,
+      "url": "https://www.youtube.com/shorts/MpMXpMIfQLE"
      },
      {
-      "title": "Essential Gadget: Fabric Shaver & Lint Remover for Clothes & Furniture",
-      "views": 38000,
-      "url": "https://www.youtube.com/shorts/QC5Dj1v4Fqw"
+      "title": "Cheap Vs Expensive Lint Remover #shorts",
+      "views": 4300000,
+      "url": "https://www.youtube.com/shorts/QXPvnPcnS6o"
      },
      {
-      "title": "How to Use a Rechargeable Fabric Shaver👕 #Shorts #LintRemover #AmazonFinds #CleaningHack #GadgetDemo",
-      "views": 35000,
-      "url": "https://www.youtube.com/shorts/3nhqBT-ky0o"
+      "title": "This Tiny Tool Works Wonders on Fabric!",
+      "views": 4200000,
+      "url": "https://www.youtube.com/shorts/NtOEBVoPij0"
      },
      {
-      "title": "We're blown away by this fabric shaver! Visit celsious.com #youtubeshorts #shorts",
-      "views": 30000,
-      "url": "https://www.youtube.com/shorts/L5QqFvXI6qQ"
+      "title": "Lint remover from clothes Amazon  #shorts Lint remover review lint remover meesho",
+      "views": 976000,
+      "url": "https://www.youtube.com/shorts/YvCh7nRn4XM"
      }
     ],
     "status": "LIVE"
@@ -3138,18 +3175,18 @@
    ],
    "rising_at": "2026-10-12 11:25:15 UTC",
    "market": {
-    "score": 55,
-    "video_score": 65,
+    "score": 61,
+    "video_score": 100,
     "trend_score": 40,
-    "crowding": "baja",
+    "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 26K vistas (el mayor, 175K)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Shorts: los 10 más vistos tienen una mediana de 773K vistas (el mayor, 6.4M)",
+     "Competencia alta: 4 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -14% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-15 10:38:39 UTC"
+   "measured_at": "2026-10-15 10:38:44 UTC"
   }
  }
 }
