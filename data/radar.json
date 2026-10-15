@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-15 10:38:51 UTC",
+ "updated_at": "2026-10-15 11:56:00 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -632,16 +632,16 @@
   "magnetic-window-cleaner": {
    "youtube": {
     "keyword": "magnetic window cleaner",
-    "shorts_found": 30,
-    "median_views_top10": 839000,
-    "max_views": 23000000,
-    "over_100k": 7,
-    "over_1m": 4,
+    "shorts_found": 38,
+    "median_views_top10": 6900000,
+    "max_views": 48000000,
+    "over_100k": 12,
+    "over_1m": 7,
     "top": [
      {
-      "title": "This Magnetic Window Cleaner is My New Favorite Toy! ✨ So CLEVER! #cleaninggadget #windowwashing",
-      "views": 23000000,
-      "url": "https://www.youtube.com/shorts/AJRT9Kuk8mQ"
+      "title": "Product Link in Bio ( 136 ) 🚀 Magnetic Mini Fish Tank Cleaner",
+      "views": 48000000,
+      "url": "https://www.youtube.com/shorts/2oEi31GVukw"
      },
      {
       "title": "▶️ Clean both sides easily Double Side Magnetic Window Cleaner Brush Tool ( # 2121 )",
@@ -659,9 +659,9 @@
       "url": "https://www.youtube.com/shorts/-CW9PIm3XJI"
      },
      {
-      "title": "how to use a magnetic glass cleaner?",
-      "views": 879000,
-      "url": "https://www.youtube.com/shorts/vQNbom6sW8o"
+      "title": "Product Link in Description▶️ Double Side Magnetic Window Cleaner Brush Tool",
+      "views": 12000000,
+      "url": "https://www.youtube.com/shorts/_nuEJyjeZng"
      }
     ],
     "status": "LIVE"
@@ -675,56 +675,56 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 839K vistas (el mayor, 23M)",
-     "Competencia alta: 4 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 6.9M vistas (el mayor, 48M)",
+     "Competencia alta: 7 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -14% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-13 22:01:12 UTC",
+   "measured_at": "2026-10-15 11:55:43 UTC",
    "trends": {
-    "momentum_pct": -14.3,
+    "momentum_pct": -14.2,
     "low_volume": false,
     "peak_ratio": 0.3,
-    "mean_recent": 30.0
+    "mean_recent": 29.8
    },
    "trends_series": [
     100,
-    72,
-    56,
+    71,
+    55,
     48,
-    80,
-    94,
-    65,
-    68,
-    88,
-    73,
-    73,
+    79,
+    96,
+    64,
+    67,
+    87,
+    72,
+    72,
     40,
-    36,
+    35,
     30,
     29,
     34,
     32,
     28,
     26,
-    29,
-    32,
-    31,
     28,
-    29,
     31,
+    31,
+    27,
+    30,
+    30,
     32
    ],
-   "trends_at": "2026-10-12 12:04 UTC"
+   "trends_at": "2026-10-12 16:04 UTC"
   },
   "shower-filter": {
    "youtube": {
     "keyword": "shower head filter",
-    "shorts_found": 30,
-    "median_views_top10": 249000,
+    "shorts_found": 34,
+    "median_views_top10": 249500,
     "max_views": 5200000,
-    "over_100k": 10,
-    "over_1m": 2,
+    "over_100k": 8,
+    "over_1m": 3,
     "top": [
      {
       "title": "I got the best shower head 🚿",
@@ -737,13 +737,13 @@
       "url": "https://www.youtube.com/shorts/J8W5ItzbGBc"
      },
      {
-      "title": "Ultimate Hydro Jet Shower Head Review: The Best High-Pressure Shower Experience! #hydrojet #shower",
-      "views": 282000,
-      "url": "https://www.youtube.com/shorts/Cl6LNTj29bM"
+      "title": "Replacing my showerhead filter! #shorts #amazonfinds #asmrsounds",
+      "views": 1700000,
+      "url": "https://www.youtube.com/shorts/gAJo4YHWVL0"
      },
      {
       "title": "Top Amazon Finds You’ll Love, Filtered Shower Head with Handheld #amazonfinds #amazongadgets",
-      "views": 271000,
+      "views": 273000,
       "url": "https://www.youtube.com/shorts/vAcqXZtOzoU"
      },
      {
@@ -763,28 +763,28 @@
     "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 249K vistas (el mayor, 5.2M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -39% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 250K vistas (el mayor, 5.2M)",
+     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): baja -40% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-13 22:01:18 UTC",
+   "measured_at": "2026-10-15 11:55:46 UTC",
    "trends": {
-    "momentum_pct": -38.8,
+    "momentum_pct": -39.7,
     "low_volume": false,
     "peak_ratio": 0.17,
-    "mean_recent": 17.5
+    "mean_recent": 17.2
    },
    "trends_series": [
-    94,
-    65,
+    96,
+    66,
     51,
     41,
     66,
     91,
-    60,
     61,
-    71,
+    61,
+    72,
     60,
     65,
     37,
@@ -801,18 +801,18 @@
     17,
     19,
     17,
-    17
+    16
    ],
-   "trends_at": "2026-10-12 12:04 UTC"
+   "trends_at": "2026-10-12 16:04 UTC"
   },
   "portable-blender": {
    "youtube": {
     "keyword": "portable blender",
-    "shorts_found": 31,
-    "median_views_top10": 2050000,
+    "shorts_found": 44,
+    "median_views_top10": 1411000,
     "max_views": 587000000,
-    "over_100k": 9,
-    "over_1m": 6,
+    "over_100k": 8,
+    "over_1m": 5,
     "top": [
      {
       "title": "Orange in portable Blender",
@@ -820,24 +820,24 @@
       "url": "https://www.youtube.com/shorts/r6R7VzXvxNo"
      },
      {
-      "title": "The Fastest Way To Make Fresh Juice!",
-      "views": 194000000,
-      "url": "https://www.youtube.com/shorts/IXJYL3IyNTs"
-     },
-     {
       "title": "What should we blend next? 🍓🫐 #freshjuice #smoothie #milkshake #portableblender #foryoupage",
       "views": 14000000,
       "url": "https://www.youtube.com/shorts/eE4IzQwbHk4"
      },
      {
-      "title": "Oreo Cookie Shake in Portable Blender 🍪✨️ #shorts #asmr",
+      "title": "Oreo 🍪 milkshake 🧋 in Portable Blender  #shorts #shortvideo",
       "views": 2300000,
-      "url": "https://www.youtube.com/shorts/HGaLjWKiuh4"
+      "url": "https://www.youtube.com/shorts/VI0ZqkO1zhs"
      },
      {
       "title": "Portable Blender Smoothies Personal Blender Mini Shakes Juicer Cup USB Rechargeable.#shorts",
       "views": 2100000,
       "url": "https://www.youtube.com/shorts/aW55pWnvifU"
+     },
+     {
+      "title": "Check the portable blender!Perfect for shakes and smoothies.Compact 600ML design for on-the-go use.",
+      "views": 2000000,
+      "url": "https://www.youtube.com/shorts/wG6Ris7oVp8"
      }
     ],
     "status": "LIVE"
@@ -851,25 +851,25 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 2M vistas (el mayor, 587M)",
-     "Competencia alta: 6 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 1.4M vistas (el mayor, 587M)",
+     "Competencia alta: 5 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -62% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 02:19:03 UTC",
+   "measured_at": "2026-10-15 11:55:50 UTC",
    "trends": {
-    "momentum_pct": -62.5,
+    "momentum_pct": -62.0,
     "low_volume": false,
     "peak_ratio": 0.02,
     "mean_recent": 2.2
    },
    "trends_series": [
     100,
-    83,
-    63,
-    76,
-    65,
-    22,
+    81,
+    62,
+    75,
+    64,
+    21,
     17,
     17,
     19,
@@ -884,28 +884,38 @@
     3,
     3,
     3,
-    4,
+    3,
     3,
     2,
     3,
     2,
     2
    ],
-   "trends_at": "2026-10-12 12:04 UTC"
+   "trends_at": "2026-10-12 16:04 UTC"
   },
   "veggie-chopper": {
    "youtube": {
     "keyword": "vegetable chopper",
-    "shorts_found": 36,
-    "median_views_top10": 830000,
-    "max_views": 21000000,
-    "over_100k": 14,
-    "over_1m": 4,
+    "shorts_found": 42,
+    "median_views_top10": 2100000,
+    "max_views": 29000000,
+    "over_100k": 22,
+    "over_1m": 8,
     "top": [
      {
-      "title": "Vegetable Cutting Peeler #shorts #gadgets #vegetablecutter #products",
-      "views": 21000000,
-      "url": "https://www.youtube.com/shorts/41bdME7I8Bs"
+      "title": "Viral Vegetable Slicer Test 🥕",
+      "views": 29000000,
+      "url": "https://www.youtube.com/shorts/s7W-fLzgfaA"
+     },
+     {
+      "title": "Premium Vegetable Chopper | The Easiest Way to Slice Vegetables 🥕 #Shorts",
+      "views": 15000000,
+      "url": "https://www.youtube.com/shorts/JFZRkXNVl4E"
+     },
+     {
+      "title": "Electric Mini Vegetables Chopper Grinder #shorts #products #gadgets",
+      "views": 7100000,
+      "url": "https://www.youtube.com/shorts/9fLRRaQuc8Y"
      },
      {
       "title": "Handpress Vegetable Chopper || Viral chopper Review #shortsfeed #shorts #viral",
@@ -913,19 +923,9 @@
       "url": "https://www.youtube.com/shorts/DCMlBk3hUps"
      },
      {
-      "title": "Top-rated Amazon food chopper✨ #veggiechopper  #amazonfinds #kitchen #cookinghacks #kitchengadgets",
-      "views": 2100000,
-      "url": "https://www.youtube.com/shorts/L03A3PCFdZE"
-     },
-     {
       "title": "Premium Manual Pull Food Chopper | Multi-Function Kitchen Chopper #shorts",
-      "views": 2000000,
+      "views": 2100000,
       "url": "https://www.youtube.com/shorts/DFJ_lX16p5w"
-     },
-     {
-      "title": "இஎண்னாடி இது 🤔 Electric Vegetable Cutter🔪❌  #shorts",
-      "views": 923000,
-      "url": "https://www.youtube.com/shorts/0Jsg9In57JY"
      }
     ],
     "status": "LIVE"
@@ -933,53 +933,53 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 53,
+    "score": 61,
     "video_score": 100,
-    "trend_score": 20,
+    "trend_score": 40,
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 830K vistas (el mayor, 21M)",
-     "Competencia alta: 4 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -26% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 2.1M vistas (el mayor, 29M)",
+     "Competencia alta: 8 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): baja -25% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-14 02:19:06 UTC",
+   "measured_at": "2026-10-15 11:55:53 UTC",
    "trends": {
-    "momentum_pct": -25.7,
+    "momentum_pct": -24.7,
     "low_volume": false,
     "peak_ratio": 0.27,
     "mean_recent": 27.2
    },
    "trends_series": [
     100,
-    74,
-    59,
+    73,
+    58,
+    55,
+    77,
+    79,
     56,
-    78,
-    80,
-    57,
-    66,
+    65,
     73,
     70,
-    84,
+    83,
     38,
     37,
-    32,
-    35,
+    31,
+    34,
     33,
     26,
     33,
+    30,
+    30,
     31,
-    31,
-    32,
     28,
     26,
     26,
     25,
     32
    ],
-   "trends_at": "2026-10-12 12:04 UTC"
+   "trends_at": "2026-10-12 16:04 UTC"
   },
   "oil-sprayer": {
    "youtube": {
@@ -1390,36 +1390,36 @@
   "ice-roller": {
    "youtube": {
     "keyword": "ice roller face",
-    "shorts_found": 38,
-    "median_views_top10": 1090000,
-    "max_views": 8800000,
-    "over_100k": 13,
-    "over_1m": 5,
+    "shorts_found": 42,
+    "median_views_top10": 1300000,
+    "max_views": 13000000,
+    "over_100k": 19,
+    "over_1m": 8,
     "top": [
      {
-      "title": "Trying Aamzon Gadgets🔥🔥| Facial Ice Massager | Ice Massage Roller | Fun2oosh Food | #shorts",
-      "views": 8800000,
-      "url": "https://www.youtube.com/shorts/rsJ8_IIMVXA"
+      "title": "Best skincare hacks for bright & glowing skin✨*Ice Rollers*#skincare #homeremedies #glowingskin#tips",
+      "views": 13000000,
+      "url": "https://www.youtube.com/shorts/nX6DXcLlDKY"
      },
      {
-      "title": "Ice roller✨💗 #skincare #brightskin #iceroller #beauty #homeremedies #skincareroutine  #shorts",
-      "views": 2600000,
-      "url": "https://www.youtube.com/shorts/2bSCfEv3_F8"
+      "title": "🔥😅ice മിട്ടായി ഓർമ്മ വന്നോ..??🍬 😌🥶 Trending Ice Roller for face #nerin #shorts #viral #viralshorts",
+      "views": 9400000,
+      "url": "https://www.youtube.com/shorts/m7IB6bLHFWI"
      },
      {
-      "title": "HOW TO USE VIRAL SILICONE ICE ROLLER- IS IT WORTH IT?",
-      "views": 2400000,
-      "url": "https://www.youtube.com/shorts/C45Z_jdkF7c"
+      "title": "I tried Viral Ice 🧊 Roller🥶 ||Sillicone Ice Roller Uses in Tamil❤️ #iceroller #icefacial",
+      "views": 3800000,
+      "url": "https://www.youtube.com/shorts/FFZvd0-_k3o"
+     },
+     {
+      "title": "Trending Ice Roller🧊🥶 #ashortaday #short #shortsvideo",
+      "views": 1500000,
+      "url": "https://www.youtube.com/shorts/fQxmacOr9x4"
      },
      {
       "title": "Beetroot Ice Roller💗✨ #shorts #ytshorts #trending #viralvideo #skincare #explore #youtubeshorts",
       "views": 1300000,
       "url": "https://www.youtube.com/shorts/G_61ctN4Ye8"
-     },
-     {
-      "title": "How to use Ice Roller on face || Ice roller for glowing skin✨ || Cucumber ice facial 🥒",
-      "views": 1200000,
-      "url": "https://www.youtube.com/shorts/G8HEuFZAMYc"
      }
     ],
     "status": "LIVE"
@@ -1433,12 +1433,12 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 1.1M vistas (el mayor, 8.8M)",
-     "Competencia alta: 5 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 1.3M vistas (el mayor, 13M)",
+     "Competencia alta: 8 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -17% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-15 02:00:39 UTC",
+   "measured_at": "2026-10-15 11:55:57 UTC",
    "trends": {
     "momentum_pct": -17.4,
     "low_volume": false,
@@ -1478,11 +1478,11 @@
   "posture-corrector": {
    "youtube": {
     "keyword": "posture corrector",
-    "shorts_found": 28,
-    "median_views_top10": 3000000,
+    "shorts_found": 46,
+    "median_views_top10": 874000,
     "max_views": 90000000,
-    "over_100k": 16,
-    "over_1m": 8,
+    "over_100k": 13,
+    "over_1m": 4,
     "top": [
      {
       "title": "Posture corrector",
@@ -1495,19 +1495,19 @@
       "url": "https://www.youtube.com/shorts/XLZooRAuxIQ"
      },
      {
-      "title": "Scoliosis Back Brace 💪🦴 #shorts",
-      "views": 7200000,
-      "url": "https://www.youtube.com/shorts/hsYOi_SZAWc"
+      "title": "Front Clasp Push Up Bra Posture Corrector Bra",
+      "views": 40000000,
+      "url": "https://www.youtube.com/shorts/N5ZLVN9yEZs"
      },
      {
-      "title": "Posture correcting chair from Amazon | amazon finds | shorts #amazonfinds #shorts",
-      "views": 7000000,
-      "url": "https://www.youtube.com/shorts/DgkfwCUCyz0"
+      "title": "You need a Posture Corrector!",
+      "views": 2000000,
+      "url": "https://www.youtube.com/shorts/WafjXjYEyn4"
      },
      {
-      "title": "Adjustable Back Posture Corrector Slouching Relieve Pain Belt for Women Men #correctposture",
-      "views": 3500000,
-      "url": "https://www.youtube.com/shorts/coS-Tr_vilM"
+      "title": "Does Posture Corrector Work? Best Posture Corrector",
+      "views": 935000,
+      "url": "https://www.youtube.com/shorts/XEzZx10_5aE"
      }
     ],
     "status": "LIVE"
@@ -1521,12 +1521,12 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 3M vistas (el mayor, 90M)",
-     "Competencia alta: 8 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 874K vistas (el mayor, 90M)",
+     "Competencia alta: 4 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -31% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-15 02:00:43 UTC",
+   "measured_at": "2026-10-15 11:56:00 UTC",
    "trends": {
     "momentum_pct": -30.9,
     "low_volume": false,
