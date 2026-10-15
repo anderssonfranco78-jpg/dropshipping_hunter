@@ -354,8 +354,10 @@ class TestN8nDsersBridge(TempDir):
         self.assertTrue(cost_spike["has_alerts"])
 
     def test_mobile_private_vault_gateway_cuentas_html(self):
-        cuentas = ROOT / "cuentas.html"
-        index = ROOT / "index.html"
+        from pathlib import Path
+        repo_root = Path(__file__).resolve().parent.parent
+        cuentas = repo_root / "cuentas.html"
+        index = repo_root / "index.html"
         self.assertTrue(cuentas.exists(), "cuentas.html must exist for mobile GitHub Pages gateway")
         html = cuentas.read_text(encoding="utf-8")
         # Ensure zero raw private credentials leak in public HTML
