@@ -129,6 +129,17 @@ class TestLoadUserProducts(unittest.TestCase):
         ids = {c.candidate_id for c in cands}
         self.assertEqual(ids, {"steamfur-pro", "prosmile-ultrasonic", "spinerelief-pro", "aeroforce-x3"})
 
+    def test_shipped_steamfur_pro_dsers_verified_values(self):
+        cands, errors = load_user_products(PROJECT / "data" / "user_products.json", today=date(2026, 10, 16))
+        self.assertEqual(errors, [])
+        steam = next(c for c in cands if c.candidate_id == "steamfur-pro")
+        self.assertEqual((steam.supplier_cost, steam.shipping_cost, steam.suggested_price), (3.45, 1.99, 29.99))
+        self.assertEqual((steam.supplier_variant, steam.supplier_stock, steam.stock_status), ("green", 7124, STOCK_OK))
+        self.assertEqual(steam.stock_verified_date, "2026-10-16")
+        self.assertTrue(steam.in_store)
+        self.assertEqual((steam.shipping_days_min, steam.shipping_days_max), (10, 16))
+        self.assertEqual(steam.shipping_carrier, "AliExpress Selection Standard (Tracking Available)")
+
 
 class TestStressedMargin(unittest.TestCase):
     def test_steamfur_numbers(self):
@@ -141,6 +152,18 @@ class TestStressedMargin(unittest.TestCase):
         self.assertEqual(s["stressed_profit"], 18.64)
         self.assertAlmostEqual(s["gross_margin_pct"], 72.42, places=2)
         self.assertAlmostEqual(s["stressed_margin_pct"], 62.15, places=2)
+        self.assertFalse(s["below_floor"])
+
+    def test_steamfur_dsers_verified_numbers(self):
+        s = compute_stressed(29.99, 3.45, 1.99)
+        self.assertEqual(s["landed_cost"], 5.44)
+        self.assertEqual(s["gateway_fee"], 1.54)
+        self.assertEqual(s["breakage_buffer"], 0.82)
+        self.assertEqual(s["chargeback_reserve"], 0.30)
+        self.assertEqual(s["gross_profit"], 24.55)
+        self.assertEqual(s["stressed_profit"], 21.89)
+        self.assertAlmostEqual(s["gross_margin_pct"], 81.86, places=2)
+        self.assertAlmostEqual(s["stressed_margin_pct"], 72.99, places=2)
         self.assertFalse(s["below_floor"])
 
     def test_stressed_is_always_below_gross(self):

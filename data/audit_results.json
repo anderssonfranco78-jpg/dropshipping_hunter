@@ -584,14 +584,14 @@
   {
     "stressed": {
       "srp": 29.99,
-      "landed_cost": 8.27,
+      "landed_cost": 5.44,
       "gateway_fee": 1.54,
-      "breakage_buffer": 1.24,
+      "breakage_buffer": 0.82,
       "chargeback_reserve": 0.3,
-      "gross_profit": 21.72,
-      "gross_margin_pct": 72.42,
-      "stressed_profit": 18.64,
-      "stressed_margin_pct": 62.15,
+      "gross_profit": 24.55,
+      "gross_margin_pct": 81.86,
+      "stressed_profit": 21.89,
+      "stressed_margin_pct": 72.99,
       "below_floor": false
     },
     "tier_reasons": [],
@@ -600,12 +600,12 @@
       "name": "SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer",
       "category": "Pet Supplies & Home Care",
       "description": "Conical silicone pet brush with integrated cold ion ultrasonic mist that neutralizes static and allows peeling off shed pet hair in a single solid sheet in 2 seconds.",
-      "supplier_cost": 4.73,
-      "shipping_cost": 3.54,
+      "supplier_cost": 3.45,
+      "shipping_cost": 1.99,
       "suggested_price": 29.99,
-      "shipping_days_min": 7,
-      "shipping_days_max": 12,
-      "shipping_carrier": "AliExpress Choice (Free Shipping 7-12D)",
+      "shipping_days_min": 10,
+      "shipping_days_max": 16,
+      "shipping_carrier": "AliExpress Selection Standard (Tracking Available)",
       "has_fragile_material": false,
       "has_sizing_requirements": false,
       "demo_visual_speed_sec": 2.0,
@@ -634,12 +634,12 @@
         "supplier": "MANUAL"
       },
       "supplier_variant": "green",
-      "supplier_stock": 994,
+      "supplier_stock": 7124,
       "cost_note": null,
       "stock_verified_date": "2026-10-14",
       "stock_status": "EXPIRED",
       "trends_keyword": "cat brush",
-      "notes": "Variante verde mango con cerdas naranja. Precio de página $4.73 + envío $3.54 = $8.27 (bitácora §24.3). Stock leído en vivo el 2026-10-08: green 994 uds; yellow solo 17 uds (descartada).",
+      "notes": "COMPLETADO EN SHOPIFY + DSERS (Ralf & Co. · 2026-10-16): Vinculado al proveedor oficial de AliExpress Choice (Unmapped: 0). Variante 'Default Title' en Shopify conectada a variante 'green' (verde con cerdas naranjas). Costo unitario en DSers: $3.45 USD + envío AliExpress Selection Standard a EE. UU. (10-16 días, Tracking Available): $1.99 USD = Costo total puesto (Landed Cost): $5.44 USD. PVP en tienda: $29.99 USD (Free Shipping EE. UU.) -> Ganancia bruta: $24.55 USD (Markup 5.51x). Stock verificado en DSers: 7,124 unidades disponibles. Apps instaladas: DSers (Plan Free conectado, preferencia US = AliExpress standard shipping), Judge.me Product Reviews, Judge.me AliExpress Review Importer.",
       "trends_series": [
         13,
         11,
@@ -797,13 +797,13 @@
       }
     },
     "financials": {
-      "landed_cost": 8.27,
+      "landed_cost": 5.44,
       "srp": 29.99,
-      "markup_multiplier": 3.63,
+      "markup_multiplier": 5.51,
       "processor_fee": 1.17,
       "reserve_buffer": 0.3,
-      "net_profit": 20.25,
-      "net_margin_pct": 67.52
+      "net_profit": 23.08,
+      "net_margin_pct": 76.96
     },
     "rule_scores": {
       "1": {
@@ -833,9 +833,9 @@
       "4": {
         "rule_id": 4,
         "name": "Unit Economics & Markup",
-        "raw_score": 85.0,
+        "raw_score": 100.0,
         "weight": 0.2,
-        "weighted_score": 17.0,
+        "weighted_score": 20.0,
         "passed": true
       },
       "5": {
@@ -857,14 +857,14 @@
       "7": {
         "rule_id": 7,
         "name": "Fast Tracked Logistics",
-        "raw_score": 100.0,
+        "raw_score": 60.0,
         "weight": 0.1,
-        "weighted_score": 10.0,
+        "weighted_score": 6.0,
         "passed": true
       }
     },
     "ko_gates_tripped": [],
-    "composite_score": 87.0,
+    "composite_score": 86.0,
     "tier": "WINNER",
     "passed_audit": true
   },

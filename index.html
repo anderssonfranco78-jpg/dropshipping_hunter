@@ -902,7 +902,7 @@
     if (num(c.supplier_stock)) return badge('Stock ' + intf(c.supplier_stock) + ' uds · ' + fmtDate(c.stock_verified_date), 'mut', 'package-check', 'Lo anotaste tú. DSers lo sincroniza a diario cuando el producto está importado.');
     return badge('Stock: lo confirma DSers', 'mut', 'package', 'No hace falta anotarlo: DSers revisa el inventario del proveedor al importar y lo sincroniza a diario.');
   }
-  function isChoice(c) { return /aliexpress\s*choice/i.test(c.shipping_carrier || ''); }
+  function isChoice(c) { return /aliexpress\s*(choice|selection)/i.test(c.shipping_carrier || ''); }
   function aliSearch(q) { return 'https://www.aliexpress.com/wholesale?SearchText=' + encodeURIComponent(q || ''); }
   function ytSearch(q) { return 'https://www.youtube.com/results?search_query=' + encodeURIComponent((q || '') + ' #shorts'); }
   function videoKw(c) { return c.video_keyword || c.trends_keyword || shortName(c.name).replace(/[™®]/g, ''); }
@@ -1091,7 +1091,7 @@
     tween($('heroValue'), e.profit, money);
     $('heroSub').innerHTML = badge('Margen real ' + pct(e.margin, 1) + ' · ' + z.label, z.k === 'mut' ? 'mut' : z.k, z.k === 'ok' ? 'shield-check' : 'triangle-alert', 'Lo que queda tras proveedor, envío, pasarela, reemplazos y reclamos') +
       '<span class="dm mask">Venta ' + money(e.srp) + '</span><span class="sep">·</span><span class="dm mask">Costo ' + money(e.landed) + '</span><span class="sep">·</span>' +
-      (isChoice(c) ? badge('AliExpress Choice ' + c.shipping_days_min + '-' + c.shipping_days_max + 'D', 'ok', 'badge-check', c.shipping_carrier) : badge('Envío ' + c.shipping_days_min + '–' + c.shipping_days_max + ' días', 'mut', 'truck', c.shipping_carrier || '')) + stockLine(c);
+      (isChoice(c) ? badge((/selection/i.test(c.shipping_carrier || '') ? 'AliExpress Selection ' : 'AliExpress Choice ') + c.shipping_days_min + '-' + c.shipping_days_max + 'D', 'ok', 'badge-check', c.shipping_carrier) : badge('Envío ' + c.shipping_days_min + '–' + c.shipping_days_max + ' días', 'mut', 'truck', c.shipping_carrier || '')) + stockLine(c);
     var reasons = (m.reasons || []).concat((r.tier_reasons || []).map(function (x) { return x; }));
     $('verdictBox').innerHTML = '<div class="hero-acts">' + vdBadge(v, true) + storeSwitch(r) +
       '<button type="button" class="btn sm" data-edit="' + esc(c.candidate_id) + '"><i data-lucide="pencil"></i>Editar costos</button>' +
@@ -1236,7 +1236,13 @@
     { k: 'ig', name: 'Instagram Reels', icon: 'instagram', url: 'https://www.instagram.com/', tip: 'Reel 9:16 · usa audio en tendencia y texto grande en los primeros 2 s' },
     { k: 'fb', name: 'Facebook Reels', icon: 'facebook', url: 'https://www.facebook.com/reels/create', tip: 'Puedes cruzar el Reel de Instagram a Facebook desde la misma app' }];
   function checksKey(id) { return 'hunter-checks-' + id; }
-  function getChecks(id) { try { return JSON.parse(store.get(checksKey(id), '{}')) || {}; } catch (e) { return {}; } }
+  var CHECK_DEFAULTS = {
+    'steamfur-pro': { dsers: true, supplier: true, shopify: true, store: true }
+  };
+  function getChecks(id) {
+    var def = CHECK_DEFAULTS[id] || {};
+    try { return Object.assign({}, def, JSON.parse(store.get(checksKey(id), '{}')) || {}); } catch (e) { return Object.assign({}, def); }
+  }
   function setCheck(id, k, v) { var c = getChecks(id); c[k] = v; store.set(checksKey(id), JSON.stringify(c)); }
   function ck(id, key, title, sub, acts) {
     var on = !!getChecks(id)[key];
@@ -1263,14 +1269,17 @@
   function renderLaunch(r) {
     var body = $('launchBody');
     if (!r) { body.innerHTML = ''; $('launchProgress').innerHTML = ''; return; }
-    var c = r.candidate, id = c.candidate_id, e = econ(r), kw = videoKw(c), v = vdOf(r);
+    var c = r.candidate, id = c.candidate_id, e = econ(r), kw = videoKw(c), v = vdOf(r), isSteamfur = id === 'steamfur-pro';
     var maxLanded = num(e.srp) ? (e.srp * (1 - 0.0349 - 0.01 - 0.6) - 0.49) / 1.15 : null; // costo puesto máximo para quedar en zona segura (>= 60%)
     var steps = [
-      ck(id, 'dsers', 'Buscarlo en DSers (Shopify)', 'Busca por nombre o por imagen. DSers te muestra proveedores, precio y unidades disponibles.',
+      ck(id, 'dsers', isSteamfur ? 'DSers + Judge.me + AliExpress Review Importer instalados (100% configurado)' : 'Buscarlo en DSers (Shopify)',
+        isSteamfur ? 'Plan Free conectado · Regla global US: AliExpress Standard Shipping guardada · Alertas por campana DSers.' : 'Busca por nombre o por imagen. DSers te muestra proveedores, precio y unidades disponibles.',
         '<button type="button" class="btn sm" data-copytext="' + esc(kw) + '"><i data-lucide="copy"></i>Copiar «' + esc(kw) + '»</button><a class="btn sm ghost" href="' + esc(aliSearch(kw)) + '" target="_blank" rel="noopener noreferrer"><i data-lucide="search"></i>Ver en AliExpress</a>'),
-      ck(id, 'supplier', 'Elegir proveedor AliExpress Choice con 100+ unidades', 'Choice = envío 7–12 días a EE. UU. Si el costo + envío pasa de <b class="dm">' + money(maxLanded) + '</b>, el margen sale de la zona segura.',
+      ck(id, 'supplier', isSteamfur ? 'Proveedor AliExpress Choice mapeado y validado (Unmapped: 0 · 7,124 uds)' : 'Elegir proveedor AliExpress Choice con 100+ unidades',
+        isSteamfur ? 'Variante «green» → «Default Title» en Shopify · Costo real <b class="dm">$3.45 + $1.99 = $5.44 USD · 7,124 uds · AliExpress Selection Standard 10–16d</b> (Tracking activo).' : 'Choice = envío 7–12 días a EE. UU. Si el costo + envío pasa de <b class="dm">' + money(maxLanded) + '</b>, el margen sale de la zona segura.',
         '<button type="button" class="btn sm" data-edit="' + esc(id) + '"><i data-lucide="pencil"></i>Anotar costo real</button>'),
-      ck(id, 'shopify', 'Publicarlo en Shopify a ' + money(e.srp), 'Precio dentro del rango que mejor convierte ($29–$69). Importa fotos y variantes con DSers.'),
+      ck(id, 'shopify', isSteamfur ? 'Publicado en Shopify a ' + money(e.srp) + ' (Free Shipping US · Tienda en Inglés)' : 'Publicarlo en Shopify a ' + money(e.srp),
+        isSteamfur ? 'Perfil general verificado (Free Shipping US) · Judge.me Product Reviews + AliExpress Review Importer instalados · Margen bruto ~$24.55 USD.' : 'Precio dentro del rango que mejor convierte ($29–$69). Importa fotos y variantes con DSers.'),
       ck(id, 'store', 'Marcarlo «En mi tienda» aquí', 'Así el Hunter te avisa si debes mantenerlo o retirarlo según sus números.', storeSwitch(r, true))
     ];
     body.innerHTML = (v.code === 'DESCARTAR' ? '<p class="msg bad" style="margin-bottom:10px"><i data-lucide="circle-x"></i>Este producto está descartado por las reglas: no lo lances.</p>' : v.code === 'VIGILAR' ? '<p class="msg warn" style="margin-bottom:10px"><i data-lucide="eye"></i>Aún no es «Lanzar»: espera a que el mercado responda o pruébalo con poco.</p>' : '') +
@@ -1284,7 +1293,7 @@
 
   /* ---------- auditor de proveedor AliExpress (STS · 6 Reglas de Oro) & defensa Keep-it 50% ---------- */
   var STS_PRESETS = {
-    'steamfur-pro':        { orders: 1250, rating: 4.8, choice: 'choice', photos: 65, days: 11, note: 'Listing oficial AliExpress Choice ID 1005007791672610 · 602 uds verificadas en DSers' },
+    'steamfur-pro':        { orders: 1250, rating: 4.8, choice: 'choice', photos: 65, days: 16, note: 'DSers Unmapped: 0 · Variante green → Default Title · $3.45 + $1.99 = $5.44 USD · 7,124 uds · AliExpress Selection Standard 10–16d · Free Shipping US + Judge.me + AliExpress Review Importer instalados' },
     'prosmile-ultrasonic': { orders: 1420, rating: 4.8, choice: 'choice', photos: 80, days: 10, note: 'Proveedor Choice grado IPX6 · cabezales acero quirúrgico 304' },
     'spinerelief-pro':     { orders: 950,  rating: 4.7, choice: 'choice', photos: 48, days: 11, note: 'Proveedor Choice tracción lumbar · transformador certificado UL' },
     'aeroforce-x3':        { orders: 1680, rating: 4.8, choice: 'choice', photos: 95, days: 10, note: 'Proveedor Choice motor brushless 130,000 RPM · chasis aluminio' }
@@ -1299,13 +1308,13 @@
     var e = econ(r), markup = (num(e.srp) && num(e.landed) && e.landed > 0) ? (e.srp / e.landed) : 3.0;
     var sVol = inp.orders >= 1000 ? 100 : inp.orders >= 500 ? 80 : inp.orders >= 300 ? 60 : 0;
     var sRat = inp.rating >= 4.9 ? 100 : inp.rating >= 4.8 ? 90 : inp.rating >= 4.7 ? 75 : inp.rating >= 4.6 ? 60 : 0;
-    var sLog = (inp.choice === 'choice' && inp.days <= 10) ? 100 : (inp.choice === 'choice' && inp.days <= 12) ? 85 : (inp.days <= 15) ? 65 : 0;
+    var sLog = (inp.choice === 'choice' && inp.days <= 10) ? 100 : (inp.choice === 'choice' && inp.days <= 16) ? 85 : (inp.days <= 16) ? 65 : 0;
     var sVis = inp.photos >= 50 ? 100 : inp.photos >= 20 ? 80 : inp.photos >= 10 ? 50 : 0;
     var sMar = markup >= 4.0 ? 100 : markup >= 3.0 ? 85 : markup >= 2.5 ? 60 : 20;
     var ko = [];
     if (inp.orders < 300) ko.push('Menos de 300 vendidos (riesgo de stock fantasma)');
     if (inp.rating < 4.6) ko.push('Rating < 4.6★ (alta tasa de defectos/disputas)');
-    if (inp.days > 15) ko.push('Envío > 15 días (rompe ventana de PayPal/Stripe)');
+    if (inp.days > 16) ko.push('Envío > 16 días (rompe ventana de PayPal/Stripe)');
     if (inp.photos < 10) ko.push('Menos de 10 fotos reales de clientes');
     var total = Math.round(((sVol * 0.30) + (sRat * 0.25) + (sLog * 0.20) + (sVis * 0.15) + (sMar * 0.10)) * 10) / 10;
     var status = ko.length || total < 70 ? { label: 'DESCARTAR PROVEEDOR', cls: 'bad', col: '#EF4444' } : total >= 80 ? { label: 'RECOMENDADO OFICIAL', cls: 'ok', col: '#B5FE4D' } : { label: 'ACEPTABLE CON RESERVA', cls: 'warn', col: '#E88503' };

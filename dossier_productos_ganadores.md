@@ -298,28 +298,28 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 
 **Categoría / Nicho**: Pet Supplies & Home Care  
 **ID de Referencia**: `steamfur-pro`  
-**Puntuación Compuesta**: **87.0 / 100** | **Estado**: `🏆 WINNER`  
+**Puntuación Compuesta**: **86.0 / 100** | **Estado**: `🏆 WINNER`  
 **Descripción**: Conical silicone pet brush with integrated cold ion ultrasonic mist that neutralizes static and allows peeling off shed pet hair in a single solid sheet in 2 seconds.
 
 #### Ficha Técnica y Desglose Financiero
 
 | Parámetro Financiero | Valor USD / % | Estándar Canónico Antigravity | Estado |
 |---|:---:|:---:|:---:|
-| **Costo de Proveedor** (CoGS) | $4.73 USD | Costo mayorista de fábrica | ✅ Verificado |
-| **Costo de Envío Tracked** | $3.54 USD | YunExpress Ordinary / CJPacket Fast Line | ✅ Verificado |
-| **Landed Cost** (Costo Puesto) | $8.27 USD | CoGS + Flete internacional | ✅ Calculado |
+| **Costo de Proveedor** (CoGS) | $3.45 USD | Costo mayorista de fábrica (DSers Choice) | ✅ Verificado |
+| **Costo de Envío Tracked** | $1.99 USD | AliExpress Selection Standard (10–16 días) | ✅ Verificado |
+| **Landed Cost** (Costo Puesto) | $5.44 USD | CoGS + Flete internacional | ✅ Calculado |
 | **Precio de Venta Sugerido** (SRP) | $29.99 USD | Sweet spot de impulso ($29 – $69 USD) | ✅ Cumple R5 |
-| **Markup Multiplier** | **3.63x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
+| **Markup Multiplier** | **5.51x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
 | **Comisión Pasarela** (Stripe 2.9% + $0.30) | $1.17 USD | Deducción automática por transacción | ✅ Incluido |
 | **Buffer de Reserva** (1.0%) | $0.30 USD | Fondo para imprevistos / chargebacks | ✅ Incluido |
-| **Beneficio Neto Limpio por Unidad** | **$20.25 USD** | Ganancia neta líquida operativa | ✅ Auditado |
-| **Margen Neto** (%) | **67.5%** | Mínimo requerido: $\ge 65.0\%$ | ✅ EXCELENTE |
+| **Beneficio Neto Limpio por Unidad** | **$23.08 USD** | Ganancia neta líquida operativa | ✅ Auditado |
+| **Margen Neto** (%) | **77.0%** | Mínimo requerido: $\ge 65.0\%$ | ✅ EXCELENTE |
 
 #### Enlaces a Proveedores y Logística
 
 - **Proveedor Mayorista AliExpress**: [https://www.aliexpress.com/item/1005007791672610.html](https://www.aliexpress.com/item/1005007791672610.html)
 - **Sourcing Directo CJ Dropshipping**: [https://cjdropshipping.com/list-detail.html?search=steamy%20pet%20brush](https://cjdropshipping.com/list-detail.html?search=steamy%20pet%20brush)
-- **Línea Logística Homologada**: YunExpress Ordinary / CJPacket Fast Line (7 - 10 días laborables)
+- **Línea Logística Homologada**: AliExpress Selection Standard (10 - 16 días a EE. UU. · Tracking Available · 7,124 uds en DSers · Unmapped: 0)
 - **Especificación de Empaque**: Cepillo con cerdas de silicona médica, micronebulizador ultrasónico USB-C, depósito de recarga
 - **Países Tier 1 Homologados**: US, CA, UK, AU
 
@@ -328,10 +328,10 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 - **Regla 1 (Visual WOW (0-3s))**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
 - **Regla 2 (Acute Pain / Passion)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
 - **Regla 3 (Retail Scarcity)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Regla 4 (Unit Economics & Markup)**: ✅ Score: 85.0/100 (Ponderado: 17.0 pts) — Aprobado
+- **Regla 4 (Unit Economics & Markup)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
 - **Regla 5 (Ticket Range Sweet Spot)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
 - **Regla 6 (Zero Sizing / Fragility)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Regla 7 (Fast Tracked Logistics)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 7 (Fast Tracked Logistics)**: ✅ Score: 60.0/100 (Ponderado: 6.0 pts) — Aprobado
 - **Puertas de Knockout (KO-1 a KO-4)**: ✅ Limpio (Cero puertas KO activadas: Ninguna)
 
 #### Estrategia Demográfica y Franja Horaria Recomendada
