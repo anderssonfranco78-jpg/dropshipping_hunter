@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-16 15:40:00 UTC",
+ "updated_at": "2026-10-16 20:10:19 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -201,36 +201,36 @@
   "lick-mat": {
    "youtube": {
     "keyword": "dog lick mat",
-    "shorts_found": 39,
-    "median_views_top10": 102000,
-    "max_views": 33000000,
-    "over_100k": 5,
-    "over_1m": 3,
+    "shorts_found": 30,
+    "median_views_top10": 27000,
+    "max_views": 426000,
+    "over_100k": 2,
+    "over_1m": 0,
     "top": [
      {
-      "title": "Lick mat time for Bubu🪻 #animalshorts #cat #pets #cuteanimals",
-      "views": 33000000,
-      "url": "https://www.youtube.com/shorts/SK7mEiQv6ow"
-     },
-     {
-      "title": "Lick Mat for Dogs",
-      "views": 1400000,
-      "url": "https://www.youtube.com/shorts/uQEy41SwIRM"
-     },
-     {
-      "title": "Cat Lickmat Enrichment #catasmr #catenrichment",
-      "views": 1200000,
-      "url": "https://www.youtube.com/shorts/gjOMcoYGlkc"
-     },
-     {
       "title": "*ASMR* PUPPY LICK MAT! #asmr #restock #dog #petproducts #amazonstorefront",
-      "views": 425000,
+      "views": 426000,
       "url": "https://www.youtube.com/shorts/MYuszDwVx7A"
      },
      {
       "title": "Raw lick mats for my dogs 🥩🥛👅 ASMR 🐕 #dog #shorts",
       "views": 127000,
       "url": "https://www.youtube.com/shorts/qsDBnYsiTnM"
+     },
+     {
+      "title": "Healthy lick mat recipe for my dogs 🐟👅🐕 #shorts",
+      "views": 77000,
+      "url": "https://www.youtube.com/shorts/8tG4rZZaEoE"
+     },
+     {
+      "title": "Healthy lick mats for rescue dogs 🥛🥩🦮🥹 #shorts #dog",
+      "views": 68000,
+      "url": "https://www.youtube.com/shorts/0ObRdWf1Rzo"
+     },
+     {
+      "title": "10% off sodapup.com lick mats with code BK10! 😋🐾 #thebkshop #shorts #lickmat",
+      "views": 35000,
+      "url": "https://www.youtube.com/shorts/YBpC2bC4fTA"
      }
     ],
     "status": "LIVE"
@@ -272,19 +272,19 @@
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 59,
-    "video_score": 80,
+    "score": 56,
+    "video_score": 66,
     "trend_score": 40,
-    "crowding": "media",
+    "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 102K vistas (el mayor, 33M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 27K vistas (el mayor, 426K)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -16% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-15 15:51:03 UTC",
-   "trends_at": "2026-10-15 15:51:01 UTC",
+   "measured_at": "2026-10-16 20:10:15 UTC",
+   "trends_at": "2026-10-15 15:51 UTC",
    "rising": [
     {
      "query": "stainless steel lick mat",
@@ -296,36 +296,36 @@
   "laser-cat-toy": {
    "youtube": {
     "keyword": "automatic laser cat toy",
-    "shorts_found": 29,
-    "median_views_top10": 59000,
-    "max_views": 1400000,
-    "over_100k": 4,
-    "over_1m": 2,
+    "shorts_found": 33,
+    "median_views_top10": 8050,
+    "max_views": 115000,
+    "over_100k": 1,
+    "over_1m": 0,
     "top": [
-     {
-      "title": "This toy cats really can’t get enough of #fyp #cattoys",
-      "views": 1400000,
-      "url": "https://www.youtube.com/shorts/HqmX4azXwyo"
-     },
-     {
-      "title": "Remote control cat 🐈 unboxing and testing video #cat #cats #unboxing #shorts #trending #mycat #toys",
-      "views": 1300000,
-      "url": "https://www.youtube.com/shorts/axiRmP6VYR8"
-     },
-     {
-      "title": "Smart Caterpillar Cat Toy | Motion Toy for Indoor Cats 🐾",
-      "views": 146000,
-      "url": "https://www.youtube.com/shorts/6SdSdznmsss"
-     },
      {
       "title": "Watch Your Cat Chase the Laser! | Cat Collar Laser Light Toy  #cat",
       "views": 115000,
       "url": "https://www.youtube.com/shorts/xskoPNHf0qg"
      },
      {
-      "title": "Laser pointer #cat #petkit #petsupplies",
-      "views": 85000,
-      "url": "https://www.youtube.com/shorts/dRrv7_cJ_ts"
+      "title": "​When your cat misses the laser pointer! 🐱😂 #shorts #cats",
+      "views": 29000,
+      "url": "https://www.youtube.com/shorts/8LxxfHpo3bY"
+     },
+     {
+      "title": "Cat is obsessed with this automatic laser toy. 🐈 #amazonfinds #cattoys #laserpointer",
+      "views": 21000,
+      "url": "https://www.youtube.com/shorts/vxGaDmFDJ5U"
+     },
+     {
+      "title": "PetSafe Laser Tail Automatic Laser Light Cat Toy",
+      "views": 11000,
+      "url": "https://www.youtube.com/shorts/YIrvKO0EOWc"
+     },
+     {
+      "title": "cats vs tbteek cool automatic laser toy 😎 #shorts",
+      "views": 9000,
+      "url": "https://www.youtube.com/shorts/zZTJmqzxC90"
      }
     ],
     "status": "LIVE"
@@ -367,19 +367,19 @@
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 55,
-    "video_score": 74,
+    "score": 48,
+    "video_score": 53,
     "trend_score": 40,
-    "crowding": "media",
+    "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 59K vistas (el mayor, 1.4M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 8K vistas (el mayor, 115K)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -13% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-15 15:51:14 UTC",
-   "trends_at": "2026-10-15 15:51:09 UTC",
+   "measured_at": "2026-10-16 20:10:19 UTC",
+   "trends_at": "2026-10-15 15:51 UTC",
    "rising": [
     {
      "query": "meowscles cat toy",
@@ -411,10 +411,10 @@
   "pet-hair-roller": {
    "youtube": {
     "keyword": "pet hair remover roller",
-    "shorts_found": 39,
-    "median_views_top10": 542000,
+    "shorts_found": 37,
+    "median_views_top10": 542500,
     "max_views": 389000000,
-    "over_100k": 15,
+    "over_100k": 8,
     "over_1m": 4,
     "top": [
      {
@@ -447,36 +447,36 @@
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": -36.4,
+    "momentum_pct": -34.5,
     "low_volume": false,
     "peak_ratio": 0.12,
-    "mean_recent": 11.5
+    "mean_recent": 12.0
    },
    "trends_series": [
     96,
     62,
-    49,
-    39,
-    67,
+    50,
+    38,
+    68,
     70,
     46,
     41,
     58,
     53,
-    48,
-    24,
+    47,
+    25,
     20,
-    15,
+    16,
     17,
-    13,
     12,
-    14,
+    13,
+    15,
     14,
     11,
-    15,
+    16,
     14,
-    13,
     12,
+    15,
     11,
     10
    ],
@@ -490,11 +490,11 @@
     "reasons": [
      "Shorts: los 10 más vistos tienen una mediana de 542K vistas (el mayor, 389M)",
      "Competencia alta: 4 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -36% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): baja -34% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-15 15:50:52 UTC",
-   "trends_at": "2026-10-12 16:03 UTC",
+   "measured_at": "2026-10-16 20:10:04 UTC",
+   "trends_at": "2026-10-16 20:10:04 UTC",
    "rising": [
     {
      "query": "pure path pet hair remover",
@@ -526,21 +526,21 @@
   "spin-scrubber": {
    "youtube": {
     "keyword": "electric spin scrubber",
-    "shorts_found": 40,
-    "median_views_top10": 726500,
-    "max_views": 7100000,
-    "over_100k": 11,
-    "over_1m": 4,
+    "shorts_found": 43,
+    "median_views_top10": 1047000,
+    "max_views": 12000000,
+    "over_100k": 9,
+    "over_1m": 5,
     "top": [
+     {
+      "title": "Effortless Cleaning with Agaro Regency: The Ultimate Electric Spinning Mop",
+      "views": 12000000,
+      "url": "https://www.youtube.com/shorts/bU6Ktc79YaI"
+     },
      {
       "title": "Powerful Spin Scrubber for Home Cleaning",
       "views": 7100000,
       "url": "https://www.youtube.com/shorts/sdMygfHDX68"
-     },
-     {
-      "title": "New RYOBI USB Power Scrubber 🫧",
-      "views": 2100000,
-      "url": "https://www.youtube.com/shorts/es5ssAzZbnY"
      },
      {
       "title": "Multi-Functional 5-in-1 Electric Spin Scrubber | Magic Power Cleaning Tool for Home 🧼✨",
@@ -548,51 +548,51 @@
       "url": "https://www.youtube.com/shorts/1gudMQbGsv0"
      },
      {
+      "title": "New RYOBI USB Power Scrubber 🫧",
+      "views": 2100000,
+      "url": "https://www.youtube.com/shorts/es5ssAzZbnY"
+     },
+     {
       "title": "Electric Spin Scrubber से बाथरूम और फर्श की सफाई होगी आसान",
       "views": 1300000,
       "url": "https://www.youtube.com/shorts/pCFHDnIzpXQ"
-     },
-     {
-      "title": "Home Cleaning Hacks | Easy Home Cleaning Tools | Agaro Spin Scrubber 🥳 #homefinds #finds #flipkart",
-      "views": 792000,
-      "url": "https://www.youtube.com/shorts/_tBx4F-4DBg"
      }
     ],
     "status": "LIVE"
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": -37.0,
+    "momentum_pct": -37.7,
     "low_volume": false,
     "peak_ratio": 0.22,
     "mean_recent": 22.0
    },
    "trends_series": [
     100,
-    69,
-    59,
-    53,
-    74,
-    75,
-    52,
+    71,
     60,
+    54,
+    75,
+    77,
+    53,
+    61,
     73,
     72,
     68,
-    41,
-    41,
-    31,
-    28,
-    32,
+    43,
+    42,
     29,
-    31,
+    29,
     33,
+    30,
+    31,
+    36,
     28,
     30,
-    27,
-    18,
+    25,
+    19,
     26,
-    22,
+    21,
     22
    ],
    "trends_status": "LIVE",
@@ -603,13 +603,13 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 726K vistas (el mayor, 7.1M)",
-     "Competencia alta: 4 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -37% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 1M vistas (el mayor, 12M)",
+     "Competencia alta: 5 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): baja -38% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-15 15:50:55 UTC",
-   "trends_at": "2026-10-12 16:03 UTC",
+   "measured_at": "2026-10-16 20:10:11 UTC",
+   "trends_at": "2026-10-16 20:10:11 UTC",
    "rising": [
     {
      "query": "hoto flexi cordless spin scrubber",
@@ -1453,36 +1453,36 @@
   "ice-roller": {
    "youtube": {
     "keyword": "ice roller face",
-    "shorts_found": 42,
-    "median_views_top10": 1300000,
-    "max_views": 13000000,
-    "over_100k": 19,
-    "over_1m": 8,
+    "shorts_found": 32,
+    "median_views_top10": 300500,
+    "max_views": 1300000,
+    "over_100k": 9,
+    "over_1m": 3,
     "top": [
-     {
-      "title": "Best skincare hacks for bright & glowing skin✨*Ice Rollers*#skincare #homeremedies #glowingskin#tips",
-      "views": 13000000,
-      "url": "https://www.youtube.com/shorts/nX6DXcLlDKY"
-     },
-     {
-      "title": "🔥😅ice മിട്ടായി ഓർമ്മ വന്നോ..??🍬 😌🥶 Trending Ice Roller for face #nerin #shorts #viral #viralshorts",
-      "views": 9400000,
-      "url": "https://www.youtube.com/shorts/m7IB6bLHFWI"
-     },
-     {
-      "title": "I tried Viral Ice 🧊 Roller🥶 ||Sillicone Ice Roller Uses in Tamil❤️ #iceroller #icefacial",
-      "views": 3800000,
-      "url": "https://www.youtube.com/shorts/FFZvd0-_k3o"
-     },
-     {
-      "title": "Trending Ice Roller🧊🥶 #ashortaday #short #shortsvideo",
-      "views": 1500000,
-      "url": "https://www.youtube.com/shorts/fQxmacOr9x4"
-     },
      {
       "title": "Beetroot Ice Roller💗✨ #shorts #ytshorts #trending #viralvideo #skincare #explore #youtubeshorts",
       "views": 1300000,
       "url": "https://www.youtube.com/shorts/G_61ctN4Ye8"
+     },
+     {
+      "title": "How to use Ice Roller on face || Ice roller for glowing skin✨ || Cucumber ice facial 🥒",
+      "views": 1200000,
+      "url": "https://www.youtube.com/shorts/G8HEuFZAMYc"
+     },
+     {
+      "title": "*ICE ROLLER* 2 DIY Dry skin and oily skin ice facial #shorts #icefacial",
+      "views": 1200000,
+      "url": "https://www.youtube.com/shorts/S3Q9-dG2X5A"
+     },
+     {
+      "title": "Ice roller✨💗 #skincare #brightskin #iceroller #beauty #homeremedies #skincareroutine  #shorts",
+      "views": 467000,
+      "url": "https://www.youtube.com/shorts/0IoAfuqQtHk"
+     },
+     {
+      "title": "Facial Massage ice ball Face massager ball ice face roller crystal eyes massager",
+      "views": 392000,
+      "url": "https://www.youtube.com/shorts/9Wty7zbXcg0"
      }
     ],
     "status": "LIVE"
@@ -1490,62 +1490,89 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 61,
-    "video_score": 100,
+    "score": 66,
+    "video_score": 92,
     "trend_score": 40,
-    "crowding": "alta",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 1.3M vistas (el mayor, 13M)",
-     "Competencia alta: 8 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -17% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 300K vistas (el mayor, 1.3M)",
+     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): baja -15% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-15 11:55:57 UTC",
+   "measured_at": "2026-10-16 20:09:52 UTC",
    "trends": {
-    "momentum_pct": -17.4,
+    "momentum_pct": -15.0,
     "low_volume": false,
-    "peak_ratio": 0.24,
-    "mean_recent": 24.5
+    "peak_ratio": 0.25,
+    "mean_recent": 25.0
    },
    "trends_series": [
-    100,
-    66,
+    99,
+    65,
     52,
     46,
-    75,
-    95,
-    61,
-    53,
-    76,
+    74,
+    96,
     60,
+    54,
+    76,
     59,
+    58,
     35,
     28,
-    26,
+    25,
     29,
     24,
-    25,
-    25,
-    25,
     24,
+    26,
+    25,
+    23,
     27,
     29,
     24,
     28,
-    24,
-    22
+    25,
+    23
    ],
-   "trends_at": "2026-10-12 12:08 UTC"
+   "trends_at": "2026-10-16 20:09:49 UTC",
+   "rising": [
+    {
+     "query": "ice or roller cookie jam",
+     "growth": "Breakout"
+    },
+    {
+     "query": "2026 winter olympics ice hockey",
+     "growth": "Breakout"
+    },
+    {
+     "query": "triggerpoint grid foam roller",
+     "growth": "Breakout"
+    },
+    {
+     "query": "foam roller",
+     "growth": "+350%"
+    },
+    {
+     "query": "roller bag",
+     "growth": "+350%"
+    },
+    {
+     "query": "roller world",
+     "growth": "+80%"
+    }
+   ],
+   "rising_at": "2026-10-16 20:09:52 UTC"
   },
   "posture-corrector": {
    "youtube": {
     "keyword": "posture corrector",
-    "shorts_found": 46,
-    "median_views_top10": 874000,
+    "shorts_found": 39,
+    "median_views_top10": 2750000,
     "max_views": 90000000,
-    "over_100k": 13,
-    "over_1m": 4,
+    "over_100k": 15,
+    "over_1m": 7,
     "top": [
      {
       "title": "Posture corrector",
@@ -1558,19 +1585,19 @@
       "url": "https://www.youtube.com/shorts/XLZooRAuxIQ"
      },
      {
-      "title": "Front Clasp Push Up Bra Posture Corrector Bra",
-      "views": 40000000,
-      "url": "https://www.youtube.com/shorts/N5ZLVN9yEZs"
+      "title": "The Truth About Fixing “Slouched Shoulders” or “Desk Posture”",
+      "views": 4600000,
+      "url": "https://www.youtube.com/shorts/cvR1IfySdzA"
      },
      {
-      "title": "You need a Posture Corrector!",
-      "views": 2000000,
-      "url": "https://www.youtube.com/shorts/WafjXjYEyn4"
+      "title": "Adjustable Back Posture Corrector Slouching Relieve Pain Belt for Women Men #correctposture",
+      "views": 3500000,
+      "url": "https://www.youtube.com/shorts/coS-Tr_vilM"
      },
      {
-      "title": "Does Posture Corrector Work? Best Posture Corrector",
-      "views": 935000,
-      "url": "https://www.youtube.com/shorts/XEzZx10_5aE"
+      "title": "1 Crore views✨|Posture Correction Exercise|#posture #correction #exercise #fitness #home",
+      "views": 3500000,
+      "url": "https://www.youtube.com/shorts/irFoo5HDcvY"
      }
     ],
     "status": "LIVE"
@@ -1584,34 +1611,34 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 874K vistas (el mayor, 90M)",
-     "Competencia alta: 4 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -31% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 2.8M vistas (el mayor, 90M)",
+     "Competencia alta: 7 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): baja -30% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-15 11:56:00 UTC",
+   "measured_at": "2026-10-16 20:09:59 UTC",
    "trends": {
-    "momentum_pct": -30.9,
+    "momentum_pct": -29.7,
     "low_volume": false,
-    "peak_ratio": 0.18,
-    "mean_recent": 18.2
+    "peak_ratio": 0.19,
+    "mean_recent": 18.8
    },
    "trends_series": [
     100,
-    70,
+    69,
     49,
     41,
-    54,
+    53,
     69,
     44,
     43,
-    51,
+    50,
     46,
-    42,
+    43,
     34,
-    32,
+    33,
     24,
-    24,
+    25,
     24,
     23,
     24,
@@ -1620,11 +1647,38 @@
     22,
     21,
     20,
-    16,
+    17,
     19,
-    18
+    19
    ],
-   "trends_at": "2026-10-12 12:08 UTC"
+   "trends_at": "2026-10-16 20:09:57 UTC",
+   "rising": [
+    {
+     "query": "vortalex posture corrector",
+     "growth": "Breakout"
+    },
+    {
+     "query": "vortalex posture corrector does it work",
+     "growth": "Breakout"
+    },
+    {
+     "query": "smart posture corrector",
+     "growth": "+500%"
+    },
+    {
+     "query": "adjustable posture corrector",
+     "growth": "+250%"
+    },
+    {
+     "query": "posture corrector for kids",
+     "growth": "+250%"
+    },
+    {
+     "query": "back brace for posture",
+     "growth": "+180%"
+    }
+   ],
+   "rising_at": "2026-10-16 20:09:59 UTC"
   },
   "neck-stretcher": {
    "youtube": {
