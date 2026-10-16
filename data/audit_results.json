@@ -44,7 +44,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -175,21 +175,18 @@
         "peak_ratio": 0.21,
         "mean_recent": 21.2,
         "mean_prior": 22.8,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-10-16 10:13 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "ultrasonic tooth cleaner",
         "shorts_found": 31,
-        "median_views_top10": 1550000,
-        "max_views": 5300000,
+        "median_views_top10": 1400000,
+        "max_views": 5000000,
         "over_100k": 10,
-        "over_1m": 7,
+        "over_1m": 6,
         "top": [
-          {
-            "title": "5 years worth of cheese build up on teeth. #cheese #tartarremoval #plaque #teethcleaning #dentist",
-            "views": 5300000,
-            "url": "https://www.youtube.com/shorts/cX5fdk_85r0"
-          },
           {
             "title": "cleaning teeth with ultrasonic scaler #shorts #dentist #teethcleaning",
             "views": 5000000,
@@ -209,6 +206,11 @@
             "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
             "views": 1700000,
             "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
+          },
+          {
+            "title": "Scaling teeth to remove tartar and calculus #shorts",
+            "views": 1400000,
+            "url": "https://www.youtube.com/shorts/1RWeozzKyos"
           }
         ],
         "status": "LIVE"
@@ -331,7 +333,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -462,7 +464,9 @@
         "peak_ratio": 0.14,
         "mean_recent": 13.5,
         "mean_prior": 19.9,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-10-16 10:13 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "steamy cat brush",
@@ -484,7 +488,7 @@
           },
           {
             "title": "Cat Is Obsessed With This Brush #catbrush #steamycatbrush #hairbrush",
-            "views": 495000,
+            "views": 496000,
             "url": "https://www.youtube.com/shorts/BCsAQg0Chfc"
           },
           {
@@ -622,7 +626,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -753,25 +757,22 @@
         "peak_ratio": 0.28,
         "mean_recent": 27.5,
         "mean_prior": 33.3,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-10-16 10:13 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "lumbar traction belt",
         "shorts_found": 29,
-        "median_views_top10": 563500,
+        "median_views_top10": 305000,
         "max_views": 79000000,
-        "over_100k": 8,
-        "over_1m": 4,
+        "over_100k": 7,
+        "over_1m": 3,
         "top": [
           {
             "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
             "views": 79000000,
             "url": "https://www.youtube.com/shorts/VsfXV5vUhUk"
-          },
-          {
-            "title": "Stretch Your Spine Automatically",
-            "views": 13000000,
-            "url": "https://www.youtube.com/shorts/IK9sl-o50d0"
           },
           {
             "title": "Mechanical Lumbar Traction for Back Pain",
@@ -787,6 +788,11 @@
             "title": "Decompress your low back with this lumbar traction exercise",
             "views": 750000,
             "url": "https://www.youtube.com/shorts/06WrOEPN1Y0"
+          },
+          {
+            "title": "Decompress Your Lower Back at Home #Shorts",
+            "views": 377000,
+            "url": "https://www.youtube.com/shorts/3VKai4c84wI"
           }
         ],
         "status": "LIVE"
@@ -909,7 +915,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -1040,25 +1046,22 @@
         "peak_ratio": 0.23,
         "mean_recent": 23.0,
         "mean_prior": 31.4,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-10-16 10:13 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "turbo jet fan",
-        "shorts_found": 34,
-        "median_views_top10": 913500,
+        "shorts_found": 31,
+        "median_views_top10": 553500,
         "max_views": 80000000,
         "over_100k": 6,
-        "over_1m": 5,
+        "over_1m": 4,
         "top": [
           {
             "title": "Metal Jet Fan from Electric Turbochargers | The H Lab #shorts",
             "views": 80000000,
             "url": "https://www.youtube.com/shorts/XnfuuZndsSA"
-          },
-          {
-            "title": "Notun Electronic Turbo Jet Blower Machine unboxing",
-            "views": 15000000,
-            "url": "https://www.youtube.com/shorts/wJLCgKwNA2w"
           },
           {
             "title": "Viral Jet Blower 😍⚡️ #gadgets #shorts",
@@ -1074,6 +1077,11 @@
             "title": "Mini Turbo Jet Fan Powerful Blower | Air Blower #shorts #airblower",
             "views": 1000000,
             "url": "https://www.youtube.com/shorts/LEDdRGg_HU4"
+          },
+          {
+            "title": "Mini Turbo Jet Fan Air Blower 110000RPM Turbo Violent Fan #jetfan #airblower #coolgadgets",
+            "views": 827000,
+            "url": "https://www.youtube.com/shorts/guqeVY5p8OE"
           }
         ],
         "status": "LIVE"
