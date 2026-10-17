@@ -1,24 +1,19 @@
 {
- "updated_at": "2026-10-17 14:31:44 UTC",
+ "updated_at": "2026-10-17 19:46:05 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
     "keyword": "cat water fountain",
     "shorts_found": 30,
-    "median_views_top10": 119500,
+    "median_views_top10": 116500,
     "max_views": 6000000,
     "over_100k": 5,
-    "over_1m": 2,
+    "over_1m": 1,
     "top": [
      {
       "title": "Anti-Gravity Water Fountain For Cats #goodtoknow #vet #medicine #educational #funfacts #lifehacks",
       "views": 6000000,
       "url": "https://www.youtube.com/shorts/dKXyh-A32Kk"
-     },
-     {
-      "title": "Pancake conquered every water bowl… now he’s successfully flipped a water fountain too 😂🤦‍♀️ #cats",
-      "views": 1500000,
-      "url": "https://www.youtube.com/shorts/rBaK8rAAXnE"
      },
      {
       "title": "This little water fountain by @oneisall_official - no cords, super quiet, and they love it!",
@@ -27,13 +22,18 @@
      },
      {
       "title": "Cat water fountain upgrade🐱 linked in bio on Amazon! #catwaterbowl #catwaterfountain #amazongadgets",
-      "views": 251000,
+      "views": 252000,
       "url": "https://www.youtube.com/shorts/NI9oZLyLSL0"
      },
      {
       "title": "Pet water fountain #cat #bestpetsupplies #petcareprovider",
-      "views": 167000,
+      "views": 168000,
       "url": "https://www.youtube.com/shorts/2rNva4yBN9A"
+     },
+     {
+      "title": "The best kinds of fountains for cats!",
+      "views": 161000,
+      "url": "https://www.youtube.com/shorts/PfP8zSZHD80"
      }
     ],
     "status": "LIVE"
@@ -77,27 +77,27 @@
    "rising": [],
    "rising_at": "2026-10-16 15:39:43 UTC",
    "market": {
-    "score": 60,
+    "score": 65,
     "video_score": 82,
     "trend_score": 40,
-    "crowding": "media",
+    "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 120K vistas (el mayor, 6M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 116K vistas (el mayor, 6M)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -18% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-16 15:39:43 UTC",
-   "trends_at": "2026-10-16 15:39:23 UTC"
+   "measured_at": "2026-10-17 19:45:47 UTC",
+   "trends_at": "2026-10-16 15:39 UTC"
   },
   "dog-paw-cleaner": {
    "youtube": {
     "keyword": "dog paw cleaner cup",
-    "shorts_found": 33,
-    "median_views_top10": 40500,
+    "shorts_found": 31,
+    "median_views_top10": 8400,
     "max_views": 43000000,
-    "over_100k": 3,
+    "over_100k": 2,
     "over_1m": 1,
     "top": [
      {
@@ -107,60 +107,60 @@
      },
      {
       "title": "An automatic paw cleaner 🙌🐾 #dog #dogs #paw #paws #clean",
-      "views": 654000,
+      "views": 655000,
       "url": "https://www.youtube.com/shorts/j_aMdxdU0IA"
-     },
-     {
-      "title": "The secret to spotless floors after a walk 🐾 #dogcare #lifehacks",
-      "views": 238000,
-      "url": "https://www.youtube.com/shorts/shoJwDc3NIE"
-     },
-     {
-      "title": "The world’s first reusable paw cleaner #shorts",
-      "views": 63000,
-      "url": "https://www.youtube.com/shorts/hpRUL-3XTZE"
      },
      {
       "title": "PetPals Automatic Dog Paw Cleaner, USB Rechargeable Silicone Portable Pet Paw Washer for Small to",
       "views": 46000,
       "url": "https://www.youtube.com/shorts/8XFwns9dxxA"
+     },
+     {
+      "title": "Muddy paws? 🐾 This paw cleaner cup for dogs #shorts",
+      "views": 40000,
+      "url": "https://www.youtube.com/shorts/w_7DDnZijRA"
+     },
+     {
+      "title": "Portable Silicone Pet Paw Cleaner Cup 🐶🐱 #shorts",
+      "views": 13000,
+      "url": "https://www.youtube.com/shorts/TkDQWcR11xg"
      }
     ],
     "status": "LIVE"
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": -59.8,
+    "momentum_pct": -65.5,
     "low_volume": true,
-    "peak_ratio": 0.03,
-    "mean_recent": 3.2
+    "peak_ratio": 0.04,
+    "mean_recent": 4.0
    },
    "trends_series": [
-    79,
-    55,
-    35,
-    36,
+    90,
+    57,
+    33,
+    33,
     51,
-    55,
-    31,
-    30,
-    40,
-    34,
+    54,
+    32,
+    29,
     39,
-    15,
-    10,
-    10,
-    0,
-    0,
-    0,
+    29,
+    41,
+    14,
+    17,
     13,
+    14,
+    9,
+    12,
     0,
     0,
     0,
-    10,
+    8,
+    11,
     0,
     0,
-    6,
+    9,
     7
    ],
    "trends_status": "LIVE",
@@ -184,19 +184,19 @@
    ],
    "rising_at": "2026-10-12 10:07:22 UTC",
    "market": {
-    "score": 70,
-    "video_score": 70,
+    "score": 53,
+    "video_score": 53,
     "trend_score": null,
     "crowding": "baja",
     "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 40K vistas (el mayor, 43M)",
+     "Shorts: los 10 más vistos tienen una mediana de 8K vistas (el mayor, 43M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google: casi no se busca por nombre (normal en gadgets que se descubren en video)"
     ]
    },
-   "measured_at": "2026-10-16 15:39:46 UTC",
-   "trends_at": "2026-10-12 11:25 UTC"
+   "measured_at": "2026-10-17 19:45:51 UTC",
+   "trends_at": "2026-10-17 19:45:51 UTC"
   },
   "lick-mat": {
    "youtube": {
@@ -641,8 +641,8 @@
   "magnetic-window-cleaner": {
    "youtube": {
     "keyword": "magnetic window cleaner",
-    "shorts_found": 28,
-    "median_views_top10": 840000,
+    "shorts_found": 30,
+    "median_views_top10": 841000,
     "max_views": 23000000,
     "over_100k": 7,
     "over_1m": 4,
@@ -669,7 +669,7 @@
      },
      {
       "title": "how to use a magnetic glass cleaner?",
-      "views": 881000,
+      "views": 882000,
       "url": "https://www.youtube.com/shorts/vQNbom6sW8o"
      }
     ],
@@ -684,62 +684,57 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 840K vistas (el mayor, 23M)",
+     "Shorts: los 10 más vistos tienen una mediana de 841K vistas (el mayor, 23M)",
      "Competencia alta: 4 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -14% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-16 15:39:50 UTC",
+   "measured_at": "2026-10-17 19:45:58 UTC",
    "trends": {
     "momentum_pct": -14.2,
     "low_volume": false,
-    "peak_ratio": 0.3,
-    "mean_recent": 29.8
+    "peak_ratio": 0.29,
+    "mean_recent": 28.8
    },
    "trends_series": [
+    98,
+    70,
+    53,
+    46,
+    76,
     100,
-    71,
-    55,
-    48,
-    79,
-    96,
-    64,
-    67,
+    62,
+    65,
     87,
-    72,
-    72,
-    40,
-    35,
-    30,
-    29,
+    69,
+    69,
+    39,
     34,
-    32,
+    29,
     28,
-    26,
-    28,
-    31,
-    31,
+    33,
+    30,
     27,
+    25,
+    28,
     30,
     30,
-    32
+    27,
+    28,
+    29,
+    31
    ],
-   "trends_at": "2026-10-12 16:04 UTC"
+   "trends_at": "2026-10-17 19:45:58 UTC"
   },
   "shower-filter": {
    "youtube": {
     "keyword": "shower head filter",
-    "shorts_found": 31,
-    "median_views_top10": 250000,
-    "max_views": 5200000,
-    "over_100k": 9,
-    "over_1m": 3,
+    "shorts_found": 33,
+    "median_views_top10": 181500,
+    "max_views": 1800000,
+    "over_100k": 7,
+    "over_1m": 2,
     "top": [
-     {
-      "title": "I got the best shower head 🚿",
-      "views": 5200000,
-      "url": "https://www.youtube.com/shorts/W-967YXyx-A"
-     },
      {
       "title": "Come replace my shower head filter that I used for a year 🚿 #acne #bacne #shorts",
       "views": 1800000,
@@ -752,13 +747,18 @@
      },
      {
       "title": "Top Amazon Finds You’ll Love, Filtered Shower Head with Handheld #amazonfinds #amazongadgets",
-      "views": 274000,
+      "views": 275000,
       "url": "https://www.youtube.com/shorts/vAcqXZtOzoU"
      },
      {
       "title": "Best rain shower head #shorts #trending",
       "views": 265000,
       "url": "https://www.youtube.com/shorts/zi1Bw3FjGBI"
+     },
+     {
+      "title": "3 months of using my Jolie filtered shower head and I definitely see the difference in my hair",
+      "views": 235000,
+      "url": "https://www.youtube.com/shorts/yu9DGlba1Xw"
      }
     ],
     "status": "LIVE"
@@ -766,41 +766,41 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 57,
-    "video_score": 90,
+    "score": 55,
+    "video_score": 86,
     "trend_score": 20,
     "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 250K vistas (el mayor, 5.2M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -40% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 182K vistas (el mayor, 1.8M)",
+     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): baja -38% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-16 15:39:53 UTC",
+   "measured_at": "2026-10-17 19:46:05 UTC",
    "trends": {
-    "momentum_pct": -39.7,
+    "momentum_pct": -37.9,
     "low_volume": false,
-    "peak_ratio": 0.17,
-    "mean_recent": 17.2
+    "peak_ratio": 0.18,
+    "mean_recent": 17.8
    },
    "trends_series": [
-    96,
-    66,
-    51,
-    41,
-    66,
-    91,
-    61,
-    61,
-    72,
-    60,
+    98,
+    62,
+    50,
+    46,
     65,
+    92,
+    59,
+    62,
+    68,
+    55,
+    64,
     37,
     33,
     23,
     23,
-    24,
+    25,
     23,
     26,
     25,
@@ -809,10 +809,10 @@
     19,
     17,
     19,
-    17,
-    16
+    18,
+    17
    ],
-   "trends_at": "2026-10-12 16:04 UTC"
+   "trends_at": "2026-10-17 19:46:05 UTC"
   },
   "portable-blender": {
    "youtube": {
@@ -3194,15 +3194,20 @@
   "camping-lantern": {
    "youtube": {
     "keyword": "rechargeable camping lantern",
-    "shorts_found": 34,
-    "median_views_top10": 46000,
-    "max_views": 352000,
-    "over_100k": 1,
-    "over_1m": 0,
+    "shorts_found": 31,
+    "median_views_top10": 33000,
+    "max_views": 6700000,
+    "over_100k": 2,
+    "over_1m": 1,
     "top": [
      {
+      "title": "First Look! New Camping Lantern Launching Soon 🏕️ Do You Like the Design?#shorts",
+      "views": 6700000,
+      "url": "https://www.youtube.com/shorts/SQg58vaNOoI"
+     },
+     {
       "title": "Yardwe Led Camping Lantern Solar Panel Hand-Powered Tent 🌐 #solarlight #lamp #campinglife #shorts",
-      "views": 352000,
+      "views": 353000,
       "url": "https://www.youtube.com/shorts/cqSZRf1oIdU"
      },
      {
@@ -3211,67 +3216,66 @@
       "url": "https://www.youtube.com/shorts/Al7xj5KgraU"
      },
      {
-      "title": "Classic Bushcraft Lantern #shorts",
-      "views": 64000,
-      "url": "https://www.youtube.com/shorts/Zy8Z3GydtNc"
-     },
-     {
       "title": "Refillable Gas Camping Light | Outdoor Lantern #shorts #lantern #gaslight",
       "views": 63000,
       "url": "https://www.youtube.com/shorts/TYYkdOo9w24"
      },
      {
-      "title": "🔋 Rechargeable Camping Light | Solar + USB Power #trending",
-      "views": 61000,
-      "url": "https://www.youtube.com/shorts/4n4FqaF51s4"
+      "title": "Solar Camping Lantern 🔥 | Amazing Emergency Light #Shorts",
+      "views": 34000,
+      "url": "https://www.youtube.com/shorts/7YpQ4_l1Mqg"
      }
     ],
     "status": "LIVE"
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": -32.4,
+    "momentum_pct": -31.6,
     "low_volume": false,
     "peak_ratio": 0.19,
     "mean_recent": 18.8
    },
    "trends_series": [
-    86,
+    87,
     59,
-    45,
-    41,
-    77,
+    46,
+    42,
+    80,
     100,
-    72,
-    72,
+    73,
+    71,
     90,
-    79,
-    72,
-    41,
-    36,
-    21,
+    78,
+    73,
+    40,
+    38,
+    20,
+    22,
     21,
     22,
-    22,
-    20,
-    20,
-    20,
-    20,
+    19,
+    19,
     18,
-    17,
-    24,
-    17,
+    19,
+    18,
+    16,
+    23,
+    19,
     17
    ],
    "trends_status": "LIVE",
-   "trends_at": "2026-10-13 14:20 UTC",
+   "trends_at": "2026-10-17 19:45:33 UTC",
    "rising": [
     {
-     "query": "led camping lantern",
-     "growth": "+150%"
+     "query": "led camping lantern rechargeable",
+     "growth": "+250%"
     },
     {
      "query": "led lantern",
+     "growth": "+150%"
+    },
+    {
+     "query": "led camping lantern",
      "growth": "+140%"
     },
     {
@@ -3285,102 +3289,102 @@
     {
      "query": "kids camping lantern",
      "growth": "+90%"
-    },
-    {
-     "query": "camping light",
-     "growth": "+80%"
     }
    ],
-   "rising_at": "2026-10-12 11:24:57 UTC",
+   "rising_at": "2026-10-17 19:45:34 UTC",
    "market": {
-    "score": 51,
-    "video_score": 72,
+    "score": 49,
+    "video_score": 68,
     "trend_score": 20,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 46K vistas (el mayor, 352K)",
+     "Shorts: los 10 más vistos tienen una mediana de 33K vistas (el mayor, 6.7M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -32% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-16 10:14:22 UTC"
+   "measured_at": "2026-10-17 19:45:34 UTC"
   },
   "electric-lint-remover": {
    "youtube": {
     "keyword": "fabric shaver lint remover",
-    "shorts_found": 29,
-    "median_views_top10": 67000,
-    "max_views": 571000,
-    "over_100k": 3,
+    "shorts_found": 35,
+    "median_views_top10": 127500,
+    "max_views": 978000,
+    "over_100k": 5,
     "over_1m": 0,
     "top": [
      {
+      "title": "Lint remover from clothes Amazon  #shorts Lint remover review lint remover meesho",
+      "views": 978000,
+      "url": "https://www.youtube.com/shorts/YvCh7nRn4XM"
+     },
+     {
       "title": "I Tried This Lint Remover… WOW!😲",
-      "views": 571000,
+      "views": 572000,
       "url": "https://www.youtube.com/shorts/GEqxFg0eHJY"
      },
      {
+      "title": "Clothes Lint Remover Gadget! #shorts #unboxing",
+      "views": 407000,
+      "url": "https://www.youtube.com/shorts/BHXnzpKhlhs"
+     },
+     {
       "title": "Revamp Your Clothes: Fabric Shaver Hack! #fabricshaver #lintremover",
-      "views": 175000,
+      "views": 176000,
       "url": "https://www.youtube.com/shorts/INmi6I7-WMQ"
      },
      {
       "title": "Fabric Shaver Electric Lint Remover, Bobling Remover for ClothesUSB Rechargeable.",
       "views": 165000,
       "url": "https://www.youtube.com/shorts/7nYhFh4PQwc"
-     },
-     {
-      "title": "BEAUTURAL Fabric Shaver and Lint Remover Review!",
-      "views": 90000,
-      "url": "https://www.youtube.com/shorts/hYiu7Fa6qUw"
-     },
-     {
-      "title": "Reseller TikTok Q&A- Fabric Shaver and Lint Remover Recommendations",
-      "views": 70000,
-      "url": "https://www.youtube.com/shorts/gJM_5i1-xyo"
      }
     ],
     "status": "LIVE"
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": -14.1,
+    "momentum_pct": -5.8,
     "low_volume": false,
-    "peak_ratio": 0.15,
-    "mean_recent": 14.8
+    "peak_ratio": 0.16,
+    "mean_recent": 16.2
    },
    "trends_series": [
     100,
-    74,
-    50,
-    40,
-    56,
-    62,
-    36,
-    34,
-    48,
+    75,
+    45,
+    39,
+    55,
+    63,
+    37,
+    35,
+    47,
     43,
-    38,
-    26,
-    18,
+    43,
+    24,
+    19,
     14,
-    13,
-    14,
+    12,
+    12,
     11,
+    12,
+    16,
     14,
-    15,
     14,
-    13,
     16,
     13,
-    22,
-    10,
+    23,
+    15,
     14
    ],
    "trends_status": "LIVE",
-   "trends_at": "2026-10-13 14:20 UTC",
+   "trends_at": "2026-10-17 19:45:40 UTC",
    "rising": [
+    {
+     "query": "fabric shaver and lint remover",
+     "growth": "+350%"
+    },
     {
      "query": "portable lint remover",
      "growth": "+300%"
@@ -3390,36 +3394,32 @@
      "growth": "+200%"
     },
     {
-     "query": "reusable lint roller",
-     "growth": "+200%"
-    },
-    {
      "query": "laundry lint remover",
      "growth": "+170%"
     },
     {
-     "query": "lint remover tool",
-     "growth": "+160%"
+     "query": "pet hair remover",
+     "growth": "+140%"
     },
     {
-     "query": "pet hair remover",
+     "query": "fabric shaver",
      "growth": "+140%"
     }
    ],
-   "rising_at": "2026-10-12 11:25:15 UTC",
+   "rising_at": "2026-10-17 19:45:42 UTC",
    "market": {
-    "score": 62,
-    "video_score": 76,
-    "trend_score": 40,
+    "score": 76,
+    "video_score": 83,
+    "trend_score": 65,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 67K vistas (el mayor, 571K)",
+     "Shorts: los 10 más vistos tienen una mediana de 128K vistas (el mayor, 978K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
-     "Google (EE. UU.): baja -14% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): estable -6% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-16 10:14:26 UTC"
+   "measured_at": "2026-10-17 19:45:42 UTC"
   }
  }
 }
