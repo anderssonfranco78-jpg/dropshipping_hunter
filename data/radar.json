@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17 09:48:15 UTC",
+ "updated_at": "2026-10-17 14:31:44 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -2525,36 +2525,36 @@
   "sunset-lamp": {
    "youtube": {
     "keyword": "sunset lamp",
-    "shorts_found": 33,
-    "median_views_top10": 215500,
-    "max_views": 521000,
-    "over_100k": 11,
-    "over_1m": 0,
+    "shorts_found": 42,
+    "median_views_top10": 334500,
+    "max_views": 2100000,
+    "over_100k": 13,
+    "over_1m": 2,
     "top": [
      {
+      "title": "Finally bought the viral sunset lamp🥹❤️#millionviews #sunset #trending #pov",
+      "views": 2100000,
+      "url": "https://www.youtube.com/shorts/AhKU8LYRljU"
+     },
+     {
+      "title": "Amazon finds - sunset lamp",
+      "views": 1000000,
+      "url": "https://www.youtube.com/shorts/0tOLg5smoZ8"
+     },
+     {
       "title": "Viral Sunset Lamp | Amazon Finds | Unboxing #amazon #amazonfinds #sunsetlamp #shorts",
-      "views": 521000,
+      "views": 522000,
       "url": "https://www.youtube.com/shorts/2UeqENAoNQw"
      },
      {
       "title": "Sunset Lamp!☀️ | Meesho Finds | #sunsetlamp #meesho #aesthetic #sunset #viralvideo #shorts #foryou",
-      "views": 447000,
+      "views": 448000,
       "url": "https://www.youtube.com/shorts/KrKBaNSRGEU"
      },
      {
       "title": "✨ Sunset Lamp ✨Golden hour. Anywhere, anytime.",
       "views": 391000,
       "url": "https://www.youtube.com/shorts/zXWI3We2Y54"
-     },
-     {
-      "title": "Sunset Lamp #shorts #eye #tiktok #trend",
-      "views": 260000,
-      "url": "https://www.youtube.com/shorts/rfitY8ZR40Y"
-     },
-     {
-      "title": "OMG I love my Sunset Lamp!",
-      "views": 234000,
-      "url": "https://www.youtube.com/shorts/Gdp7i9Zbl_Y"
      }
     ],
     "status": "LIVE"
@@ -2562,86 +2562,113 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 61,
-    "video_score": 88,
+    "score": 59,
+    "video_score": 93,
     "trend_score": 20,
-    "crowding": "baja",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 216K vistas (el mayor, 521K)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
-     "Google (EE. UU.): baja -32% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 334K vistas (el mayor, 2.1M)",
+     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): baja -30% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-16 01:50:46 UTC",
+   "measured_at": "2026-10-17 14:31:16 UTC",
    "trends": {
-    "momentum_pct": -31.8,
+    "momentum_pct": -30.2,
     "low_volume": false,
     "peak_ratio": 0.23,
     "mean_recent": 22.5
    },
    "trends_series": [
     100,
-    63,
+    64,
     46,
-    50,
-    67,
-    75,
-    48,
-    41,
     49,
+    68,
+    73,
     48,
-    45,
+    40,
+    49,
+    46,
+    44,
     36,
-    25,
+    24,
     27,
     23,
     26,
-    29,
-    35,
-    42,
-    42,
-    30,
+    27,
     36,
-    25,
+    40,
+    39,
+    29,
+    36,
+    27,
     21,
-    22,
+    20,
     22
    ],
-   "trends_at": "2026-10-13 03:39 UTC"
+   "trends_at": "2026-10-17 14:31:06 UTC",
+   "rising": [
+    {
+     "query": "what time is sunset in la",
+     "growth": "Breakout"
+    },
+    {
+     "query": "urban shop sunset lamp",
+     "growth": "+350%"
+    },
+    {
+     "query": "sunset la",
+     "growth": "+300%"
+    },
+    {
+     "query": "original sunset lamp",
+     "growth": "+250%"
+    },
+    {
+     "query": "sunset wall lamp",
+     "growth": "+200%"
+    },
+    {
+     "query": "led sunset lamp",
+     "growth": "+200%"
+    }
+   ],
+   "rising_at": "2026-10-17 14:31:16 UTC"
   },
   "galaxy-projector": {
    "youtube": {
     "keyword": "galaxy projector",
-    "shorts_found": 31,
-    "median_views_top10": 286000,
-    "max_views": 3300000,
-    "over_100k": 7,
+    "shorts_found": 33,
+    "median_views_top10": 333000,
+    "max_views": 4600000,
+    "over_100k": 9,
     "over_1m": 3,
     "top": [
+     {
+      "title": "Galaxy Solar Projector – Turn your room into a galaxy #shorts",
+      "views": 4600000,
+      "url": "https://www.youtube.com/shorts/JRKJyiXvuwQ"
+     },
      {
       "title": "⭐ Product Link in Comments ⭐360 Galaxy Night Light Projector⁠ #gift #shorts #viral",
       "views": 3300000,
       "url": "https://www.youtube.com/shorts/H8vxFGcPVfI"
      },
      {
-      "title": "▶️ Galaxy Dream Projection Night Light – room turns into space ( # 3209 )",
-      "views": 1400000,
-      "url": "https://www.youtube.com/shorts/TvxnhOrZVFU"
+      "title": "Astronaut Projector 🌌 #lamp #projector #nightlamp #space #astronaut astron",
+      "views": 1500000,
+      "url": "https://www.youtube.com/shorts/JCNs7tRESkk"
      },
      {
-      "title": "My new fav LED Light.Star Projector",
-      "views": 1000000,
-      "url": "https://www.youtube.com/shorts/XgaW0bpc8Dk"
-     },
-     {
-      "title": "Galaxy Projector 🌌✨",
-      "views": 480000,
-      "url": "https://www.youtube.com/shorts/gYBHT0DxwFQ"
+      "title": "Galaxy lite home planetarium projector I and II generation for option",
+      "views": 459000,
+      "url": "https://www.youtube.com/shorts/6FzvxdM8Sns"
      },
      {
       "title": "The Aurora Galaxy Projector Nothern Night Light Lamp With BT Speaker White Noise",
-      "views": 422000,
+      "views": 423000,
       "url": "https://www.youtube.com/shorts/3y2uftk0Aq0"
      }
     ],
@@ -2650,40 +2677,40 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 58,
-    "video_score": 91,
+    "score": 59,
+    "video_score": 93,
     "trend_score": 20,
     "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 286K vistas (el mayor, 3.3M)",
+     "Shorts: los 10 más vistos tienen una mediana de 333K vistas (el mayor, 4.6M)",
      "Competencia media: 3 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -34% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): baja -32% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-16 01:50:51 UTC",
+   "measured_at": "2026-10-17 14:31:26 UTC",
    "trends": {
-    "momentum_pct": -33.6,
+    "momentum_pct": -32.2,
     "low_volume": false,
     "peak_ratio": 0.2,
-    "mean_recent": 20.2
+    "mean_recent": 20.5
    },
    "trends_series": [
     91,
-    79,
-    49,
-    39,
-    73,
     81,
-    57,
+    48,
+    40,
+    73,
+    82,
+    56,
     63,
     91,
     92,
-    88,
+    87,
     36,
-    37,
-    26,
-    20,
+    35,
+    25,
+    21,
     19,
     31,
     22,
@@ -2691,46 +2718,73 @@
     20,
     22,
     23,
-    18,
+    17,
     26,
-    20,
-    17
+    21,
+    18
    ],
-   "trends_at": "2026-10-13 03:39 UTC"
+   "trends_at": "2026-10-17 14:31:24 UTC",
+   "rising": [
+    {
+     "query": "samsung galaxy s26",
+     "growth": "Breakout"
+    },
+    {
+     "query": "galaxy s26 ultra",
+     "growth": "Breakout"
+    },
+    {
+     "query": "samsung galaxy s26 ultra",
+     "growth": "Breakout"
+    },
+    {
+     "query": "2-in-1 galaxy projector night light",
+     "growth": "Breakout"
+    },
+    {
+     "query": "2 in 1 galaxy projector night light",
+     "growth": "Breakout"
+    },
+    {
+     "query": "samsung galaxy s25 fe",
+     "growth": "Breakout"
+    }
+   ],
+   "rising_at": "2026-10-17 14:31:26 UTC"
   },
   "sleep-headband": {
    "youtube": {
     "keyword": "sleep headphones headband",
     "shorts_found": 30,
-    "median_views_top10": 21500,
-    "max_views": 962000,
-    "over_100k": 1,
-    "over_1m": 0,
+    "median_views_top10": 91500,
+    "max_views": 5400000,
+    "over_100k": 4,
+    "over_1m": 1,
     "top": [
+     {
+      "title": "How to Sleep COMFORTABLY with Earbuds",
+      "views": 5400000,
+      "url": "https://www.youtube.com/shorts/rnkmDiJz2DI"
+     },
      {
       "title": "This Headband Calms Crying Babies Instantly",
       "views": 962000,
       "url": "https://www.youtube.com/shorts/1U_YjYRs3Zw"
      },
      {
-      "title": "MUSICOZY Sleep Headphones Review: The Ultimate Sleep Aid for Insomnia Relief #shorts #shortvideo",
-      "views": 86000,
-      "url": "https://www.youtube.com/shorts/Q0uAcTAPQO8"
+      "title": "Why I regret buying a SnoozeBand 😴 #sleep #sleepheadphones #sleepmask",
+      "views": 731000,
+      "url": "https://www.youtube.com/shorts/gHOhZu5v6YQ"
      },
      {
-      "title": "Sleep & Train Like a Pro 🔥 2025 Bluetooth Headband Earphones Unboxed #techgadgets",
-      "views": 72000,
-      "url": "https://www.youtube.com/shorts/qiOqRUph9oY"
+      "title": "soundcore A20 Bluetooth Sleep Earbuds Unboxing",
+      "views": 626000,
+      "url": "https://www.youtube.com/shorts/7G8n7aOyuGs"
      },
      {
-      "title": "headband headphones  sleep headphon bluetooth sleep sport music  meditation",
-      "views": 62000,
-      "url": "https://www.youtube.com/shorts/OJWpFbquXzk"
-     },
-     {
-      "title": "MUSICOZY Sleep Headphones Bluetooth 5.2 Headband",
-      "views": 26000,
-      "url": "https://www.youtube.com/shorts/Frr2RWBx_h4"
+      "title": "Sleep Mask Headphones Review | the Best Bluetooth Headphones for Sleeping! 💤",
+      "views": 97000,
+      "url": "https://www.youtube.com/shorts/yRWJD1z-reU"
      }
     ],
     "status": "LIVE"
@@ -2738,18 +2792,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 46,
-    "video_score": 63,
+    "score": 55,
+    "video_score": 79,
     "trend_score": 20,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 22K vistas (el mayor, 962K)",
+     "Shorts: los 10 más vistos tienen una mediana de 92K vistas (el mayor, 5.4M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -36% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-16 10:14:00 UTC",
+   "measured_at": "2026-10-17 14:31:31 UTC",
    "trends": {
     "momentum_pct": -36.0,
     "low_volume": false,
@@ -2784,7 +2838,7 @@
     8,
     8
    ],
-   "trends_at": "2026-10-16 10:13:56 UTC",
+   "trends_at": "2026-10-16 10:13 UTC",
    "rising": [
     {
      "query": "beats studio pro wireless headphones",
@@ -2816,12 +2870,17 @@
   "baby-nail-trimmer": {
    "youtube": {
     "keyword": "baby nail trimmer electric",
-    "shorts_found": 33,
-    "median_views_top10": 951500,
-    "max_views": 2800000,
-    "over_100k": 9,
+    "shorts_found": 29,
+    "median_views_top10": 738000,
+    "max_views": 4100000,
+    "over_100k": 6,
     "over_1m": 5,
     "top": [
+     {
+      "title": "Smart Electric Nail Clipper 😍 #shorts #gadgets",
+      "views": 4100000,
+      "url": "https://www.youtube.com/shorts/vaumTnm2QsA"
+     },
      {
       "title": "How Can You Trim Your Baby's Nails Safely? Try Baby Nail Trimmer Electric!#Shorts",
       "views": 2800000,
@@ -2841,11 +2900,6 @@
       "title": "baby electric nail cutter",
       "views": 1100000,
       "url": "https://www.youtube.com/shorts/IQtfORq-4r0"
-     },
-     {
-      "title": "This Electric Nail Clipper Is Designed To Prevent Over-Cutting #nailcutter #gadgets #tech #shorts",
-      "views": 1000000,
-      "url": "https://www.youtube.com/shorts/EHGlo5BM7ck"
      }
     ],
     "status": "LIVE"
@@ -2859,12 +2913,12 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 952K vistas (el mayor, 2.8M)",
+     "Shorts: los 10 más vistos tienen una mediana de 738K vistas (el mayor, 4.1M)",
      "Competencia alta: 5 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -28% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-16 10:14:10 UTC",
+   "measured_at": "2026-10-17 14:31:35 UTC",
    "trends": {
     "momentum_pct": -27.7,
     "low_volume": false,
@@ -2899,7 +2953,7 @@
     20,
     10
    ],
-   "trends_at": "2026-10-16 10:14:07 UTC",
+   "trends_at": "2026-10-16 10:14 UTC",
    "rising": [
     {
      "query": "nail snail baby nail trimmer",
@@ -2913,21 +2967,20 @@
    "rising_at": "2026-10-16 10:14:10 UTC"
   },
   "lcd-drawing-tablet": {
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 56,
-    "video_score": 80,
+    "score": 20,
+    "video_score": null,
     "trend_score": 20,
-    "crowding": "baja",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 98K vistas (el mayor, 1.3M)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Shorts: sin datos en vivo en esta corrida",
      "Google (EE. UU.): baja -39% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-16 10:14:15 UTC",
+   "measured_at": "2026-10-17 14:31:39 UTC",
    "trends": {
     "momentum_pct": -39.1,
     "low_volume": false,
@@ -2962,7 +3015,7 @@
     15,
     12
    ],
-   "trends_at": "2026-10-16 10:14:15 UTC",
+   "trends_at": "2026-10-16 10:14 UTC",
    "rising": [
     {
      "query": "mafiti lcd writing tablet",
@@ -3026,11 +3079,11 @@
   "solar-garden-lights": {
    "youtube": {
     "keyword": "solar garden lights",
-    "shorts_found": 44,
-    "median_views_top10": 523500,
+    "shorts_found": 38,
+    "median_views_top10": 545000,
     "max_views": 48000000,
-    "over_100k": 12,
-    "over_1m": 2,
+    "over_100k": 11,
+    "over_1m": 4,
     "top": [
      {
       "title": "Solar garden lamp street lamp #solarcharging",
@@ -3038,24 +3091,24 @@
       "url": "https://www.youtube.com/shorts/z0hfmm4hQZQ"
      },
      {
+      "title": "Outdoor Solar Light #gadgets #products #youtubeshorts #shorts",
+      "views": 8000000,
+      "url": "https://www.youtube.com/shorts/Ik5zGy5NBMM"
+     },
+     {
       "title": "Viral solar lights from Meesho #solarlight #viralfinds #meeshohaul #shortsindia #shorts",
       "views": 2300000,
       "url": "https://www.youtube.com/shorts/tbv-J6axspk"
      },
      {
-      "title": "Outdoor motion sensor light from meesho| meesho finds | shorts #meesho #shorts",
-      "views": 867000,
-      "url": "https://www.youtube.com/shorts/ZTx-M6EP__k"
+      "title": "Product Link in Bio ( 414 ) ▶️ Solar-Powered Floating Jellyfish Garden Lights⁠",
+      "views": 1000000,
+      "url": "https://www.youtube.com/shorts/HcWUfkm2BBM"
      },
      {
-      "title": "Best Portable Solar LED Camping Light & Waterproof Emergency Hanging Bulb! ☀️💡 #shorts #light",
-      "views": 845000,
-      "url": "https://www.youtube.com/shorts/PppOaW4rI8Y"
-     },
-     {
-      "title": "☀️🌌💡 Solar Interaction Wall Lamp Unboxing | xf-8818 | bk-888 | Outdoor Solar Light #shorts",
-      "views": 612000,
-      "url": "https://www.youtube.com/shorts/01PrJvPg0bQ"
+      "title": "Try this Solar lights hack to decorate any outdoor space 🤩 super easy and affordable",
+      "views": 653000,
+      "url": "https://www.youtube.com/shorts/aHZVZEP1siU"
      }
     ],
     "status": "LIVE"
@@ -3063,18 +3116,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 80,
+    "score": 70,
     "video_score": 98,
     "trend_score": 65,
-    "crowding": "media",
+    "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 524K vistas (el mayor, 48M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 545K vistas (el mayor, 48M)",
+     "Competencia alta: 4 Shorts pasan el millón de vistas",
      "Google (EE. UU.): estable -8% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-16 10:14:19 UTC",
+   "measured_at": "2026-10-17 14:31:44 UTC",
    "trends": {
     "momentum_pct": -7.9,
     "low_volume": false,
