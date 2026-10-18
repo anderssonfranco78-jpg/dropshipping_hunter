@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17 19:46:05 UTC",
+ "updated_at": "2026-10-18 01:42:14 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -445,7 +445,7 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends": {
     "momentum_pct": -34.5,
     "low_volume": false,
@@ -482,19 +482,18 @@
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 52,
-    "video_score": 98,
+    "score": 20,
+    "video_score": null,
     "trend_score": 20,
-    "crowding": "alta",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 542K vistas (el mayor, 389M)",
-     "Competencia alta: 4 Shorts pasan el millón de vistas",
+     "Shorts: sin datos en vivo en esta corrida",
      "Google (EE. UU.): baja -34% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-16 20:10:04 UTC",
-   "trends_at": "2026-10-16 20:10:04 UTC",
+   "measured_at": "2026-10-18 01:42:10 UTC",
+   "trends_at": "2026-10-16 20:10 UTC",
    "rising": [
     {
      "query": "pure path pet hair remover",
@@ -560,7 +559,7 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends": {
     "momentum_pct": -37.7,
     "low_volume": false,
@@ -597,19 +596,18 @@
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 53,
-    "video_score": 100,
+    "score": 20,
+    "video_score": null,
     "trend_score": 20,
-    "crowding": "alta",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 1M vistas (el mayor, 12M)",
-     "Competencia alta: 5 Shorts pasan el millón de vistas",
+     "Shorts: sin datos en vivo en esta corrida",
      "Google (EE. UU.): baja -38% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-16 20:10:11 UTC",
-   "trends_at": "2026-10-16 20:10:11 UTC",
+   "measured_at": "2026-10-18 01:42:14 UTC",
+   "trends_at": "2026-10-16 20:10 UTC",
    "rising": [
     {
      "query": "hoto flexi cordless spin scrubber",
@@ -851,29 +849,27 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 55,
-    "video_score": 87,
+    "score": 20,
+    "video_score": null,
     "trend_score": 20,
-    "crowding": "media",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 189K vistas (el mayor, 587M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -62% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: sin datos en vivo en esta corrida",
+     "Google (EE. UU.): baja -52% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-16 15:39:56 UTC",
+   "measured_at": "2026-10-18 01:41:54 UTC",
    "trends": {
-    "momentum_pct": -62.0,
+    "momentum_pct": -51.8,
     "low_volume": false,
     "peak_ratio": 0.02,
     "mean_recent": 2.2
    },
    "trends_series": [
-    100,
     81,
     62,
     75,
@@ -893,14 +889,42 @@
     3,
     3,
     3,
-    3,
+    4,
     3,
     2,
     3,
+    2,
     2,
     2
    ],
-   "trends_at": "2026-10-12 16:04 UTC"
+   "trends_at": "2026-10-18 01:41:51 UTC",
+   "rising": [
+    {
+     "query": "handy gourmet revmix portable blender",
+     "growth": "Breakout"
+    },
+    {
+     "query": "ninja professional plus blender with auto iq",
+     "growth": "Breakout"
+    },
+    {
+     "query": "breville fresh & furious blender",
+     "growth": "Breakout"
+    },
+    {
+     "query": "magic bullet essential blender",
+     "growth": "Breakout"
+    },
+    {
+     "query": "jbl go 4 portable bluetooth speaker",
+     "growth": "Breakout"
+    },
+    {
+     "query": "breville super q blender",
+     "growth": "Breakout"
+    }
+   ],
+   "rising_at": "2026-10-18 01:41:54 UTC"
   },
   "veggie-chopper": {
    "youtube": {
@@ -939,56 +963,82 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 61,
-    "video_score": 100,
-    "trend_score": 40,
-    "crowding": "alta",
-    "partial": false,
+    "score": 65,
+    "video_score": null,
+    "trend_score": 65,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 978K vistas (el mayor, 7.1M)",
-     "Competencia alta: 5 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -25% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: sin datos en vivo en esta corrida",
+     "Google (EE. UU.): estable -10% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-16 15:40:00 UTC",
+   "measured_at": "2026-10-18 01:42:01 UTC",
    "trends": {
-    "momentum_pct": -24.7,
+    "momentum_pct": -9.7,
     "low_volume": false,
-    "peak_ratio": 0.27,
-    "mean_recent": 27.2
+    "peak_ratio": 0.29,
+    "mean_recent": 28.8
    },
    "trends_series": [
-    100,
+    74,
+    59,
+    54,
+    78,
+    81,
+    57,
+    66,
     73,
-    58,
-    55,
-    77,
-    79,
-    56,
-    65,
-    73,
-    70,
+    69,
     83,
-    38,
+    39,
     37,
-    31,
+    35,
     34,
     33,
     26,
     33,
     30,
-    30,
-    31,
+    29,
+    34,
+    26,
+    26,
     28,
-    26,
-    26,
-    25,
-    32
+    28,
+    33,
+    26
    ],
-   "trends_at": "2026-10-12 16:04 UTC"
+   "trends_at": "2026-10-18 01:42:00 UTC",
+   "rising": [
+    {
+     "query": "oxo good grips vegetable chopper",
+     "growth": "+300%"
+    },
+    {
+     "query": "heavy duty vegetable chopper",
+     "growth": "+250%"
+    },
+    {
+     "query": "mini vegetable chopper",
+     "growth": "+200%"
+    },
+    {
+     "query": "commercial vegetable chopper",
+     "growth": "+130%"
+    },
+    {
+     "query": "vegetable chopper and slicer",
+     "growth": "+120%"
+    },
+    {
+     "query": "mandoline slicer",
+     "growth": "+110%"
+    }
+   ],
+   "rising_at": "2026-10-18 01:42:01 UTC"
   },
   "oil-sprayer": {
    "youtube": {
@@ -1487,21 +1537,20 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 66,
-    "video_score": 92,
+    "score": 40,
+    "video_score": null,
     "trend_score": 40,
-    "crowding": "media",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 300K vistas (el mayor, 1.3M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Shorts: sin datos en vivo en esta corrida",
      "Google (EE. UU.): baja -15% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-16 20:09:52 UTC",
+   "measured_at": "2026-10-18 01:42:04 UTC",
    "trends": {
     "momentum_pct": -15.0,
     "low_volume": false,
@@ -1536,7 +1585,7 @@
     25,
     23
    ],
-   "trends_at": "2026-10-16 20:09:49 UTC",
+   "trends_at": "2026-10-16 20:09 UTC",
    "rising": [
     {
      "query": "ice or roller cookie jam",
@@ -1602,21 +1651,20 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 53,
-    "video_score": 100,
+    "score": 20,
+    "video_score": null,
     "trend_score": 20,
-    "crowding": "alta",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 2.8M vistas (el mayor, 90M)",
-     "Competencia alta: 7 Shorts pasan el millón de vistas",
+     "Shorts: sin datos en vivo en esta corrida",
      "Google (EE. UU.): baja -30% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-16 20:09:59 UTC",
+   "measured_at": "2026-10-18 01:42:07 UTC",
    "trends": {
     "momentum_pct": -29.7,
     "low_volume": false,
@@ -1651,7 +1699,7 @@
     19,
     19
    ],
-   "trends_at": "2026-10-16 20:09:57 UTC",
+   "trends_at": "2026-10-16 20:09 UTC",
    "rising": [
     {
      "query": "vortalex posture corrector",
