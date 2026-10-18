@@ -30,7 +30,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -161,7 +161,9 @@
       "peak_ratio": 0.13,
       "mean_recent": 13.0,
       "mean_prior": 16.2,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-10-18 09:59 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "steamy cat brush",
@@ -188,7 +190,7 @@
         },
         {
           "title": "Cat Is Obsessed With This Brush #catbrush #steamycatbrush #hairbrush",
-          "views": 517000,
+          "views": 521000,
           "url": "https://www.youtube.com/shorts/BCsAQg0Chfc"
         },
         {
@@ -231,7 +233,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -362,21 +364,18 @@
       "peak_ratio": 0.18,
       "mean_recent": 18.2,
       "mean_prior": 21.9,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-10-18 09:59 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "ultrasonic tooth cleaner",
-      "shorts_found": 31,
-      "median_views_top10": 3850000,
-      "max_views": 161000000,
-      "over_100k": 13,
-      "over_1m": 10,
+      "shorts_found": 36,
+      "median_views_top10": 2350000,
+      "max_views": 14000000,
+      "over_100k": 12,
+      "over_1m": 8,
       "top": [
-        {
-          "title": "Toothbrush from France 🇫🇷  #shorts",
-          "views": 161000000,
-          "url": "https://www.youtube.com/shorts/L_8uNmiLW70"
-        },
         {
           "title": "Leela Gets A Dental Cleaning 🦷 #shorts #cats #pets #hairlesscat #dental",
           "views": 14000000,
@@ -396,6 +395,11 @@
           "title": "Scaling tartar and calculus #dental #dentist #dentistry",
           "views": 4700000,
           "url": "https://www.youtube.com/shorts/sbLkVniGnhE"
+        },
+        {
+          "title": "Smile Therapy- Ultrasonic Tooth Cleaner",
+          "views": 3000000,
+          "url": "https://www.youtube.com/shorts/MKD6ZfFwqyk"
         }
       ],
       "status": "LIVE"
@@ -436,7 +440,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -567,25 +571,22 @@
       "peak_ratio": 0.27,
       "mean_recent": 27.2,
       "mean_prior": 31.2,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-10-18 09:59 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "lumbar traction belt",
       "shorts_found": 28,
-      "median_views_top10": 564000,
+      "median_views_top10": 172000,
       "max_views": 79000000,
-      "over_100k": 8,
-      "over_1m": 4,
+      "over_100k": 6,
+      "over_1m": 3,
       "top": [
         {
           "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
           "views": 79000000,
           "url": "https://www.youtube.com/shorts/VsfXV5vUhUk"
-        },
-        {
-          "title": "Stretch Your Spine Automatically",
-          "views": 13000000,
-          "url": "https://www.youtube.com/shorts/IK9sl-o50d0"
         },
         {
           "title": "Mechanical Lumbar Traction for Back Pain",
@@ -601,6 +602,11 @@
           "title": "Decompress your low back with this lumbar traction exercise",
           "views": 751000,
           "url": "https://www.youtube.com/shorts/06WrOEPN1Y0"
+        },
+        {
+          "title": "Traction Treatment For Sciatica| Sciatica Treatment #sciatica #shorts",
+          "views": 233000,
+          "url": "https://www.youtube.com/shorts/oq1nC0LObDE"
         }
       ],
       "status": "LIVE"
@@ -637,7 +643,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -768,21 +774,18 @@
       "peak_ratio": 0.21,
       "mean_recent": 21.2,
       "mean_prior": 27.8,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-10-18 09:59 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "turbo jet fan",
-      "shorts_found": 32,
-      "median_views_top10": 709000,
-      "max_views": 80000000,
-      "over_100k": 7,
-      "over_1m": 4,
+      "shorts_found": 30,
+      "median_views_top10": 436000,
+      "max_views": 3700000,
+      "over_100k": 6,
+      "over_1m": 3,
       "top": [
-        {
-          "title": "Metal Jet Fan from Electric Turbochargers | The H Lab #shorts",
-          "views": 80000000,
-          "url": "https://www.youtube.com/shorts/XnfuuZndsSA"
-        },
         {
           "title": "Viral Jet Blower 😍⚡️ #gadgets #shorts",
           "views": 3700000,
@@ -802,6 +805,11 @@
           "title": "Mini Turbo Jet Fan Air Blower 110000RPM Turbo Violent Fan #jetfan #airblower #coolgadgets",
           "views": 828000,
           "url": "https://www.youtube.com/shorts/guqeVY5p8OE"
+        },
+        {
+          "title": "🌀 Turbo Jet Fan Teardown 💥  #bldc  #TurboFan #TurboJetFan #electronics #gadgets #diy #shorts",
+          "views": 591000,
+          "url": "https://www.youtube.com/shorts/Ig_XYZEVTOY"
         }
       ],
       "status": "LIVE"
