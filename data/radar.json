@@ -1,39 +1,39 @@
 {
- "updated_at": "2026-10-18 19:45:20 UTC",
+ "updated_at": "2026-10-19 02:00:14 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
     "keyword": "cat water fountain",
     "shorts_found": 30,
-    "median_views_top10": 116500,
-    "max_views": 6000000,
-    "over_100k": 5,
+    "median_views_top10": 210500,
+    "max_views": 6100000,
+    "over_100k": 7,
     "over_1m": 1,
     "top": [
      {
       "title": "Anti-Gravity Water Fountain For Cats #goodtoknow #vet #medicine #educational #funfacts #lifehacks",
-      "views": 6000000,
+      "views": 6100000,
       "url": "https://www.youtube.com/shorts/dKXyh-A32Kk"
      },
      {
+      "title": "We bought Pancake a second water fountain because he flipped the first 😂💦 He saw another challenge",
+      "views": 407000,
+      "url": "https://www.youtube.com/shorts/ZAIyLMDzr7A"
+     },
+     {
       "title": "This little water fountain by @oneisall_official - no cords, super quiet, and they love it!",
-      "views": 378000,
+      "views": 379000,
       "url": "https://www.youtube.com/shorts/_RMsX31WeFw"
      },
      {
+      "title": "Why You MUST BRIBE Cats To Drink MORE WATER! #goodtoknow #vet #medicine #educational #funfacts #hack",
+      "views": 264000,
+      "url": "https://www.youtube.com/shorts/Cg3m73yJHs4"
+     },
+     {
       "title": "Cat water fountain upgrade🐱 linked in bio on Amazon! #catwaterbowl #catwaterfountain #amazongadgets",
-      "views": 252000,
+      "views": 253000,
       "url": "https://www.youtube.com/shorts/NI9oZLyLSL0"
-     },
-     {
-      "title": "Pet water fountain #cat #bestpetsupplies #petcareprovider",
-      "views": 168000,
-      "url": "https://www.youtube.com/shorts/2rNva4yBN9A"
-     },
-     {
-      "title": "The best kinds of fountains for cats!",
-      "views": 161000,
-      "url": "https://www.youtube.com/shorts/PfP8zSZHD80"
      }
     ],
     "status": "LIVE"
@@ -77,25 +77,25 @@
    "rising": [],
    "rising_at": "2026-10-16 15:39:43 UTC",
    "market": {
-    "score": 65,
-    "video_score": 82,
+    "score": 69,
+    "video_score": 88,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 116K vistas (el mayor, 6M)",
+     "Shorts: los 10 más vistos tienen una mediana de 210K vistas (el mayor, 6.1M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -18% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-17 19:45:47 UTC",
+   "measured_at": "2026-10-19 02:00:11 UTC",
    "trends_at": "2026-10-16 15:39 UTC"
   },
   "dog-paw-cleaner": {
    "youtube": {
     "keyword": "dog paw cleaner cup",
-    "shorts_found": 31,
-    "median_views_top10": 8400,
+    "shorts_found": 27,
+    "median_views_top10": 43500,
     "max_views": 43000000,
     "over_100k": 2,
     "over_1m": 1,
@@ -107,23 +107,23 @@
      },
      {
       "title": "An automatic paw cleaner 🙌🐾 #dog #dogs #paw #paws #clean",
-      "views": 655000,
+      "views": 656000,
       "url": "https://www.youtube.com/shorts/j_aMdxdU0IA"
+     },
+     {
+      "title": "Automatic dog paw cleaner...😳",
+      "views": 64000,
+      "url": "https://www.youtube.com/shorts/xF2xWRsI9O4"
+     },
+     {
+      "title": "The world’s first reusable paw cleaner #shorts",
+      "views": 63000,
+      "url": "https://www.youtube.com/shorts/hpRUL-3XTZE"
      },
      {
       "title": "PetPals Automatic Dog Paw Cleaner, USB Rechargeable Silicone Portable Pet Paw Washer for Small to",
       "views": 46000,
       "url": "https://www.youtube.com/shorts/8XFwns9dxxA"
-     },
-     {
-      "title": "Muddy paws? 🐾 This paw cleaner cup for dogs #shorts",
-      "views": 40000,
-      "url": "https://www.youtube.com/shorts/w_7DDnZijRA"
-     },
-     {
-      "title": "Portable Silicone Pet Paw Cleaner Cup 🐶🐱 #shorts",
-      "views": 13000,
-      "url": "https://www.youtube.com/shorts/TkDQWcR11xg"
      }
     ],
     "status": "LIVE"
@@ -184,19 +184,19 @@
    ],
    "rising_at": "2026-10-12 10:07:22 UTC",
    "market": {
-    "score": 53,
-    "video_score": 53,
+    "score": 71,
+    "video_score": 71,
     "trend_score": null,
     "crowding": "baja",
     "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 8K vistas (el mayor, 43M)",
+     "Shorts: los 10 más vistos tienen una mediana de 44K vistas (el mayor, 43M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google: casi no se busca por nombre (normal en gadgets que se descubren en video)"
     ]
    },
-   "measured_at": "2026-10-17 19:45:51 UTC",
-   "trends_at": "2026-10-17 19:45:51 UTC"
+   "measured_at": "2026-10-19 02:00:14 UTC",
+   "trends_at": "2026-10-17 19:45 UTC"
   },
   "lick-mat": {
    "youtube": {
@@ -3028,7 +3028,7 @@
      "Google (EE. UU.): baja -39% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-17 14:31:39 UTC",
+   "measured_at": "2026-10-19 01:59:36 UTC",
    "trends": {
     "momentum_pct": -39.1,
     "low_volume": false,
@@ -3127,11 +3127,11 @@
   "solar-garden-lights": {
    "youtube": {
     "keyword": "solar garden lights",
-    "shorts_found": 38,
-    "median_views_top10": 545000,
+    "shorts_found": 32,
+    "median_views_top10": 138000,
     "max_views": 48000000,
-    "over_100k": 11,
-    "over_1m": 4,
+    "over_100k": 5,
+    "over_1m": 2,
     "top": [
      {
       "title": "Solar garden lamp street lamp #solarcharging",
@@ -3139,24 +3139,24 @@
       "url": "https://www.youtube.com/shorts/z0hfmm4hQZQ"
      },
      {
-      "title": "Outdoor Solar Light #gadgets #products #youtubeshorts #shorts",
-      "views": 8000000,
-      "url": "https://www.youtube.com/shorts/Ik5zGy5NBMM"
-     },
-     {
       "title": "Viral solar lights from Meesho #solarlight #viralfinds #meeshohaul #shortsindia #shorts",
       "views": 2300000,
       "url": "https://www.youtube.com/shorts/tbv-J6axspk"
      },
      {
-      "title": "Product Link in Bio ( 414 ) ▶️ Solar-Powered Floating Jellyfish Garden Lights⁠",
-      "views": 1000000,
-      "url": "https://www.youtube.com/shorts/HcWUfkm2BBM"
+      "title": "Unbelievable! See What These Solar Ground Lights Can Do!",
+      "views": 338000,
+      "url": "https://www.youtube.com/shorts/Bff61Is_TPA"
      },
      {
-      "title": "Try this Solar lights hack to decorate any outdoor space 🤩 super easy and affordable",
-      "views": 653000,
-      "url": "https://www.youtube.com/shorts/aHZVZEP1siU"
+      "title": "Amazon Solar Lights for Your Backyard Deck Patio Garden! #amazonstyle",
+      "views": 300000,
+      "url": "https://www.youtube.com/shorts/yy6Czrz9sTk"
+     },
+     {
+      "title": "A Colorful Solar Light for Your Home#short",
+      "views": 177000,
+      "url": "https://www.youtube.com/shorts/o3xkq8A0sP8"
      }
     ],
     "status": "LIVE"
@@ -3164,86 +3164,61 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 70,
-    "video_score": 98,
+    "score": 71,
+    "video_score": 83,
     "trend_score": 65,
-    "crowding": "alta",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 545K vistas (el mayor, 48M)",
-     "Competencia alta: 4 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): estable -8% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 138K vistas (el mayor, 48M)",
+     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): estable -2% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-17 14:31:44 UTC",
+   "measured_at": "2026-10-19 02:00:00 UTC",
    "trends": {
-    "momentum_pct": -7.9,
+    "momentum_pct": -2.1,
     "low_volume": false,
-    "peak_ratio": 0.4,
-    "mean_recent": 40.0
+    "peak_ratio": 0.39,
+    "mean_recent": 39.0
    },
    "trends_series": [
-    97,
-    83,
-    72,
-    67,
+    79,
+    73,
+    66,
     100,
-    96,
-    81,
-    83,
-    86,
-    77,
-    74,
-    48,
-    45,
-    39,
+    93,
+    79,
+    84,
+    84,
+    76,
+    75,
+    51,
+    42,
     40,
     39,
-    44,
+    36,
     38,
     37,
-    39,
-    39,
-    39,
-    39,
-    41,
+    36,
     38,
-    42
+    45,
+    38,
+    38,
+    41,
+    37,
+    42,
+    36
    ],
-   "trends_at": "2026-10-14 16:02 UTC",
-   "rising": [
-    {
-     "query": "costco solar firefly lights",
-     "growth": "Breakout"
-    },
-    {
-     "query": "shop deals on solar powered garden lights",
-     "growth": "Breakout"
-    },
-    {
-     "query": "tuyluxe outdoor solar lights discount",
-     "growth": "+1,450%"
-    },
-    {
-     "query": "dollar tree mushroom solar lights",
-     "growth": "+1,300%"
-    },
-    {
-     "query": "solar flare northern lights",
-     "growth": "+200%"
-    },
-    {
-     "query": "led solar lights outdoor waterproof",
-     "growth": "+130%"
-    }
-   ],
-   "rising_at": "2026-10-13 14:20:10 UTC"
+   "trends_at": "2026-10-19 01:59:41 UTC",
+   "rising": [],
+   "rising_at": "2026-10-19 02:00:00 UTC"
   },
   "camping-lantern": {
    "youtube": {
     "keyword": "rechargeable camping lantern",
-    "shorts_found": 31,
-    "median_views_top10": 33000,
+    "shorts_found": 33,
+    "median_views_top10": 26500,
     "max_views": 6700000,
     "over_100k": 2,
     "over_1m": 1,
@@ -3269,9 +3244,9 @@
       "url": "https://www.youtube.com/shorts/TYYkdOo9w24"
      },
      {
-      "title": "Solar Camping Lantern 🔥 | Amazing Emergency Light #Shorts",
-      "views": 34000,
-      "url": "https://www.youtube.com/shorts/7YpQ4_l1Mqg"
+      "title": "( #Shopee ) Solar Rechargeable camping lantern w/ flashlight #shorts #solar #flashlight",
+      "views": 32000,
+      "url": "https://www.youtube.com/shorts/cYggvD6Cmvc"
      }
     ],
     "status": "LIVE"
@@ -3312,7 +3287,7 @@
     17
    ],
    "trends_status": "LIVE",
-   "trends_at": "2026-10-17 19:45:33 UTC",
+   "trends_at": "2026-10-17 19:45 UTC",
    "rising": [
     {
      "query": "led camping lantern rechargeable",
@@ -3341,52 +3316,52 @@
    ],
    "rising_at": "2026-10-17 19:45:34 UTC",
    "market": {
-    "score": 49,
-    "video_score": 68,
+    "score": 48,
+    "video_score": 66,
     "trend_score": 20,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 33K vistas (el mayor, 6.7M)",
+     "Shorts: los 10 más vistos tienen una mediana de 26K vistas (el mayor, 6.7M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -32% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-17 19:45:34 UTC"
+   "measured_at": "2026-10-19 02:00:05 UTC"
   },
   "electric-lint-remover": {
    "youtube": {
     "keyword": "fabric shaver lint remover",
-    "shorts_found": 35,
-    "median_views_top10": 127500,
-    "max_views": 978000,
-    "over_100k": 5,
-    "over_1m": 0,
+    "shorts_found": 33,
+    "median_views_top10": 171500,
+    "max_views": 4300000,
+    "over_100k": 6,
+    "over_1m": 1,
     "top": [
      {
-      "title": "Lint remover from clothes Amazon  #shorts Lint remover review lint remover meesho",
-      "views": 978000,
-      "url": "https://www.youtube.com/shorts/YvCh7nRn4XM"
+      "title": "Cheap Vs Expensive Lint Remover #shorts",
+      "views": 4300000,
+      "url": "https://www.youtube.com/shorts/QXPvnPcnS6o"
+     },
+     {
+      "title": "Philips fabric shaver # best results",
+      "views": 670000,
+      "url": "https://www.youtube.com/shorts/q009I4Cp-SE"
      },
      {
       "title": "I Tried This Lint Remover… WOW!😲",
-      "views": 572000,
+      "views": 574000,
       "url": "https://www.youtube.com/shorts/GEqxFg0eHJY"
      },
      {
       "title": "Clothes Lint Remover Gadget! #shorts #unboxing",
-      "views": 407000,
+      "views": 409000,
       "url": "https://www.youtube.com/shorts/BHXnzpKhlhs"
      },
      {
       "title": "Revamp Your Clothes: Fabric Shaver Hack! #fabricshaver #lintremover",
-      "views": 176000,
+      "views": 177000,
       "url": "https://www.youtube.com/shorts/INmi6I7-WMQ"
-     },
-     {
-      "title": "Fabric Shaver Electric Lint Remover, Bobling Remover for ClothesUSB Rechargeable.",
-      "views": 165000,
-      "url": "https://www.youtube.com/shorts/7nYhFh4PQwc"
      }
     ],
     "status": "LIVE"
@@ -3427,7 +3402,7 @@
     14
    ],
    "trends_status": "LIVE",
-   "trends_at": "2026-10-17 19:45:40 UTC",
+   "trends_at": "2026-10-17 19:45 UTC",
    "rising": [
     {
      "query": "fabric shaver and lint remover",
@@ -3456,18 +3431,18 @@
    ],
    "rising_at": "2026-10-17 19:45:42 UTC",
    "market": {
-    "score": 76,
-    "video_score": 83,
+    "score": 78,
+    "video_score": 86,
     "trend_score": 65,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 128K vistas (el mayor, 978K)",
+     "Shorts: los 10 más vistos tienen una mediana de 172K vistas (el mayor, 4.3M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): estable -6% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-17 19:45:42 UTC"
+   "measured_at": "2026-10-19 02:00:08 UTC"
   }
  }
 }
