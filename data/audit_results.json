@@ -44,7 +44,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -175,40 +175,42 @@
         "peak_ratio": 0.18,
         "mean_recent": 18.0,
         "mean_prior": 21.9,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-10-19 11:21 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "ultrasonic tooth cleaner",
-        "shorts_found": 35,
-        "median_views_top10": 389000,
-        "max_views": 5000000,
-        "over_100k": 11,
-        "over_1m": 4,
+        "shorts_found": 39,
+        "median_views_top10": 609000,
+        "max_views": 25000000,
+        "over_100k": 12,
+        "over_1m": 3,
         "top": [
           {
-            "title": "cleaning teeth with ultrasonic scaler #shorts #dentist #teethcleaning",
-            "views": 5000000,
-            "url": "https://www.youtube.com/shorts/REL8d-UV-pI"
+            "title": "WIERD AUTOMATIC TOOTHBRUSH",
+            "views": 25000000,
+            "url": "https://www.youtube.com/shorts/mEw_wuy4Pz4"
           },
           {
-            "title": "Scaling tartar and calculus #dental #dentist #dentistry",
-            "views": 4700000,
-            "url": "https://www.youtube.com/shorts/sbLkVniGnhE"
+            "title": "A New Way To Brush Teeth",
+            "views": 2900000,
+            "url": "https://www.youtube.com/shorts/ROrU30Ovojo"
           },
           {
-            "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
-            "views": 1700000,
-            "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
+            "title": "Unlock Your Best Smile: Philips Sonicare Diamondclean 9000 #shorts",
+            "views": 1500000,
+            "url": "https://www.youtube.com/shorts/fX-itOrUBlk"
           },
           {
-            "title": "Scaling teeth to remove tartar and calculus #shorts",
-            "views": 1400000,
-            "url": "https://www.youtube.com/shorts/1RWeozzKyos"
+            "title": "@DentalDigest 🟣 AquaSonic Toothbrush. How will you Rate this? 😆 #Shorts",
+            "views": 797000,
+            "url": "https://www.youtube.com/shorts/Iwj03wEMZm0"
           },
           {
-            "title": "Viral Electric Teeth Cleaning Kit!!! Buy Now #teethcleaning #electrictoothbrush",
-            "views": 393000,
-            "url": "https://www.youtube.com/shorts/ezEG4dt10bc"
+            "title": "Testing an Ultrasonic Retainer Cleaner from Amazon!",
+            "views": 666000,
+            "url": "https://www.youtube.com/shorts/o0ofgyeUTP0"
           }
         ],
         "status": "LIVE"
@@ -331,7 +333,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -462,25 +464,22 @@
         "peak_ratio": 0.14,
         "mean_recent": 13.5,
         "mean_prior": 16.9,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-10-19 11:21 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "steamy cat brush",
-        "shorts_found": 31,
-        "median_views_top10": 196000,
-        "max_views": 30000000,
-        "over_100k": 7,
+        "shorts_found": 35,
+        "median_views_top10": 240000,
+        "max_views": 3100000,
+        "over_100k": 6,
         "over_1m": 3,
         "top": [
           {
-            "title": "Brushing My Cat Is SO Satisfying 😫😻",
-            "views": 30000000,
-            "url": "https://www.youtube.com/shorts/AOr9WB0XIUY"
-          },
-          {
-            "title": "🐶 Why Is Everyone Switching to This Steam Pet Brush?! 👀🔥",
-            "views": 3800000,
-            "url": "https://www.youtube.com/shorts/n-GflRw0sXI"
+            "title": "Different levels of cat brushes 😳",
+            "views": 3100000,
+            "url": "https://www.youtube.com/shorts/sNyxHusTTIc"
           },
           {
             "title": "I Tried a Steam Brush on my Feisty Cat 😳",
@@ -488,14 +487,19 @@
             "url": "https://www.youtube.com/shorts/0kU6kGTG0Q8"
           },
           {
-            "title": "Cat Is Obsessed With This Brush #catbrush #steamycatbrush #hairbrush",
-            "views": 530000,
-            "url": "https://www.youtube.com/shorts/BCsAQg0Chfc"
+            "title": "This Cat Enjoyed Getting Brushed❤️",
+            "views": 2500000,
+            "url": "https://www.youtube.com/shorts/bnqEz05tyas"
           },
           {
-            "title": "Cat Steam Brush",
-            "views": 209000,
-            "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
+            "title": "#1 pet brush on the market",
+            "views": 958000,
+            "url": "https://www.youtube.com/shorts/3iv8jjia_uQ"
+          },
+          {
+            "title": "All time favorite Pet Grooming Brush, I get it with 10 RM only! Get yours now ~ Link in comment!",
+            "views": 335000,
+            "url": "https://www.youtube.com/shorts/k-EtAdJodm0"
           }
         ],
         "status": "LIVE"
@@ -622,7 +626,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -753,40 +757,42 @@
         "peak_ratio": 0.26,
         "mean_recent": 25.5,
         "mean_prior": 30.6,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-10-19 11:21 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "lumbar traction belt",
-        "shorts_found": 31,
-        "median_views_top10": 2300000,
-        "max_views": 79000000,
+        "shorts_found": 34,
+        "median_views_top10": 925500,
+        "max_views": 119000000,
         "over_100k": 10,
-        "over_1m": 6,
+        "over_1m": 5,
         "top": [
           {
-            "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
-            "views": 79000000,
-            "url": "https://www.youtube.com/shorts/VsfXV5vUhUk"
+            "title": "Taping for lower back pain like a pro!",
+            "views": 119000000,
+            "url": "https://www.youtube.com/shorts/tItOiQNap7A"
           },
           {
-            "title": "Stretch Your Spine Automatically",
-            "views": 13000000,
-            "url": "https://www.youtube.com/shorts/IK9sl-o50d0"
-          },
-          {
-            "title": "Easy Way to Decompress Your Back #Shorts",
-            "views": 9600000,
-            "url": "https://www.youtube.com/shorts/PNFvCw3uygY"
-          },
-          {
-            "title": "Scoliosis Back Brace 💪🦴 #shorts",
-            "views": 7200000,
-            "url": "https://www.youtube.com/shorts/hsYOi_SZAWc"
+            "title": "Posture corrector",
+            "views": 90000000,
+            "url": "https://www.youtube.com/shorts/U4__0IRP31s"
           },
           {
             "title": "Mechanical Lumbar Traction for Back Pain",
             "views": 3200000,
             "url": "https://www.youtube.com/shorts/_pWlXLHnN-E"
+          },
+          {
+            "title": "3 reasons why you should buy a back stretcher",
+            "views": 1700000,
+            "url": "https://www.youtube.com/shorts/DyhKsoLCPLc"
+          },
+          {
+            "title": "Need a quick and easy way to decompress your lower back?! Try this banded Lumbar Traction technique",
+            "views": 1400000,
+            "url": "https://www.youtube.com/shorts/Kn0jW9VBxXA"
           }
         ],
         "status": "LIVE"
@@ -909,7 +915,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -1040,15 +1046,17 @@
         "peak_ratio": 0.21,
         "mean_recent": 21.5,
         "mean_prior": 27.8,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-10-19 11:22 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "turbo jet fan",
-        "shorts_found": 34,
-        "median_views_top10": 914500,
+        "shorts_found": 35,
+        "median_views_top10": 714000,
         "max_views": 80000000,
-        "over_100k": 12,
-        "over_1m": 5,
+        "over_100k": 10,
+        "over_1m": 4,
         "top": [
           {
             "title": "Metal Jet Fan from Electric Turbochargers | The H Lab #shorts",
@@ -1061,11 +1069,6 @@
             "url": "https://www.youtube.com/shorts/9ksItmxawD0"
           },
           {
-            "title": "This Turbo Jet Fan From Amazon is🔥",
-            "views": 2800000,
-            "url": "https://www.youtube.com/shorts/mlWwPS1daBM"
-          },
-          {
             "title": "Crazy Powerful Turbo Jet Fan! 🔥",
             "views": 2200000,
             "url": "https://www.youtube.com/shorts/D6LcDtfEMfI"
@@ -1074,6 +1077,11 @@
             "title": "Mini Turbo Jet Fan Powerful Blower | Air Blower #shorts #airblower",
             "views": 1000000,
             "url": "https://www.youtube.com/shorts/LEDdRGg_HU4"
+          },
+          {
+            "title": "Mini Turbo Jet Fan Air Blower 110000RPM Turbo Violent Fan #jetfan #airblower #coolgadgets",
+            "views": 829000,
+            "url": "https://www.youtube.com/shorts/guqeVY5p8OE"
           }
         ],
         "status": "LIVE"
