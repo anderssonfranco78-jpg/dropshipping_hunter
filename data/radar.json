@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-19 17:50:55 UTC",
+ "updated_at": "2026-10-19 21:47:57 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -1281,15 +1281,20 @@
   "red-light-wand": {
    "youtube": {
     "keyword": "red light therapy wand",
-    "shorts_found": 31,
-    "median_views_top10": 30000,
-    "max_views": 201000,
-    "over_100k": 1,
+    "shorts_found": 27,
+    "median_views_top10": 19500,
+    "max_views": 294000,
+    "over_100k": 2,
     "over_1m": 0,
     "top": [
      {
+      "title": "Red light therapy the game for my skin#skincare #redlighttherapy #glassskin#acnefighter#skincaretips",
+      "views": 294000,
+      "url": "https://www.youtube.com/shorts/mr9pEf0-Seg"
+     },
+     {
       "title": "Red Light Therapy At-Home #shorts",
-      "views": 201000,
+      "views": 202000,
       "url": "https://www.youtube.com/shorts/z_H2t6cJBLk"
      },
      {
@@ -1298,19 +1303,14 @@
       "url": "https://www.youtube.com/shorts/kRtbiDYc0-M"
      },
      {
-      "title": "Red-Light-Therapy-for-Face and Neck, Red Light Therapy Wand, 7 Color Led Face Neck",
-      "views": 73000,
-      "url": "https://www.youtube.com/shorts/7R581NGCnSs"
-     },
-     {
-      "title": "Red Light Therapy Mask goes wrong... #shorts",
-      "views": 36000,
-      "url": "https://www.youtube.com/shorts/MBogyfP54xM"
-     },
-     {
       "title": "DOES IT WORK? ? Dr Shelby Review Usuie Red Light Therapy Wand",
       "views": 31000,
       "url": "https://www.youtube.com/shorts/f8wPCD_cPRg"
+     },
+     {
+      "title": "Using  the Sola Wave Wand Red Light Therapy & the Activating Serum #solawavewand #shorts",
+      "views": 29000,
+      "url": "https://www.youtube.com/shorts/T-6rB7NqWs0"
      }
     ],
     "status": "LIVE"
@@ -1318,53 +1318,53 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 56,
-    "video_score": 67,
-    "trend_score": 40,
+    "score": 63,
+    "video_score": 62,
+    "trend_score": 65,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 30K vistas (el mayor, 201K)",
+     "Shorts: los 10 más vistos tienen una mediana de 20K vistas (el mayor, 294K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
-     "Google (EE. UU.): baja -17% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): estable -8% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-18 09:59:58 UTC",
+   "measured_at": "2026-10-19 21:47:22 UTC",
    "trends": {
-    "momentum_pct": -16.9,
+    "momentum_pct": -7.7,
     "low_volume": false,
     "peak_ratio": 0.36,
     "mean_recent": 36.0
    },
    "trends_series": [
-    100,
-    81,
+    80,
+    76,
     75,
-    75,
-    84,
-    89,
-    70,
-    70,
-    72,
-    70,
+    83,
+    85,
+    69,
+    68,
+    71,
+    67,
     79,
-    52,
+    53,
     47,
-    42,
-    43,
-    42,
-    37,
+    41,
+    44,
+    40,
     36,
     35,
-    37,
+    35,
+    35,
     35,
     35,
     32,
     34,
-    37,
-    41
+    35,
+    40,
+    35
    ],
-   "trends_at": "2026-10-15 20:36 UTC",
+   "trends_at": "2026-10-19 21:47:19 UTC",
    "rising": [
     {
      "query": "clara red light therapy mask",
@@ -1379,11 +1379,11 @@
      "growth": "+500%"
     },
     {
-     "query": "red light panel",
+     "query": "red light therapy panel",
      "growth": "+300%"
     },
     {
-     "query": "red light therapy panel",
+     "query": "red light panel",
      "growth": "+300%"
     },
     {
@@ -1391,16 +1391,16 @@
      "growth": "+250%"
     }
    ],
-   "rising_at": "2026-10-15 20:36:29 UTC"
+   "rising_at": "2026-10-19 21:47:22 UTC"
   },
   "scalp-massager": {
    "youtube": {
     "keyword": "electric scalp massager",
-    "shorts_found": 31,
-    "median_views_top10": 1800000,
+    "shorts_found": 29,
+    "median_views_top10": 1088500,
     "max_views": 51000000,
-    "over_100k": 14,
-    "over_1m": 8,
+    "over_100k": 11,
+    "over_1m": 5,
     "top": [
      {
       "title": "📦Order yours from the link in our Bio #shorts",
@@ -1423,9 +1423,9 @@
       "url": "https://www.youtube.com/shorts/E1u2JtxYfUA"
      },
      {
-      "title": "ELECTRIC HAIR MASSAGE KERATIN COMB",
-      "views": 2000000,
-      "url": "https://www.youtube.com/shorts/aUVz8aOvEKY"
+      "title": "Testing an Electric Head Massager from Amazon!",
+      "views": 1600000,
+      "url": "https://www.youtube.com/shorts/RVkzbtZB2NU"
      }
     ],
     "status": "LIVE"
@@ -1433,53 +1433,53 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 53,
+    "score": 61,
     "video_score": 100,
-    "trend_score": 20,
+    "trend_score": 40,
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 1.8M vistas (el mayor, 51M)",
-     "Competencia alta: 8 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -28% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 1.1M vistas (el mayor, 51M)",
+     "Competencia alta: 5 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): baja -22% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-18 10:00:02 UTC",
+   "measured_at": "2026-10-19 21:47:30 UTC",
    "trends": {
-    "momentum_pct": -28.0,
+    "momentum_pct": -21.7,
     "low_volume": false,
     "peak_ratio": 0.22,
     "mean_recent": 22.2
    },
    "trends_series": [
-    100,
-    71,
-    52,
-    49,
-    77,
-    79,
+    72,
+    53,
     50,
+    78,
+    80,
+    51,
     57,
     72,
-    62,
-    55,
-    29,
+    60,
+    54,
+    30,
     25,
-    20,
+    19,
     22,
-    22,
+    23,
     20,
     19,
     75,
-    19,
-    22,
-    43,
     20,
-    26,
+    23,
+    44,
+    21,
+    24,
     22,
-    21
+    21,
+    22
    ],
-   "trends_at": "2026-10-15 20:36 UTC",
+   "trends_at": "2026-10-19 21:47:29 UTC",
    "rising": [
     {
      "query": "hair scalp massager shampoo brush",
@@ -1503,10 +1503,10 @@
     },
     {
      "query": "electric scalp massager",
-     "growth": "+110%"
+     "growth": "+120%"
     }
    ],
-   "rising_at": "2026-10-15 20:36:37 UTC"
+   "rising_at": "2026-10-19 21:47:30 UTC"
   },
   "ice-roller": {
    "youtube": {
@@ -1741,15 +1741,25 @@
   "neck-stretcher": {
    "youtube": {
     "keyword": "neck stretcher cervical traction",
-    "shorts_found": 26,
-    "median_views_top10": 180500,
-    "max_views": 503000,
-    "over_100k": 8,
-    "over_1m": 0,
+    "shorts_found": 29,
+    "median_views_top10": 282500,
+    "max_views": 3800000,
+    "over_100k": 10,
+    "over_1m": 1,
     "top": [
      {
+      "title": "Cervical Traction || Neck Pain Relief || #shorts #youtubeshorts #physiodrdeepaksoni",
+      "views": 3800000,
+      "url": "https://www.youtube.com/shorts/X3Y0zC3HLuQ"
+     },
+     {
+      "title": "Reviewing Amazon products so you don’t have to! Here are my thoughts on the neck / shoulder relaxer.",
+      "views": 744000,
+      "url": "https://www.youtube.com/shorts/JWajNe0rcfc"
+     },
+     {
       "title": "Ever Seen This Neck-Stretching Machine?",
-      "views": 503000,
+      "views": 504000,
       "url": "https://www.youtube.com/shorts/2hrRnffV2c4"
      },
      {
@@ -1761,16 +1771,6 @@
       "title": "Door-Mounted Cervical Traction Device – Relieve Neck Pain at Home!",
       "views": 348000,
       "url": "https://www.youtube.com/shorts/H6J7iTuBjjA"
-     },
-     {
-      "title": "I Bought Neck Stretcher on Amazon #amazonfinds #gadgets",
-      "views": 245000,
-      "url": "https://www.youtube.com/shorts/Bpnwae-_UdE"
-     },
-     {
-      "title": "Neck And Shoulder Relaxer Pillow",
-      "views": 217000,
-      "url": "https://www.youtube.com/shorts/11DE4UDN49g"
      }
     ],
     "status": "LIVE"
@@ -1778,53 +1778,53 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 68,
-    "video_score": 86,
+    "score": 71,
+    "video_score": 91,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 180K vistas (el mayor, 503K)",
+     "Shorts: los 10 más vistos tienen una mediana de 282K vistas (el mayor, 3.8M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
-     "Google (EE. UU.): baja -22% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): baja -21% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-18 14:57:10 UTC",
+   "measured_at": "2026-10-19 21:47:37 UTC",
    "trends": {
-    "momentum_pct": -22.4,
+    "momentum_pct": -20.6,
     "low_volume": false,
-    "peak_ratio": 0.23,
-    "mean_recent": 22.8
+    "peak_ratio": 0.2,
+    "mean_recent": 20.5
    },
    "trends_series": [
-    100,
     73,
-    53,
-    51,
-    70,
-    77,
-    50,
-    50,
-    59,
     55,
-    62,
-    33,
-    32,
-    32,
+    51,
+    69,
+    74,
+    50,
+    47,
+    60,
+    50,
+    56,
+    35,
+    30,
+    34,
     24,
-    26,
-    28,
-    23,
-    19,
-    22,
-    23,
-    28,
+    16,
     27,
+    26,
+    20,
+    23,
     19,
-    24,
-    21
+    30,
+    26,
+    20,
+    21,
+    18,
+    23
    ],
-   "trends_at": "2026-10-15 20:36 UTC",
+   "trends_at": "2026-10-19 21:47:37 UTC",
    "rising": [
     {
      "query": "mediness neck massager",
@@ -1856,11 +1856,11 @@
   "foot-massager": {
    "youtube": {
     "keyword": "foot massager machine",
-    "shorts_found": 29,
-    "median_views_top10": 229500,
+    "shorts_found": 33,
+    "median_views_top10": 58500,
     "max_views": 131000000,
-    "over_100k": 5,
-    "over_1m": 3,
+    "over_100k": 4,
+    "over_1m": 2,
     "top": [
      {
       "title": "Foot Massage Cushion #satisfying #shot",
@@ -1873,19 +1873,19 @@
       "url": "https://www.youtube.com/shorts/muh4awUNlJg"
      },
      {
-      "title": "Agaro Foot 🦶 Massager Review & Unboxing ||  #shorts #productreview Link In Description #ytshorts",
-      "views": 1100000,
-      "url": "https://www.youtube.com/shorts/zTGKy6mrS5M"
-     },
-     {
       "title": "Lifelong Foot Massager Machine with Heating #viral #ytshorts #india #trending #shorts #2024 #health",
-      "views": 475000,
+      "views": 479000,
       "url": "https://www.youtube.com/shorts/VbuxwfiT5ng"
      },
      {
-      "title": "EMS Foot Massager - Unwind with Daily Relief 🌟",
-      "views": 361000,
-      "url": "https://www.youtube.com/shorts/3_2WOM815vc"
+      "title": "Link to Massage Mat in my bio!🦶😌",
+      "views": 111000,
+      "url": "https://www.youtube.com/shorts/maNEIzAe9mM"
+     },
+     {
+      "title": "Easy to use foot massager for your feet pain!#feet #footmassage #massage",
+      "views": 95000,
+      "url": "https://www.youtube.com/shorts/FG2d_zGUA90"
      }
     ],
     "status": "LIVE"
@@ -1893,27 +1893,26 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 64,
-    "video_score": 89,
-    "trend_score": 40,
+    "score": 65,
+    "video_score": 74,
+    "trend_score": 65,
     "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 230K vistas (el mayor, 131M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -22% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 58K vistas (el mayor, 131M)",
+     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): estable -9% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-18 14:57:13 UTC",
+   "measured_at": "2026-10-19 21:47:44 UTC",
    "trends": {
-    "momentum_pct": -22.3,
+    "momentum_pct": -8.7,
     "low_volume": false,
-    "peak_ratio": 0.21,
-    "mean_recent": 21.5
+    "peak_ratio": 0.22,
+    "mean_recent": 22.0
    },
    "trends_series": [
-    83,
-    64,
+    65,
     50,
     55,
     65,
@@ -1921,25 +1920,26 @@
     54,
     54,
     64,
-    67,
+    66,
     64,
     37,
-    29,
+    30,
     26,
-    25,
+    24,
     21,
     23,
     22,
     21,
     22,
     21,
-    21,
+    22,
     20,
     23,
+    21,
     22,
-    21
+    22
    ],
-   "trends_at": "2026-10-15 20:36 UTC",
+   "trends_at": "2026-10-19 21:47:44 UTC",
    "rising": [
     {
      "query": "ornexis foot massager",
@@ -1971,16 +1971,16 @@
   "heated-eye-massager": {
    "youtube": {
     "keyword": "heated eye massager",
-    "shorts_found": 32,
-    "median_views_top10": 20000,
-    "max_views": 1300000,
+    "shorts_found": 31,
+    "median_views_top10": 25500,
+    "max_views": 180000,
     "over_100k": 1,
-    "over_1m": 1,
+    "over_1m": 0,
     "top": [
      {
-      "title": "I tried a Chinese eye Moxibustion Massage to Improve Eyesight! #shorts",
-      "views": 1300000,
-      "url": "https://www.youtube.com/shorts/lIO0HQPgREI"
+      "title": "The Best Eye Massager Ever 😍",
+      "views": 180000,
+      "url": "https://www.youtube.com/shorts/thdjBqLyFNc"
      },
      {
       "title": "Tired eyes from scrolling? These Japanese self heating eye masks come in clutch! #shorts",
@@ -1988,19 +1988,19 @@
       "url": "https://www.youtube.com/shorts/lGzki0TCXCg"
      },
      {
+      "title": "This Eye Massager Changes Everything! #eyes #health #massage #shorts #amazon",
+      "views": 31000,
+      "url": "https://www.youtube.com/shorts/3rwmwYH0XsE"
+     },
+     {
       "title": "BAGS BE GONE WITH THE STYLPRO HEATED EYE MASSAGER🤍 #shorts",
       "views": 27000,
       "url": "https://www.youtube.com/shorts/glNxtxq6TJE"
      },
      {
-      "title": "Testing out the VIRAL EYE MASSAGE technique 👀 #shorts",
-      "views": 24000,
-      "url": "https://www.youtube.com/shorts/otht78Ss-cQ"
-     },
-     {
-      "title": "This Eye Massager is the ultimate spa tool #shorts",
-      "views": 21000,
-      "url": "https://www.youtube.com/shorts/YltMGZhBV-4"
+      "title": "Heated Eye Mask Review | #amazonfinds #selfcareessentials",
+      "views": 27000,
+      "url": "https://www.youtube.com/shorts/4eRKiJ4Dje0"
      }
     ],
     "status": "LIVE"
@@ -2008,63 +2008,73 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 54,
-    "video_score": 63,
-    "trend_score": 40,
+    "score": 65,
+    "video_score": 65,
+    "trend_score": 65,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 20K vistas (el mayor, 1.3M)",
+     "Shorts: los 10 más vistos tienen una mediana de 26K vistas (el mayor, 180K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
-     "Google (EE. UU.): baja -20% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): estable -10% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-18 14:57:16 UTC",
+   "measured_at": "2026-10-19 21:47:50 UTC",
    "trends": {
-    "momentum_pct": -19.6,
+    "momentum_pct": -9.5,
     "low_volume": false,
-    "peak_ratio": 0.15,
-    "mean_recent": 15.0
+    "peak_ratio": 0.14,
+    "mean_recent": 14.2
    },
    "trends_series": [
-    100,
     82,
-    52,
-    49,
+    50,
+    48,
     73,
-    79,
-    47,
+    78,
     46,
+    45,
     56,
-    58,
-    54,
+    57,
+    53,
     24,
     23,
+    17,
+    14,
+    12,
     16,
+    15,
+    14,
+    12,
+    15,
     13,
-    11,
+    14,
     17,
     14,
     13,
-    12,
-    14,
-    13,
-    15,
-    18,
-    15,
-    12
+    13
    ],
-   "trends_at": "2026-10-15 20:36 UTC"
+   "trends_at": "2026-10-19 21:47:50 UTC"
   },
   "mini-massage-gun": {
    "youtube": {
     "keyword": "mini massage gun",
-    "shorts_found": 31,
-    "median_views_top10": 255500,
-    "max_views": 1900000,
-    "over_100k": 6,
-    "over_1m": 2,
+    "shorts_found": 41,
+    "median_views_top10": 1089000,
+    "max_views": 4000000,
+    "over_100k": 13,
+    "over_1m": 5,
     "top": [
+     {
+      "title": "How To Use Massage Gun for Rounded Shoulders Posture Shoulder Pain Hypervolt Theragun",
+      "views": 4000000,
+      "url": "https://www.youtube.com/shorts/P9H4BVpnqjI"
+     },
+     {
+      "title": "My massage gun hack for emptying out bottles",
+      "views": 2400000,
+      "url": "https://www.youtube.com/shorts/bX05kY2hbek"
+     },
      {
       "title": "Heated Head Massage Gun by Best Chiropractor in Beverly Hills for Neck Pain Headaches",
       "views": 1900000,
@@ -2076,19 +2086,9 @@
       "url": "https://www.youtube.com/shorts/WLWkx2V__kU"
      },
      {
-      "title": "Back Pain Relief With Massage Gun  #shorts",
-      "views": 970000,
-      "url": "https://www.youtube.com/shorts/DjZU_haCNGc"
-     },
-     {
-      "title": "Mini Massage Gun | Say Goodbye to Back Pain: How a Massage Gun Can Help",
-      "views": 809000,
-      "url": "https://www.youtube.com/shorts/1lxcxe8DzyM"
-     },
-     {
-      "title": "Massage Gun vs. Scraper Tool Debate...Which one do you prefer?",
-      "views": 295000,
-      "url": "https://www.youtube.com/shorts/aWDRsPcSduI"
+      "title": "Does Massage Gun Really Work!!🤔👀 #massage #athlete #muscles",
+      "views": 1200000,
+      "url": "https://www.youtube.com/shorts/N0IlEBvyBPA"
      }
     ],
     "status": "LIVE"
@@ -2096,53 +2096,53 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 65,
-    "video_score": 90,
+    "score": 61,
+    "video_score": 100,
     "trend_score": 40,
-    "crowding": "media",
+    "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 256K vistas (el mayor, 1.9M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -22% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 1.1M vistas (el mayor, 4M)",
+     "Competencia alta: 5 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): baja -12% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-18 14:57:19 UTC",
+   "measured_at": "2026-10-19 21:47:57 UTC",
    "trends": {
-    "momentum_pct": -21.6,
+    "momentum_pct": -12.5,
     "low_volume": false,
     "peak_ratio": 0.34,
     "mean_recent": 34.5
    },
    "trends_series": [
-    94,
     66,
-    61,
     60,
-    70,
-    80,
-    66,
+    58,
+    69,
+    79,
+    64,
     77,
-    87,
-    74,
-    82,
-    45,
+    83,
+    71,
+    79,
+    44,
     43,
-    39,
-    39,
     38,
     38,
+    38,
+    37,
     38,
     51,
     37,
     37,
-    41,
-    34,
+    39,
+    33,
     34,
     35,
-    35
+    35,
+    34
    ],
-   "trends_at": "2026-10-15 20:37 UTC"
+   "trends_at": "2026-10-19 21:47:57 UTC"
   },
   "car-gap-filler": {
    "youtube": {
