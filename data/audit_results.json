@@ -181,10 +181,10 @@
       },
       "youtube": {
         "keyword": "ultrasonic tooth cleaner",
-        "shorts_found": 29,
+        "shorts_found": 28,
         "median_views_top10": 1400000,
         "max_views": 5100000,
-        "over_100k": 11,
+        "over_100k": 10,
         "over_1m": 6,
         "top": [
           {
@@ -470,17 +470,12 @@
       },
       "youtube": {
         "keyword": "steamy cat brush",
-        "shorts_found": 27,
-        "median_views_top10": 196000,
-        "max_views": 30000000,
-        "over_100k": 7,
-        "over_1m": 3,
+        "shorts_found": 32,
+        "median_views_top10": 156000,
+        "max_views": 3800000,
+        "over_100k": 6,
+        "over_1m": 2,
         "top": [
-          {
-            "title": "Brushing My Cat Is SO Satisfying 😫😻",
-            "views": 30000000,
-            "url": "https://www.youtube.com/shorts/AOr9WB0XIUY"
-          },
           {
             "title": "🐶 Why Is Everyone Switching to This Steam Pet Brush?! 👀🔥",
             "views": 3800000,
@@ -500,6 +495,11 @@
             "title": "Cat Steam Brush",
             "views": 209000,
             "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
+          },
+          {
+            "title": "My Cat Tries The Viral Steam Cat Brush | The Dodo",
+            "views": 183000,
+            "url": "https://www.youtube.com/shorts/bFgsR8xpyOw"
           }
         ],
         "status": "LIVE"
@@ -763,10 +763,10 @@
       },
       "youtube": {
         "keyword": "lumbar traction belt",
-        "shorts_found": 30,
+        "shorts_found": 29,
         "median_views_top10": 565000,
         "max_views": 79000000,
-        "over_100k": 9,
+        "over_100k": 8,
         "over_1m": 4,
         "top": [
           {
@@ -1052,8 +1052,8 @@
       },
       "youtube": {
         "keyword": "turbo jet fan",
-        "shorts_found": 30,
-        "median_views_top10": 887000,
+        "shorts_found": 29,
+        "median_views_top10": 718500,
         "max_views": 80000000,
         "over_100k": 8,
         "over_1m": 4,
@@ -1079,9 +1079,9 @@
             "url": "https://www.youtube.com/shorts/LEDdRGg_HU4"
           },
           {
-            "title": "DIY Jet Fan Using 2700KV Motor #shorts #jetfan",
-            "views": 945000,
-            "url": "https://www.youtube.com/shorts/nTsEEU26bBM"
+            "title": "Mini Turbo Jet Fan Air Blower 110000RPM Turbo Violent Fan #jetfan #airblower #coolgadgets",
+            "views": 830000,
+            "url": "https://www.youtube.com/shorts/guqeVY5p8OE"
           }
         ],
         "status": "LIVE"
