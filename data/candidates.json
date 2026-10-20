@@ -30,7 +30,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -161,16 +161,33 @@
       "peak_ratio": 0.14,
       "mean_recent": 14.0,
       "mean_prior": 16.9,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-10-20 10:30 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "steamy cat brush",
-      "shorts_found": 31,
-      "median_views_top10": 6100,
-      "max_views": 802000,
-      "over_100k": 2,
-      "over_1m": 0,
+      "shorts_found": 27,
+      "median_views_top10": 196000,
+      "max_views": 30000000,
+      "over_100k": 7,
+      "over_1m": 3,
       "top": [
+        {
+          "title": "Brushing My Cat Is SO Satisfying 😫😻",
+          "views": 30000000,
+          "url": "https://www.youtube.com/shorts/AOr9WB0XIUY"
+        },
+        {
+          "title": "🐶 Why Is Everyone Switching to This Steam Pet Brush?! 👀🔥",
+          "views": 3800000,
+          "url": "https://www.youtube.com/shorts/n-GflRw0sXI"
+        },
+        {
+          "title": "I Tried a Steam Brush on my Feisty Cat 😳",
+          "views": 2800000,
+          "url": "https://www.youtube.com/shorts/0kU6kGTG0Q8"
+        },
         {
           "title": "Steam Grooming Brush: For Cats and Dogs",
           "views": 802000,
@@ -180,21 +197,6 @@
           "title": "Cat Steam Brush",
           "views": 209000,
           "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
-        },
-        {
-          "title": "Testing New Steamy Cat Brush | Steamy brush #devicecare #catlover #catbrush",
-          "views": 68000,
-          "url": "https://www.youtube.com/shorts/NmysMNfhbrE"
-        },
-        {
-          "title": "Steam Brush For Dog! Pup's obsessed with this steam brush #shorts #dog #doggroominglife #pets",
-          "views": 58000,
-          "url": "https://www.youtube.com/shorts/3f210qkNDmo"
-        },
-        {
-          "title": "Steam Brush for Cats & Dogs🐱! #shorts #productreview #gadgets #NextFinds",
-          "views": 10000,
-          "url": "https://www.youtube.com/shorts/gHLPyDFgYsM"
         }
       ],
       "status": "LIVE"
@@ -231,7 +233,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -362,20 +364,32 @@
       "peak_ratio": 0.17,
       "mean_recent": 16.8,
       "mean_prior": 21.8,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-10-20 10:30 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "ultrasonic tooth cleaner",
-      "shorts_found": 26,
-      "median_views_top10": 101000,
+      "shorts_found": 29,
+      "median_views_top10": 1400000,
       "max_views": 5100000,
-      "over_100k": 5,
-      "over_1m": 3,
+      "over_100k": 11,
+      "over_1m": 6,
       "top": [
         {
           "title": "cleaning teeth with ultrasonic scaler #shorts #dentist #teethcleaning",
           "views": 5100000,
           "url": "https://www.youtube.com/shorts/REL8d-UV-pI"
+        },
+        {
+          "title": "Scaling tartar and calculus #dental #dentist #dentistry",
+          "views": 4700000,
+          "url": "https://www.youtube.com/shorts/sbLkVniGnhE"
+        },
+        {
+          "title": "Smile Therapy- Ultrasonic Tooth Cleaner",
+          "views": 3000000,
+          "url": "https://www.youtube.com/shorts/MKD6ZfFwqyk"
         },
         {
           "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
@@ -386,16 +400,6 @@
           "title": "Scaling teeth to remove tartar and calculus #shorts",
           "views": 1400000,
           "url": "https://www.youtube.com/shorts/1RWeozzKyos"
-        },
-        {
-          "title": "#teethcleaning with ultrasonic cleaner #ultrasoniccleaner #oralhealth #teeth #shorts",
-          "views": 345000,
-          "url": "https://www.youtube.com/shorts/iQ7ZV7Mfn2w"
-        },
-        {
-          "title": "scaling teeth with ultrasonic water #shorts #dentist",
-          "views": 168000,
-          "url": "https://www.youtube.com/shorts/cZcg6Y48NjY"
         }
       ],
       "status": "LIVE"
@@ -436,7 +440,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -567,15 +571,17 @@
       "peak_ratio": 0.25,
       "mean_recent": 25.2,
       "mean_prior": 30.4,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-10-20 10:30 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "lumbar traction belt",
       "shorts_found": 30,
-      "median_views_top10": 137500,
+      "median_views_top10": 565000,
       "max_views": 79000000,
-      "over_100k": 5,
-      "over_1m": 3,
+      "over_100k": 9,
+      "over_1m": 4,
       "top": [
         {
           "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
@@ -588,19 +594,19 @@
           "url": "https://www.youtube.com/shorts/IK9sl-o50d0"
         },
         {
-          "title": "Easy Way to Decompress Your Back #Shorts",
-          "views": 9600000,
-          "url": "https://www.youtube.com/shorts/PNFvCw3uygY"
+          "title": "Mechanical Lumbar Traction for Back Pain",
+          "views": 3200000,
+          "url": "https://www.youtube.com/shorts/_pWlXLHnN-E"
         },
         {
-          "title": "Decompress Your Lower Back at Home #Shorts",
-          "views": 378000,
-          "url": "https://www.youtube.com/shorts/3VKai4c84wI"
+          "title": "Need a quick and easy way to decompress your lower back?! Try this banded Lumbar Traction technique",
+          "views": 1400000,
+          "url": "https://www.youtube.com/shorts/Kn0jW9VBxXA"
         },
         {
-          "title": "Traction Treatment For Sciatica| Sciatica Treatment #sciatica #shorts",
-          "views": 234000,
-          "url": "https://www.youtube.com/shorts/oq1nC0LObDE"
+          "title": "Decompress your low back with this lumbar traction exercise",
+          "views": 752000,
+          "url": "https://www.youtube.com/shorts/06WrOEPN1Y0"
         }
       ],
       "status": "LIVE"
@@ -637,7 +643,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -768,15 +774,17 @@
       "peak_ratio": 0.22,
       "mean_recent": 22.0,
       "mean_prior": 27.8,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-10-20 10:30 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "turbo jet fan",
-      "shorts_found": 33,
-      "median_views_top10": 26500,
+      "shorts_found": 30,
+      "median_views_top10": 887000,
       "max_views": 80000000,
-      "over_100k": 3,
-      "over_1m": 3,
+      "over_100k": 8,
+      "over_1m": 4,
       "top": [
         {
           "title": "Metal Jet Fan from Electric Turbochargers | The H Lab #shorts",
@@ -789,19 +797,19 @@
           "url": "https://www.youtube.com/shorts/9ksItmxawD0"
         },
         {
+          "title": "Crazy Powerful Turbo Jet Fan! 🔥",
+          "views": 2200000,
+          "url": "https://www.youtube.com/shorts/D6LcDtfEMfI"
+        },
+        {
           "title": "Mini Turbo Jet Fan Powerful Blower | Air Blower #shorts #airblower",
           "views": 1000000,
           "url": "https://www.youtube.com/shorts/LEDdRGg_HU4"
         },
         {
-          "title": "X3 Violent Blower Mini Turbo Jet Fan Handheld 3nd Generation 🌐 #violent #miniturbo #jetfan #shorts",
-          "views": 53000,
-          "url": "https://www.youtube.com/shorts/rUDjX3r6VpE"
-        },
-        {
-          "title": "Viral Blower Jet 😍⚡️ #shorts",
-          "views": 28000,
-          "url": "https://www.youtube.com/shorts/x1TK2jsbkPA"
+          "title": "DIY Jet Fan Using 2700KV Motor #shorts #jetfan",
+          "views": 945000,
+          "url": "https://www.youtube.com/shorts/nTsEEU26bBM"
         }
       ],
       "status": "LIVE"
