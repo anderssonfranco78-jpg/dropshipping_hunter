@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-20 02:17:34 UTC",
+ "updated_at": "2026-10-20 10:31:17 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -2814,9 +2814,9 @@
    "youtube": {
     "keyword": "sleep headphones headband",
     "shorts_found": 30,
-    "median_views_top10": 67500,
+    "median_views_top10": 943,
     "max_views": 963000,
-    "over_100k": 2,
+    "over_100k": 1,
     "over_1m": 0,
     "top": [
      {
@@ -2825,24 +2825,24 @@
       "url": "https://www.youtube.com/shorts/1U_YjYRs3Zw"
      },
      {
-      "title": "Why I regret buying a SnoozeBand 😴 #sleep #sleepheadphones #sleepmask",
-      "views": 731000,
-      "url": "https://www.youtube.com/shorts/gHOhZu5v6YQ"
+      "title": "Snoozeband Deluxe Sleep Headphones",
+      "views": 17000,
+      "url": "https://www.youtube.com/shorts/co81R2lVVSE"
      },
      {
-      "title": "Sleep Mask Headphones Review | the Best Bluetooth Headphones for Sleeping! 💤",
-      "views": 97000,
-      "url": "https://www.youtube.com/shorts/yRWJD1z-reU"
+      "title": "Cute Sleep Bonnet for Curly Hair | bynk",
+      "views": 1300,
+      "url": "https://www.youtube.com/shorts/s-F3d8Bw0gE"
      },
      {
-      "title": "MUSICOZY Sleep Headphones Review: The Ultimate Sleep Aid for Insomnia Relief #shorts #shortvideo",
-      "views": 86000,
-      "url": "https://www.youtube.com/shorts/Q0uAcTAPQO8"
+      "title": "MUSICOZY Sleep Headphones Bluetooth Headband, Wireless Headband Headphones #shorts #gadgets #foryou",
+      "views": 1100,
+      "url": "https://www.youtube.com/shorts/n1O8axtnLIs"
      },
      {
-      "title": "Sleep & Train Like a Pro 🔥 2025 Bluetooth Headband Earphones Unboxed #techgadgets",
-      "views": 73000,
-      "url": "https://www.youtube.com/shorts/qiOqRUph9oY"
+      "title": "#SleepMask #BluetoothSleepMask #SleepHeadphones #WhiteNoise #blackfriday",
+      "views": 1000,
+      "url": "https://www.youtube.com/shorts/vOgdDTuhpaI"
      }
     ],
     "status": "LIVE"
@@ -2850,90 +2850,70 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 54,
-    "video_score": 76,
-    "trend_score": 20,
+    "score": 33,
+    "video_score": 29,
+    "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 68K vistas (el mayor, 963K)",
+     "Shorts: los 10 más vistos tienen una mediana de 943 vistas (el mayor, 963K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
-     "Google (EE. UU.): baja -36% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): baja -21% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-18 19:45:17 UTC",
+   "measured_at": "2026-10-20 10:31:00 UTC",
    "trends": {
-    "momentum_pct": -36.0,
+    "momentum_pct": -21.3,
     "low_volume": false,
     "peak_ratio": 0.08,
     "mean_recent": 8.0
    },
    "trends_series": [
-    100,
-    76,
-    58,
-    63,
-    71,
-    47,
+    79,
+    60,
+    64,
+    73,
+    48,
     32,
-    36,
-    44,
-    35,
-    42,
-    19,
-    14,
+    37,
+    45,
+    37,
+    43,
+    20,
+    15,
+    10,
+    9,
+    8,
+    9,
+    9,
+    8,
     9,
     8,
     8,
     9,
-    9,
-    8,
-    9,
-    8,
-    7,
     8,
     8,
     8,
     8
    ],
-   "trends_at": "2026-10-16 10:13 UTC",
-   "rising": [
-    {
-     "query": "beats studio pro wireless headphones",
-     "growth": "Breakout"
-    },
-    {
-     "query": "bose quietcomfort ultra wireless headphones",
-     "growth": "Breakout"
-    },
-    {
-     "query": "beats solo 4 on-ear wireless headphones",
-     "growth": "Breakout"
-    },
-    {
-     "query": "sennheiser momentum 4 wireless headphones",
-     "growth": "Breakout"
-    },
-    {
-     "query": "sony wh-ch520 wireless headphones",
-     "growth": "Breakout"
-    },
-    {
-     "query": "bose quietcomfort ultra headphones",
-     "growth": "+400%"
-    }
-   ],
-   "rising_at": "2026-10-16 10:14:00 UTC"
+   "trends_at": "2026-10-20 10:30:41 UTC",
+   "rising": [],
+   "rising_at": "2026-10-20 10:31:00 UTC"
   },
   "baby-nail-trimmer": {
    "youtube": {
     "keyword": "baby nail trimmer electric",
-    "shorts_found": 33,
-    "median_views_top10": 691000,
-    "max_views": 2800000,
-    "over_100k": 8,
-    "over_1m": 4,
+    "shorts_found": 37,
+    "median_views_top10": 840000,
+    "max_views": 4200000,
+    "over_100k": 6,
+    "over_1m": 5,
     "top": [
+     {
+      "title": "Smart Electric Nail Clipper 😍 #shorts #gadgets",
+      "views": 4200000,
+      "url": "https://www.youtube.com/shorts/vaumTnm2QsA"
+     },
      {
       "title": "How Can You Trim Your Baby's Nails Safely? Try Baby Nail Trimmer Electric!#Shorts",
       "views": 2800000,
@@ -2945,19 +2925,14 @@
       "url": "https://www.youtube.com/shorts/BSrKZKBtFWI"
      },
      {
+      "title": "Baby Nail Trimmer Kit: Gentle Care Designed for Delicate Newborn Nails #Baby",
+      "views": 1500000,
+      "url": "https://www.youtube.com/shorts/ds9mrTv-JQk"
+     },
+     {
       "title": "How to Safely Trim Your Baby's Nails? Baby Electric Nail Trimmer Unveiled!  #cutebaby",
       "views": 1300000,
       "url": "https://www.youtube.com/shorts/N3bTTBu7v90"
-     },
-     {
-      "title": "baby electric nail cutter",
-      "views": 1100000,
-      "url": "https://www.youtube.com/shorts/IQtfORq-4r0"
-     },
-     {
-      "title": "Baby Nail Trimmer #baby #nailyrimmer #nailcutter #newbornbaby #babynailcutter #babynailtrimmer",
-      "views": 911000,
-      "url": "https://www.youtube.com/shorts/VrLTwMlR_jk"
      }
     ],
     "status": "LIVE"
@@ -2971,12 +2946,12 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 691K vistas (el mayor, 2.8M)",
-     "Competencia alta: 4 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 840K vistas (el mayor, 4.2M)",
+     "Competencia alta: 5 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -28% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-18 19:45:20 UTC",
+   "measured_at": "2026-10-20 10:31:04 UTC",
    "trends": {
     "momentum_pct": -27.7,
     "low_volume": false,
@@ -3038,7 +3013,7 @@
      "Google (EE. UU.): baja -39% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-19 01:59:36 UTC",
+   "measured_at": "2026-10-20 10:31:07 UTC",
    "trends": {
     "momentum_pct": -39.1,
     "low_volume": false,
@@ -3137,11 +3112,11 @@
   "solar-garden-lights": {
    "youtube": {
     "keyword": "solar garden lights",
-    "shorts_found": 32,
-    "median_views_top10": 138000,
+    "shorts_found": 33,
+    "median_views_top10": 263000,
     "max_views": 48000000,
-    "over_100k": 5,
-    "over_1m": 2,
+    "over_100k": 6,
+    "over_1m": 3,
     "top": [
      {
       "title": "Solar garden lamp street lamp #solarcharging",
@@ -3154,19 +3129,19 @@
       "url": "https://www.youtube.com/shorts/tbv-J6axspk"
      },
      {
-      "title": "Unbelievable! See What These Solar Ground Lights Can Do!",
-      "views": 338000,
-      "url": "https://www.youtube.com/shorts/Bff61Is_TPA"
+      "title": "Wall Solar Light 😊👍 #walldecorationideas #solarlighting #diwalidecor #shorts",
+      "views": 1000000,
+      "url": "https://www.youtube.com/shorts/u5uPRTTluBw"
      },
      {
-      "title": "Amazon Solar Lights for Your Backyard Deck Patio Garden! #amazonstyle",
-      "views": 300000,
-      "url": "https://www.youtube.com/shorts/yy6Czrz9sTk"
+      "title": "⚡Solar Powered Wall Light #walllights #solarlight  #lighting",
+      "views": 442000,
+      "url": "https://www.youtube.com/shorts/y8UnY40K-0I"
      },
      {
-      "title": "A Colorful Solar Light for Your Home#short",
-      "views": 177000,
-      "url": "https://www.youtube.com/shorts/o3xkq8A0sP8"
+      "title": "Best Outdoor Solar String Lights for Your Backyard #shorts",
+      "views": 341000,
+      "url": "https://www.youtube.com/shorts/BIwqKXGyJ88"
      }
     ],
     "status": "LIVE"
@@ -3174,18 +3149,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 71,
-    "video_score": 83,
+    "score": 75,
+    "video_score": 90,
     "trend_score": 65,
     "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 138K vistas (el mayor, 48M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 263K vistas (el mayor, 48M)",
+     "Competencia media: 3 Shorts pasan el millón de vistas",
      "Google (EE. UU.): estable -2% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-19 02:00:00 UTC",
+   "measured_at": "2026-10-20 10:31:11 UTC",
    "trends": {
     "momentum_pct": -2.1,
     "low_volume": false,
@@ -3220,33 +3195,33 @@
     42,
     36
    ],
-   "trends_at": "2026-10-19 01:59:41 UTC",
+   "trends_at": "2026-10-19 01:59 UTC",
    "rising": [],
    "rising_at": "2026-10-19 02:00:00 UTC"
   },
   "camping-lantern": {
    "youtube": {
     "keyword": "rechargeable camping lantern",
-    "shorts_found": 33,
-    "median_views_top10": 26500,
-    "max_views": 6700000,
-    "over_100k": 2,
-    "over_1m": 1,
+    "shorts_found": 31,
+    "median_views_top10": 33000,
+    "max_views": 354000,
+    "over_100k": 1,
+    "over_1m": 0,
     "top": [
      {
-      "title": "First Look! New Camping Lantern Launching Soon 🏕️ Do You Like the Design?#shorts",
-      "views": 6700000,
-      "url": "https://www.youtube.com/shorts/SQg58vaNOoI"
-     },
-     {
       "title": "Yardwe Led Camping Lantern Solar Panel Hand-Powered Tent 🌐 #solarlight #lamp #campinglife #shorts",
-      "views": 353000,
+      "views": 354000,
       "url": "https://www.youtube.com/shorts/cqSZRf1oIdU"
      },
      {
       "title": "Solar Rechargeable Led Camping Lantern Light | Camping Lantern #shorts",
-      "views": 76000,
+      "views": 77000,
       "url": "https://www.youtube.com/shorts/Al7xj5KgraU"
+     },
+     {
+      "title": "Classic Bushcraft Lantern #shorts",
+      "views": 64000,
+      "url": "https://www.youtube.com/shorts/Zy8Z3GydtNc"
      },
      {
       "title": "Refillable Gas Camping Light | Outdoor Lantern #shorts #lantern #gaslight",
@@ -3254,9 +3229,9 @@
       "url": "https://www.youtube.com/shorts/TYYkdOo9w24"
      },
      {
-      "title": "( #Shopee ) Solar Rechargeable camping lantern w/ flashlight #shorts #solar #flashlight",
-      "views": 32000,
-      "url": "https://www.youtube.com/shorts/cYggvD6Cmvc"
+      "title": "Solar Camping Lantern 🔥 | Amazing Emergency Light #Shorts",
+      "views": 34000,
+      "url": "https://www.youtube.com/shorts/7YpQ4_l1Mqg"
      }
     ],
     "status": "LIVE"
@@ -3326,52 +3301,52 @@
    ],
    "rising_at": "2026-10-17 19:45:34 UTC",
    "market": {
-    "score": 48,
-    "video_score": 66,
+    "score": 49,
+    "video_score": 68,
     "trend_score": 20,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 26K vistas (el mayor, 6.7M)",
+     "Shorts: los 10 más vistos tienen una mediana de 33K vistas (el mayor, 354K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -32% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-19 02:00:05 UTC"
+   "measured_at": "2026-10-20 10:31:14 UTC"
   },
   "electric-lint-remover": {
    "youtube": {
     "keyword": "fabric shaver lint remover",
     "shorts_found": 33,
-    "median_views_top10": 171500,
-    "max_views": 4300000,
-    "over_100k": 6,
-    "over_1m": 1,
+    "median_views_top10": 2700,
+    "max_views": 178000,
+    "over_100k": 1,
+    "over_1m": 0,
     "top": [
      {
-      "title": "Cheap Vs Expensive Lint Remover #shorts",
-      "views": 4300000,
-      "url": "https://www.youtube.com/shorts/QXPvnPcnS6o"
-     },
-     {
-      "title": "Philips fabric shaver # best results",
-      "views": 670000,
-      "url": "https://www.youtube.com/shorts/q009I4Cp-SE"
-     },
-     {
-      "title": "I Tried This Lint Remover… WOW!😲",
-      "views": 574000,
-      "url": "https://www.youtube.com/shorts/GEqxFg0eHJY"
-     },
-     {
-      "title": "Clothes Lint Remover Gadget! #shorts #unboxing",
-      "views": 409000,
-      "url": "https://www.youtube.com/shorts/BHXnzpKhlhs"
-     },
-     {
       "title": "Revamp Your Clothes: Fabric Shaver Hack! #fabricshaver #lintremover",
-      "views": 177000,
+      "views": 178000,
       "url": "https://www.youtube.com/shorts/INmi6I7-WMQ"
+     },
+     {
+      "title": "How to Use a Rechargeable Fabric Shaver👕 #Shorts #LintRemover #AmazonFinds #CleaningHack #GadgetDemo",
+      "views": 36000,
+      "url": "https://www.youtube.com/shorts/3nhqBT-ky0o"
+     },
+     {
+      "title": "Easy Hack To Remove Lint From Clothes😮#lint remover#gadgets #shorts",
+      "views": 11000,
+      "url": "https://www.youtube.com/shorts/qE3vh0VkH8g"
+     },
+     {
+      "title": "Fabric shaver",
+      "views": 8400,
+      "url": "https://www.youtube.com/shorts/6RAysCnLy1A"
+     },
+     {
+      "title": "Fabric Shaver Portable Electric Lint Remover for Clothes Precision #viral #trending #shorts",
+      "views": 3300,
+      "url": "https://www.youtube.com/shorts/5UsmgZqoe4U"
      }
     ],
     "status": "LIVE"
@@ -3441,18 +3416,18 @@
    ],
    "rising_at": "2026-10-17 19:45:42 UTC",
    "market": {
-    "score": 78,
-    "video_score": 86,
+    "score": 51,
+    "video_score": 41,
     "trend_score": 65,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 172K vistas (el mayor, 4.3M)",
+     "Shorts: los 10 más vistos tienen una mediana de 3K vistas (el mayor, 178K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): estable -6% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-19 02:00:08 UTC"
+   "measured_at": "2026-10-20 10:31:17 UTC"
   }
  }
 }
