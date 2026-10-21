@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-21 10:42:25 UTC",
+ "updated_at": "2026-10-21 16:12:06 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -2608,36 +2608,36 @@
   "sunset-lamp": {
    "youtube": {
     "keyword": "sunset lamp",
-    "shorts_found": 30,
-    "median_views_top10": 256000,
-    "max_views": 1000000,
-    "over_100k": 12,
-    "over_1m": 1,
+    "shorts_found": 32,
+    "median_views_top10": 220500,
+    "max_views": 524000,
+    "over_100k": 11,
+    "over_1m": 0,
     "top": [
      {
-      "title": "Amazon finds - sunset lamp",
-      "views": 1000000,
-      "url": "https://www.youtube.com/shorts/0tOLg5smoZ8"
-     },
-     {
       "title": "Viral Sunset Lamp | Amazon Finds | Unboxing #amazon #amazonfinds #sunsetlamp #shorts",
-      "views": 523000,
+      "views": 524000,
       "url": "https://www.youtube.com/shorts/2UeqENAoNQw"
      },
      {
       "title": "Sunset Lamp!☀️ | Meesho Finds | #sunsetlamp #meesho #aesthetic #sunset #viralvideo #shorts #foryou",
-      "views": 451000,
+      "views": 453000,
       "url": "https://www.youtube.com/shorts/KrKBaNSRGEU"
      },
      {
       "title": "✨ Sunset Lamp ✨Golden hour. Anywhere, anytime.",
-      "views": 391000,
+      "views": 392000,
       "url": "https://www.youtube.com/shorts/zXWI3We2Y54"
      },
      {
       "title": "Trying the sunset lamp filter 🫶🏻✨ #shorts | Nicky Champa #NiPi",
       "views": 278000,
       "url": "https://www.youtube.com/shorts/yMd1qpGyCw8"
+     },
+     {
+      "title": "OMG I love my Sunset Lamp!",
+      "views": 234000,
+      "url": "https://www.youtube.com/shorts/Gdp7i9Zbl_Y"
      }
     ],
     "status": "LIVE"
@@ -2645,18 +2645,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 62,
-    "video_score": 90,
+    "score": 61,
+    "video_score": 89,
     "trend_score": 20,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 256K vistas (el mayor, 1M)",
+     "Shorts: los 10 más vistos tienen una mediana de 220K vistas (el mayor, 524K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -30% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-20 02:17:30 UTC",
+   "measured_at": "2026-10-21 16:11:45 UTC",
    "trends": {
     "momentum_pct": -30.2,
     "low_volume": false,
@@ -2723,11 +2723,11 @@
   "galaxy-projector": {
    "youtube": {
     "keyword": "galaxy projector",
-    "shorts_found": 31,
-    "median_views_top10": 167000,
+    "shorts_found": 32,
+    "median_views_top10": 444500,
     "max_views": 3600000,
-    "over_100k": 8,
-    "over_1m": 1,
+    "over_100k": 9,
+    "over_1m": 4,
     "top": [
      {
       "title": "Astronaut galaxy projector",
@@ -2735,24 +2735,24 @@
       "url": "https://www.youtube.com/shorts/kjzNqzZD_A4"
      },
      {
+      "title": "⭐ Product Link in Comments ⭐360 Galaxy Night Light Projector⁠ #gift #shorts #viral",
+      "views": 3300000,
+      "url": "https://www.youtube.com/shorts/H8vxFGcPVfI"
+     },
+     {
+      "title": "▶️ Galaxy Dream Projection Night Light – room turns into space ( # 3209 )",
+      "views": 1400000,
+      "url": "https://www.youtube.com/shorts/TvxnhOrZVFU"
+     },
+     {
       "title": "Galaxy Projector 🌌✨",
-      "views": 797000,
+      "views": 1000000,
       "url": "https://www.youtube.com/shorts/gYBHT0DxwFQ"
      },
      {
       "title": "Galaxy lite home planetarium projector I and II generation for option",
-      "views": 462000,
+      "views": 463000,
       "url": "https://www.youtube.com/shorts/6FzvxdM8Sns"
-     },
-     {
-      "title": "The Aurora Galaxy Projector Nothern Night Light Lamp With BT Speaker White Noise",
-      "views": 425000,
-      "url": "https://www.youtube.com/shorts/3y2uftk0Aq0"
-     },
-     {
-      "title": "2-in-1 Galaxy Projector Night Light #kids #fun #space #mustwatch #fyp",
-      "views": 168000,
-      "url": "https://www.youtube.com/shorts/pX5rA4mnSPs"
      }
     ],
     "status": "LIVE"
@@ -2760,18 +2760,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 60,
-    "video_score": 86,
+    "score": 51,
+    "video_score": 96,
     "trend_score": 20,
-    "crowding": "baja",
+    "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 167K vistas (el mayor, 3.6M)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Shorts: los 10 más vistos tienen una mediana de 444K vistas (el mayor, 3.6M)",
+     "Competencia alta: 4 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -32% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-20 02:17:34 UTC",
+   "measured_at": "2026-10-21 16:11:50 UTC",
    "trends": {
     "momentum_pct": -32.2,
     "low_volume": false,
@@ -2839,7 +2839,7 @@
    "youtube": {
     "keyword": "sleep headphones headband",
     "shorts_found": 30,
-    "median_views_top10": 943,
+    "median_views_top10": 51500,
     "max_views": 963000,
     "over_100k": 1,
     "over_1m": 0,
@@ -2850,24 +2850,24 @@
       "url": "https://www.youtube.com/shorts/1U_YjYRs3Zw"
      },
      {
-      "title": "Snoozeband Deluxe Sleep Headphones",
-      "views": 17000,
-      "url": "https://www.youtube.com/shorts/co81R2lVVSE"
+      "title": "Sleep Mask Headphones Review | the Best Bluetooth Headphones for Sleeping! 💤",
+      "views": 97000,
+      "url": "https://www.youtube.com/shorts/yRWJD1z-reU"
      },
      {
-      "title": "Cute Sleep Bonnet for Curly Hair | bynk",
-      "views": 1300,
-      "url": "https://www.youtube.com/shorts/s-F3d8Bw0gE"
+      "title": "MUSICOZY Sleep Headphones Review: The Ultimate Sleep Aid for Insomnia Relief #shorts #shortvideo",
+      "views": 87000,
+      "url": "https://www.youtube.com/shorts/Q0uAcTAPQO8"
      },
      {
-      "title": "MUSICOZY Sleep Headphones Bluetooth Headband, Wireless Headband Headphones #shorts #gadgets #foryou",
-      "views": 1100,
-      "url": "https://www.youtube.com/shorts/n1O8axtnLIs"
+      "title": "Sleep & Train Like a Pro 🔥 2025 Bluetooth Headband Earphones Unboxed #techgadgets",
+      "views": 73000,
+      "url": "https://www.youtube.com/shorts/qiOqRUph9oY"
      },
      {
-      "title": "#SleepMask #BluetoothSleepMask #SleepHeadphones #WhiteNoise #blackfriday",
-      "views": 1000,
-      "url": "https://www.youtube.com/shorts/vOgdDTuhpaI"
+      "title": "headband headphones  sleep headphon bluetooth sleep sport music  meditation",
+      "views": 62000,
+      "url": "https://www.youtube.com/shorts/OJWpFbquXzk"
      }
     ],
     "status": "LIVE"
@@ -2875,18 +2875,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 33,
-    "video_score": 29,
+    "score": 60,
+    "video_score": 73,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 943 vistas (el mayor, 963K)",
+     "Shorts: los 10 más vistos tienen una mediana de 52K vistas (el mayor, 963K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -21% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-20 10:31:00 UTC",
+   "measured_at": "2026-10-21 16:11:53 UTC",
    "trends": {
     "momentum_pct": -21.3,
     "low_volume": false,
@@ -2928,17 +2928,12 @@
   "baby-nail-trimmer": {
    "youtube": {
     "keyword": "baby nail trimmer electric",
-    "shorts_found": 37,
-    "median_views_top10": 840000,
-    "max_views": 4200000,
-    "over_100k": 6,
+    "shorts_found": 31,
+    "median_views_top10": 690500,
+    "max_views": 2800000,
+    "over_100k": 7,
     "over_1m": 5,
     "top": [
-     {
-      "title": "Smart Electric Nail Clipper 😍 #shorts #gadgets",
-      "views": 4200000,
-      "url": "https://www.youtube.com/shorts/vaumTnm2QsA"
-     },
      {
       "title": "How Can You Trim Your Baby's Nails Safely? Try Baby Nail Trimmer Electric!#Shorts",
       "views": 2800000,
@@ -2950,14 +2945,19 @@
       "url": "https://www.youtube.com/shorts/BSrKZKBtFWI"
      },
      {
-      "title": "Baby Nail Trimmer Kit: Gentle Care Designed for Delicate Newborn Nails #Baby",
-      "views": 1500000,
-      "url": "https://www.youtube.com/shorts/ds9mrTv-JQk"
-     },
-     {
       "title": "How to Safely Trim Your Baby's Nails? Baby Electric Nail Trimmer Unveiled!  #cutebaby",
       "views": 1300000,
       "url": "https://www.youtube.com/shorts/N3bTTBu7v90"
+     },
+     {
+      "title": "baby electric nail cutter",
+      "views": 1100000,
+      "url": "https://www.youtube.com/shorts/IQtfORq-4r0"
+     },
+     {
+      "title": "This Electric Nail Clipper Is Designed To Prevent Over-Cutting #nailcutter #gadgets #tech #shorts",
+      "views": 1000000,
+      "url": "https://www.youtube.com/shorts/EHGlo5BM7ck"
      }
     ],
     "status": "LIVE"
@@ -2971,12 +2971,12 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 840K vistas (el mayor, 4.2M)",
+     "Shorts: los 10 más vistos tienen una mediana de 690K vistas (el mayor, 2.8M)",
      "Competencia alta: 5 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -28% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-20 10:31:04 UTC",
+   "measured_at": "2026-10-21 16:11:57 UTC",
    "trends": {
     "momentum_pct": -27.7,
     "low_volume": false,
@@ -3038,7 +3038,7 @@
      "Google (EE. UU.): baja -39% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-20 10:31:07 UTC",
+   "measured_at": "2026-10-21 16:12:01 UTC",
    "trends": {
     "momentum_pct": -39.1,
     "low_volume": false,
@@ -3138,9 +3138,9 @@
    "youtube": {
     "keyword": "solar garden lights",
     "shorts_found": 33,
-    "median_views_top10": 263000,
+    "median_views_top10": 372500,
     "max_views": 48000000,
-    "over_100k": 6,
+    "over_100k": 8,
     "over_1m": 3,
     "top": [
      {
@@ -3154,19 +3154,19 @@
       "url": "https://www.youtube.com/shorts/tbv-J6axspk"
      },
      {
-      "title": "Wall Solar Light 😊👍 #walldecorationideas #solarlighting #diwalidecor #shorts",
+      "title": "Product Link in Bio ( 414 ) ▶️ Solar-Powered Floating Jellyfish Garden Lights⁠",
       "views": 1000000,
-      "url": "https://www.youtube.com/shorts/u5uPRTTluBw"
+      "url": "https://www.youtube.com/shorts/HcWUfkm2BBM"
+     },
+     {
+      "title": "Try this Solar lights hack to decorate any outdoor space 🤩 super easy and affordable",
+      "views": 654000,
+      "url": "https://www.youtube.com/shorts/aHZVZEP1siU"
      },
      {
       "title": "⚡Solar Powered Wall Light #walllights #solarlight  #lighting",
-      "views": 442000,
+      "views": 444000,
       "url": "https://www.youtube.com/shorts/y8UnY40K-0I"
-     },
-     {
-      "title": "Best Outdoor Solar String Lights for Your Backyard #shorts",
-      "views": 341000,
-      "url": "https://www.youtube.com/shorts/BIwqKXGyJ88"
      }
     ],
     "status": "LIVE"
@@ -3174,18 +3174,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 75,
-    "video_score": 90,
+    "score": 77,
+    "video_score": 94,
     "trend_score": 65,
     "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 263K vistas (el mayor, 48M)",
+     "Shorts: los 10 más vistos tienen una mediana de 372K vistas (el mayor, 48M)",
      "Competencia media: 3 Shorts pasan el millón de vistas",
      "Google (EE. UU.): estable -2% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-20 10:31:11 UTC",
+   "measured_at": "2026-10-21 16:12:06 UTC",
    "trends": {
     "momentum_pct": -2.1,
     "low_volume": false,

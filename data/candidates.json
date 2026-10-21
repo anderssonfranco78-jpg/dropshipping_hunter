@@ -30,7 +30,7 @@
       ]
     },
     "data_status": {
-      "trends": "CACHED",
+      "trends": "LIVE",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -46,10 +46,10 @@
     "notes": "Variante verde mango con cerdas naranja. Precio de página $4.73 + envío $3.54 = $8.27 (bitácora §24.3). Stock leído en vivo el 2026-10-08: green 994 uds; yellow solo 17 uds (descartada).",
     "trends_series": [
       11,
+      10,
+      13,
+      13,
       11,
-      13,
-      13,
-      12,
       13,
       14,
       12,
@@ -58,45 +58,45 @@
       15,
       13,
       13,
-      12,
+      13,
       12,
       13,
       19,
       22,
       17,
-      15,
+      16,
       16,
       16,
       32,
-      71,
-      99,
+      72,
+      92,
       100,
-      71,
+      72,
       50,
       43,
-      70,
-      75,
+      71,
+      76,
+      45,
       46,
-      46,
-      60,
+      61,
       53,
       50,
-      23,
+      22,
       23,
       16,
       18,
       16,
-      17,
+      16,
       17,
       16,
       15,
       15,
+      15,
       14,
-      13,
       16,
       14,
-      14,
-      12
+      15,
+      11
     ],
     "image_url": "assets/images/steamfur.webp",
     "video_keyword": "steamy cat brush",
@@ -161,18 +161,21 @@
       "peak_ratio": 0.14,
       "mean_recent": 14.0,
       "mean_prior": 16.9,
-      "resolution": "WEEK",
-      "measured_at": "2026-10-20 10:30 UTC",
-      "cache": "respaldo"
+      "resolution": "WEEK"
     },
     "youtube": {
       "keyword": "steamy cat brush",
-      "shorts_found": 32,
-      "median_views_top10": 48500,
-      "max_views": 2800000,
-      "over_100k": 3,
-      "over_1m": 1,
+      "shorts_found": 30,
+      "median_views_top10": 196500,
+      "max_views": 3800000,
+      "over_100k": 7,
+      "over_1m": 2,
       "top": [
+        {
+          "title": "🐶 Why Is Everyone Switching to This Steam Pet Brush?! 👀🔥",
+          "views": 3800000,
+          "url": "https://www.youtube.com/shorts/n-GflRw0sXI"
+        },
         {
           "title": "I Tried a Steam Brush on my Feisty Cat 😳",
           "views": 2800000,
@@ -184,19 +187,14 @@
           "url": "https://www.youtube.com/shorts/-OKLMmMRIhY"
         },
         {
+          "title": "Cat Is Obsessed With This Brush #catbrush #steamycatbrush #hairbrush",
+          "views": 536000,
+          "url": "https://www.youtube.com/shorts/BCsAQg0Chfc"
+        },
+        {
           "title": "Cat Steam Brush",
           "views": 210000,
           "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
-        },
-        {
-          "title": "Testing New Steamy Cat Brush | Steamy brush #devicecare #catlover #catbrush",
-          "views": 68000,
-          "url": "https://www.youtube.com/shorts/NmysMNfhbrE"
-        },
-        {
-          "title": "Steam Brush For Dog! Pup's obsessed with this steam brush #shorts #dog #doggroominglife #pets",
-          "views": 58000,
-          "url": "https://www.youtube.com/shorts/3f210qkNDmo"
         }
       ],
       "status": "LIVE"
@@ -370,12 +368,17 @@
     },
     "youtube": {
       "keyword": "ultrasonic tooth cleaner",
-      "shorts_found": 31,
-      "median_views_top10": 1550000,
-      "max_views": 5400000,
-      "over_100k": 9,
-      "over_1m": 6,
+      "shorts_found": 30,
+      "median_views_top10": 2350000,
+      "max_views": 161000000,
+      "over_100k": 12,
+      "over_1m": 8,
       "top": [
+        {
+          "title": "Toothbrush from France 🇫🇷  #shorts",
+          "views": 161000000,
+          "url": "https://www.youtube.com/shorts/L_8uNmiLW70"
+        },
         {
           "title": "5 years worth of cheese build up on teeth. #cheese #tartarremoval #plaque #teethcleaning #dentist",
           "views": 5400000,
@@ -395,11 +398,6 @@
           "title": "Smile Therapy- Ultrasonic Tooth Cleaner",
           "views": 3000000,
           "url": "https://www.youtube.com/shorts/MKD6ZfFwqyk"
-        },
-        {
-          "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
-          "views": 1700000,
-          "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
         }
       ],
       "status": "LIVE"
@@ -577,11 +575,11 @@
     },
     "youtube": {
       "keyword": "lumbar traction belt",
-      "shorts_found": 29,
-      "median_views_top10": 306000,
+      "shorts_found": 28,
+      "median_views_top10": 1076500,
       "max_views": 79000000,
-      "over_100k": 7,
-      "over_1m": 3,
+      "over_100k": 8,
+      "over_1m": 5,
       "top": [
         {
           "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
@@ -599,14 +597,14 @@
           "url": "https://www.youtube.com/shorts/PNFvCw3uygY"
         },
         {
-          "title": "L4-L5-S1 Nerve Root Compression Treatment #shorts #SpinalTraction",
-          "views": 859000,
-          "url": "https://www.youtube.com/shorts/LIbrLtwH3Hk"
+          "title": "Mechanical Lumbar Traction for Back Pain",
+          "views": 3200000,
+          "url": "https://www.youtube.com/shorts/_pWlXLHnN-E"
         },
         {
-          "title": "Decompress Your Lower Back at Home #Shorts",
-          "views": 378000,
-          "url": "https://www.youtube.com/shorts/3VKai4c84wI"
+          "title": "Need a quick and easy way to decompress your lower back?! Try this banded Lumbar Traction technique",
+          "views": 1400000,
+          "url": "https://www.youtube.com/shorts/Kn0jW9VBxXA"
         }
       ],
       "status": "LIVE"
@@ -780,15 +778,20 @@
     },
     "youtube": {
       "keyword": "turbo jet fan",
-      "shorts_found": 35,
-      "median_views_top10": 168000,
-      "max_views": 3700000,
-      "over_100k": 5,
-      "over_1m": 3,
+      "shorts_found": 32,
+      "median_views_top10": 722500,
+      "max_views": 80000000,
+      "over_100k": 9,
+      "over_1m": 4,
       "top": [
         {
+          "title": "Metal Jet Fan from Electric Turbochargers | The H Lab #shorts",
+          "views": 80000000,
+          "url": "https://www.youtube.com/shorts/XnfuuZndsSA"
+        },
+        {
           "title": "Viral Jet Blower 😍⚡️ #gadgets #shorts",
-          "views": 3700000,
+          "views": 3800000,
           "url": "https://www.youtube.com/shorts/9ksItmxawD0"
         },
         {
@@ -805,11 +808,6 @@
           "title": "Mini Turbo Jet Fan Air Blower 110000RPM Turbo Violent Fan #jetfan #airblower #coolgadgets",
           "views": 830000,
           "url": "https://www.youtube.com/shorts/guqeVY5p8OE"
-        },
-        {
-          "title": "Why you should test TikTok products 😫#powerful #jetengine #jetfan #tiktokproducts #jetpower #fyp",
-          "views": 283000,
-          "url": "https://www.youtube.com/shorts/CEN_RKM96GE"
         }
       ],
       "status": "LIVE"
