@@ -167,10 +167,10 @@
     },
     "youtube": {
       "keyword": "steamy cat brush",
-      "shorts_found": 32,
-      "median_views_top10": 156000,
+      "shorts_found": 27,
+      "median_views_top10": 196500,
       "max_views": 3800000,
-      "over_100k": 6,
+      "over_100k": 7,
       "over_1m": 2,
       "top": [
         {
@@ -184,6 +184,11 @@
           "url": "https://www.youtube.com/shorts/0kU6kGTG0Q8"
         },
         {
+          "title": "Steam Grooming Brush: For Cats and Dogs",
+          "views": 802000,
+          "url": "https://www.youtube.com/shorts/-OKLMmMRIhY"
+        },
+        {
           "title": "Cat Is Obsessed With This Brush #catbrush #steamycatbrush #hairbrush",
           "views": 538000,
           "url": "https://www.youtube.com/shorts/BCsAQg0Chfc"
@@ -192,11 +197,6 @@
           "title": "Cat Steam Brush",
           "views": 210000,
           "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
-        },
-        {
-          "title": "My Cat Tries The Viral Steam Cat Brush | The Dodo",
-          "views": 183000,
-          "url": "https://www.youtube.com/shorts/bFgsR8xpyOw"
         }
       ],
       "status": "LIVE"
@@ -233,7 +233,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -364,16 +364,23 @@
       "peak_ratio": 0.2,
       "mean_recent": 20.2,
       "mean_prior": 21.5,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-10-22 20:54 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "ultrasonic tooth cleaner",
-      "shorts_found": 34,
-      "median_views_top10": 1700000,
-      "max_views": 5400000,
-      "over_100k": 14,
+      "shorts_found": 30,
+      "median_views_top10": 2350000,
+      "max_views": 14000000,
+      "over_100k": 13,
       "over_1m": 8,
       "top": [
+        {
+          "title": "Leela Gets A Dental Cleaning 🦷 #shorts #cats #pets #hairlesscat #dental",
+          "views": 14000000,
+          "url": "https://www.youtube.com/shorts/eSl1wWhF0Rs"
+        },
         {
           "title": "5 years worth of cheese build up on teeth. #cheese #tartarremoval #plaque #teethcleaning #dentist",
           "views": 5400000,
@@ -393,11 +400,6 @@
           "title": "Smile Therapy- Ultrasonic Tooth Cleaner",
           "views": 3000000,
           "url": "https://www.youtube.com/shorts/MKD6ZfFwqyk"
-        },
-        {
-          "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
-          "views": 1700000,
-          "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
         }
       ],
       "status": "LIVE"
@@ -438,7 +440,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -569,15 +571,17 @@
       "peak_ratio": 0.28,
       "mean_recent": 28.2,
       "mean_prior": 30.7,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-10-22 20:54 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "lumbar traction belt",
-      "shorts_found": 32,
-      "median_views_top10": 1076500,
+      "shorts_found": 29,
+      "median_views_top10": 2350000,
       "max_views": 79000000,
-      "over_100k": 8,
-      "over_1m": 5,
+      "over_100k": 10,
+      "over_1m": 6,
       "top": [
         {
           "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
@@ -590,6 +594,11 @@
           "url": "https://www.youtube.com/shorts/IK9sl-o50d0"
         },
         {
+          "title": "Easy Way to Decompress Your Back #Shorts",
+          "views": 9600000,
+          "url": "https://www.youtube.com/shorts/PNFvCw3uygY"
+        },
+        {
           "title": "Scoliosis Back Brace 💪🦴 #shorts",
           "views": 7200000,
           "url": "https://www.youtube.com/shorts/hsYOi_SZAWc"
@@ -598,11 +607,6 @@
           "title": "Mechanical Lumbar Traction for Back Pain",
           "views": 3300000,
           "url": "https://www.youtube.com/shorts/_pWlXLHnN-E"
-        },
-        {
-          "title": "Need a quick and easy way to decompress your lower back?! Try this banded Lumbar Traction technique",
-          "views": 1400000,
-          "url": "https://www.youtube.com/shorts/Kn0jW9VBxXA"
         }
       ],
       "status": "LIVE"
@@ -639,7 +643,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -770,14 +774,16 @@
       "peak_ratio": 0.23,
       "mean_recent": 22.5,
       "mean_prior": 27.5,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-10-22 20:54 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "turbo jet fan",
-      "shorts_found": 33,
-      "median_views_top10": 628500,
+      "shorts_found": 32,
+      "median_views_top10": 728000,
       "max_views": 80000000,
-      "over_100k": 8,
+      "over_100k": 9,
       "over_1m": 4,
       "top": [
         {
