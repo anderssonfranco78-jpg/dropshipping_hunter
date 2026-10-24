@@ -44,7 +44,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -175,15 +175,17 @@
         "peak_ratio": 0.19,
         "mean_recent": 18.8,
         "mean_prior": 21.0,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-10-23 20:42 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "ultrasonic tooth cleaner",
-        "shorts_found": 40,
-        "median_views_top10": 2350000,
+        "shorts_found": 32,
+        "median_views_top10": 1600000,
         "max_views": 5400000,
-        "over_100k": 15,
-        "over_1m": 8,
+        "over_100k": 11,
+        "over_1m": 6,
         "top": [
           {
             "title": "5 years worth of cheese build up on teeth. #cheese #tartarremoval #plaque #teethcleaning #dentist",
@@ -206,9 +208,9 @@
             "url": "https://www.youtube.com/shorts/MKD6ZfFwqyk"
           },
           {
-            "title": "A New Way To Brush Teeth",
-            "views": 2900000,
-            "url": "https://www.youtube.com/shorts/ROrU30Ovojo"
+            "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
+            "views": 1800000,
+            "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
           }
         ],
         "status": "LIVE"
@@ -469,7 +471,7 @@
       "youtube": {
         "keyword": "steamy cat brush",
         "shorts_found": 31,
-        "median_views_top10": 110000,
+        "median_views_top10": 110500,
         "max_views": 3800000,
         "over_100k": 5,
         "over_1m": 2,
@@ -624,7 +626,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -755,21 +757,18 @@
         "peak_ratio": 0.27,
         "mean_recent": 26.5,
         "mean_prior": 29.8,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-10-23 20:42 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "lumbar traction belt",
-        "shorts_found": 34,
+        "shorts_found": 30,
         "median_views_top10": 2350000,
-        "max_views": 119000000,
+        "max_views": 79000000,
         "over_100k": 9,
         "over_1m": 6,
         "top": [
-          {
-            "title": "Taping for lower back pain like a pro!",
-            "views": 119000000,
-            "url": "https://www.youtube.com/shorts/tItOiQNap7A"
-          },
           {
             "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
             "views": 79000000,
@@ -779,6 +778,11 @@
             "title": "Stretch Your Spine Automatically",
             "views": 13000000,
             "url": "https://www.youtube.com/shorts/IK9sl-o50d0"
+          },
+          {
+            "title": "Easy Way to Decompress Your Back #Shorts",
+            "views": 9600000,
+            "url": "https://www.youtube.com/shorts/PNFvCw3uygY"
           },
           {
             "title": "Scoliosis Back Brace 💪🦴 #shorts",
@@ -911,7 +915,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -1042,12 +1046,14 @@
         "peak_ratio": 0.22,
         "mean_recent": 22.0,
         "mean_prior": 28.1,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-10-23 20:42 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "turbo jet fan",
-        "shorts_found": 38,
-        "median_views_top10": 898000,
+        "shorts_found": 36,
+        "median_views_top10": 731500,
         "max_views": 80000000,
         "over_100k": 12,
         "over_1m": 4,
@@ -1073,9 +1079,9 @@
             "url": "https://www.youtube.com/shorts/LEDdRGg_HU4"
           },
           {
-            "title": "Mini Jet Turbo Strong Fan",
-            "views": 965000,
-            "url": "https://www.youtube.com/shorts/3x_X3y3A2S4"
+            "title": "Mini Turbo Jet Fan Air Blower 110000RPM Turbo Violent Fan #jetfan #airblower #coolgadgets",
+            "views": 831000,
+            "url": "https://www.youtube.com/shorts/guqeVY5p8OE"
           }
         ],
         "status": "LIVE"
