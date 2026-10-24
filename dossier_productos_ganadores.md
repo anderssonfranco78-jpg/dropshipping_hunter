@@ -2,7 +2,7 @@
 title: "Dossier Oficial de Productos Ganadores Validados"
 source: "dropshipping_hunter"
 date: "2026-10-24"
-generated_at: "2026-10-24T09:54:09.879487+00:00"
+generated_at: "2026-10-24T14:58:00.390280+00:00"
 evaluation_engine_version: "1.0.0"
 audit_standard: "Antigravity 7 Golden Rules"
 scoring_threshold_approval: 80
