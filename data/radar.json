@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25 01:55:10 UTC",
+ "updated_at": "2026-10-25 10:15:13 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -2054,17 +2054,12 @@
   "heated-eye-massager": {
    "youtube": {
     "keyword": "heated eye massager",
-    "shorts_found": 39,
-    "median_views_top10": 29000,
-    "max_views": 1800000,
-    "over_100k": 3,
-    "over_1m": 2,
+    "shorts_found": 33,
+    "median_views_top10": 29500,
+    "max_views": 1300000,
+    "over_100k": 2,
+    "over_1m": 1,
     "top": [
-     {
-      "title": "New Eye Massager 😍 Watch full video on @Dushyant_Kukreja_Life #shorts",
-      "views": 1800000,
-      "url": "https://www.youtube.com/shorts/pJyr0pk0P50"
-     },
      {
       "title": "I tried a Chinese eye Moxibustion Massage to Improve Eyesight! #shorts",
       "views": 1300000,
@@ -2072,7 +2067,7 @@
      },
      {
       "title": "The Best Eye Massager Ever 😍",
-      "views": 181000,
+      "views": 182000,
       "url": "https://www.youtube.com/shorts/thdjBqLyFNc"
      },
      {
@@ -2081,9 +2076,14 @@
       "url": "https://www.youtube.com/shorts/lGzki0TCXCg"
      },
      {
-      "title": "This Eye Massager Changes Everything! #eyes #health #massage #shorts #amazon",
-      "views": 31000,
-      "url": "https://www.youtube.com/shorts/3rwmwYH0XsE"
+      "title": "The Best Eye Massager For Everyone 🔥 AGARO Supreme Eye Massager  review",
+      "views": 43000,
+      "url": "https://www.youtube.com/shorts/F7u2RjEwRrU"
+     },
+     {
+      "title": "Warm Compress Routine: Top Dry Eye Massage Tips for Lasting Relief",
+      "views": 32000,
+      "url": "https://www.youtube.com/shorts/Vik5jXcEQBw"
      }
     ],
     "status": "LIVE"
@@ -2091,18 +2091,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 61,
+    "score": 66,
     "video_score": 67,
     "trend_score": 65,
-    "crowding": "media",
+    "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 29K vistas (el mayor, 1.8M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 30K vistas (el mayor, 1.3M)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): estable -5% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-23 20:43:36 UTC",
+   "measured_at": "2026-10-25 10:14:53 UTC",
    "trends": {
     "momentum_pct": -4.8,
     "low_volume": false,
@@ -2137,41 +2137,41 @@
     15,
     13
    ],
-   "trends_at": "2026-10-23 20:43:36 UTC"
+   "trends_at": "2026-10-23 20:43 UTC"
   },
   "mini-massage-gun": {
    "youtube": {
     "keyword": "mini massage gun",
-    "shorts_found": 30,
-    "median_views_top10": 154000,
-    "max_views": 2400000,
-    "over_100k": 6,
-    "over_1m": 1,
+    "shorts_found": 31,
+    "median_views_top10": 545000,
+    "max_views": 3000000,
+    "over_100k": 7,
+    "over_1m": 2,
     "top": [
      {
-      "title": "My massage gun hack for emptying out bottles",
-      "views": 2400000,
-      "url": "https://www.youtube.com/shorts/bX05kY2hbek"
+      "title": "Massage Gun Therapy for Shin Splints & Plantar Fasciitis #pt #mke #terapia #painrelief #therapy #fyp",
+      "views": 3000000,
+      "url": "https://www.youtube.com/shorts/oiRClacPAlE"
+     },
+     {
+      "title": "DO NOT Use A Massage Gun on Your Neck! #massagegun #shorts",
+      "views": 1100000,
+      "url": "https://www.youtube.com/shorts/LZFlZ_bKfgI"
+     },
+     {
+      "title": "Back Pain Relief With Massage Gun  #shorts",
+      "views": 992000,
+      "url": "https://www.youtube.com/shorts/DjZU_haCNGc"
      },
      {
       "title": "⭐ Product Link in Comments ⭐Mini Electric Body Neck Relief Massager",
-      "views": 985000,
+      "views": 988000,
       "url": "https://www.youtube.com/shorts/7g1YOuh2aW4"
      },
      {
       "title": "Mini Massage Gun | Say Goodbye to Back Pain: How a Massage Gun Can Help",
-      "views": 831000,
+      "views": 835000,
       "url": "https://www.youtube.com/shorts/1lxcxe8DzyM"
-     },
-     {
-      "title": "Massage Gun vs. Scraper Tool Debate...Which one do you prefer?",
-      "views": 303000,
-      "url": "https://www.youtube.com/shorts/aWDRsPcSduI"
-     },
-     {
-      "title": "Alternative Way To Use A Massage Gun 🤔",
-      "views": 198000,
-      "url": "https://www.youtube.com/shorts/FMwpe8WHyag"
      }
     ],
     "status": "LIVE"
@@ -2179,18 +2179,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 67,
-    "video_score": 85,
+    "score": 70,
+    "video_score": 98,
     "trend_score": 40,
-    "crowding": "baja",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 154K vistas (el mayor, 2.4M)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Shorts: los 10 más vistos tienen una mediana de 545K vistas (el mayor, 3M)",
+     "Competencia media: 2 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -14% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-23 20:43:43 UTC",
+   "measured_at": "2026-10-25 10:14:57 UTC",
    "trends": {
     "momentum_pct": -13.7,
     "low_volume": false,
@@ -2225,22 +2225,17 @@
     33,
     35
    ],
-   "trends_at": "2026-10-23 20:43:43 UTC"
+   "trends_at": "2026-10-23 20:43 UTC"
   },
   "car-gap-filler": {
    "youtube": {
     "keyword": "car seat gap filler",
-    "shorts_found": 29,
-    "median_views_top10": 12500,
-    "max_views": 146000,
-    "over_100k": 1,
+    "shorts_found": 34,
+    "median_views_top10": 9250,
+    "max_views": 81000,
+    "over_100k": 0,
     "over_1m": 0,
     "top": [
-     {
-      "title": "Car seat gap filler|Blazexel#car #cargadgets #cargoodthing",
-      "views": 146000,
-      "url": "https://www.youtube.com/shorts/FdIrF5J6KeY"
-     },
      {
       "title": "Seatseal car seat gap filler, super convenient and cheap!",
       "views": 81000,
@@ -2253,13 +2248,18 @@
      },
      {
       "title": "Car Seat Gap Filler Universal for Car Truck to Block The Gap Between Seat Stop Things from Dropping",
-      "views": 23000,
+      "views": 24000,
       "url": "https://www.youtube.com/shorts/USBqrSrLNeY"
      },
      {
       "title": "Car seat gap fillers,car seat gap cover,#viralvideo #shorts #trendingshorts",
       "views": 15000,
       "url": "https://www.youtube.com/shorts/2W9TChaqRBA"
+     },
+     {
+      "title": "Car seat gap filler,#viralvideo #shorts #views",
+      "views": 10000,
+      "url": "https://www.youtube.com/shorts/Cg58J5vE_mA"
      }
     ],
     "status": "LIVE"
@@ -2267,18 +2267,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 42,
-    "video_score": 57,
+    "score": 40,
+    "video_score": 54,
     "trend_score": 20,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 12K vistas (el mayor, 146K)",
+     "Shorts: los 10 más vistos tienen una mediana de 9K vistas (el mayor, 81K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -29% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-24 02:08:10 UTC",
+   "measured_at": "2026-10-25 10:15:01 UTC",
    "trends": {
     "momentum_pct": -28.6,
     "low_volume": false,
@@ -2313,7 +2313,7 @@
     10,
     5
    ],
-   "trends_at": "2026-10-24 02:08:09 UTC",
+   "trends_at": "2026-10-24 02:08 UTC",
    "rising": [
     {
      "query": "car seat gap filler organizer",
@@ -2333,27 +2333,12 @@
   "cordless-car-vacuum": {
    "youtube": {
     "keyword": "cordless car vacuum",
-    "shorts_found": 31,
-    "median_views_top10": 1400000,
-    "max_views": 16000000,
-    "over_100k": 14,
-    "over_1m": 6,
+    "shorts_found": 28,
+    "median_views_top10": 869000,
+    "max_views": 1800000,
+    "over_100k": 11,
+    "over_1m": 4,
     "top": [
-     {
-      "title": "Mini Car Vacuum, Clean Fine Car Dust In One Click  #creative #viral #shorts #amazing",
-      "views": 16000000,
-      "url": "https://www.youtube.com/shorts/zAmXlWJoSvU"
-     },
-     {
-      "title": "Mini Car Vacuum, Clean Fine Car Dust In One Click #creative #viral #shorts #amazing",
-      "views": 13000000,
-      "url": "https://www.youtube.com/shorts/IJ6-PMq_sRk"
-     },
-     {
-      "title": "Portable TEXUM TVC Vacuum Cleaner Unboxing🔥",
-      "views": 2700000,
-      "url": "https://www.youtube.com/shorts/Z-OTg4-VbEM"
-     },
      {
       "title": "I like this portable car vacuum cleaner very much. It is small, portable and wireless.#car",
       "views": 1800000,
@@ -2363,6 +2348,21 @@
       "title": "Portable Wireless Car Vacuum Cleaner: Powerful Suction & Dual-Purpose",
       "views": 1600000,
       "url": "https://www.youtube.com/shorts/0thQ7EHn7zQ"
+     },
+     {
+      "title": "Wireless Handheld Car Vacuum Cleaner",
+      "views": 1200000,
+      "url": "https://www.youtube.com/shorts/kXLk4MqmgME"
+     },
+     {
+      "title": "Perfect for daily car cleaning without the bulk. This is HOTO AutoCare Vacuum. #hototools",
+      "views": 1200000,
+      "url": "https://www.youtube.com/shorts/hcdKBEYQqtA"
+     },
+     {
+      "title": "Portable vacuum cleaner and blower that can be used both indoors and in car!",
+      "views": 922000,
+      "url": "https://www.youtube.com/shorts/NGibBMV44nI"
      }
     ],
     "status": "LIVE"
@@ -2376,12 +2376,12 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 1.4M vistas (el mayor, 16M)",
-     "Competencia alta: 6 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 869K vistas (el mayor, 1.8M)",
+     "Competencia alta: 4 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -33% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-24 02:08:21 UTC",
+   "measured_at": "2026-10-25 10:15:05 UTC",
    "trends": {
     "momentum_pct": -33.1,
     "low_volume": false,
@@ -2416,7 +2416,7 @@
     18,
     15
    ],
-   "trends_at": "2026-10-24 02:08:17 UTC",
+   "trends_at": "2026-10-24 02:08 UTC",
    "rising": [
     {
      "query": "allstate quote",
@@ -2448,10 +2448,10 @@
   "magsafe-car-mount": {
    "youtube": {
     "keyword": "magnetic phone car mount",
-    "shorts_found": 33,
-    "median_views_top10": 284000,
+    "shorts_found": 29,
+    "median_views_top10": 322500,
     "max_views": 7200000,
-    "over_100k": 11,
+    "over_100k": 12,
     "over_1m": 2,
     "top": [
      {
@@ -2466,17 +2466,17 @@
      },
      {
       "title": "Vacuum Magnetic Phone Holder, 360° 📱 #shorts #youtubeshorts #fyp",
-      "views": 877000,
+      "views": 881000,
       "url": "https://www.youtube.com/shorts/Qv7yQ8GBP-Y"
      },
      {
       "title": "How to Mount a Phone in Car | Magnetic Phone Holder #magnet #phoneholdercar",
-      "views": 459000,
+      "views": 461000,
       "url": "https://www.youtube.com/shorts/sMwd-SMZ9ME"
      },
      {
       "title": "Amazon Magnetic Car Phone Holder  Ultra Vacuum Suction  Secure and Convenient Mount",
-      "views": 331000,
+      "views": 332000,
       "url": "https://www.youtube.com/shorts/VkSjcGiYJaE"
      }
     ],
@@ -2485,18 +2485,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 66,
-    "video_score": 91,
+    "score": 67,
+    "video_score": 93,
     "trend_score": 40,
     "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 284K vistas (el mayor, 7.2M)",
+     "Shorts: los 10 más vistos tienen una mediana de 322K vistas (el mayor, 7.2M)",
      "Competencia media: 2 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -16% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-24 02:08:26 UTC",
+   "measured_at": "2026-10-25 10:15:09 UTC",
    "trends": {
     "momentum_pct": -15.5,
     "low_volume": false,
@@ -2564,10 +2564,10 @@
    "youtube": {
     "keyword": "magnetic power bank",
     "shorts_found": 32,
-    "median_views_top10": 212500,
+    "median_views_top10": 647500,
     "max_views": 4900000,
-    "over_100k": 9,
-    "over_1m": 2,
+    "over_100k": 12,
+    "over_1m": 4,
     "top": [
      {
       "title": "Apple IPHONE Transparent Magnetic Power Bank #shorts",
@@ -2575,24 +2575,24 @@
       "url": "https://www.youtube.com/shorts/gtvKitNX1dM"
      },
      {
+      "title": "Apple MagSafe Battery Pack Unboxing #Shorts",
+      "views": 2300000,
+      "url": "https://www.youtube.com/shorts/8CqhXC8MxlA"
+     },
+     {
+      "title": "Anker’s MagSafe PowerBank has HOW MUCH power!? ⚡️ 5,000 mAh of pure bliss (link in description)",
+      "views": 2200000,
+      "url": "https://www.youtube.com/shorts/LlYPE7vSiRc"
+     },
+     {
       "title": "Ugreen Magnetic PowerBank #bidzph #bidzphunbox #Ugreen #ugreenph #powerbank",
       "views": 1400000,
       "url": "https://www.youtube.com/shorts/mFlcu2-gk9E"
      },
      {
-      "title": "This magnetic power bank changed how I charge forever#magneticpowerbank #magsafecharger #wireless",
-      "views": 543000,
-      "url": "https://www.youtube.com/shorts/18OYm7Qf2Js"
-     },
-     {
-      "title": "MAGNETIC Power Bank SECRETS REVEALED!",
-      "views": 247000,
-      "url": "https://www.youtube.com/shorts/e2WvQ9epYMo"
-     },
-     {
-      "title": "The slimmest MagSafe power bank of 2025 🔋 #LISEN",
-      "views": 213000,
-      "url": "https://www.youtube.com/shorts/kDCHxxJhV9E"
+      "title": "Portronics Boosty 10K PowerBank with 15W Wireless Magnetic Charging #Unboxing #Shorts #Gadgets",
+      "views": 747000,
+      "url": "https://www.youtube.com/shorts/MUEd_qCx4s4"
      }
     ],
     "status": "LIVE"
@@ -2600,18 +2600,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 64,
-    "video_score": 88,
+    "score": 61,
+    "video_score": 100,
     "trend_score": 40,
-    "crowding": "media",
+    "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 212K vistas (el mayor, 4.9M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 648K vistas (el mayor, 4.9M)",
+     "Competencia alta: 4 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -16% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-24 02:08:30 UTC",
+   "measured_at": "2026-10-25 10:15:13 UTC",
    "trends": {
     "momentum_pct": -15.8,
     "low_volume": false,
