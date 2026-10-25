@@ -182,16 +182,11 @@
       "youtube": {
         "keyword": "ultrasonic tooth cleaner",
         "shorts_found": 30,
-        "median_views_top10": 1600000,
-        "max_views": 5500000,
-        "over_100k": 12,
-        "over_1m": 7,
+        "median_views_top10": 895500,
+        "max_views": 5100000,
+        "over_100k": 8,
+        "over_1m": 5,
         "top": [
-          {
-            "title": "5 years worth of cheese build up on teeth. #cheese #tartarremoval #plaque #teethcleaning #dentist",
-            "views": 5500000,
-            "url": "https://www.youtube.com/shorts/cX5fdk_85r0"
-          },
           {
             "title": "cleaning teeth with ultrasonic scaler #shorts #dentist #teethcleaning",
             "views": 5100000,
@@ -211,6 +206,11 @@
             "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
             "views": 1800000,
             "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
+          },
+          {
+            "title": "Scaling teeth to remove tartar and calculus #shorts",
+            "views": 1400000,
+            "url": "https://www.youtube.com/shorts/1RWeozzKyos"
           }
         ],
         "status": "LIVE"
@@ -320,7 +320,7 @@
       "retail_availability_score": 85.0,
       "ad_active_days": 38,
       "competitor_ad_count": 29,
-      "google_trends_momentum": -17.5,
+      "google_trends_momentum": -17.9,
       "source_url": "https://www.aliexpress.com/item/1005007791672610.html",
       "target_demographics": {
         "age": "22-60",
@@ -333,7 +333,7 @@
         ]
       },
       "data_status": {
-        "trends": "CACHED",
+        "trends": "LIVE",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -348,20 +348,19 @@
       "trends_keyword": "cat brush",
       "notes": "Variante verde mango con cerdas naranja. Precio de página $4.73 + envío $3.54 = $8.27 (bitácora §24.3). Stock leído en vivo el 2026-10-08: green 994 uds; yellow solo 17 uds (descartada).",
       "trends_series": [
-        10,
-        10,
+        11,
         12,
         13,
         11,
+        12,
         13,
-        14,
         12,
         12,
         14,
         15,
         13,
         13,
-        13,
+        12,
         12,
         13,
         19,
@@ -371,41 +370,41 @@
         16,
         16,
         31,
-        70,
-        89,
+        69,
+        94,
         100,
-        70,
-        49,
-        42,
-        68,
-        74,
+        69,
+        48,
+        41,
+        67,
+        73,
+        44,
         45,
-        45,
-        61,
+        60,
         52,
         49,
         22,
-        22,
+        23,
         16,
         17,
         15,
         16,
-        17,
         16,
         15,
         15,
         15,
         14,
+        13,
         15,
         14,
         15,
+        12,
         11
       ],
       "image_url": "assets/images/steamfur.webp",
       "video_keyword": "steamy cat brush",
       "in_store": true,
       "trends_labels": [
-        "2025-10-19",
         "2025-10-26",
         "2025-11-02",
         "2025-11-09",
@@ -456,30 +455,29 @@
         "2026-09-20",
         "2026-09-27",
         "2026-10-04",
-        "2026-10-11"
+        "2026-10-11",
+        "2026-10-18"
       ],
       "trends_meta": {
         "low_volume": false,
         "zero_share": 0.0,
-        "peak_ratio": 0.14,
-        "mean_recent": 13.8,
-        "mean_prior": 16.7,
-        "resolution": "WEEK",
-        "measured_at": "2026-10-24 14:57 UTC",
-        "cache": "reciente"
+        "peak_ratio": 0.13,
+        "mean_recent": 13.0,
+        "mean_prior": 15.8,
+        "resolution": "WEEK"
       },
       "youtube": {
         "keyword": "steamy cat brush",
         "shorts_found": 30,
         "median_views_top10": 196500,
-        "max_views": 30000000,
-        "over_100k": 9,
+        "max_views": 7000000,
+        "over_100k": 7,
         "over_1m": 3,
         "top": [
           {
-            "title": "Brushing My Cat Is SO Satisfying 😫😻",
-            "views": 30000000,
-            "url": "https://www.youtube.com/shorts/AOr9WB0XIUY"
+            "title": "KURT’S NEW STEAM BRUSH 🤯",
+            "views": 7000000,
+            "url": "https://www.youtube.com/shorts/R95CL6d_dGw"
           },
           {
             "title": "🐶 Why Is Everyone Switching to This Steam Pet Brush?! 👀🔥",
@@ -492,9 +490,9 @@
             "url": "https://www.youtube.com/shorts/0kU6kGTG0Q8"
           },
           {
-            "title": "Steam Grooming Brush: For Cats and Dogs",
-            "views": 803000,
-            "url": "https://www.youtube.com/shorts/-OKLMmMRIhY"
+            "title": "Amazon Pet Find 🐱 This Steam Brush Combines Mist Spray & Grooming! #petgroomingtips #cat #shorts",
+            "views": 238000,
+            "url": "https://www.youtube.com/shorts/_2lfgkAAx4I"
           },
           {
             "title": "Cat Steam Brush",
@@ -763,27 +761,12 @@
       },
       "youtube": {
         "keyword": "lumbar traction belt",
-        "shorts_found": 28,
-        "median_views_top10": 1077000,
-        "max_views": 79000000,
-        "over_100k": 10,
-        "over_1m": 5,
+        "shorts_found": 32,
+        "median_views_top10": 205000,
+        "max_views": 3300000,
+        "over_100k": 7,
+        "over_1m": 2,
         "top": [
-          {
-            "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
-            "views": 79000000,
-            "url": "https://www.youtube.com/shorts/VsfXV5vUhUk"
-          },
-          {
-            "title": "Satisfying spinal decompression like you've never seen #asmr #chiropractic #trending",
-            "views": 11000000,
-            "url": "https://www.youtube.com/shorts/bhLS0E7wY7w"
-          },
-          {
-            "title": "Scoliosis Back Brace 💪🦴 #shorts",
-            "views": 7200000,
-            "url": "https://www.youtube.com/shorts/hsYOi_SZAWc"
-          },
           {
             "title": "Mechanical Lumbar Traction for Back Pain",
             "views": 3300000,
@@ -793,6 +776,21 @@
             "title": "Need a quick and easy way to decompress your lower back?! Try this banded Lumbar Traction technique",
             "views": 1400000,
             "url": "https://www.youtube.com/shorts/Kn0jW9VBxXA"
+          },
+          {
+            "title": "Decompress your low back with this lumbar traction exercise",
+            "views": 755000,
+            "url": "https://www.youtube.com/shorts/06WrOEPN1Y0"
+          },
+          {
+            "title": "Decompress Your Lower Back at Home #Shorts",
+            "views": 379000,
+            "url": "https://www.youtube.com/shorts/3VKai4c84wI"
+          },
+          {
+            "title": "Traction Treatment For Sciatica| Sciatica Treatment #sciatica #shorts",
+            "views": 236000,
+            "url": "https://www.youtube.com/shorts/oq1nC0LObDE"
           }
         ],
         "status": "LIVE"
@@ -1052,17 +1050,12 @@
       },
       "youtube": {
         "keyword": "turbo jet fan",
-        "shorts_found": 35,
-        "median_views_top10": 735000,
-        "max_views": 80000000,
-        "over_100k": 9,
-        "over_1m": 4,
+        "shorts_found": 33,
+        "median_views_top10": 736000,
+        "max_views": 3800000,
+        "over_100k": 11,
+        "over_1m": 3,
         "top": [
-          {
-            "title": "Metal Jet Fan from Electric Turbochargers | The H Lab #shorts",
-            "views": 80000000,
-            "url": "https://www.youtube.com/shorts/XnfuuZndsSA"
-          },
           {
             "title": "Viral Jet Blower 😍⚡️ #gadgets #shorts",
             "views": 3800000,
@@ -1077,6 +1070,11 @@
             "title": "Mini Turbo Jet Fan Powerful Blower | Air Blower #shorts #airblower",
             "views": 1000000,
             "url": "https://www.youtube.com/shorts/LEDdRGg_HU4"
+          },
+          {
+            "title": "Mini Jet Turbo Strong Fan",
+            "views": 965000,
+            "url": "https://www.youtube.com/shorts/3x_X3y3A2S4"
           },
           {
             "title": "Mini Turbo Jet Fan Air Blower 110000RPM Turbo Violent Fan #jetfan #airblower #coolgadgets",
