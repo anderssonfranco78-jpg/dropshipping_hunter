@@ -17,7 +17,7 @@
     "retail_availability_score": 85.0,
     "ad_active_days": 38,
     "competitor_ad_count": 29,
-    "google_trends_momentum": -17.9,
+    "google_trends_momentum": -17.0,
     "source_url": "https://www.aliexpress.com/item/1005007791672610.html",
     "target_demographics": {
       "age": "22-60",
@@ -30,7 +30,7 @@
       ]
     },
     "data_status": {
-      "trends": "CACHED",
+      "trends": "LIVE",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -45,50 +45,50 @@
     "trends_keyword": "cat brush",
     "notes": "Variante verde mango con cerdas naranja. Precio de página $4.73 + envío $3.54 = $8.27 (bitácora §24.3). Stock leído en vivo el 2026-10-08: green 994 uds; yellow solo 17 uds (descartada).",
     "trends_series": [
-      11,
-      12,
+      10,
+      13,
       13,
       11,
-      12,
+      13,
       13,
       12,
       12,
       14,
       15,
-      13,
+      12,
       13,
       12,
       12,
       13,
       19,
-      21,
+      20,
       16,
       15,
       16,
       16,
-      31,
+      30,
       69,
-      94,
+      87,
       100,
-      69,
+      68,
       48,
       41,
       67,
-      73,
+      72,
       44,
-      45,
-      60,
-      52,
+      44,
+      59,
+      51,
       49,
       22,
-      23,
+      22,
       16,
       17,
       15,
       16,
       16,
       15,
-      15,
+      14,
       15,
       14,
       13,
@@ -160,29 +160,17 @@
       "zero_share": 0.0,
       "peak_ratio": 0.13,
       "mean_recent": 13.0,
-      "mean_prior": 15.8,
-      "resolution": "WEEK",
-      "measured_at": "2026-10-25 15:07 UTC",
-      "cache": "reciente"
+      "mean_prior": 15.7,
+      "resolution": "WEEK"
     },
     "youtube": {
       "keyword": "steamy cat brush",
-      "shorts_found": 33,
-      "median_views_top10": 290000,
-      "max_views": 27000000,
-      "over_100k": 8,
-      "over_1m": 4,
+      "shorts_found": 32,
+      "median_views_top10": 126000,
+      "max_views": 3800000,
+      "over_100k": 5,
+      "over_1m": 2,
       "top": [
-        {
-          "title": "The Magic Steam Brush! No More Cat Hair! ✨🐱 #cat #cute #pets",
-          "views": 27000000,
-          "url": "https://www.youtube.com/shorts/2GFdar50ITI"
-        },
-        {
-          "title": "KURT’S NEW STEAM BRUSH 🤯",
-          "views": 7000000,
-          "url": "https://www.youtube.com/shorts/R95CL6d_dGw"
-        },
         {
           "title": "🐶 Why Is Everyone Switching to This Steam Pet Brush?! 👀🔥",
           "views": 3800000,
@@ -195,8 +183,18 @@
         },
         {
           "title": "Amazon Pet Find 🐱 This Steam Brush Combines Mist Spray & Grooming! #petgroomingtips #cat #shorts",
-          "views": 370000,
+          "views": 376000,
           "url": "https://www.youtube.com/shorts/_2lfgkAAx4I"
+        },
+        {
+          "title": "Cat Steam Brush",
+          "views": 210000,
+          "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
+        },
+        {
+          "title": "My Cat Tries The Viral Steam Cat Brush | The Dodo",
+          "views": 183000,
+          "url": "https://www.youtube.com/shorts/bFgsR8xpyOw"
         }
       ],
       "status": "LIVE"
@@ -370,10 +368,10 @@
     },
     "youtube": {
       "keyword": "ultrasonic tooth cleaner",
-      "shorts_found": 31,
-      "median_views_top10": 895500,
+      "shorts_found": 29,
+      "median_views_top10": 896000,
       "max_views": 5100000,
-      "over_100k": 10,
+      "over_100k": 8,
       "over_1m": 5,
       "top": [
         {
@@ -577,11 +575,11 @@
     },
     "youtube": {
       "keyword": "lumbar traction belt",
-      "shorts_found": 30,
-      "median_views_top10": 1077500,
+      "shorts_found": 31,
+      "median_views_top10": 495500,
       "max_views": 79000000,
-      "over_100k": 10,
-      "over_1m": 5,
+      "over_100k": 7,
+      "over_1m": 4,
       "top": [
         {
           "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
@@ -594,19 +592,19 @@
           "url": "https://www.youtube.com/shorts/IK9sl-o50d0"
         },
         {
+          "title": "Easy Way to Decompress Your Back #Shorts",
+          "views": 9600000,
+          "url": "https://www.youtube.com/shorts/PNFvCw3uygY"
+        },
+        {
           "title": "Scoliosis Back Brace 💪🦴 #shorts",
           "views": 7200000,
           "url": "https://www.youtube.com/shorts/hsYOi_SZAWc"
         },
         {
-          "title": "Mechanical Lumbar Traction for Back Pain",
-          "views": 3300000,
-          "url": "https://www.youtube.com/shorts/_pWlXLHnN-E"
-        },
-        {
-          "title": "Need a quick and easy way to decompress your lower back?! Try this banded Lumbar Traction technique",
-          "views": 1400000,
-          "url": "https://www.youtube.com/shorts/Kn0jW9VBxXA"
+          "title": "Decompress your low back with this lumbar traction exercise",
+          "views": 755000,
+          "url": "https://www.youtube.com/shorts/06WrOEPN1Y0"
         }
       ],
       "status": "LIVE"
@@ -781,10 +779,10 @@
     "youtube": {
       "keyword": "turbo jet fan",
       "shorts_found": 30,
-      "median_views_top10": 986500,
+      "median_views_top10": 738500,
       "max_views": 80000000,
-      "over_100k": 12,
-      "over_1m": 5,
+      "over_100k": 10,
+      "over_1m": 4,
       "top": [
         {
           "title": "Metal Jet Fan from Electric Turbochargers | The H Lab #shorts",
@@ -797,19 +795,19 @@
           "url": "https://www.youtube.com/shorts/9ksItmxawD0"
         },
         {
-          "title": "This Turbo Jet Fan From Amazon is🔥",
-          "views": 2800000,
-          "url": "https://www.youtube.com/shorts/mlWwPS1daBM"
-        },
-        {
           "title": "Crazy Powerful Turbo Jet Fan! 🔥",
-          "views": 2200000,
+          "views": 2300000,
           "url": "https://www.youtube.com/shorts/D6LcDtfEMfI"
         },
         {
           "title": "Mini Turbo Jet Fan Powerful Blower | Air Blower #shorts #airblower",
           "views": 1000000,
           "url": "https://www.youtube.com/shorts/LEDdRGg_HU4"
+        },
+        {
+          "title": "Mini Turbo Jet Fan Air Blower 110000RPM Turbo Violent Fan #jetfan #airblower #coolgadgets",
+          "views": 832000,
+          "url": "https://www.youtube.com/shorts/guqeVY5p8OE"
         }
       ],
       "status": "LIVE"

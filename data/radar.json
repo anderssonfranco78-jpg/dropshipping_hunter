@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-26 01:56:53 UTC",
+ "updated_at": "2026-10-26 11:39:10 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -226,20 +226,15 @@
   "lick-mat": {
    "youtube": {
     "keyword": "dog lick mat",
-    "shorts_found": 30,
-    "median_views_top10": 37500,
-    "max_views": 33000000,
-    "over_100k": 3,
-    "over_1m": 1,
+    "shorts_found": 34,
+    "median_views_top10": 8750,
+    "max_views": 433000,
+    "over_100k": 2,
+    "over_1m": 0,
     "top": [
      {
-      "title": "Lick mat time for Bubu🪻 #animalshorts #cat #pets #cuteanimals",
-      "views": 33000000,
-      "url": "https://www.youtube.com/shorts/SK7mEiQv6ow"
-     },
-     {
       "title": "*ASMR* PUPPY LICK MAT! #asmr #restock #dog #petproducts #amazonstorefront",
-      "views": 432000,
+      "views": 433000,
       "url": "https://www.youtube.com/shorts/MYuszDwVx7A"
      },
      {
@@ -248,14 +243,19 @@
       "url": "https://www.youtube.com/shorts/qsDBnYsiTnM"
      },
      {
-      "title": "Healthy lick mat recipe for my dogs 🐟👅🐕 #shorts",
-      "views": 77000,
-      "url": "https://www.youtube.com/shorts/8tG4rZZaEoE"
+      "title": "Lick mat for my puppy 🤎🐶 #puppy #dogtreats #dogparents #lickmat",
+      "views": 19000,
+      "url": "https://www.youtube.com/shorts/xjBhfVQ1Km0"
      },
      {
-      "title": "Lick mat recipe to keep your dog busy 🥛👅🐕 #shorts",
-      "views": 40000,
-      "url": "https://www.youtube.com/shorts/_4shhCujw84"
+      "title": "Perfect lick mat for any dog! #shorts #dachshund #lickmat #enrichment #dogenrichment #dogs",
+      "views": 19000,
+      "url": "https://www.youtube.com/shorts/MBO-h6SpZtM"
+     },
+     {
+      "title": "Benefits Of Lick Mats For Dogs #shorts",
+      "views": 11000,
+      "url": "https://www.youtube.com/shorts/gOpe_vJBv7o"
      }
     ],
     "status": "LIVE"
@@ -297,18 +297,18 @@
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 57,
-    "video_score": 69,
+    "score": 48,
+    "video_score": 54,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 38K vistas (el mayor, 33M)",
+     "Shorts: los 10 más vistos tienen una mediana de 9K vistas (el mayor, 433K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -14% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-24 19:54:29 UTC",
+   "measured_at": "2026-10-26 11:38:53 UTC",
    "trends_at": "2026-10-23 15:59 UTC",
    "rising": [
     {
@@ -329,36 +329,36 @@
   "laser-cat-toy": {
    "youtube": {
     "keyword": "automatic laser cat toy",
-    "shorts_found": 32,
-    "median_views_top10": 10000,
-    "max_views": 116000,
-    "over_100k": 1,
+    "shorts_found": 31,
+    "median_views_top10": 2100,
+    "max_views": 22000,
+    "over_100k": 0,
     "over_1m": 0,
     "top": [
-     {
-      "title": "Watch Your Cat Chase the Laser! | Cat Collar Laser Light Toy  #cat",
-      "views": 116000,
-      "url": "https://www.youtube.com/shorts/xskoPNHf0qg"
-     },
-     {
-      "title": "Automatic Laser Pet Toy #temu #temufinds",
-      "views": 33000,
-      "url": "https://www.youtube.com/shorts/WdyFPk06e7Q"
-     },
      {
       "title": "Cat is obsessed with this automatic laser toy. 🐈 #amazonfinds #cattoys #laserpointer",
       "views": 22000,
       "url": "https://www.youtube.com/shorts/vxGaDmFDJ5U"
      },
      {
-      "title": "Wearable Automatic Cat Laser Light Toy 🐱",
-      "views": 16000,
-      "url": "https://www.youtube.com/shorts/KeMajY-R_50"
+      "title": "The Automatic Laser Toy That Babysits Your Cat 🐈",
+      "views": 3100,
+      "url": "https://www.youtube.com/shorts/c-U_Ooz3k6U"
      },
      {
-      "title": "PetSafe Laser Tail Automatic Laser Light Cat Toy",
-      "views": 11000,
-      "url": "https://www.youtube.com/shorts/YIrvKO0EOWc"
+      "title": "Automatic Cat Toy – Interactive Smart LED Laser",
+      "views": 3000,
+      "url": "https://www.youtube.com/shorts/y8TbtDet2zo"
+     },
+     {
+      "title": "Best Cat Toy Ever? 🐱 Automatic Laser Fun #CatToys #Shorts",
+      "views": 2300,
+      "url": "https://www.youtube.com/shorts/xedyBa5Q5_w"
+     },
+     {
+      "title": "This Automatic Cat Laser Toy Is Going Viral in the US 😹🔥 #amazonfinds",
+      "views": 2200,
+      "url": "https://www.youtube.com/shorts/21Wvm5zf0Tg"
      }
     ],
     "status": "LIVE"
@@ -400,18 +400,18 @@
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 59,
-    "video_score": 55,
+    "score": 49,
+    "video_score": 38,
     "trend_score": 65,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 10K vistas (el mayor, 116K)",
+     "Shorts: los 10 más vistos tienen una mediana de 2K vistas (el mayor, 22K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): estable -5% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-24 19:54:33 UTC",
+   "measured_at": "2026-10-26 11:38:57 UTC",
    "trends_at": "2026-10-23 15:59 UTC",
    "rising": [
     {
@@ -1134,10 +1134,10 @@
   "oil-sprayer": {
    "youtube": {
     "keyword": "oil sprayer for cooking",
-    "shorts_found": 29,
-    "median_views_top10": 95000,
+    "shorts_found": 32,
+    "median_views_top10": 144500,
     "max_views": 2000000,
-    "over_100k": 4,
+    "over_100k": 6,
     "over_1m": 1,
     "top": [
      {
@@ -1146,24 +1146,24 @@
       "url": "https://www.youtube.com/shorts/d6SRz7v1KCg"
      },
      {
+      "title": "Oil Dispenser For Cooking #shorts",
+      "views": 489000,
+      "url": "https://www.youtube.com/shorts/V3WsN0FO6Rs"
+     },
+     {
+      "title": "Oil spray bottle for cooking review|Glass oil dispenser bottle",
+      "views": 348000,
+      "url": "https://www.youtube.com/shorts/XvX2uNsDo_E"
+     },
+     {
       "title": "Oil bottle. Cooking oil spray #temu #temuproducts #amazon #amazonfinds #amazonproducts",
-      "views": 266000,
+      "views": 267000,
       "url": "https://www.youtube.com/shorts/wtNoU2NCGRI"
      },
      {
       "title": "This oil sprayer is a kitchen must have!",
       "views": 189000,
       "url": "https://www.youtube.com/shorts/vf0SyHgKJe4"
-     },
-     {
-      "title": "Olive oil cooking spray 👉 Could save you thousands of calories in a week",
-      "views": 157000,
-      "url": "https://www.youtube.com/shorts/ymhjkwt8GIM"
-     },
-     {
-      "title": "We Tried 6 Oil Sprayers for Prime Day",
-      "views": 99000,
-      "url": "https://www.youtube.com/shorts/w8a9WZP3L6c"
      }
     ],
     "status": "LIVE"
@@ -1171,18 +1171,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 63,
-    "video_score": 79,
+    "score": 66,
+    "video_score": 84,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 95K vistas (el mayor, 2M)",
+     "Shorts: los 10 más vistos tienen una mediana de 144K vistas (el mayor, 2M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -25% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-25 01:54:51 UTC",
+   "measured_at": "2026-10-26 11:39:00 UTC",
    "trends": {
     "momentum_pct": -25.0,
     "low_volume": false,
@@ -1249,36 +1249,36 @@
   "milk-frother": {
    "youtube": {
     "keyword": "electric milk frother",
-    "shorts_found": 32,
-    "median_views_top10": 1950,
-    "max_views": 446000,
-    "over_100k": 1,
-    "over_1m": 0,
+    "shorts_found": 29,
+    "median_views_top10": 9350,
+    "max_views": 2100000,
+    "over_100k": 3,
+    "over_1m": 1,
     "top": [
      {
+      "title": "How To Make Delicious Frothy Coffee With Milk Frother | Super Easy! #shorts",
+      "views": 2100000,
+      "url": "https://www.youtube.com/shorts/GF1HPf29OaY"
+     },
+     {
       "title": "Best Handheld Milk Frothers for Coffee Lovers – Buyer’s Guide",
-      "views": 446000,
+      "views": 448000,
       "url": "https://www.youtube.com/shorts/RXTOnRtgcoM"
      },
      {
-      "title": "Electric milk frother | Amazon probox",
-      "views": 89000,
-      "url": "https://www.youtube.com/shorts/8wh6W4qPeHU"
+      "title": "Electric Milk Frother - Effortless Barista-Style Froth - Durable & Non-Battery Operated",
+      "views": 407000,
+      "url": "https://www.youtube.com/shorts/U7xJwL3hREA"
      },
      {
-      "title": "🤯 This Tiny Gadget Turns Milk Into MAGIC! ☕🔥 #Shorts",
-      "views": 3900,
-      "url": "https://www.youtube.com/shorts/sg14tFux-lQ"
+      "title": "Unboxing & Review | yoyomax 4-in-1 Electric Milk Frother for Coffee, Latte & Cappuccino",
+      "views": 18000,
+      "url": "https://www.youtube.com/shorts/g_-WFks5bC8"
      },
      {
-      "title": "Mini Electric Milk Frother 🥛✨ | Satisfying Tiny Kitchen ASMR #Shorts #unboxing #blw #babyspoon",
-      "views": 2300,
-      "url": "https://www.youtube.com/shorts/64f2A11mhWM"
-     },
-     {
-      "title": "Electric Milk Frother – Smooth & Creamy Foam in Seconds! #shorts #kitchengadgets #frother",
-      "views": 2000,
-      "url": "https://www.youtube.com/shorts/WqpXwtk8HZY"
+      "title": "BEST Rechargeable COFFEE FROTHER | Portable MILK FROTHER #coffee #coffeelover #milk #shorts #asmr",
+      "views": 12000,
+      "url": "https://www.youtube.com/shorts/3LvqclL6m9k"
      }
     ],
     "status": "LIVE"
@@ -1286,18 +1286,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 48,
-    "video_score": 37,
+    "score": 58,
+    "video_score": 54,
     "trend_score": 65,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 2K vistas (el mayor, 446K)",
+     "Shorts: los 10 más vistos tienen una mediana de 9K vistas (el mayor, 2.1M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): estable +8% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-25 01:54:54 UTC",
+   "measured_at": "2026-10-26 11:39:03 UTC",
    "trends": {
     "momentum_pct": 8.3,
     "low_volume": false,
@@ -1364,16 +1364,16 @@
   "red-light-wand": {
    "youtube": {
     "keyword": "red light therapy wand",
-    "shorts_found": 29,
+    "shorts_found": 27,
     "median_views_top10": 26000,
-    "max_views": 202000,
+    "max_views": 139000,
     "over_100k": 1,
     "over_1m": 0,
     "top": [
      {
-      "title": "Red Light Therapy At-Home #shorts",
-      "views": 202000,
-      "url": "https://www.youtube.com/shorts/z_H2t6cJBLk"
+      "title": "This FDA Approved Red Light Therapy Changed My LIFE!",
+      "views": 139000,
+      "url": "https://www.youtube.com/shorts/R5POhcY24AQ"
      },
      {
       "title": "Better than retinol? Solawave test & review 2 week results",
@@ -1407,12 +1407,12 @@
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 26K vistas (el mayor, 202K)",
+     "Shorts: los 10 más vistos tienen una mediana de 26K vistas (el mayor, 139K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -11% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-25 01:54:58 UTC",
+   "measured_at": "2026-10-26 11:39:07 UTC",
    "trends": {
     "momentum_pct": -10.8,
     "low_volume": false,
@@ -1479,10 +1479,10 @@
   "scalp-massager": {
    "youtube": {
     "keyword": "electric scalp massager",
-    "shorts_found": 27,
+    "shorts_found": 30,
     "median_views_top10": 1500000,
     "max_views": 51000000,
-    "over_100k": 13,
+    "over_100k": 15,
     "over_1m": 6,
     "top": [
      {
@@ -1527,7 +1527,7 @@
      "Google (EE. UU.): baja -19% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-25 01:55:02 UTC",
+   "measured_at": "2026-10-26 11:39:10 UTC",
    "trends": {
     "momentum_pct": -18.8,
     "low_volume": false,
