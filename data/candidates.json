@@ -167,10 +167,10 @@
     },
     "youtube": {
       "keyword": "steamy cat brush",
-      "shorts_found": 28,
-      "median_views_top10": 156000,
+      "shorts_found": 31,
+      "median_views_top10": 197000,
       "max_views": 3800000,
-      "over_100k": 6,
+      "over_100k": 7,
       "over_1m": 2,
       "top": [
         {
@@ -184,19 +184,19 @@
           "url": "https://www.youtube.com/shorts/0kU6kGTG0Q8"
         },
         {
+          "title": "Steam Grooming Brush: For Cats and Dogs",
+          "views": 804000,
+          "url": "https://www.youtube.com/shorts/-OKLMmMRIhY"
+        },
+        {
           "title": "Amazon Pet Find 🐱 This Steam Brush Combines Mist Spray & Grooming! #petgroomingtips #cat #shorts",
           "views": 375000,
           "url": "https://www.youtube.com/shorts/_2lfgkAAx4I"
         },
         {
           "title": "Cat Steam Brush",
-          "views": 210000,
+          "views": 211000,
           "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
-        },
-        {
-          "title": "My Cat Tries The Viral Steam Cat Brush | The Dodo",
-          "views": 183000,
-          "url": "https://www.youtube.com/shorts/bFgsR8xpyOw"
         }
       ],
       "status": "LIVE"
@@ -233,7 +233,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -364,21 +364,18 @@
       "peak_ratio": 0.18,
       "mean_recent": 18.5,
       "mean_prior": 22.0,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-10-26 17:43 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "ultrasonic tooth cleaner",
-      "shorts_found": 33,
-      "median_views_top10": 1600000,
-      "max_views": 5500000,
-      "over_100k": 13,
-      "over_1m": 6,
+      "shorts_found": 29,
+      "median_views_top10": 376000,
+      "max_views": 5100000,
+      "over_100k": 7,
+      "over_1m": 4,
       "top": [
-        {
-          "title": "5 years worth of cheese build up on teeth. #cheese #tartarremoval #plaque #teethcleaning #dentist",
-          "views": 5500000,
-          "url": "https://www.youtube.com/shorts/cX5fdk_85r0"
-        },
         {
           "title": "cleaning teeth with ultrasonic scaler #shorts #dentist #teethcleaning",
           "views": 5100000,
@@ -390,14 +387,19 @@
           "url": "https://www.youtube.com/shorts/sbLkVniGnhE"
         },
         {
-          "title": "Smile Therapy- Ultrasonic Tooth Cleaner",
-          "views": 3000000,
-          "url": "https://www.youtube.com/shorts/MKD6ZfFwqyk"
-        },
-        {
           "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
           "views": 1800000,
           "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
+        },
+        {
+          "title": "Scaling teeth to remove tartar and calculus #shorts",
+          "views": 1400000,
+          "url": "https://www.youtube.com/shorts/1RWeozzKyos"
+        },
+        {
+          "title": "Clean family teeth with ultrasonic tooth cleaner! #oralhygiene",
+          "views": 392000,
+          "url": "https://www.youtube.com/shorts/ZjvT_HFFc60"
         }
       ],
       "status": "LIVE"
@@ -438,7 +440,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -569,26 +571,18 @@
       "peak_ratio": 0.31,
       "mean_recent": 30.8,
       "mean_prior": 30.9,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-10-26 17:43 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "lumbar traction belt",
-      "shorts_found": 28,
-      "median_views_top10": 307500,
-      "max_views": 79000000,
-      "over_100k": 8,
-      "over_1m": 4,
+      "shorts_found": 30,
+      "median_views_top10": 144000,
+      "max_views": 3300000,
+      "over_100k": 6,
+      "over_1m": 2,
       "top": [
-        {
-          "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
-          "views": 79000000,
-          "url": "https://www.youtube.com/shorts/VsfXV5vUhUk"
-        },
-        {
-          "title": "Stretch Your Spine Automatically",
-          "views": 13000000,
-          "url": "https://www.youtube.com/shorts/IK9sl-o50d0"
-        },
         {
           "title": "Mechanical Lumbar Traction for Back Pain",
           "views": 3300000,
@@ -600,9 +594,19 @@
           "url": "https://www.youtube.com/shorts/Kn0jW9VBxXA"
         },
         {
-          "title": "Decompress Your Lower Back at Home #Shorts",
-          "views": 379000,
-          "url": "https://www.youtube.com/shorts/3VKai4c84wI"
+          "title": "Decompress your low back with this lumbar traction exercise",
+          "views": 755000,
+          "url": "https://www.youtube.com/shorts/06WrOEPN1Y0"
+        },
+        {
+          "title": "Traction Treatment For Sciatica| Sciatica Treatment #sciatica #shorts",
+          "views": 236000,
+          "url": "https://www.youtube.com/shorts/oq1nC0LObDE"
+        },
+        {
+          "title": "Lumbar Traction",
+          "views": 174000,
+          "url": "https://www.youtube.com/shorts/C45Q3xecf6I"
         }
       ],
       "status": "LIVE"
@@ -639,7 +643,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -770,14 +774,16 @@
       "peak_ratio": 0.23,
       "mean_recent": 22.8,
       "mean_prior": 26.7,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-10-26 17:43 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "turbo jet fan",
-      "shorts_found": 32,
-      "median_views_top10": 478500,
+      "shorts_found": 30,
+      "median_views_top10": 195500,
       "max_views": 3800000,
-      "over_100k": 9,
+      "over_100k": 5,
       "over_1m": 3,
       "top": [
         {
@@ -801,9 +807,9 @@
           "url": "https://www.youtube.com/shorts/guqeVY5p8OE"
         },
         {
-          "title": "🌀 Turbo Jet Fan Teardown 💥  #bldc  #TurboFan #TurboJetFan #electronics #gadgets #diy #shorts",
-          "views": 647000,
-          "url": "https://www.youtube.com/shorts/Ig_XYZEVTOY"
+          "title": "Mini Turbo Jet Fan #miniblower #jetfan #carblower",
+          "views": 310000,
+          "url": "https://www.youtube.com/shorts/z4p1iZ3K3h4"
         }
       ],
       "status": "LIVE"
