@@ -181,11 +181,11 @@
       },
       "youtube": {
         "keyword": "ultrasonic tooth cleaner",
-        "shorts_found": 29,
-        "median_views_top10": 376000,
+        "shorts_found": 31,
+        "median_views_top10": 1450000,
         "max_views": 5100000,
-        "over_100k": 7,
-        "over_1m": 4,
+        "over_100k": 11,
+        "over_1m": 6,
         "top": [
           {
             "title": "cleaning teeth with ultrasonic scaler #shorts #dentist #teethcleaning",
@@ -198,19 +198,19 @@
             "url": "https://www.youtube.com/shorts/sbLkVniGnhE"
           },
           {
+            "title": "Smile Therapy- Ultrasonic Tooth Cleaner",
+            "views": 3000000,
+            "url": "https://www.youtube.com/shorts/MKD6ZfFwqyk"
+          },
+          {
             "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
             "views": 1800000,
             "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
           },
           {
-            "title": "Scaling teeth to remove tartar and calculus #shorts",
-            "views": 1400000,
-            "url": "https://www.youtube.com/shorts/1RWeozzKyos"
-          },
-          {
-            "title": "Clean family teeth with ultrasonic tooth cleaner! #oralhygiene",
-            "views": 392000,
-            "url": "https://www.youtube.com/shorts/ZjvT_HFFc60"
+            "title": "Teeth cleaning at a dental office #shorts #teethcleaning",
+            "views": 1500000,
+            "url": "https://www.youtube.com/shorts/h49huCMJ2RY"
           }
         ],
         "status": "LIVE"
@@ -470,10 +470,10 @@
       },
       "youtube": {
         "keyword": "steamy cat brush",
-        "shorts_found": 31,
-        "median_views_top10": 197000,
+        "shorts_found": 29,
+        "median_views_top10": 156000,
         "max_views": 3800000,
-        "over_100k": 7,
+        "over_100k": 6,
         "over_1m": 2,
         "top": [
           {
@@ -487,11 +487,6 @@
             "url": "https://www.youtube.com/shorts/0kU6kGTG0Q8"
           },
           {
-            "title": "Steam Grooming Brush: For Cats and Dogs",
-            "views": 804000,
-            "url": "https://www.youtube.com/shorts/-OKLMmMRIhY"
-          },
-          {
             "title": "Amazon Pet Find 🐱 This Steam Brush Combines Mist Spray & Grooming! #petgroomingtips #cat #shorts",
             "views": 375000,
             "url": "https://www.youtube.com/shorts/_2lfgkAAx4I"
@@ -500,6 +495,11 @@
             "title": "Cat Steam Brush",
             "views": 211000,
             "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
+          },
+          {
+            "title": "My Cat Tries The Viral Steam Cat Brush | The Dodo",
+            "views": 183000,
+            "url": "https://www.youtube.com/shorts/bFgsR8xpyOw"
           }
         ],
         "status": "LIVE"
@@ -763,12 +763,17 @@
       },
       "youtube": {
         "keyword": "lumbar traction belt",
-        "shorts_found": 30,
-        "median_views_top10": 144000,
-        "max_views": 3300000,
-        "over_100k": 6,
-        "over_1m": 2,
+        "shorts_found": 29,
+        "median_views_top10": 308000,
+        "max_views": 13000000,
+        "over_100k": 8,
+        "over_1m": 3,
         "top": [
+          {
+            "title": "Stretch Your Spine Automatically",
+            "views": 13000000,
+            "url": "https://www.youtube.com/shorts/IK9sl-o50d0"
+          },
           {
             "title": "Mechanical Lumbar Traction for Back Pain",
             "views": 3300000,
@@ -785,14 +790,9 @@
             "url": "https://www.youtube.com/shorts/06WrOEPN1Y0"
           },
           {
-            "title": "Traction Treatment For Sciatica| Sciatica Treatment #sciatica #shorts",
-            "views": 236000,
-            "url": "https://www.youtube.com/shorts/oq1nC0LObDE"
-          },
-          {
-            "title": "Lumbar Traction",
-            "views": 174000,
-            "url": "https://www.youtube.com/shorts/C45Q3xecf6I"
+            "title": "Decompress Your Lower Back at Home #Shorts",
+            "views": 379000,
+            "url": "https://www.youtube.com/shorts/3VKai4c84wI"
           }
         ],
         "status": "LIVE"
@@ -1052,10 +1052,10 @@
       },
       "youtube": {
         "keyword": "turbo jet fan",
-        "shorts_found": 30,
-        "median_views_top10": 195500,
+        "shorts_found": 34,
+        "median_views_top10": 479000,
         "max_views": 3800000,
-        "over_100k": 5,
+        "over_100k": 9,
         "over_1m": 3,
         "top": [
           {
@@ -1079,9 +1079,9 @@
             "url": "https://www.youtube.com/shorts/guqeVY5p8OE"
           },
           {
-            "title": "Mini Turbo Jet Fan #miniblower #jetfan #carblower",
-            "views": 310000,
-            "url": "https://www.youtube.com/shorts/z4p1iZ3K3h4"
+            "title": "🌀 Turbo Jet Fan Teardown 💥  #bldc  #TurboFan #TurboJetFan #electronics #gadgets #diy #shorts",
+            "views": 648000,
+            "url": "https://www.youtube.com/shorts/Ig_XYZEVTOY"
           }
         ],
         "status": "LIVE"
