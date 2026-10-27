@@ -2,7 +2,7 @@
 title: "Dossier Oficial de Productos Ganadores Validados"
 source: "dropshipping_hunter"
 date: "2026-10-27"
-generated_at: "2026-10-27T11:09:22.744609+00:00"
+generated_at: "2026-10-27T16:56:25.085902+00:00"
 evaluation_engine_version: "1.0.0"
 audit_standard: "Antigravity 7 Golden Rules"
 scoring_threshold_approval: 80
@@ -13,16 +13,16 @@ summary:
   avg_markup_factor: 3.80
   avg_net_margin_percentage: 68.9
 products:
+  - id: "spinerelief-pro"
+    name: "SpineRelief Pro™ — Inflatable Lumbar Traction Belt"
+    score: 97.0
+    status: "WINNER"
   - id: "prosmile-ultrasonic"
     name: "ProSmile Ultrasonic™ — Smart Plaque & Calculus Scaler"
     score: 90.0
     status: "WINNER"
   - id: "steamfur-pro"
     name: "SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer"
-    score: 87.0
-    status: "WINNER"
-  - id: "spinerelief-pro"
-    name: "SpineRelief Pro™ — Inflatable Lumbar Traction Belt"
     score: 87.0
     status: "WINNER"
   - id: "aeroforce-x3"
@@ -50,7 +50,130 @@ Cada ficha técnica incluye su desglose financiero completo, proveedores mayoris
 
 ## 2. CATÁLOGO DE PRODUCTOS GANADORES VALIDADOS
 
-### 🏆 GANADOR #1: ProSmile Ultrasonic™ — Smart Plaque & Calculus Scaler
+### 🏆 GANADOR #1: SpineRelief Pro™ — Inflatable Lumbar Traction Belt
+
+**Categoría / Nicho**: Health & Ergonomics  
+**ID de Referencia**: `spinerelief-pro`  
+**Puntuación Compuesta**: **97.0 / 100** | **Estado**: `🏆 WINNER`  
+**Descripción**: Clinical-grade inflatable lumbar traction belt with 24 pneumatic columns providing 2.5 bar decompression for L1-L5 vertebrae and acute sciatica nerve relief.
+
+#### Ficha Técnica y Desglose Financiero
+
+| Parámetro Financiero | Valor USD / % | Estándar Canónico Antigravity | Estado |
+|---|:---:|:---:|:---:|
+| **Costo de Proveedor** (CoGS) | $10.00 USD | Costo mayorista de fábrica | ✅ Verificado |
+| **Costo de Envío Tracked** | $4.80 USD | YunExpress Specialty Line | ✅ Verificado |
+| **Landed Cost** (Costo Puesto) | $14.80 USD | CoGS + Flete internacional | ✅ Calculado |
+| **Precio de Venta Sugerido** (SRP) | $54.99 USD | Sweet spot de impulso ($29 – $69 USD) | ✅ Cumple R5 |
+| **Markup Multiplier** | **3.72x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
+| **Comisión Pasarela** (Stripe 2.9% + $0.30) | $1.89 USD | Deducción automática por transacción | ✅ Incluido |
+| **Buffer de Reserva** (1.0%) | $0.55 USD | Fondo para imprevistos / chargebacks | ✅ Incluido |
+| **Beneficio Neto Limpio por Unidad** | **$37.75 USD** | Ganancia neta líquida operativa | ✅ Auditado |
+| **Margen Neto** (%) | **68.7%** | Mínimo requerido: $\ge 65.0\%$ | ✅ EXCELENTE |
+
+#### Enlaces a Proveedores y Logística
+
+- **Proveedor Mayorista AliExpress**: [https://www.aliexpress.com/item/1005006626002554.html](https://www.aliexpress.com/item/1005006626002554.html)
+- **Sourcing Directo CJ Dropshipping**: [https://cjdropshipping.com/list-detail.html?search=lumbar%20traction%20belt](https://cjdropshipping.com/list-detail.html?search=lumbar%20traction%20belt)
+- **Línea Logística Homologada**: YunExpress Specialty Line (7 - 10 días laborables)
+- **Especificación de Empaque**: Caja neutra con bolsa TPU, bomba manual con manómetro, correa extensora
+- **Países Tier 1 Homologados**: US, UK, CA, AU
+
+#### Auditoría Forense de las 7 Reglas de Oro
+
+- **Regla 1 (Visual WOW (0-3s))**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
+- **Regla 2 (Acute Pain / Passion)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
+- **Regla 3 (Retail Scarcity)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 4 (Unit Economics & Markup)**: ✅ Score: 85.0/100 (Ponderado: 17.0 pts) — Aprobado
+- **Regla 5 (Ticket Range Sweet Spot)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 6 (Zero Sizing / Fragility)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 7 (Fast Tracked Logistics)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Puertas de Knockout (KO-1 a KO-4)**: ✅ Limpio (Cero puertas KO activadas: Ninguna)
+
+#### Estrategia Demográfica y Franja Horaria Recomendada
+
+- **Age**: 35-65
+- **Gender**: all
+- **Occupations**: truck drivers, warehouse staff, office desk workers
+- **Symptoms**: chronic lumbar stiffness, sciatica nerve compression, herniated disc pain
+
+**Franja Horaria Recomendada de Publicación Orgánica**:
+- **Slot 1 (Matutino)** (06:30 – 08:00 Hora local del target): Rigidez lumbar y dolor agudo al despertar de la cama; scrolleo compulsivo matutino.
+- **Slot 2 (Mediodía)** (12:30 – 14:00 Hora local del target): Pausa tras 4 horas continuas de oficina o manejo de camión; fatiga lumbar acumulada.
+- **Slot 3 (Prime Nocturno)** (19:30 – 21:30 Hora local del target): Fin de jornada laboral; relax en sofá buscando alivio antes de dormir.
+
+#### Mecanismo WOW de Demostración (0 a 3 Segundos)
+
+> Segundo 0.0-1.5: Plano cerrado lateral en cintura. El usuario conecta la manguera y presiona la bomba dos veces. Segundo 1.5-3.0: El cinturón se expande violentamente hacia arriba con un sonido neumático nítido ([SFX: PNEUMATIC_HISS]), estirando visiblemente el torso mientras una animación 3D de rayos X muestra las vértebras L1-L5 separándose y el nervio ciático pasando de rojo a azul relajado.
+
+#### Ganchos de Conversión (Remotion Modalidad 3)
+
+A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la partitura canónica de Remotion Modalidad 3:
+
+##### 🪝 Gancho 1: Curiosidad Disruptiva (Pattern Interrupt)
+*Curiosidad Disruptiva: El Secreto Médico Prohibido*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"¿Por qué los camioneros tienen prohibido manejar sin inflarse esto?"*
+- **Voz Creador (`es-US-Neural2-B`)**: *"Porque en 30 segundos separa tus vértebras 7 milímetros."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Primer plano de una persona colocándose una faja de tracción con manómetro neumático. | Snap Zoom violento (1.0x -> 1.35x) con desenfoque radial dinámico. | Voz Cliente (es-US-Neural2-C): '¿Por qué los camioneros tienen prohibido manejar sin inflarse esto?' | [SFX: WHOOSH_FAST] | '¿PROHIBIDO?' en rojo neón extruido arriba (rotateX: 12deg) |
+| **1.2 - 2.0s** | Detalle en 4K de las 24 columnas de aire en la espalda listas para cargarse. | Paneo lateral acelerado (1.8x rush). | Voz Creador (es-US-Neural2-B): 'Porque en 30 segundos separa tus vértebras 7 milímetros.' | [SFX: VINE_BOOM] | '7 MILÍMETROS' en verde esmeralda 3D |
+| **2.0 - 3.0s** | PANTALLA CONGELADA CON SILUETA EN TENSIÓN ANATÓMICA. | Cero movimiento (Pausa dramática de 1.0s de tensión acústica). | Silencio sepulcral absoluto (cero voz). | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | El cinturón se infla a tope; el torso se estira visiblemente. Destello blanco. | Beat Drop. Flash blanco y Speed Ramp no lineal (2.0x -> 0.18x meseta técnica). | Entra bajo enérgico y track musical (LiQWYD - Show Me). | [SFX: BEAT_DROP + PNEUMATIC_HISS] | 'DESCOMPRESIÓN L4-L5' en dorado 3D sin cajas ni pills |
+| **4.5 - 7.0s** | Animación 3D de columna: el disco herniado vuelve a su centro al expandirse las vértebras. | Snap zoom a la zona lumbar con tracking volumétrico. | Voz Creador (es-US-Neural2-B): 'Libera el nervio ciático atrapado sin pisar un quirófano.' | [SFX: BONE_POP_RELIEF] | 'CIÁTICA DESBLOQUEADA' en cian neón 3D |
+| **7.0 - 10.0s** | El usuario camina erguido, sonríe y se toca la espalda sin dolor. | Zoom out continuo (0.95x) hacia la llamada a la acción. | Voz Creador (es-US-Neural2-B): 'Pruébalo 14 días. Si tu espalda no revive, te devolvemos cada centavo.' | [SFX: CASH_REGISTER] | 'GARANTÍA 14 DÍAS' en amarillo brillante |
+
+##### 🪝 Gancho 2: Agitación de Dolor Real (Emotional Visceral Trigger)
+*Agitación de Dolor Real: El Ardor Lumbar al Levantarte*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"Si levantarte de la cama o del auto te toma 5 minutos por ese ardor lumbar..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"Tus vértebras están aplastando este nervio ahora mismo."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Persona que intenta levantarse de la silla de oficina y se queda doblada de agonía. | Snap zoom agresivo al rostro de dolor (1.0x -> 1.4x). | Voz Cliente (es-US-Neural2-C): 'Si levantarte de la cama o del auto te toma 5 minutos por ese ardor lumbar...' | [SFX: HEARTBEAT_LOW] | '¿ARDOR LUMBAR?' en rojo fuego 3D |
+| **1.2 - 2.0s** | Primer plano al pulgar apretando la zona baja de la columna inflamada. | Camera shake de impacto visceral. | Voz Creador (es-US-Neural2-B): 'Tus vértebras están aplastando este nervio ahora mismo.' | [SFX: ELECTRIC_SPARK] | 'NERVIO PELLIZCADO' en amarillo neón |
+| **2.0 - 3.0s** | CONGELADO EN EL MOMENTO DE TENSIÓN AGUDA DEL NERVIO. | Silencio acústico riguroso de 1.0s. | Cero voz, pausa absoluta. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | El usuario se coloca el cinturón y bombea aire 3 veces con alivio instantáneo. | Beat Drop. Flash blanco y Speed Ramp (1.8x rush -> 0.18x meseta). | Entra beat y bajo enérgico LiQWYD. | [SFX: BEAT_DROP + AIR_PUMP] | 'ADIÓS PRESIÓN' en titanio 3D reflectivo |
+| **4.5 - 7.0s** | Expresión facial cambiando de sufrimiento a un suspiro de alivio genuino. | Paneo vertical suave de abajo hacia arriba. | Voz Creador (es-US-Neural2-B): '24 cámaras de aire absorben el peso de tu tronco de inmediato.' | [SFX: EXHALE_RELIEF] | 'ALIVIO EN 60 SEG' en verde esmeralda |
+| **7.0 - 10.0s** | El usuario agachándose con soltura para levantar un objeto del suelo sin miedo. | Tracking dinámico 3D. | Voz Creador (es-US-Neural2-B): 'Vuelve a moverte sin miedo al pinchazo. Enlace en bio con 40% OFF hoy.' | [SFX: CLICK_POP] | '40% OFF HOY' en oro 3D |
+
+##### 🪝 Gancho 3: Contrariano (Challenging Conventional Wisdom)
+*Contrariano: La Farsa de las Fajas de Farmacia*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"Por qué gastar $150 en fajas de farmacia empeora tu dolor de espalda..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"Porque apretar tu abdomen no separa tus huesos."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Una faja elástica de neopreno barata de farmacia siendo arrojada al cubo de basura. | Snap Zoom directo al cubo de basura. | Voz Cliente (es-US-Neural2-C): 'Por qué gastar $150 en fajas de farmacia empeora tu dolor de espalda...' | [SFX: TRASH_SLAM] | 'NO SIRVEN' en rojo sangre sobre el cubo |
+| **1.2 - 2.0s** | Modelo anatómico mostrando cómo una faja elástica solo comprime la carne hacia adentro. | Giro 3D volumétrico (rotateY: -15deg). | Voz Creador (es-US-Neural2-B): 'Porque apretar tu abdomen no separa tus huesos.' | [SFX: VINE_BOOM] | 'SOLO APRIETAN' en naranja 3D |
+| **2.0 - 3.0s** | PANTALLA EN NEGRO / SILENCIO DE CONTRADICCIÓN. | Pausa acústica estricta de 1.0s. | Silencio total. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | Entrada triunfal del SpineRelief Pro inflándose en cámara lenta vertical. | Beat Drop. Flash blanco y Speed Ramp dinámico. | Explota la base musical rítmica. | [SFX: BEAT_DROP + HISS] | 'TRACCIÓN CLÍNICA' en titanio reflectivo |
+| **4.5 - 7.0s** | Split screen animado: Faja elástica (fuerza horizontal dañina) vs SpineRelief Pro (fuerza vertical de descompresión). | Split screen animado con barras de fuerza 3D. | Voz Creador (es-US-Neural2-B): 'Esto estira verticalmente tu columna, imitando una camilla médica de $3,000.' | [SFX: DING_WIN] | 'TRACCIÓN VERTICAL' en cian neón |
+| **7.0 - 10.0s** | Demostración de uso discreto bajo la camisa en la oficina o manejando. | Paneo lateral suave a 60 fps. | Voz Creador (es-US-Neural2-B): 'Úsalo bajo tu ropa mientras trabajas. Talla universal con extensor gratis.' | [SFX: DISCORD_PING] | 'TALLA UNIVERSAL' en amarillo 3D |
+
+##### 🪝 Gancho 4: Transformación Inmediata (Before vs After)
+*Transformación Inmediata: De la Incapacidad a la Plenitud*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"De no poder atarte las zapatillas por el dolor de ciática..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"A pasar 6 horas de pie sin un solo tirón lumbar."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Pantalla dividida: Lado izquierdo (Persona encorvada que no puede inclinarse a atarse los zapatos). | Zoom in hacia la izquierda con tono desaturado y frío. | Voz Cliente (es-US-Neural2-C): 'De no poder atarte las zapatillas por el dolor de ciática...' | [SFX: RECORD_SCRATCH] | 'ANTES' en rojo desaturado |
+| **1.2 - 2.0s** | Lado derecho: La misma persona trotando y jugando con sus hijos sin molestia alguna. | Snap zoom al lado derecho brillante y saturado. | Voz Creador (es-US-Neural2-B): 'A pasar 6 horas de pie sin un solo tirón lumbar.' | [SFX: WHOOSH_SWOOSH] | 'DESPUÉS' en verde esmeralda 3D |
+| **2.0 - 3.0s** | CONGELADO EN EL CORTE CENTRAL DE CONTRASTE. | Silencio dramático riguroso de 1.0s. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | Se revela el SpineRelief Pro ajustado discretamente bajo la ropa. | Beat Drop. Flash blanco y cámara lenta técnica (0.18x plateau). | Entra la música al 100% de ganancia (mastering a -19.7 LUFS). | [SFX: BEAT_DROP] | 'EL SECRETO' en oro 3D flotante |
+| **4.5 - 7.0s** | Primer plano al manómetro marcando 2.5 bares de descompresión segura. | Rotación 3D en eje Z. | Voz Creador (es-US-Neural2-B): '20 minutos al día para reprogramar el espacio de tus discos vertebrales.' | [SFX: RATCHET_CLICK] | '20 MIN AL DÍA' en cian neón |
+| **7.0 - 10.0s** | Unboxing completo del kit con bomba, extensor y folleto en español. | Zoom out fluido. | Voz Creador (es-US-Neural2-B): 'Envío express garantizado en 7 a 10 días. Pide el tuyo en el botón abajo.' | [SFX: BELL_CHIME] | 'ENVÍO EXPRESS 7-10D' |
+
+
+---
+
+### 🏆 GANADOR #2: ProSmile Ultrasonic™ — Smart Plaque & Calculus Scaler
 
 **Categoría / Nicho**: Dental Health & Personal Care  
 **ID de Referencia**: `prosmile-ultrasonic`  
@@ -171,7 +294,7 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 
 ---
 
-### 🏆 GANADOR #2: SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer
+### 🏆 GANADOR #3: SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer
 
 **Categoría / Nicho**: Pet Supplies & Home Care  
 **ID de Referencia**: `steamfur-pro`  
@@ -288,129 +411,6 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 | **3.0 - 4.5s** | Extracción en cámara lenta de una almohadilla compacta de pelo retirada de una sola pasada. | Beat Drop. Flash blanco y Speed Ramp dinámico (1.8x -> 0.18x). | Beat y bajo enérgico LiQWYD. | [SFX: BEAT_DROP + STEAM] | 'UNA SOLA PASADA' en oro 3D |
 | **4.5 - 7.0s** | El pelaje de la mascota queda suave, brillante y con un aroma fresco sin haberla bañado con agua. | Paneo suave a 60 fps. | Voz Creador (es-US-Neural2-B): 'Deja el pelo brillante como recién salido del groomer profesional sin una gota de estrés.' | [SFX: SHINE_CHIME] | 'BRILLO PROFESIONAL' en cian neón |
 | **7.0 - 10.0s** | Unboxing del cepillo con sus accesorios y caja regalo. | Zoom out final. | Voz Creador (es-US-Neural2-B): 'Stock de alta demanda. Pídelo hoy y recíbelo en 7 a 10 días en tu puerta.' | [SFX: CASH_REGISTER] | 'ENVÍO 7-10 DÍAS' |
-
-
----
-
-### 🏆 GANADOR #3: SpineRelief Pro™ — Inflatable Lumbar Traction Belt
-
-**Categoría / Nicho**: Health & Ergonomics  
-**ID de Referencia**: `spinerelief-pro`  
-**Puntuación Compuesta**: **87.0 / 100** | **Estado**: `🏆 WINNER`  
-**Descripción**: Clinical-grade inflatable lumbar traction belt with 24 pneumatic columns providing 2.5 bar decompression for L1-L5 vertebrae and acute sciatica nerve relief.
-
-#### Ficha Técnica y Desglose Financiero
-
-| Parámetro Financiero | Valor USD / % | Estándar Canónico Antigravity | Estado |
-|---|:---:|:---:|:---:|
-| **Costo de Proveedor** (CoGS) | $10.00 USD | Costo mayorista de fábrica | ✅ Verificado |
-| **Costo de Envío Tracked** | $4.80 USD | YunExpress Specialty Line | ✅ Verificado |
-| **Landed Cost** (Costo Puesto) | $14.80 USD | CoGS + Flete internacional | ✅ Calculado |
-| **Precio de Venta Sugerido** (SRP) | $54.99 USD | Sweet spot de impulso ($29 – $69 USD) | ✅ Cumple R5 |
-| **Markup Multiplier** | **3.72x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
-| **Comisión Pasarela** (Stripe 2.9% + $0.30) | $1.89 USD | Deducción automática por transacción | ✅ Incluido |
-| **Buffer de Reserva** (1.0%) | $0.55 USD | Fondo para imprevistos / chargebacks | ✅ Incluido |
-| **Beneficio Neto Limpio por Unidad** | **$37.75 USD** | Ganancia neta líquida operativa | ✅ Auditado |
-| **Margen Neto** (%) | **68.7%** | Mínimo requerido: $\ge 65.0\%$ | ✅ EXCELENTE |
-
-#### Enlaces a Proveedores y Logística
-
-- **Proveedor Mayorista AliExpress**: [https://www.aliexpress.com/item/1005006626002554.html](https://www.aliexpress.com/item/1005006626002554.html)
-- **Sourcing Directo CJ Dropshipping**: [https://cjdropshipping.com/list-detail.html?search=lumbar%20traction%20belt](https://cjdropshipping.com/list-detail.html?search=lumbar%20traction%20belt)
-- **Línea Logística Homologada**: YunExpress Specialty Line (7 - 10 días laborables)
-- **Especificación de Empaque**: Caja neutra con bolsa TPU, bomba manual con manómetro, correa extensora
-- **Países Tier 1 Homologados**: US, UK, CA, AU
-
-#### Auditoría Forense de las 7 Reglas de Oro
-
-- **Regla 1 (Visual WOW (0-3s))**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
-- **Regla 2 (Acute Pain / Passion)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
-- **Regla 3 (Retail Scarcity)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Regla 4 (Unit Economics & Markup)**: ✅ Score: 85.0/100 (Ponderado: 17.0 pts) — Aprobado
-- **Regla 5 (Ticket Range Sweet Spot)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Regla 6 (Zero Sizing / Fragility)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Regla 7 (Fast Tracked Logistics)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Puertas de Knockout (KO-1 a KO-4)**: ✅ Limpio (Cero puertas KO activadas: Ninguna)
-
-#### Estrategia Demográfica y Franja Horaria Recomendada
-
-- **Age**: 35-65
-- **Gender**: all
-- **Occupations**: truck drivers, warehouse staff, office desk workers
-- **Symptoms**: chronic lumbar stiffness, sciatica nerve compression, herniated disc pain
-
-**Franja Horaria Recomendada de Publicación Orgánica**:
-- **Slot 1 (Matutino)** (06:30 – 08:00 Hora local del target): Rigidez lumbar y dolor agudo al despertar de la cama; scrolleo compulsivo matutino.
-- **Slot 2 (Mediodía)** (12:30 – 14:00 Hora local del target): Pausa tras 4 horas continuas de oficina o manejo de camión; fatiga lumbar acumulada.
-- **Slot 3 (Prime Nocturno)** (19:30 – 21:30 Hora local del target): Fin de jornada laboral; relax en sofá buscando alivio antes de dormir.
-
-#### Mecanismo WOW de Demostración (0 a 3 Segundos)
-
-> Segundo 0.0-1.5: Plano cerrado lateral en cintura. El usuario conecta la manguera y presiona la bomba dos veces. Segundo 1.5-3.0: El cinturón se expande violentamente hacia arriba con un sonido neumático nítido ([SFX: PNEUMATIC_HISS]), estirando visiblemente el torso mientras una animación 3D de rayos X muestra las vértebras L1-L5 separándose y el nervio ciático pasando de rojo a azul relajado.
-
-#### Ganchos de Conversión (Remotion Modalidad 3)
-
-A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la partitura canónica de Remotion Modalidad 3:
-
-##### 🪝 Gancho 1: Curiosidad Disruptiva (Pattern Interrupt)
-*Curiosidad Disruptiva: El Secreto Médico Prohibido*
-
-- **Voz Cliente (`es-US-Neural2-C`)**: *"¿Por qué los camioneros tienen prohibido manejar sin inflarse esto?"*
-- **Voz Creador (`es-US-Neural2-B`)**: *"Porque en 30 segundos separa tus vértebras 7 milímetros."*
-
-| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
-|:---:|:---|:---|:---|:---|:---|
-| **0.0 - 1.2s** | Primer plano de una persona colocándose una faja de tracción con manómetro neumático. | Snap Zoom violento (1.0x -> 1.35x) con desenfoque radial dinámico. | Voz Cliente (es-US-Neural2-C): '¿Por qué los camioneros tienen prohibido manejar sin inflarse esto?' | [SFX: WHOOSH_FAST] | '¿PROHIBIDO?' en rojo neón extruido arriba (rotateX: 12deg) |
-| **1.2 - 2.0s** | Detalle en 4K de las 24 columnas de aire en la espalda listas para cargarse. | Paneo lateral acelerado (1.8x rush). | Voz Creador (es-US-Neural2-B): 'Porque en 30 segundos separa tus vértebras 7 milímetros.' | [SFX: VINE_BOOM] | '7 MILÍMETROS' en verde esmeralda 3D |
-| **2.0 - 3.0s** | PANTALLA CONGELADA CON SILUETA EN TENSIÓN ANATÓMICA. | Cero movimiento (Pausa dramática de 1.0s de tensión acústica). | Silencio sepulcral absoluto (cero voz). | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
-| **3.0 - 4.5s** | El cinturón se infla a tope; el torso se estira visiblemente. Destello blanco. | Beat Drop. Flash blanco y Speed Ramp no lineal (2.0x -> 0.18x meseta técnica). | Entra bajo enérgico y track musical (LiQWYD - Show Me). | [SFX: BEAT_DROP + PNEUMATIC_HISS] | 'DESCOMPRESIÓN L4-L5' en dorado 3D sin cajas ni pills |
-| **4.5 - 7.0s** | Animación 3D de columna: el disco herniado vuelve a su centro al expandirse las vértebras. | Snap zoom a la zona lumbar con tracking volumétrico. | Voz Creador (es-US-Neural2-B): 'Libera el nervio ciático atrapado sin pisar un quirófano.' | [SFX: BONE_POP_RELIEF] | 'CIÁTICA DESBLOQUEADA' en cian neón 3D |
-| **7.0 - 10.0s** | El usuario camina erguido, sonríe y se toca la espalda sin dolor. | Zoom out continuo (0.95x) hacia la llamada a la acción. | Voz Creador (es-US-Neural2-B): 'Pruébalo 14 días. Si tu espalda no revive, te devolvemos cada centavo.' | [SFX: CASH_REGISTER] | 'GARANTÍA 14 DÍAS' en amarillo brillante |
-
-##### 🪝 Gancho 2: Agitación de Dolor Real (Emotional Visceral Trigger)
-*Agitación de Dolor Real: El Ardor Lumbar al Levantarte*
-
-- **Voz Cliente (`es-US-Neural2-C`)**: *"Si levantarte de la cama o del auto te toma 5 minutos por ese ardor lumbar..."*
-- **Voz Creador (`es-US-Neural2-B`)**: *"Tus vértebras están aplastando este nervio ahora mismo."*
-
-| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
-|:---:|:---|:---|:---|:---|:---|
-| **0.0 - 1.2s** | Persona que intenta levantarse de la silla de oficina y se queda doblada de agonía. | Snap zoom agresivo al rostro de dolor (1.0x -> 1.4x). | Voz Cliente (es-US-Neural2-C): 'Si levantarte de la cama o del auto te toma 5 minutos por ese ardor lumbar...' | [SFX: HEARTBEAT_LOW] | '¿ARDOR LUMBAR?' en rojo fuego 3D |
-| **1.2 - 2.0s** | Primer plano al pulgar apretando la zona baja de la columna inflamada. | Camera shake de impacto visceral. | Voz Creador (es-US-Neural2-B): 'Tus vértebras están aplastando este nervio ahora mismo.' | [SFX: ELECTRIC_SPARK] | 'NERVIO PELLIZCADO' en amarillo neón |
-| **2.0 - 3.0s** | CONGELADO EN EL MOMENTO DE TENSIÓN AGUDA DEL NERVIO. | Silencio acústico riguroso de 1.0s. | Cero voz, pausa absoluta. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
-| **3.0 - 4.5s** | El usuario se coloca el cinturón y bombea aire 3 veces con alivio instantáneo. | Beat Drop. Flash blanco y Speed Ramp (1.8x rush -> 0.18x meseta). | Entra beat y bajo enérgico LiQWYD. | [SFX: BEAT_DROP + AIR_PUMP] | 'ADIÓS PRESIÓN' en titanio 3D reflectivo |
-| **4.5 - 7.0s** | Expresión facial cambiando de sufrimiento a un suspiro de alivio genuino. | Paneo vertical suave de abajo hacia arriba. | Voz Creador (es-US-Neural2-B): '24 cámaras de aire absorben el peso de tu tronco de inmediato.' | [SFX: EXHALE_RELIEF] | 'ALIVIO EN 60 SEG' en verde esmeralda |
-| **7.0 - 10.0s** | El usuario agachándose con soltura para levantar un objeto del suelo sin miedo. | Tracking dinámico 3D. | Voz Creador (es-US-Neural2-B): 'Vuelve a moverte sin miedo al pinchazo. Enlace en bio con 40% OFF hoy.' | [SFX: CLICK_POP] | '40% OFF HOY' en oro 3D |
-
-##### 🪝 Gancho 3: Contrariano (Challenging Conventional Wisdom)
-*Contrariano: La Farsa de las Fajas de Farmacia*
-
-- **Voz Cliente (`es-US-Neural2-C`)**: *"Por qué gastar $150 en fajas de farmacia empeora tu dolor de espalda..."*
-- **Voz Creador (`es-US-Neural2-B`)**: *"Porque apretar tu abdomen no separa tus huesos."*
-
-| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
-|:---:|:---|:---|:---|:---|:---|
-| **0.0 - 1.2s** | Una faja elástica de neopreno barata de farmacia siendo arrojada al cubo de basura. | Snap Zoom directo al cubo de basura. | Voz Cliente (es-US-Neural2-C): 'Por qué gastar $150 en fajas de farmacia empeora tu dolor de espalda...' | [SFX: TRASH_SLAM] | 'NO SIRVEN' en rojo sangre sobre el cubo |
-| **1.2 - 2.0s** | Modelo anatómico mostrando cómo una faja elástica solo comprime la carne hacia adentro. | Giro 3D volumétrico (rotateY: -15deg). | Voz Creador (es-US-Neural2-B): 'Porque apretar tu abdomen no separa tus huesos.' | [SFX: VINE_BOOM] | 'SOLO APRIETAN' en naranja 3D |
-| **2.0 - 3.0s** | PANTALLA EN NEGRO / SILENCIO DE CONTRADICCIÓN. | Pausa acústica estricta de 1.0s. | Silencio total. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
-| **3.0 - 4.5s** | Entrada triunfal del SpineRelief Pro inflándose en cámara lenta vertical. | Beat Drop. Flash blanco y Speed Ramp dinámico. | Explota la base musical rítmica. | [SFX: BEAT_DROP + HISS] | 'TRACCIÓN CLÍNICA' en titanio reflectivo |
-| **4.5 - 7.0s** | Split screen animado: Faja elástica (fuerza horizontal dañina) vs SpineRelief Pro (fuerza vertical de descompresión). | Split screen animado con barras de fuerza 3D. | Voz Creador (es-US-Neural2-B): 'Esto estira verticalmente tu columna, imitando una camilla médica de $3,000.' | [SFX: DING_WIN] | 'TRACCIÓN VERTICAL' en cian neón |
-| **7.0 - 10.0s** | Demostración de uso discreto bajo la camisa en la oficina o manejando. | Paneo lateral suave a 60 fps. | Voz Creador (es-US-Neural2-B): 'Úsalo bajo tu ropa mientras trabajas. Talla universal con extensor gratis.' | [SFX: DISCORD_PING] | 'TALLA UNIVERSAL' en amarillo 3D |
-
-##### 🪝 Gancho 4: Transformación Inmediata (Before vs After)
-*Transformación Inmediata: De la Incapacidad a la Plenitud*
-
-- **Voz Cliente (`es-US-Neural2-C`)**: *"De no poder atarte las zapatillas por el dolor de ciática..."*
-- **Voz Creador (`es-US-Neural2-B`)**: *"A pasar 6 horas de pie sin un solo tirón lumbar."*
-
-| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
-|:---:|:---|:---|:---|:---|:---|
-| **0.0 - 1.2s** | Pantalla dividida: Lado izquierdo (Persona encorvada que no puede inclinarse a atarse los zapatos). | Zoom in hacia la izquierda con tono desaturado y frío. | Voz Cliente (es-US-Neural2-C): 'De no poder atarte las zapatillas por el dolor de ciática...' | [SFX: RECORD_SCRATCH] | 'ANTES' en rojo desaturado |
-| **1.2 - 2.0s** | Lado derecho: La misma persona trotando y jugando con sus hijos sin molestia alguna. | Snap zoom al lado derecho brillante y saturado. | Voz Creador (es-US-Neural2-B): 'A pasar 6 horas de pie sin un solo tirón lumbar.' | [SFX: WHOOSH_SWOOSH] | 'DESPUÉS' en verde esmeralda 3D |
-| **2.0 - 3.0s** | CONGELADO EN EL CORTE CENTRAL DE CONTRASTE. | Silencio dramático riguroso de 1.0s. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
-| **3.0 - 4.5s** | Se revela el SpineRelief Pro ajustado discretamente bajo la ropa. | Beat Drop. Flash blanco y cámara lenta técnica (0.18x plateau). | Entra la música al 100% de ganancia (mastering a -19.7 LUFS). | [SFX: BEAT_DROP] | 'EL SECRETO' en oro 3D flotante |
-| **4.5 - 7.0s** | Primer plano al manómetro marcando 2.5 bares de descompresión segura. | Rotación 3D en eje Z. | Voz Creador (es-US-Neural2-B): '20 minutos al día para reprogramar el espacio de tus discos vertebrales.' | [SFX: RATCHET_CLICK] | '20 MIN AL DÍA' en cian neón |
-| **7.0 - 10.0s** | Unboxing completo del kit con bomba, extensor y folleto en español. | Zoom out fluido. | Voz Creador (es-US-Neural2-B): 'Envío express garantizado en 7 a 10 días. Pide el tuyo en el botón abajo.' | [SFX: BELL_CHIME] | 'ENVÍO EXPRESS 7-10D' |
 
 
 ---
