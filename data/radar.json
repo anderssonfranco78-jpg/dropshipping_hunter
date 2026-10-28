@@ -1,80 +1,88 @@
 {
- "updated_at": "2026-10-28 11:44:01 UTC",
+ "updated_at": "2026-10-28 17:30:21 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
     "keyword": "cat water fountain",
-    "shorts_found": 30,
-    "median_views_top10": 137000,
-    "max_views": 6100000,
-    "over_100k": 6,
-    "over_1m": 2,
+    "shorts_found": 33,
+    "median_views_top10": 18500,
+    "max_views": 3500000,
+    "over_100k": 3,
+    "over_1m": 1,
     "top": [
      {
-      "title": "Anti-Gravity Water Fountain For Cats #goodtoknow #vet #medicine #educational #funfacts #lifehacks",
-      "views": 6100000,
-      "url": "https://www.youtube.com/shorts/dKXyh-A32Kk"
-     },
-     {
       "title": "We bought Pancake a second water fountain because he flipped the first 😂💦 He saw another challenge",
-      "views": 3200000,
+      "views": 3500000,
       "url": "https://www.youtube.com/shorts/ZAIyLMDzr7A"
      },
      {
       "title": "This little water fountain by @oneisall_official - no cords, super quiet, and they love it!",
-      "views": 379000,
+      "views": 380000,
       "url": "https://www.youtube.com/shorts/_RMsX31WeFw"
-     },
-     {
-      "title": "Cat water fountain upgrade🐱 linked in bio on Amazon! #catwaterbowl #catwaterfountain #amazongadgets",
-      "views": 257000,
-      "url": "https://www.youtube.com/shorts/NI9oZLyLSL0"
      },
      {
       "title": "Pet water fountain #cat #bestpetsupplies #petcareprovider",
       "views": 171000,
       "url": "https://www.youtube.com/shorts/2rNva4yBN9A"
+     },
+     {
+      "title": "🐾“Cute Cat Got Her Water Fountain ✨”#shorts #viralshorts #pets #cats #catlovers",
+      "views": 31000,
+      "url": "https://www.youtube.com/shorts/llhWDiIt44A"
+     },
+     {
+      "title": "My Cat OBSESSED With This Faucet Fountain! 😻 #Shorts",
+      "views": 19000,
+      "url": "https://www.youtube.com/shorts/Zp2bnUVbSG0"
      }
     ],
     "status": "LIVE"
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": -12.0,
+    "momentum_pct": -6.4,
     "low_volume": false,
-    "peak_ratio": 0.37,
-    "mean_recent": 36.8
+    "peak_ratio": 0.36,
+    "mean_recent": 36.5
    },
    "trends_series": [
-    60,
-    47,
+    46,
     46,
     69,
     83,
-    63,
-    68,
+    62,
+    69,
     94,
     100,
     94,
-    65,
-    51,
+    63,
+    50,
     39,
     39,
     40,
-    37,
+    36,
     37,
     36,
     34,
-    39,
-    44,
+    38,
+    43,
     40,
-    37,
-    39,
     36,
-    35
+    38,
+    36,
+    36,
+    36
    ],
    "trends_status": "LIVE",
    "rising": [
+    {
+     "query": "freshflow cat water fountain",
+     "growth": "Breakout"
+    },
+    {
+     "query": "bissell cat water fountain",
+     "growth": "Breakout"
+    },
     {
      "query": "selene cat water fountain",
      "growth": "Breakout"
@@ -84,45 +92,37 @@
      "growth": "+250%"
     },
     {
-     "query": "quiet cat water fountain",
-     "growth": "+150%"
+     "query": "cordless cat water fountain",
+     "growth": "+180%"
     },
     {
      "query": "wireless cat water fountain",
-     "growth": "+150%"
-    },
-    {
-     "query": "cordless cat water fountain",
-     "growth": "+150%"
-    },
-    {
-     "query": "cat water fountain stainless steel",
-     "growth": "+110%"
+     "growth": "+140%"
     }
    ],
-   "rising_at": "2026-10-24 14:57:39 UTC",
+   "rising_at": "2026-10-28 17:30:01 UTC",
    "market": {
-    "score": 61,
-    "video_score": 83,
-    "trend_score": 40,
-    "crowding": "media",
+    "score": 63,
+    "video_score": 62,
+    "trend_score": 65,
+    "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 137K vistas (el mayor, 6.1M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -12% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 18K vistas (el mayor, 3.5M)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Google (EE. UU.): estable -6% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-27 02:34:55 UTC",
-   "trends_at": "2026-10-24 14:57 UTC"
+   "measured_at": "2026-10-28 17:30:01 UTC",
+   "trends_at": "2026-10-28 17:29:59 UTC"
   },
   "dog-paw-cleaner": {
    "youtube": {
     "keyword": "dog paw cleaner cup",
-    "shorts_found": 36,
-    "median_views_top10": 37500,
+    "shorts_found": 31,
+    "median_views_top10": 2400,
     "max_views": 43000000,
-    "over_100k": 3,
+    "over_100k": 2,
     "over_1m": 1,
     "top": [
      {
@@ -132,23 +132,23 @@
      },
      {
       "title": "An automatic paw cleaner 🙌🐾 #dog #dogs #paw #paws #clean",
-      "views": 662000,
+      "views": 663000,
       "url": "https://www.youtube.com/shorts/j_aMdxdU0IA"
      },
      {
-      "title": "The secret to spotless floors after a walk 🐾 #dogcare #lifehacks",
-      "views": 327000,
-      "url": "https://www.youtube.com/shorts/shoJwDc3NIE"
+      "title": "The world’s first reusable paw cleaner #shorts",
+      "views": 63000,
+      "url": "https://www.youtube.com/shorts/hpRUL-3XTZE"
      },
      {
-      "title": "PetPals Automatic Dog Paw Cleaner, USB Rechargeable Silicone Portable Pet Paw Washer for Small to",
-      "views": 47000,
-      "url": "https://www.youtube.com/shorts/8XFwns9dxxA"
+      "title": "Dog Paw Cleaner Cup: Clean Muddy Paws Before They Hit the Floor",
+      "views": 11000,
+      "url": "https://www.youtube.com/shorts/rP1L3eOL_3E"
      },
      {
-      "title": "Muddy paws? 🐾 This paw cleaner cup for dogs #shorts",
-      "views": 44000,
-      "url": "https://www.youtube.com/shorts/w_7DDnZijRA"
+      "title": "Dog Paw Cleaner Cup | Clean Muddy Paws Before They Hit the Floor #Shorts",
+      "views": 2600,
+      "url": "https://www.youtube.com/shorts/4P0zKr9HoZc"
      }
     ],
     "status": "LIVE"
@@ -209,19 +209,19 @@
    ],
    "rising_at": "2026-10-12 10:07:22 UTC",
    "market": {
-    "score": 69,
-    "video_score": 69,
+    "score": 40,
+    "video_score": 40,
     "trend_score": null,
     "crowding": "baja",
     "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 38K vistas (el mayor, 43M)",
+     "Shorts: los 10 más vistos tienen una mediana de 2K vistas (el mayor, 43M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google: casi no se busca por nombre (normal en gadgets que se descubren en video)"
     ]
    },
-   "measured_at": "2026-10-27 02:35:09 UTC",
-   "trends_at": "2026-10-27 02:35:09 UTC"
+   "measured_at": "2026-10-28 17:30:05 UTC",
+   "trends_at": "2026-10-27 02:35 UTC"
   },
   "lick-mat": {
    "youtube": {
@@ -674,21 +674,26 @@
   "magnetic-window-cleaner": {
    "youtube": {
     "keyword": "magnetic window cleaner",
-    "shorts_found": 31,
-    "median_views_top10": 845000,
+    "shorts_found": 28,
+    "median_views_top10": 845500,
     "max_views": 23000000,
-    "over_100k": 7,
+    "over_100k": 8,
     "over_1m": 4,
     "top": [
+     {
+      "title": "This Magnetic Window Cleaner is My New Favorite Toy! ✨ So CLEVER! #cleaninggadget #windowwashing",
+      "views": 23000000,
+      "url": "https://www.youtube.com/shorts/AJRT9Kuk8mQ"
+     },
      {
       "title": "▶️ Clean both sides easily Double Side Magnetic Window Cleaner Brush Tool ( # 2121 )",
       "views": 23000000,
       "url": "https://www.youtube.com/shorts/KpW-e3zhSbg"
      },
      {
-      "title": "This Magnetic Window Cleaner is My New Favorite Toy! ✨ So CLEVER! #cleaninggadget #windowwashing",
-      "views": 23000000,
-      "url": "https://www.youtube.com/shorts/AJRT9Kuk8mQ"
+      "title": "Double Side Magnetic Window Cleaner Brush Tool 🎯Product Link in Description & Comments!🎯",
+      "views": 16000000,
+      "url": "https://www.youtube.com/shorts/gFzvm6zPhiA"
      },
      {
       "title": "Does this magnetic window cleaner really work?",
@@ -696,13 +701,8 @@
       "url": "https://www.youtube.com/shorts/-CW9PIm3XJI"
      },
      {
-      "title": "1️⃣ Clean both sides easily Double Side Magnetic Window Cleaner Brush Tool ( # 2121 )",
-      "views": 3900000,
-      "url": "https://www.youtube.com/shorts/9VfkD2XRjRY"
-     },
-     {
       "title": "how to use a magnetic glass cleaner?",
-      "views": 888000,
+      "views": 889000,
       "url": "https://www.youtube.com/shorts/vQNbom6sW8o"
      }
     ],
@@ -717,12 +717,12 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 845K vistas (el mayor, 23M)",
+     "Shorts: los 10 más vistos tienen una mediana de 846K vistas (el mayor, 23M)",
      "Competencia alta: 4 Shorts pasan el millón de vistas",
      "Google (EE. UU.): estable +4% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-27 11:08:57 UTC",
+   "measured_at": "2026-10-28 17:30:09 UTC",
    "trends": {
     "momentum_pct": 4.2,
     "low_volume": false,
@@ -757,7 +757,7 @@
     31,
     33
    ],
-   "trends_at": "2026-10-27 11:08:54 UTC",
+   "trends_at": "2026-10-27 11:08 UTC",
    "rising": [
     {
      "query": "roboclean window cleaner",
@@ -789,10 +789,10 @@
   "shower-filter": {
    "youtube": {
     "keyword": "shower head filter",
-    "shorts_found": 32,
-    "median_views_top10": 275500,
+    "shorts_found": 30,
+    "median_views_top10": 231500,
     "max_views": 5200000,
-    "over_100k": 9,
+    "over_100k": 8,
     "over_1m": 3,
     "top": [
      {
@@ -811,14 +811,14 @@
       "url": "https://www.youtube.com/shorts/gAJo4YHWVL0"
      },
      {
-      "title": "Ultimate Hydro Jet Shower Head Review: The Best High-Pressure Shower Experience! #hydrojet #shower",
-      "views": 288000,
-      "url": "https://www.youtube.com/shorts/Cl6LNTj29bM"
+      "title": "Top Amazon Finds You’ll Love, Filtered Shower Head with Handheld #amazonfinds #amazongadgets",
+      "views": 284000,
+      "url": "https://www.youtube.com/shorts/vAcqXZtOzoU"
      },
      {
-      "title": "Top Amazon Finds You’ll Love, Filtered Shower Head with Handheld #amazonfinds #amazongadgets",
-      "views": 283000,
-      "url": "https://www.youtube.com/shorts/vAcqXZtOzoU"
+      "title": "3 months of using my Jolie filtered shower head and I definitely see the difference in my hair",
+      "views": 237000,
+      "url": "https://www.youtube.com/shorts/yu9DGlba1Xw"
      }
     ],
     "status": "LIVE"
@@ -826,18 +826,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 66,
-    "video_score": 91,
+    "score": 64,
+    "video_score": 89,
     "trend_score": 40,
     "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 276K vistas (el mayor, 5.2M)",
+     "Shorts: los 10 más vistos tienen una mediana de 232K vistas (el mayor, 5.2M)",
      "Competencia media: 3 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -25% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-27 11:09:07 UTC",
+   "measured_at": "2026-10-28 17:30:14 UTC",
    "trends": {
     "momentum_pct": -24.7,
     "low_volume": false,
@@ -872,7 +872,7 @@
     16,
     17
    ],
-   "trends_at": "2026-10-27 11:09:03 UTC",
+   "trends_at": "2026-10-27 11:09 UTC",
    "rising": [
     {
      "query": "aquabliss high output 12-stage shower filter",
@@ -905,20 +905,15 @@
    "youtube": {
     "keyword": "portable blender",
     "shorts_found": 28,
-    "median_views_top10": 296000,
+    "median_views_top10": 62000,
     "max_views": 587000000,
-    "over_100k": 5,
-    "over_1m": 4,
+    "over_100k": 4,
+    "over_1m": 3,
     "top": [
      {
       "title": "Orange in portable Blender",
       "views": 587000000,
       "url": "https://www.youtube.com/shorts/r6R7VzXvxNo"
-     },
-     {
-      "title": "The Fastest Way To Make Fresh Juice!",
-      "views": 220000000,
-      "url": "https://www.youtube.com/shorts/IXJYL3IyNTs"
      },
      {
       "title": "Portable Blender Smoothies Personal Blender Mini Shakes Juicer Cup USB Rechargeable.#shorts",
@@ -931,9 +926,14 @@
       "url": "https://www.youtube.com/shorts/wG6Ris7oVp8"
      },
      {
-      "title": "Best Portable Blender!🤩🧃",
-      "views": 510000,
-      "url": "https://www.youtube.com/shorts/ueMXK5JcaO8"
+      "title": "Healthy Orange Juice🍊🍹in Portable Blender #shorts #shortvideo #agaro #portableblender",
+      "views": 525000,
+      "url": "https://www.youtube.com/shorts/i7ordPAFt50"
+     },
+     {
+      "title": "Colourfull Jelly In Portable Blender #shorts #trending",
+      "views": 85000,
+      "url": "https://www.youtube.com/shorts/_CcZMY3QTjA"
      }
     ],
     "status": "LIVE"
@@ -942,17 +942,17 @@
    "trends_status": "LIVE",
    "market": {
     "score": 48,
-    "video_score": 92,
+    "video_score": 75,
     "trend_score": 20,
-    "crowding": "alta",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 296K vistas (el mayor, 587M)",
-     "Competencia alta: 4 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 62K vistas (el mayor, 587M)",
+     "Competencia media: 3 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -49% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-27 11:09:10 UTC",
+   "measured_at": "2026-10-28 17:30:18 UTC",
    "trends": {
     "momentum_pct": -49.1,
     "low_volume": false,
@@ -1019,16 +1019,26 @@
   "veggie-chopper": {
    "youtube": {
     "keyword": "vegetable chopper",
-    "shorts_found": 28,
-    "median_views_top10": 600000,
-    "max_views": 2500000,
-    "over_100k": 10,
-    "over_1m": 3,
+    "shorts_found": 29,
+    "median_views_top10": 1200000,
+    "max_views": 32000000,
+    "over_100k": 12,
+    "over_1m": 6,
     "top": [
+     {
+      "title": "Viral Vegetable Slicer Test 🥕",
+      "views": 32000000,
+      "url": "https://www.youtube.com/shorts/s7W-fLzgfaA"
+     },
      {
       "title": "Handpress Vegetable Chopper || Viral chopper Review #shortsfeed #shorts #viral",
       "views": 2500000,
       "url": "https://www.youtube.com/shorts/DCMlBk3hUps"
+     },
+     {
+      "title": "Premium Manual Pull Food Chopper | Multi-Function Kitchen Chopper #shorts",
+      "views": 2200000,
+      "url": "https://www.youtube.com/shorts/DFJ_lX16p5w"
      },
      {
       "title": "Top-rated Amazon food chopper✨ #veggiechopper  #amazonfinds #kitchen #cookinghacks #kitchengadgets",
@@ -1039,16 +1049,6 @@
       "title": "This veggie chopper is a game changer for your kitchen.",
       "views": 1400000,
       "url": "https://www.youtube.com/shorts/8yZju_vk_CY"
-     },
-     {
-      "title": "Professional Vegetable Chopper | Chop Vegetables in Seconds 🥕 #Shorts",
-      "views": 746000,
-      "url": "https://www.youtube.com/shorts/BV6DUkPtpFo"
-     },
-     {
-      "title": "Premium Manual Pull Food Chopper | Multi-Function Kitchen Chopper #shorts",
-      "views": 626000,
-      "url": "https://www.youtube.com/shorts/tM990IaLH8c"
      }
     ],
     "status": "LIVE"
@@ -1056,18 +1056,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 80,
-    "video_score": 99,
+    "score": 71,
+    "video_score": 100,
     "trend_score": 65,
-    "crowding": "media",
+    "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 600K vistas (el mayor, 2.5M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 1.2M vistas (el mayor, 32M)",
+     "Competencia alta: 6 Shorts pasan el millón de vistas",
      "Google (EE. UU.): estable -10% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-27 11:09:14 UTC",
+   "measured_at": "2026-10-28 17:30:21 UTC",
    "trends": {
     "momentum_pct": -9.5,
     "low_volume": false,
