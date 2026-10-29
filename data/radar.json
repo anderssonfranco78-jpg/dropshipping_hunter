@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-29 17:40:39 UTC",
+ "updated_at": "2026-10-29 22:06:00 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -444,16 +444,21 @@
   "pet-hair-roller": {
    "youtube": {
     "keyword": "pet hair remover roller",
-    "shorts_found": 33,
-    "median_views_top10": 78000,
+    "shorts_found": 31,
+    "median_views_top10": 193000,
     "max_views": 389000000,
-    "over_100k": 5,
+    "over_100k": 8,
     "over_1m": 1,
     "top": [
      {
       "title": "This is the best and fastest way to remove pet hair! I use this everywhere #cleaning #petbrush #cat",
       "views": 389000000,
       "url": "https://www.youtube.com/shorts/sdNKcmKzcko"
+     },
+     {
+      "title": "Use This Roller Instead of Lint Roller!",
+      "views": 333000,
+      "url": "https://www.youtube.com/shorts/nE3JrIYTwpc"
      },
      {
       "title": "Testing Out The ChomChom Pet Hair Removal Roller | The Pack",
@@ -466,14 +471,9 @@
       "url": "https://www.youtube.com/shorts/d_nn2-z_6ls"
      },
      {
-      "title": "Ⓜ️Product Link in Comments!Ⓜ️ Ultimate Pet Hair Remover Roller",
-      "views": 136000,
-      "url": "https://www.youtube.com/shorts/Egcm_8T86Mg"
-     },
-     {
-      "title": "Ⓜ️Product Link in Comments!Ⓜ️ Ultimate Pet Hair Remover Roller",
-      "views": 117000,
-      "url": "https://www.youtube.com/shorts/5k5AEBh9H8Y"
+      "title": "They claim this is the \"World's Best\" way to remove pet hair from your couch...let's see #shorts",
+      "views": 241000,
+      "url": "https://www.youtube.com/shorts/2A09eFzbngw"
      }
     ],
     "status": "LIVE"
@@ -515,19 +515,19 @@
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 62,
-    "video_score": 77,
+    "score": 68,
+    "video_score": 87,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 78K vistas (el mayor, 389M)",
+     "Shorts: los 10 más vistos tienen una mediana de 193K vistas (el mayor, 389M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -21% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-28 21:57:10 UTC",
-   "trends_at": "2026-10-28 21:57:10 UTC",
+   "measured_at": "2026-10-29 22:05:56 UTC",
+   "trends_at": "2026-10-28 21:57 UTC",
    "rising": [
     {
      "query": "pure path pet hair remover",
@@ -559,10 +559,10 @@
   "spin-scrubber": {
    "youtube": {
     "keyword": "electric spin scrubber",
-    "shorts_found": 31,
-    "median_views_top10": 31000,
+    "shorts_found": 32,
+    "median_views_top10": 89000,
     "max_views": 2100000,
-    "over_100k": 4,
+    "over_100k": 5,
     "over_1m": 1,
     "top": [
      {
@@ -581,14 +581,14 @@
       "url": "https://www.youtube.com/shorts/1wNm9y-8-7A"
      },
      {
-      "title": "Electric Spin Scrubber For Cleaning 🔥 #shortsvideo #shorts",
-      "views": 146000,
-      "url": "https://www.youtube.com/shorts/E_oO68JGi-0"
+      "title": "Product Link in the Comments! Max Clean Spinner Turbo Electric Scrub Brush⁠",
+      "views": 165000,
+      "url": "https://www.youtube.com/shorts/iNLUA1vhc-Y"
      },
      {
-      "title": "Electric Spin Scrubber 🔥 AGARO Royal #shorts #spinscrubber #shortvideo #viralvideo",
-      "views": 31000,
-      "url": "https://www.youtube.com/shorts/Y_VHBuSNw-U"
+      "title": "Cordless Spin Scrubber! 🚗 🫧",
+      "views": 114000,
+      "url": "https://www.youtube.com/shorts/APbDsjvfZUw"
      }
     ],
     "status": "LIVE"
@@ -630,19 +630,19 @@
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 56,
-    "video_score": 67,
+    "score": 63,
+    "video_score": 79,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 31K vistas (el mayor, 2.1M)",
+     "Shorts: los 10 más vistos tienen una mediana de 89K vistas (el mayor, 2.1M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -22% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-28 21:57:17 UTC",
-   "trends_at": "2026-10-28 21:57:17 UTC",
+   "measured_at": "2026-10-29 22:06:00 UTC",
+   "trends_at": "2026-10-28 21:57 UTC",
    "rising": [
     {
      "query": "hoto flexi cordless spin scrubber",
@@ -904,16 +904,26 @@
   "portable-blender": {
    "youtube": {
     "keyword": "portable blender",
-    "shorts_found": 28,
-    "median_views_top10": 62000,
+    "shorts_found": 34,
+    "median_views_top10": 1850000,
     "max_views": 587000000,
-    "over_100k": 4,
-    "over_1m": 3,
+    "over_100k": 9,
+    "over_1m": 6,
     "top": [
      {
       "title": "Orange in portable Blender",
       "views": 587000000,
       "url": "https://www.youtube.com/shorts/r6R7VzXvxNo"
+     },
+     {
+      "title": "What should we blend next? 🍓🫐 #freshjuice #smoothie #milkshake #portableblender #foryoupage",
+      "views": 14000000,
+      "url": "https://www.youtube.com/shorts/eE4IzQwbHk4"
+     },
+     {
+      "title": "Oreo Cookie Shake in Portable Blender 🍪✨️ #shorts #asmr",
+      "views": 2300000,
+      "url": "https://www.youtube.com/shorts/HGaLjWKiuh4"
      },
      {
       "title": "Portable Blender Smoothies Personal Blender Mini Shakes Juicer Cup USB Rechargeable.#shorts",
@@ -924,16 +934,6 @@
       "title": "Check the portable blender!Perfect for shakes and smoothies.Compact 600ML design for on-the-go use.",
       "views": 2100000,
       "url": "https://www.youtube.com/shorts/wG6Ris7oVp8"
-     },
-     {
-      "title": "Healthy Orange Juice🍊🍹in Portable Blender #shorts #shortvideo #agaro #portableblender",
-      "views": 525000,
-      "url": "https://www.youtube.com/shorts/i7ordPAFt50"
-     },
-     {
-      "title": "Colourfull Jelly In Portable Blender #shorts #trending",
-      "views": 85000,
-      "url": "https://www.youtube.com/shorts/_CcZMY3QTjA"
      }
     ],
     "status": "LIVE"
@@ -941,18 +941,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 48,
-    "video_score": 75,
+    "score": 53,
+    "video_score": 100,
     "trend_score": 20,
-    "crowding": "media",
+    "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 62K vistas (el mayor, 587M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 1.9M vistas (el mayor, 587M)",
+     "Competencia alta: 6 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -49% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-28 17:30:18 UTC",
+   "measured_at": "2026-10-29 22:05:37 UTC",
    "trends": {
     "momentum_pct": -49.1,
     "low_volume": false,
@@ -960,14 +960,14 @@
     "mean_recent": 2.2
    },
    "trends_series": [
-    62,
-    76,
-    67,
+    65,
+    73,
+    64,
     21,
     17,
     17,
     19,
-    15,
+    16,
     18,
     6,
     5,
@@ -978,16 +978,16 @@
     3,
     3,
     3,
+    4,
     3,
-    3,
-    3,
+    2,
     3,
     2,
     3,
     2,
     2
    ],
-   "trends_at": "2026-10-26 01:56 UTC",
+   "trends_at": "2026-10-29 22:05:34 UTC",
    "rising": [
     {
      "query": "handy gourmet revmix portable blender",
@@ -1006,33 +1006,38 @@
      "growth": "Breakout"
     },
     {
-     "query": "breville super q blender",
-     "growth": "Breakout"
+     "query": "aldi ambiano portable blender",
+     "growth": "+1,600%"
     },
     {
-     "query": "aldi ambiano portable blender",
-     "growth": "+2,550%"
+     "query": "nutribullet flex portable blender",
+     "growth": "+1,200%"
     }
    ],
-   "rising_at": "2026-10-26 01:56:30 UTC"
+   "rising_at": "2026-10-29 22:05:37 UTC"
   },
   "veggie-chopper": {
    "youtube": {
     "keyword": "vegetable chopper",
-    "shorts_found": 29,
-    "median_views_top10": 1200000,
-    "max_views": 32000000,
-    "over_100k": 12,
-    "over_1m": 6,
+    "shorts_found": 33,
+    "median_views_top10": 873000,
+    "max_views": 15000000,
+    "over_100k": 15,
+    "over_1m": 5,
     "top": [
      {
-      "title": "Viral Vegetable Slicer Test 🥕",
-      "views": 32000000,
-      "url": "https://www.youtube.com/shorts/s7W-fLzgfaA"
+      "title": "This Vegetable Chopper from Amazon is Amazing!",
+      "views": 15000000,
+      "url": "https://www.youtube.com/shorts/a1L_hh9Frbg"
+     },
+     {
+      "title": "Vegetable Cutter Peeler #shorts #gadgets #vegetablecutter #products",
+      "views": 14000000,
+      "url": "https://www.youtube.com/shorts/Kx7kRNKrr8Y"
      },
      {
       "title": "Handpress Vegetable Chopper || Viral chopper Review #shortsfeed #shorts #viral",
-      "views": 2500000,
+      "views": 2600000,
       "url": "https://www.youtube.com/shorts/DCMlBk3hUps"
      },
      {
@@ -1041,14 +1046,9 @@
       "url": "https://www.youtube.com/shorts/DFJ_lX16p5w"
      },
      {
-      "title": "Top-rated Amazon food chopper✨ #veggiechopper  #amazonfinds #kitchen #cookinghacks #kitchengadgets",
-      "views": 2100000,
-      "url": "https://www.youtube.com/shorts/L03A3PCFdZE"
-     },
-     {
-      "title": "This veggie chopper is a game changer for your kitchen.",
-      "views": 1400000,
-      "url": "https://www.youtube.com/shorts/8yZju_vk_CY"
+      "title": "Easy Chopping vegetables in usha FP3811 food processor #shorts #ytshorts #gadgets #kitchen #cooking",
+      "views": 1000000,
+      "url": "https://www.youtube.com/shorts/MzWtgV4CWLk"
      }
     ],
     "status": "LIVE"
@@ -1062,74 +1062,74 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 1.2M vistas (el mayor, 32M)",
-     "Competencia alta: 6 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): estable -10% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 873K vistas (el mayor, 15M)",
+     "Competencia alta: 5 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): estable -7% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-28 17:30:21 UTC",
+   "measured_at": "2026-10-29 22:05:44 UTC",
    "trends": {
-    "momentum_pct": -9.5,
+    "momentum_pct": -6.7,
     "low_volume": false,
-    "peak_ratio": 0.28,
-    "mean_recent": 28.5
+    "peak_ratio": 0.29,
+    "mean_recent": 29.0
    },
    "trends_series": [
-    60,
+    59,
     55,
+    78,
     81,
-    82,
     57,
-    68,
-    75,
-    71,
-    85,
+    66,
+    74,
+    72,
+    81,
+    38,
     37,
-    37,
-    34,
-    36,
-    34,
-    28,
+    35,
     33,
-    31,
-    31,
-    31,
-    27,
-    29,
-    27,
+    34,
     28,
-    40,
-    21,
+    32,
+    32,
+    30,
+    33,
+    26,
+    26,
+    27,
+    25,
+    39,
+    27,
     25
    ],
-   "trends_at": "2026-10-26 01:56 UTC",
+   "trends_at": "2026-10-29 22:05:42 UTC",
    "rising": [
     {
-     "query": "heavy duty vegetable chopper",
-     "growth": "+300%"
+     "query": "oxo good grips vegetable chopper",
+     "growth": "+250%"
     },
     {
-     "query": "oxo good grips vegetable chopper",
-     "growth": "+200%"
+     "query": "heavy duty vegetable chopper",
+     "growth": "+250%"
     },
     {
      "query": "mini vegetable chopper",
-     "growth": "+190%"
+     "growth": "+200%"
     },
     {
      "query": "commercial vegetable chopper",
-     "growth": "+150%"
+     "growth": "+140%"
     },
     {
      "query": "vegetable chopper and slicer",
-     "growth": "+120%"
+     "growth": "+130%"
     },
     {
      "query": "mandoline slicer",
-     "growth": "+100%"
+     "growth": "+110%"
     }
    ],
-   "rising_at": "2026-10-26 01:56:39 UTC"
+   "rising_at": "2026-10-29 22:05:44 UTC"
   },
   "oil-sprayer": {
    "youtube": {
@@ -1594,12 +1594,17 @@
   "ice-roller": {
    "youtube": {
     "keyword": "ice roller face",
-    "shorts_found": 34,
-    "median_views_top10": 253500,
-    "max_views": 1400000,
-    "over_100k": 6,
-    "over_1m": 3,
+    "shorts_found": 33,
+    "median_views_top10": 734500,
+    "max_views": 2600000,
+    "over_100k": 10,
+    "over_1m": 4,
     "top": [
+     {
+      "title": "Ice roller✨💗 #skincare #brightskin #iceroller #beauty #homeremedies #skincareroutine  #shorts",
+      "views": 2600000,
+      "url": "https://www.youtube.com/shorts/2bSCfEv3_F8"
+     },
      {
       "title": "Beetroot Ice Roller💗✨ #shorts #ytshorts #trending #viralvideo #skincare #explore #youtubeshorts",
       "views": 1400000,
@@ -1616,14 +1621,9 @@
       "url": "https://www.youtube.com/shorts/G8HEuFZAMYc"
      },
      {
-      "title": "Ice roller✨💗 #skincare #brightskin #iceroller #beauty #homeremedies #skincareroutine  #shorts",
-      "views": 470000,
-      "url": "https://www.youtube.com/shorts/0IoAfuqQtHk"
-     },
-     {
-      "title": "Facial Massage ice ball Face massager ball ice face roller crystal eyes massager",
-      "views": 397000,
-      "url": "https://www.youtube.com/shorts/9Wty7zbXcg0"
+      "title": "Ice roller for face to minimise open pores #iceroller #shorts #meesho #shortsyoutube",
+      "views": 999000,
+      "url": "https://www.youtube.com/shorts/72rgikj7S1E"
      }
     ],
     "status": "LIVE"
@@ -1631,18 +1631,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 75,
-    "video_score": 90,
+    "score": 71,
+    "video_score": 100,
     "trend_score": 65,
-    "crowding": "media",
+    "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 254K vistas (el mayor, 1.4M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 734K vistas (el mayor, 2.6M)",
+     "Competencia alta: 4 Shorts pasan el millón de vistas",
      "Google (EE. UU.): estable -8% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-28 21:56:56 UTC",
+   "measured_at": "2026-10-29 22:05:48 UTC",
    "trends": {
     "momentum_pct": -7.5,
     "low_volume": false,
@@ -1677,7 +1677,7 @@
     28,
     22
    ],
-   "trends_at": "2026-10-28 21:56:54 UTC",
+   "trends_at": "2026-10-28 21:56 UTC",
    "rising": [
     {
      "query": "2026 winter olympics ice hockey",
@@ -1709,11 +1709,11 @@
   "posture-corrector": {
    "youtube": {
     "keyword": "posture corrector",
-    "shorts_found": 36,
-    "median_views_top10": 3900000,
+    "shorts_found": 34,
+    "median_views_top10": 1049500,
     "max_views": 90000000,
-    "over_100k": 17,
-    "over_1m": 10,
+    "over_100k": 11,
+    "over_1m": 5,
     "top": [
      {
       "title": "Posture corrector",
@@ -1726,19 +1726,19 @@
       "url": "https://www.youtube.com/shorts/XLZooRAuxIQ"
      },
      {
-      "title": "Adjustable Back Posture Corrector/ Slouching Relieve Pain Belt Women Men #viral",
-      "views": 24000000,
-      "url": "https://www.youtube.com/shorts/th8b5N4ULX8"
+      "title": "Adjustable Back Posture Corrector Slouching Relieve Pain Belt for Women Men #correctposture",
+      "views": 3600000,
+      "url": "https://www.youtube.com/shorts/coS-Tr_vilM"
      },
      {
-      "title": "Posture correcting chair from Amazon | amazon finds | shorts #amazonfinds #shorts",
-      "views": 7000000,
-      "url": "https://www.youtube.com/shorts/DgkfwCUCyz0"
+      "title": "You need a Posture Corrector!",
+      "views": 2100000,
+      "url": "https://www.youtube.com/shorts/WafjXjYEyn4"
      },
      {
-      "title": "To keep my back straight, We made this...",
-      "views": 4200000,
-      "url": "https://www.youtube.com/shorts/jzx-yRPjSUU"
+      "title": "How To Wear MyBackPal Posture Corrector 2.0 #posturebrace #posturecorrection #backbrace",
+      "views": 1300000,
+      "url": "https://www.youtube.com/shorts/7aqUn_6EYlw"
      }
     ],
     "status": "LIVE"
@@ -1752,12 +1752,12 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 3.9M vistas (el mayor, 90M)",
-     "Competencia alta: 10 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 1M vistas (el mayor, 90M)",
+     "Competencia alta: 5 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -12% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-28 21:57:05 UTC",
+   "measured_at": "2026-10-29 22:05:52 UTC",
    "trends": {
     "momentum_pct": -12.3,
     "low_volume": false,
@@ -1792,7 +1792,7 @@
     25,
     19
    ],
-   "trends_at": "2026-10-28 21:57:03 UTC",
+   "trends_at": "2026-10-28 21:57 UTC",
    "rising": [
     {
      "query": "vortalex posture corrector",
