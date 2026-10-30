@@ -167,11 +167,11 @@
     },
     "youtube": {
       "keyword": "steamy cat brush",
-      "shorts_found": 31,
-      "median_views_top10": 156000,
+      "shorts_found": 29,
+      "median_views_top10": 126000,
       "max_views": 3800000,
-      "over_100k": 6,
-      "over_1m": 2,
+      "over_100k": 5,
+      "over_1m": 3,
       "top": [
         {
           "title": "🐶 Why Is Everyone Switching to This Steam Pet Brush?! 👀🔥",
@@ -184,9 +184,9 @@
           "url": "https://www.youtube.com/shorts/0kU6kGTG0Q8"
         },
         {
-          "title": "Amazon Pet Find 🐱 This Steam Brush Combines Mist Spray & Grooming! #petgroomingtips #cat #shorts",
-          "views": 376000,
-          "url": "https://www.youtube.com/shorts/_2lfgkAAx4I"
+          "title": "STEAMING CAT BRUSH CURES MY SON😱 *epic*",
+          "views": 1000000,
+          "url": "https://www.youtube.com/shorts/oZB-oBPfnMw"
         },
         {
           "title": "Cat Steam Brush",
@@ -233,7 +233,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -364,15 +364,17 @@
       "peak_ratio": 0.2,
       "mean_recent": 20.5,
       "mean_prior": 21.9,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-10-30 17:18 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "ultrasonic tooth cleaner",
-      "shorts_found": 30,
-      "median_views_top10": 898000,
+      "shorts_found": 29,
+      "median_views_top10": 1600000,
       "max_views": 5100000,
-      "over_100k": 8,
-      "over_1m": 5,
+      "over_100k": 10,
+      "over_1m": 6,
       "top": [
         {
           "title": "cleaning teeth with ultrasonic scaler #shorts #dentist #teethcleaning",
@@ -390,14 +392,14 @@
           "url": "https://www.youtube.com/shorts/MKD6ZfFwqyk"
         },
         {
+          "title": "A New Way To Brush Teeth",
+          "views": 2900000,
+          "url": "https://www.youtube.com/shorts/ROrU30Ovojo"
+        },
+        {
           "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
           "views": 1800000,
           "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
-        },
-        {
-          "title": "Scaling teeth to remove tartar and calculus #shorts",
-          "views": 1400000,
-          "url": "https://www.youtube.com/shorts/1RWeozzKyos"
         }
       ],
       "status": "LIVE"
@@ -438,7 +440,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -569,40 +571,42 @@
       "peak_ratio": 0.31,
       "mean_recent": 30.8,
       "mean_prior": 29.7,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-10-30 17:18 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "lumbar traction belt",
-      "shorts_found": 27,
-      "median_views_top10": 68000,
-      "max_views": 13000000,
-      "over_100k": 4,
-      "over_1m": 2,
+      "shorts_found": 28,
+      "median_views_top10": 2450000,
+      "max_views": 79000000,
+      "over_100k": 11,
+      "over_1m": 7,
       "top": [
+        {
+          "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
+          "views": 79000000,
+          "url": "https://www.youtube.com/shorts/VsfXV5vUhUk"
+        },
         {
           "title": "Stretch Your Spine Automatically",
           "views": 13000000,
           "url": "https://www.youtube.com/shorts/IK9sl-o50d0"
         },
         {
-          "title": "Need a quick and easy way to decompress your lower back?! Try this banded Lumbar Traction technique",
-          "views": 1400000,
-          "url": "https://www.youtube.com/shorts/Kn0jW9VBxXA"
+          "title": "Scoliosis Back Brace 💪🦴 #shorts",
+          "views": 7200000,
+          "url": "https://www.youtube.com/shorts/hsYOi_SZAWc"
         },
         {
-          "title": "Traction Treatment For Sciatica| Sciatica Treatment #sciatica #shorts",
-          "views": 238000,
-          "url": "https://www.youtube.com/shorts/oq1nC0LObDE"
+          "title": "Spinal Decompression (Inverted Band Hang)",
+          "views": 6800000,
+          "url": "https://www.youtube.com/shorts/2zpaeB1E1kw"
         },
         {
-          "title": "Spine and back traction using Lamber Belt at #yogapeacesansthan",
-          "views": 116000,
-          "url": "https://www.youtube.com/shorts/bdHrn9_9vj4"
-        },
-        {
-          "title": "Lumber pain treatment with Traction machine @#careorthophysiotherapy",
-          "views": 77000,
-          "url": "https://www.youtube.com/shorts/mMxQi55qfrE"
+          "title": "Mechanical Lumbar Traction for Back Pain",
+          "views": 3300000,
+          "url": "https://www.youtube.com/shorts/_pWlXLHnN-E"
         }
       ],
       "status": "LIVE"
@@ -639,7 +643,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -770,25 +774,22 @@
       "peak_ratio": 0.22,
       "mean_recent": 22.2,
       "mean_prior": 26.8,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-10-30 17:18 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "turbo jet fan",
       "shorts_found": 32,
-      "median_views_top10": 1650000,
+      "median_views_top10": 917500,
       "max_views": 80000000,
-      "over_100k": 12,
-      "over_1m": 6,
+      "over_100k": 11,
+      "over_1m": 5,
       "top": [
         {
           "title": "Metal Jet Fan from Electric Turbochargers | The H Lab #shorts",
           "views": 80000000,
           "url": "https://www.youtube.com/shorts/XnfuuZndsSA"
-        },
-        {
-          "title": "Notun Electronic Turbo Jet Blower Machine unboxing",
-          "views": 15000000,
-          "url": "https://www.youtube.com/shorts/wJLCgKwNA2w"
         },
         {
           "title": "Viral Jet Blower 😍⚡️ #gadgets #shorts",
@@ -804,6 +805,11 @@
           "title": "Crazy Powerful Turbo Jet Fan! 🔥",
           "views": 2300000,
           "url": "https://www.youtube.com/shorts/D6LcDtfEMfI"
+        },
+        {
+          "title": "Mini Turbo Jet Fan Powerful Blower | Air Blower #shorts #airblower",
+          "views": 1000000,
+          "url": "https://www.youtube.com/shorts/LEDdRGg_HU4"
         }
       ],
       "status": "LIVE"
