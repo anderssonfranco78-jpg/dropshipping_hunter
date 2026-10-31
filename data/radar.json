@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-30 21:44:33 UTC",
+ "updated_at": "2026-10-31 02:54:12 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -708,59 +708,62 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 71,
-    "video_score": 83,
+    "score": 65,
+    "video_score": null,
     "trend_score": 65,
-    "crowding": "media",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 130K vistas (el mayor, 23M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Shorts: sin datos en vivo en esta corrida",
      "Google (EE. UU.): estable +4% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-29 17:40:34 UTC",
+   "measured_at": "2026-10-31 02:53:49 UTC",
    "trends": {
     "momentum_pct": 4.2,
     "low_volume": false,
-    "peak_ratio": 0.31,
-    "mean_recent": 31.2
+    "peak_ratio": 0.25,
+    "mean_recent": 25.0
    },
    "trends_series": [
-    54,
-    47,
-    79,
-    92,
-    64,
-    67,
-    86,
-    71,
-    72,
-    40,
-    35,
-    30,
-    29,
-    34,
-    32,
-    28,
-    26,
-    28,
-    31,
-    31,
-    27,
-    29,
-    28,
+    44,
+    38,
+    65,
+    74,
+    51,
+    55,
+    75,
+    58,
+    57,
     33,
-    31,
-    33
+    28,
+    24,
+    23,
+    27,
+    25,
+    22,
+    20,
+    23,
+    25,
+    25,
+    22,
+    24,
+    23,
+    27,
+    24,
+    26
    ],
-   "trends_at": "2026-10-27 11:08 UTC",
+   "trends_at": "2026-10-31 02:53:46 UTC",
    "rising": [
     {
      "query": "roboclean window cleaner",
+     "growth": "Breakout"
+    },
+    {
+     "query": "power blade window cleaner",
      "growth": "Breakout"
     },
     {
@@ -768,23 +771,19 @@
      "growth": "Breakout"
     },
     {
-     "query": "easy off oven cleaner on car window",
+     "query": "betsy jane rosen window cleaner",
      "growth": "Breakout"
     },
     {
-     "query": "ge profile clearview window air conditioner",
-     "growth": "Breakout"
+     "query": "electric window cleaner",
+     "growth": "+500%"
     },
     {
-     "query": "gourmia 6-qt digital window air fryer",
-     "growth": "Breakout"
-    },
-    {
-     "query": "chevron techron concentrate plus fuel system cleaner",
-     "growth": "Breakout"
+     "query": "robotic window cleaner",
+     "growth": "+500%"
     }
    ],
-   "rising_at": "2026-10-27 11:08:57 UTC"
+   "rising_at": "2026-10-31 02:53:49 UTC"
   },
   "shower-filter": {
    "youtube": {
@@ -823,67 +822,66 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 64,
-    "video_score": 89,
-    "trend_score": 40,
-    "crowding": "media",
-    "partial": false,
+    "score": 20,
+    "video_score": null,
+    "trend_score": 20,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 220K vistas (el mayor, 1.8M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -25% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: sin datos en vivo en esta corrida",
+     "Google (EE. UU.): baja -26% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-29 17:40:39 UTC",
+   "measured_at": "2026-10-31 02:53:57 UTC",
    "trends": {
-    "momentum_pct": -24.7,
+    "momentum_pct": -26.1,
     "low_volume": false,
     "peak_ratio": 0.17,
-    "mean_recent": 17.5
+    "mean_recent": 16.5
    },
    "trends_series": [
-    50,
-    42,
-    61,
-    91,
-    58,
-    60,
-    70,
-    57,
+    48,
+    44,
     67,
-    37,
-    33,
-    23,
-    23,
-    25,
+    90,
+    57,
+    59,
+    67,
+    53,
+    68,
+    36,
+    32,
+    22,
+    22,
     24,
-    26,
+    22,
     25,
-    24,
-    21,
-    19,
-    17,
-    19,
+    25,
+    23,
+    20,
     18,
-    19,
+    17,
+    18,
+    17,
+    18,
     16,
-    17
+    15
    ],
-   "trends_at": "2026-10-27 11:09 UTC",
+   "trends_at": "2026-10-31 02:53:54 UTC",
    "rising": [
     {
      "query": "aquabliss high output 12-stage shower filter",
-     "growth": "Breakout"
-    },
-    {
-     "query": "how to clean a shower curtain",
-     "growth": "Breakout"
+     "growth": "+2,000%"
     },
     {
      "query": "shower filter replacement cartridge",
+     "growth": "+350%"
+    },
+    {
+     "query": "filter baby",
      "growth": "+350%"
     },
     {
@@ -891,15 +889,15 @@
      "growth": "+300%"
     },
     {
-     "query": "filter baby",
-     "growth": "+300%"
-    },
-    {
      "query": "aquasana shower filter",
      "growth": "+100%"
+    },
+    {
+     "query": "whole house water filter",
+     "growth": "+90%"
     }
    ],
-   "rising_at": "2026-10-27 11:09:07 UTC"
+   "rising_at": "2026-10-31 02:53:57 UTC"
   },
   "portable-blender": {
    "youtube": {
@@ -938,21 +936,20 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 53,
-    "video_score": 100,
+    "score": 20,
+    "video_score": null,
     "trend_score": 20,
-    "crowding": "alta",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 1.9M vistas (el mayor, 587M)",
-     "Competencia alta: 6 Shorts pasan el millón de vistas",
+     "Shorts: sin datos en vivo en esta corrida",
      "Google (EE. UU.): baja -49% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-29 22:05:37 UTC",
+   "measured_at": "2026-10-31 02:54:01 UTC",
    "trends": {
     "momentum_pct": -49.1,
     "low_volume": false,
@@ -987,7 +984,7 @@
     2,
     2
    ],
-   "trends_at": "2026-10-29 22:05:34 UTC",
+   "trends_at": "2026-10-29 22:05 UTC",
    "rising": [
     {
      "query": "handy gourmet revmix portable blender",
@@ -1053,21 +1050,20 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 71,
-    "video_score": 100,
+    "score": 65,
+    "video_score": null,
     "trend_score": 65,
-    "crowding": "alta",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 873K vistas (el mayor, 15M)",
-     "Competencia alta: 5 Shorts pasan el millón de vistas",
+     "Shorts: sin datos en vivo en esta corrida",
      "Google (EE. UU.): estable -7% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-29 22:05:44 UTC",
+   "measured_at": "2026-10-31 02:54:05 UTC",
    "trends": {
     "momentum_pct": -6.7,
     "low_volume": false,
@@ -1102,7 +1098,7 @@
     27,
     25
    ],
-   "trends_at": "2026-10-29 22:05:42 UTC",
+   "trends_at": "2026-10-29 22:05 UTC",
    "rising": [
     {
      "query": "oxo good grips vegetable chopper",
@@ -1628,21 +1624,20 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 71,
-    "video_score": 100,
+    "score": 65,
+    "video_score": null,
     "trend_score": 65,
-    "crowding": "alta",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 734K vistas (el mayor, 2.6M)",
-     "Competencia alta: 4 Shorts pasan el millón de vistas",
+     "Shorts: sin datos en vivo en esta corrida",
      "Google (EE. UU.): estable -8% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-29 22:05:48 UTC",
+   "measured_at": "2026-10-31 02:54:08 UTC",
    "trends": {
     "momentum_pct": -7.5,
     "low_volume": false,
@@ -1743,21 +1738,20 @@
     ],
     "status": "LIVE"
    },
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 61,
-    "video_score": 100,
+    "score": 40,
+    "video_score": null,
     "trend_score": 40,
-    "crowding": "alta",
-    "partial": false,
+    "crowding": null,
+    "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 1M vistas (el mayor, 90M)",
-     "Competencia alta: 5 Shorts pasan el millón de vistas",
+     "Shorts: sin datos en vivo en esta corrida",
      "Google (EE. UU.): baja -12% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-10-29 22:05:52 UTC",
+   "measured_at": "2026-10-31 02:54:12 UTC",
    "trends": {
     "momentum_pct": -12.3,
     "low_volume": false,

@@ -1,0 +1,46 @@
+{
+ "generated_at": "2026-10-31 02:54:12 UTC",
+ "source": "nube",
+ "products": {
+  "spinerelief-pro": {
+   "rank": 1,
+   "base": "LANZAR",
+   "code": "LANZAR",
+   "score": 97.0,
+   "market": 65,
+   "overall": 81,
+   "profit": 35.01,
+   "tier": "WINNER"
+  },
+  "prosmile-ultrasonic": {
+   "rank": 2,
+   "base": "LANZAR",
+   "code": "LANZAR",
+   "score": 90.0,
+   "market": 65,
+   "overall": 78,
+   "profit": 23.5,
+   "tier": "WINNER"
+  },
+  "steamfur-pro": {
+   "rank": 3,
+   "base": "VIGILAR",
+   "code": "MANTENER",
+   "score": 87.0,
+   "market": 40,
+   "overall": 64,
+   "profit": 18.64,
+   "tier": "WINNER"
+  },
+  "aeroforce-x3": {
+   "rank": 4,
+   "base": "VIGILAR",
+   "code": "VIGILAR",
+   "score": 87.0,
+   "market": 40,
+   "overall": 64,
+   "profit": 37.49,
+   "tier": "WINNER"
+  }
+ }
+}

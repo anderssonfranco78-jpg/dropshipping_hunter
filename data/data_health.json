@@ -1,6 +1,6 @@
 {
   "mode": "LIVE",
-  "generated_at": "2026-10-30 21:44:33 UTC",
+  "generated_at": "2026-10-31 02:54:12 UTC",
   "sources": {
     "trends": {
       "LIVE": 0,
@@ -11,9 +11,9 @@
       "UNAVAILABLE": 0
     },
     "youtube": {
-      "LIVE": 4,
+      "LIVE": 0,
       "CACHED": 0,
-      "NO_LIVE_DATA": 0,
+      "NO_LIVE_DATA": 4,
       "MANUAL": 0,
       "MOCK": 0,
       "UNAVAILABLE": 0
@@ -52,8 +52,18 @@
     }
   },
   "alerts_red": [],
-  "alerts_yellow": [],
-  "alerts": [],
+  "alerts_yellow": [
+    "SpineRelief Pro™: YouTube Shorts — Sin datos en vivo",
+    "ProSmile Ultrasonic™: YouTube Shorts — Sin datos en vivo",
+    "SteamFur Pro™: YouTube Shorts — Sin datos en vivo",
+    "AeroForce X3™: YouTube Shorts — Sin datos en vivo"
+  ],
+  "alerts": [
+    "SpineRelief Pro™: YouTube Shorts — Sin datos en vivo",
+    "ProSmile Ultrasonic™: YouTube Shorts — Sin datos en vivo",
+    "SteamFur Pro™: YouTube Shorts — Sin datos en vivo",
+    "AeroForce X3™: YouTube Shorts — Sin datos en vivo"
+  ],
   "has_failures": false,
   "is_mock": false
 }
