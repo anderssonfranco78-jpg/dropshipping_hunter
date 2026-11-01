@@ -17,7 +17,7 @@
     "retail_availability_score": 85.0,
     "ad_active_days": 38,
     "competitor_ad_count": 29,
-    "google_trends_momentum": -15.2,
+    "google_trends_momentum": -12.0,
     "source_url": "https://www.aliexpress.com/item/1005007791672610.html",
     "target_demographics": {
       "age": "22-60",
@@ -30,7 +30,7 @@
       ]
     },
     "data_status": {
-      "trends": "CACHED",
+      "trends": "LIVE",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -45,64 +45,63 @@
     "trends_keyword": "cat brush",
     "notes": "Variante verde mango con cerdas naranja. Precio de página $4.73 + envío $3.54 = $8.27 (bitácora §24.3). Stock leído en vivo el 2026-10-08: green 994 uds; yellow solo 17 uds (descartada).",
     "trends_series": [
-      10,
-      12,
       13,
-      11,
-      12,
       13,
-      11,
-      11,
+      12,
       13,
       14,
-      12,
-      12,
-      12,
-      11,
-      12,
-      18,
-      20,
+      13,
+      13,
+      14,
       16,
-      15,
-      15,
-      15,
-      30,
-      66,
-      85,
-      100,
-      67,
-      46,
-      40,
-      66,
-      70,
-      42,
-      43,
-      58,
-      49,
-      47,
-      21,
-      21,
-      15,
+      13,
+      14,
+      13,
+      13,
+      14,
+      20,
+      22,
       17,
       15,
-      15,
+      17,
+      16,
+      33,
+      71,
+      94,
+      100,
+      72,
+      50,
+      43,
+      71,
+      77,
+      47,
+      47,
+      63,
+      54,
+      51,
+      23,
+      23,
+      17,
+      19,
+      16,
+      17,
+      17,
       16,
       15,
-      14,
-      14,
-      14,
-      13,
       15,
-      13,
+      15,
       14,
+      16,
       14,
-      11
+      16,
+      16,
+      12,
+      12
     ],
     "image_url": "assets/images/steamfur.webp",
     "video_keyword": "steamy cat brush",
     "in_store": true,
     "trends_labels": [
-      "2025-10-26",
       "2025-11-02",
       "2025-11-09",
       "2025-11-16",
@@ -153,24 +152,23 @@
       "2026-09-27",
       "2026-10-04",
       "2026-10-11",
-      "2026-10-18"
+      "2026-10-18",
+      "2026-10-25"
     ],
     "trends_meta": {
       "low_volume": false,
       "zero_share": 0.0,
-      "peak_ratio": 0.13,
-      "mean_recent": 13.0,
-      "mean_prior": 15.3,
-      "resolution": "WEEK",
-      "measured_at": "2026-10-31 11:17 UTC",
-      "cache": "reciente"
+      "peak_ratio": 0.14,
+      "mean_recent": 14.0,
+      "mean_prior": 15.9,
+      "resolution": "WEEK"
     },
     "youtube": {
       "keyword": "steamy cat brush",
       "shorts_found": 30,
-      "median_views_top10": 197000,
+      "median_views_top10": 156000,
       "max_views": 3800000,
-      "over_100k": 7,
+      "over_100k": 6,
       "over_1m": 2,
       "top": [
         {
@@ -185,7 +183,7 @@
         },
         {
           "title": "Steam Grooming Brush: For Cats and Dogs",
-          "views": 805000,
+          "views": 806000,
           "url": "https://www.youtube.com/shorts/-OKLMmMRIhY"
         },
         {
@@ -194,9 +192,9 @@
           "url": "https://www.youtube.com/shorts/_2lfgkAAx4I"
         },
         {
-          "title": "Cat Steam Brush",
-          "views": 211000,
-          "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
+          "title": "My Cat Tries The Viral Steam Cat Brush | The Dodo",
+          "views": 183000,
+          "url": "https://www.youtube.com/shorts/bFgsR8xpyOw"
         }
       ],
       "status": "LIVE"
@@ -371,10 +369,10 @@
     "youtube": {
       "keyword": "ultrasonic tooth cleaner",
       "shorts_found": 29,
-      "median_views_top10": 1650000,
+      "median_views_top10": 1600000,
       "max_views": 5500000,
-      "over_100k": 10,
-      "over_1m": 7,
+      "over_100k": 11,
+      "over_1m": 6,
       "top": [
         {
           "title": "5 years worth of cheese build up on teeth. #cheese #tartarremoval #plaque #teethcleaning #dentist",
@@ -577,20 +575,15 @@
     },
     "youtube": {
       "keyword": "lumbar traction belt",
-      "shorts_found": 29,
-      "median_views_top10": 206500,
-      "max_views": 79000000,
-      "over_100k": 7,
-      "over_1m": 4,
+      "shorts_found": 30,
+      "median_views_top10": 146000,
+      "max_views": 14000000,
+      "over_100k": 6,
+      "over_1m": 3,
       "top": [
         {
-          "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
-          "views": 79000000,
-          "url": "https://www.youtube.com/shorts/VsfXV5vUhUk"
-        },
-        {
           "title": "Stretch Your Spine Automatically",
-          "views": 13000000,
+          "views": 14000000,
           "url": "https://www.youtube.com/shorts/IK9sl-o50d0"
         },
         {
@@ -605,8 +598,13 @@
         },
         {
           "title": "Traction Treatment For Sciatica| Sciatica Treatment #sciatica #shorts",
-          "views": 238000,
+          "views": 239000,
           "url": "https://www.youtube.com/shorts/oq1nC0LObDE"
+        },
+        {
+          "title": "Lumbar Traction",
+          "views": 175000,
+          "url": "https://www.youtube.com/shorts/C45Q3xecf6I"
         }
       ],
       "status": "LIVE"
@@ -780,10 +778,10 @@
     },
     "youtube": {
       "keyword": "turbo jet fan",
-      "shorts_found": 28,
-      "median_views_top10": 917500,
+      "shorts_found": 30,
+      "median_views_top10": 918000,
       "max_views": 80000000,
-      "over_100k": 9,
+      "over_100k": 10,
       "over_1m": 5,
       "top": [
         {
