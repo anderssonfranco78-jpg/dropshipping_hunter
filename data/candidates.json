@@ -17,7 +17,7 @@
     "retail_availability_score": 85.0,
     "ad_active_days": 38,
     "competitor_ad_count": 29,
-    "google_trends_momentum": -13.6,
+    "google_trends_momentum": -10.7,
     "source_url": "https://www.aliexpress.com/item/1005007791672610.html",
     "target_demographics": {
       "age": "22-60",
@@ -30,7 +30,7 @@
       ]
     },
     "data_status": {
-      "trends": "CACHED",
+      "trends": "LIVE",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -51,33 +51,33 @@
       12,
       13,
       12,
-      11,
-      13,
+      12,
+      14,
       15,
       12,
+      13,
       12,
       12,
-      11,
       12,
-      18,
-      20,
+      19,
+      21,
+      16,
+      14,
       16,
       15,
-      15,
-      15,
-      30,
+      31,
       67,
-      95,
+      90,
       100,
-      68,
-      47,
-      40,
+      69,
+      48,
+      41,
       67,
-      71,
+      72,
+      44,
       43,
-      43,
-      57,
-      50,
+      60,
+      51,
       48,
       21,
       22,
@@ -87,15 +87,15 @@
       16,
       16,
       15,
-      14,
+      15,
       14,
       14,
       13,
       15,
       13,
       14,
-      14,
-      12,
+      15,
+      13,
       11
     ],
     "image_url": "assets/images/steamfur.webp",
@@ -159,18 +159,16 @@
       "low_volume": false,
       "zero_share": 0.0,
       "peak_ratio": 0.13,
-      "mean_recent": 12.8,
+      "mean_recent": 13.2,
       "mean_prior": 14.8,
-      "resolution": "WEEK",
-      "measured_at": "2026-11-02 13:56 UTC",
-      "cache": "reciente"
+      "resolution": "WEEK"
     },
     "youtube": {
       "keyword": "steamy cat brush",
-      "shorts_found": 31,
-      "median_views_top10": 197500,
+      "shorts_found": 29,
+      "median_views_top10": 156000,
       "max_views": 3800000,
-      "over_100k": 7,
+      "over_100k": 6,
       "over_1m": 2,
       "top": [
         {
@@ -184,11 +182,6 @@
           "url": "https://www.youtube.com/shorts/0kU6kGTG0Q8"
         },
         {
-          "title": "Steam Grooming Brush: For Cats and Dogs",
-          "views": 806000,
-          "url": "https://www.youtube.com/shorts/-OKLMmMRIhY"
-        },
-        {
           "title": "The ultimate solution for shedding season! 🐾 #catbrush #steamycatbrush #hairbrush #petsupplies",
           "views": 314000,
           "url": "https://www.youtube.com/shorts/ltj5jWKcSbQ"
@@ -197,6 +190,11 @@
           "title": "Cat Steam Brush",
           "views": 212000,
           "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
+        },
+        {
+          "title": "My Cat Tries The Viral Steam Cat Brush | The Dodo",
+          "views": 183000,
+          "url": "https://www.youtube.com/shorts/bFgsR8xpyOw"
         }
       ],
       "status": "LIVE"
@@ -233,7 +231,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -364,31 +362,18 @@
       "peak_ratio": 0.17,
       "mean_recent": 17.5,
       "mean_prior": 20.9,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-03 00:06 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "ultrasonic tooth cleaner",
-      "shorts_found": 34,
-      "median_views_top10": 4000000,
-      "max_views": 323000000,
-      "over_100k": 14,
-      "over_1m": 9,
+      "shorts_found": 30,
+      "median_views_top10": 899500,
+      "max_views": 5100000,
+      "over_100k": 10,
+      "over_1m": 5,
       "top": [
-        {
-          "title": "▶️ How to clean your teeth like a dentist at home ( 295 ) @MaviGadgets  ✨ Tooth Cleaning Kit",
-          "views": 323000000,
-          "url": "https://www.youtube.com/shorts/HQSN4cABFzY"
-        },
-        {
-          "title": "Toothbrush from France 🇫🇷  #shorts",
-          "views": 161000000,
-          "url": "https://www.youtube.com/shorts/L_8uNmiLW70"
-        },
-        {
-          "title": "The Best Oral-B Electric Toothbrush!? #shorts",
-          "views": 7000000,
-          "url": "https://www.youtube.com/shorts/UreYgs46R2c"
-        },
         {
           "title": "cleaning teeth with ultrasonic scaler #shorts #dentist #teethcleaning",
           "views": 5100000,
@@ -398,6 +383,21 @@
           "title": "Scaling tartar and calculus #dental #dentist #dentistry",
           "views": 4900000,
           "url": "https://www.youtube.com/shorts/sbLkVniGnhE"
+        },
+        {
+          "title": "Smile Therapy- Ultrasonic Tooth Cleaner",
+          "views": 3100000,
+          "url": "https://www.youtube.com/shorts/MKD6ZfFwqyk"
+        },
+        {
+          "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
+          "views": 1900000,
+          "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
+        },
+        {
+          "title": "Scaling teeth to remove tartar and calculus #shorts",
+          "views": 1400000,
+          "url": "https://www.youtube.com/shorts/1RWeozzKyos"
         }
       ],
       "status": "LIVE"
@@ -438,7 +438,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -569,15 +569,17 @@
       "peak_ratio": 0.33,
       "mean_recent": 32.8,
       "mean_prior": 28.4,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-03 00:06 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "lumbar traction belt",
-      "shorts_found": 29,
-      "median_views_top10": 1079000,
+      "shorts_found": 31,
+      "median_views_top10": 499000,
       "max_views": 79000000,
       "over_100k": 8,
-      "over_1m": 5,
+      "over_1m": 4,
       "top": [
         {
           "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
@@ -595,14 +597,14 @@
           "url": "https://www.youtube.com/shorts/PNFvCw3uygY"
         },
         {
-          "title": "Scoliosis Back Brace 💪🦴 #shorts",
-          "views": 7200000,
-          "url": "https://www.youtube.com/shorts/hsYOi_SZAWc"
-        },
-        {
           "title": "Need a quick and easy way to decompress your lower back?! Try this banded Lumbar Traction technique",
           "views": 1400000,
           "url": "https://www.youtube.com/shorts/Kn0jW9VBxXA"
+        },
+        {
+          "title": "Decompress your low back with this lumbar traction exercise",
+          "views": 759000,
+          "url": "https://www.youtube.com/shorts/06WrOEPN1Y0"
         }
       ],
       "status": "LIVE"
@@ -639,7 +641,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -770,14 +772,16 @@
       "peak_ratio": 0.23,
       "mean_recent": 22.5,
       "mean_prior": 25.8,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-03 00:06 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "turbo jet fan",
-      "shorts_found": 34,
+      "shorts_found": 29,
       "median_views_top10": 918500,
       "max_views": 80000000,
-      "over_100k": 11,
+      "over_100k": 13,
       "over_1m": 5,
       "top": [
         {
