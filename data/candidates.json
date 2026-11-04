@@ -17,7 +17,7 @@
     "retail_availability_score": 85.0,
     "ad_active_days": 38,
     "competitor_ad_count": 29,
-    "google_trends_momentum": -10.7,
+    "google_trends_momentum": -11.6,
     "source_url": "https://www.aliexpress.com/item/1005007791672610.html",
     "target_demographics": {
       "age": "22-60",
@@ -30,7 +30,7 @@
       ]
     },
     "data_status": {
-      "trends": "CACHED",
+      "trends": "LIVE",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -46,56 +46,56 @@
     "notes": "Variante verde mango con cerdas naranja. Precio de página $4.73 + envío $3.54 = $8.27 (bitácora §24.3). Stock leído en vivo el 2026-10-08: green 994 uds; yellow solo 17 uds (descartada).",
     "trends_series": [
       12,
-      13,
+      12,
       11,
       12,
       13,
-      12,
-      12,
-      14,
-      15,
-      12,
+      11,
+      11,
       13,
-      12,
-      12,
-      12,
-      19,
-      21,
-      16,
       14,
-      16,
+      12,
+      12,
+      12,
+      11,
+      12,
+      18,
+      20,
       15,
-      31,
-      67,
-      90,
+      14,
+      15,
+      15,
+      29,
+      66,
+      86,
       100,
-      69,
-      48,
-      41,
-      67,
-      72,
-      44,
+      66,
+      46,
+      39,
+      65,
+      70,
       43,
-      60,
-      51,
-      48,
+      43,
+      57,
+      49,
+      47,
       21,
-      22,
+      21,
       15,
       17,
+      14,
       15,
       16,
-      16,
-      15,
-      15,
       14,
       14,
-      13,
+      14,
+      14,
+      12,
       15,
       13,
       14,
-      15,
-      13,
+      14,
+      12,
       11
     ],
     "image_url": "assets/images/steamfur.webp",
@@ -159,18 +159,16 @@
       "low_volume": false,
       "zero_share": 0.0,
       "peak_ratio": 0.13,
-      "mean_recent": 13.2,
-      "mean_prior": 14.8,
-      "resolution": "WEEK",
-      "measured_at": "2026-11-03 13:05 UTC",
-      "cache": "reciente"
+      "mean_recent": 12.8,
+      "mean_prior": 14.4,
+      "resolution": "WEEK"
     },
     "youtube": {
       "keyword": "steamy cat brush",
-      "shorts_found": 30,
-      "median_views_top10": 197500,
+      "shorts_found": 29,
+      "median_views_top10": 156000,
       "max_views": 3800000,
-      "over_100k": 7,
+      "over_100k": 6,
       "over_1m": 2,
       "top": [
         {
@@ -184,11 +182,6 @@
           "url": "https://www.youtube.com/shorts/0kU6kGTG0Q8"
         },
         {
-          "title": "Steam Grooming Brush: For Cats and Dogs",
-          "views": 806000,
-          "url": "https://www.youtube.com/shorts/-OKLMmMRIhY"
-        },
-        {
           "title": "The ultimate solution for shedding season! 🐾 #catbrush #steamycatbrush #hairbrush #petsupplies",
           "views": 314000,
           "url": "https://www.youtube.com/shorts/ltj5jWKcSbQ"
@@ -197,6 +190,11 @@
           "title": "Cat Steam Brush",
           "views": 212000,
           "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
+        },
+        {
+          "title": "My Cat Tries The Viral Steam Cat Brush | The Dodo",
+          "views": 183000,
+          "url": "https://www.youtube.com/shorts/bFgsR8xpyOw"
         }
       ],
       "status": "LIVE"
@@ -370,17 +368,12 @@
     },
     "youtube": {
       "keyword": "ultrasonic tooth cleaner",
-      "shorts_found": 30,
-      "median_views_top10": 1650000,
-      "max_views": 5600000,
-      "over_100k": 12,
-      "over_1m": 6,
+      "shorts_found": 31,
+      "median_views_top10": 900000,
+      "max_views": 5100000,
+      "over_100k": 10,
+      "over_1m": 5,
       "top": [
-        {
-          "title": "5 years worth of cheese build up on teeth. #cheese #tartarremoval #plaque #teethcleaning #dentist",
-          "views": 5600000,
-          "url": "https://www.youtube.com/shorts/cX5fdk_85r0"
-        },
         {
           "title": "cleaning teeth with ultrasonic scaler #shorts #dentist #teethcleaning",
           "views": 5100000,
@@ -400,6 +393,11 @@
           "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
           "views": 1900000,
           "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
+        },
+        {
+          "title": "Scaling teeth to remove tartar and calculus #shorts",
+          "views": 1400000,
+          "url": "https://www.youtube.com/shorts/1RWeozzKyos"
         }
       ],
       "status": "LIVE"
@@ -577,17 +575,12 @@
     },
     "youtube": {
       "keyword": "lumbar traction belt",
-      "shorts_found": 31,
-      "median_views_top10": 819500,
-      "max_views": 79000000,
-      "over_100k": 8,
-      "over_1m": 5,
+      "shorts_found": 30,
+      "median_views_top10": 207500,
+      "max_views": 14000000,
+      "over_100k": 7,
+      "over_1m": 3,
       "top": [
-        {
-          "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
-          "views": 79000000,
-          "url": "https://www.youtube.com/shorts/VsfXV5vUhUk"
-        },
         {
           "title": "Stretch Your Spine Automatically",
           "views": 14000000,
@@ -599,14 +592,19 @@
           "url": "https://www.youtube.com/shorts/PNFvCw3uygY"
         },
         {
-          "title": "Scoliosis Back Brace 💪🦴 #shorts",
-          "views": 7200000,
-          "url": "https://www.youtube.com/shorts/hsYOi_SZAWc"
-        },
-        {
           "title": "Need a quick and easy way to decompress your lower back?! Try this banded Lumbar Traction technique",
           "views": 1400000,
           "url": "https://www.youtube.com/shorts/Kn0jW9VBxXA"
+        },
+        {
+          "title": "Decompress your low back with this lumbar traction exercise",
+          "views": 759000,
+          "url": "https://www.youtube.com/shorts/06WrOEPN1Y0"
+        },
+        {
+          "title": "Traction Treatment For Sciatica| Sciatica Treatment #sciatica #shorts",
+          "views": 240000,
+          "url": "https://www.youtube.com/shorts/oq1nC0LObDE"
         }
       ],
       "status": "LIVE"
@@ -780,7 +778,7 @@
     },
     "youtube": {
       "keyword": "turbo jet fan",
-      "shorts_found": 29,
+      "shorts_found": 30,
       "median_views_top10": 918500,
       "max_views": 80000000,
       "over_100k": 12,
