@@ -48,7 +48,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -179,14 +179,16 @@
         "peak_ratio": 0.31,
         "mean_recent": 31.0,
         "mean_prior": 29.0,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-11-03 22:38 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "lumbar traction belt",
-        "shorts_found": 30,
-        "median_views_top10": 1079500,
+        "shorts_found": 31,
+        "median_views_top10": 819500,
         "max_views": 79000000,
-        "over_100k": 9,
+        "over_100k": 8,
         "over_1m": 5,
         "top": [
           {
@@ -335,7 +337,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -466,15 +468,17 @@
         "peak_ratio": 0.19,
         "mean_recent": 18.8,
         "mean_prior": 20.1,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-11-03 22:37 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "ultrasonic tooth cleaner",
         "shorts_found": 30,
-        "median_views_top10": 2400000,
+        "median_views_top10": 1650000,
         "max_views": 5600000,
-        "over_100k": 13,
-        "over_1m": 8,
+        "over_100k": 12,
+        "over_1m": 6,
         "top": [
           {
             "title": "5 years worth of cheese build up on teeth. #cheese #tartarremoval #plaque #teethcleaning #dentist",
@@ -497,9 +501,9 @@
             "url": "https://www.youtube.com/shorts/MKD6ZfFwqyk"
           },
           {
-            "title": "A New Way To Brush Teeth",
-            "views": 2900000,
-            "url": "https://www.youtube.com/shorts/ROrU30Ovojo"
+            "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
+            "views": 1900000,
+            "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
           }
         ],
         "status": "LIVE"
@@ -759,7 +763,7 @@
       },
       "youtube": {
         "keyword": "steamy cat brush",
-        "shorts_found": 31,
+        "shorts_found": 30,
         "median_views_top10": 197500,
         "max_views": 3800000,
         "over_100k": 7,
@@ -911,7 +915,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -1042,14 +1046,16 @@
         "peak_ratio": 0.23,
         "mean_recent": 23.0,
         "mean_prior": 25.7,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-11-03 22:38 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "turbo jet fan",
-        "shorts_found": 30,
+        "shorts_found": 29,
         "median_views_top10": 918500,
         "max_views": 80000000,
-        "over_100k": 14,
+        "over_100k": 12,
         "over_1m": 5,
         "top": [
           {
