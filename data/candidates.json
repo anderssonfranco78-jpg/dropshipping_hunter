@@ -17,7 +17,7 @@
     "retail_availability_score": 85.0,
     "ad_active_days": 38,
     "competitor_ad_count": 29,
-    "google_trends_momentum": -11.6,
+    "google_trends_momentum": -10.4,
     "source_url": "https://www.aliexpress.com/item/1005007791672610.html",
     "target_demographics": {
       "age": "22-60",
@@ -30,7 +30,7 @@
       ]
     },
     "data_status": {
-      "trends": "CACHED",
+      "trends": "LIVE",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -45,58 +45,58 @@
     "trends_keyword": "cat brush",
     "notes": "Variante verde mango con cerdas naranja. Precio de página $4.73 + envío $3.54 = $8.27 (bitácora §24.3). Stock leído en vivo el 2026-10-08: green 994 uds; yellow solo 17 uds (descartada).",
     "trends_series": [
+      11,
+      11,
+      11,
+      11,
       12,
-      12,
+      11,
       11,
       12,
       13,
       11,
-      11,
-      13,
-      14,
-      12,
-      12,
       12,
       11,
-      12,
-      18,
-      20,
-      15,
-      14,
-      15,
-      15,
-      29,
-      66,
-      86,
-      100,
-      66,
-      46,
-      39,
-      65,
-      70,
-      43,
-      43,
-      57,
-      49,
-      47,
-      21,
-      21,
-      15,
+      10,
+      11,
       17,
-      14,
+      19,
       15,
+      14,
+      14,
+      14,
+      28,
+      62,
+      82,
+      100,
+      63,
+      43,
+      38,
+      61,
+      65,
+      40,
+      40,
+      53,
+      47,
+      44,
+      20,
+      20,
+      14,
       16,
-      14,
-      14,
-      14,
-      14,
-      12,
-      15,
       13,
       14,
+      15,
+      14,
+      13,
+      14,
+      13,
+      12,
       14,
       12,
-      11
+      13,
+      14,
+      12,
+      10
     ],
     "image_url": "assets/images/steamfur.webp",
     "video_keyword": "steamy cat brush",
@@ -158,12 +158,10 @@
     "trends_meta": {
       "low_volume": false,
       "zero_share": 0.0,
-      "peak_ratio": 0.13,
-      "mean_recent": 12.8,
-      "mean_prior": 14.4,
-      "resolution": "WEEK",
-      "measured_at": "2026-11-04 13:21 UTC",
-      "cache": "reciente"
+      "peak_ratio": 0.12,
+      "mean_recent": 12.2,
+      "mean_prior": 13.7,
+      "resolution": "WEEK"
     },
     "youtube": {
       "keyword": "steamy cat brush",
@@ -371,10 +369,10 @@
     "youtube": {
       "keyword": "ultrasonic tooth cleaner",
       "shorts_found": 29,
-      "median_views_top10": 1450000,
+      "median_views_top10": 900500,
       "max_views": 5100000,
       "over_100k": 10,
-      "over_1m": 6,
+      "over_1m": 5,
       "top": [
         {
           "title": "cleaning teeth with ultrasonic scaler #shorts #dentist #teethcleaning",
@@ -397,9 +395,9 @@
           "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
         },
         {
-          "title": "Teeth cleaning at a dental office #shorts #teethcleaning",
-          "views": 1500000,
-          "url": "https://www.youtube.com/shorts/h49huCMJ2RY"
+          "title": "Scaling teeth to remove tartar and calculus #shorts",
+          "views": 1400000,
+          "url": "https://www.youtube.com/shorts/1RWeozzKyos"
         }
       ],
       "status": "LIVE"
@@ -577,11 +575,11 @@
     },
     "youtube": {
       "keyword": "lumbar traction belt",
-      "shorts_found": 28,
-      "median_views_top10": 207500,
+      "shorts_found": 30,
+      "median_views_top10": 179000,
       "max_views": 14000000,
-      "over_100k": 7,
-      "over_1m": 4,
+      "over_100k": 6,
+      "over_1m": 3,
       "top": [
         {
           "title": "Stretch Your Spine Automatically",
@@ -594,14 +592,14 @@
           "url": "https://www.youtube.com/shorts/PNFvCw3uygY"
         },
         {
-          "title": "Scoliosis Back Brace 💪🦴 #shorts",
-          "views": 7200000,
-          "url": "https://www.youtube.com/shorts/hsYOi_SZAWc"
-        },
-        {
           "title": "Need a quick and easy way to decompress your lower back?! Try this banded Lumbar Traction technique",
           "views": 1400000,
           "url": "https://www.youtube.com/shorts/Kn0jW9VBxXA"
+        },
+        {
+          "title": "Decompress your low back with this lumbar traction exercise",
+          "views": 759000,
+          "url": "https://www.youtube.com/shorts/06WrOEPN1Y0"
         },
         {
           "title": "Traction Treatment For Sciatica| Sciatica Treatment #sciatica #shorts",
@@ -780,10 +778,10 @@
     },
     "youtube": {
       "keyword": "turbo jet fan",
-      "shorts_found": 29,
+      "shorts_found": 30,
       "median_views_top10": 919000,
       "max_views": 80000000,
-      "over_100k": 11,
+      "over_100k": 14,
       "over_1m": 5,
       "top": [
         {

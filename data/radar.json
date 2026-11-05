@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05 03:53:16 UTC",
+ "updated_at": "2026-11-05 13:35:21 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -674,21 +674,21 @@
   "magnetic-window-cleaner": {
    "youtube": {
     "keyword": "magnetic window cleaner",
-    "shorts_found": 30,
-    "median_views_top10": 2346000,
+    "shorts_found": 27,
+    "median_views_top10": 849000,
     "max_views": 23000000,
-    "over_100k": 7,
-    "over_1m": 5,
+    "over_100k": 8,
+    "over_1m": 4,
     "top": [
-     {
-      "title": "This Magnetic Window Cleaner is My New Favorite Toy! ✨ So CLEVER! #cleaninggadget #windowwashing",
-      "views": 23000000,
-      "url": "https://www.youtube.com/shorts/AJRT9Kuk8mQ"
-     },
      {
       "title": "▶️ Clean both sides easily Double Side Magnetic Window Cleaner Brush Tool ( # 2121 )",
       "views": 23000000,
       "url": "https://www.youtube.com/shorts/KpW-e3zhSbg"
+     },
+     {
+      "title": "This Magnetic Window Cleaner is My New Favorite Toy! ✨ So CLEVER! #cleaninggadget #windowwashing",
+      "views": 23000000,
+      "url": "https://www.youtube.com/shorts/AJRT9Kuk8mQ"
      },
      {
       "title": "Double Side Magnetic Window Cleaner Brush Tool 🎯Product Link in Description & Comments!🎯",
@@ -701,9 +701,9 @@
       "url": "https://www.youtube.com/shorts/-CW9PIm3XJI"
      },
      {
-      "title": "Meesho Magnetic Window Cleaners #youtubeshorts #meeshofinds #cleaning",
-      "views": 3800000,
-      "url": "https://www.youtube.com/shorts/029B5lMhWUc"
+      "title": "how to use a magnetic glass cleaner?",
+      "views": 894000,
+      "url": "https://www.youtube.com/shorts/vQNbom6sW8o"
      }
     ],
     "status": "LIVE"
@@ -717,12 +717,12 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 2.3M vistas (el mayor, 23M)",
-     "Competencia alta: 5 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 849K vistas (el mayor, 23M)",
+     "Competencia alta: 4 Shorts pasan el millón de vistas",
      "Google (EE. UU.): estable +7% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-03 13:05:51 UTC",
+   "measured_at": "2026-11-05 13:34:56 UTC",
    "trends": {
     "momentum_pct": 7.1,
     "low_volume": false,
@@ -757,7 +757,7 @@
     31,
     28
    ],
-   "trends_at": "2026-11-03 13:05:51 UTC",
+   "trends_at": "2026-11-03 13:05 UTC",
    "rising": [
     {
      "query": "roboclean window cleaner",
@@ -790,9 +790,9 @@
    "youtube": {
     "keyword": "shower head filter",
     "shorts_found": 31,
-    "median_views_top10": 254000,
+    "median_views_top10": 232500,
     "max_views": 5200000,
-    "over_100k": 10,
+    "over_100k": 9,
     "over_1m": 2,
     "top": [
      {
@@ -807,18 +807,18 @@
      },
      {
       "title": "Ultimate Hydro Jet Shower Head Review: The Best High-Pressure Shower Experience! #hydrojet #shower",
-      "views": 291000,
+      "views": 292000,
       "url": "https://www.youtube.com/shorts/Cl6LNTj29bM"
      },
      {
       "title": "Top Amazon Finds You’ll Love, Filtered Shower Head with Handheld #amazonfinds #amazongadgets",
-      "views": 289000,
+      "views": 291000,
       "url": "https://www.youtube.com/shorts/vAcqXZtOzoU"
      },
      {
-      "title": "Best rain shower head #shorts #trending",
-      "views": 270000,
-      "url": "https://www.youtube.com/shorts/zi1Bw3FjGBI"
+      "title": "3 months of using my Jolie filtered shower head and I definitely see the difference in my hair",
+      "views": 238000,
+      "url": "https://www.youtube.com/shorts/yu9DGlba1Xw"
      }
     ],
     "status": "LIVE"
@@ -826,18 +826,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 65,
-    "video_score": 90,
+    "score": 64,
+    "video_score": 89,
     "trend_score": 40,
     "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 254K vistas (el mayor, 5.2M)",
+     "Shorts: los 10 más vistos tienen una mediana de 232K vistas (el mayor, 5.2M)",
      "Competencia media: 2 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -25% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-03 13:05:58 UTC",
+   "measured_at": "2026-11-05 13:34:59 UTC",
    "trends": {
     "momentum_pct": -25.0,
     "low_volume": false,
@@ -872,7 +872,7 @@
     16,
     15
    ],
-   "trends_at": "2026-11-03 13:05:58 UTC",
+   "trends_at": "2026-11-03 13:05 UTC",
    "rising": [
     {
      "query": "aquabliss high output 12-stage shower filter",
@@ -904,11 +904,11 @@
   "portable-blender": {
    "youtube": {
     "keyword": "portable blender",
-    "shorts_found": 31,
-    "median_views_top10": 1950000,
+    "shorts_found": 32,
+    "median_views_top10": 1306500,
     "max_views": 587000000,
-    "over_100k": 8,
-    "over_1m": 6,
+    "over_100k": 10,
+    "over_1m": 5,
     "top": [
      {
       "title": "Orange in portable Blender",
@@ -916,14 +916,14 @@
       "url": "https://www.youtube.com/shorts/r6R7VzXvxNo"
      },
      {
-      "title": "The Fastest Way To Make Fresh Juice!",
-      "views": 228000000,
-      "url": "https://www.youtube.com/shorts/IXJYL3IyNTs"
-     },
-     {
       "title": "What should we blend next? 🍓🫐 #freshjuice #smoothie #milkshake #portableblender #foryoupage",
       "views": 14000000,
       "url": "https://www.youtube.com/shorts/eE4IzQwbHk4"
+     },
+     {
+      "title": "Healthy Smoothie For Gaining in Portable Blender 💪🏻😍 #shorts #shortvideo",
+      "views": 3200000,
+      "url": "https://www.youtube.com/shorts/a5QFwAQXJkI"
      },
      {
       "title": "Portable Blender Smoothies Personal Blender Mini Shakes Juicer Cup USB Rechargeable.#shorts",
@@ -947,12 +947,12 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 1.9M vistas (el mayor, 587M)",
-     "Competencia alta: 6 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 1.3M vistas (el mayor, 587M)",
+     "Competencia alta: 5 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -39% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-03 22:38:23 UTC",
+   "measured_at": "2026-11-05 13:35:03 UTC",
    "trends": {
     "momentum_pct": -38.8,
     "low_volume": false,
@@ -987,7 +987,7 @@
     2,
     2
    ],
-   "trends_at": "2026-11-03 22:38:19 UTC",
+   "trends_at": "2026-11-03 22:38 UTC",
    "rising": [
     {
      "query": "handy gourmet revmix portable blender",
@@ -1019,11 +1019,11 @@
   "veggie-chopper": {
    "youtube": {
     "keyword": "vegetable chopper",
-    "shorts_found": 31,
-    "median_views_top10": 1750000,
+    "shorts_found": 33,
+    "median_views_top10": 1800000,
     "max_views": 28000000,
-    "over_100k": 13,
-    "over_1m": 6,
+    "over_100k": 17,
+    "over_1m": 7,
     "top": [
      {
       "title": "This is our go to chopper! #tipsandtricks #veggies #fooddolls",
@@ -1031,9 +1031,9 @@
       "url": "https://www.youtube.com/shorts/xsTq-0LdkF8"
      },
      {
-      "title": "This Vegetable Chopper from Amazon is Amazing!",
-      "views": 15000000,
-      "url": "https://www.youtube.com/shorts/a1L_hh9Frbg"
+      "title": "Electric Mini Vegetables Chopper Grinder #shorts #products #gadgets",
+      "views": 7100000,
+      "url": "https://www.youtube.com/shorts/9fLRRaQuc8Y"
      },
      {
       "title": "Handpress Vegetable Chopper || Viral chopper Review #shortsfeed #shorts #viral",
@@ -1047,7 +1047,7 @@
      },
      {
       "title": "Top-rated Amazon food chopper✨ #veggiechopper  #amazonfinds #kitchen #cookinghacks #kitchengadgets",
-      "views": 2100000,
+      "views": 2200000,
       "url": "https://www.youtube.com/shorts/L03A3PCFdZE"
      }
     ],
@@ -1063,11 +1063,11 @@
     "partial": false,
     "reasons": [
      "Shorts: los 10 más vistos tienen una mediana de 1.8M vistas (el mayor, 28M)",
-     "Competencia alta: 6 Shorts pasan el millón de vistas",
+     "Competencia alta: 7 Shorts pasan el millón de vistas",
      "Google (EE. UU.): estable -5% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-03 22:38:30 UTC",
+   "measured_at": "2026-11-05 13:35:06 UTC",
    "trends": {
     "momentum_pct": -5.0,
     "low_volume": false,
@@ -1102,7 +1102,7 @@
     24,
     26
    ],
-   "trends_at": "2026-11-03 22:38:28 UTC",
+   "trends_at": "2026-11-03 22:38 UTC",
    "rising": [
     {
      "query": "oxo good grips vegetable chopper",
@@ -1594,36 +1594,36 @@
   "ice-roller": {
    "youtube": {
     "keyword": "ice roller face",
-    "shorts_found": 32,
-    "median_views_top10": 1500000,
-    "max_views": 106000000,
-    "over_100k": 13,
-    "over_1m": 8,
+    "shorts_found": 33,
+    "median_views_top10": 1300000,
+    "max_views": 14000000,
+    "over_100k": 15,
+    "over_1m": 10,
     "top": [
-     {
-      "title": "Contour Cube ice facials ❄️ are the easiest way to enjoy the benefits of ice therapy at home.",
-      "views": 106000000,
-      "url": "https://www.youtube.com/shorts/4uYPtMEi0Vs"
-     },
      {
       "title": "Best skincare hacks for bright & glowing skin✨*Ice Rollers*#skincare #homeremedies #glowingskin#tips",
       "views": 14000000,
       "url": "https://www.youtube.com/shorts/nX6DXcLlDKY"
      },
      {
-      "title": "My Weekly Ice Facial Therapy ❤️😍 #shorts #skincare #youtubeshorts #shortfeed #trending #facial",
-      "views": 8500000,
-      "url": "https://www.youtube.com/shorts/oo5f863z8hw"
-     },
-     {
-      "title": "77/-rs Meesho Ice Roller 😱🤯🧊🍓 #short #shorts #viral #viralshort #makeuphacks #meesho #iceroller #ice",
-      "views": 3800000,
-      "url": "https://www.youtube.com/shorts/vxQ3QJJgF30"
+      "title": "Ice roller✨💗 #skincare #brightskin #iceroller #beauty #homeremedies #skincareroutine  #shorts",
+      "views": 2600000,
+      "url": "https://www.youtube.com/shorts/2bSCfEv3_F8"
      },
      {
       "title": "#shorts I Tried Viral 2 in 1 Ice Roller 🧊 This Summer ☀️Worth It ⁉️🤔 #tamil #beauty",
       "views": 1600000,
       "url": "https://www.youtube.com/shorts/HMyOlBvrtkY"
+     },
+     {
+      "title": "Beetroot Ice Roller💗✨ #shorts #ytshorts #trending #viralvideo #skincare #explore #youtubeshorts",
+      "views": 1400000,
+      "url": "https://www.youtube.com/shorts/G_61ctN4Ye8"
+     },
+     {
+      "title": "How to use Ice Roller on face || Ice roller for glowing skin✨ || Cucumber ice facial 🥒",
+      "views": 1300000,
+      "url": "https://www.youtube.com/shorts/G8HEuFZAMYc"
      }
     ],
     "status": "LIVE"
@@ -1637,47 +1637,47 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 1.5M vistas (el mayor, 106M)",
-     "Competencia alta: 8 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): estable -6% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 1.3M vistas (el mayor, 14M)",
+     "Competencia alta: 10 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): estable -4% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-03 22:38:33 UTC",
+   "measured_at": "2026-11-05 13:35:14 UTC",
    "trends": {
-    "momentum_pct": -6.1,
+    "momentum_pct": -3.6,
     "low_volume": false,
-    "peak_ratio": 0.24,
-    "mean_recent": 24.5
+    "peak_ratio": 0.25,
+    "mean_recent": 24.8
    },
    "trends_series": [
     46,
-    75,
-    96,
-    62,
-    55,
-    77,
-    60,
-    60,
+    74,
+    95,
+    61,
+    53,
+    76,
+    59,
+    58,
     35,
+    28,
+    27,
+    28,
+    23,
+    24,
+    26,
+    24,
+    23,
+    27,
     29,
-    27,
-    30,
-    24,
-    23,
-    26,
-    26,
-    24,
-    27,
-    28,
     25,
     28,
-    25,
+    24,
     25,
     26,
-    23,
-    24
+    25,
+    23
    ],
-   "trends_at": "2026-11-01 21:25 UTC",
+   "trends_at": "2026-11-05 13:35:11 UTC",
    "rising": [
     {
      "query": "triggerpoint grid foam roller",
@@ -1685,7 +1685,7 @@
     },
     {
      "query": "ice or roller cookie jam",
-     "growth": "+650%"
+     "growth": "+900%"
     },
     {
      "query": "foam roller",
@@ -1701,18 +1701,18 @@
     },
     {
      "query": "ice cream roller",
-     "growth": "+70%"
+     "growth": "+60%"
     }
    ],
-   "rising_at": "2026-11-01 21:25:21 UTC"
+   "rising_at": "2026-11-05 13:35:14 UTC"
   },
   "posture-corrector": {
    "youtube": {
     "keyword": "posture corrector",
-    "shorts_found": 31,
+    "shorts_found": 32,
     "median_views_top10": 3050000,
     "max_views": 90000000,
-    "over_100k": 17,
+    "over_100k": 18,
     "over_1m": 8,
     "top": [
      {
@@ -1754,22 +1754,22 @@
     "reasons": [
      "Shorts: los 10 más vistos tienen una mediana de 3M vistas (el mayor, 90M)",
      "Competencia alta: 8 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): estable -10% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): estable -8% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-03 22:38:36 UTC",
+   "measured_at": "2026-11-05 13:35:21 UTC",
    "trends": {
-    "momentum_pct": -9.8,
+    "momentum_pct": -8.3,
     "low_volume": false,
     "peak_ratio": 0.2,
-    "mean_recent": 20.0
+    "mean_recent": 20.2
    },
    "trends_series": [
     41,
-    54,
-    68,
-    45,
-    43,
+    53,
+    70,
+    44,
+    42,
     50,
     46,
     43,
@@ -1786,16 +1786,16 @@
     21,
     20,
     17,
+    17,
     18,
-    19,
     25,
-    18,
-    18
+    21,
+    17
    ],
-   "trends_at": "2026-11-01 21:25 UTC",
+   "trends_at": "2026-11-05 13:35:19 UTC",
    "rising": [
     {
-     "query": "vortalex posture corrector",
+     "query": "vive posture corrector",
      "growth": "Breakout"
     },
     {
@@ -1803,23 +1803,23 @@
      "growth": "Breakout"
     },
     {
+     "query": "hempvana arrow posture corrector",
+     "growth": "Breakout"
+    },
+    {
      "query": "vortalex posture corrector does it work",
      "growth": "Breakout"
     },
     {
+     "query": "vortalex posture corrector",
+     "growth": "Breakout"
+    },
+    {
      "query": "smart posture corrector",
-     "growth": "+550%"
-    },
-    {
-     "query": "posture corrector for kids",
-     "growth": "+250%"
-    },
-    {
-     "query": "adjustable posture corrector",
-     "growth": "+250%"
+     "growth": "+500%"
     }
    ],
-   "rising_at": "2026-11-01 21:25:29 UTC"
+   "rising_at": "2026-11-05 13:35:21 UTC"
   },
   "neck-stretcher": {
    "youtube": {
