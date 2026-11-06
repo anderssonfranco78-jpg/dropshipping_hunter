@@ -167,10 +167,10 @@
     },
     "youtube": {
       "keyword": "steamy cat brush",
-      "shorts_found": 29,
-      "median_views_top10": 126000,
+      "shorts_found": 30,
+      "median_views_top10": 156000,
       "max_views": 3800000,
-      "over_100k": 5,
+      "over_100k": 6,
       "over_1m": 2,
       "top": [
         {
@@ -233,7 +233,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -364,40 +364,42 @@
       "peak_ratio": 0.21,
       "mean_recent": 20.8,
       "mean_prior": 21.1,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-05 22:57 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "ultrasonic tooth cleaner",
-      "shorts_found": 30,
-      "median_views_top10": 391500,
-      "max_views": 5200000,
-      "over_100k": 7,
-      "over_1m": 4,
+      "shorts_found": 38,
+      "median_views_top10": 5850000,
+      "max_views": 323000000,
+      "over_100k": 17,
+      "over_1m": 11,
       "top": [
         {
-          "title": "cleaning teeth with ultrasonic scaler #shorts #dentist #teethcleaning",
-          "views": 5200000,
-          "url": "https://www.youtube.com/shorts/REL8d-UV-pI"
+          "title": "▶️ How to clean your teeth like a dentist at home ( 295 ) @MaviGadgets  ✨ Tooth Cleaning Kit",
+          "views": 323000000,
+          "url": "https://www.youtube.com/shorts/HQSN4cABFzY"
         },
         {
-          "title": "Scaling tartar and calculus #dental #dentist #dentistry",
-          "views": 4900000,
-          "url": "https://www.youtube.com/shorts/sbLkVniGnhE"
+          "title": "Toothbrush from France 🇫🇷  #shorts",
+          "views": 162000000,
+          "url": "https://www.youtube.com/shorts/L_8uNmiLW70"
         },
         {
-          "title": "Smile Therapy- Ultrasonic Tooth Cleaner",
-          "views": 3100000,
-          "url": "https://www.youtube.com/shorts/MKD6ZfFwqyk"
+          "title": "Normal Toothbrush vs Electric Toothbrush #telugu #viral #india #trending #toothbrush #shorts",
+          "views": 9400000,
+          "url": "https://www.youtube.com/shorts/xy6D_B1FG5Q"
         },
         {
-          "title": "Scaling teeth to remove tartar and calculus #shorts",
-          "views": 1400000,
-          "url": "https://www.youtube.com/shorts/1RWeozzKyos"
+          "title": "The Best Oral-B Electric Toothbrush!? #shorts",
+          "views": 7000000,
+          "url": "https://www.youtube.com/shorts/UreYgs46R2c"
         },
         {
-          "title": "Clean family teeth with ultrasonic tooth cleaner! #oralhygiene",
-          "views": 402000,
-          "url": "https://www.youtube.com/shorts/ZjvT_HFFc60"
+          "title": "Professional Grade Tooth Polisher! #shorts",
+          "views": 6500000,
+          "url": "https://www.youtube.com/shorts/rraj3m2-nbU"
         }
       ],
       "status": "LIVE"
@@ -438,7 +440,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -569,16 +571,33 @@
       "peak_ratio": 0.3,
       "mean_recent": 30.2,
       "mean_prior": 28.9,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-05 22:57 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "lumbar traction belt",
-      "shorts_found": 31,
-      "median_views_top10": 34500,
-      "max_views": 1400000,
-      "over_100k": 4,
-      "over_1m": 1,
+      "shorts_found": 29,
+      "median_views_top10": 500000,
+      "max_views": 14000000,
+      "over_100k": 7,
+      "over_1m": 4,
       "top": [
+        {
+          "title": "Stretch Your Spine Automatically",
+          "views": 14000000,
+          "url": "https://www.youtube.com/shorts/IK9sl-o50d0"
+        },
+        {
+          "title": "Easy Way to Decompress Your Back #Shorts",
+          "views": 9600000,
+          "url": "https://www.youtube.com/shorts/PNFvCw3uygY"
+        },
+        {
+          "title": "Mechanical Lumbar Traction for Back Pain",
+          "views": 3300000,
+          "url": "https://www.youtube.com/shorts/_pWlXLHnN-E"
+        },
         {
           "title": "Need a quick and easy way to decompress your lower back?! Try this banded Lumbar Traction technique",
           "views": 1400000,
@@ -588,21 +607,6 @@
           "title": "Decompress your low back with this lumbar traction exercise",
           "views": 760000,
           "url": "https://www.youtube.com/shorts/06WrOEPN1Y0"
-        },
-        {
-          "title": "Traction Treatment For Sciatica| Sciatica Treatment #sciatica #shorts",
-          "views": 240000,
-          "url": "https://www.youtube.com/shorts/oq1nC0LObDE"
-        },
-        {
-          "title": "Spine and back traction using Lamber Belt at #yogapeacesansthan",
-          "views": 118000,
-          "url": "https://www.youtube.com/shorts/bdHrn9_9vj4"
-        },
-        {
-          "title": "Manual lumbar traction for lower back pain with Mulligan belt #shortsyoutube #backpain #jaipur",
-          "views": 36000,
-          "url": "https://www.youtube.com/shorts/aXKJ9QbdTMg"
         }
       ],
       "status": "LIVE"
@@ -639,7 +643,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -770,14 +774,16 @@
       "peak_ratio": 0.22,
       "mean_recent": 22.2,
       "mean_prior": 25.8,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-05 22:57 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "turbo jet fan",
-      "shorts_found": 32,
+      "shorts_found": 29,
       "median_views_top10": 919000,
       "max_views": 80000000,
-      "over_100k": 11,
+      "over_100k": 13,
       "over_1m": 5,
       "top": [
         {
