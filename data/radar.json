@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06 03:50:03 UTC",
+ "updated_at": "2026-11-06 13:19:01 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -2226,17 +2226,12 @@
   "car-gap-filler": {
    "youtube": {
     "keyword": "car seat gap filler",
-    "shorts_found": 30,
-    "median_views_top10": 30500,
-    "max_views": 9700000,
-    "over_100k": 2,
-    "over_1m": 1,
+    "shorts_found": 33,
+    "median_views_top10": 28500,
+    "max_views": 147000,
+    "over_100k": 1,
+    "over_1m": 0,
     "top": [
-     {
-      "title": "Product Link in Bio ( 258 ) ▶️Auto Seat Gap Organizer with Wireless Charger",
-      "views": 9700000,
-      "url": "https://www.youtube.com/shorts/1lTLQjdKeQk"
-     },
      {
       "title": "Car seat gap filler|Blazexel#car #cargadgets #cargoodthing",
       "views": 147000,
@@ -2256,6 +2251,11 @@
       "title": "Elastic Car Seat Gap Filler Organizer | Prevent Items from Dropping & Losting",
       "views": 37000,
       "url": "https://www.youtube.com/shorts/4WQNJ7EekrQ"
+     },
+     {
+      "title": "Car Seat Gap Filler Strip | Universal Car Seat Side Crevice Storage Filler Pad | Prevents Items",
+      "views": 32000,
+      "url": "https://www.youtube.com/shorts/4KBBLeJoaJ4"
      }
     ],
     "status": "LIVE"
@@ -2264,17 +2264,17 @@
    "trends_status": "LIVE",
    "market": {
     "score": 48,
-    "video_score": 67,
+    "video_score": 66,
     "trend_score": 20,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 30K vistas (el mayor, 9.7M)",
+     "Shorts: los 10 más vistos tienen una mediana de 28K vistas (el mayor, 147K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -26% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-04 13:22:43 UTC",
+   "measured_at": "2026-11-06 13:18:36 UTC",
    "trends": {
     "momentum_pct": -25.7,
     "low_volume": false,
@@ -2309,7 +2309,7 @@
     2,
     5
    ],
-   "trends_at": "2026-11-04 13:22:43 UTC",
+   "trends_at": "2026-11-04 13:22 UTC",
    "rising": [
     {
      "query": "shark tank drop stop seat gap filler",
@@ -2329,12 +2329,17 @@
   "cordless-car-vacuum": {
    "youtube": {
     "keyword": "cordless car vacuum",
-    "shorts_found": 32,
-    "median_views_top10": 397000,
-    "max_views": 2700000,
-    "over_100k": 11,
-    "over_1m": 3,
+    "shorts_found": 35,
+    "median_views_top10": 1064500,
+    "max_views": 7900000,
+    "over_100k": 16,
+    "over_1m": 5,
     "top": [
+     {
+      "title": "Product Link in Bio ( # 2333 ) ▶️  Hyper Clean Wireless Portable Vacuum Cleaner",
+      "views": 7900000,
+      "url": "https://www.youtube.com/shorts/YMCH2IdMJ0g"
+     },
      {
       "title": "Portable TEXUM TVC Vacuum Cleaner Unboxing🔥",
       "views": 2700000,
@@ -2351,14 +2356,9 @@
       "url": "https://www.youtube.com/shorts/kXLk4MqmgME"
      },
      {
-      "title": "Portable vacuum cleaner and blower that can be used both indoors and in car!",
-      "views": 928000,
-      "url": "https://www.youtube.com/shorts/NGibBMV44nI"
-     },
-     {
-      "title": "Portable Wireless Car Vacuum Cleaner Powerful Suction & Dual-Purpose #vacuumcleaner #shorts #gadgets",
-      "views": 471000,
-      "url": "https://www.youtube.com/shorts/SKvUmY4igaM"
+      "title": "Perfect for daily car cleaning without the bulk. This is HOTO AutoCare Vacuum. #hototools",
+      "views": 1200000,
+      "url": "https://www.youtube.com/shorts/hcdKBEYQqtA"
      }
     ],
     "status": "LIVE"
@@ -2366,18 +2366,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 60,
-    "video_score": 95,
+    "score": 53,
+    "video_score": 100,
     "trend_score": 20,
-    "crowding": "media",
+    "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 397K vistas (el mayor, 2.7M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 1.1M vistas (el mayor, 7.9M)",
+     "Competencia alta: 5 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -30% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-04 13:22:56 UTC",
+   "measured_at": "2026-11-06 13:18:39 UTC",
    "trends": {
     "momentum_pct": -29.5,
     "low_volume": false,
@@ -2412,7 +2412,7 @@
     15,
     15
    ],
-   "trends_at": "2026-11-04 13:22:56 UTC",
+   "trends_at": "2026-11-04 13:22 UTC",
    "rising": [
     {
      "query": "allstate quote",
@@ -2444,11 +2444,11 @@
   "magsafe-car-mount": {
    "youtube": {
     "keyword": "magnetic phone car mount",
-    "shorts_found": 31,
-    "median_views_top10": 202000,
+    "shorts_found": 34,
+    "median_views_top10": 693000,
     "max_views": 7200000,
-    "over_100k": 10,
-    "over_1m": 1,
+    "over_100k": 17,
+    "over_1m": 3,
     "top": [
      {
       "title": "Magnetic phone car mount magnet cell phone holder for dashboard| By Amazon ProBox",
@@ -2456,24 +2456,24 @@
       "url": "https://www.youtube.com/shorts/02-PNHwELa4"
      },
      {
+      "title": "Product Link in Comments ▶️ Metal Magnetic Secure Drive Car Phone Holder",
+      "views": 6500000,
+      "url": "https://www.youtube.com/shorts/ghnYxwHbxEs"
+     },
+     {
+      "title": "Portronics Hold X Magnetic Vacuum Suction Mobile Holder",
+      "views": 1000000,
+      "url": "https://www.youtube.com/shorts/_xdih3hEhj4"
+     },
+     {
+      "title": "Best Car Phone Holder in 2024 - Must Watch Before Buying!",
+      "views": 945000,
+      "url": "https://www.youtube.com/shorts/RHIle89glL0"
+     },
+     {
       "title": "Vacuum Magnetic Phone Holder, 360° 📱 #shorts #youtubeshorts #fyp",
-      "views": 907000,
+      "views": 911000,
       "url": "https://www.youtube.com/shorts/Qv7yQ8GBP-Y"
-     },
-     {
-      "title": "How to Mount a Phone in Car | Magnetic Phone Holder #magnet #phoneholdercar",
-      "views": 473000,
-      "url": "https://www.youtube.com/shorts/sMwd-SMZ9ME"
-     },
-     {
-      "title": "Amazon Magnetic Car Phone Holder  Ultra Vacuum Suction  Secure and Convenient Mount",
-      "views": 334000,
-      "url": "https://www.youtube.com/shorts/VkSjcGiYJaE"
-     },
-     {
-      "title": "Car Magnetic Phone Holder Vacuum Suction Mount | Car Mobile Holder #shorts",
-      "views": 240000,
-      "url": "https://www.youtube.com/shorts/_rWlmzuxZfg"
      }
     ],
     "status": "LIVE"
@@ -2481,18 +2481,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 69,
-    "video_score": 88,
+    "score": 71,
+    "video_score": 100,
     "trend_score": 40,
-    "crowding": "baja",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 202K vistas (el mayor, 7.2M)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Shorts: los 10 más vistos tienen una mediana de 693K vistas (el mayor, 7.2M)",
+     "Competencia media: 3 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -16% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-04 22:57:05 UTC",
+   "measured_at": "2026-11-06 13:18:42 UTC",
    "trends": {
     "momentum_pct": -15.8,
     "low_volume": false,
@@ -2527,7 +2527,7 @@
     17,
     16
    ],
-   "trends_at": "2026-11-04 22:57:02 UTC",
+   "trends_at": "2026-11-04 22:57 UTC",
    "rising": [
     {
      "query": "magsafe car mount",
@@ -2551,36 +2551,36 @@
   "magnetic-power-bank": {
    "youtube": {
     "keyword": "magnetic power bank",
-    "shorts_found": 30,
-    "median_views_top10": 98000,
-    "max_views": 4900000,
-    "over_100k": 5,
-    "over_1m": 1,
+    "shorts_found": 38,
+    "median_views_top10": 419500,
+    "max_views": 2300000,
+    "over_100k": 13,
+    "over_1m": 3,
     "top": [
      {
-      "title": "Apple IPHONE Transparent Magnetic Power Bank #shorts",
-      "views": 4900000,
-      "url": "https://www.youtube.com/shorts/gtvKitNX1dM"
+      "title": "Apple MagSafe Battery Pack Unboxing #Shorts",
+      "views": 2300000,
+      "url": "https://www.youtube.com/shorts/8CqhXC8MxlA"
+     },
+     {
+      "title": "Ugreen Magnetic PowerBank #bidzph #bidzphunbox #Ugreen #ugreenph #powerbank",
+      "views": 1400000,
+      "url": "https://www.youtube.com/shorts/mFlcu2-gk9E"
+     },
+     {
+      "title": "BEST power bank on amazon🤔#amazonfinds",
+      "views": 1000000,
+      "url": "https://www.youtube.com/shorts/EXWkvvW8Rw4"
+     },
+     {
+      "title": "Portronics Boosty 10K PowerBank with 15W Wireless Magnetic Charging #Unboxing #Shorts #Gadgets",
+      "views": 774000,
+      "url": "https://www.youtube.com/shorts/MUEd_qCx4s4"
      },
      {
       "title": "This magnetic power bank changed how I charge forever#magneticpowerbank #magsafecharger #wireless",
-      "views": 587000,
+      "views": 591000,
       "url": "https://www.youtube.com/shorts/18OYm7Qf2Js"
-     },
-     {
-      "title": "Slim 10,000 mAh MagSafe Power Bank – Fast Wireless Charging on the Go!",
-      "views": 147000,
-      "url": "https://www.youtube.com/shorts/F-khvJGXLaI"
-     },
-     {
-      "title": "Best Magnetic Wireless Power Bank for iPhone #shorts",
-      "views": 131000,
-      "url": "https://www.youtube.com/shorts/hu6E3dmGmcA"
-     },
-     {
-      "title": "USB-C + iOS + Magnetic: A multi-functional power bank integrating three functions.#shorts",
-      "views": 117000,
-      "url": "https://www.youtube.com/shorts/j5_cM72YE54"
      }
     ],
     "status": "LIVE"
@@ -2588,18 +2588,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 74,
-    "video_score": 80,
+    "score": 79,
+    "video_score": 96,
     "trend_score": 65,
-    "crowding": "baja",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 98K vistas (el mayor, 4.9M)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Shorts: los 10 más vistos tienen una mediana de 420K vistas (el mayor, 2.3M)",
+     "Competencia media: 3 Shorts pasan el millón de vistas",
      "Google (EE. UU.): estable -2% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-04 22:57:14 UTC",
+   "measured_at": "2026-11-06 13:18:46 UTC",
    "trends": {
     "momentum_pct": -1.6,
     "low_volume": false,
@@ -2634,7 +2634,7 @@
     10,
     8
    ],
-   "trends_at": "2026-11-04 22:57:11 UTC",
+   "trends_at": "2026-11-04 22:57 UTC",
    "rising": [
     {
      "query": "xiaomi ultrathin magnetic power bank 5000",
@@ -2666,16 +2666,21 @@
   "sunset-lamp": {
    "youtube": {
     "keyword": "sunset lamp",
-    "shorts_found": 31,
-    "median_views_top10": 335000,
+    "shorts_found": 30,
+    "median_views_top10": 431500,
     "max_views": 2100000,
-    "over_100k": 14,
-    "over_1m": 1,
+    "over_100k": 15,
+    "over_1m": 2,
     "top": [
      {
       "title": "Finally bought the viral sunset lamp🥹❤️#millionviews #sunset #trending #pov",
       "views": 2100000,
       "url": "https://www.youtube.com/shorts/AhKU8LYRljU"
+     },
+     {
+      "title": "Amazon finds - sunset lamp",
+      "views": 1000000,
+      "url": "https://www.youtube.com/shorts/0tOLg5smoZ8"
      },
      {
       "title": "aesthetic 😭🤌🏻 #shorts #sunsetlamp",
@@ -2689,13 +2694,8 @@
      },
      {
       "title": "Sunset Lamp!☀️ | Meesho Finds | #sunsetlamp #meesho #aesthetic #sunset #viralvideo #shorts #foryou",
-      "views": 469000,
+      "views": 471000,
       "url": "https://www.youtube.com/shorts/KrKBaNSRGEU"
-     },
-     {
-      "title": "✨ Sunset Lamp ✨Golden hour. Anywhere, anytime.",
-      "views": 392000,
-      "url": "https://www.youtube.com/shorts/zXWI3We2Y54"
      }
     ],
     "status": "LIVE"
@@ -2703,94 +2703,104 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 72,
-    "video_score": 93,
+    "score": 69,
+    "video_score": 96,
     "trend_score": 40,
-    "crowding": "baja",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 335K vistas (el mayor, 2.1M)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
-     "Google (EE. UU.): baja -20% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 432K vistas (el mayor, 2.1M)",
+     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): baja -18% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-04 22:57:17 UTC",
+   "measured_at": "2026-11-06 13:18:53 UTC",
    "trends": {
-    "momentum_pct": -19.5,
+    "momentum_pct": -18.2,
     "low_volume": false,
-    "peak_ratio": 0.24,
-    "mean_recent": 23.8
+    "peak_ratio": 0.25,
+    "mean_recent": 24.8
    },
    "trends_series": [
-    48,
-    66,
-    74,
-    45,
-    41,
     50,
+    67,
+    72,
     48,
-    45,
-    36,
-    26,
-    28,
-    23,
-    25,
-    28,
-    36,
-    41,
     40,
-    29,
-    37,
+    51,
+    48,
+    46,
+    36,
+    25,
+    32,
+    23,
     27,
-    19,
+    27,
+    35,
+    41,
+    41,
+    32,
+    34,
+    27,
+    23,
     21,
-    24,
-    24,
-    24,
+    25,
+    26,
+    25,
     23
    ],
-   "trends_at": "2026-11-03 00:06 UTC",
+   "trends_at": "2026-11-06 13:18:51 UTC",
    "rising": [
     {
-     "query": "best places to watch sunset",
+     "query": "what time is sunset in la",
      "growth": "Breakout"
     },
     {
      "query": "urban shop sunset lamp",
-     "growth": "+450%"
+     "growth": "+400%"
     },
     {
-     "query": "sunset la",
-     "growth": "+450%"
-    },
-    {
-     "query": "golden hour sunset lamp",
-     "growth": "+350%"
-    },
-    {
-     "query": "sunset wall lamp",
+     "query": "original sunset lamp",
      "growth": "+200%"
+    },
+    {
+     "query": "salt lamp",
+     "growth": "+190%"
     },
     {
      "query": "led sunset lamp",
      "growth": "+180%"
+    },
+    {
+     "query": "sunset wall lamp",
+     "growth": "+170%"
     }
    ],
-   "rising_at": "2026-11-03 00:06:34 UTC"
+   "rising_at": "2026-11-06 13:18:53 UTC"
   },
   "galaxy-projector": {
    "youtube": {
     "keyword": "galaxy projector",
-    "shorts_found": 32,
-    "median_views_top10": 338500,
-    "max_views": 10000000,
-    "over_100k": 8,
-    "over_1m": 3,
+    "shorts_found": 36,
+    "median_views_top10": 1950000,
+    "max_views": 5400000,
+    "over_100k": 16,
+    "over_1m": 9,
     "top": [
      {
-      "title": "Every ADHD girl need this 🥹✨🌌 #starprojector #relaxing #galaxy #cozyroom #night",
-      "views": 10000000,
-      "url": "https://www.youtube.com/shorts/lviS-hwlQMc"
+      "title": "Itna Chhota Projector?! 😱📽️ Ghar Mein Cinema Bana Do! #shorts #viral #shopsyloot #ytshorts #fyp",
+      "views": 5400000,
+      "url": "https://www.youtube.com/shorts/KsVtSGiX4DQ"
+     },
+     {
+      "title": "Galaxy Projector 🌌✨",
+      "views": 4900000,
+      "url": "https://www.youtube.com/shorts/gYBHT0DxwFQ"
+     },
+     {
+      "title": "Woah.. my room actually looks like outer space now?! 🌌✨ #projectorgalaxy #starprojector",
+      "views": 4700000,
+      "url": "https://www.youtube.com/shorts/UxgZUng7kFk"
      },
      {
       "title": "⭐ Product Link in Comments ⭐360 Galaxy Night Light Projector⁠ #gift #shorts #viral",
@@ -2798,19 +2808,9 @@
       "url": "https://www.youtube.com/shorts/H8vxFGcPVfI"
      },
      {
-      "title": "Astronaut Projector 🌌 #lamp #projector #nightlamp #space #astronaut astron",
-      "views": 1600000,
-      "url": "https://www.youtube.com/shorts/JCNs7tRESkk"
-     },
-     {
-      "title": "Galaxy lite home planetarium projector I and II generation for option",
-      "views": 476000,
-      "url": "https://www.youtube.com/shorts/6FzvxdM8Sns"
-     },
-     {
-      "title": "The Aurora Galaxy Projector Nothern Night Light Lamp With BT Speaker White Noise",
-      "views": 434000,
-      "url": "https://www.youtube.com/shorts/3y2uftk0Aq0"
+      "title": "Mini Projector 🎥✨ | Tiny Gadget, Big Screen Experience! #shorts #short #shortvideo #viral #trending",
+      "views": 2300000,
+      "url": "https://www.youtube.com/shorts/HOyFnLH5o-E"
      }
     ],
     "status": "LIVE"
@@ -2818,18 +2818,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 67,
-    "video_score": 93,
+    "score": 61,
+    "video_score": 100,
     "trend_score": 40,
-    "crowding": "media",
+    "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 338K vistas (el mayor, 10M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 1.9M vistas (el mayor, 5.4M)",
+     "Competencia alta: 9 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -17% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-04 22:57:21 UTC",
+   "measured_at": "2026-11-06 13:19:01 UTC",
    "trends": {
     "momentum_pct": -16.8,
     "low_volume": false,
@@ -2841,41 +2841,37 @@
     73,
     81,
     57,
-    63,
-    90,
-    93,
+    62,
+    92,
+    92,
     88,
     37,
-    35,
-    27,
+    36,
+    26,
     21,
     20,
     31,
-    21,
     22,
-    21,
     22,
-    24,
-    18,
-    25,
+    20,
     22,
     23,
-    22,
-    16,
-    15
+    17,
+    27,
+    23,
+    23,
+    21,
+    18,
+    14
    ],
-   "trends_at": "2026-11-03 00:06 UTC",
+   "trends_at": "2026-11-06 13:18:59 UTC",
    "rising": [
     {
      "query": "samsung galaxy s26",
      "growth": "Breakout"
     },
     {
-     "query": "galaxy s26 ultra",
-     "growth": "Breakout"
-    },
-    {
-     "query": "samsung galaxy ring",
+     "query": "samsung galaxy s26 ultra",
      "growth": "Breakout"
     },
     {
@@ -2889,9 +2885,13 @@
     {
      "query": "samsung galaxy watch8",
      "growth": "Breakout"
+    },
+    {
+     "query": "samsung galaxy s25 fe",
+     "growth": "Breakout"
     }
    ],
-   "rising_at": "2026-11-03 00:06:41 UTC"
+   "rising_at": "2026-11-06 13:19:01 UTC"
   },
   "sleep-headband": {
    "youtube": {

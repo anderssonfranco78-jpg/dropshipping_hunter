@@ -185,7 +185,7 @@
       },
       "youtube": {
         "keyword": "lumbar traction belt",
-        "shorts_found": 29,
+        "shorts_found": 32,
         "median_views_top10": 500000,
         "max_views": 14000000,
         "over_100k": 7,
@@ -474,26 +474,16 @@
       },
       "youtube": {
         "keyword": "ultrasonic tooth cleaner",
-        "shorts_found": 38,
-        "median_views_top10": 5850000,
-        "max_views": 323000000,
-        "over_100k": 17,
-        "over_1m": 11,
+        "shorts_found": 32,
+        "median_views_top10": 2500000,
+        "max_views": 162000000,
+        "over_100k": 11,
+        "over_1m": 7,
         "top": [
-          {
-            "title": "▶️ How to clean your teeth like a dentist at home ( 295 ) @MaviGadgets  ✨ Tooth Cleaning Kit",
-            "views": 323000000,
-            "url": "https://www.youtube.com/shorts/HQSN4cABFzY"
-          },
           {
             "title": "Toothbrush from France 🇫🇷  #shorts",
             "views": 162000000,
             "url": "https://www.youtube.com/shorts/L_8uNmiLW70"
-          },
-          {
-            "title": "Normal Toothbrush vs Electric Toothbrush #telugu #viral #india #trending #toothbrush #shorts",
-            "views": 9400000,
-            "url": "https://www.youtube.com/shorts/xy6D_B1FG5Q"
           },
           {
             "title": "The Best Oral-B Electric Toothbrush!? #shorts",
@@ -501,9 +491,19 @@
             "url": "https://www.youtube.com/shorts/UreYgs46R2c"
           },
           {
-            "title": "Professional Grade Tooth Polisher! #shorts",
-            "views": 6500000,
-            "url": "https://www.youtube.com/shorts/rraj3m2-nbU"
+            "title": "cleaning teeth with ultrasonic scaler #shorts #dentist #teethcleaning",
+            "views": 5200000,
+            "url": "https://www.youtube.com/shorts/REL8d-UV-pI"
+          },
+          {
+            "title": "Scaling tartar and calculus #dental #dentist #dentistry",
+            "views": 4900000,
+            "url": "https://www.youtube.com/shorts/sbLkVniGnhE"
+          },
+          {
+            "title": "Smile Therapy- Ultrasonic Tooth Cleaner",
+            "views": 3100000,
+            "url": "https://www.youtube.com/shorts/MKD6ZfFwqyk"
           }
         ],
         "status": "LIVE"
@@ -613,7 +613,7 @@
       "retail_availability_score": 85.0,
       "ad_active_days": 38,
       "competitor_ad_count": 29,
-      "google_trends_momentum": -10.4,
+      "google_trends_momentum": -9.2,
       "source_url": "https://www.aliexpress.com/item/1005007791672610.html",
       "target_demographics": {
         "age": "22-60",
@@ -626,7 +626,7 @@
         ]
       },
       "data_status": {
-        "trends": "CACHED",
+        "trends": "LIVE",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -641,58 +641,58 @@
       "trends_keyword": "cat brush",
       "notes": "Variante verde mango con cerdas naranja. Precio de página $4.73 + envío $3.54 = $8.27 (bitácora §24.3). Stock leído en vivo el 2026-10-08: green 994 uds; yellow solo 17 uds (descartada).",
       "trends_series": [
-        11,
-        11,
-        11,
-        11,
-        12,
-        11,
-        11,
-        12,
+        13,
         13,
         11,
+        13,
+        13,
         12,
-        11,
-        10,
-        11,
-        17,
+        12,
+        14,
+        15,
+        12,
+        13,
+        13,
+        12,
+        13,
         19,
-        15,
-        14,
-        14,
-        14,
-        28,
-        62,
-        82,
-        100,
-        63,
-        43,
-        38,
-        61,
-        65,
-        40,
-        40,
-        53,
-        47,
-        44,
-        20,
-        20,
-        14,
+        21,
         16,
-        13,
-        14,
+        15,
+        16,
+        16,
+        31,
+        69,
+        91,
+        100,
+        70,
+        48,
+        42,
+        69,
+        73,
+        44,
+        44,
+        59,
+        52,
+        49,
+        22,
+        22,
+        16,
+        18,
+        15,
+        17,
+        16,
+        16,
+        15,
         15,
         14,
         13,
+        16,
         14,
-        13,
-        12,
+        15,
+        15,
         14,
-        12,
-        13,
-        14,
-        12,
-        10
+        12
       ],
       "image_url": "assets/images/steamfur.webp",
       "video_keyword": "steamy cat brush",
@@ -754,16 +754,14 @@
       "trends_meta": {
         "low_volume": false,
         "zero_share": 0.0,
-        "peak_ratio": 0.12,
-        "mean_recent": 12.2,
-        "mean_prior": 13.7,
-        "resolution": "WEEK",
-        "measured_at": "2026-11-05 13:34 UTC",
-        "cache": "reciente"
+        "peak_ratio": 0.14,
+        "mean_recent": 14.0,
+        "mean_prior": 15.4,
+        "resolution": "WEEK"
       },
       "youtube": {
         "keyword": "steamy cat brush",
-        "shorts_found": 30,
+        "shorts_found": 29,
         "median_views_top10": 156000,
         "max_views": 3800000,
         "over_100k": 6,
@@ -1052,11 +1050,11 @@
       },
       "youtube": {
         "keyword": "turbo jet fan",
-        "shorts_found": 29,
-        "median_views_top10": 919000,
+        "shorts_found": 32,
+        "median_views_top10": 1500000,
         "max_views": 80000000,
         "over_100k": 13,
-        "over_1m": 5,
+        "over_1m": 6,
         "top": [
           {
             "title": "Metal Jet Fan from Electric Turbochargers | The H Lab #shorts",
@@ -1079,9 +1077,9 @@
             "url": "https://www.youtube.com/shorts/D6LcDtfEMfI"
           },
           {
-            "title": "Mini Turbo Jet Fan Powerful Blower | Air Blower #shorts #airblower",
-            "views": 1000000,
-            "url": "https://www.youtube.com/shorts/LEDdRGg_HU4"
+            "title": "Mini Turbo Jet Blower!",
+            "views": 2000000,
+            "url": "https://www.youtube.com/shorts/SDJSeNmH808"
           }
         ],
         "status": "LIVE"
