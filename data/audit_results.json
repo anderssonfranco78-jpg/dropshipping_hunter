@@ -185,21 +185,26 @@
       },
       "youtube": {
         "keyword": "lumbar traction belt",
-        "shorts_found": 28,
-        "median_views_top10": 310500,
-        "max_views": 79000000,
+        "shorts_found": 30,
+        "median_views_top10": 500000,
+        "max_views": 14000000,
         "over_100k": 7,
-        "over_1m": 3,
+        "over_1m": 4,
         "top": [
-          {
-            "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
-            "views": 79000000,
-            "url": "https://www.youtube.com/shorts/VsfXV5vUhUk"
-          },
           {
             "title": "Stretch Your Spine Automatically",
             "views": 14000000,
             "url": "https://www.youtube.com/shorts/IK9sl-o50d0"
+          },
+          {
+            "title": "Easy Way to Decompress Your Back #Shorts",
+            "views": 9600000,
+            "url": "https://www.youtube.com/shorts/PNFvCw3uygY"
+          },
+          {
+            "title": "Mechanical Lumbar Traction for Back Pain",
+            "views": 3300000,
+            "url": "https://www.youtube.com/shorts/_pWlXLHnN-E"
           },
           {
             "title": "Need a quick and easy way to decompress your lower back?! Try this banded Lumbar Traction technique",
@@ -210,11 +215,6 @@
             "title": "Decompress your low back with this lumbar traction exercise",
             "views": 760000,
             "url": "https://www.youtube.com/shorts/06WrOEPN1Y0"
-          },
-          {
-            "title": "Decompress Your Lower Back at Home #Shorts",
-            "views": 381000,
-            "url": "https://www.youtube.com/shorts/3VKai4c84wI"
           }
         ],
         "status": "LIVE"
@@ -474,10 +474,10 @@
       },
       "youtube": {
         "keyword": "ultrasonic tooth cleaner",
-        "shorts_found": 28,
+        "shorts_found": 29,
         "median_views_top10": 901500,
         "max_views": 5200000,
-        "over_100k": 7,
+        "over_100k": 9,
         "over_1m": 5,
         "top": [
           {
@@ -626,7 +626,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -757,21 +757,18 @@
         "peak_ratio": 0.13,
         "mean_recent": 13.2,
         "mean_prior": 14.8,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-11-07 11:58 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "steamy cat brush",
-        "shorts_found": 33,
-        "median_views_top10": 263000,
-        "max_views": 7000000,
-        "over_100k": 8,
-        "over_1m": 3,
+        "shorts_found": 32,
+        "median_views_top10": 156000,
+        "max_views": 3800000,
+        "over_100k": 6,
+        "over_1m": 2,
         "top": [
-          {
-            "title": "KURT’S NEW STEAM BRUSH 🤯",
-            "views": 7000000,
-            "url": "https://www.youtube.com/shorts/R95CL6d_dGw"
-          },
           {
             "title": "🐶 Why Is Everyone Switching to This Steam Pet Brush?! 👀🔥",
             "views": 3800000,
@@ -783,14 +780,19 @@
             "url": "https://www.youtube.com/shorts/0kU6kGTG0Q8"
           },
           {
-            "title": "Steam Grooming Brush: For Cats and Dogs",
-            "views": 808000,
-            "url": "https://www.youtube.com/shorts/-OKLMmMRIhY"
-          },
-          {
             "title": "The ultimate solution for shedding season! 🐾 #catbrush #steamycatbrush #hairbrush #petsupplies",
             "views": 314000,
             "url": "https://www.youtube.com/shorts/ltj5jWKcSbQ"
+          },
+          {
+            "title": "Cat Steam Brush",
+            "views": 212000,
+            "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
+          },
+          {
+            "title": "My Cat Tries The Viral Steam Cat Brush | The Dodo",
+            "views": 183000,
+            "url": "https://www.youtube.com/shorts/bFgsR8xpyOw"
           }
         ],
         "status": "LIVE"
@@ -1050,10 +1052,10 @@
       },
       "youtube": {
         "keyword": "turbo jet fan",
-        "shorts_found": 30,
+        "shorts_found": 27,
         "median_views_top10": 919500,
         "max_views": 80000000,
-        "over_100k": 12,
+        "over_100k": 11,
         "over_1m": 5,
         "top": [
           {
