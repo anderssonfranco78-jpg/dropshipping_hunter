@@ -48,7 +48,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -179,40 +179,42 @@
         "peak_ratio": 0.34,
         "mean_recent": 34.2,
         "mean_prior": 27.6,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-11-06 22:28 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "lumbar traction belt",
-        "shorts_found": 31,
-        "median_views_top10": 1500000,
-        "max_views": 79000000,
-        "over_100k": 11,
-        "over_1m": 6,
+        "shorts_found": 30,
+        "median_views_top10": 79000,
+        "max_views": 9600000,
+        "over_100k": 5,
+        "over_1m": 2,
         "top": [
-          {
-            "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
-            "views": 79000000,
-            "url": "https://www.youtube.com/shorts/VsfXV5vUhUk"
-          },
-          {
-            "title": "Stretch Your Spine Automatically",
-            "views": 14000000,
-            "url": "https://www.youtube.com/shorts/IK9sl-o50d0"
-          },
-          {
-            "title": "Stop living with neck stiffness: Try this decompression move #chiropractic #relief #shorts",
-            "views": 11000000,
-            "url": "https://www.youtube.com/shorts/bhLS0E7wY7w"
-          },
           {
             "title": "Easy Way to Decompress Your Back #Shorts",
             "views": 9600000,
             "url": "https://www.youtube.com/shorts/PNFvCw3uygY"
           },
           {
-            "title": "Partner Low Back Traction",
-            "views": 1600000,
-            "url": "https://www.youtube.com/shorts/F8gyhSC4rVY"
+            "title": "Scoliosis Back Brace 💪🦴 #shorts",
+            "views": 7200000,
+            "url": "https://www.youtube.com/shorts/hsYOi_SZAWc"
+          },
+          {
+            "title": "L4-L5-S1 Nerve Root Compression Treatment #shorts #SpinalTraction",
+            "views": 864000,
+            "url": "https://www.youtube.com/shorts/LIbrLtwH3Hk"
+          },
+          {
+            "title": "Traction Treatment For Sciatica| Sciatica Treatment #sciatica #shorts",
+            "views": 240000,
+            "url": "https://www.youtube.com/shorts/oq1nC0LObDE"
+          },
+          {
+            "title": "Spine and back traction using Lamber Belt at #yogapeacesansthan",
+            "views": 119000,
+            "url": "https://www.youtube.com/shorts/bdHrn9_9vj4"
           }
         ],
         "status": "LIVE"
@@ -335,7 +337,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -466,14 +468,16 @@
         "peak_ratio": 0.19,
         "mean_recent": 19.0,
         "mean_prior": 21.2,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-11-06 22:27 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "ultrasonic tooth cleaner",
-        "shorts_found": 27,
+        "shorts_found": 28,
         "median_views_top10": 1650000,
         "max_views": 5600000,
-        "over_100k": 12,
+        "over_100k": 9,
         "over_1m": 6,
         "top": [
           {
@@ -759,17 +763,12 @@
       },
       "youtube": {
         "keyword": "steamy cat brush",
-        "shorts_found": 29,
-        "median_views_top10": 197500,
-        "max_views": 7000000,
-        "over_100k": 7,
-        "over_1m": 3,
+        "shorts_found": 31,
+        "median_views_top10": 54000,
+        "max_views": 3800000,
+        "over_100k": 4,
+        "over_1m": 2,
         "top": [
-          {
-            "title": "KURT’S NEW STEAM BRUSH 🤯",
-            "views": 7000000,
-            "url": "https://www.youtube.com/shorts/R95CL6d_dGw"
-          },
           {
             "title": "🐶 Why Is Everyone Switching to This Steam Pet Brush?! 👀🔥",
             "views": 3800000,
@@ -781,14 +780,19 @@
             "url": "https://www.youtube.com/shorts/0kU6kGTG0Q8"
           },
           {
-            "title": "Amazon Pet Find 🐱 This Steam Brush Combines Mist Spray & Grooming! #petgroomingtips #cat #shorts",
-            "views": 378000,
-            "url": "https://www.youtube.com/shorts/_2lfgkAAx4I"
+            "title": "The ultimate solution for shedding season! 🐾 #catbrush #steamycatbrush #hairbrush #petsupplies",
+            "views": 314000,
+            "url": "https://www.youtube.com/shorts/ltj5jWKcSbQ"
           },
           {
-            "title": "Cat Steam Brush",
-            "views": 212000,
-            "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
+            "title": "My Cat Tries The Viral Steam Cat Brush | The Dodo",
+            "views": 183000,
+            "url": "https://www.youtube.com/shorts/bFgsR8xpyOw"
+          },
+          {
+            "title": "Testing New Steamy Cat Brush | Steamy brush #devicecare #catlover #catbrush",
+            "views": 69000,
+            "url": "https://www.youtube.com/shorts/NmysMNfhbrE"
           }
         ],
         "status": "LIVE"
@@ -911,7 +915,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -1042,14 +1046,16 @@
         "peak_ratio": 0.22,
         "mean_recent": 22.0,
         "mean_prior": 25.8,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-11-06 22:28 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "turbo jet fan",
-        "shorts_found": 32,
-        "median_views_top10": 919500,
+        "shorts_found": 28,
+        "median_views_top10": 973000,
         "max_views": 80000000,
-        "over_100k": 12,
+        "over_100k": 10,
         "over_1m": 5,
         "top": [
           {
