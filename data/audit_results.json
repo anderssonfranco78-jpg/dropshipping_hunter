@@ -181,21 +181,16 @@
         "mean_prior": 27.8,
         "resolution": "WEEK",
         "measured_at": "2026-11-07 21:08 UTC",
-        "cache": "reciente"
+        "cache": "respaldo"
       },
       "youtube": {
         "keyword": "lumbar traction belt",
-        "shorts_found": 33,
-        "median_views_top10": 2350000,
-        "max_views": 79000000,
-        "over_100k": 10,
-        "over_1m": 6,
+        "shorts_found": 30,
+        "median_views_top10": 500500,
+        "max_views": 14000000,
+        "over_100k": 7,
+        "over_1m": 4,
         "top": [
-          {
-            "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
-            "views": 79000000,
-            "url": "https://www.youtube.com/shorts/VsfXV5vUhUk"
-          },
           {
             "title": "Stretch Your Spine Automatically",
             "views": 14000000,
@@ -207,14 +202,19 @@
             "url": "https://www.youtube.com/shorts/PNFvCw3uygY"
           },
           {
-            "title": "Scoliosis Back Brace 💪🦴 #shorts",
-            "views": 7200000,
-            "url": "https://www.youtube.com/shorts/hsYOi_SZAWc"
-          },
-          {
             "title": "Mechanical Lumbar Traction for Back Pain",
             "views": 3300000,
             "url": "https://www.youtube.com/shorts/_pWlXLHnN-E"
+          },
+          {
+            "title": "Need a quick and easy way to decompress your lower back?! Try this banded Lumbar Traction technique",
+            "views": 1400000,
+            "url": "https://www.youtube.com/shorts/Kn0jW9VBxXA"
+          },
+          {
+            "title": "Decompress your low back with this lumbar traction exercise",
+            "views": 760000,
+            "url": "https://www.youtube.com/shorts/06WrOEPN1Y0"
           }
         ],
         "status": "LIVE"
@@ -470,15 +470,15 @@
         "mean_prior": 21.0,
         "resolution": "WEEK",
         "measured_at": "2026-11-07 21:08 UTC",
-        "cache": "reciente"
+        "cache": "respaldo"
       },
       "youtube": {
         "keyword": "ultrasonic tooth cleaner",
-        "shorts_found": 30,
-        "median_views_top10": 394500,
+        "shorts_found": 28,
+        "median_views_top10": 902000,
         "max_views": 5200000,
-        "over_100k": 8,
-        "over_1m": 4,
+        "over_100k": 9,
+        "over_1m": 5,
         "top": [
           {
             "title": "cleaning teeth with ultrasonic scaler #shorts #dentist #teethcleaning",
@@ -496,14 +496,14 @@
             "url": "https://www.youtube.com/shorts/MKD6ZfFwqyk"
           },
           {
+            "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
+            "views": 1900000,
+            "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
+          },
+          {
             "title": "Scaling teeth to remove tartar and calculus #shorts",
             "views": 1400000,
             "url": "https://www.youtube.com/shorts/1RWeozzKyos"
-          },
-          {
-            "title": "Clean family teeth with ultrasonic tooth cleaner! #oralhygiene",
-            "views": 404000,
-            "url": "https://www.youtube.com/shorts/ZjvT_HFFc60"
           }
         ],
         "status": "LIVE"
@@ -626,7 +626,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -757,11 +757,13 @@
         "peak_ratio": 0.13,
         "mean_recent": 12.8,
         "mean_prior": 15.0,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-11-08 12:17 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "steamy cat brush",
-        "shorts_found": 32,
+        "shorts_found": 34,
         "median_views_top10": 156500,
         "max_views": 3800000,
         "over_100k": 6,
@@ -1046,14 +1048,14 @@
         "mean_prior": 25.4,
         "resolution": "WEEK",
         "measured_at": "2026-11-07 21:08 UTC",
-        "cache": "reciente"
+        "cache": "respaldo"
       },
       "youtube": {
         "keyword": "turbo jet fan",
-        "shorts_found": 32,
+        "shorts_found": 30,
         "median_views_top10": 920000,
         "max_views": 80000000,
-        "over_100k": 15,
+        "over_100k": 14,
         "over_1m": 5,
         "top": [
           {

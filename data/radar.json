@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08 12:18:45 UTC",
+ "updated_at": "2026-11-08 21:25:56 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -440,8 +440,8 @@
   "pet-hair-roller": {
    "youtube": {
     "keyword": "pet hair remover roller",
-    "shorts_found": 32,
-    "median_views_top10": 332500,
+    "shorts_found": 29,
+    "median_views_top10": 241500,
     "max_views": 389000000,
     "over_100k": 6,
     "over_1m": 2,
@@ -457,19 +457,19 @@
       "url": "https://www.youtube.com/shorts/2U6ohfhrj_8"
      },
      {
-      "title": "Genius Tool For Removing Pet Hair! #shorts",
-      "views": 601000,
-      "url": "https://www.youtube.com/shorts/I7lfXDHI8rA"
-     },
-     {
       "title": "🐾 Tired of pet hair everywhere? Meet the ultimate pet hair removal brush!",
-      "views": 349000,
+      "views": 350000,
       "url": "https://www.youtube.com/shorts/4_Lne4sQ2Q8"
      },
      {
       "title": "Use This Roller Instead of Lint Roller!",
       "views": 334000,
       "url": "https://www.youtube.com/shorts/nE3JrIYTwpc"
+     },
+     {
+      "title": "Testing Out The ChomChom Pet Hair Removal Roller | The Pack",
+      "views": 331000,
+      "url": "https://www.youtube.com/shorts/-ODkUQHCeYk"
      }
     ],
     "status": "LIVE"
@@ -511,18 +511,18 @@
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 67,
-    "video_score": 93,
+    "score": 65,
+    "video_score": 90,
     "trend_score": 40,
     "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 332K vistas (el mayor, 389M)",
+     "Shorts: los 10 más vistos tienen una mediana de 242K vistas (el mayor, 389M)",
      "Competencia media: 2 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -11% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-07 11:59:02 UTC",
+   "measured_at": "2026-11-08 21:25:52 UTC",
    "trends_at": "2026-11-05 22:58 UTC",
    "rising": [
     {
@@ -555,10 +555,10 @@
   "spin-scrubber": {
    "youtube": {
     "keyword": "electric spin scrubber",
-    "shorts_found": 33,
-    "median_views_top10": 21500,
+    "shorts_found": 31,
+    "median_views_top10": 16000,
     "max_views": 2100000,
-    "over_100k": 3,
+    "over_100k": 4,
     "over_1m": 1,
     "top": [
      {
@@ -567,24 +567,24 @@
       "url": "https://www.youtube.com/shorts/1gudMQbGsv0"
      },
      {
+      "title": "This viral amazon scrubber is INCREDIBLE",
+      "views": 667000,
+      "url": "https://www.youtube.com/shorts/vpcUs3fqPdQ"
+     },
+     {
+      "title": "AGARO Royal Electric Spin Scrubber,Cleaning Brush Scrubber for Home, 350RPM Mins 8 Replaceable Brush",
+      "views": 547000,
+      "url": "https://www.youtube.com/shorts/NI4Sm6_dFzE"
+     },
+     {
       "title": "Electric Spin Scrubber AMAZON FINDS",
-      "views": 404000,
+      "views": 405000,
       "url": "https://www.youtube.com/shorts/1wNm9y-8-7A"
      },
      {
-      "title": "Trying out my new electric spin scrubber 🧼",
-      "views": 183000,
-      "url": "https://www.youtube.com/shorts/9xuaIST-AYQ"
-     },
-     {
-      "title": "Electric Spin Scrubber 🔥 AGARO Royal #shorts #spinscrubber #shortvideo #viralvideo",
-      "views": 33000,
-      "url": "https://www.youtube.com/shorts/Y_VHBuSNw-U"
-     },
-     {
-      "title": "9-in-1 Electric Spin Scrubber Review 🔥Powerful Kitchen Cleaning Gadget | BestAmazon Find | #shorts",
-      "views": 23000,
-      "url": "https://www.youtube.com/shorts/sma6X0-IEF8"
+      "title": "Best Power Spin Brush! 🤩 #shorts",
+      "views": 18000,
+      "url": "https://www.youtube.com/shorts/JgLj2YoZO30"
      }
     ],
     "status": "LIVE"
@@ -626,18 +626,18 @@
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 54,
-    "video_score": 63,
+    "score": 52,
+    "video_score": 60,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 22K vistas (el mayor, 2.1M)",
+     "Shorts: los 10 más vistos tienen una mediana de 16K vistas (el mayor, 2.1M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -16% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-07 11:59:05 UTC",
+   "measured_at": "2026-11-08 21:25:56 UTC",
    "trends_at": "2026-11-05 22:58 UTC",
    "rising": [
     {
@@ -896,11 +896,11 @@
   "portable-blender": {
    "youtube": {
     "keyword": "portable blender",
-    "shorts_found": 30,
-    "median_views_top10": 2100000,
+    "shorts_found": 31,
+    "median_views_top10": 508500,
     "max_views": 587000000,
-    "over_100k": 7,
-    "over_1m": 6,
+    "over_100k": 8,
+    "over_1m": 4,
     "top": [
      {
       "title": "Orange in portable Blender",
@@ -908,24 +908,24 @@
       "url": "https://www.youtube.com/shorts/r6R7VzXvxNo"
      },
      {
-      "title": "The Fastest Way To Make Fresh Juice!",
-      "views": 230000000,
-      "url": "https://www.youtube.com/shorts/IXJYL3IyNTs"
-     },
-     {
       "title": "What should we blend next? 🍓🫐 #freshjuice #smoothie #milkshake #portableblender #foryoupage",
       "views": 14000000,
       "url": "https://www.youtube.com/shorts/eE4IzQwbHk4"
      },
      {
-      "title": "Oreo Cookie Shake in Portable Blender 🍪✨️ #shorts #asmr",
-      "views": 2400000,
-      "url": "https://www.youtube.com/shorts/HGaLjWKiuh4"
-     },
-     {
       "title": "Portable Blender Smoothies Personal Blender Mini Shakes Juicer Cup USB Rechargeable.#shorts",
       "views": 2100000,
       "url": "https://www.youtube.com/shorts/aW55pWnvifU"
+     },
+     {
+      "title": "Check the portable blender!Perfect for shakes and smoothies.Compact 600ML design for on-the-go use.",
+      "views": 2100000,
+      "url": "https://www.youtube.com/shorts/wG6Ris7oVp8"
+     },
+     {
+      "title": "Best Portable Blender!🤩🧃",
+      "views": 515000,
+      "url": "https://www.youtube.com/shorts/ueMXK5JcaO8"
      }
     ],
     "status": "LIVE"
@@ -933,18 +933,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 53,
-    "video_score": 100,
+    "score": 52,
+    "video_score": 98,
     "trend_score": 20,
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 2.1M vistas (el mayor, 587M)",
-     "Competencia alta: 6 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 508K vistas (el mayor, 587M)",
+     "Competencia alta: 4 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -34% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-07 03:24:24 UTC",
+   "measured_at": "2026-11-08 21:25:39 UTC",
    "trends": {
     "momentum_pct": -34.0,
     "low_volume": false,
@@ -1012,20 +1012,15 @@
    "youtube": {
     "keyword": "vegetable chopper",
     "shorts_found": 30,
-    "median_views_top10": 667000,
-    "max_views": 37000000,
-    "over_100k": 8,
-    "over_1m": 4,
+    "median_views_top10": 1073000,
+    "max_views": 28000000,
+    "over_100k": 11,
+    "over_1m": 5,
     "top": [
      {
-      "title": "Viral Vegetable Slicer Test 🥕",
-      "views": 37000000,
-      "url": "https://www.youtube.com/shorts/s7W-fLzgfaA"
-     },
-     {
-      "title": "This Vegetable Chopper from Amazon is Amazing!",
-      "views": 15000000,
-      "url": "https://www.youtube.com/shorts/a1L_hh9Frbg"
+      "title": "This is our go to chopper! #tipsandtricks #veggies #fooddolls",
+      "views": 28000000,
+      "url": "https://www.youtube.com/shorts/xsTq-0LdkF8"
      },
      {
       "title": "Handpress Vegetable Chopper || Viral chopper Review #shortsfeed #shorts #viral",
@@ -1038,9 +1033,14 @@
       "url": "https://www.youtube.com/shorts/DFJ_lX16p5w"
      },
      {
-      "title": "Professional Vegetable Chopper | Chop Vegetables in Seconds 🥕 #Shorts",
-      "views": 746000,
-      "url": "https://www.youtube.com/shorts/BV6DUkPtpFo"
+      "title": "Top-rated Amazon food chopper✨ #veggiechopper  #amazonfinds #kitchen #cookinghacks #kitchengadgets",
+      "views": 2200000,
+      "url": "https://www.youtube.com/shorts/L03A3PCFdZE"
+     },
+     {
+      "title": "This veggie chopper is a game changer for your kitchen.",
+      "views": 1400000,
+      "url": "https://www.youtube.com/shorts/8yZju_vk_CY"
      }
     ],
     "status": "LIVE"
@@ -1054,12 +1054,12 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 667K vistas (el mayor, 37M)",
-     "Competencia alta: 4 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 1.1M vistas (el mayor, 28M)",
+     "Competencia alta: 5 Shorts pasan el millón de vistas",
      "Google (EE. UU.): estable -6% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-07 03:24:30 UTC",
+   "measured_at": "2026-11-08 21:25:42 UTC",
    "trends": {
     "momentum_pct": -5.6,
     "low_volume": false,
@@ -1586,36 +1586,36 @@
   "ice-roller": {
    "youtube": {
     "keyword": "ice roller face",
-    "shorts_found": 37,
-    "median_views_top10": 145500,
-    "max_views": 1300000,
-    "over_100k": 6,
-    "over_1m": 2,
+    "shorts_found": 33,
+    "median_views_top10": 1350000,
+    "max_views": 14000000,
+    "over_100k": 11,
+    "over_1m": 7,
     "top": [
      {
-      "title": "How to use Ice Roller on face || Ice roller for glowing skin✨ || Cucumber ice facial 🥒",
-      "views": 1300000,
-      "url": "https://www.youtube.com/shorts/G8HEuFZAMYc"
+      "title": "Best skincare hacks for bright & glowing skin✨*Ice Rollers*#skincare #homeremedies #glowingskin#tips",
+      "views": 14000000,
+      "url": "https://www.youtube.com/shorts/nX6DXcLlDKY"
      },
      {
-      "title": "⚠️Ice Rollers❌ #skincare #glowingskin #youtubeshorts #iceroller #brightskin #beautytips#grincygandhi",
-      "views": 1200000,
-      "url": "https://www.youtube.com/shorts/bEr3ghKMJKM"
+      "title": "My Weekly Ice Facial Therapy ❤️😍 #shorts #skincare #youtubeshorts #shortfeed #trending #facial",
+      "views": 8500000,
+      "url": "https://www.youtube.com/shorts/oo5f863z8hw"
      },
      {
       "title": "Ice roller✨💗 #skincare #brightskin #iceroller #beauty #homeremedies #skincareroutine  #shorts",
-      "views": 472000,
-      "url": "https://www.youtube.com/shorts/0IoAfuqQtHk"
+      "views": 2600000,
+      "url": "https://www.youtube.com/shorts/2bSCfEv3_F8"
      },
      {
-      "title": "3 Ice roller✨💗 #skincare #brightskin #iceroller #beauty #homeremedies #skincareroutine  #shorts",
-      "views": 213000,
-      "url": "https://www.youtube.com/shorts/E2F7XPvq3xg"
+      "title": "#shorts I Tried Viral 2 in 1 Ice Roller 🧊 This Summer ☀️Worth It ⁉️🤔 #tamil #beauty",
+      "views": 1600000,
+      "url": "https://www.youtube.com/shorts/HMyOlBvrtkY"
      },
      {
-      "title": "Facial ice roller hack👀💫 #skincare #homeremedies #shorts #ytshorts",
-      "views": 161000,
-      "url": "https://www.youtube.com/shorts/jFWcwSNSXGY"
+      "title": "Beetroot Ice Roller💗✨ #shorts #ytshorts #trending #viralvideo #skincare #explore #youtubeshorts",
+      "views": 1400000,
+      "url": "https://www.youtube.com/shorts/G_61ctN4Ye8"
      }
     ],
     "status": "LIVE"
@@ -1624,17 +1624,17 @@
    "trends_status": "LIVE",
    "market": {
     "score": 71,
-    "video_score": 84,
+    "video_score": 100,
     "trend_score": 65,
-    "crowding": "media",
+    "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 146K vistas (el mayor, 1.3M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 1.4M vistas (el mayor, 14M)",
+     "Competencia alta: 7 Shorts pasan el millón de vistas",
      "Google (EE. UU.): estable -4% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-07 11:58:54 UTC",
+   "measured_at": "2026-11-08 21:25:45 UTC",
    "trends": {
     "momentum_pct": -3.6,
     "low_volume": false,
@@ -1701,11 +1701,11 @@
   "posture-corrector": {
    "youtube": {
     "keyword": "posture corrector",
-    "shorts_found": 30,
+    "shorts_found": 31,
     "median_views_top10": 3050000,
     "max_views": 90000000,
-    "over_100k": 16,
-    "over_1m": 9,
+    "over_100k": 18,
+    "over_1m": 8,
     "top": [
      {
       "title": "Posture corrector",
@@ -1724,7 +1724,7 @@
      },
      {
       "title": "To keep my back straight, We made this...",
-      "views": 4500000,
+      "views": 4600000,
       "url": "https://www.youtube.com/shorts/jzx-yRPjSUU"
      },
      {
@@ -1745,11 +1745,11 @@
     "partial": false,
     "reasons": [
      "Shorts: los 10 más vistos tienen una mediana de 3M vistas (el mayor, 90M)",
-     "Competencia alta: 9 Shorts pasan el millón de vistas",
+     "Competencia alta: 8 Shorts pasan el millón de vistas",
      "Google (EE. UU.): estable -8% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-07 11:58:58 UTC",
+   "measured_at": "2026-11-08 21:25:49 UTC",
    "trends": {
     "momentum_pct": -8.3,
     "low_volume": false,
