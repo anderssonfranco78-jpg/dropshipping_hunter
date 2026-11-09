@@ -17,7 +17,7 @@
     "retail_availability_score": 85.0,
     "ad_active_days": 38,
     "competitor_ad_count": 29,
-    "google_trends_momentum": -15.0,
+    "google_trends_momentum": -13.8,
     "source_url": "https://www.aliexpress.com/item/1005007791672610.html",
     "target_demographics": {
       "age": "22-60",
@@ -30,7 +30,7 @@
       ]
     },
     "data_status": {
-      "trends": "CACHED",
+      "trends": "LIVE",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -46,56 +46,56 @@
     "notes": "Variante verde mango con cerdas naranja. Precio de página $4.73 + envío $3.54 = $8.27 (bitácora §24.3). Stock leído en vivo el 2026-10-08: green 994 uds; yellow solo 17 uds (descartada).",
     "trends_series": [
       13,
-      11,
+      12,
       13,
-      13,
+      14,
       12,
       12,
       14,
-      15,
+      16,
       13,
       13,
       12,
-      12,
+      11,
       13,
-      19,
-      21,
-      16,
-      15,
-      16,
-      16,
-      31,
-      68,
-      90,
-      100,
-      69,
-      47,
-      41,
-      68,
-      73,
-      45,
-      45,
-      58,
-      52,
-      49,
+      20,
       22,
-      22,
-      16,
-      18,
-      15,
-      16,
       17,
       15,
-      14,
+      17,
+      16,
+      32,
+      71,
+      96,
+      100,
+      72,
+      50,
+      43,
+      70,
+      75,
+      46,
+      46,
+      61,
+      53,
+      51,
+      23,
+      23,
+      17,
+      18,
+      16,
+      17,
+      17,
+      16,
+      15,
+      15,
       15,
       14,
-      13,
-      15,
-      13,
-      15,
-      15,
+      16,
       14,
-      11,
+      15,
+      16,
+      15,
+      12,
       11
     ],
     "image_url": "assets/images/steamfur.webp",
@@ -158,45 +158,43 @@
     "trends_meta": {
       "low_volume": false,
       "zero_share": 0.0,
-      "peak_ratio": 0.13,
-      "mean_recent": 12.8,
-      "mean_prior": 15.0,
-      "resolution": "WEEK",
-      "measured_at": "2026-11-08 12:17 UTC",
-      "cache": "reciente"
+      "peak_ratio": 0.14,
+      "mean_recent": 13.5,
+      "mean_prior": 15.7,
+      "resolution": "WEEK"
     },
     "youtube": {
       "keyword": "steamy cat brush",
-      "shorts_found": 31,
-      "median_views_top10": 49000,
-      "max_views": 3800000,
-      "over_100k": 3,
-      "over_1m": 1,
+      "shorts_found": 28,
+      "median_views_top10": 263500,
+      "max_views": 18000000,
+      "over_100k": 8,
+      "over_1m": 3,
       "top": [
+        {
+          "title": "✨Magic Pet Steam Brush – Bye Bye Shedding! 💦🐶🐱#Cat #Cats #CuteCat",
+          "views": 18000000,
+          "url": "https://www.youtube.com/shorts/CzSlC3TFa1Y"
+        },
         {
           "title": "🐶 Why Is Everyone Switching to This Steam Pet Brush?! 👀🔥",
           "views": 3800000,
           "url": "https://www.youtube.com/shorts/n-GflRw0sXI"
         },
         {
-          "title": "Cat Steam Brush",
-          "views": 213000,
-          "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
+          "title": "I Tried a Steam Brush on my Feisty Cat 😳",
+          "views": 2800000,
+          "url": "https://www.youtube.com/shorts/0kU6kGTG0Q8"
         },
         {
-          "title": "Steamy Cat Brush! 💨#catbrush #steamycatbrush #hairbrush #petsupplies #catgrooming #petcare",
-          "views": 129000,
-          "url": "https://www.youtube.com/shorts/Ee7UiQ4U7do"
+          "title": "Steam Grooming Brush: For Cats and Dogs",
+          "views": 808000,
+          "url": "https://www.youtube.com/shorts/-OKLMmMRIhY"
         },
         {
-          "title": "Testing New Steamy Cat Brush | Steamy brush #devicecare #catlover #catbrush",
-          "views": 69000,
-          "url": "https://www.youtube.com/shorts/NmysMNfhbrE"
-        },
-        {
-          "title": "Steam Brush For Dog! Pup's obsessed with this steam brush #shorts #dog #doggroominglife #pets",
-          "views": 59000,
-          "url": "https://www.youtube.com/shorts/3f210qkNDmo"
+          "title": "The ultimate solution for shedding season! 🐾 #catbrush #steamycatbrush #hairbrush #petsupplies",
+          "views": 314000,
+          "url": "https://www.youtube.com/shorts/ltj5jWKcSbQ"
         }
       ],
       "status": "LIVE"
@@ -233,7 +231,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -364,16 +362,23 @@
       "peak_ratio": 0.17,
       "mean_recent": 17.5,
       "mean_prior": 20.6,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-09 03:11 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "ultrasonic tooth cleaner",
-      "shorts_found": 29,
-      "median_views_top10": 330000,
-      "max_views": 5200000,
-      "over_100k": 8,
-      "over_1m": 3,
+      "shorts_found": 27,
+      "median_views_top10": 902500,
+      "max_views": 5600000,
+      "over_100k": 9,
+      "over_1m": 5,
       "top": [
+        {
+          "title": "5 years worth of cheese build up on teeth. #cheese #tartarremoval #plaque #teethcleaning #dentist",
+          "views": 5600000,
+          "url": "https://www.youtube.com/shorts/cX5fdk_85r0"
+        },
         {
           "title": "cleaning teeth with ultrasonic scaler #shorts #dentist #teethcleaning",
           "views": 5200000,
@@ -385,19 +390,14 @@
           "url": "https://www.youtube.com/shorts/sbLkVniGnhE"
         },
         {
+          "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
+          "views": 1900000,
+          "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
+        },
+        {
           "title": "Scaling teeth to remove tartar and calculus #shorts",
           "views": 1400000,
           "url": "https://www.youtube.com/shorts/1RWeozzKyos"
-        },
-        {
-          "title": "Clean family teeth with ultrasonic tooth cleaner! #oralhygiene",
-          "views": 404000,
-          "url": "https://www.youtube.com/shorts/ZjvT_HFFc60"
-        },
-        {
-          "title": "#teethcleaning with ultrasonic cleaner #ultrasoniccleaner #oralhealth #teeth #shorts",
-          "views": 386000,
-          "url": "https://www.youtube.com/shorts/iQ7ZV7Mfn2w"
         }
       ],
       "status": "LIVE"
@@ -438,7 +438,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -569,15 +569,17 @@
       "peak_ratio": 0.3,
       "mean_recent": 30.0,
       "mean_prior": 29.1,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-09 03:11 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "lumbar traction belt",
-      "shorts_found": 30,
-      "median_views_top10": 180000,
+      "shorts_found": 29,
+      "median_views_top10": 90500,
       "max_views": 14000000,
-      "over_100k": 6,
-      "over_1m": 3,
+      "over_100k": 5,
+      "over_1m": 4,
       "top": [
         {
           "title": "Stretch Your Spine Automatically",
@@ -590,19 +592,19 @@
           "url": "https://www.youtube.com/shorts/PNFvCw3uygY"
         },
         {
+          "title": "Scoliosis Back Brace 💪🦴 #shorts",
+          "views": 7200000,
+          "url": "https://www.youtube.com/shorts/hsYOi_SZAWc"
+        },
+        {
           "title": "Need a quick and easy way to decompress your lower back?! Try this banded Lumbar Traction technique",
           "views": 1400000,
           "url": "https://www.youtube.com/shorts/Kn0jW9VBxXA"
         },
         {
-          "title": "Decompress your low back with this lumbar traction exercise",
-          "views": 761000,
-          "url": "https://www.youtube.com/shorts/06WrOEPN1Y0"
-        },
-        {
-          "title": "Traction Treatment For Sciatica| Sciatica Treatment #sciatica #shorts",
-          "views": 241000,
-          "url": "https://www.youtube.com/shorts/oq1nC0LObDE"
+          "title": "Spine and back traction using Lamber Belt at #yogapeacesansthan",
+          "views": 120000,
+          "url": "https://www.youtube.com/shorts/bdHrn9_9vj4"
         }
       ],
       "status": "LIVE"
@@ -639,7 +641,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -770,16 +772,23 @@
       "peak_ratio": 0.22,
       "mean_recent": 21.8,
       "mean_prior": 25.5,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-09 03:11 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "turbo jet fan",
-      "shorts_found": 30,
-      "median_views_top10": 887000,
-      "max_views": 3800000,
-      "over_100k": 14,
-      "over_1m": 4,
+      "shorts_found": 28,
+      "median_views_top10": 1150000,
+      "max_views": 80000000,
+      "over_100k": 13,
+      "over_1m": 6,
       "top": [
+        {
+          "title": "Metal Jet Fan from Electric Turbochargers | The H Lab #shorts",
+          "views": 80000000,
+          "url": "https://www.youtube.com/shorts/XnfuuZndsSA"
+        },
         {
           "title": "Viral Jet Blower 😍⚡️ #gadgets #shorts",
           "views": 3800000,
@@ -796,13 +805,8 @@
           "url": "https://www.youtube.com/shorts/D6LcDtfEMfI"
         },
         {
-          "title": "Mini Turbo Jet Fan Powerful Blower | Air Blower #shorts #airblower",
-          "views": 1000000,
-          "url": "https://www.youtube.com/shorts/LEDdRGg_HU4"
-        },
-        {
           "title": "How a Fan Becomes a Jet Engine #shorts",
-          "views": 934000,
+          "views": 1300000,
           "url": "https://www.youtube.com/shorts/-u3uyR8zrjk"
         }
       ],
