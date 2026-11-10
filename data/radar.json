@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10 13:51:51 UTC",
+ "updated_at": "2026-11-10 22:37:34 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -666,21 +666,16 @@
   "magnetic-window-cleaner": {
    "youtube": {
     "keyword": "magnetic window cleaner",
-    "shorts_found": 34,
-    "median_views_top10": 687500,
+    "shorts_found": 28,
+    "median_views_top10": 130500,
     "max_views": 23000000,
-    "over_100k": 7,
-    "over_1m": 4,
+    "over_100k": 5,
+    "over_1m": 3,
     "top": [
      {
       "title": "▶️ Clean both sides easily Double Side Magnetic Window Cleaner Brush Tool ( # 2121 )",
       "views": 23000000,
       "url": "https://www.youtube.com/shorts/KpW-e3zhSbg"
-     },
-     {
-      "title": "This Magnetic Window Cleaner is My New Favorite Toy! ✨ So CLEVER! #cleaninggadget #windowwashing",
-      "views": 23000000,
-      "url": "https://www.youtube.com/shorts/AJRT9Kuk8mQ"
      },
      {
       "title": "Double Side Magnetic Window Cleaner Brush Tool 🎯Product Link in Description & Comments!🎯",
@@ -694,8 +689,13 @@
      },
      {
       "title": "how to use a magnetic glass cleaner?",
-      "views": 895000,
+      "views": 896000,
       "url": "https://www.youtube.com/shorts/vQNbom6sW8o"
+     },
+     {
+      "title": "Double-Sided Magnetic Window Cleaner for High Buildings #clearning",
+      "views": 190000,
+      "url": "https://www.youtube.com/shorts/OQkO20TA5ns"
      }
     ],
     "status": "LIVE"
@@ -704,55 +704,55 @@
    "trends_status": "LIVE",
    "market": {
     "score": 71,
-    "video_score": 100,
+    "video_score": 83,
     "trend_score": 65,
-    "crowding": "alta",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 688K vistas (el mayor, 23M)",
-     "Competencia alta: 4 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): estable +6% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 130K vistas (el mayor, 23M)",
+     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): estable -0% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-08 12:18:43 UTC",
+   "measured_at": "2026-11-10 22:37:01 UTC",
    "trends": {
-    "momentum_pct": 5.6,
+    "momentum_pct": -0.3,
     "low_volume": false,
-    "peak_ratio": 0.3,
-    "mean_recent": 29.8
+    "peak_ratio": 0.28,
+    "mean_recent": 28.0
    },
    "trends_series": [
-    46,
-    76,
-    92,
-    62,
+    75,
+    87,
+    60,
     64,
-    83,
-    69,
-    69,
-    39,
-    33,
-    29,
+    85,
+    68,
+    67,
+    38,
+    34,
     28,
-    32,
-    31,
     27,
+    32,
+    30,
+    26,
     24,
     27,
     29,
     30,
     26,
-    28,
+    29,
+    26,
+    31,
     27,
-    32,
-    28,
-    30,
-    29
+    31,
+    29,
+    25
    ],
-   "trends_at": "2026-11-07 03:24 UTC",
+   "trends_at": "2026-11-10 22:36:58 UTC",
    "rising": [
     {
-     "query": "robo clean window cleaner",
+     "query": "easy off oven cleaner on car window",
      "growth": "Breakout"
     },
     {
@@ -760,57 +760,57 @@
      "growth": "Breakout"
     },
     {
-     "query": "powerblade window cleaner",
+     "query": "chevron techron concentrate plus fuel system cleaner",
      "growth": "Breakout"
     },
     {
      "query": "roboclean window cleaner",
-     "growth": "+1,350%"
+     "growth": "+2,700%"
     },
     {
-     "query": "robotic window cleaner",
-     "growth": "+500%"
+     "query": "simple green all purpose cleaner",
+     "growth": "+800%"
     },
     {
      "query": "electric window cleaner",
      "growth": "+500%"
     }
    ],
-   "rising_at": "2026-11-07 03:24:13 UTC"
+   "rising_at": "2026-11-10 22:37:01 UTC"
   },
   "shower-filter": {
    "youtube": {
     "keyword": "shower head filter",
-    "shorts_found": 32,
-    "median_views_top10": 282000,
-    "max_views": 5200000,
-    "over_100k": 9,
-    "over_1m": 3,
+    "shorts_found": 30,
+    "median_views_top10": 119500,
+    "max_views": 1800000,
+    "over_100k": 6,
+    "over_1m": 1,
     "top": [
-     {
-      "title": "I got the best shower head 🚿",
-      "views": 5200000,
-      "url": "https://www.youtube.com/shorts/W-967YXyx-A"
-     },
      {
       "title": "Come replace my shower head filter that I used for a year 🚿 #acne #bacne #shorts",
       "views": 1800000,
       "url": "https://www.youtube.com/shorts/J8W5ItzbGBc"
      },
      {
-      "title": "Replacing my showerhead filter! #shorts #amazonfinds #asmrsounds",
-      "views": 1700000,
-      "url": "https://www.youtube.com/shorts/gAJo4YHWVL0"
+      "title": "America's #1 Filtered Showerhead",
+      "views": 499000,
+      "url": "https://www.youtube.com/shorts/RKKMUcCfYSE"
      },
      {
       "title": "Top Amazon Finds You’ll Love, Filtered Shower Head with Handheld #amazonfinds #amazongadgets",
-      "views": 294000,
+      "views": 296000,
       "url": "https://www.youtube.com/shorts/vAcqXZtOzoU"
      },
      {
-      "title": "Ultimate Hydro Jet Shower Head Review: The Best High-Pressure Shower Experience! #hydrojet #shower",
-      "views": 293000,
-      "url": "https://www.youtube.com/shorts/Cl6LNTj29bM"
+      "title": "3 months of using my Jolie filtered shower head and I definitely see the difference in my hair",
+      "views": 239000,
+      "url": "https://www.youtube.com/shorts/yu9DGlba1Xw"
+     },
+     {
+      "title": "Do shower head filters really work? Let's find out!",
+      "views": 130000,
+      "url": "https://www.youtube.com/shorts/Zrf_TaKhfgo"
      }
     ],
     "status": "LIVE"
@@ -818,57 +818,57 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 58,
-    "video_score": 91,
-    "trend_score": 20,
-    "crowding": "media",
+    "score": 65,
+    "video_score": 82,
+    "trend_score": 40,
+    "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 282K vistas (el mayor, 5.2M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -26% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 120K vistas (el mayor, 1.8M)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Google (EE. UU.): baja -23% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-08 12:18:45 UTC",
+   "measured_at": "2026-11-10 22:37:10 UTC",
    "trends": {
-    "momentum_pct": -25.6,
+    "momentum_pct": -23.0,
     "low_volume": false,
-    "peak_ratio": 0.16,
-    "mean_recent": 16.0
+    "peak_ratio": 0.17,
+    "mean_recent": 16.8
    },
    "trends_series": [
-    42,
-    65,
-    89,
-    60,
-    55,
-    69,
-    59,
     67,
-    37,
-    32,
+    92,
+    59,
+    62,
+    74,
+    57,
+    65,
+    38,
+    34,
     23,
-    22,
+    23,
+    25,
     24,
-    23,
     26,
     25,
-    23,
+    24,
     21,
+    19,
     18,
+    19,
+    18,
+    19,
     17,
-    18,
-    18,
-    18,
-    16,
-    15,
-    15
+    17,
+    17,
+    16
    ],
-   "trends_at": "2026-11-07 03:24 UTC",
+   "trends_at": "2026-11-10 22:37:06 UTC",
    "rising": [
     {
-     "query": "aquabliss high output 12-stage shower filter",
-     "growth": "+2,000%"
+     "query": "filter baby shower filter",
+     "growth": "+350%"
     },
     {
      "query": "shower filter replacement cartridge",
@@ -876,41 +876,36 @@
     },
     {
      "query": "filter baby",
-     "growth": "+350%"
-    },
-    {
-     "query": "filter baby shower filter",
      "growth": "+300%"
     },
     {
      "query": "aquasana shower filter",
-     "growth": "+100%"
+     "growth": "+90%"
     },
     {
-     "query": "whole house water filter",
-     "growth": "+90%"
+     "query": "sprite shower filter",
+     "growth": "+70%"
+    },
+    {
+     "query": "shower filter for hair",
+     "growth": "+50%"
     }
    ],
-   "rising_at": "2026-10-31 02:53:57 UTC"
+   "rising_at": "2026-11-10 22:37:10 UTC"
   },
   "portable-blender": {
    "youtube": {
     "keyword": "portable blender",
-    "shorts_found": 31,
-    "median_views_top10": 508500,
+    "shorts_found": 30,
+    "median_views_top10": 257000,
     "max_views": 587000000,
     "over_100k": 8,
-    "over_1m": 4,
+    "over_1m": 3,
     "top": [
      {
       "title": "Orange in portable Blender",
       "views": 587000000,
       "url": "https://www.youtube.com/shorts/r6R7VzXvxNo"
-     },
-     {
-      "title": "What should we blend next? 🍓🫐 #freshjuice #smoothie #milkshake #portableblender #foryoupage",
-      "views": 14000000,
-      "url": "https://www.youtube.com/shorts/eE4IzQwbHk4"
      },
      {
       "title": "Portable Blender Smoothies Personal Blender Mini Shakes Juicer Cup USB Rechargeable.#shorts",
@@ -924,8 +919,13 @@
      },
      {
       "title": "Best Portable Blender!🤩🧃",
-      "views": 515000,
+      "views": 516000,
       "url": "https://www.youtube.com/shorts/ueMXK5JcaO8"
+     },
+     {
+      "title": "🥤 This Portable Blender Is A Game Changer! 😱 #Shorts #temufinds #viralproducts #fyp #viral",
+      "views": 287000,
+      "url": "https://www.youtube.com/shorts/NzTn78QGAnM"
      }
     ],
     "status": "LIVE"
@@ -933,40 +933,37 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 52,
-    "video_score": 98,
+    "score": 57,
+    "video_score": 90,
     "trend_score": 20,
-    "crowding": "alta",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 508K vistas (el mayor, 587M)",
-     "Competencia alta: 4 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -34% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 257K vistas (el mayor, 587M)",
+     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): baja -49% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-08 21:25:39 UTC",
+   "measured_at": "2026-11-10 22:37:15 UTC",
    "trends": {
-    "momentum_pct": -34.0,
+    "momentum_pct": -48.9,
     "low_volume": false,
-    "peak_ratio": 0.03,
-    "mean_recent": 2.8
+    "peak_ratio": 0.02,
+    "mean_recent": 2.0
    },
    "trends_series": [
-    77,
-    64,
-    21,
-    17,
-    17,
-    19,
-    15,
+    62,
+    20,
+    16,
+    16,
     18,
+    15,
+    17,
     6,
     5,
     3,
     3,
-    17,
-    4,
-    3,
+    16,
     3,
     3,
     3,
@@ -975,11 +972,14 @@
     3,
     2,
     3,
+    2,
     3,
-    3,
+    2,
+    2,
+    2,
     2
    ],
-   "trends_at": "2026-11-07 03:24:24 UTC",
+   "trends_at": "2026-11-10 22:37:15 UTC",
    "rising": [
     {
      "query": "handy gourmet revmix portable blender",
@@ -1011,36 +1011,36 @@
   "veggie-chopper": {
    "youtube": {
     "keyword": "vegetable chopper",
-    "shorts_found": 30,
-    "median_views_top10": 1073000,
-    "max_views": 28000000,
-    "over_100k": 11,
-    "over_1m": 5,
+    "shorts_found": 27,
+    "median_views_top10": 530500,
+    "max_views": 38000000,
+    "over_100k": 10,
+    "over_1m": 3,
     "top": [
      {
-      "title": "This is our go to chopper! #tipsandtricks #veggies #fooddolls",
-      "views": 28000000,
-      "url": "https://www.youtube.com/shorts/xsTq-0LdkF8"
+      "title": "Viral Vegetable Slicer Test 🥕",
+      "views": 38000000,
+      "url": "https://www.youtube.com/shorts/s7W-fLzgfaA"
      },
      {
       "title": "Handpress Vegetable Chopper || Viral chopper Review #shortsfeed #shorts #viral",
-      "views": 2600000,
+      "views": 2700000,
       "url": "https://www.youtube.com/shorts/DCMlBk3hUps"
      },
      {
+      "title": "Easy Chopping vegetables in usha FP3811 food processor #shorts #ytshorts #gadgets #kitchen #cooking",
+      "views": 1100000,
+      "url": "https://www.youtube.com/shorts/MzWtgV4CWLk"
+     },
+     {
       "title": "Premium Manual Pull Food Chopper | Multi-Function Kitchen Chopper #shorts",
-      "views": 2200000,
-      "url": "https://www.youtube.com/shorts/DFJ_lX16p5w"
+      "views": 630000,
+      "url": "https://www.youtube.com/shorts/tM990IaLH8c"
      },
      {
-      "title": "Top-rated Amazon food chopper✨ #veggiechopper  #amazonfinds #kitchen #cookinghacks #kitchengadgets",
-      "views": 2200000,
-      "url": "https://www.youtube.com/shorts/L03A3PCFdZE"
-     },
-     {
-      "title": "This veggie chopper is a game changer for your kitchen.",
-      "views": 1400000,
-      "url": "https://www.youtube.com/shorts/8yZju_vk_CY"
+      "title": "Premium Manual Push Vegetable Chopper | Multi Purpose Mini Food Chopper #shorts",
+      "views": 594000,
+      "url": "https://www.youtube.com/shorts/c20mMENsPUQ"
      }
     ],
     "status": "LIVE"
@@ -1048,53 +1048,53 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 71,
-    "video_score": 100,
-    "trend_score": 65,
-    "crowding": "alta",
+    "score": 70,
+    "video_score": 98,
+    "trend_score": 40,
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 1.1M vistas (el mayor, 28M)",
-     "Competencia alta: 5 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): estable -6% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 530K vistas (el mayor, 38M)",
+     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): baja -13% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-08 21:25:42 UTC",
+   "measured_at": "2026-11-10 22:37:22 UTC",
    "trends": {
-    "momentum_pct": -5.6,
+    "momentum_pct": -13.3,
     "low_volume": false,
-    "peak_ratio": 0.29,
-    "mean_recent": 29.2
+    "peak_ratio": 0.27,
+    "mean_recent": 27.2
    },
    "trends_series": [
-    56,
     78,
-    81,
+    80,
     56,
-    64,
-    76,
+    67,
+    74,
     70,
-    86,
-    38,
-    36,
+    83,
+    39,
+    37,
+    33,
+    37,
     35,
-    35,
-    34,
-    27,
-    36,
+    28,
+    33,
     31,
     30,
     33,
+    27,
+    29,
     28,
     26,
-    28,
-    29,
-    39,
-    28,
-    23,
-    27
+    40,
+    30,
+    24,
+    27,
+    28
    ],
-   "trends_at": "2026-11-07 03:24:30 UTC",
+   "trends_at": "2026-11-10 22:37:22 UTC",
    "rising": [
     {
      "query": "oxo good grips vegetable chopper",
@@ -1586,36 +1586,36 @@
   "ice-roller": {
    "youtube": {
     "keyword": "ice roller face",
-    "shorts_found": 33,
-    "median_views_top10": 1350000,
-    "max_views": 14000000,
-    "over_100k": 11,
-    "over_1m": 7,
+    "shorts_found": 32,
+    "median_views_top10": 145500,
+    "max_views": 2600000,
+    "over_100k": 6,
+    "over_1m": 3,
     "top": [
-     {
-      "title": "Best skincare hacks for bright & glowing skin✨*Ice Rollers*#skincare #homeremedies #glowingskin#tips",
-      "views": 14000000,
-      "url": "https://www.youtube.com/shorts/nX6DXcLlDKY"
-     },
-     {
-      "title": "My Weekly Ice Facial Therapy ❤️😍 #shorts #skincare #youtubeshorts #shortfeed #trending #facial",
-      "views": 8500000,
-      "url": "https://www.youtube.com/shorts/oo5f863z8hw"
-     },
      {
       "title": "Ice roller✨💗 #skincare #brightskin #iceroller #beauty #homeremedies #skincareroutine  #shorts",
       "views": 2600000,
       "url": "https://www.youtube.com/shorts/2bSCfEv3_F8"
      },
      {
-      "title": "#shorts I Tried Viral 2 in 1 Ice Roller 🧊 This Summer ☀️Worth It ⁉️🤔 #tamil #beauty",
-      "views": 1600000,
-      "url": "https://www.youtube.com/shorts/HMyOlBvrtkY"
-     },
-     {
       "title": "Beetroot Ice Roller💗✨ #shorts #ytshorts #trending #viralvideo #skincare #explore #youtubeshorts",
       "views": 1400000,
       "url": "https://www.youtube.com/shorts/G_61ctN4Ye8"
+     },
+     {
+      "title": "How to use Ice Roller on face || Ice roller for glowing skin✨ || Cucumber ice facial 🥒",
+      "views": 1300000,
+      "url": "https://www.youtube.com/shorts/G8HEuFZAMYc"
+     },
+     {
+      "title": "Ice roller✨💗 #skincare #brightskin #iceroller #beauty #homeremedies #skincareroutine  #shorts",
+      "views": 472000,
+      "url": "https://www.youtube.com/shorts/0IoAfuqQtHk"
+     },
+     {
+      "title": "Facial ice roller hack👀💫 #skincare #homeremedies #shorts #ytshorts",
+      "views": 161000,
+      "url": "https://www.youtube.com/shorts/jFWcwSNSXGY"
      }
     ],
     "status": "LIVE"
@@ -1624,52 +1624,52 @@
    "trends_status": "LIVE",
    "market": {
     "score": 71,
-    "video_score": 100,
+    "video_score": 84,
     "trend_score": 65,
-    "crowding": "alta",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 1.4M vistas (el mayor, 14M)",
-     "Competencia alta: 7 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): estable -4% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 146K vistas (el mayor, 2.6M)",
+     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): estable -2% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-08 21:25:45 UTC",
+   "measured_at": "2026-11-10 22:37:27 UTC",
    "trends": {
-    "momentum_pct": -3.6,
+    "momentum_pct": -2.0,
     "low_volume": false,
     "peak_ratio": 0.25,
-    "mean_recent": 24.8
+    "mean_recent": 25.0
    },
    "trends_series": [
-    46,
-    74,
-    95,
-    61,
-    53,
     76,
+    96,
+    62,
+    54,
+    77,
     59,
-    58,
-    35,
+    59,
+    36,
     28,
-    27,
-    28,
-    23,
-    24,
     26,
-    24,
+    29,
     23,
+    21,
+    26,
+    25,
+    24,
     27,
     29,
-    25,
+    24,
     28,
     24,
-    25,
     26,
     25,
-    23
+    26,
+    24,
+    25
    ],
-   "trends_at": "2026-11-05 13:35 UTC",
+   "trends_at": "2026-11-10 22:37:27 UTC",
    "rising": [
     {
      "query": "triggerpoint grid foam roller",
@@ -1701,11 +1701,11 @@
   "posture-corrector": {
    "youtube": {
     "keyword": "posture corrector",
-    "shorts_found": 31,
+    "shorts_found": 34,
     "median_views_top10": 3050000,
     "max_views": 90000000,
-    "over_100k": 18,
-    "over_1m": 8,
+    "over_100k": 20,
+    "over_1m": 9,
     "top": [
      {
       "title": "Posture corrector",
@@ -1745,31 +1745,30 @@
     "partial": false,
     "reasons": [
      "Shorts: los 10 más vistos tienen una mediana de 3M vistas (el mayor, 90M)",
-     "Competencia alta: 8 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): estable -8% en las últimas 4 semanas vs las 12 anteriores"
+     "Competencia alta: 9 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): estable -6% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-08 21:25:49 UTC",
+   "measured_at": "2026-11-10 22:37:34 UTC",
    "trends": {
-    "momentum_pct": -8.3,
+    "momentum_pct": -5.7,
     "low_volume": false,
     "peak_ratio": 0.2,
-    "mean_recent": 20.2
+    "mean_recent": 20.5
    },
    "trends_series": [
-    41,
     53,
-    70,
+    69,
     44,
-    42,
-    50,
+    43,
+    49,
     46,
     43,
-    34,
+    33,
     32,
     24,
     25,
-    24,
+    25,
     23,
     24,
     24,
@@ -1777,14 +1776,15 @@
     22,
     21,
     20,
-    17,
-    17,
+    16,
     18,
-    25,
-    21,
-    17
+    19,
+    24,
+    22,
+    18,
+    18
    ],
-   "trends_at": "2026-11-05 13:35 UTC",
+   "trends_at": "2026-11-10 22:37:34 UTC",
    "rising": [
     {
      "query": "vive posture corrector",
