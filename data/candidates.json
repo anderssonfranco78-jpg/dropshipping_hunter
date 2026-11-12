@@ -17,7 +17,7 @@
     "retail_availability_score": 85.0,
     "ad_active_days": 38,
     "competitor_ad_count": 29,
-    "google_trends_momentum": -10.8,
+    "google_trends_momentum": -11.1,
     "source_url": "https://www.aliexpress.com/item/1005007791672610.html",
     "target_demographics": {
       "age": "22-60",
@@ -30,7 +30,7 @@
       ]
     },
     "data_status": {
-      "trends": "CACHED",
+      "trends": "LIVE",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -56,47 +56,47 @@
       13,
       14,
       13,
-      12,
+      13,
       13,
       20,
-      22,
+      21,
       17,
       15,
       16,
-      16,
+      17,
       32,
-      70,
-      95,
+      71,
+      92,
       100,
       72,
       50,
       43,
       70,
-      76,
+      75,
       46,
-      47,
-      62,
+      46,
+      60,
       54,
       51,
       23,
-      22,
-      17,
+      23,
+      16,
       18,
-      15,
       16,
       17,
+      17,
+      16,
+      15,
+      16,
+      15,
+      14,
       16,
       14,
       15,
-      15,
-      14,
       16,
+      15,
       14,
-      15,
-      15,
-      15,
-      13,
-      12
+      11
     ],
     "image_url": "assets/images/steamfur.webp",
     "video_keyword": "steamy cat brush",
@@ -159,18 +159,16 @@
       "low_volume": false,
       "zero_share": 0.0,
       "peak_ratio": 0.14,
-      "mean_recent": 13.8,
-      "mean_prior": 15.4,
-      "resolution": "WEEK",
-      "measured_at": "2026-11-11 13:02 UTC",
-      "cache": "reciente"
+      "mean_recent": 14.0,
+      "mean_prior": 15.8,
+      "resolution": "WEEK"
     },
     "youtube": {
       "keyword": "steamy cat brush",
-      "shorts_found": 28,
-      "median_views_top10": 263500,
+      "shorts_found": 32,
+      "median_views_top10": 171000,
       "max_views": 18000000,
-      "over_100k": 7,
+      "over_100k": 6,
       "over_1m": 3,
       "top": [
         {
@@ -189,14 +187,14 @@
           "url": "https://www.youtube.com/shorts/0kU6kGTG0Q8"
         },
         {
-          "title": "Steam Grooming Brush: For Cats and Dogs",
-          "views": 809000,
-          "url": "https://www.youtube.com/shorts/-OKLMmMRIhY"
-        },
-        {
           "title": "The ultimate solution for shedding season! 🐾 #catbrush #steamycatbrush #hairbrush #petsupplies",
           "views": 314000,
           "url": "https://www.youtube.com/shorts/ltj5jWKcSbQ"
+        },
+        {
+          "title": "Cat Steam Brush",
+          "views": 213000,
+          "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
         }
       ],
       "status": "LIVE"
@@ -370,17 +368,12 @@
     },
     "youtube": {
       "keyword": "ultrasonic tooth cleaner",
-      "shorts_found": 28,
-      "median_views_top10": 2400000,
-      "max_views": 5700000,
-      "over_100k": 13,
-      "over_1m": 7,
+      "shorts_found": 29,
+      "median_views_top10": 1650000,
+      "max_views": 5200000,
+      "over_100k": 10,
+      "over_1m": 6,
       "top": [
-        {
-          "title": "5 years worth of cheese build up on teeth. #cheese #tartarremoval #plaque #teethcleaning #dentist",
-          "views": 5700000,
-          "url": "https://www.youtube.com/shorts/cX5fdk_85r0"
-        },
         {
           "title": "cleaning teeth with ultrasonic scaler #shorts #dentist #teethcleaning",
           "views": 5200000,
@@ -400,6 +393,11 @@
           "title": "A New Way To Brush Teeth",
           "views": 2900000,
           "url": "https://www.youtube.com/shorts/ROrU30Ovojo"
+        },
+        {
+          "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
+          "views": 1900000,
+          "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
         }
       ],
       "status": "LIVE"
@@ -577,26 +575,16 @@
     },
     "youtube": {
       "keyword": "lumbar traction belt",
-      "shorts_found": 30,
-      "median_views_top10": 181000,
-      "max_views": 79000000,
-      "over_100k": 7,
-      "over_1m": 4,
+      "shorts_found": 32,
+      "median_views_top10": 115500,
+      "max_views": 14000000,
+      "over_100k": 6,
+      "over_1m": 2,
       "top": [
-        {
-          "title": "Back and Spine Pain Relief With Lumber Traction at #yogapeae",
-          "views": 79000000,
-          "url": "https://www.youtube.com/shorts/VsfXV5vUhUk"
-        },
         {
           "title": "Stretch Your Spine Automatically",
           "views": 14000000,
           "url": "https://www.youtube.com/shorts/IK9sl-o50d0"
-        },
-        {
-          "title": "Easy Way to Decompress Your Back #Shorts",
-          "views": 9600000,
-          "url": "https://www.youtube.com/shorts/PNFvCw3uygY"
         },
         {
           "title": "Need a quick and easy way to decompress your lower back?! Try this banded Lumbar Traction technique",
@@ -604,9 +592,19 @@
           "url": "https://www.youtube.com/shorts/Kn0jW9VBxXA"
         },
         {
+          "title": "Decompress your low back with this lumbar traction exercise",
+          "views": 762000,
+          "url": "https://www.youtube.com/shorts/06WrOEPN1Y0"
+        },
+        {
           "title": "Traction Treatment For Sciatica| Sciatica Treatment #sciatica #shorts",
           "views": 242000,
           "url": "https://www.youtube.com/shorts/oq1nC0LObDE"
+        },
+        {
+          "title": "Spine and back traction using Lamber Belt at #yogapeacesansthan",
+          "views": 121000,
+          "url": "https://www.youtube.com/shorts/bdHrn9_9vj4"
         }
       ],
       "status": "LIVE"
@@ -780,11 +778,11 @@
     },
     "youtube": {
       "keyword": "turbo jet fan",
-      "shorts_found": 28,
-      "median_views_top10": 920500,
+      "shorts_found": 30,
+      "median_views_top10": 1650000,
       "max_views": 80000000,
-      "over_100k": 13,
-      "over_1m": 5,
+      "over_100k": 12,
+      "over_1m": 6,
       "top": [
         {
           "title": "Metal Jet Fan from Electric Turbochargers | The H Lab #shorts",
@@ -802,14 +800,14 @@
           "url": "https://www.youtube.com/shorts/mlWwPS1daBM"
         },
         {
+          "title": "How a Fan Becomes a Jet Engine #shorts",
+          "views": 2700000,
+          "url": "https://www.youtube.com/shorts/-u3uyR8zrjk"
+        },
+        {
           "title": "Crazy Powerful Turbo Jet Fan! 🔥",
           "views": 2300000,
           "url": "https://www.youtube.com/shorts/D6LcDtfEMfI"
-        },
-        {
-          "title": "Mini Turbo Jet Fan Powerful Blower | Air Blower #shorts #airblower",
-          "views": 1000000,
-          "url": "https://www.youtube.com/shorts/LEDdRGg_HU4"
         }
       ],
       "status": "LIVE"
