@@ -1,0 +1,479 @@
+{
+  "version": "2.0.0",
+  "updated_at": "2026-11-13T20:58:14Z",
+  "schedule_info": "Centinela 06:00 AM El Salvador (12:00 UTC) + cada 6h",
+  "total_businesses": 9,
+  "active_businesses": 9,
+  "total_channels": 27,
+  "active_channels": 27,
+  "businesses": [
+    {
+      "id": "steamfur-pro",
+      "nombre": "SteamFur Pro™",
+      "status": "activo",
+      "warmup_day": 5,
+      "enlace_tienda": "https://ralfandco.myshopify.com/products/steamfur-pro",
+      "cluster_canales": {
+        "youtube_shorts": {
+          "handle": "@SteamFurPro",
+          "canal_url": "https://www.youtube.com/@SteamFurPro",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        },
+        "instagram_reels": {
+          "handle": "@steamfurpro",
+          "canal_url": "https://www.instagram.com/steamfurpro",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        },
+        "facebook_reels": {
+          "handle": "SteamFur Pro Official",
+          "canal_url": "https://www.facebook.com/profile.php?id=61594892791830",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        }
+      },
+      "historial_metricas": [],
+      "metricas_resumen": {
+        "videos_hoy": 0,
+        "vistas_hoy": 0,
+        "clics_tienda_hoy": 0,
+        "vistas_ultimos_7_dias": 0,
+        "tasa_conversion_bio_pct": 0.0,
+        "dias_sin_publicar": 0,
+        "account_health_score": 95.0,
+        "health_status": "optimo",
+        "alertas_activas": [],
+        "ultimo_sondeo": "2026-11-13T20:58:14Z"
+      }
+    },
+    {
+      "id": "prosmile-ultrasonic",
+      "nombre": "UltraSmile Pro™",
+      "status": "activo",
+      "warmup_day": 5,
+      "enlace_tienda": "https://ralfandco.myshopify.com/products/prosmile-ultrasonic",
+      "cluster_canales": {
+        "youtube_shorts": {
+          "handle": "@UltraSmilePro",
+          "canal_url": "https://www.youtube.com/channel/UCcdlJ3bL8cSGyB_6x_E3w8A",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        },
+        "instagram_reels": {
+          "handle": "@ultrasmilepro_us",
+          "canal_url": "https://www.instagram.com/ultrasmilepro_us/",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        },
+        "facebook_reels": {
+          "handle": "UltraSmile Pro Official",
+          "canal_url": "https://www.facebook.com/profile.php?id=61578028379184",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        }
+      },
+      "historial_metricas": [],
+      "metricas_resumen": {
+        "videos_hoy": 0,
+        "vistas_hoy": 0,
+        "clics_tienda_hoy": 0,
+        "vistas_ultimos_7_dias": 0,
+        "tasa_conversion_bio_pct": 0.0,
+        "dias_sin_publicar": 0,
+        "account_health_score": 95.0,
+        "health_status": "optimo",
+        "alertas_activas": [],
+        "ultimo_sondeo": "2026-11-13T20:58:14Z"
+      }
+    },
+    {
+      "id": "spinerelief-pro",
+      "nombre": "SpineRelief Pro™",
+      "status": "activo",
+      "warmup_day": 5,
+      "enlace_tienda": "https://ralfandco.myshopify.com/products/spinerelief-pro",
+      "cluster_canales": {
+        "youtube_shorts": {
+          "handle": "@SpineReliefPro",
+          "canal_url": "https://www.youtube.com/channel/UC9H8gD_K4_E3j_x7B-v_c1w",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        },
+        "instagram_reels": {
+          "handle": "@spinereliefpro_us",
+          "canal_url": "https://www.instagram.com/spinereliefpro_us/",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        },
+        "facebook_reels": {
+          "handle": "SpineRelief Pro Official",
+          "canal_url": "https://www.facebook.com/profile.php?id=61586431073880",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        }
+      },
+      "historial_metricas": [],
+      "metricas_resumen": {
+        "videos_hoy": 0,
+        "vistas_hoy": 0,
+        "clics_tienda_hoy": 0,
+        "vistas_ultimos_7_dias": 0,
+        "tasa_conversion_bio_pct": 0.0,
+        "dias_sin_publicar": 0,
+        "account_health_score": 95.0,
+        "health_status": "optimo",
+        "alertas_activas": [],
+        "ultimo_sondeo": "2026-11-13T20:58:14Z"
+      }
+    },
+    {
+      "id": "aeroforce-x3",
+      "nombre": "AeroForce X3™",
+      "status": "activo",
+      "warmup_day": 5,
+      "enlace_tienda": "https://ralfandco.myshopify.com/products/aeroforce-x3",
+      "cluster_canales": {
+        "youtube_shorts": {
+          "handle": "@AeroForceX3",
+          "canal_url": "https://www.youtube.com/channel/UCz-zB_j1I5u8R3G1tQ6iG9g",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        },
+        "instagram_reels": {
+          "handle": "@aeroforcex3_us",
+          "canal_url": "https://www.instagram.com/aeroforcex3_us/",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        },
+        "facebook_reels": {
+          "handle": "AeroForce X3 Official",
+          "canal_url": "https://www.facebook.com/profile.php?id=61588450750070",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        }
+      },
+      "historial_metricas": [],
+      "metricas_resumen": {
+        "videos_hoy": 0,
+        "vistas_hoy": 0,
+        "clics_tienda_hoy": 0,
+        "vistas_ultimos_7_dias": 0,
+        "tasa_conversion_bio_pct": 0.0,
+        "dias_sin_publicar": 0,
+        "account_health_score": 95.0,
+        "health_status": "optimo",
+        "alertas_activas": [],
+        "ultimo_sondeo": "2026-11-13T20:58:14Z"
+      }
+    },
+    {
+      "id": "babyhalo-pro",
+      "nombre": "BabyHalo Pro™",
+      "status": "activo",
+      "warmup_day": 5,
+      "enlace_tienda": "https://ralfandco.myshopify.com/products/babyhalo-pro",
+      "cluster_canales": {
+        "youtube_shorts": {
+          "handle": "@BabyHaloPro",
+          "canal_url": "https://www.youtube.com/channel/UCJ-_wX1u0c6c1B5Q5aQ4X2A",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        },
+        "instagram_reels": {
+          "handle": "@babyhalopro_us",
+          "canal_url": "https://www.instagram.com/babyhalopro_us/",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        },
+        "facebook_reels": {
+          "handle": "BabyHalo Pro Official",
+          "canal_url": "https://www.facebook.com/profile.php?id=61587324041782",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        }
+      },
+      "historial_metricas": [],
+      "metricas_resumen": {
+        "videos_hoy": 0,
+        "vistas_hoy": 0,
+        "clics_tienda_hoy": 0,
+        "vistas_ultimos_7_dias": 0,
+        "tasa_conversion_bio_pct": 0.0,
+        "dias_sin_publicar": 0,
+        "account_health_score": 95.0,
+        "health_status": "optimo",
+        "alertas_activas": [],
+        "ultimo_sondeo": "2026-11-13T20:58:14Z"
+      }
+    },
+    {
+      "id": "luxeweave-pro",
+      "nombre": "LuxeWeave Pro™",
+      "status": "activo",
+      "warmup_day": 5,
+      "enlace_tienda": "https://ralfandco.myshopify.com/products/luxeweave-pro",
+      "cluster_canales": {
+        "youtube_shorts": {
+          "handle": "@LuxeWeavePro",
+          "canal_url": "https://www.youtube.com/channel/UC2y-o1T-5pG4_9_2eW8o3lQ",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        },
+        "instagram_reels": {
+          "handle": "@luxeweavepro_us",
+          "canal_url": "https://www.instagram.com/luxeweavepro_us/",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        },
+        "facebook_reels": {
+          "handle": "LuxeWeave Pro Official",
+          "canal_url": "https://www.facebook.com/profile.php?id=61587202784880",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        }
+      },
+      "historial_metricas": [],
+      "metricas_resumen": {
+        "videos_hoy": 0,
+        "vistas_hoy": 0,
+        "clics_tienda_hoy": 0,
+        "vistas_ultimos_7_dias": 0,
+        "tasa_conversion_bio_pct": 0.0,
+        "dias_sin_publicar": 0,
+        "account_health_score": 95.0,
+        "health_status": "optimo",
+        "alertas_activas": [],
+        "ultimo_sondeo": "2026-11-13T20:58:14Z"
+      }
+    },
+    {
+      "id": "solarfirefly-pro",
+      "nombre": "SolarFirefly Pro™",
+      "status": "activo",
+      "warmup_day": 5,
+      "enlace_tienda": "https://ralfandco.myshopify.com/products/solarfirefly-pro",
+      "cluster_canales": {
+        "youtube_shorts": {
+          "handle": "@SolarFireflyPro",
+          "canal_url": "https://www.youtube.com/channel/UCe-F2L7z4-7s5C0p-e0O7tQ",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        },
+        "instagram_reels": {
+          "handle": "@solarfireflypro_us",
+          "canal_url": "https://www.instagram.com/solarfireflypro_us/",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        },
+        "facebook_reels": {
+          "handle": "SolarFirefly Pro Official",
+          "canal_url": "https://www.facebook.com/profile.php?id=61587113030676",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        }
+      },
+      "historial_metricas": [],
+      "metricas_resumen": {
+        "videos_hoy": 0,
+        "vistas_hoy": 0,
+        "clics_tienda_hoy": 0,
+        "vistas_ultimos_7_dias": 0,
+        "tasa_conversion_bio_pct": 0.0,
+        "dias_sin_publicar": 0,
+        "account_health_score": 95.0,
+        "health_status": "optimo",
+        "alertas_activas": [],
+        "ultimo_sondeo": "2026-11-13T20:58:14Z"
+      }
+    },
+    {
+      "id": "magneglide-pro",
+      "nombre": "MagneGlide Pro™",
+      "status": "activo",
+      "warmup_day": 5,
+      "enlace_tienda": "https://ralfandco.myshopify.com/products/magneglide-pro",
+      "cluster_canales": {
+        "youtube_shorts": {
+          "handle": "@MagneGlidePro",
+          "canal_url": "https://www.youtube.com/channel/UCpW1Y1d9c_o5h3p7R2A6n9Q",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        },
+        "instagram_reels": {
+          "handle": "@magneglidepro_us",
+          "canal_url": "https://www.instagram.com/magneglidepro_us/",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        },
+        "facebook_reels": {
+          "handle": "MagneGlide Pro Official",
+          "canal_url": "https://www.facebook.com/profile.php?id=61587113030676",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        }
+      },
+      "historial_metricas": [],
+      "metricas_resumen": {
+        "videos_hoy": 0,
+        "vistas_hoy": 0,
+        "clics_tienda_hoy": 0,
+        "vistas_ultimos_7_dias": 0,
+        "tasa_conversion_bio_pct": 0.0,
+        "dias_sin_publicar": 0,
+        "account_health_score": 95.0,
+        "health_status": "optimo",
+        "alertas_activas": [],
+        "ultimo_sondeo": "2026-11-13T20:58:14Z"
+      }
+    },
+    {
+      "id": "rapiddice-pro",
+      "nombre": "RapidDice Pro™",
+      "status": "activo",
+      "warmup_day": 5,
+      "enlace_tienda": "https://ralfandco.myshopify.com/products/rapiddice-pro",
+      "cluster_canales": {
+        "youtube_shorts": {
+          "handle": "@RapidDicePro",
+          "canal_url": "https://www.youtube.com/channel/UC6g9A_q1u0X1t5g8V0P4r3w",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        },
+        "instagram_reels": {
+          "handle": "@rapiddicepro_us",
+          "canal_url": "https://www.instagram.com/rapiddicepro_us/",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        },
+        "facebook_reels": {
+          "handle": "RapidDice Pro Official",
+          "canal_url": "https://www.facebook.com/profile.php?id=61587091847291",
+          "estado": "activo",
+          "seguidores": 0,
+          "reproducciones_totales": 0,
+          "videos_publicados": 0,
+          "ultimo_post": null,
+          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+        }
+      },
+      "historial_metricas": [],
+      "metricas_resumen": {
+        "videos_hoy": 0,
+        "vistas_hoy": 0,
+        "clics_tienda_hoy": 0,
+        "vistas_ultimos_7_dias": 0,
+        "tasa_conversion_bio_pct": 0.0,
+        "dias_sin_publicar": 0,
+        "account_health_score": 95.0,
+        "health_status": "optimo",
+        "alertas_activas": [],
+        "ultimo_sondeo": "2026-11-13T20:58:14Z"
+      }
+    }
+  ]
+}

@@ -76,6 +76,19 @@ jobs:
               h = json.loads(p.read_text(encoding="utf-8"))
               print(f"### 🤖 Dropshipping Hunter Cloud Run — `{h.get('generated_at', '—')}`")
               print(f"- **Modo:** `{h.get('mode')}` | **Alertas rojas:** `{len(h.get('alerts_red', []))}` | **Avisos:** `{len(h.get('alerts_yellow', []))}`")
+          c = Path("data/cuentas_metricas.json")
+          if c.exists():
+              cm = json.loads(c.read_text(encoding="utf-8"))
+              print(f"\n### 🛡️ Centinela Multi-Account Hub (`{cm.get('active_businesses', 9)}/9` Productos · `{cm.get('active_channels', 27)}/27` Cuentas) — `{cm.get('updated_at', '—')}`")
+              print("| Producto | YouTube Shorts | Instagram Reels | Facebook Reels | Salud |")
+              print("|---|---|---|---|---|")
+              for b in cm.get("businesses", []):
+                  ch = b.get("cluster_canales", {})
+                  m = b.get("metricas_resumen", {})
+                  yt = ch.get("youtube_shorts", {}).get("handle", "—")
+                  ig = ch.get("instagram_reels", {}).get("handle", "—")
+                  fb = ch.get("facebook_reels", {}).get("handle", "—")
+                  print(f"| **{b.get('nombre')}** | `{yt}` | `{ig}` | `{fb}` | **{m.get('account_health_score', 95.0)}** (`{m.get('health_status', 'optimo')}`) |")
           EOF
 
       # index.html es estático y lee data/dashboard_data.js. ranking_productos.html es el panel clásico.

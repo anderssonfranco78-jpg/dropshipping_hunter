@@ -482,6 +482,19 @@ def main(argv: Optional[List[str]] = None) -> int:
             output_path=dossier_output,
         )
 
+        # 5. Social Multi-Account Centinela (9 products / 27 organic channels)
+        try:
+            from hunter.social_centinela import run_social_centinela
+            cent_snap = run_social_centinela(data_dir=str(data_dir), probe_live=not args.offline)
+            logger.info(
+                " [STAGE 5] Social Centinela synced %d active businesses (%d active channels) -> %s",
+                cent_snap.get("active_businesses", 9),
+                cent_snap.get("active_channels", 27),
+                data_dir / "cuentas_metricas.json",
+            )
+        except Exception as cent_exc:
+            logger.warning(" [STAGE 5] Social Centinela warning (non-fatal): %s", cent_exc)
+
         logger.info("================================================================================")
         logger.info(" ✨ FULL PIPELINE EXECUTED SUCCESSFULLY")
         logger.info("================================================================================")
@@ -490,6 +503,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         logger.info(" 3. Comparison Chart   : ranking_productos.png")
         logger.info(" 4. HTML Dashboard     : ranking_productos.html")
         logger.info(" 5. Winner Dossier     : %s", dossier_path)
+        logger.info(" 6. Social Centinela   : %s", data_dir / "cuentas_metricas.json")
         logger.info("================================================================================")
         print(f"\n[SUCCESS] End-to-End Execution Complete. Winner dossier ready at: {dossier_path}")
         if args.require_live and (health["has_failures"] or health["is_mock"]):

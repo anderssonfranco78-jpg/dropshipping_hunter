@@ -127,18 +127,31 @@ class TestLoadUserProducts(unittest.TestCase):
         cands, errors = load_user_products(PROJECT / "data" / "user_products.json", today=TODAY)
         self.assertEqual(errors, [])
         ids = {c.candidate_id for c in cands}
-        self.assertEqual(ids, {"steamfur-pro", "prosmile-ultrasonic", "spinerelief-pro", "aeroforce-x3"})
+        self.assertEqual(
+            ids,
+            {
+                "steamfur-pro",
+                "prosmile-ultrasonic",
+                "spinerelief-pro",
+                "aeroforce-x3",
+                "babyhalo-pro",
+                "luxeweave-pro",
+                "solarfirefly-pro",
+                "magneglide-pro",
+                "rapiddice-pro",
+            },
+        )
 
     def test_shipped_steamfur_pro_dsers_verified_values(self):
-        cands, errors = load_user_products(PROJECT / "data" / "user_products.json", today=date(2026, 10, 16))
+        cands, errors = load_user_products(PROJECT / "data" / "user_products.json", today=date(2026, 10, 27))
         self.assertEqual(errors, [])
         steam = next(c for c in cands if c.candidate_id == "steamfur-pro")
         self.assertEqual((steam.supplier_cost, steam.shipping_cost, steam.suggested_price), (3.45, 1.99, 29.99))
-        self.assertEqual((steam.supplier_variant, steam.supplier_stock, steam.stock_status), ("green", 7124, STOCK_OK))
-        self.assertEqual(steam.stock_verified_date, "2026-10-16")
+        self.assertEqual((steam.supplier_variant, steam.supplier_stock, steam.stock_status), ("green", 7111, STOCK_OK))
+        self.assertEqual(steam.stock_verified_date, "2026-10-27")
         self.assertTrue(steam.in_store)
-        self.assertEqual((steam.shipping_days_min, steam.shipping_days_max), (10, 16))
-        self.assertEqual(steam.shipping_carrier, "AliExpress Selection Standard (Tracking Available)")
+        self.assertEqual((steam.shipping_days_min, steam.shipping_days_max), (7, 12))
+        self.assertEqual(steam.shipping_carrier, "AliExpress Choice / USPS (7-12 Business Days)")
 
 
 class TestStressedMargin(unittest.TestCase):

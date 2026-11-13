@@ -355,6 +355,7 @@ class TestN8nDsersBridge(TempDir):
 
     def test_mobile_private_vault_gateway_cuentas_html(self):
         from pathlib import Path
+        from hunter.social_centinela import run_social_centinela
         repo_root = Path(__file__).resolve().parent.parent
         cuentas = repo_root / "cuentas.html"
         index = repo_root / "index.html"
@@ -370,6 +371,24 @@ class TestN8nDsersBridge(TempDir):
         self.assertIn("/contents/data/negocios.json", html)
         self.assertIn("application/vnd.github.raw+json", html)
         self.assertIn("assets/images/steamfur.webp", html)
+        # Ensure all 9 active products and 27 channels are present in cuentas.html
+        self.assertIn("9 / 9", html)
+        self.assertIn("27 / 27", html)
+        for pid in (
+            "steamfur-pro",
+            "prosmile-ultrasonic",
+            "spinerelief-pro",
+            "aeroforce-x3",
+            "babyhalo-pro",
+            "luxeweave-pro",
+            "solarfirefly-pro",
+            "magneglide-pro",
+            "rapiddice-pro",
+        ):
+            self.assertIn(pid, html)
+        snap = run_social_centinela(data_dir=str(self.tmp), probe_live=False)
+        self.assertEqual(snap["active_businesses"], 9)
+        self.assertEqual(snap["active_channels"], 27)
         # Ensure index.html points github.io to cuentas.html
         idx_html = index.read_text(encoding="utf-8")
         self.assertIn("? 'cuentas.html' :", idx_html)

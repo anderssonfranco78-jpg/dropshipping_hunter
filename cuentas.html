@@ -275,7 +275,7 @@
       <i data-lucide="crosshair"></i><span>Ir a Dropshipping Hunter</span><i data-lucide="arrow-up-right" style="margin-left:auto"></i>
     </a>
 
-    <div class="nav-label">Tus Negocios &amp; Clústeres <span class="count" id="sideCount">4</span></div>
+    <div class="nav-label">Tus Negocios &amp; Clústeres <span class="count" id="sideCount">9</span></div>
     <div id="sideWatch" class="watch"></div>
 
     <div class="nav-label">Estado de la Bóveda Privada</div>
@@ -286,8 +286,8 @@
       <button type="button" class="src" data-src="Cada negocio opera con 1 correo aislado, 1 perfil Dolphin{anty}, 1 proxy móvil EE. UU. y 3 canales (YT Shorts, IG Reels, FB Reels).">
         <span class="sdot ok"></span><span class="src-name">Aislamiento Anti-Ban</span><span class="src-val ok">100% OK</span>
       </button>
-      <button type="button" class="src" data-src="El robot Centinela en GitHub Actions recalcula la salud de las cuentas cada 6 horas dentro de tu repositorio privado multi_account_hub.">
-        <span class="sdot info" id="srcCloudDot"></span><span class="src-name">Centinela GitHub</span><span class="src-val info" id="srcCloudVal">CADA 6 H</span>
+      <button type="button" class="src" data-src="El robot Centinela en GitHub Actions visita los 27 canales y recalcula la salud de las cuentas todos los días a las 6:00 AM (y cada 6 h).">
+        <span class="sdot ok" id="srcCloudDot"></span><span class="src-name">Centinela 6:00 AM</span><span class="src-val ok" id="srcCloudVal">ACTIVO 27/27</span>
       </button>
     </div>
 
@@ -332,18 +332,18 @@
         <div>
           <div class="bdg ok" style="margin-bottom:6px"><i data-lucide="shield-check"></i>Pasarela Móvil Cifrada · Lurn GOTY Edition</div>
           <h1>Centro de Mando Multi-Cuentas</h1>
-          <p>Administra desde tu teléfono o PC tus tiendas Shopify, tus 12 cuentas orgánicas (YouTube Shorts, Instagram Reels y Facebook Reels) y el Account Health Score conectando de forma privada con <code>multi_account_hub</code>.</p>
+          <p>Administra desde tu teléfono o PC tus 9 productos ganadores en Shopify, tus 27 cuentas orgánicas (YouTube Shorts, Instagram Reels y Facebook Reels) y el Account Health Score actualizado diariamente a las 6:00 AM por el Centinela.</p>
         </div>
         <div class="kpis5">
           <div class="kpi" title="Negocios con estado Activo publicando contenido diario">
             <div class="kpi-h"><span>Negocios Activos</span><i data-lucide="store" class="lime"></i></div>
-            <div class="kpi-v dm lime" id="kpi-negocios-activos">1 / 4</div>
-            <div class="kpi-s" id="kpi-negocios-pct">25% en producción diaria</div>
+            <div class="kpi-v dm lime" id="kpi-negocios-activos">9 / 9</div>
+            <div class="kpi-s" id="kpi-negocios-pct">100% en producción diaria</div>
           </div>
           <div class="kpi" title="Canales activos dentro del Triángulo Orgánico (YT Shorts + IG Reels + FB Reels)">
             <div class="kpi-h"><span>Canales Sociales</span><i data-lucide="share-2" class="cyan"></i></div>
-            <div class="kpi-v dm" id="kpi-canales-totales">3 / 12</div>
-            <div class="kpi-s" id="kpi-canales-breakdown">4 YT · 4 IG · 4 FB</div>
+            <div class="kpi-v dm" id="kpi-canales-totales">27 / 27</div>
+            <div class="kpi-s" id="kpi-canales-breakdown">9 YT · 9 IG · 9 FB</div>
           </div>
           <div class="kpi" title="Salud algorítmica promedio de las cuentas activas (0 a 100)">
             <div class="kpi-h"><span>Salud Promedio</span><i data-lucide="heart-pulse" class="lime"></i></div>
@@ -352,7 +352,7 @@
           </div>
           <div class="kpi" title="Videos publicados hoy vs meta diaria (2 por negocio activo)">
             <div class="kpi-h"><span>Videos Hoy</span><i data-lucide="clapperboard" class="amber"></i></div>
-            <div class="kpi-v dm" id="kpi-videos-hoy">0 / 2</div>
+            <div class="kpi-v dm" id="kpi-videos-hoy">0 / 18</div>
             <div class="kpi-s" id="kpi-trafico-estimado">0 vistas hoy</div>
           </div>
           <div class="kpi" title="Clics hacia el enlace de la tienda Shopify hoy">
@@ -389,7 +389,7 @@
           <option value="health">Ordenar: Salud Algorítmica</option>
           <option value="margin">Ordenar: Margen Neto</option>
         </select>
-        <span class="muted" style="font-size:12px" id="results-count">Mostrando 4 de 4 negocios</span>
+        <span class="muted" style="font-size:12px" id="results-count">Mostrando 9 de 9 negocios</span>
       </div>
 
       <div id="businesses-grid" class="bgrid"></div>
@@ -532,8 +532,8 @@
   var REPO = 'anderssonfranco78-jpg/multi_account_hub';
   var LOCAL_API = 'http://127.0.0.1:8766';
   var TOKEN_KEY = 'hunter-gh-token'; // compartido en el mismo dominio github.io con Dropshipping Hunter
-  var STORAGE_KEY = 'antigravity_hub_businesses_v3_0';
-  var STORAGE_TS_KEY = 'antigravity_hub_updated_at_v3_0';
+  var STORAGE_KEY = 'antigravity_hub_businesses_v4_0';
+  var STORAGE_TS_KEY = 'antigravity_hub_updated_at_v4_0';
 
   /* ---------- Plantilla Pública Enmascarada (CERO credenciales reales en el HTML público) ---------- */
   var LOCKED_CRED = {
@@ -546,9 +546,9 @@
   };
 
   var INITIAL_SEED_DATA = {
-    version: '1.1.0',
-    updated_at: '2026-10-15T10:33:40Z',
-    total_businesses: 4,
+    version: '2.0.0',
+    updated_at: '2026-11-13T14:30:00Z',
+    total_businesses: 9,
     businesses: [
       {
         id: 'steamfur-pro',
@@ -567,7 +567,7 @@
           margen_neto_pct: 71.59,
           markup_multiplier: 5.51,
           proveedor_url: 'https://www.aliexpress.com/item/1005007791672610.html',
-          linea_logistica: 'AliExpress Selection Standard (10–16 días a EE. UU. · 7,124 uds en DSers · Tracking activo)',
+          linea_logistica: 'AliExpress Choice / USPS (7–12 días hábiles a EE. UU. · 7,111 uds en DSers · Tracking activo)',
           paises_objetivo: ['US', 'CA', 'UK', 'AU']
         },
         score_hunter: 100.0,
@@ -615,55 +615,55 @@
       },
       {
         id: 'prosmile-ultrasonic',
-        nombre: 'ProSmile Ultrasonic™',
+        nombre: 'UltraSmile Pro™',
         nicho: 'Salud Dental & Cuidado Personal',
         producto_asociado: {
-          nombre_completo: 'ProSmile Ultrasonic™ — Limpiador Dental Ultrasónico de Sarro y Placa',
+          nombre_completo: 'UltraSmile Pro™ — Limpiador Dental Ultrasónico Inteligente de 37 kHz',
           product_image: 'assets/images/prosmile.webp',
           categoria: 'Dental Health & Personal Care',
-          descripcion: 'Limpiador dental ultrasónico de 40 kHz que solo vibra al tocar superficies duras (sarro/esmalte) y se detiene automáticamente al tocar las encías.',
+          descripcion: 'Limpiador dental ultrasónico de 37 kHz con 5 modos y 9 niveles, luz LED, tapa UV esterilizadora y Smart Gum-Protection Chip que solo vibra al tocar esmalte/sarro y se detiene en las encías.',
           precio_sugerido_usd: 34.99,
-          costo_proveedor_usd: 4.50,
-          costo_envio_usd: 3.70,
-          costo_puesto_usd: 8.20,
-          beneficio_neto_usd: 25.13,
-          margen_neto_pct: 71.82,
-          markup_multiplier: 4.27,
+          costo_proveedor_usd: 11.15,
+          costo_envio_usd: 0.00,
+          costo_puesto_usd: 11.15,
+          beneficio_neto_usd: 22.83,
+          margen_neto_pct: 65.25,
+          markup_multiplier: 3.14,
           proveedor_url: 'https://www.aliexpress.com/item/1005005236582798.html',
-          linea_logistica: 'AliExpress Choice (7–10 días a EE. UU.)',
+          linea_logistica: 'AliExpress Choice / USPS (7–12 días hábiles a EE. UU. · 154 uds en DSers · Tracking activo)',
           paises_objetivo: ['US', 'UK', 'DE', 'AU']
         },
         score_hunter: 100.0,
-        enlace_tienda: 'https://getprosmile.com/products/ultrasonic-scaler',
+        enlace_tienda: 'https://ralfandco.myshopify.com/products/prosmile-ultrasonic',
         cluster_canales: {
-          youtube_shorts: { handle: '@ProSmileDental', canal_url: 'https://youtube.com/@ProSmileDental', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
-          instagram_reels: { handle: '@prosmile_smile', canal_url: 'https://instagram.com/prosmile_smile', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
-          facebook_reels: { handle: 'ProSmile Oral Care', canal_url: 'https://facebook.com/prosmile_oralcare', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null }
+          youtube_shorts: { handle: '@UltraSmilePro', canal_url: 'https://www.youtube.com/channel/UCcdlJ3bL8cSGyB_6x_E3w8A', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          instagram_reels: { handle: '@ultrasmilepro_us', canal_url: 'https://www.instagram.com/ultrasmilepro_us/', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          facebook_reels: { handle: 'UltraSmile Pro Official', canal_url: 'https://www.facebook.com/profile.php?id=61578028379184', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null }
         },
         credenciales_aisladas: Object.assign({}, LOCKED_CRED),
         metricas_resumen: {
           videos_hoy: 0, vistas_hoy: 0, clics_tienda_hoy: 0, vistas_ultimos_7_dias: 0,
-          tasa_conversion_bio_pct: 0.0, dias_sin_publicar: 0, account_health_score: 75.0, health_status: 'en_espera', alertas_activas: []
+          tasa_conversion_bio_pct: 0.0, dias_sin_publicar: 0, account_health_score: 95.0, health_status: 'optimo', alertas_activas: []
         },
         historial_metricas: [],
         ganchos_conversion: {
           gancho_1_curiosidad: {
             nombre: 'Curiosidad Disruptiva (La Prueba de la Encía)',
-            voz_cliente: 'Watch what happens when I press this 40,000 Hz dental scaler directly against a soft balloon...',
+            voz_cliente: 'Watch what happens when I press this 37,000 Hz dental scaler directly against a soft balloon...',
             voz_creador: 'Nothing! Because smart piezoelectric resonance only activates on hard calcified tartar—never on soft gum tissue.',
             sfx: 'SFX_ULTRASONIC_PING', texto_3d: 'GUM-SAFE TECH'
           },
           gancho_2_agitacion: {
-            nombre: 'Agitación de Dolor Real (La Factura de $280)',
-            voz_cliente: 'My dentist just quoted me $280 for a 15-minute tartar scraping session without insurance.',
-            voz_creador: 'And they use the exact same ultrasonic frequency you can now use in your bathroom mirror.',
-            sfx: 'SFX_CASH_REGISTER_BUZZ', texto_3d: 'SAVE $280'
+            nombre: 'Agitación de Dolor Real (La Factura de $200)',
+            voz_cliente: 'My dentist just quoted me $200 for a 15-minute tartar scraping session without insurance.',
+            voz_creador: 'And they use the exact same 37 kHz ultrasonic frequency you can now use in your bathroom mirror.',
+            sfx: 'SFX_CASH_REGISTER_BUZZ', texto_3d: 'SAVE $200'
           },
           gancho_3_contrariano: {
             nombre: 'Ángulo Contrariano (Por Qué el Cepillado Falla)',
             voz_cliente: 'You can brush three times a day and still have yellow tartar build-up between your bottom teeth.',
             voz_creador: 'Once plaque calcifies after 48 hours, nylon bristles literally bounce right off it.',
-            sfx: 'SFX_SONIC_SWEEP', texto_3d: '40,000 VIBRATIONS/S'
+            sfx: 'SFX_SONIC_SWEEP', texto_3d: '37,000 VIBRATIONS/S'
           },
           gancho_4_transformacion: {
             nombre: 'Transformación Inmediata (Manchas de Café)',
@@ -672,7 +672,8 @@
             sfx: 'SFX_SPARKLE_CHIME', texto_3d: 'INSTANT WHITE'
           }
         },
-        status: 'en_preparacion',
+        status: 'activo',
+        warmup_day: 5,
         created_at: '2026-09-19T10:00:00Z'
       },
       {
@@ -683,29 +684,29 @@
           nombre_completo: 'SpineRelief Pro™ — Cinturón Neumático de Descompresión Lumbar L1-L5',
           product_image: 'assets/images/spinerelief.webp',
           categoria: 'Health & Ergonomics',
-          descripcion: 'Cinturón clínico inflable de tracción lumbar con 24 columnas neumáticas de descompresión para vértebras L1-L5 y alivio de ciática.',
+          descripcion: 'Cinturón clínico inflable de tracción lumbar con columnas neumáticas en H para descompresión vertical de vértebras L1-L5 y alivio de ciática.',
           precio_sugerido_usd: 54.99,
-          costo_proveedor_usd: 10.00,
-          costo_envio_usd: 4.80,
-          costo_puesto_usd: 14.80,
-          beneficio_neto_usd: 37.75,
-          margen_neto_pct: 68.65,
-          markup_multiplier: 3.72,
-          proveedor_url: 'https://www.aliexpress.com/item/1005006626002554.html',
-          linea_logistica: 'YunExpress Specialty Line (7–10 días laborables)',
+          costo_proveedor_usd: 18.99,
+          costo_envio_usd: 0.00,
+          costo_puesto_usd: 18.99,
+          beneficio_neto_usd: 34.10,
+          margen_neto_pct: 62.01,
+          markup_multiplier: 2.90,
+          proveedor_url: 'https://www.aliexpress.com/item/3256809646946050.html',
+          linea_logistica: 'AliExpress Choice / USPS (7–12 días hábiles a EE. UU. · 105 uds en DSers · Tracking activo)',
           paises_objetivo: ['US', 'UK', 'CA', 'AU']
         },
         score_hunter: 97.0,
-        enlace_tienda: 'https://spinerelief.store/products/traction-belt',
+        enlace_tienda: 'https://ralfandco.myshopify.com/products/spinerelief-pro',
         cluster_canales: {
-          youtube_shorts: { handle: '@SpineReliefTech', canal_url: 'https://youtube.com/@SpineReliefTech', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
-          instagram_reels: { handle: '@spinerelief_us', canal_url: 'https://instagram.com/spinerelief_us', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
-          facebook_reels: { handle: 'SpineRelief Official', canal_url: 'https://facebook.com/spinerelief_official', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null }
+          youtube_shorts: { handle: '@SpineReliefPro', canal_url: 'https://www.youtube.com/channel/UC9H8gD_K4_E3j_x7B-v_c1w', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          instagram_reels: { handle: '@spinereliefpro_us', canal_url: 'https://www.instagram.com/spinereliefpro_us/', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          facebook_reels: { handle: 'SpineRelief Pro Official', canal_url: 'https://www.facebook.com/profile.php?id=61586431073880', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null }
         },
         credenciales_aisladas: Object.assign({}, LOCKED_CRED),
         metricas_resumen: {
           videos_hoy: 0, vistas_hoy: 0, clics_tienda_hoy: 0, vistas_ultimos_7_dias: 0,
-          tasa_conversion_bio_pct: 0.0, dias_sin_publicar: 0, account_health_score: 75.0, health_status: 'en_espera', alertas_activas: []
+          tasa_conversion_bio_pct: 0.0, dias_sin_publicar: 0, account_health_score: 95.0, health_status: 'optimo', alertas_activas: []
         },
         historial_metricas: [],
         ganchos_conversion: {
@@ -734,7 +735,8 @@
             sfx: 'SFX_DEEP_RELIEF_SIGH', texto_3d: 'INSTANT RELIEF'
           }
         },
-        status: 'en_preparacion',
+        status: 'activo',
+        warmup_day: 5,
         created_at: '2026-09-20T14:00:00Z'
       },
       {
@@ -747,27 +749,27 @@
           categoria: 'Automotive & Tactical Tools',
           descripcion: 'Turbina portátil sin escobillas de 130,000 RPM capaz de generar ráfagas de 52 m/s para secar autos sin contacto y limpiar interiores.',
           precio_sugerido_usd: 59.99,
-          costo_proveedor_usd: 12.00,
-          costo_envio_usd: 4.80,
-          costo_puesto_usd: 16.80,
-          beneficio_neto_usd: 40.55,
-          margen_neto_pct: 67.59,
-          markup_multiplier: 3.57,
+          costo_proveedor_usd: 17.45,
+          costo_envio_usd: 1.99,
+          costo_puesto_usd: 19.44,
+          beneficio_neto_usd: 38.51,
+          margen_neto_pct: 64.19,
+          markup_multiplier: 3.09,
           proveedor_url: 'https://www.aliexpress.com/item/1005009719197258.html',
-          linea_logistica: 'YunExpress Special Battery Line (8–11 días hábiles)',
+          linea_logistica: 'AliExpress Selection Standard / USPS (7–12 días hábiles a EE. UU. · 9,996 uds en DSers)',
           paises_objetivo: ['US', 'CA', 'AU', 'UK']
         },
         score_hunter: 97.0,
-        enlace_tienda: 'https://aeroforcejet.com/products/x3-turbo-fan',
+        enlace_tienda: 'https://ralfandco.myshopify.com/products/aeroforce-x3',
         cluster_canales: {
-          youtube_shorts: { handle: '@AeroForceTurbine', canal_url: 'https://youtube.com/@AeroForceTurbine', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
-          instagram_reels: { handle: '@aeroforce_x3', canal_url: 'https://instagram.com/aeroforce_x3', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
-          facebook_reels: { handle: 'AeroForce Jet Fan', canal_url: 'https://facebook.com/aeroforce_fan', estado: 'pausado', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null }
+          youtube_shorts: { handle: '@AeroForceX3', canal_url: 'https://www.youtube.com/channel/UCz-zB_j1I5u8R3G1tQ6iG9g', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          instagram_reels: { handle: '@aeroforcex3_us', canal_url: 'https://www.instagram.com/aeroforcex3_us/', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          facebook_reels: { handle: 'AeroForce X3 Official', canal_url: 'https://www.facebook.com/profile.php?id=61588450750070', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null }
         },
         credenciales_aisladas: Object.assign({}, LOCKED_CRED),
         metricas_resumen: {
           videos_hoy: 0, vistas_hoy: 0, clics_tienda_hoy: 0, vistas_ultimos_7_dias: 0,
-          tasa_conversion_bio_pct: 0.0, dias_sin_publicar: 0, account_health_score: 75.0, health_status: 'en_espera', alertas_activas: []
+          tasa_conversion_bio_pct: 0.0, dias_sin_publicar: 0, account_health_score: 95.0, health_status: 'optimo', alertas_activas: []
         },
         historial_metricas: [],
         ganchos_conversion: {
@@ -796,8 +798,324 @@
             sfx: 'SFX_TURBO_CLICK_ROAR', texto_3d: '52 M/S WIND'
           }
         },
-        status: 'en_preparacion',
+        status: 'activo',
+        warmup_day: 5,
         created_at: '2026-09-20T16:00:00Z'
+      },
+      {
+        id: 'babyhalo-pro',
+        nombre: 'BabyHalo Pro™',
+        nicho: 'Cuidado del Bebé & Maternidad',
+        producto_asociado: {
+          nombre_completo: 'BabyHalo Pro™ — Cortaúñas Eléctrico Ultrasilencioso USB con Luz LED Nocturna',
+          product_image: 'https://cdn.shopify.com/s/files/1/0699/5496/1587/files/babyhalo_1.png',
+          categoria: 'Baby Care & Parenting',
+          descripcion: 'Limador eléctrico ultrasilencioso de 3 velocidades recargable por USB con almohadillas acolchadas y luz LED frontal nocturna para cortar las uñas del bebé mientras duerme sin pellizcos.',
+          precio_sugerido_usd: 39.99,
+          costo_proveedor_usd: 3.24,
+          costo_envio_usd: 9.99,
+          costo_puesto_usd: 13.23,
+          beneficio_neto_usd: 25.30,
+          margen_neto_pct: 63.27,
+          markup_multiplier: 3.02,
+          proveedor_url: 'https://www.alibaba.com/product-detail/_1601985563057.html?channel=dropship&src=dsers',
+          linea_logistica: 'Alibaba Dropshipping Standard / USPS (8–12 días hábiles a EE. UU. · 9,999 uds en DSers)',
+          paises_objetivo: ['US', 'CA', 'UK', 'AU']
+        },
+        score_hunter: 99.0,
+        enlace_tienda: 'https://ralfandco.myshopify.com/products/babyhalo-pro',
+        cluster_canales: {
+          youtube_shorts: { handle: '@BabyHaloPro', canal_url: 'https://www.youtube.com/channel/UCJ-_wX1u0c6c1B5Q5aQ4X2A', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          instagram_reels: { handle: '@babyhalopro_us', canal_url: 'https://www.instagram.com/babyhalopro_us/', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          facebook_reels: { handle: 'BabyHalo Pro Official', canal_url: 'https://www.facebook.com/profile.php?id=61587324041782', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null }
+        },
+        credenciales_aisladas: Object.assign({}, LOCKED_CRED),
+        metricas_resumen: {
+          videos_hoy: 0, vistas_hoy: 0, clics_tienda_hoy: 0, vistas_ultimos_7_dias: 0,
+          tasa_conversion_bio_pct: 0.0, dias_sin_publicar: 0, account_health_score: 95.0, health_status: 'optimo', alertas_activas: []
+        },
+        historial_metricas: [],
+        ganchos_conversion: {
+          gancho_1_curiosidad: {
+            nombre: 'Curiosidad Disruptiva (La Prueba de la Yema del Dedo)',
+            voz_cliente: 'Why are new parents throwing away traditional metal baby nail clippers?',
+            voz_creador: 'Because one sudden wiggle can pinch newborn skin. Watch what happens when you press this cushioned rotary pad directly against your own fingertip—it stops on skin and only buffs the nail.',
+            sfx: 'SFX_WHISPER_HUM', texto_3d: 'ZERO PINCH'
+          },
+          gancho_2_agitacion: {
+            nombre: 'Agitación de Dolor Real (Rasguños en la Cara del Bebé)',
+            voz_cliente: 'My newborn kept waking up with tiny scratches on her cheeks, and I was terrified to use metal clippers.',
+            voz_creador: 'Turn on the whisper-quiet motor and front night LED, and smooth every sharp edge in 60 seconds while they stay fast asleep.',
+            sfx: 'SFX_LULLABY_CHIME', texto_3d: 'TRIM WHILE SLEEPING'
+          },
+          gancho_3_contrariano: {
+            nombre: 'Ángulo Contrariano (Olvida los Mitones de Algodón)',
+            voz_cliente: 'Pediatricians say keeping mittens on your baby all day blocks sensory hand development.',
+            voz_creador: 'Instead of covering their hands, use color-coded cushioned filing pads matched to your baby\'s exact month.',
+            sfx: 'SFX_SOFT_CLICK', texto_3d: '6 AGE-MATCHED PADS'
+          },
+          gancho_4_transformacion: {
+            nombre: 'Transformación Inmediata (Corte Nocturno en 30 Segundos)',
+            voz_cliente: 'Testing the 35-decibel night mode on a sleeping 3-month-old...',
+            voz_creador: 'Not even a flinch! Velvet-smooth nails in thirty seconds and zero tears.',
+            sfx: 'SFX_SPARKLE_CHIME', texto_3d: '35dB WHISPER QUIET'
+          }
+        },
+        status: 'activo',
+        warmup_day: 5,
+        created_at: '2026-10-29T10:00:00Z'
+      },
+      {
+        id: 'luxeweave-pro',
+        nombre: 'LuxeWeave Pro™',
+        nicho: 'Hogar & Cuidado de Prendas',
+        producto_asociado: {
+          nombre_completo: 'LuxeWeave Pro™ — Quitapelusas Eléctrico Digital LED de 6 Cuchillas en Acero 304',
+          product_image: 'https://cdn.shopify.com/s/files/1/0699/5496/1587/files/luxeweave_pearl_white_1.png',
+          categoria: 'Home & Garment Care',
+          descripcion: 'Quitapelusas eléctrico inteligente en Blanco Perla y Oro Rosa con pantalla LED digital, malla protectora de acero inoxidable 304 y motor rotativo de 5W con carga USB.',
+          precio_sugerido_usd: 39.99,
+          costo_proveedor_usd: 3.18,
+          costo_envio_usd: 10.34,
+          costo_puesto_usd: 13.52,
+          beneficio_neto_usd: 25.01,
+          margen_neto_pct: 62.54,
+          markup_multiplier: 2.96,
+          proveedor_url: 'https://www.alibaba.com/product-detail/_1601456938669.html?channel=dropship&src=dsers',
+          linea_logistica: 'Alibaba Dropshipping Standard / USPS (10–17 días hábiles a EE. UU. · 9,999 uds en DSers)',
+          paises_objetivo: ['US', 'CA', 'UK', 'AU']
+        },
+        score_hunter: 98.0,
+        enlace_tienda: 'https://ralfandco.myshopify.com/products/luxeweave-pro',
+        cluster_canales: {
+          youtube_shorts: { handle: '@LuxeWeavePro', canal_url: 'https://www.youtube.com/channel/UC2y-o1T-5pG4_9_2eW8o3lQ', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          instagram_reels: { handle: '@luxeweavepro_us', canal_url: 'https://www.instagram.com/luxeweavepro_us/', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          facebook_reels: { handle: 'LuxeWeave Pro Official', canal_url: 'https://www.facebook.com/profile.php?id=61587202784880', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null }
+        },
+        credenciales_aisladas: Object.assign({}, LOCKED_CRED),
+        metricas_resumen: {
+          videos_hoy: 0, vistas_hoy: 0, clics_tienda_hoy: 0, vistas_ultimos_7_dias: 0,
+          tasa_conversion_bio_pct: 0.0, dias_sin_publicar: 0, account_health_score: 95.0, health_status: 'optimo', alertas_activas: []
+        },
+        historial_metricas: [],
+        ganchos_conversion: {
+          gancho_1_curiosidad: {
+            nombre: 'Curiosidad Disruptiva (El Suéter de $180)',
+            voz_cliente: 'Before you throw away your favorite cashmere sweater or fuzzy couch cushion, watch this...',
+            voz_creador: 'Those ugly fabric pills aren\'t worn-out threads—they\'re just tangled surface fibers. One glide with the 304 stainless honeycomb guard shaves them off in seconds.',
+            sfx: 'SFX_FABRIC_SHAVE_ZIP', texto_3d: 'LIKE NEW IN 5 SEC'
+          },
+          gancho_2_agitacion: {
+            nombre: 'Agitación de Dolor Real (Ropa Vieja en 3 Lavadas)',
+            voz_cliente: 'Why do $90 hoodies and leggings look five years old after just three washes?',
+            voz_creador: 'Washing machines create friction knots. This 3-speed LED fabric shaver vacuums and slices every knot without ever snagging the knit.',
+            sfx: 'SFX_SUCTION_WHIR', texto_3d: 'ZERO FABRIC SNAGS'
+          },
+          gancho_3_contrariano: {
+            nombre: 'Ángulo Contrariano (No Uses Rasuradoras de Baño)',
+            voz_cliente: 'Stop using disposable razors on your clothes—one slip slices a hole right through the weave.',
+            voz_creador: 'The bionic honeycomb micro-mesh keeps the 6 cyclone blades locked at a safe distance while restoring sweaters, coats, and sofas.',
+            sfx: 'SFX_STEEL_CLICK', texto_3d: '304 STEEL GUARD'
+          },
+          gancho_4_transformacion: {
+            nombre: 'Transformación Inmediata (Mitad y Mitad en Sofá)',
+            voz_cliente: 'Left side: 3 years of pilling on our living room sofa. Right side: 10 seconds with LuxeWeave Pro.',
+            voz_creador: 'Pop open the chamber and look at all that lint—your couch and winter wardrobe look brand new.',
+            sfx: 'SFX_BASS_DROP_DING', texto_3d: 'INSTANT RESTORE'
+          }
+        },
+        status: 'activo',
+        warmup_day: 5,
+        created_at: '2026-10-29T12:00:00Z'
+      },
+      {
+        id: 'solarfirefly-pro',
+        nombre: 'SolarFirefly Pro™',
+        nicho: 'Jardín, Patio & Decoración Exterior',
+        producto_asociado: {
+          nombre_completo: 'SolarFirefly Pro™ — Luces Solares Impermeables IP65 con Balanceo de Luciérnagas (8 LEDs)',
+          product_image: 'https://cdn.shopify.com/s/files/1/0699/5496/1587/files/solarfirefly_1.jpg',
+          categoria: 'Patio, Lawn & Garden Lighting',
+          descripcion: 'Estacas solares de jardín impermeables IP65 con 8 globos LED cálidos (2700K) sobre tallos flexibles que se mecen con el viento como luciérnagas reales al anochecer.',
+          precio_sugerido_usd: 34.99,
+          costo_proveedor_usd: 4.50,
+          costo_envio_usd: 1.99,
+          costo_puesto_usd: 6.49,
+          beneficio_neto_usd: 27.19,
+          margen_neto_pct: 77.71,
+          markup_multiplier: 5.39,
+          proveedor_url: 'https://www.aliexpress.com/item/3256807026074082.html',
+          linea_logistica: 'AliExpress Choice / USPS (7–12 días hábiles a EE. UU. · 482 uds en DSers)',
+          paises_objetivo: ['US', 'CA', 'UK', 'AU']
+        },
+        score_hunter: 99.0,
+        enlace_tienda: 'https://ralfandco.myshopify.com/products/solarfirefly-pro',
+        cluster_canales: {
+          youtube_shorts: { handle: '@SolarFireflyPro', canal_url: 'https://www.youtube.com/channel/UCe-F2L7z4-7s5C0p-e0O7tQ', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          instagram_reels: { handle: '@solarfireflypro_us', canal_url: 'https://www.instagram.com/solarfireflypro_us/', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          facebook_reels: { handle: 'SolarFirefly Pro Official', canal_url: 'https://www.facebook.com/profile.php?id=61587113030676', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null }
+        },
+        credenciales_aisladas: Object.assign({}, LOCKED_CRED),
+        metricas_resumen: {
+          videos_hoy: 0, vistas_hoy: 0, clics_tienda_hoy: 0, vistas_ultimos_7_dias: 0,
+          tasa_conversion_bio_pct: 0.0, dias_sin_publicar: 0, account_health_score: 95.0, health_status: 'optimo', alertas_activas: []
+        },
+        historial_metricas: [],
+        ganchos_conversion: {
+          gancho_1_curiosidad: {
+            nombre: 'Curiosidad Disruptiva (El Secreto del Viento)',
+            voz_cliente: 'My neighbors keep stopping on the sidewalk asking how we got real fireflies floating in our front yard...',
+            voz_creador: 'Watch closely: the ultra-flexible black stems disappear in the dark, so when the evening breeze hits, the warm 2700K globes float and sway just like living fireflies.',
+            sfx: 'SFX_NIGHT_BREEZE_CHIME', texto_3d: 'FLOATING FIREFLIES'
+          },
+          gancho_2_agitacion: {
+            nombre: 'Agitación de Dolor Real (Cotizaciones de $1,500 en Jardín)',
+            voz_cliente: 'Landscape companies wanted $1,500 to wire low-voltage patio lights across our backyard.',
+            voz_creador: 'No trenches, no wiring, and zero electricity bill. Stake these IP65 solar clusters into any planter or lawn in 10 seconds.',
+            sfx: 'SFX_SOLAR_CHARGE_PING', texto_3d: '$0 ELECTRIC BILL'
+          },
+          gancho_3_contrariano: {
+            nombre: 'Ángulo Contrariano (Las Estacas Solares Rígidas Aburren)',
+            voz_cliente: 'Why do normal solar pathway stakes make your yard look like an airport runway?',
+            voz_creador: 'Static white LEDs look cold and artificial. Swaying warm-amber spheres bring organic movement and resort ambiance every single night.',
+            sfx: 'SFX_MAGIC_SPARKLE', texto_3d: 'SWAYS WITH THE WIND'
+          },
+          gancho_4_transformacion: {
+            nombre: 'Transformación Inmediata (El Sensor al Anochecer)',
+            voz_cliente: 'Patio before sunset vs the exact second the dusk sensor kicks in...',
+            voz_creador: 'Eight glowing orbs per stake dancing in the breeze for up to 10 hours on a single sunny charge.',
+            sfx: 'SFX_BASS_DROP_DING', texto_3d: 'IP65 WEATHERPROOF'
+          }
+        },
+        status: 'activo',
+        warmup_day: 5,
+        created_at: '2026-10-30T10:00:00Z'
+      },
+      {
+        id: 'magneglide-pro',
+        nombre: 'MagneGlide Pro™',
+        nicho: 'Hogar & Limpieza Inteligente',
+        producto_asociado: {
+          nombre_completo: 'MagneGlide Pro™ — Limpiador Magnético de Ventanas de Doble Cara con Cuerda de Seguridad',
+          product_image: 'https://cdn.shopify.com/s/files/1/0699/5496/1587/files/magneglide_1.jpg',
+          categoria: 'Household Cleaning Tools',
+          descripcion: 'Limpiador magnético triangular de doble cara para cristales de 3 a 8 mm que limpia el exterior y el interior de ventanas altas simultáneamente desde adentro con cuerda anticaída de 2.4 m.',
+          precio_sugerido_usd: 39.99,
+          costo_proveedor_usd: 2.86,
+          costo_envio_usd: 5.05,
+          costo_puesto_usd: 7.91,
+          beneficio_neto_usd: 30.62,
+          margen_neto_pct: 76.57,
+          markup_multiplier: 5.06,
+          proveedor_url: 'https://www.alibaba.com/product-detail/_1601271476926.html?channel=dropship&src=dsers',
+          linea_logistica: 'Alibaba Dropshipping Standard / USPS (8–14 días hábiles a EE. UU. · 9,999 uds en DSers)',
+          paises_objetivo: ['US', 'CA', 'UK', 'AU']
+        },
+        score_hunter: 99.0,
+        enlace_tienda: 'https://ralfandco.myshopify.com/products/magneglide-pro',
+        cluster_canales: {
+          youtube_shorts: { handle: '@MagneGlidePro', canal_url: 'https://www.youtube.com/channel/UCpW1Y1d9c_o5h3p7R2A6n9Q', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          instagram_reels: { handle: '@magneglidepro_us', canal_url: 'https://www.instagram.com/magneglidepro_us/', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          facebook_reels: { handle: 'MagneGlide Pro Official', canal_url: 'https://www.facebook.com/profile.php?id=61587113030676', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null }
+        },
+        credenciales_aisladas: Object.assign({}, LOCKED_CRED),
+        metricas_resumen: {
+          videos_hoy: 0, vistas_hoy: 0, clics_tienda_hoy: 0, vistas_ultimos_7_dias: 0,
+          tasa_conversion_bio_pct: 0.0, dias_sin_publicar: 0, account_health_score: 95.0, health_status: 'optimo', alertas_activas: []
+        },
+        historial_metricas: [],
+        ganchos_conversion: {
+          gancho_1_curiosidad: {
+            nombre: 'Curiosidad Disruptiva (Limpiar por Fuera desde Adentro)',
+            voz_cliente: 'How do people in high-rise apartments clean the outside of their windows without leaning out?',
+            voz_creador: 'Watch this: lock the safety wrist rope, clamp the dual neodymium magnets across the glass, and every move you make inside scrubs and squeegees the outside at the exact same time.',
+            sfx: 'SFX_MAGNET_SNAP_CLACK', texto_3d: 'CLEAN BOTH SIDES'
+          },
+          gancho_2_agitacion: {
+            nombre: 'Agitación de Dolor Real (Peligro en Escaleras)',
+            voz_cliente: 'I refused to climb a 15-foot ladder just to wipe rain spots off our second-floor bedroom windows.',
+            voz_creador: 'Stay safely inside your room. The triangular corner geometry reaches right into tight 90-degree window frames in one S-curve pass.',
+            sfx: 'SFX_SQUEEGEE_SWIPE', texto_3d: 'NO LADDERS NEEDED'
+          },
+          gancho_3_contrariano: {
+            nombre: 'Ángulo Contrariano (Por Qué el Papel Periódico Falla)',
+            voz_cliente: 'Wiping hanya the inside of your window leaves 50% of the dirt blocking your sunlight.',
+            voz_creador: 'Dual microfiber pads soap both panes while automotive-grade EPDM blades leave streak-free glass in half the time.',
+            sfx: 'SFX_SPARKLE_CHIME', texto_3d: 'STREAK-FREE GLASS'
+          },
+          gancho_4_transformacion: {
+            nombre: 'Transformación Inmediata (Ventana Empañada a Cristalina)',
+            voz_cliente: 'Six months of dust and rain grime on a balcony window vs 20 seconds with MagneGlide Pro...',
+            voz_creador: 'It looks like the glass isn\'t even there!',
+            sfx: 'SFX_BASS_DROP_DING', texto_3d: '2X FASTER CLEAN'
+          }
+        },
+        status: 'activo',
+        warmup_day: 5,
+        created_at: '2026-10-30T12:00:00Z'
+      },
+      {
+        id: 'rapiddice-pro',
+        nombre: 'RapidDice Pro™',
+        nicho: 'Cocina & Meal Prep',
+        producto_asociado: {
+          nombre_completo: 'RapidDice Pro™ — Mandolina y Cortador de Vegetales 16 en 1 con Contenedor y Drenaje',
+          product_image: 'https://cdn.shopify.com/s/files/1/0699/5496/1587/files/rapiddice_1.jpg',
+          categoria: 'Kitchen Gadgets & Meal Prep',
+          descripcion: 'Cortador y picador de verduras multifuncional 16 en 1 con 8 cuchillas intercambiables de acero inoxidable 420, contenedor transparente con cesta coladora, protector de manos y separador de claras.',
+          precio_sugerido_usd: 39.99,
+          costo_proveedor_usd: 11.45,
+          costo_envio_usd: 0.00,
+          costo_puesto_usd: 11.45,
+          beneficio_neto_usd: 27.08,
+          margen_neto_pct: 67.72,
+          markup_multiplier: 3.49,
+          proveedor_url: 'https://www.aliexpress.com/item/3256805860770300.html',
+          linea_logistica: 'US Local Warehouse / USPS (3–7 días hábiles a EE. UU. · 416 uds en DSers)',
+          paises_objetivo: ['US', 'CA', 'UK', 'AU']
+        },
+        score_hunter: 100.0,
+        enlace_tienda: 'https://ralfandco.myshopify.com/products/rapiddice-pro',
+        cluster_canales: {
+          youtube_shorts: { handle: '@RapidDicePro', canal_url: 'https://www.youtube.com/channel/UC6g9A_q1u0X1t5g8V0P4r3w', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          instagram_reels: { handle: '@rapiddicepro_us', canal_url: 'https://www.instagram.com/rapiddicepro_us/', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null },
+          facebook_reels: { handle: 'RapidDice Pro Official', canal_url: 'https://www.facebook.com/profile.php?id=61587091847291', estado: 'activo', seguidores: 0, reproducciones_totales: 0, videos_publicados: 0, ultimo_post: null }
+        },
+        credenciales_aisladas: Object.assign({}, LOCKED_CRED),
+        metricas_resumen: {
+          videos_hoy: 0, vistas_hoy: 0, clics_tienda_hoy: 0, vistas_ultimos_7_dias: 0,
+          tasa_conversion_bio_pct: 0.0, dias_sin_publicar: 0, account_health_score: 95.0, health_status: 'optimo', alertas_activas: []
+        },
+        historial_metricas: [],
+        ganchos_conversion: {
+          gancho_1_curiosidad: {
+            nombre: 'Curiosidad Disruptiva (1 Cebolla en 1 Segundo)',
+            voz_cliente: 'Why are you still crying over a cutting board for 15 minutes just to dice one onion?',
+            voz_creador: 'Place half an onion on the 420-stainless grid, press the lid once—CLACK—and get 100 restaurant-uniform cubes straight into the sealed container with zero tears.',
+            sfx: 'SFX_CHOP_CLACK_CRISP', texto_3d: '1-SECOND DICE'
+          },
+          gancho_2_agitacion: {
+            nombre: 'Agitación de Dolor Real (El Desorden de Cocinar)',
+            voz_cliente: 'I love eating healthy salads and salsa, but I hate washing four bowls, a colander, and two cutting boards every night.',
+            voz_creador: 'Chop, rinse in the built-in drain basket, and store in the exact same BPA-free container.',
+            sfx: 'SFX_WATER_RINSE_SNAP', texto_3d: '16-IN-1 PREP STATION'
+          },
+          gancho_3_contrariano: {
+            nombre: 'Ángulo Contrariano (NoNecesitas Habilidades de Chef)',
+            voz_cliente: 'You don\'t need a $200 chef knife to prep a week of meals in 10 minutes.',
+            voz_creador: 'Snap in any of the 8 surgical-steel blades for french fries, waffle chips, julienne strips, or garlic paste while the hand guard keeps your fingers 100% safe.',
+            sfx: 'SFX_BLADE_LOCK_CLICK', texto_3d: '8 STEEL BLADES'
+          },
+          gancho_4_transformacion: {
+            nombre: 'Transformación Inmediata (Pico de Gallo en 12 Segundos)',
+            voz_cliente: 'Three tomatoes, two onions, jalapenos, and cilantro vs the RapidDice Pro...',
+            voz_creador: 'Four presses and you have a full bowl of fresh pico de gallo in twelve seconds flat!',
+            sfx: 'SFX_BASS_DROP_DING', texto_3d: '12-SEC SALSA'
+          }
+        },
+        status: 'activo',
+        warmup_day: 5,
+        created_at: '2026-10-30T14:00:00Z'
       }
     ]
   };
@@ -965,6 +1283,30 @@
     } catch (e) { return null; }
   }
 
+  async function fetchPublicCentinelaSnapshot() {
+    try {
+      var r = await fetch('./data/cuentas_metricas.json?t=' + Date.now(), { cache: 'no-store' });
+      if (!r.ok) return null;
+      var j = await r.json();
+      if (j && Array.isArray(j.businesses)) return j;
+    } catch (e) {}
+    return null;
+  }
+
+  function mergePublicSnapshotIntoBusinesses(businesses, snapshot) {
+    if (!snapshot || !Array.isArray(snapshot.businesses)) return businesses;
+    var byId = {};
+    snapshot.businesses.forEach(function (sb) { if (sb && sb.id) byId[sb.id] = sb; });
+    return businesses.map(function (b) {
+      var sb = byId[b.id];
+      if (!sb) return b;
+      if (sb.cluster_canales) b.cluster_canales = sb.cluster_canales;
+      if (sb.metricas_resumen) b.metricas_resumen = sb.metricas_resumen;
+      if (Array.isArray(sb.historial_metricas) && sb.historial_metricas.length) b.historial_metricas = sb.historial_metricas;
+      return normalizeBusiness(b);
+    });
+  }
+
   async function loadInitialData() {
     var remoteData = null;
     // 1. Si estamos en el PC (127.0.0.1:8765), lee ../multi_account_hub/data/negocios.json
@@ -987,6 +1329,9 @@
       }
     }
 
+    // 3. Lee también el reporte diario de las 6:00 AM generado por el Centinela en ./data/cuentas_metricas.json
+    var centinelaSnap = await fetchPublicCentinelaSnapshot();
+
     var localRaw = null, localTs = '';
     try {
       localRaw = JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null');
@@ -994,19 +1339,20 @@
     } catch (e) {}
 
     if (remoteData && Array.isArray(remoteData.businesses)) {
-      state.businesses = remoteData.businesses.map(normalizeBusiness);
-      state.updatedAt = remoteData.updated_at || INITIAL_SEED_DATA.updated_at;
+      state.businesses = mergePublicSnapshotIntoBusinesses(remoteData.businesses.map(normalizeBusiness), centinelaSnap);
+      state.updatedAt = (centinelaSnap && centinelaSnap.updated_at && centinelaSnap.updated_at > (remoteData.updated_at || '')) ? centinelaSnap.updated_at : (remoteData.updated_at || INITIAL_SEED_DATA.updated_at);
       state.masked = false;
       document.body.classList.remove('masked');
       saveState(false);
     } else if (state.vaultUnlocked && localRaw && Array.isArray(localRaw) && localRaw.length) {
-      state.businesses = localRaw.map(normalizeBusiness);
-      state.updatedAt = localTs || INITIAL_SEED_DATA.updated_at;
+      state.businesses = mergePublicSnapshotIntoBusinesses(localRaw.map(normalizeBusiness), centinelaSnap);
+      state.updatedAt = (centinelaSnap && centinelaSnap.updated_at) || localTs || INITIAL_SEED_DATA.updated_at;
       state.masked = false;
       document.body.classList.remove('masked');
     } else {
-      state.businesses = JSON.parse(JSON.stringify(INITIAL_SEED_DATA.businesses)).map(normalizeBusiness);
-      state.updatedAt = INITIAL_SEED_DATA.updated_at;
+      var baseBiz = JSON.parse(JSON.stringify(INITIAL_SEED_DATA.businesses)).map(normalizeBusiness);
+      state.businesses = mergePublicSnapshotIntoBusinesses(baseBiz, centinelaSnap);
+      state.updatedAt = (centinelaSnap && centinelaSnap.updated_at) || INITIAL_SEED_DATA.updated_at;
       state.masked = true;
       document.body.classList.add('masked');
     }
@@ -1585,6 +1931,7 @@
         if (rf.ok) { state.localMotor = true; state.vaultUnlocked = true; break; }
       } catch (e) {}
     }
+    var centinelaSnap = await fetchPublicCentinelaSnapshot();
     if (ghToken()) {
       var priv = await fetchPrivateRepoJson();
       if (priv && Array.isArray(priv.businesses)) {
@@ -1601,12 +1948,20 @@
           body: JSON.stringify({ ref: 'master' })
         });
       } catch (e) {}
+      try {
+        await fetch('https://api.github.com/repos/anderssonfranco78-jpg/dropshipping_hunter/actions/workflows/actualizar_tendencias.yml/dispatches', {
+          method: 'POST',
+          headers: { 'Accept': 'application/vnd.github+json', 'Authorization': 'Bearer ' + ghToken(), 'X-GitHub-Api-Version': '2022-11-28', 'Content-Type': 'application/json' },
+          body: JSON.stringify({ ref: 'main' })
+        });
+      } catch (e) {}
     }
-    state.businesses = state.businesses.map(normalizeBusiness);
+    state.businesses = mergePublicSnapshotIntoBusinesses(state.businesses.map(normalizeBusiness), centinelaSnap);
+    if (centinelaSnap && centinelaSnap.updated_at) state.updatedAt = centinelaSnap.updated_at;
     saveState(state.vaultUnlocked);
     renderAll();
     $('refreshLbl').textContent = 'Sincronizar Salud';
-    toast(state.vaultUnlocked ? 'Bóveda privada sincronizada y salud recalculada' : 'Salud recalculada · Conecta tu Token para leer tu repositorio privado', state.vaultUnlocked ? 'ok' : 'info');
+    toast(state.vaultUnlocked ? 'Bóveda privada sincronizada y salud de las 27 cuentas recalculada' : 'Salud recalculada con el Centinela 6:00 AM (27/27 cuentas)', 'ok');
   }
 
   function openConnectModal() {

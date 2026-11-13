@@ -7,7 +7,7 @@
     "rule_inputs son tus puntuaciones de las 7 Reglas de Oro (Nota 07): el robot no las mide, las calcula a partir de ellas.",
     "trends_keyword = categoría amplia que la gente busca en Google (ej. 'cat brush'); video_keyword = cómo se llama el producto en videos (ej. 'steamy cat brush'), se mide en YouTube Shorts.",
     "en_tienda = true si ya lo vendes en Shopify: el Hunter te dirá MANTENER o RETIRAR según sus números (puedes marcarlo desde el panel).",
-    "Si no anotas stock no pasa nada: DSers confirma proveedor e inventario cuando importas el producto a Shopify.",
+    "REGLA PERMANENTE: Hunter detecta el producto y la tendencia -> vamos a Shopify -> abrimos DSers para que nos asocie al mejor proveedor real (Unmapped: 0) -> anotamos aquí el costo y stock de DSers y pasamos a la campaña de videos.",
     "Foto (opcional): agrega \"image_url\": \"assets/images/steamfur.webp\" (o una URL https:// de Shopify). Sin image_url el panel muestra el slot vacío. Ver assets/images/README.md."
   ],
   "products": [
@@ -21,17 +21,17 @@
       "unit_cost_usd": 3.45,
       "shipping_cost_usd": 1.99,
       "target_variant_name": "green",
-      "verified_stock": 7124,
-      "verified_date": "2026-10-16",
-      "notes": "Mapeado y validado en DSers (Unmapped: 0, 2026-10-16). Variante 'green' conectada a Default Title en Shopify. Costo real DSers $3.45 + envío US $1.99 (AliExpress Selection Standard, 10-16d con tracking) = $5.44 USD entregado. Stock DSers: 7,124 uds. Judge.me + AliExpress Review Importer instalados.",
+      "verified_stock": 7111,
+      "verified_date": "2026-10-27",
+      "notes": "Mapeado y validado en DSers (Unmapped: 0, 2026-10-27). Variante única estrella 'green' (Verde/Mango) con Continue selling when out of stock activo. Costo real DSers $3.45 + envío US $1.99 (AliExpress Choice 7d a EE. UU., 82.9% <= 12d) = $5.44 USD entregado. Stock DSers: 7,111 uds.",
       "trends_keyword": "cat brush",
       "video_keyword": "steamy cat brush",
       "en_tienda": true,
       "description": "Conical silicone pet brush with integrated cold ion ultrasonic mist that neutralizes static and allows peeling off shed pet hair in a single solid sheet in 2 seconds.",
       "shipping": {
-        "days_min": 10,
-        "days_max": 16,
-        "carrier": "AliExpress Selection Standard (Tracking Available)"
+        "days_min": 7,
+        "days_max": 12,
+        "carrier": "AliExpress Choice / USPS (7-12 Business Days)"
       },
       "rule_inputs": {
         "demo_visual_speed_sec": 2.0,
@@ -56,25 +56,25 @@
     },
     {
       "id": "prosmile-ultrasonic",
-      "name": "ProSmile Ultrasonic™ — Smart Plaque & Calculus Scaler",
+      "name": "UltraSmile Pro™ — Smart 37kHz Plaque & Calculus Scaler",
       "image_url": "assets/images/prosmile.webp",
       "category": "Dental Health & Personal Care",
       "source_url": "https://www.aliexpress.com/item/1005005236582798.html",
       "srp_usd": 34.99,
-      "unit_cost_usd": 4.5,
-      "shipping_cost_usd": 3.7,
-      "target_variant_name": null,
-      "verified_stock": null,
-      "verified_date": null,
-      "notes": "Costo SIN verificar (estimación de la semilla). Verificar precio con envío a EE. UU. y stock de la variante.",
+      "unit_cost_usd": 11.15,
+      "shipping_cost_usd": 0.0,
+      "target_variant_name": "WHITE (Standard $34.99) / add tool (Pro Kit $44.99)",
+      "verified_stock": 154,
+      "verified_date": "2026-10-27",
+      "notes": "Mapeado y activo en DSers (Unmapped: 0, 2026-10-27) con proveedor 4.8★ Choice (entrega 7d US, sin límite de 1 unidad) y 154 uds en stock (respaldo secundario tienda CMH 73 uds). Standard Kit ($34.99) -> variante 'WHITE' ($11.15 USD); Pro Kit ($44.99) -> variante 'add tool' ($15.45 USD con estuche de 4 herramientas de acero). Plantilla dedicada 'ultrasmile-pro' en Sense OS 2.0, Continue selling when out of stock activo en ambas variantes y 15 reseñas con foto (4.7★) en Judge.me.",
       "trends_keyword": "plaque remover",
       "video_keyword": "ultrasonic tooth cleaner",
-      "en_tienda": false,
-      "description": "Home dental hygiene scaler with 40 kHz acoustic micro-vibrations and bioelectric sensor that shatters solid calculus instantly while stopping automatically on gums.",
+      "en_tienda": true,
+      "description": "Home dental hygiene scaler (37 kHz acoustic resonance, 5 modes & 9 intensity levels, UV sterilizer cap, LED spotlight, Smart Gum-Protection Chip). Standard Kit ($34.99) & Pro Kit with 4 surgical steel tools ($44.99).",
       "shipping": {
         "days_min": 7,
-        "days_max": 10,
-        "carrier": "CJPacket Fast Line"
+        "days_max": 12,
+        "carrier": "AliExpress Choice / USPS (7-12 Business Days)"
       },
       "rule_inputs": {
         "demo_visual_speed_sec": 1.5,
@@ -99,25 +99,25 @@
     },
     {
       "id": "spinerelief-pro",
-      "name": "SpineRelief Pro™ — Inflatable Lumbar Traction Belt",
+      "name": "SpineRelief Pro™ — Clinical Air-Traction Lumbar Decompression Belt",
       "image_url": "assets/images/spinerelief.webp",
       "category": "Health & Ergonomics",
-      "source_url": "https://www.aliexpress.com/item/1005006626002554.html",
+      "source_url": "https://www.aliexpress.com/item/3256809646946050.html",
       "srp_usd": 54.99,
-      "unit_cost_usd": 10.0,
-      "shipping_cost_usd": 4.8,
-      "target_variant_name": null,
-      "verified_stock": null,
-      "verified_date": null,
-      "notes": "ALERTA: lectura en vivo del 2026-10-08 mostró sus 3 variantes por debajo de 100 uds (no quedaron registrados los números exactos). Verificar y anotar el stock real: si es < 100 quedará bloqueado (KO-STOCK).",
+      "unit_cost_usd": 18.99,
+      "shipping_cost_usd": 0.0,
+      "target_variant_name": "Bundle -> Standard Kit (SKU: 14:29#Version A)",
+      "verified_stock": 105,
+      "verified_date": "2026-10-28",
+      "notes": "100% ACTIVO en Shopify y DSers (2026-10-28, ID: 3256809646946050, Stock: 105 uds, Costo DSers: $18.99 USD). Variante única 'Bundle' -> 'Standard Kit' (SKU intacto 14:29#Version A, sin impuestos, vender sin existencias activado). Plantilla Sense 'spinerelief-pro' conectada y 14 reseñas activas (4.9★) en Judge.me editadas sin duplicados.",
       "trends_keyword": "lumbar traction",
       "video_keyword": "lumbar traction belt",
-      "en_tienda": false,
-      "description": "Clinical-grade inflatable lumbar traction belt with 24 pneumatic columns providing 2.5 bar decompression for L1-L5 vertebrae and acute sciatica nerve relief.",
+      "en_tienda": true,
+      "description": "100% mechanical H-column pneumatic lumbar traction belt (116x13cm, fits 29\"-49\" waists with included extension belt, PU leather + TPU air core + breathable cotton lining, manual pressure-gauge air pump) for L1-L5 disc decompression and sciatic relief.",
       "shipping": {
-        "days_min": 8,
-        "days_max": 10,
-        "carrier": "YunExpress Specialty Line"
+        "days_min": 7,
+        "days_max": 12,
+        "carrier": "AliExpress Choice / USPS (7-12 Business Days)"
       },
       "rule_inputs": {
         "demo_visual_speed_sec": 1.5,
@@ -146,25 +146,25 @@
     },
     {
       "id": "aeroforce-x3",
-      "name": "AeroForce X3™ — 130,000 RPM Violent Turbo Blower",
+      "name": "AeroForce X3™ — 130,000 RPM Cordless Jet Turbo Blower",
       "image_url": "assets/images/aeroforce.webp",
       "category": "Automotive & Tactical Tools",
       "source_url": "https://www.aliexpress.com/item/1005009719197258.html",
       "srp_usd": 59.99,
-      "unit_cost_usd": 12.0,
-      "shipping_cost_usd": 4.8,
-      "target_variant_name": null,
-      "verified_stock": null,
-      "verified_date": null,
-      "notes": "Costo SIN verificar (estimación de la semilla). Verificar precio con envío a EE. UU. y stock de la variante.",
+      "unit_cost_usd": 17.45,
+      "shipping_cost_usd": 1.99,
+      "target_variant_name": "Bundle -> Standard Kit (SKU: 14:173#Black Upgrades;200007763:201336100)",
+      "verified_stock": 9996,
+      "verified_date": "2026-10-28",
+      "notes": "Conectado en DSers (2026-10-28): Costo producto $17.45 + envío AliExpress Selection Standard 7d US $1.99 = $19.44 USD total. Stock real: 9,996 unidades. SKU exacto intacto: 14:173#Black Upgrades;200007763:201336100. Motor Brushless 130,000 RPM, 3 velocidades + modo Violent Turbo, carga USB-C, boquilla concentradora desmontable, CE/FCC/RoHS. Donante Judge.me: https://www.aliexpress.us/item/3256808855793882.html (4.7★, 217 reseñas, +1,000 vendidos).",
       "trends_keyword": "air duster",
       "video_keyword": "turbo jet fan",
-      "en_tienda": false,
-      "description": "Handheld micro-turbine jet fan with 130,000 RPM brushless motor delivering 52 m/s wind speed for contact-free car drying, detailing, and keyboard cleaning without swirl marks.",
+      "en_tienda": true,
+      "description": "Handheld micro-turbine jet fan with 130,000 RPM brushless motor, 3 adjustable speed gears + Violent Turbo mode, detachable concentrator nozzle, and USB-C charging (CE/FCC/RoHS).",
       "shipping": {
-        "days_min": 8,
-        "days_max": 11,
-        "carrier": "YunExpress Special Battery Line"
+        "days_min": 7,
+        "days_max": 12,
+        "carrier": "AliExpress Selection Standard / USPS (7-12 Business Days)"
       },
       "rule_inputs": {
         "demo_visual_speed_sec": 1.2,
@@ -184,6 +184,221 @@
           "PC gaming hardware",
           "tactical gear",
           "grilling"
+        ]
+      }
+    },
+    {
+      "id": "babyhalo-pro",
+      "name": "BabyHalo Pro™ — Whisper-Quiet USB Baby Nail Trimmer with Night LED",
+      "image_url": "",
+      "category": "Baby Care & Parenting",
+      "source_url": "https://www.alibaba.com/product-detail/_1601985563057.html?channel=dropship&src=dsers",
+      "srp_usd": 39.99,
+      "unit_cost_usd": 3.24,
+      "shipping_cost_usd": 9.99,
+      "target_variant_name": "Default Title (SKU: <empty>)",
+      "verified_stock": 9999,
+      "verified_date": "2026-10-29",
+      "notes": "100% ACTIVO en Shopify y DSers via Alibaba Dropshipping (2026-10-29, Shenzhen Zetongji E-Commerce Co., Ltd., Intertek verified). Costo producto $3.24 + envío US Standard $9.99 = $13.23 USD total (~10d US). Stock en tienda: 9,999 uds (stock real de fábrica ilimitado 999,999,999+). Variante única 'Default Title' con SKU vacío intacto, sin impuestos, vender sin existencias activo. Edición Soft Pastel Pink recargable USB, 3 velocidades, luz LED frontal nocturna. 3 imágenes limpias (eliminada Imagen 4 B2B OEM). Plantilla Sense 'babyhalo-pro' asignada y 7 reseñas 5.0★ verificadas con 3 fotos coherentes en Judge.me.",
+      "trends_keyword": "baby nail trimmer",
+      "video_keyword": "baby nail trimmer electric",
+      "en_tienda": true,
+      "description": "Whisper-quiet 3-speed USB rechargeable baby nail trimmer with soft cushioned grinding pads and built-in front night LED light for pinch-free newborn, infant, toddler, and adult nail care.",
+      "shipping": {
+        "days_min": 8,
+        "days_max": 12,
+        "carrier": "Alibaba Dropshipping Standard / USPS (~10 Business Days)"
+      },
+      "rule_inputs": {
+        "demo_visual_speed_sec": 1.5,
+        "pain_level_score": 94.0,
+        "retail_availability_score": 85.0,
+        "has_fragile_material": false,
+        "has_sizing_requirements": false,
+        "ad_active_days": 35,
+        "competitor_ad_count": 32,
+        "google_trends_momentum": 70.0
+      },
+      "target_demographics": {
+        "age": "22-42",
+        "gender": "all",
+        "interests": [
+          "newborn care",
+          "new parents",
+          "baby safety",
+          "baby registry"
+        ]
+      }
+    },
+    {
+      "id": "luxeweave-pro",
+      "name": "LuxeWeave Pro™ — Smart LED Digital Electric Fabric Shaver & Lint Remover",
+      "image_url": "",
+      "category": "Home & Garment Care",
+      "source_url": "https://www.alibaba.com/product-detail/_1601456938669.html?channel=dropship&src=dsers",
+      "srp_usd": 39.99,
+      "unit_cost_usd": 3.18,
+      "shipping_cost_usd": 10.34,
+      "target_variant_name": "Bundle -> Standard Kit (SKU: 19283:-2#5v)",
+      "verified_stock": 9999,
+      "verified_date": "2026-10-29",
+      "notes": "100% ACTIVO en Shopify y DSers via Alibaba Dropshipping (2026-10-29, Henan Zlovy Enterprise Co., Ltd.). Costo producto $3.18 + envío US Standard $10.34 = $13.52 USD total (~17d US). Stock en tienda: 9,999 uds (stock real de fábrica 999,999). Opción 'Bundle: Standard Kit' con SKU intacto '19283:-2#5v', sin impuestos, vender sin existencias activo. Edición Pearl White / Rose Gold con pantalla LED digital ('88'), 5W, 5V USB, malla acero inoxidable 304. 4 imágenes uniformadas en color blanco perla con IA (Nano Banana). Plantilla Sense 'luxeweave-pro' asignada y 25 reseñas 5.0★ en inglés en Judge.me.",
+      "trends_keyword": "lint remover",
+      "video_keyword": "fabric shaver lint remover",
+      "en_tienda": true,
+      "description": "Smart LED digital electric fabric shaver and lint remover in Pearl White & Rose Gold with 304 stainless-steel honeycomb guard, 5W rotary motor, and 5V USB charging.",
+      "shipping": {
+        "days_min": 10,
+        "days_max": 17,
+        "carrier": "Alibaba Dropshipping Standard / USPS (~14-17 Business Days)"
+      },
+      "rule_inputs": {
+        "demo_visual_speed_sec": 1.5,
+        "pain_level_score": 88.0,
+        "retail_availability_score": 80.0,
+        "has_fragile_material": false,
+        "has_sizing_requirements": false,
+        "ad_active_days": 36,
+        "competitor_ad_count": 24,
+        "google_trends_momentum": 78.0
+      },
+      "target_demographics": {
+        "age": "24-62",
+        "gender": "all",
+        "interests": [
+          "home organization",
+          "fashion & sweaters",
+          "clean sofa",
+          "laundry hacks"
+        ]
+      }
+    },
+    {
+      "id": "solarfirefly-pro",
+      "name": "SolarFirefly Pro™ — 10-LED Swaying Solar Firefly Garden Stake Light",
+      "image_url": "",
+      "category": "Garden & Outdoor Lighting",
+      "source_url": "https://www.aliexpress.us/item/3256805511371035.html",
+      "srp_usd": 29.99,
+      "unit_cost_usd": 5.29,
+      "shipping_cost_usd": 1.99,
+      "target_variant_name": "Light Color: Warm White / Style: 10-LED Stake",
+      "verified_stock": 991,
+      "verified_date": "2026-10-29",
+      "notes": "100% ACTIVO en Shopify y DSers via AliExpress (2026-10-29, Super Sparkling Lighting Store 4.9★, Shopify ID: 10393798082675). Costo producto $5.29 + envío AliExpress Selection Standard US $1.99 = $7.28 USD total (~8d US). Stock real: 991 uds. Variante única 'Light Color: Warm White / Style: 10-LED Stake' con miniatura Warm White asignada y SKU intacto, sin impuestos, vender sin existencias activo. 5 imágenes limpias Warm White, IP65 Waterproof, CE/RoHS/UL. Plantilla Sense 'solarfirefly-pro' asignada y 15 reseñas 5.0★ con 13 fotos reales de jardines en Judge.me.",
+      "trends_keyword": "solar lights",
+      "video_keyword": "solar garden lights",
+      "en_tienda": true,
+      "description": "10-LED swaying solar firefly garden stake light in Warm Golden White with flexible wind-responsive stems, IP65 all-weather waterproof rating, and automatic 8-12h dusk-to-dawn illumination.",
+      "shipping": {
+        "days_min": 7,
+        "days_max": 12,
+        "carrier": "AliExpress Selection Standard / USPS (~8 Business Days)"
+      },
+      "rule_inputs": {
+        "demo_visual_speed_sec": 1.5,
+        "pain_level_score": 86.0,
+        "retail_availability_score": 82.0,
+        "has_fragile_material": false,
+        "has_sizing_requirements": false,
+        "ad_active_days": 40,
+        "competitor_ad_count": 28,
+        "google_trends_momentum": 77.0
+      },
+      "target_demographics": {
+        "age": "28-68",
+        "gender": "all",
+        "interests": [
+          "gardening",
+          "backyard patio decor",
+          "home improvement",
+          "landscape lighting"
+        ]
+      }
+    },
+    {
+      "id": "magneglide-pro",
+      "name": "MagneGlide Pro™ — Double-Sided Magnetic Window Cleaner with Safety Rope",
+      "image_url": "",
+      "category": "Home Cleaning & Tools",
+      "source_url": "https://www.aliexpress.us/item/3256808888648441.html",
+      "srp_usd": 49.99,
+      "unit_cost_usd": 18.85,
+      "shipping_cost_usd": 3.28,
+      "target_variant_name": "Edition & Glass Thickness -> Blue — Standard Glass (3–8mm) [7 variantes activas]",
+      "verified_stock": 6930,
+      "verified_date": "2026-10-29",
+      "notes": "100% ACTIVO en Shopify y DSers via AliExpress (2026-10-29, Item ID: 3256808888648441, Shopify ID: 10394138312819). 7 variantes activas reordenadas (#1 Blue Standard 3-8mm a $49.99 / costo $22.13 -> margen +$27.86; Pro Grip 3-8mm a $52.99 / costo $22.97 -> margen +$30.02; Heavy-Duty 3-10mm a $54.99 / costo $25.47 -> margen +$29.52; #7 30x Replacement Cotton Pads Refill a $24.99 / costo $12.07 -> margen +$12.92). Stock total: 6,930 uds. SKUs intactos, sin impuestos, vender sin existencias activo. Plantilla Sense 'magneglide-pro' asignada y reseñas en Judge.me activas.",
+      "trends_keyword": "window cleaner",
+      "video_keyword": "magnetic window cleaner",
+      "en_tienda": true,
+      "description": "Double-sided triangular magnetic window cleaner with NdFeB magnets, natural latex squeegee blades, replaceable absorbent cotton fiber pads, and built-in anti-fall wrist safety tether.",
+      "shipping": {
+        "days_min": 7,
+        "days_max": 12,
+        "carrier": "AliExpress Standard Shipping / USPS (~8 Business Days)"
+      },
+      "rule_inputs": {
+        "demo_visual_speed_sec": 1.5,
+        "pain_level_score": 88.0,
+        "retail_availability_score": 90.0,
+        "has_fragile_material": false,
+        "has_sizing_requirements": false,
+        "ad_active_days": 38,
+        "competitor_ad_count": 26,
+        "google_trends_momentum": 72.0
+      },
+      "target_demographics": {
+        "age": "26-65",
+        "gender": "all",
+        "interests": [
+          "home cleaning hacks",
+          "apartment living",
+          "window cleaning",
+          "home organization"
+        ]
+      }
+    },
+    {
+      "id": "rapiddice-pro",
+      "name": "RapidDice Pro™ — 16-in-1 Stainless Steel Vegetable Chopper & Mandoline Slicer",
+      "image_url": "",
+      "category": "Kitchen & Meal Prep",
+      "source_url": "https://www.aliexpress.us/item/3256812837954949.html",
+      "srp_usd": 49.99,
+      "unit_cost_usd": 20.62,
+      "shipping_cost_usd": 1.99,
+      "target_variant_name": "Bundle -> 16-Piece Deluxe Kit (SKU: 14:200006152#16pcs-B)",
+      "verified_stock": 1552,
+      "verified_date": "2026-10-29",
+      "notes": "100% ACTIVO en Shopify y DSers via AliExpress (2026-10-29, Item ID: 3256812837954949, supplyId: 159831080, Shopify ID: 10394456555635). Costo producto $20.62 + envío US AliExpress Selection Standard $1.99 = $22.61 USD total (~7-8d US). Stock real: 1,552 uds. Variante única 'Bundle: 16-Piece Deluxe Kit' con SKU intacto '14:200006152#16pcs-B', sin impuestos, vender sin existencias activo. 7 imágenes limpias en inglés (CE/EU & FCM BPA-Free, 7 cuchillas acero inoxidable 420). Plantilla Sense 'rapiddice-pro' asignada y 9 reseñas 4.9★ con 7 fotos reales en Judge.me.",
+      "trends_keyword": "vegetable chopper",
+      "video_keyword": "vegetable chopper",
+      "en_tienda": true,
+      "description": "16-piece multifunctional vegetable chopper, press dicer, and mandoline slicer with 7 interchangeable 420 stainless steel blades, BPA-free catch container, inner colander basket, and safety hand guard.",
+      "shipping": {
+        "days_min": 7,
+        "days_max": 12,
+        "carrier": "AliExpress Selection Standard / USPS (~7-8 Business Days)"
+      },
+      "rule_inputs": {
+        "demo_visual_speed_sec": 1.2,
+        "pain_level_score": 88.0,
+        "retail_availability_score": 78.0,
+        "has_fragile_material": false,
+        "has_sizing_requirements": false,
+        "ad_active_days": 42,
+        "competitor_ad_count": 30,
+        "google_trends_momentum": 71.0
+      },
+      "target_demographics": {
+        "age": "24-65",
+        "gender": "all",
+        "interests": [
+          "home cooking",
+          "meal prep",
+          "kitchen gadgets",
+          "healthy eating"
         ]
       }
     }
