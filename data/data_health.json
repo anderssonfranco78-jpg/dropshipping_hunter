@@ -3,8 +3,8 @@
   "generated_at": "2026-11-13 21:00:34 UTC",
   "sources": {
     "trends": {
-      "LIVE": 8,
-      "CACHED": 1,
+      "LIVE": 0,
+      "CACHED": 9,
       "NO_LIVE_DATA": 0,
       "MANUAL": 0,
       "MOCK": 0,

@@ -1,0 +1,96 @@
+{
+ "generated_at": "2026-11-13 21:42:39 UTC",
+ "source": "pc",
+ "products": {
+  "babyhalo-pro": {
+   "rank": 1,
+   "base": "LANZAR",
+   "code": "MANTENER",
+   "score": 90.0,
+   "market": 85,
+   "overall": 88,
+   "profit": 22.49,
+   "tier": "WINNER"
+  },
+  "solarfirefly-pro": {
+   "rank": 2,
+   "base": "LANZAR",
+   "code": "MANTENER",
+   "score": 100.0,
+   "market": 70,
+   "overall": 85,
+   "profit": 19.78,
+   "tier": "WINNER"
+  },
+  "steamfur-pro": {
+   "rank": 3,
+   "base": "LANZAR",
+   "code": "MANTENER",
+   "score": 90.0,
+   "market": 76,
+   "overall": 83,
+   "profit": 21.89,
+   "tier": "WINNER"
+  },
+  "spinerelief-pro": {
+   "rank": 4,
+   "base": "LANZAR",
+   "code": "MANTENER",
+   "score": 90.0,
+   "market": 75,
+   "overall": 82,
+   "profit": 30.19,
+   "tier": "WINNER"
+  },
+  "prosmile-ultrasonic": {
+   "rank": 5,
+   "base": "LANZAR",
+   "code": "MANTENER",
+   "score": 80.0,
+   "market": 71,
+   "overall": 76,
+   "profit": 20.11,
+   "tier": "WINNER"
+  },
+  "luxeweave-pro": {
+   "rank": 6,
+   "base": "PROBAR",
+   "code": "MANTENER",
+   "score": 82.0,
+   "market": 92,
+   "overall": 87,
+   "profit": 22.15,
+   "tier": "CONTENDER"
+  },
+  "aeroforce-x3": {
+   "rank": 7,
+   "base": "PROBAR",
+   "code": "MANTENER",
+   "score": 80.0,
+   "market": 61,
+   "overall": 70,
+   "profit": 34.45,
+   "tier": "WINNER"
+  },
+  "magneglide-pro": {
+   "rank": 8,
+   "base": "DESCARTAR",
+   "code": "RETIRAR",
+   "score": 0.0,
+   "market": 70,
+   "overall": null,
+   "profit": 21.81,
+   "tier": "DISQUALIFIED"
+  },
+  "rapiddice-pro": {
+   "rank": 9,
+   "base": "DESCARTAR",
+   "code": "RETIRAR",
+   "score": 0.0,
+   "market": 71,
+   "overall": null,
+   "profit": 21.26,
+   "tier": "DISQUALIFIED"
+  }
+ }
+}
