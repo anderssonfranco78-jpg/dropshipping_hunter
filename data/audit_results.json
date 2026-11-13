@@ -48,7 +48,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -179,14 +179,16 @@
         "peak_ratio": 0.32,
         "mean_recent": 31.5,
         "mean_prior": 27.6,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-11-12 22:55 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "lumbar traction belt",
         "shorts_found": 29,
-        "median_views_top10": 152000,
+        "median_views_top10": 100000,
         "max_views": 79000000,
-        "over_100k": 7,
+        "over_100k": 5,
         "over_1m": 3,
         "top": [
           {
@@ -210,9 +212,9 @@
             "url": "https://www.youtube.com/shorts/oq1nC0LObDE"
           },
           {
-            "title": "Lumbar Traction",
-            "views": 176000,
-            "url": "https://www.youtube.com/shorts/C45Q3xecf6I"
+            "title": "Spine and back traction using Lamber Belt at #yogapeacesansthan",
+            "views": 121000,
+            "url": "https://www.youtube.com/shorts/bdHrn9_9vj4"
           }
         ],
         "status": "LIVE"
@@ -335,7 +337,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -466,12 +468,14 @@
         "peak_ratio": 0.17,
         "mean_recent": 17.0,
         "mean_prior": 19.2,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-11-12 22:55 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "ultrasonic tooth cleaner",
-        "shorts_found": 29,
-        "median_views_top10": 1069000,
+        "shorts_found": 28,
+        "median_views_top10": 910500,
         "max_views": 5200000,
         "over_100k": 10,
         "over_1m": 5,
@@ -759,10 +763,10 @@
       },
       "youtube": {
         "keyword": "steamy cat brush",
-        "shorts_found": 30,
+        "shorts_found": 33,
         "median_views_top10": 263500,
         "max_views": 18000000,
-        "over_100k": 7,
+        "over_100k": 8,
         "over_1m": 3,
         "top": [
           {
@@ -911,7 +915,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -1042,14 +1046,16 @@
         "peak_ratio": 0.21,
         "mean_recent": 21.5,
         "mean_prior": 25.7,
-        "resolution": "WEEK"
+        "resolution": "WEEK",
+        "measured_at": "2026-11-12 22:55 UTC",
+        "cache": "reciente"
       },
       "youtube": {
         "keyword": "turbo jet fan",
-        "shorts_found": 28,
+        "shorts_found": 30,
         "median_views_top10": 1650000,
         "max_views": 80000000,
-        "over_100k": 13,
+        "over_100k": 12,
         "over_1m": 6,
         "top": [
           {
@@ -1063,14 +1069,14 @@
             "url": "https://www.youtube.com/shorts/9ksItmxawD0"
           },
           {
+            "title": "How a Fan Becomes a Jet Engine #shorts",
+            "views": 3000000,
+            "url": "https://www.youtube.com/shorts/-u3uyR8zrjk"
+          },
+          {
             "title": "This Turbo Jet Fan From Amazon is🔥",
             "views": 2900000,
             "url": "https://www.youtube.com/shorts/mlWwPS1daBM"
-          },
-          {
-            "title": "How a Fan Becomes a Jet Engine #shorts",
-            "views": 2900000,
-            "url": "https://www.youtube.com/shorts/-u3uyR8zrjk"
           },
           {
             "title": "Crazy Powerful Turbo Jet Fan! 🔥",
