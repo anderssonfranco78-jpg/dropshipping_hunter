@@ -44,7 +44,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -112,7 +112,7 @@
         44,
         46
       ],
-      "image_url": null,
+      "image_url": "assets/images/solarfirefly.webp",
       "video_keyword": "solar garden lights",
       "in_store": true,
       "trends_labels": [
@@ -185,11 +185,6 @@
         "over_100k": 11,
         "over_1m": 3,
         "top": [
-          {
-            "title": "Solar garden lamp street lamp #solarcharging",
-            "views": 48000000,
-            "url": "https://www.youtube.com/shorts/z0hfmm4hQZQ"
-          },
           {
             "title": "Solar light for my garden ✨#solarpower #solarlight #gardentour #gardendecorideas #shorts",
             "views": 7700000,
@@ -468,11 +463,11 @@
       },
       "youtube": {
         "keyword": "steamy cat brush",
-        "shorts_found": 30,
-        "median_views_top10": 562000,
+        "shorts_found": 31,
+        "median_views_top10": 263500,
         "max_views": 18000000,
-        "over_100k": 9,
-        "over_1m": 4,
+        "over_100k": 7,
+        "over_1m": 3,
         "top": [
           {
             "title": "✨Magic Pet Steam Brush – Bye Bye Shedding! 💦🐶🐱#Cat #Cats #CuteCat",
@@ -480,24 +475,24 @@
             "url": "https://www.youtube.com/shorts/CzSlC3TFa1Y"
           },
           {
-            "title": "Get Your Cat This - 3 in 1 Pet Grooming Brush -  #petcare #petgrooming #dog #cat #petlife #shorts",
-            "views": 7200000,
-            "url": "https://www.youtube.com/shorts/a4IFcW8BINA"
-          },
-          {
             "title": "🐶 Why Is Everyone Switching to This Steam Pet Brush?! 👀🔥",
             "views": 3800000,
             "url": "https://www.youtube.com/shorts/n-GflRw0sXI"
           },
           {
-            "title": "I Tried a Steam Brush on my Feisty Cat 😳",
-            "views": 2800000,
-            "url": "https://www.youtube.com/shorts/0kU6kGTG0Q8"
+            "title": "Cat Is Obsessed With This Brush #catbrush #steamycatbrush #hairbrush",
+            "views": 1000000,
+            "url": "https://www.youtube.com/shorts/BCsAQg0Chfc"
           },
           {
             "title": "Steam Grooming Brush: For Cats and Dogs",
             "views": 810000,
             "url": "https://www.youtube.com/shorts/-OKLMmMRIhY"
+          },
+          {
+            "title": "The ultimate solution for shedding season! 🐾 #catbrush #steamycatbrush #hairbrush #petsupplies",
+            "views": 314000,
+            "url": "https://www.youtube.com/shorts/ltj5jWKcSbQ"
           }
         ],
         "status": "LIVE"
@@ -624,7 +619,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -911,7 +906,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -979,7 +974,7 @@
         2,
         10
       ],
-      "image_url": null,
+      "image_url": "assets/images/babyhalo.webp",
       "video_keyword": "baby nail trimmer electric",
       "in_store": true,
       "trends_labels": [
@@ -1198,7 +1193,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -1485,7 +1480,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -1778,7 +1773,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -1846,7 +1841,7 @@
         20,
         15
       ],
-      "image_url": null,
+      "image_url": "assets/images/luxeweave.webp",
       "video_keyword": "fabric shaver lint remover",
       "in_store": true,
       "trends_labels": [
@@ -1920,9 +1915,24 @@
         "over_1m": 0,
         "top": [
           {
+            "title": "Lint remover from clothes Amazon  #shorts Lint remover review lint remover meesho",
+            "views": 1000000,
+            "url": "https://www.youtube.com/shorts/YvCh7nRn4XM"
+          },
+          {
+            "title": "Philips fabric shaver # best results",
+            "views": 671000,
+            "url": "https://www.youtube.com/shorts/q009I4Cp-SE"
+          },
+          {
             "title": "I Tried This Lint Remover… WOW!😲",
-            "views": 619000,
+            "views": 620000,
             "url": "https://www.youtube.com/shorts/GEqxFg0eHJY"
+          },
+          {
+            "title": "Clothes Lint Remover Gadget! #shorts #unboxing",
+            "views": 465000,
+            "url": "https://www.youtube.com/shorts/BHXnzpKhlhs"
           },
           {
             "title": "Revamp Your Clothes: Fabric Shaver Hack! #fabricshaver #lintremover",
@@ -2065,7 +2075,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -2133,7 +2143,7 @@
         27,
         24
       ],
-      "image_url": null,
+      "image_url": "assets/images/magneglide.webp",
       "video_keyword": "magnetic window cleaner",
       "in_store": true,
       "trends_labels": [
@@ -2206,6 +2216,11 @@
         "over_100k": 7,
         "over_1m": 4,
         "top": [
+          {
+            "title": "▶️ Clean both sides easily Double Side Magnetic Window Cleaner Brush Tool ( # 2121 )",
+            "views": 84000000,
+            "url": "https://www.youtube.com/shorts/d0d-PeCaGTY"
+          },
           {
             "title": "▶️ Clean both sides easily Double Side Magnetic Window Cleaner Brush Tool ( # 2121 )",
             "views": 23000000,
@@ -2354,7 +2369,7 @@
         ]
       },
       "data_status": {
-        "trends": "LIVE",
+        "trends": "CACHED",
         "youtube": "LIVE",
         "tiktok": "UNAVAILABLE",
         "meta": "UNAVAILABLE",
@@ -2422,7 +2437,7 @@
         31,
         28
       ],
-      "image_url": null,
+      "image_url": "assets/images/rapiddice.webp",
       "video_keyword": "vegetable chopper",
       "in_store": true,
       "trends_labels": [

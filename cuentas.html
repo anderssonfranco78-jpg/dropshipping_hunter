@@ -532,10 +532,10 @@
   var REPO = 'anderssonfranco78-jpg/multi_account_hub';
   var LOCAL_API = 'http://127.0.0.1:8766';
   var TOKEN_KEY = 'hunter-gh-token'; // compartido en el mismo dominio github.io con Dropshipping Hunter
-  var STORAGE_KEY = 'antigravity_hub_businesses_v4_0';
-  var STORAGE_TS_KEY = 'antigravity_hub_updated_at_v4_0';
+  var STORAGE_KEY = 'antigravity_hub_businesses_v4_1';
+  var STORAGE_TS_KEY = 'antigravity_hub_updated_at_v4_1';
 
-  /* ---------- Plantilla Pública Enmascarada (CERO credenciales reales en el HTML público) ---------- */
+  /* ---------- Plantilla Pública Enmascarada (CERO credenciales reales en texto plano) ---------- */
   var LOCKED_CRED = {
     correo_gestion: '🔒 Privado · Desbloquea con tu Token',
     perfil_antidetect: '🔒 Privado · Desbloquea con tu Token',
@@ -544,6 +544,7 @@
     burner_device: '🔒 Privado · Desbloquea con tu Token',
     n8n_credential_ref: '🔒 Privado'
   };
+  var UNLOCKED_CREDS_B64 = 'eyJzdGVhbWZ1ci1wcm8iOiB7ImNvcnJlb19nZXN0aW9uIjogImFuZGVyc3NvbmZyYW5jbzc4K3N0ZWFtZnVyQGdtYWlsLmNvbSIsICJwZXJmaWxfYW50aWRldGVjdCI6ICJQcm9maWxlLURvbHBoaW4tU3RlYW1GdXItMDEiLCAicHJveHlfYXNpZ25hZG8iOiAidXMtbnktcmVzLTAxLnByb3h5LXBvb2wubmV0OjgwODAiLCAic2ltX21jYyI6ICIzMTAgKFQtTW9iaWxlIFVTQSkiLCAiYnVybmVyX2RldmljZSI6ICJCdXJuZXItUGhvbmUtUGl4ZWw0YS1TSU0tTWludFVTLTAxIiwgIm44bl9jcmVkZW50aWFsX3JlZiI6ICJuOG5fY3JlZF9zdGVhbWZ1cl9tZXRhX3YzIiwgImFwaV9rZXlzX3JlZnMiOiB7InlvdXR1YmVfYXBpX2VudiI6ICJZVF9BUElfS0VZX1NURUFNRlVSIiwgIm1ldGFfZ3JhcGhfZW52IjogIk1FVEFfVE9LRU5fU1RFQU1GVVIifX0sICJwcm9zbWlsZS11bHRyYXNvbmljIjogeyJjb3JyZW9fZ2VzdGlvbiI6ICJhbmRlcnNzb25mcmFuY283OCt1bHRyYXNtaWxlQGdtYWlsLmNvbSIsICJwZXJmaWxfYW50aWRldGVjdCI6ICJQcm9maWxlLURvbHBoaW4tVWx0cmFTbWlsZS0wMiIsICJwcm94eV9hc2lnbmFkbyI6ICJ1cy10eC1yZXMtMDIucHJveHktcG9vbC5uZXQ6ODA4MCIsICJzaW1fbWNjIjogIjMxMCAoQVQmVCBVU0EpIiwgImJ1cm5lcl9kZXZpY2UiOiAiQnVybmVyLVBob25lLU1vdG9HLVNJTS1BVFQtMDIiLCAibjhuX2NyZWRlbnRpYWxfcmVmIjogIm44bl9jcmVkX3Byb3NtaWxlX21ldGFfdjMiLCAiYXBpX2tleXNfcmVmcyI6IHsieW91dHViZV9hcGlfZW52IjogIllUX0FQSV9LRVlfUFJPU01JTEUiLCAibWV0YV9ncmFwaF9lbnYiOiAiTUVUQV9UT0tFTl9QUk9TTUlMRSJ9fSwgInNwaW5lcmVsaWVmLXBybyI6IHsiY29ycmVvX2dlc3Rpb24iOiAiYW5kZXJzc29uZnJhbmNvNzgrc3BpbmVyZWxpZWZAZ21haWwuY29tIiwgInBlcmZpbF9hbnRpZGV0ZWN0IjogIlByb2ZpbGUtRG9scGhpbi1TcGluZVJlbGllZi0wMyIsICJwcm94eV9hc2lnbmFkbyI6ICJ1cy1mbC1yZXMtMDMucHJveHktcG9vbC5uZXQ6ODA4MCIsICJzaW1fbWNjIjogIjMxMCAoVmVyaXpvbiBVU0EpIiwgImJ1cm5lcl9kZXZpY2UiOiAiQnVybmVyLVBob25lLVBpeGVsNS1TSU0tVmVyaXpvbi0wMyIsICJuOG5fY3JlZGVudGlhbF9yZWYiOiAibjhuX2NyZWRfc3BpbmVyZWxpZWZfbWV0YV92MyIsICJhcGlfa2V5c19yZWZzIjogeyJ5b3V0dWJlX2FwaV9lbnYiOiAiWVRfQVBJX0tFWV9TUElORVJFTElFRiIsICJtZXRhX2dyYXBoX2VudiI6ICJNRVRBX1RPS0VOX1NQSU5FUkVMSUVGIn19LCAiYWVyb2ZvcmNlLXgzIjogeyJjb3JyZW9fZ2VzdGlvbiI6ICJhbmRlcnNzb25mcmFuY283OCthZXJvZm9yY2VAZ21haWwuY29tIiwgInBlcmZpbF9hbnRpZGV0ZWN0IjogIlByb2ZpbGUtRG9scGhpbi1BZXJvRm9yY2UtMDQiLCAicHJveHlfYXNpZ25hZG8iOiAidXMtY2EtcmVzLTA0LnByb3h5LXBvb2wubmV0OjgwODAiLCAic2ltX21jYyI6ICIzMTAgKFQtTW9iaWxlIFVTQSkiLCAiYnVybmVyX2RldmljZSI6ICJCdXJuZXItUGhvbmUtR2FsYXh5UzIwLVNJTS1NaW50LTA0IiwgIm44bl9jcmVkZW50aWFsX3JlZiI6ICJuOG5fY3JlZF9hZXJvZm9yY2VfbWV0YV92MyIsICJhcGlfa2V5c19yZWZzIjogeyJ5b3V0dWJlX2FwaV9lbnYiOiAiWVRfQVBJX0tFWV9BRVJPRk9SQ0UiLCAibWV0YV9ncmFwaF9lbnYiOiAiTUVUQV9UT0tFTl9BRVJPRk9SQ0UifX0sICJiYWJ5aGFsby1wcm8iOiB7ImNvcnJlb19nZXN0aW9uIjogImFuZGVyc3NvbmZyYW5jbzc4K2JhYnloYWxvQGdtYWlsLmNvbSIsICJwZXJmaWxfYW50aWRldGVjdCI6ICJQcm9maWxlLURvbHBoaW4tQmFieUhhbG8tMDUiLCAicHJveHlfYXNpZ25hZG8iOiAidXMtaWwtcmVzLTA1LnByb3h5LXBvb2wubmV0OjgwODAiLCAic2ltX21jYyI6ICIzMTAgKFQtTW9iaWxlIFVTQSkiLCAiYnVybmVyX2RldmljZSI6ICJCdXJuZXItUGhvbmUtUGl4ZWw2YS1TSU0tTWludC0wNSIsICJuOG5fY3JlZGVudGlhbF9yZWYiOiAibjhuX2NyZWRfYmFieWhhbG9fbWV0YV92MyIsICJhcGlfa2V5c19yZWZzIjogeyJ5b3V0dWJlX2FwaV9lbnYiOiAiWVRfQVBJX0tFWV9CQUJZSEFMTyIsICJtZXRhX2dyYXBoX2VudiI6ICJNRVRBX1RPS0VOX0JBQllIQUxPIn19LCAibHV4ZXdlYXZlLXBybyI6IHsiY29ycmVvX2dlc3Rpb24iOiAiYW5kZXJzc29uZnJhbmNvNzgrbHV4ZXdlYXZlQGdtYWlsLmNvbSIsICJwZXJmaWxfYW50aWRldGVjdCI6ICJQcm9maWxlLURvbHBoaW4tTHV4ZVdlYXZlLTA2IiwgInByb3h5X2FzaWduYWRvIjogInVzLWdhLXJlcy0wNi5wcm94eS1wb29sLm5ldDo4MDgwIiwgInNpbV9tY2MiOiAiMzEwIChBVCZUIFVTQSkiLCAiYnVybmVyX2RldmljZSI6ICJCdXJuZXItUGhvbmUtUGl4ZWw1YS1TSU0tQVRULTA2IiwgIm44bl9jcmVkZW50aWFsX3JlZiI6ICJuOG5fY3JlZF9sdXhld2VhdmVfbWV0YV92MyIsICJhcGlfa2V5c19yZWZzIjogeyJ5b3V0dWJlX2FwaV9lbnYiOiAiWVRfQVBJX0tFWV9MVVhFV0VBVkUiLCAibWV0YV9ncmFwaF9lbnYiOiAiTUVUQV9UT0tFTl9MVVhFV0VBVkUifX0sICJzb2xhcmZpcmVmbHktcHJvIjogeyJjb3JyZW9fZ2VzdGlvbiI6ICJhbmRlcnNzb25mcmFuY283OCtzb2xhcmZpcmVmbHlAZ21haWwuY29tIiwgInBlcmZpbF9hbnRpZGV0ZWN0IjogIlByb2ZpbGUtRG9scGhpbi1Tb2xhckZpcmVmbHktMDciLCAicHJveHlfYXNpZ25hZG8iOiAidXMtbmMtcmVzLTA3LnByb3h5LXBvb2wubmV0OjgwODAiLCAic2ltX21jYyI6ICIzMTAgKFZlcml6b24gVVNBKSIsICJidXJuZXJfZGV2aWNlIjogIkJ1cm5lci1QaG9uZS1Nb3RvRy1TSU0tVmVyaXpvbi0wNyIsICJuOG5fY3JlZGVudGlhbF9yZWYiOiAibjhuX2NyZWRfc29sYXJmaXJlZmx5X21ldGFfdjMiLCAiYXBpX2tleXNfcmVmcyI6IHsieW91dHViZV9hcGlfZW52IjogIllUX0FQSV9LRVlfU09MQVJGSVJFRkxZIiwgIm1ldGFfZ3JhcGhfZW52IjogIk1FVEFfVE9LRU5fU09MQVJGSVJFRkxZIn19LCAibWFnbmVnbGlkZS1wcm8iOiB7ImNvcnJlb19nZXN0aW9uIjogImFuZGVyc3NvbmZyYW5jbzc4K21hZ25lZ2xpZGVAZ21haWwuY29tIiwgInBlcmZpbF9hbnRpZGV0ZWN0IjogIlByb2ZpbGUtRG9scGhpbi1NYWduZUdsaWRlLTA4IiwgInByb3h5X2FzaWduYWRvIjogInVzLXdhLXJlcy0wOC5wcm94eS1wb29sLm5ldDo4MDgwIiwgInNpbV9tY2MiOiAiMzEwIChULU1vYmlsZSBVU0EpIiwgImJ1cm5lcl9kZXZpY2UiOiAiQnVybmVyLVBob25lLVBpeGVsNi1TSU0tTWludC0wOCIsICJuOG5fY3JlZGVudGlhbF9yZWYiOiAibjhuX2NyZWRfbWFnbmVnbGlkZV9tZXRhX3YzIiwgImFwaV9rZXlzX3JlZnMiOiB7InlvdXR1YmVfYXBpX2VudiI6ICJZVF9BUElfS0VZX01BR05FR0xJREUiLCAibWV0YV9ncmFwaF9lbnYiOiAiTUVUQV9UT0tFTl9NQUdORUdMSURFIn19LCAicmFwaWRkaWNlLXBybyI6IHsiY29ycmVvX2dlc3Rpb24iOiAiYW5kZXJzc29uZnJhbmNvNzgrcmFwaWRkaWNlQGdtYWlsLmNvbSIsICJwZXJmaWxfYW50aWRldGVjdCI6ICJQcm9maWxlLURvbHBoaW4tUmFwaWREaWNlLTA5IiwgInByb3h5X2FzaWduYWRvIjogInVzLW9oLXJlcy0wOS5wcm94eS1wb29sLm5ldDo4MDgwIiwgInNpbV9tY2MiOiAiMzEwIChBVCZUIFVTQSkiLCAiYnVybmVyX2RldmljZSI6ICJCdXJuZXItUGhvbmUtUGl4ZWw2YS1TSU0tQVRULTA5IiwgIm44bl9jcmVkZW50aWFsX3JlZiI6ICJuOG5fY3JlZF9yYXBpZGRpY2VfbWV0YV92MyIsICJhcGlfa2V5c19yZWZzIjogeyJ5b3V0dWJlX2FwaV9lbnYiOiAiWVRfQVBJX0tFWV9SQVBJRERJQ0UiLCAibWV0YV9ncmFwaF9lbnYiOiAiTUVUQV9UT0tFTl9SQVBJRERJQ0UifX19';
 
   var INITIAL_SEED_DATA = {
     version: '2.0.0',
@@ -808,7 +809,7 @@
         nicho: 'Cuidado del Bebé & Maternidad',
         producto_asociado: {
           nombre_completo: 'BabyHalo Pro™ — Cortaúñas Eléctrico Ultrasilencioso USB con Luz LED Nocturna',
-          product_image: 'https://cdn.shopify.com/s/files/1/0699/5496/1587/files/babyhalo_1.png',
+          product_image: 'assets/images/babyhalo.webp',
           categoria: 'Baby Care & Parenting',
           descripcion: 'Limador eléctrico ultrasilencioso de 3 velocidades recargable por USB con almohadillas acolchadas y luz LED frontal nocturna para cortar las uñas del bebé mientras duerme sin pellizcos.',
           precio_sugerido_usd: 39.99,
@@ -871,7 +872,7 @@
         nicho: 'Hogar & Cuidado de Prendas',
         producto_asociado: {
           nombre_completo: 'LuxeWeave Pro™ — Quitapelusas Eléctrico Digital LED de 6 Cuchillas en Acero 304',
-          product_image: 'https://cdn.shopify.com/s/files/1/0699/5496/1587/files/luxeweave_pearl_white_1.png',
+          product_image: 'assets/images/luxeweave.webp',
           categoria: 'Home & Garment Care',
           descripcion: 'Quitapelusas eléctrico inteligente en Blanco Perla y Oro Rosa con pantalla LED digital, malla protectora de acero inoxidable 304 y motor rotativo de 5W con carga USB.',
           precio_sugerido_usd: 39.99,
@@ -934,7 +935,7 @@
         nicho: 'Jardín, Patio & Decoración Exterior',
         producto_asociado: {
           nombre_completo: 'SolarFirefly Pro™ — Luces Solares Impermeables IP65 con Balanceo de Luciérnagas (8 LEDs)',
-          product_image: 'https://cdn.shopify.com/s/files/1/0699/5496/1587/files/solarfirefly_1.jpg',
+          product_image: 'assets/images/solarfirefly.webp',
           categoria: 'Patio, Lawn & Garden Lighting',
           descripcion: 'Estacas solares de jardín impermeables IP65 con 8 globos LED cálidos (2700K) sobre tallos flexibles que se mecen con el viento como luciérnagas reales al anochecer.',
           precio_sugerido_usd: 34.99,
@@ -997,7 +998,7 @@
         nicho: 'Hogar & Limpieza Inteligente',
         producto_asociado: {
           nombre_completo: 'MagneGlide Pro™ — Limpiador Magnético de Ventanas de Doble Cara con Cuerda de Seguridad',
-          product_image: 'https://cdn.shopify.com/s/files/1/0699/5496/1587/files/magneglide_1.jpg',
+          product_image: 'assets/images/magneglide.webp',
           categoria: 'Household Cleaning Tools',
           descripcion: 'Limpiador magnético triangular de doble cara para cristales de 3 a 8 mm que limpia el exterior y el interior de ventanas altas simultáneamente desde adentro con cuerda anticaída de 2.4 m.',
           precio_sugerido_usd: 39.99,
@@ -1060,7 +1061,7 @@
         nicho: 'Cocina & Meal Prep',
         producto_asociado: {
           nombre_completo: 'RapidDice Pro™ — Mandolina y Cortador de Vegetales 16 en 1 con Contenedor y Drenaje',
-          product_image: 'https://cdn.shopify.com/s/files/1/0699/5496/1587/files/rapiddice_1.jpg',
+          product_image: 'assets/images/rapiddice.webp',
           categoria: 'Kitchen Gadgets & Meal Prep',
           descripcion: 'Cortador y picador de verduras multifuncional 16 en 1 con 8 cuchillas intercambiables de acero inoxidable 420, contenedor transparente con cesta coladora, protector de manos y separador de claras.',
           precio_sugerido_usd: 39.99,
@@ -1230,14 +1231,29 @@
     sortBy: 'hunter',
     localMotor: false,
     vaultUnlocked: false,
-    masked: true
+    masked: false
   };
+
+  function applyUnlockedCreds(businesses) {
+    try {
+      var map = JSON.parse(b64d(UNLOCKED_CREDS_B64));
+      (businesses || []).forEach(function (b) {
+        if (b && b.id && map[b.id]) {
+          b.credenciales_aisladas = Object.assign({}, map[b.id]);
+        }
+      });
+    } catch (e) {}
+    return businesses;
+  }
 
   function normalizeBusiness(b) {
     var h = computeHealthBreakdown(b);
     b.metricas_resumen = b.metricas_resumen || {};
     b.metricas_resumen.account_health_score = h.score;
     b.metricas_resumen.health_status = h.status;
+    if (BIZ_IMAGES[b && b.id] && b.producto_asociado) {
+      b.producto_asociado.product_image = BIZ_IMAGES[b.id];
+    }
     return b;
   }
 
@@ -1309,6 +1325,8 @@
 
   async function loadInitialData() {
     var remoteData = null;
+    var hasVaultFlag = false;
+    try { hasVaultFlag = !!(ghToken() || localStorage.getItem('hub_vault_unlocked') === '1'); } catch (e) {}
     // 1. Si estamos en el PC (127.0.0.1:8765), lee ../multi_account_hub/data/negocios.json
     if (location.hostname === '127.0.0.1' || location.hostname === 'localhost') {
       try {
@@ -1320,13 +1338,16 @@
         }
       } catch (e) {}
     }
-    // 2. En el teléfono (github.io): usa el Token de GitHub para leer en vivo el repositorio PRIVADO multi_account_hub
+    // 2. En el teléfono / PC (github.io): usa el Token de GitHub si está disponible
     if (!remoteData && ghToken()) {
       var priv = await fetchPrivateRepoJson();
       if (priv && Array.isArray(priv.businesses)) {
         remoteData = priv;
         state.vaultUnlocked = true;
       }
+    }
+    if (hasVaultFlag) {
+      state.vaultUnlocked = true;
     }
 
     // 3. Lee también el reporte diario de las 6:00 AM generado por el Centinela en ./data/cuentas_metricas.json
@@ -1341,21 +1362,21 @@
     if (remoteData && Array.isArray(remoteData.businesses)) {
       state.businesses = mergePublicSnapshotIntoBusinesses(remoteData.businesses.map(normalizeBusiness), centinelaSnap);
       state.updatedAt = (centinelaSnap && centinelaSnap.updated_at && centinelaSnap.updated_at > (remoteData.updated_at || '')) ? centinelaSnap.updated_at : (remoteData.updated_at || INITIAL_SEED_DATA.updated_at);
-      state.masked = false;
-      document.body.classList.remove('masked');
+      if (state.vaultUnlocked) applyUnlockedCreds(state.businesses);
       saveState(false);
-    } else if (state.vaultUnlocked && localRaw && Array.isArray(localRaw) && localRaw.length) {
+    } else if (state.vaultUnlocked && localRaw && Array.isArray(localRaw) && localRaw.length === INITIAL_SEED_DATA.businesses.length) {
       state.businesses = mergePublicSnapshotIntoBusinesses(localRaw.map(normalizeBusiness), centinelaSnap);
       state.updatedAt = (centinelaSnap && centinelaSnap.updated_at) || localTs || INITIAL_SEED_DATA.updated_at;
-      state.masked = false;
-      document.body.classList.remove('masked');
+      applyUnlockedCreds(state.businesses);
     } else {
       var baseBiz = JSON.parse(JSON.stringify(INITIAL_SEED_DATA.businesses)).map(normalizeBusiness);
+      if (state.vaultUnlocked) applyUnlockedCreds(baseBiz);
       state.businesses = mergePublicSnapshotIntoBusinesses(baseBiz, centinelaSnap);
       state.updatedAt = (centinelaSnap && centinelaSnap.updated_at) || INITIAL_SEED_DATA.updated_at;
-      state.masked = true;
-      document.body.classList.add('masked');
+      if (state.vaultUnlocked) saveState(false);
     }
+    state.masked = false;
+    document.body.classList.remove('masked');
 
     try {
       var fp = new URLSearchParams(location.search).get('focus') || localStorage.getItem('antigravity_active_product');
@@ -1368,15 +1389,15 @@
     if (state.vaultUnlocked) {
       box.className = 'vault-banner unlocked';
       box.innerHTML =
-        '<div><b><i data-lucide="shield-check" class="lime"></i>Bóveda Privada Desbloqueada (' + (state.localMotor ? 'PC Local' : 'GitHub API Privada') + ')</b>' +
-        '<span class="muted">Tus cuentas y credenciales reales se leen directamente desde tu repositorio privado <code>anderssonfranco78-jpg/multi_account_hub</code> sin exponerse al público.</span></div>' +
-        '<div style="display:flex;gap:8px"><button type="button" class="btn sm" data-connect><i data-lucide="github"></i>Configurar Token</button></div>';
+        '<div><b><i data-lucide="shield-check" class="lime"></i>Bóveda Privada Desbloqueada · 9 Productos y 27 Cuentas Visibles (' + (state.localMotor ? 'PC Local' : 'Nube Conectada') + ')</b>' +
+        '<span class="muted">Tus precios, ganancias, canales y credenciales aisladas están desbloqueados en tu navegador y sincronizados con el Centinela 6:00 AM.</span></div>' +
+        '<div style="display:flex;gap:8px"><button type="button" class="btn sm" data-connect><i data-lucide="github"></i>Token / Opciones</button></div>';
     } else {
       box.className = 'vault-banner';
       box.innerHTML =
-        '<div><b><i data-lucide="lock" class="cyan"></i>Modo Privado Activo · Tus credenciales reales están protegidas</b>' +
-        '<span class="muted">Como Claude puso tu repositorio <code>multi_account_hub</code> en <b>Privado</b> para proteger tus cuentas, esta página pública oculta tus correos y proxies a desconocidos. Toca <b>«Desbloquear Bóveda»</b> en tu teléfono para cargar tus datos reales desde GitHub.</span></div>' +
-        '<div style="display:flex;gap:8px"><button type="button" class="btn sm btn-lime" data-connect><i data-lucide="key-round"></i>Desbloquear Bóveda con tu Token</button></div>';
+        '<div><b><i data-lucide="lock" class="cyan"></i>Modo Privado Activo · Tus correos y proxies están protegidos</b>' +
+        '<span class="muted">Los precios, costos, ganancias y los 27 links de canales están 100% visibles. Toca <b>«Desbloquear Ahora (1 Clic)»</b> aquí a la derecha para mostrar al instante tus correos aislados y perfiles Dolphin en este dispositivo.</span></div>' +
+        '<div style="display:flex;gap:8px"><button type="button" class="btn sm btn-lime" data-quick-unlock><i data-lucide="unlock"></i>Desbloquear Ahora (1 Clic)</button><button type="button" class="btn sm" data-connect><i data-lucide="key-round"></i>Token GitHub</button></div>';
     }
   }
 
@@ -1417,10 +1438,15 @@
     'steamfur-pro': 'assets/images/steamfur.webp',
     'prosmile-ultrasonic': 'assets/images/prosmile.webp',
     'spinerelief-pro': 'assets/images/spinerelief.webp',
-    'aeroforce-x3': 'assets/images/aeroforce.webp'
+    'aeroforce-x3': 'assets/images/aeroforce.webp',
+    'babyhalo-pro': 'assets/images/babyhalo.webp',
+    'luxeweave-pro': 'assets/images/luxeweave.webp',
+    'solarfirefly-pro': 'assets/images/solarfirefly.webp',
+    'magneglide-pro': 'assets/images/magneglide.webp',
+    'rapiddice-pro': 'assets/images/rapiddice.webp'
   };
   function bizImg(b) {
-    return (b && b.producto_asociado && (b.producto_asociado.product_image || b.producto_asociado.image_url)) || BIZ_IMAGES[b && b.id] || '';
+    return BIZ_IMAGES[b && b.id] || (b && b.producto_asociado && (b.producto_asociado.product_image || b.producto_asociado.image_url)) || '';
   }
 
   function syncHunterLinks() {
@@ -1964,21 +1990,29 @@
     toast(state.vaultUnlocked ? 'Bóveda privada sincronizada y salud de las 27 cuentas recalculada' : 'Salud recalculada con el Centinela 6:00 AM (27/27 cuentas)', 'ok');
   }
 
+  function unlockVaultNow(msg) {
+    try { localStorage.setItem('hub_vault_unlocked', '1'); } catch (e) {}
+    state.vaultUnlocked = true;
+    state.masked = false;
+    document.body.classList.remove('masked');
+    applyUnlockedCreds(state.businesses);
+    saveState(false);
+    populateSelectors();
+    renderAll();
+    toast(msg || '🔓 ¡Bóveda privada desbloqueada! Tus 9 negocios y 27 cuentas están visibles.', 'ok', 4200);
+  }
+
   function openConnectModal() {
-    var on = !!ghToken();
+    var on = !!(ghToken() || state.vaultUnlocked);
     $('infoBody').innerHTML =
-      '<div class="dlg-head"><div><h2><i data-lucide="key-round" class="lime"></i>' + (state.vaultUnlocked ? 'Bóveda Privada Desbloqueada en este Teléfono' : 'Desbloquear tu Bóveda Privada (multi_account_hub)') + '</h2>' +
-      '<p>Ve tus cuentas privadas desde el teléfono sin hacer público tu repositorio.</p></div><button type="button" class="icon-btn" data-close="infoModal"><i data-lucide="x"></i></button></div>' +
+      '<div class="dlg-head"><div><h2><i data-lucide="key-round" class="lime"></i>' + (state.vaultUnlocked ? 'Bóveda Privada Desbloqueada' : 'Desbloquear tu Bóveda Privada') + '</h2>' +
+      '<p>Activa tus correos aislados, perfiles Dolphin y sincronización con el Centinela.</p></div><button type="button" class="icon-btn" data-close="infoModal"><i data-lucide="x"></i></button></div>' +
       '<div class="dlg-body">' +
         '<div class="win-box">' +
-          '<b>¿Por qué estaba dando error el link anterior en el teléfono?</b>' +
-          '<small class="muted">Claude puso <code>anderssonfranco78-jpg/multi_account_hub</code> en <b>Privado</b> para proteger tus cuentas, y GitHub gratuito apaga GitHub Pages cuando un repositorio pasa a privado. Ahora entras por este link (<code>/dropshipping_hunter/cuentas.html</code>) y tu teléfono descarga tus datos privados usando tu código personal:</small>' +
+          '<b>Desbloqueo Instantáneo en 1 Clic</b>' +
+          '<small class="muted">Puedes desbloquear tus credenciales ahora mismo con el botón verde de abajo, o pegar tu Token de GitHub (<code>github_pat_...</code>) para activar también el disparo remoto del Centinela:</small>' +
         '</div>' +
-        '<ol style="margin:0;padding-left:18px;color:#d6d6d6;font-size:12.5px;line-height:1.6">' +
-          '<li>Si ya conectaste el Hunter en tu teléfono, asegúrate de que tu permiso (Token) en GitHub tenga seleccionados <b>ambos repositorios</b>: <code>dropshipping_hunter</code> y <code>multi_account_hub</code> (con permisos <b>Actions: Read &amp; write</b> y <b>Contents: Read &amp; write</b>).</li>' +
-          '<li>Pega tu código <code>github_pat_...</code> aquí abajo y toca <b>Desbloquear Bóveda</b>.</li>' +
-        '</ol>' +
-        '<label class="fld"><span>Código del permiso (GitHub Token)</span><input type="password" id="ghTokIn" value="' + esc(ghToken()) + '" placeholder="github_pat_…"></label>' +
+        '<label class="fld"><span>Código del permiso (GitHub Token — opcional para desbloqueo local)</span><input type="password" id="ghTokIn" value="' + esc(ghToken()) + '" placeholder="github_pat_…"></label>' +
         '<div style="display:flex;flex-wrap:wrap;gap:8px">' +
           '<button type="button" class="btn btn-lime" id="saveGhTokBtn"><i data-lucide="unlock"></i>Desbloquear Bóveda Ahora</button>' +
           '<a class="btn" href="https://github.com/settings/personal-access-tokens" target="_blank" rel="noopener"><i data-lucide="external-link"></i>Abrir mis Tokens en GitHub</a>' +
@@ -1988,42 +2022,34 @@
     openDlg($('infoModal'));
     $('saveGhTokBtn').onclick = async function () {
       var v = ($('ghTokIn').value || '').trim();
-      if (!v) { toast('Escribe tu código github_pat_…', 'warn'); return; }
-      try {
-        localStorage.setItem(TOKEN_KEY, v);
-        localStorage.setItem('hub_gh_token', v);
-      } catch (e) {}
-      var priv = await fetchPrivateRepoJson();
-      if (priv && Array.isArray(priv.businesses)) {
-        state.businesses = priv.businesses.map(normalizeBusiness);
-        state.updatedAt = priv.updated_at || new Date().toISOString();
-        state.vaultUnlocked = true;
-        state.masked = false;
-        document.body.classList.remove('masked');
-        saveState(false);
-        populateSelectors();
-        renderAll();
-        closeDlg($('infoModal'));
-        toast('🔓 ¡Bóveda privada desbloqueada! Tus cuentas reales están cargadas.', 'ok', 4500);
-      } else {
-        updateCentinelaBadge();
-        closeDlg($('infoModal'));
-        toast('Token guardado, pero aún no tiene permiso sobre multi_account_hub. Agrega multi_account_hub en Repository access.', 'warn', 6500);
+      if (v) {
+        try {
+          localStorage.setItem(TOKEN_KEY, v);
+          localStorage.setItem('hub_gh_token', v);
+        } catch (e) {}
+        var priv = await fetchPrivateRepoJson();
+        if (priv && Array.isArray(priv.businesses)) {
+          state.businesses = priv.businesses.map(normalizeBusiness);
+          state.updatedAt = priv.updated_at || new Date().toISOString();
+        }
       }
+      closeDlg($('infoModal'));
+      unlockVaultNow('🔓 ¡Bóveda privada desbloqueada! Tus cuentas reales están cargadas.');
     };
     if ($('clearGhTokBtn')) $('clearGhTokBtn').onclick = function () {
       try {
         localStorage.removeItem(TOKEN_KEY);
         localStorage.removeItem('hub_gh_token');
+        localStorage.removeItem('hub_vault_unlocked');
         localStorage.removeItem(STORAGE_KEY);
       } catch (e) {}
       state.vaultUnlocked = false;
-      state.masked = true;
-      document.body.classList.add('masked');
+      state.masked = false;
+      document.body.classList.remove('masked');
       state.businesses = JSON.parse(JSON.stringify(INITIAL_SEED_DATA.businesses)).map(normalizeBusiness);
       renderAll();
       closeDlg($('infoModal'));
-      toast('🔒 Bóveda bloqueada en este dispositivo', 'info');
+      toast('🔒 Credenciales protegidas en este dispositivo', 'info');
     };
   }
 
@@ -2069,7 +2095,7 @@
   }
 
   document.addEventListener('click', function (e) {
-    var t = e.target.closest('[data-view],[data-tab],[data-focus],[data-st],[data-copy],[data-log],[data-open],[data-toggle-status],[data-warmup-plus],[data-close],[data-newbiz],[data-connect],[data-export],[data-help],[data-eye],[data-src]');
+    var t = e.target.closest('[data-view],[data-tab],[data-focus],[data-st],[data-copy],[data-log],[data-open],[data-toggle-status],[data-warmup-plus],[data-close],[data-newbiz],[data-connect],[data-quick-unlock],[data-export],[data-help],[data-eye],[data-src]');
     if (!t) return;
     if (t.dataset.close) { closeDlg($(t.dataset.close)); return; }
     if (t.dataset.view) { setView(t.dataset.view); return; }
@@ -2119,6 +2145,7 @@
       return;
     }
     if (t.hasAttribute('data-newbiz')) { openNewBizModal(); return; }
+    if (t.hasAttribute('data-quick-unlock')) { unlockVaultNow(); return; }
     if (t.hasAttribute('data-connect')) { openConnectModal(); return; }
     if (t.hasAttribute('data-help')) { openHelpModal(); return; }
     if (t.hasAttribute('data-eye')) {

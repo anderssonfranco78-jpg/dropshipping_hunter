@@ -167,11 +167,11 @@
     },
     "youtube": {
       "keyword": "steamy cat brush",
-      "shorts_found": 30,
-      "median_views_top10": 562000,
+      "shorts_found": 31,
+      "median_views_top10": 263500,
       "max_views": 18000000,
-      "over_100k": 9,
-      "over_1m": 4,
+      "over_100k": 7,
+      "over_1m": 3,
       "top": [
         {
           "title": "✨Magic Pet Steam Brush – Bye Bye Shedding! 💦🐶🐱#Cat #Cats #CuteCat",
@@ -179,24 +179,24 @@
           "url": "https://www.youtube.com/shorts/CzSlC3TFa1Y"
         },
         {
-          "title": "Get Your Cat This - 3 in 1 Pet Grooming Brush -  #petcare #petgrooming #dog #cat #petlife #shorts",
-          "views": 7200000,
-          "url": "https://www.youtube.com/shorts/a4IFcW8BINA"
-        },
-        {
           "title": "🐶 Why Is Everyone Switching to This Steam Pet Brush?! 👀🔥",
           "views": 3800000,
           "url": "https://www.youtube.com/shorts/n-GflRw0sXI"
         },
         {
-          "title": "I Tried a Steam Brush on my Feisty Cat 😳",
-          "views": 2800000,
-          "url": "https://www.youtube.com/shorts/0kU6kGTG0Q8"
+          "title": "Cat Is Obsessed With This Brush #catbrush #steamycatbrush #hairbrush",
+          "views": 1000000,
+          "url": "https://www.youtube.com/shorts/BCsAQg0Chfc"
         },
         {
           "title": "Steam Grooming Brush: For Cats and Dogs",
           "views": 810000,
           "url": "https://www.youtube.com/shorts/-OKLMmMRIhY"
+        },
+        {
+          "title": "The ultimate solution for shedding season! 🐾 #catbrush #steamycatbrush #hairbrush #petsupplies",
+          "views": 314000,
+          "url": "https://www.youtube.com/shorts/ltj5jWKcSbQ"
         }
       ],
       "status": "LIVE"
@@ -233,7 +233,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -390,14 +390,14 @@
           "url": "https://www.youtube.com/shorts/MKD6ZfFwqyk"
         },
         {
+          "title": "Teeth Cleaning: The Sparkling Transformation | Dental Short #15",
+          "views": 2000000,
+          "url": "https://www.youtube.com/shorts/wRpHeXVn_Nw"
+        },
+        {
           "title": "Scaling teeth to remove tartar and calculus #shorts",
           "views": 1400000,
           "url": "https://www.youtube.com/shorts/1RWeozzKyos"
-        },
-        {
-          "title": "Clean family teeth with ultrasonic tooth cleaner! #oralhygiene",
-          "views": 409000,
-          "url": "https://www.youtube.com/shorts/ZjvT_HFFc60"
         }
       ],
       "status": "LIVE"
@@ -438,7 +438,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -639,7 +639,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -1851,7 +1851,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -1919,7 +1919,7 @@
       2,
       11
     ],
-    "image_url": null,
+    "image_url": "assets/images/babyhalo.webp",
     "video_keyword": "baby nail trimmer electric",
     "in_store": true,
     "trends_labels": [
@@ -1982,20 +1982,27 @@
       "peak_ratio": 0.1,
       "mean_recent": 10.2,
       "mean_prior": 8.9,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-13 20:59 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "baby nail trimmer electric",
-      "shorts_found": 29,
-      "median_views_top10": 1044000,
+      "shorts_found": 27,
+      "median_views_top10": 1100000,
       "max_views": 2800000,
-      "over_100k": 8,
-      "over_1m": 5,
+      "over_100k": 12,
+      "over_1m": 7,
       "top": [
         {
           "title": "How Can You Trim Your Baby's Nails Safely? Try Baby Nail Trimmer Electric!#Shorts",
           "views": 2800000,
           "url": "https://www.youtube.com/shorts/sKgphzfiJ00"
+        },
+        {
+          "title": "Electric nail trimmer for babies #babyproducts #newbornmusthaves #bangladeshivlogger",
+          "views": 2500000,
+          "url": "https://www.youtube.com/shorts/4ZctAdBdstw"
         },
         {
           "title": "Baby Nail Cutter | Best Product Baby | Baby stuff #shorts #viral",
@@ -2011,11 +2018,6 @@
           "title": "baby electric nail cutter",
           "views": 1100000,
           "url": "https://www.youtube.com/shorts/IQtfORq-4r0"
-        },
-        {
-          "title": "How to use a newborn nail trimmer #nailtrimmer #swatimahendru #newbornbaby",
-          "views": 1100000,
-          "url": "https://www.youtube.com/shorts/E9SCU-D56uA"
         }
       ],
       "status": "LIVE"
@@ -2052,7 +2054,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -2120,7 +2122,7 @@
       22,
       16
     ],
-    "image_url": null,
+    "image_url": "assets/images/luxeweave.webp",
     "video_keyword": "fabric shaver lint remover",
     "in_store": true,
     "trends_labels": [
@@ -2183,40 +2185,42 @@
       "peak_ratio": 0.18,
       "mean_recent": 18.5,
       "mean_prior": 14.1,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-13 20:59 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "fabric shaver lint remover",
-      "shorts_found": 31,
-      "median_views_top10": 42000,
-      "max_views": 619000,
-      "over_100k": 3,
-      "over_1m": 0,
+      "shorts_found": 30,
+      "median_views_top10": 185000,
+      "max_views": 1000000,
+      "over_100k": 6,
+      "over_1m": 1,
       "top": [
         {
+          "title": "Lint remover from clothes Amazon  #shorts Lint remover review lint remover meesho",
+          "views": 1000000,
+          "url": "https://www.youtube.com/shorts/YvCh7nRn4XM"
+        },
+        {
+          "title": "Philips fabric shaver # best results",
+          "views": 671000,
+          "url": "https://www.youtube.com/shorts/q009I4Cp-SE"
+        },
+        {
           "title": "I Tried This Lint Remover… WOW!😲",
-          "views": 619000,
+          "views": 620000,
           "url": "https://www.youtube.com/shorts/GEqxFg0eHJY"
+        },
+        {
+          "title": "Clothes Lint Remover Gadget! #shorts #unboxing",
+          "views": 465000,
+          "url": "https://www.youtube.com/shorts/BHXnzpKhlhs"
         },
         {
           "title": "Revamp Your Clothes: Fabric Shaver Hack! #fabricshaver #lintremover",
           "views": 200000,
           "url": "https://www.youtube.com/shorts/INmi6I7-WMQ"
-        },
-        {
-          "title": "Fabric Shaver Electric Lint Remover, Bobling Remover for ClothesUSB Rechargeable.",
-          "views": 170000,
-          "url": "https://www.youtube.com/shorts/7nYhFh4PQwc"
-        },
-        {
-          "title": "Trying a Fabric Shaver",
-          "views": 67000,
-          "url": "https://www.youtube.com/shorts/VqzaUx09oIc"
-        },
-        {
-          "title": "How to Use a Rechargeable Fabric Shaver👕 #Shorts #LintRemover #AmazonFinds #CleaningHack #GadgetDemo",
-          "views": 42000,
-          "url": "https://www.youtube.com/shorts/3nhqBT-ky0o"
         }
       ],
       "status": "LIVE"
@@ -2253,7 +2257,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -2321,7 +2325,7 @@
       43,
       45
     ],
-    "image_url": null,
+    "image_url": "assets/images/solarfirefly.webp",
     "video_keyword": "solar garden lights",
     "in_store": true,
     "trends_labels": [
@@ -2384,21 +2388,18 @@
       "peak_ratio": 0.41,
       "mean_recent": 41.5,
       "mean_prior": 39.7,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-13 20:59 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "solar garden lights",
       "shorts_found": 31,
-      "median_views_top10": 275500,
-      "max_views": 48000000,
+      "median_views_top10": 121500,
+      "max_views": 7700000,
       "over_100k": 7,
       "over_1m": 3,
       "top": [
-        {
-          "title": "Solar garden lamp street lamp #solarcharging",
-          "views": 48000000,
-          "url": "https://www.youtube.com/shorts/z0hfmm4hQZQ"
-        },
         {
           "title": "Solar light for my garden ✨#solarpower #solarlight #gardentour #gardendecorideas #shorts",
           "views": 7700000,
@@ -2410,14 +2411,19 @@
           "url": "https://www.youtube.com/shorts/tbv-J6axspk"
         },
         {
-          "title": "Affordable solar lights, no drill needed!🪴Perfect for my terrace garden! #TerraceGarden #unboxing",
-          "views": 653000,
-          "url": "https://www.youtube.com/shorts/WT0lGQH8ptY"
+          "title": "Product Link in Bio ( 414 ) ▶️ Solar-Powered Floating Jellyfish Garden Lights⁠",
+          "views": 1000000,
+          "url": "https://www.youtube.com/shorts/HcWUfkm2BBM"
         },
         {
-          "title": "Amazon Solar Lights for Your Backyard Deck Patio Garden! #amazonstyle",
-          "views": 314000,
-          "url": "https://www.youtube.com/shorts/yy6Czrz9sTk"
+          "title": "⚡Solar Powered Wall Light #walllights #solarlight  #lighting",
+          "views": 481000,
+          "url": "https://www.youtube.com/shorts/y8UnY40K-0I"
+        },
+        {
+          "title": "Garden Outdoor Waterproof Solar Light",
+          "views": 137000,
+          "url": "https://www.youtube.com/shorts/q37C0Lf-z0A"
         }
       ],
       "status": "LIVE"
@@ -2454,7 +2460,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -2522,7 +2528,7 @@
       29,
       25
     ],
-    "image_url": null,
+    "image_url": "assets/images/magneglide.webp",
     "video_keyword": "magnetic window cleaner",
     "in_store": true,
     "trends_labels": [
@@ -2585,16 +2591,23 @@
       "peak_ratio": 0.28,
       "mean_recent": 28.5,
       "mean_prior": 28.8,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-13 20:59 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "magnetic window cleaner",
-      "shorts_found": 31,
-      "median_views_top10": 498000,
-      "max_views": 23000000,
+      "shorts_found": 29,
+      "median_views_top10": 543500,
+      "max_views": 84000000,
       "over_100k": 6,
-      "over_1m": 3,
+      "over_1m": 4,
       "top": [
+        {
+          "title": "▶️ Clean both sides easily Double Side Magnetic Window Cleaner Brush Tool ( # 2121 )",
+          "views": 84000000,
+          "url": "https://www.youtube.com/shorts/d0d-PeCaGTY"
+        },
         {
           "title": "▶️ Clean both sides easily Double Side Magnetic Window Cleaner Brush Tool ( # 2121 )",
           "views": 23000000,
@@ -2614,11 +2627,6 @@
           "title": "how to use a magnetic glass cleaner?",
           "views": 897000,
           "url": "https://www.youtube.com/shorts/vQNbom6sW8o"
-        },
-        {
-          "title": "How To Use Double Sided Magnetic Window Cleaner",
-          "views": 806000,
-          "url": "https://www.youtube.com/shorts/V_NZx7TBC6A"
         }
       ],
       "status": "LIVE"
@@ -2655,7 +2663,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -2723,7 +2731,7 @@
       31,
       27
     ],
-    "image_url": null,
+    "image_url": "assets/images/rapiddice.webp",
     "video_keyword": "vegetable chopper",
     "in_store": true,
     "trends_labels": [
@@ -2786,16 +2794,23 @@
       "peak_ratio": 0.28,
       "mean_recent": 27.8,
       "mean_prior": 29.6,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-13 20:59 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "vegetable chopper",
-      "shorts_found": 34,
+      "shorts_found": 29,
       "median_views_top10": 2450000,
-      "max_views": 122000000,
-      "over_100k": 17,
+      "max_views": 248000000,
+      "over_100k": 13,
       "over_1m": 7,
       "top": [
+        {
+          "title": "Stainless steel vegetable cutter is an efficient assistant in modern kitchen🍴 #machine",
+          "views": 248000000,
+          "url": "https://www.youtube.com/shorts/8rCf8btfkQ8"
+        },
         {
           "title": "Multifunctional vegetable cutter. #kitchen #food #foryou",
           "views": 122000000,
@@ -2810,11 +2825,6 @@
           "title": "Viral Vegetable Slicer Test 🥕",
           "views": 39000000,
           "url": "https://www.youtube.com/shorts/s7W-fLzgfaA"
-        },
-        {
-          "title": "Electric Mini Vegetables Chopper Grinder #shorts #products #gadgets",
-          "views": 7100000,
-          "url": "https://www.youtube.com/shorts/9fLRRaQuc8Y"
         },
         {
           "title": "Handpress Vegetable Chopper || Viral chopper Review #shortsfeed #shorts #viral",
