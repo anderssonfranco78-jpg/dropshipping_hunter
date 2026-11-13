@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "updated_at": "2026-11-13T20:58:14Z",
+  "updated_at": "2026-11-13T20:59:47Z",
   "schedule_info": "Centinela 06:00 AM El Salvador (12:00 UTC) + cada 6h",
   "total_businesses": 9,
   "active_businesses": 9,
@@ -22,7 +22,7 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         },
         "instagram_reels": {
           "handle": "@steamfurpro",
@@ -32,7 +32,7 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         },
         "facebook_reels": {
           "handle": "SteamFur Pro Official",
@@ -42,10 +42,9 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         }
       },
-      "historial_metricas": [],
       "metricas_resumen": {
         "videos_hoy": 0,
         "vistas_hoy": 0,
@@ -56,8 +55,9 @@
         "account_health_score": 95.0,
         "health_status": "optimo",
         "alertas_activas": [],
-        "ultimo_sondeo": "2026-11-13T20:58:14Z"
-      }
+        "ultimo_sondeo": "2026-11-13T20:59:47Z"
+      },
+      "historial_metricas": []
     },
     {
       "id": "prosmile-ultrasonic",
@@ -74,7 +74,7 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         },
         "instagram_reels": {
           "handle": "@ultrasmilepro_us",
@@ -84,7 +84,7 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         },
         "facebook_reels": {
           "handle": "UltraSmile Pro Official",
@@ -94,10 +94,9 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         }
       },
-      "historial_metricas": [],
       "metricas_resumen": {
         "videos_hoy": 0,
         "vistas_hoy": 0,
@@ -108,8 +107,9 @@
         "account_health_score": 95.0,
         "health_status": "optimo",
         "alertas_activas": [],
-        "ultimo_sondeo": "2026-11-13T20:58:14Z"
-      }
+        "ultimo_sondeo": "2026-11-13T20:59:47Z"
+      },
+      "historial_metricas": []
     },
     {
       "id": "spinerelief-pro",
@@ -126,7 +126,7 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         },
         "instagram_reels": {
           "handle": "@spinereliefpro_us",
@@ -136,7 +136,7 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         },
         "facebook_reels": {
           "handle": "SpineRelief Pro Official",
@@ -146,10 +146,9 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         }
       },
-      "historial_metricas": [],
       "metricas_resumen": {
         "videos_hoy": 0,
         "vistas_hoy": 0,
@@ -160,8 +159,9 @@
         "account_health_score": 95.0,
         "health_status": "optimo",
         "alertas_activas": [],
-        "ultimo_sondeo": "2026-11-13T20:58:14Z"
-      }
+        "ultimo_sondeo": "2026-11-13T20:59:47Z"
+      },
+      "historial_metricas": []
     },
     {
       "id": "aeroforce-x3",
@@ -178,7 +178,7 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         },
         "instagram_reels": {
           "handle": "@aeroforcex3_us",
@@ -188,7 +188,7 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         },
         "facebook_reels": {
           "handle": "AeroForce X3 Official",
@@ -198,10 +198,9 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         }
       },
-      "historial_metricas": [],
       "metricas_resumen": {
         "videos_hoy": 0,
         "vistas_hoy": 0,
@@ -212,8 +211,9 @@
         "account_health_score": 95.0,
         "health_status": "optimo",
         "alertas_activas": [],
-        "ultimo_sondeo": "2026-11-13T20:58:14Z"
-      }
+        "ultimo_sondeo": "2026-11-13T20:59:47Z"
+      },
+      "historial_metricas": []
     },
     {
       "id": "babyhalo-pro",
@@ -230,7 +230,7 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         },
         "instagram_reels": {
           "handle": "@babyhalopro_us",
@@ -240,7 +240,7 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         },
         "facebook_reels": {
           "handle": "BabyHalo Pro Official",
@@ -250,10 +250,9 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         }
       },
-      "historial_metricas": [],
       "metricas_resumen": {
         "videos_hoy": 0,
         "vistas_hoy": 0,
@@ -264,8 +263,9 @@
         "account_health_score": 95.0,
         "health_status": "optimo",
         "alertas_activas": [],
-        "ultimo_sondeo": "2026-11-13T20:58:14Z"
-      }
+        "ultimo_sondeo": "2026-11-13T20:59:47Z"
+      },
+      "historial_metricas": []
     },
     {
       "id": "luxeweave-pro",
@@ -282,7 +282,7 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         },
         "instagram_reels": {
           "handle": "@luxeweavepro_us",
@@ -292,7 +292,7 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         },
         "facebook_reels": {
           "handle": "LuxeWeave Pro Official",
@@ -302,10 +302,9 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         }
       },
-      "historial_metricas": [],
       "metricas_resumen": {
         "videos_hoy": 0,
         "vistas_hoy": 0,
@@ -316,8 +315,9 @@
         "account_health_score": 95.0,
         "health_status": "optimo",
         "alertas_activas": [],
-        "ultimo_sondeo": "2026-11-13T20:58:14Z"
-      }
+        "ultimo_sondeo": "2026-11-13T20:59:47Z"
+      },
+      "historial_metricas": []
     },
     {
       "id": "solarfirefly-pro",
@@ -334,7 +334,7 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         },
         "instagram_reels": {
           "handle": "@solarfireflypro_us",
@@ -344,7 +344,7 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         },
         "facebook_reels": {
           "handle": "SolarFirefly Pro Official",
@@ -354,10 +354,9 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         }
       },
-      "historial_metricas": [],
       "metricas_resumen": {
         "videos_hoy": 0,
         "vistas_hoy": 0,
@@ -368,8 +367,9 @@
         "account_health_score": 95.0,
         "health_status": "optimo",
         "alertas_activas": [],
-        "ultimo_sondeo": "2026-11-13T20:58:14Z"
-      }
+        "ultimo_sondeo": "2026-11-13T20:59:47Z"
+      },
+      "historial_metricas": []
     },
     {
       "id": "magneglide-pro",
@@ -386,7 +386,7 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         },
         "instagram_reels": {
           "handle": "@magneglidepro_us",
@@ -396,7 +396,7 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         },
         "facebook_reels": {
           "handle": "MagneGlide Pro Official",
@@ -406,10 +406,9 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         }
       },
-      "historial_metricas": [],
       "metricas_resumen": {
         "videos_hoy": 0,
         "vistas_hoy": 0,
@@ -420,8 +419,9 @@
         "account_health_score": 95.0,
         "health_status": "optimo",
         "alertas_activas": [],
-        "ultimo_sondeo": "2026-11-13T20:58:14Z"
-      }
+        "ultimo_sondeo": "2026-11-13T20:59:47Z"
+      },
+      "historial_metricas": []
     },
     {
       "id": "rapiddice-pro",
@@ -438,7 +438,7 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         },
         "instagram_reels": {
           "handle": "@rapiddicepro_us",
@@ -448,7 +448,7 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         },
         "facebook_reels": {
           "handle": "RapidDice Pro Official",
@@ -458,10 +458,9 @@
           "reproducciones_totales": 0,
           "videos_publicados": 0,
           "ultimo_post": null,
-          "ultimo_sondeo": "2026-11-13T20:58:14Z"
+          "ultimo_sondeo": "2026-11-13T20:59:47Z"
         }
       },
-      "historial_metricas": [],
       "metricas_resumen": {
         "videos_hoy": 0,
         "vistas_hoy": 0,
@@ -472,8 +471,9 @@
         "account_health_score": 95.0,
         "health_status": "optimo",
         "alertas_activas": [],
-        "ultimo_sondeo": "2026-11-13T20:58:14Z"
-      }
+        "ultimo_sondeo": "2026-11-13T20:59:47Z"
+      },
+      "historial_metricas": []
     }
   ]
 }

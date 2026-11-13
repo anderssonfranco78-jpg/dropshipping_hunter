@@ -1,17 +1,17 @@
 {
   "mode": "LIVE",
-  "generated_at": "2026-11-13 13:31:02 UTC",
+  "generated_at": "2026-11-13 20:59:46 UTC",
   "sources": {
     "trends": {
-      "LIVE": 1,
-      "CACHED": 3,
+      "LIVE": 8,
+      "CACHED": 1,
       "NO_LIVE_DATA": 0,
       "MANUAL": 0,
       "MOCK": 0,
       "UNAVAILABLE": 0
     },
     "youtube": {
-      "LIVE": 4,
+      "LIVE": 9,
       "CACHED": 0,
       "NO_LIVE_DATA": 0,
       "MANUAL": 0,
@@ -24,7 +24,7 @@
       "NO_LIVE_DATA": 0,
       "MANUAL": 0,
       "MOCK": 0,
-      "UNAVAILABLE": 4
+      "UNAVAILABLE": 9
     },
     "meta": {
       "LIVE": 0,
@@ -32,7 +32,7 @@
       "NO_LIVE_DATA": 0,
       "MANUAL": 0,
       "MOCK": 0,
-      "UNAVAILABLE": 4
+      "UNAVAILABLE": 9
     },
     "freight": {
       "LIVE": 0,
@@ -40,13 +40,13 @@
       "NO_LIVE_DATA": 0,
       "MANUAL": 0,
       "MOCK": 0,
-      "UNAVAILABLE": 4
+      "UNAVAILABLE": 9
     },
     "supplier": {
       "LIVE": 0,
       "CACHED": 0,
       "NO_LIVE_DATA": 0,
-      "MANUAL": 4,
+      "MANUAL": 9,
       "MOCK": 0,
       "UNAVAILABLE": 0
     }

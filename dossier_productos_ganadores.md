@@ -2,32 +2,40 @@
 title: "Dossier Oficial de Productos Ganadores Validados"
 source: "dropshipping_hunter"
 date: "2026-11-13"
-generated_at: "2026-11-13T13:31:02.906639+00:00"
+generated_at: "2026-11-13T20:59:47.078472+00:00"
 evaluation_engine_version: "1.0.0"
 audit_standard: "Antigravity 7 Golden Rules"
 scoring_threshold_approval: 80
 currency: "USD"
 summary:
-  total_candidates_analyzed: 4
-  winners_approved: 4
-  avg_markup_factor: 3.80
-  avg_net_margin_percentage: 68.9
+  total_candidates_analyzed: 9
+  winners_approved: 6
+  avg_markup_factor: 3.63
+  avg_net_margin_percentage: 66.3
 products:
-  - id: "spinerelief-pro"
-    name: "SpineRelief Pro™ — Inflatable Lumbar Traction Belt"
-    score: 97.0
-    status: "WINNER"
-  - id: "prosmile-ultrasonic"
-    name: "ProSmile Ultrasonic™ — Smart Plaque & Calculus Scaler"
-    score: 90.0
+  - id: "solarfirefly-pro"
+    name: "SolarFirefly Pro™ — 10-LED Swaying Solar Firefly Garden Stake Light"
+    score: 100.0
     status: "WINNER"
   - id: "steamfur-pro"
     name: "SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer"
-    score: 87.0
+    score: 90.0
+    status: "WINNER"
+  - id: "spinerelief-pro"
+    name: "SpineRelief Pro™ — Clinical Air-Traction Lumbar Decompression Belt"
+    score: 90.0
+    status: "WINNER"
+  - id: "babyhalo-pro"
+    name: "BabyHalo Pro™ — Whisper-Quiet USB Baby Nail Trimmer with Night LED"
+    score: 90.0
+    status: "WINNER"
+  - id: "prosmile-ultrasonic"
+    name: "UltraSmile Pro™ — Smart 37kHz Plaque & Calculus Scaler"
+    score: 80.0
     status: "WINNER"
   - id: "aeroforce-x3"
-    name: "AeroForce X3™ — 130,000 RPM Violent Turbo Blower"
-    score: 87.0
+    name: "AeroForce X3™ — 130,000 RPM Cordless Jet Turbo Blower"
+    score: 80.0
     status: "WINNER"
 ---
 
@@ -35,8 +43,8 @@ products:
 
 > **Estándar de Evaluación**: Filtro de Acero de las 7 Reglas de Oro de Antigravity  
 > **Fecha de Generación**: 2026-11-13 | **Entorno**: 100% Programático & Headless  
-> **Candidatos Analizados**: 4 | **Ganadores Aprobados**: 4  
-> **Markup Promedio**: 3.80x | **Margen Neto Promedio**: 68.9%
+> **Candidatos Analizados**: 9 | **Ganadores Aprobados**: 6  
+> **Markup Promedio**: 3.63x | **Margen Neto Promedio**: 66.3%
 
 ---
 
@@ -50,26 +58,268 @@ Cada ficha técnica incluye su desglose financiero completo, proveedores mayoris
 
 ## 2. CATÁLOGO DE PRODUCTOS GANADORES VALIDADOS
 
-### 🏆 GANADOR #1: SpineRelief Pro™ — Inflatable Lumbar Traction Belt
+### 🏆 GANADOR #1: SolarFirefly Pro™ — 10-LED Swaying Solar Firefly Garden Stake Light
 
-**Categoría / Nicho**: Health & Ergonomics  
-**ID de Referencia**: `spinerelief-pro`  
-**Puntuación Compuesta**: **97.0 / 100** | **Estado**: `🏆 WINNER`  
-**Descripción**: Clinical-grade inflatable lumbar traction belt with 24 pneumatic columns providing 2.5 bar decompression for L1-L5 vertebrae and acute sciatica nerve relief.
+**Categoría / Nicho**: Garden & Outdoor Lighting  
+**ID de Referencia**: `solarfirefly-pro`  
+**Puntuación Compuesta**: **100.0 / 100** | **Estado**: `🏆 WINNER`  
+**Descripción**: 10-LED swaying solar firefly garden stake light in Warm Golden White with flexible wind-responsive stems, IP65 all-weather waterproof rating, and automatic 8-12h dusk-to-dawn illumination.
 
 #### Ficha Técnica y Desglose Financiero
 
 | Parámetro Financiero | Valor USD / % | Estándar Canónico Antigravity | Estado |
 |---|:---:|:---:|:---:|
-| **Costo de Proveedor** (CoGS) | $10.00 USD | Costo mayorista de fábrica | ✅ Verificado |
-| **Costo de Envío Tracked** | $4.80 USD | YunExpress Specialty Line | ✅ Verificado |
-| **Landed Cost** (Costo Puesto) | $14.80 USD | CoGS + Flete internacional | ✅ Calculado |
+| **Costo de Proveedor** (CoGS) | $5.29 USD | Costo mayorista de fábrica | ✅ Verificado |
+| **Costo de Envío Tracked** | $1.99 USD | AliExpress Selection Standard / USPS (~8 Business Days) | ✅ Verificado |
+| **Landed Cost** (Costo Puesto) | $7.28 USD | CoGS + Flete internacional | ✅ Calculado |
+| **Precio de Venta Sugerido** (SRP) | $29.99 USD | Sweet spot de impulso ($29 – $69 USD) | ✅ Cumple R5 |
+| **Markup Multiplier** | **4.12x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
+| **Comisión Pasarela** (Stripe 2.9% + $0.30) | $1.17 USD | Deducción automática por transacción | ✅ Incluido |
+| **Buffer de Reserva** (1.0%) | $0.30 USD | Fondo para imprevistos / chargebacks | ✅ Incluido |
+| **Beneficio Neto Limpio por Unidad** | **$21.24 USD** | Ganancia neta líquida operativa | ✅ Auditado |
+| **Margen Neto** (%) | **70.8%** | Mínimo requerido: $\ge 65.0\%$ | ✅ EXCELENTE |
+
+#### Enlaces a Proveedores y Logística
+
+- **Proveedor Mayorista AliExpress**: [https://www.aliexpress.us/item/3256805511371035.html](https://www.aliexpress.us/item/3256805511371035.html)
+- **Sourcing Directo CJ Dropshipping**: [https://cjdropshipping.com/list-detail.html?search=solarfirefly-pro](https://cjdropshipping.com/list-detail.html?search=solarfirefly-pro)
+- **Línea Logística Homologada**: AliExpress Selection Standard / USPS (~8 Business Days) (7 a 12 días laborables)
+- **Especificación de Empaque**: Empaque individual sellado neutro para dropshipping
+- **Países Tier 1 Homologados**: US, UK, CA, AU
+
+#### Auditoría Forense de las 7 Reglas de Oro
+
+- **Regla 1 (Visual WOW (0-3s))**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
+- **Regla 2 (Acute Pain / Passion)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
+- **Regla 3 (Retail Scarcity)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 4 (Unit Economics & Markup)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
+- **Regla 5 (Ticket Range Sweet Spot)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 6 (Zero Sizing / Fragility)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 7 (Fast Tracked Logistics)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Puertas de Knockout (KO-1 a KO-4)**: ✅ Limpio (Cero puertas KO activadas: Ninguna)
+
+#### Estrategia Demográfica y Franja Horaria Recomendada
+
+- **Age**: 28-68
+- **Gender**: all
+- **Interests**: gardening, backyard patio decor, home improvement, landscape lighting
+
+**Franja Horaria Recomendada de Publicación Orgánica**:
+- **Slot 1 (Matutino)** (07:00 – 08:30 Hora local): Primera revisión matutina del teléfono.
+- **Slot 2 (Tarde / Prime)** (18:30 – 21:00 Hora local): Pico de ocio nocturno y mayor tasa de conversión.
+
+#### Mecanismo WOW de Demostración (0 a 3 Segundos)
+
+> Demostración instantánea de alto contraste en 1.5 segundos mostrando la transformación física directa.
+
+#### Ganchos de Conversión (Remotion Modalidad 3)
+
+A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la partitura canónica de Remotion Modalidad 3:
+
+##### 🪝 Gancho 1: Curiosidad Disruptiva (Pattern Interrupt)
+*Curiosidad Disruptiva: El Secreto Detrás de SolarFirefly Pro™*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"El 90% de las personas comete este grave error al buscar soluciones para garden & outdoor lighting..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"Y por eso siguen sufriendo hasta que descubren cómo funciona SolarFirefly Pro™."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Primer plano de alto impacto demostrando el problema de garden & outdoor lighting. | Snap Zoom violento (1.0x -> 1.35x) con desenfoque radial. | Voz Cliente (es-US-Neural2-C): 'El 90% comete este grave error...' | [SFX: WHOOSH_FAST] | '¿ESTE ERROR?' en rojo neón extruido arriba (rotateX: 12deg) |
+| **1.2 - 2.0s** | Presentación del mecanismo central de SolarFirefly Pro™. | Paneo lateral acelerado (1.8x rush). | Voz Creador (es-US-Neural2-B): 'Y por eso siguen perdiendo tiempo y dinero.' | [SFX: VINE_BOOM] | 'SOLARFIREFLY PRO™' en verde esmeralda 3D |
+| **2.0 - 3.0s** | PANTALLA CONGELADA EN EL MOMENTO DE MÁXIMA EXPECTATIVA. | Cero movimiento (Pausa dramática de 1.0s de tensión acústica). | Silencio absoluto de 1.0 segundo (cero voz). | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | Demostración visual WOW en 1.5 segundos. Alto contraste visual. | Beat Drop. Flash blanco y Speed Ramp no lineal (2.0x -> 0.18x meseta técnica). | Entra bajo potente y track musical (LiQWYD - Show Me). | [SFX: BEAT_DROP + IMPACT] | 'TRANSFORMACIÓN REAL' en dorado 3D sin cajas ni pills |
+| **4.5 - 7.0s** | Detalle del funcionamiento: 10-LED swaying solar firefly garden stake light in Warm Golden White with flexible wind-responsive stems, IP65 all-weath... | Snap zoom focal con tracking volumétrico. | Voz Creador (es-US-Neural2-B): 'Resuelve el problema de raíz sin complicaciones.' | [SFX: DING_SUCCESS] | 'EFECTIVIDAD COMPROBADA' en cian neón 3D |
+| **7.0 - 10.0s** | Usuario satisfecho utilizando el producto. Vista de empaque completo. | Zoom out continuo (0.95x) hacia la llamada a la acción. | Voz Creador (es-US-Neural2-B): 'Pruébalo con garantía total. Enlace en bio con descuento hoy.' | [SFX: CASH_REGISTER] | 'GARANTÍA 100%' en amarillo brillante |
+
+##### 🪝 Gancho 2: Agitación de Dolor Real (Emotional Visceral Trigger)
+*Agitación de Dolor Real: El Sufrimiento Cotidiano en Garden & Outdoor Lighting*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"Si tu dolor y frustración con garden & outdoor lighting te impiden disfrutar tu día..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"Este mecanismo patentado erradica esa molestia desde el primer uso."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Persona sufriendo la fricción directa y cotidiana del problema. | Snap zoom agresivo al rostro de frustración (1.0x -> 1.4x). | Voz Cliente (es-US-Neural2-C): 'Si este problema te arruina el día...' | [SFX: HEARTBEAT_LOW] | '¿DOLOR REAL?' en rojo fuego 3D |
+| **1.2 - 2.0s** | Detalle en primer plano de la molestia o desgaste acumulado. | Camera shake de impacto emocional. | Voz Creador (es-US-Neural2-B): 'Y no encuentras ninguna solución que realmente funcione.' | [SFX: VINE_BOOM] | 'FRUSTRACIÓN TOTAL' en amarillo neón |
+| **2.0 - 3.0s** | CONGELADO EN EL INSTANTE DE MAYOR FRICCIÓN. | Silencio acústico riguroso de 1.0s. | Cero voz, pausa absoluta. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | SolarFirefly Pro™ en acción disolviendo el dolor en vivo. | Beat Drop. Flash blanco y Speed Ramp (1.8x rush -> 0.18x meseta). | Entra beat y bajo enérgico LiQWYD. | [SFX: BEAT_DROP + RELIEF] | 'ALIVIO DIRECTO' en titanio 3D reflectivo |
+| **4.5 - 7.0s** | Expresión facial cambiando de estrés a alivio completo. | Paneo suave de abajo hacia arriba. | Voz Creador (es-US-Neural2-B): 'Diseñado específicamente para eliminar esa fricción en minutos.' | [SFX: EXHALE_RELIEF] | 'EN MENOS DE 2 MIN' en verde esmeralda |
+| **7.0 - 10.0s** | Demostración de uso práctico en el hogar o trabajo. | Tracking dinámico 3D. | Voz Creador (es-US-Neural2-B): 'Recupera tu tranquilidad hoy. Pídelo en el botón de abajo.' | [SFX: CLICK_POP] | 'PÍDELO HOY' en oro 3D |
+
+##### 🪝 Gancho 3: Contrariano (Challenging Conventional Wisdom)
+*Contrariano: Por Qué los Métodos Tradicionales de Garden & Outdoor Lighting Fracasan*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"Por qué gastar cientos de dólares en productos genéricos empeora tu situación..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"Porque no atacan la causa física real como lo hace SolarFirefly Pro™."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Un producto genérico convencional arrojado al cubo de basura. | Snap Zoom directo al cubo de basura. | Voz Cliente (es-US-Neural2-C): 'Por qué tirar tu dinero en alternativas que no funcionan...' | [SFX: TRASH_SLAM] | 'NO SIRVEN' en rojo sangre |
+| **1.2 - 2.0s** | Comparación técnica explicando el fallo del diseño convencional. | Giro 3D volumétrico (rotateY: -15deg). | Voz Creador (es-US-Neural2-B): 'Solo gastas dinero sin solucionar el origen del problema.' | [SFX: VINE_BOOM] | 'MÉTODO OBSOLETO' en naranja 3D |
+| **2.0 - 3.0s** | PANTALLA EN NEGRO / SILENCIO DE CONTRADICCIÓN. | Pausa acústica estricta de 1.0s. | Silencio sepulcral total. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | Entrada del SolarFirefly Pro™ resolviendo la limitación tradicional. | Beat Drop. Flash blanco y Speed Ramp dinámico. | Explota la base musical rítmica. | [SFX: BEAT_DROP + WIN] | 'INNOVACIÓN REAL' en titanio reflectivo |
+| **4.5 - 7.0s** | Split screen comparando método convencional vs solución innovadora. | Split screen animado con indicadores gráficos. | Voz Creador (es-US-Neural2-B): 'Tecnología inteligente diseñada para máxima durabilidad y resultado.' | [SFX: DING_WIN] | '3X MÁS EFECTIVO' en cian neón |
+| **7.0 - 10.0s** | Vista del producto con todos sus accesorios incluidos. | Paneo lateral suave a 60 fps. | Voz Creador (es-US-Neural2-B): 'La alternativa definitiva que sí cumple. Consíguelo con descuento directo.' | [SFX: DISCORD_PING] | 'OFERTA EXCLUSIVA' en amarillo 3D |
+
+##### 🪝 Gancho 4: Transformación Inmediata (Before vs After)
+*Transformación Inmediata: Antes y Después con SolarFirefly Pro™*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"De perder horas luchando con este problema de garden & outdoor lighting..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"A solucionarlo al 100% en menos de 2 segundos."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Pantalla dividida: Lado izquierdo (situación de colapso o suciedad desaturada). | Zoom in hacia la izquierda desaturada. | Voz Cliente (es-US-Neural2-C): 'De sufrir horas con este problema...' | [SFX: RECORD_SCRATCH] | 'ANTES' en rojo desaturado |
+| **1.2 - 2.0s** | Lado derecho: Resultado impecable y limpio con luz radiante. | Snap zoom al lado derecho brillante y saturado. | Voz Creador (es-US-Neural2-B): 'A dejarlo perfecto en menos de un minuto.' | [SFX: WHOOSH_SWOOSH] | 'DESPUÉS' en verde esmeralda 3D |
+| **2.0 - 3.0s** | CONGELADO EN EL CORTE CENTRAL DEL SPLIT SCREEN. | Silencio dramático riguroso de 1.0s. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | SolarFirefly Pro™ ejecutando la transformación sin cortes. | Beat Drop. Flash blanco y cámara lenta técnica (0.18x plateau). | Entra la música al 100% (mastering a -19.7 LUFS). | [SFX: BEAT_DROP] | 'EN TIEMPO REAL' en oro 3D flotante |
+| **4.5 - 7.0s** | Demostración del resultado final impecable y sin esfuerzo. | Rotación 3D volumétrica. | Voz Creador (es-US-Neural2-B): 'La transformación instantánea que todos tus amigos van a notar.' | [SFX: SHINE_CHIME] | 'RESULTADO 10/10' en cian neón |
+| **7.0 - 10.0s** | Presentación del unboxing y botón de compra rápida. | Zoom out fluido. | Voz Creador (es-US-Neural2-B): 'Envío rápido de 7 a 10 días garantizado. Ordena el tuyo ahora.' | [SFX: BELL_CHIME] | 'ENVÍO EXPRESS 7-10D' |
+
+
+---
+
+### 🏆 GANADOR #2: SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer
+
+**Categoría / Nicho**: Pet Supplies & Home Care  
+**ID de Referencia**: `steamfur-pro`  
+**Puntuación Compuesta**: **90.0 / 100** | **Estado**: `🏆 WINNER`  
+**Descripción**: Conical silicone pet brush with integrated cold ion ultrasonic mist that neutralizes static and allows peeling off shed pet hair in a single solid sheet in 2 seconds.
+
+#### Ficha Técnica y Desglose Financiero
+
+| Parámetro Financiero | Valor USD / % | Estándar Canónico Antigravity | Estado |
+|---|:---:|:---:|:---:|
+| **Costo de Proveedor** (CoGS) | $3.45 USD | Costo mayorista de fábrica | ✅ Verificado |
+| **Costo de Envío Tracked** | $1.99 USD | YunExpress Ordinary / CJPacket Fast Line | ✅ Verificado |
+| **Landed Cost** (Costo Puesto) | $5.44 USD | CoGS + Flete internacional | ✅ Calculado |
+| **Precio de Venta Sugerido** (SRP) | $29.99 USD | Sweet spot de impulso ($29 – $69 USD) | ✅ Cumple R5 |
+| **Markup Multiplier** | **5.51x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
+| **Comisión Pasarela** (Stripe 2.9% + $0.30) | $1.17 USD | Deducción automática por transacción | ✅ Incluido |
+| **Buffer de Reserva** (1.0%) | $0.30 USD | Fondo para imprevistos / chargebacks | ✅ Incluido |
+| **Beneficio Neto Limpio por Unidad** | **$23.08 USD** | Ganancia neta líquida operativa | ✅ Auditado |
+| **Margen Neto** (%) | **77.0%** | Mínimo requerido: $\ge 65.0\%$ | ✅ EXCELENTE |
+
+#### Enlaces a Proveedores y Logística
+
+- **Proveedor Mayorista AliExpress**: [https://www.aliexpress.com/item/1005007791672610.html](https://www.aliexpress.com/item/1005007791672610.html)
+- **Sourcing Directo CJ Dropshipping**: [https://cjdropshipping.com/list-detail.html?search=steamy%20pet%20brush](https://cjdropshipping.com/list-detail.html?search=steamy%20pet%20brush)
+- **Línea Logística Homologada**: YunExpress Ordinary / CJPacket Fast Line (7 - 10 días laborables)
+- **Especificación de Empaque**: Cepillo con cerdas de silicona médica, micronebulizador ultrasónico USB-C, depósito de recarga
+- **Países Tier 1 Homologados**: US, CA, UK, AU
+
+#### Auditoría Forense de las 7 Reglas de Oro
+
+- **Regla 1 (Visual WOW (0-3s))**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
+- **Regla 2 (Acute Pain / Passion)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
+- **Regla 3 (Retail Scarcity)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 4 (Unit Economics & Markup)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
+- **Regla 5 (Ticket Range Sweet Spot)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 6 (Zero Sizing / Fragility)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 7 (Fast Tracked Logistics)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Puertas de Knockout (KO-1 a KO-4)**: ✅ Limpio (Cero puertas KO activadas: Ninguna)
+
+#### Estrategia Demográfica y Franja Horaria Recomendada
+
+- **Age**: 22-60
+- **Gender**: all
+- **Interests**: cats, dogs, pet pampering, clean home
+
+**Franja Horaria Recomendada de Publicación Orgánica**:
+- **Slot 1 (Matutino)** (08:00 – 09:30 Hora local del target): Alimentación matutina y cepillado rápido antes de salir a trabajar.
+- **Slot 2 (Vespertino Sofá)** (18:00 – 20:30 Hora local del target): Tiempo de caricias con la mascota en el sofá; pelos volando por el salón.
+
+#### Mecanismo WOW de Demostración (0 a 3 Segundos)
+
+> Segundo 0.0-1.5: Púas de silicona peinando el lomo de un gato esponjoso; sale una micro-niebla de vapor ionizado blanco ([SFX: STEAM_HISS]). Segundo 1.5-3.0: La mano levanta una pieza de fieltro de pelo completa de 10 cm en una sola capa sólida sin dejar ni un pelo suelto en el aire.
+
+#### Ganchos de Conversión (Remotion Modalidad 3)
+
+A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la partitura canónica de Remotion Modalidad 3:
+
+##### 🪝 Gancho 1: Curiosidad Disruptiva (Pattern Interrupt)
+*Curiosidad Disruptiva: La Manta de Pelo Extraída en 3 Segundos*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"¿Por qué los veterinarios aconsejan no cepillar a tu gato en seco nunca más?"*
+- **Voz Creador (`es-US-Neural2-B`)**: *"Porque el vapor frío ionizado neutraliza la estática y retira el pelo muerto en una manta sólida."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Púas de silicona peinando el lomo de un gato esponjoso; sale una columna de vapor frío blanco. | Snap Zoom macro (1.0x -> 1.4x) a la nube de niebla ionizada. | Voz Cliente (es-US-Neural2-C): '¿Por qué los veterinarios aconsejan no cepillar a tu gato en seco nunca más?' | [SFX: STEAM_HISS] | '¿NO EN SECO?' en cian neón extruido |
+| **1.2 - 2.0s** | La mano de la dueña levanta una pieza de fieltro de pelo completa de 10 cm sin romperla. | Paneo lateral acelerado (1.8x rush). | Voz Creador (es-US-Neural2-B): 'Porque el vapor frío ionizado neutraliza la estática y retira el pelo en una sola manta sólida.' | [SFX: VINE_BOOM] | 'MANTA SÓLIDA' en verde esmeralda 3D |
+| **2.0 - 3.0s** | CONGELADO EN LA MANTA DE PELO FLOTANDO EN LA MANO. | Pausa acústica de 1.0s de silencio total. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | El gato ronronea relajado cerrando los ojos bajo el masaje de vapor. | Beat Drop. Flash blanco y Speed Ramp (2.0x -> 0.18x meseta técnica). | Explota la base rítmica de Show Me (LiQWYD). | [SFX: BEAT_DROP + PURR_LOUD] | 'CERO ESTRÉS' en oro 3D flotante |
+| **4.5 - 7.0s** | Comparativa: Cepillo normal (nube de pelo volando por el salón) vs SteamFur Pro (cero pelo en el aire). | Split screen animado dinámico. | Voz Creador (es-US-Neural2-B): 'Atrapa el 99% del pelo muerto antes de que caiga en tu comida o en tu sofá.' | [SFX: DING_WIN] | '99% ATRAPADO' en titanio |
+| **7.0 - 10.0s** | Cepillo recargable USB-C disponible en verde menta y amarillo pastel. | Zoom out suave. | Voz Creador (es-US-Neural2-B): 'Apto para perros y gatos de todo tipo de pelo. Pide el tuyo con 50% de descuento.' | [SFX: BELL_CHIME] | '50% OFF HOY' |
+
+##### 🪝 Gancho 2: Agitación de Dolor Real (Emotional Visceral Trigger)
+*Agitación de Dolor Real: La Pesadilla de los Pelos en Toda la Casa*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"¿Cansado de encontrar pelos de gato en tu ropa, en el sofá y hasta en tu comida?"*
+- **Voz Creador (`es-US-Neural2-B`)**: *"El cepillado común solo esparce los pelos por el aire; esto los atrapa al 100%."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Persona comiendo que saca un pelo largo de gato de su plato con frustración total. | Snap zoom al tenedor con el pelo. | Voz Cliente (es-US-Neural2-C): '¿Cansado de encontrar pelos de gato en tu ropa, en el sofá y hasta en tu comida?' | [SFX: RECORD_SCRATCH] | '¿PELOS EN TU COMIDA?' en rojo fuego |
+| **1.2 - 2.0s** | Dueño pasando un rodillo adhesivo que se satura a la segunda pasada sin quitar nada. | Shake de frustración doméstica. | Voz Creador (es-US-Neural2-B): 'El cepillado común solo esparce los pelos por el aire; esto los atrapa al 100%.' | [SFX: VINE_BOOM] | 'ESPARCEN TODO' en naranja |
+| **2.0 - 3.0s** | CONGELADO EN EL PANTALÓN NEGRO LLENO DE PELOS BLANCOS. | Silencio sepulcral de 1.0s. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | El SteamFur Pro pasa por el lomo del animal y la nube de vapor fija todo el pelo al cepillo. | Beat Drop. Destello blanco y cámara lenta dinámica. | Beat y bajo enérgico LiQWYD. | [SFX: BEAT_DROP + STEAM] | 'VAPOR IONIZADO' en cian 3D |
+| **4.5 - 7.0s** | Con un solo movimiento de dedos, la capa de pelo se despega en bloque directo a la papelera. | Macro toma ultra-satisfactoria. | Voz Creador (es-US-Neural2-B): 'Sin electricidad estática, sin nubes de polvo y con depósito para esencia aromática.' | [SFX: POP_CLEAN] | 'DESPEGUE LIMPIO' en verde esmeralda |
+| **7.0 - 10.0s** | Mascota limpia y sala de estar impoluta sin un solo pelo en los muebles. | Zoom out fluido. | Voz Creador (es-US-Neural2-B): 'El gadget definitivo para vivir con mascotas sin volverse loco. Envío rápido hoy.' | [SFX: CASH_REGISTER] | 'ORDENA AHORA' |
+
+##### 🪝 Gancho 3: Contrariano (Challenging Conventional Wisdom)
+*Contrariano: La Trampa de los Rodillos de Pegamento Adhesivo*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"Por qué los rodillos adhesivos de papel son el peor gasto para dueños de mascotas..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"Gastas una fortuna en rollos que no quitan la raíz del pelaje suelto."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Un rollo de papel adhesivo lleno de pelos que ya no pega nada siendo arrojado a la basura. | Snap zoom al rodillo inservible. | Voz Cliente (es-US-Neural2-C): 'Por qué los rodillos adhesivos de papel son el peor gasto para dueños de mascotas...' | [SFX: TRASH_SLAM] | 'DINERO PERDIDO' en rojo sangre |
+| **1.2 - 2.0s** | El gato sacudiéndose y soltando otra nube de pelos sobre la ropa recién despeluzada. | Cámara lenta dramática. | Voz Creador (es-US-Neural2-B): 'Gastas una fortuna en rollos que solo limpian la superficie sin quitar el pelo muerto de raíz.' | [SFX: VINE_BOOM] | 'NO VAN A LA RAÍZ' en naranja 3D |
+| **2.0 - 3.0s** | CONGELADO EN LA MONTAÑA DE ROLLOS DE PAPEL USADOS. | Pausa acústica de 1.0s de silencio total. | Silencio sepulcral. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | Entrada del SteamFur Pro cepillando suavemente con micro-niebla calmante. | Beat Drop. Flash blanco y Speed Ramp no lineal. | Explota el track musical. | [SFX: BEAT_DROP + STEAM_HISS] | 'SOLUCIÓN DEFINITIVA' en titanio 3D |
+| **4.5 - 7.0s** | Demostración de masaje con las cerdas de silicona médica ultra-suaves. | Macro a la cara de placer del animal. | Voz Creador (es-US-Neural2-B): 'Cerdas de silicona que no arañan la piel y depósito para agua tibia o loción desenredante.' | [SFX: DING_SUCCESS] | 'SILICONA MÉDICA' en cian neón |
+| **7.0 - 10.0s** | Kit con cable de carga y dosificador de líquido aromático. | Zoom out suave. | Voz Creador (es-US-Neural2-B): 'Ahorra cientos de dólares en peluquería canina y felina. Pide el tuyo con garantía total.' | [SFX: BELL_CHIME] | 'GARANTÍA TOTAL' |
+
+##### 🪝 Gancho 4: Transformación Inmediata (Before vs After)
+*Transformación Inmediata: De la Lucha del Baño al Placer del Vapor*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"De pasar 40 minutos persiguiendo a tu mascota con un cepillo que la estresa..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"A retirarle toda la capa muerta en 3 minutos mientras disfruta de un masaje de vapor."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Gato corriendo asustado debajo de la cama al ver un cepillo de alambre de metal agresivo. | Snap zoom al gato escondido con ojos asustados. | Voz Cliente (es-US-Neural2-C): 'De pasar 40 minutos persiguiendo a tu mascota con un cepillo que la estresa...' | [SFX: SAD_SCRATCH] | 'ESTRÉS TOTAL' en rojo |
+| **1.2 - 2.0s** | La misma mascota acostada panza arriba ronroneando mientras el SteamFur Pro la masajea. | Snap zoom a la escena de calma y ronroneo. | Voz Creador (es-US-Neural2-B): 'A retirarle toda la capa muerta en 3 minutos mientras disfruta de un masaje de vapor.' | [SFX: PURR_SOFT] | 'SPA EN CASA' en verde esmeralda 3D |
+| **2.0 - 3.0s** | CONGELADO EN EL CONTRASTE DE LA ESCENA ANTERIOR VS ACTUAL. | Silencio dramático riguroso de 1.0s. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | Extracción en cámara lenta de una almohadilla compacta de pelo retirada de una sola pasada. | Beat Drop. Flash blanco y Speed Ramp dinámico (1.8x -> 0.18x). | Beat y bajo enérgico LiQWYD. | [SFX: BEAT_DROP + STEAM] | 'UNA SOLA PASADA' en oro 3D |
+| **4.5 - 7.0s** | El pelaje de la mascota queda suave, brillante y con un aroma fresco sin haberla bañado con agua. | Paneo suave a 60 fps. | Voz Creador (es-US-Neural2-B): 'Deja el pelo brillante como recién salido del groomer profesional sin una gota de estrés.' | [SFX: SHINE_CHIME] | 'BRILLO PROFESIONAL' en cian neón |
+| **7.0 - 10.0s** | Unboxing del cepillo con sus accesorios y caja regalo. | Zoom out final. | Voz Creador (es-US-Neural2-B): 'Stock de alta demanda. Pídelo hoy y recíbelo en 7 a 10 días en tu puerta.' | [SFX: CASH_REGISTER] | 'ENVÍO 7-10 DÍAS' |
+
+
+---
+
+### 🏆 GANADOR #3: SpineRelief Pro™ — Clinical Air-Traction Lumbar Decompression Belt
+
+**Categoría / Nicho**: Health & Ergonomics  
+**ID de Referencia**: `spinerelief-pro`  
+**Puntuación Compuesta**: **90.0 / 100** | **Estado**: `🏆 WINNER`  
+**Descripción**: 100% mechanical H-column pneumatic lumbar traction belt (116x13cm, fits 29"-49" waists with included extension belt, PU leather + TPU air core + breathable cotton lining, manual pressure-gauge air pump) for L1-L5 disc decompression and sciatic relief.
+
+#### Ficha Técnica y Desglose Financiero
+
+| Parámetro Financiero | Valor USD / % | Estándar Canónico Antigravity | Estado |
+|---|:---:|:---:|:---:|
+| **Costo de Proveedor** (CoGS) | $18.99 USD | Costo mayorista de fábrica | ✅ Verificado |
+| **Costo de Envío Tracked** | $0.00 USD | YunExpress Specialty Line | ✅ Verificado |
+| **Landed Cost** (Costo Puesto) | $18.99 USD | CoGS + Flete internacional | ✅ Calculado |
 | **Precio de Venta Sugerido** (SRP) | $54.99 USD | Sweet spot de impulso ($29 – $69 USD) | ✅ Cumple R5 |
-| **Markup Multiplier** | **3.72x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
+| **Markup Multiplier** | **2.90x** | Mínimo requerido: $\ge 3.0\text{x}$ | ⚠️ AJUSTADO |
 | **Comisión Pasarela** (Stripe 2.9% + $0.30) | $1.89 USD | Deducción automática por transacción | ✅ Incluido |
 | **Buffer de Reserva** (1.0%) | $0.55 USD | Fondo para imprevistos / chargebacks | ✅ Incluido |
-| **Beneficio Neto Limpio por Unidad** | **$37.75 USD** | Ganancia neta líquida operativa | ✅ Auditado |
-| **Margen Neto** (%) | **68.7%** | Mínimo requerido: $\ge 65.0\%$ | ✅ EXCELENTE |
+| **Beneficio Neto Limpio por Unidad** | **$33.56 USD** | Ganancia neta líquida operativa | ✅ Auditado |
+| **Margen Neto** (%) | **61.0%** | Mínimo requerido: $\ge 65.0\%$ | ⚠️ MARGINAL |
 
 #### Enlaces a Proveedores y Logística
 
@@ -84,7 +334,7 @@ Cada ficha técnica incluye su desglose financiero completo, proveedores mayoris
 - **Regla 1 (Visual WOW (0-3s))**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
 - **Regla 2 (Acute Pain / Passion)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
 - **Regla 3 (Retail Scarcity)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Regla 4 (Unit Economics & Markup)**: ✅ Score: 85.0/100 (Ponderado: 17.0 pts) — Aprobado
+- **Regla 4 (Unit Economics & Markup)**: ⚠️ Score: 50.0/100 (Ponderado: 10.0 pts) — Marginal
 - **Regla 5 (Ticket Range Sweet Spot)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
 - **Regla 6 (Zero Sizing / Fragility)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
 - **Regla 7 (Fast Tracked Logistics)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
@@ -173,26 +423,147 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 
 ---
 
-### 🏆 GANADOR #2: ProSmile Ultrasonic™ — Smart Plaque & Calculus Scaler
+### 🏆 GANADOR #4: BabyHalo Pro™ — Whisper-Quiet USB Baby Nail Trimmer with Night LED
 
-**Categoría / Nicho**: Dental Health & Personal Care  
-**ID de Referencia**: `prosmile-ultrasonic`  
+**Categoría / Nicho**: Baby Care & Parenting  
+**ID de Referencia**: `babyhalo-pro`  
 **Puntuación Compuesta**: **90.0 / 100** | **Estado**: `🏆 WINNER`  
-**Descripción**: Home dental hygiene scaler with 40 kHz acoustic micro-vibrations and bioelectric sensor that shatters solid calculus instantly while stopping automatically on gums.
+**Descripción**: Whisper-quiet 3-speed USB rechargeable baby nail trimmer with soft cushioned grinding pads and built-in front night LED light for pinch-free newborn, infant, toddler, and adult nail care.
 
 #### Ficha Técnica y Desglose Financiero
 
 | Parámetro Financiero | Valor USD / % | Estándar Canónico Antigravity | Estado |
 |---|:---:|:---:|:---:|
-| **Costo de Proveedor** (CoGS) | $4.50 USD | Costo mayorista de fábrica | ✅ Verificado |
-| **Costo de Envío Tracked** | $3.70 USD | CJPacket Fast Line / YunExpress Ordinary | ✅ Verificado |
-| **Landed Cost** (Costo Puesto) | $8.20 USD | CoGS + Flete internacional | ✅ Calculado |
+| **Costo de Proveedor** (CoGS) | $3.24 USD | Costo mayorista de fábrica | ✅ Verificado |
+| **Costo de Envío Tracked** | $9.99 USD | Alibaba Dropshipping Standard / USPS (~10 Business Days) | ✅ Verificado |
+| **Landed Cost** (Costo Puesto) | $13.23 USD | CoGS + Flete internacional | ✅ Calculado |
+| **Precio de Venta Sugerido** (SRP) | $39.99 USD | Sweet spot de impulso ($29 – $69 USD) | ✅ Cumple R5 |
+| **Markup Multiplier** | **3.02x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
+| **Comisión Pasarela** (Stripe 2.9% + $0.30) | $1.46 USD | Deducción automática por transacción | ✅ Incluido |
+| **Buffer de Reserva** (1.0%) | $0.40 USD | Fondo para imprevistos / chargebacks | ✅ Incluido |
+| **Beneficio Neto Limpio por Unidad** | **$24.90 USD** | Ganancia neta líquida operativa | ✅ Auditado |
+| **Margen Neto** (%) | **62.3%** | Mínimo requerido: $\ge 65.0\%$ | ⚠️ MARGINAL |
+
+#### Enlaces a Proveedores y Logística
+
+- **Proveedor Mayorista AliExpress**: [https://www.alibaba.com/product-detail/_1601985563057.html?channel=dropship&src=dsers](https://www.alibaba.com/product-detail/_1601985563057.html?channel=dropship&src=dsers)
+- **Sourcing Directo CJ Dropshipping**: [https://cjdropshipping.com/list-detail.html?search=babyhalo-pro](https://cjdropshipping.com/list-detail.html?search=babyhalo-pro)
+- **Línea Logística Homologada**: Alibaba Dropshipping Standard / USPS (~10 Business Days) (8 a 12 días laborables)
+- **Especificación de Empaque**: Empaque individual sellado neutro para dropshipping
+- **Países Tier 1 Homologados**: US, UK, CA, AU
+
+#### Auditoría Forense de las 7 Reglas de Oro
+
+- **Regla 1 (Visual WOW (0-3s))**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
+- **Regla 2 (Acute Pain / Passion)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
+- **Regla 3 (Retail Scarcity)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 4 (Unit Economics & Markup)**: ⚠️ Score: 50.0/100 (Ponderado: 10.0 pts) — Marginal
+- **Regla 5 (Ticket Range Sweet Spot)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 6 (Zero Sizing / Fragility)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Regla 7 (Fast Tracked Logistics)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
+- **Puertas de Knockout (KO-1 a KO-4)**: ✅ Limpio (Cero puertas KO activadas: Ninguna)
+
+#### Estrategia Demográfica y Franja Horaria Recomendada
+
+- **Age**: 22-42
+- **Gender**: all
+- **Interests**: newborn care, new parents, baby safety, baby registry
+
+**Franja Horaria Recomendada de Publicación Orgánica**:
+- **Slot 1 (Matutino)** (07:00 – 08:30 Hora local): Primera revisión matutina del teléfono.
+- **Slot 2 (Tarde / Prime)** (18:30 – 21:00 Hora local): Pico de ocio nocturno y mayor tasa de conversión.
+
+#### Mecanismo WOW de Demostración (0 a 3 Segundos)
+
+> Demostración instantánea de alto contraste en 1.5 segundos mostrando la transformación física directa.
+
+#### Ganchos de Conversión (Remotion Modalidad 3)
+
+A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la partitura canónica de Remotion Modalidad 3:
+
+##### 🪝 Gancho 1: Curiosidad Disruptiva (Pattern Interrupt)
+*Curiosidad Disruptiva: El Secreto Detrás de BabyHalo Pro™*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"El 90% de las personas comete este grave error al buscar soluciones para baby care & parenting..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"Y por eso siguen sufriendo hasta que descubren cómo funciona BabyHalo Pro™."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Primer plano de alto impacto demostrando el problema de baby care & parenting. | Snap Zoom violento (1.0x -> 1.35x) con desenfoque radial. | Voz Cliente (es-US-Neural2-C): 'El 90% comete este grave error...' | [SFX: WHOOSH_FAST] | '¿ESTE ERROR?' en rojo neón extruido arriba (rotateX: 12deg) |
+| **1.2 - 2.0s** | Presentación del mecanismo central de BabyHalo Pro™. | Paneo lateral acelerado (1.8x rush). | Voz Creador (es-US-Neural2-B): 'Y por eso siguen perdiendo tiempo y dinero.' | [SFX: VINE_BOOM] | 'BABYHALO PRO™' en verde esmeralda 3D |
+| **2.0 - 3.0s** | PANTALLA CONGELADA EN EL MOMENTO DE MÁXIMA EXPECTATIVA. | Cero movimiento (Pausa dramática de 1.0s de tensión acústica). | Silencio absoluto de 1.0 segundo (cero voz). | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | Demostración visual WOW en 1.5 segundos. Alto contraste visual. | Beat Drop. Flash blanco y Speed Ramp no lineal (2.0x -> 0.18x meseta técnica). | Entra bajo potente y track musical (LiQWYD - Show Me). | [SFX: BEAT_DROP + IMPACT] | 'TRANSFORMACIÓN REAL' en dorado 3D sin cajas ni pills |
+| **4.5 - 7.0s** | Detalle del funcionamiento: Whisper-quiet 3-speed USB rechargeable baby nail trimmer with soft cushioned grinding pads and built-in front night LED ... | Snap zoom focal con tracking volumétrico. | Voz Creador (es-US-Neural2-B): 'Resuelve el problema de raíz sin complicaciones.' | [SFX: DING_SUCCESS] | 'EFECTIVIDAD COMPROBADA' en cian neón 3D |
+| **7.0 - 10.0s** | Usuario satisfecho utilizando el producto. Vista de empaque completo. | Zoom out continuo (0.95x) hacia la llamada a la acción. | Voz Creador (es-US-Neural2-B): 'Pruébalo con garantía total. Enlace en bio con descuento hoy.' | [SFX: CASH_REGISTER] | 'GARANTÍA 100%' en amarillo brillante |
+
+##### 🪝 Gancho 2: Agitación de Dolor Real (Emotional Visceral Trigger)
+*Agitación de Dolor Real: El Sufrimiento Cotidiano en Baby Care & Parenting*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"Si tu dolor y frustración con baby care & parenting te impiden disfrutar tu día..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"Este mecanismo patentado erradica esa molestia desde el primer uso."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Persona sufriendo la fricción directa y cotidiana del problema. | Snap zoom agresivo al rostro de frustración (1.0x -> 1.4x). | Voz Cliente (es-US-Neural2-C): 'Si este problema te arruina el día...' | [SFX: HEARTBEAT_LOW] | '¿DOLOR REAL?' en rojo fuego 3D |
+| **1.2 - 2.0s** | Detalle en primer plano de la molestia o desgaste acumulado. | Camera shake de impacto emocional. | Voz Creador (es-US-Neural2-B): 'Y no encuentras ninguna solución que realmente funcione.' | [SFX: VINE_BOOM] | 'FRUSTRACIÓN TOTAL' en amarillo neón |
+| **2.0 - 3.0s** | CONGELADO EN EL INSTANTE DE MAYOR FRICCIÓN. | Silencio acústico riguroso de 1.0s. | Cero voz, pausa absoluta. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | BabyHalo Pro™ en acción disolviendo el dolor en vivo. | Beat Drop. Flash blanco y Speed Ramp (1.8x rush -> 0.18x meseta). | Entra beat y bajo enérgico LiQWYD. | [SFX: BEAT_DROP + RELIEF] | 'ALIVIO DIRECTO' en titanio 3D reflectivo |
+| **4.5 - 7.0s** | Expresión facial cambiando de estrés a alivio completo. | Paneo suave de abajo hacia arriba. | Voz Creador (es-US-Neural2-B): 'Diseñado específicamente para eliminar esa fricción en minutos.' | [SFX: EXHALE_RELIEF] | 'EN MENOS DE 2 MIN' en verde esmeralda |
+| **7.0 - 10.0s** | Demostración de uso práctico en el hogar o trabajo. | Tracking dinámico 3D. | Voz Creador (es-US-Neural2-B): 'Recupera tu tranquilidad hoy. Pídelo en el botón de abajo.' | [SFX: CLICK_POP] | 'PÍDELO HOY' en oro 3D |
+
+##### 🪝 Gancho 3: Contrariano (Challenging Conventional Wisdom)
+*Contrariano: Por Qué los Métodos Tradicionales de Baby Care & Parenting Fracasan*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"Por qué gastar cientos de dólares en productos genéricos empeora tu situación..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"Porque no atacan la causa física real como lo hace BabyHalo Pro™."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Un producto genérico convencional arrojado al cubo de basura. | Snap Zoom directo al cubo de basura. | Voz Cliente (es-US-Neural2-C): 'Por qué tirar tu dinero en alternativas que no funcionan...' | [SFX: TRASH_SLAM] | 'NO SIRVEN' en rojo sangre |
+| **1.2 - 2.0s** | Comparación técnica explicando el fallo del diseño convencional. | Giro 3D volumétrico (rotateY: -15deg). | Voz Creador (es-US-Neural2-B): 'Solo gastas dinero sin solucionar el origen del problema.' | [SFX: VINE_BOOM] | 'MÉTODO OBSOLETO' en naranja 3D |
+| **2.0 - 3.0s** | PANTALLA EN NEGRO / SILENCIO DE CONTRADICCIÓN. | Pausa acústica estricta de 1.0s. | Silencio sepulcral total. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | Entrada del BabyHalo Pro™ resolviendo la limitación tradicional. | Beat Drop. Flash blanco y Speed Ramp dinámico. | Explota la base musical rítmica. | [SFX: BEAT_DROP + WIN] | 'INNOVACIÓN REAL' en titanio reflectivo |
+| **4.5 - 7.0s** | Split screen comparando método convencional vs solución innovadora. | Split screen animado con indicadores gráficos. | Voz Creador (es-US-Neural2-B): 'Tecnología inteligente diseñada para máxima durabilidad y resultado.' | [SFX: DING_WIN] | '3X MÁS EFECTIVO' en cian neón |
+| **7.0 - 10.0s** | Vista del producto con todos sus accesorios incluidos. | Paneo lateral suave a 60 fps. | Voz Creador (es-US-Neural2-B): 'La alternativa definitiva que sí cumple. Consíguelo con descuento directo.' | [SFX: DISCORD_PING] | 'OFERTA EXCLUSIVA' en amarillo 3D |
+
+##### 🪝 Gancho 4: Transformación Inmediata (Before vs After)
+*Transformación Inmediata: Antes y Después con BabyHalo Pro™*
+
+- **Voz Cliente (`es-US-Neural2-C`)**: *"De perder horas luchando con este problema de baby care & parenting..."*
+- **Voz Creador (`es-US-Neural2-B`)**: *"A solucionarlo al 100% en menos de 2 segundos."*
+
+| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
+|:---:|:---|:---|:---|:---|:---|
+| **0.0 - 1.2s** | Pantalla dividida: Lado izquierdo (situación de colapso o suciedad desaturada). | Zoom in hacia la izquierda desaturada. | Voz Cliente (es-US-Neural2-C): 'De sufrir horas con este problema...' | [SFX: RECORD_SCRATCH] | 'ANTES' en rojo desaturado |
+| **1.2 - 2.0s** | Lado derecho: Resultado impecable y limpio con luz radiante. | Snap zoom al lado derecho brillante y saturado. | Voz Creador (es-US-Neural2-B): 'A dejarlo perfecto en menos de un minuto.' | [SFX: WHOOSH_SWOOSH] | 'DESPUÉS' en verde esmeralda 3D |
+| **2.0 - 3.0s** | CONGELADO EN EL CORTE CENTRAL DEL SPLIT SCREEN. | Silencio dramático riguroso de 1.0s. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
+| **3.0 - 4.5s** | BabyHalo Pro™ ejecutando la transformación sin cortes. | Beat Drop. Flash blanco y cámara lenta técnica (0.18x plateau). | Entra la música al 100% (mastering a -19.7 LUFS). | [SFX: BEAT_DROP] | 'EN TIEMPO REAL' en oro 3D flotante |
+| **4.5 - 7.0s** | Demostración del resultado final impecable y sin esfuerzo. | Rotación 3D volumétrica. | Voz Creador (es-US-Neural2-B): 'La transformación instantánea que todos tus amigos van a notar.' | [SFX: SHINE_CHIME] | 'RESULTADO 10/10' en cian neón |
+| **7.0 - 10.0s** | Presentación del unboxing y botón de compra rápida. | Zoom out fluido. | Voz Creador (es-US-Neural2-B): 'Envío rápido de 7 a 10 días garantizado. Ordena el tuyo ahora.' | [SFX: BELL_CHIME] | 'ENVÍO EXPRESS 7-10D' |
+
+
+---
+
+### 🏆 GANADOR #5: UltraSmile Pro™ — Smart 37kHz Plaque & Calculus Scaler
+
+**Categoría / Nicho**: Dental Health & Personal Care  
+**ID de Referencia**: `prosmile-ultrasonic`  
+**Puntuación Compuesta**: **80.0 / 100** | **Estado**: `🏆 WINNER`  
+**Descripción**: Home dental hygiene scaler (37 kHz acoustic resonance, 5 modes & 9 intensity levels, UV sterilizer cap, LED spotlight, Smart Gum-Protection Chip). Standard Kit ($34.99) & Pro Kit with 4 surgical steel tools ($44.99).
+
+#### Ficha Técnica y Desglose Financiero
+
+| Parámetro Financiero | Valor USD / % | Estándar Canónico Antigravity | Estado |
+|---|:---:|:---:|:---:|
+| **Costo de Proveedor** (CoGS) | $11.15 USD | Costo mayorista de fábrica | ✅ Verificado |
+| **Costo de Envío Tracked** | $0.00 USD | CJPacket Fast Line / YunExpress Ordinary | ✅ Verificado |
+| **Landed Cost** (Costo Puesto) | $11.15 USD | CoGS + Flete internacional | ✅ Calculado |
 | **Precio de Venta Sugerido** (SRP) | $34.99 USD | Sweet spot de impulso ($29 – $69 USD) | ✅ Cumple R5 |
-| **Markup Multiplier** | **4.27x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
+| **Markup Multiplier** | **3.14x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
 | **Comisión Pasarela** (Stripe 2.9% + $0.30) | $1.31 USD | Deducción automática por transacción | ✅ Incluido |
 | **Buffer de Reserva** (1.0%) | $0.35 USD | Fondo para imprevistos / chargebacks | ✅ Incluido |
-| **Beneficio Neto Limpio por Unidad** | **$25.13 USD** | Ganancia neta líquida operativa | ✅ Auditado |
-| **Margen Neto** (%) | **71.8%** | Mínimo requerido: $\ge 65.0\%$ | ✅ EXCELENTE |
+| **Beneficio Neto Limpio por Unidad** | **$22.18 USD** | Ganancia neta líquida operativa | ✅ Auditado |
+| **Margen Neto** (%) | **63.4%** | Mínimo requerido: $\ge 65.0\%$ | ⚠️ MARGINAL |
 
 #### Enlaces a Proveedores y Logística
 
@@ -207,7 +578,7 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 - **Regla 1 (Visual WOW (0-3s))**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
 - **Regla 2 (Acute Pain / Passion)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
 - **Regla 3 (Retail Scarcity)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Regla 4 (Unit Economics & Markup)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
+- **Regla 4 (Unit Economics & Markup)**: ⚠️ Score: 50.0/100 (Ponderado: 10.0 pts) — Marginal
 - **Regla 5 (Ticket Range Sweet Spot)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
 - **Regla 6 (Zero Sizing / Fragility)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
 - **Regla 7 (Fast Tracked Logistics)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
@@ -294,147 +665,26 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 
 ---
 
-### 🏆 GANADOR #3: SteamFur Pro™ — 3-in-1 Ultrasonic Mist Pet Groomer
-
-**Categoría / Nicho**: Pet Supplies & Home Care  
-**ID de Referencia**: `steamfur-pro`  
-**Puntuación Compuesta**: **86.0 / 100** | **Estado**: `🏆 WINNER`  
-**Descripción**: Conical silicone pet brush with integrated cold ion ultrasonic mist that neutralizes static and allows peeling off shed pet hair in a single solid sheet in 2 seconds.
-
-#### Ficha Técnica y Desglose Financiero
-
-| Parámetro Financiero | Valor USD / % | Estándar Canónico Antigravity | Estado |
-|---|:---:|:---:|:---:|
-| **Costo de Proveedor** (CoGS) | $3.45 USD | Costo mayorista de fábrica (DSers Choice) | ✅ Verificado |
-| **Costo de Envío Tracked** | $1.99 USD | AliExpress Selection Standard (10–16 días) | ✅ Verificado |
-| **Landed Cost** (Costo Puesto) | $5.44 USD | CoGS + Flete internacional | ✅ Calculado |
-| **Precio de Venta Sugerido** (SRP) | $29.99 USD | Sweet spot de impulso ($29 – $69 USD) | ✅ Cumple R5 |
-| **Markup Multiplier** | **5.51x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
-| **Comisión Pasarela** (Stripe 2.9% + $0.30) | $1.17 USD | Deducción automática por transacción | ✅ Incluido |
-| **Buffer de Reserva** (1.0%) | $0.30 USD | Fondo para imprevistos / chargebacks | ✅ Incluido |
-| **Beneficio Neto Limpio por Unidad** | **$23.08 USD** | Ganancia neta líquida operativa | ✅ Auditado |
-| **Margen Neto** (%) | **77.0%** | Mínimo requerido: $\ge 65.0\%$ | ✅ EXCELENTE |
-
-#### Enlaces a Proveedores y Logística
-
-- **Proveedor Mayorista AliExpress**: [https://www.aliexpress.com/item/1005007791672610.html](https://www.aliexpress.com/item/1005007791672610.html)
-- **Sourcing Directo CJ Dropshipping**: [https://cjdropshipping.com/list-detail.html?search=steamy%20pet%20brush](https://cjdropshipping.com/list-detail.html?search=steamy%20pet%20brush)
-- **Línea Logística Homologada**: AliExpress Selection Standard (10 - 16 días a EE. UU. · Tracking Available · 7,124 uds en DSers · Unmapped: 0)
-- **Especificación de Empaque**: Cepillo con cerdas de silicona médica, micronebulizador ultrasónico USB-C, depósito de recarga
-- **Países Tier 1 Homologados**: US, CA, UK, AU
-
-#### Auditoría Forense de las 7 Reglas de Oro
-
-- **Regla 1 (Visual WOW (0-3s))**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
-- **Regla 2 (Acute Pain / Passion)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
-- **Regla 3 (Retail Scarcity)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Regla 4 (Unit Economics & Markup)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
-- **Regla 5 (Ticket Range Sweet Spot)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Regla 6 (Zero Sizing / Fragility)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Regla 7 (Fast Tracked Logistics)**: ✅ Score: 60.0/100 (Ponderado: 6.0 pts) — Aprobado
-- **Puertas de Knockout (KO-1 a KO-4)**: ✅ Limpio (Cero puertas KO activadas: Ninguna)
-
-#### Estrategia Demográfica y Franja Horaria Recomendada
-
-- **Age**: 22-60
-- **Gender**: all
-- **Interests**: cats, dogs, pet pampering, clean home
-
-**Franja Horaria Recomendada de Publicación Orgánica**:
-- **Slot 1 (Matutino)** (08:00 – 09:30 Hora local del target): Alimentación matutina y cepillado rápido antes de salir a trabajar.
-- **Slot 2 (Vespertino Sofá)** (18:00 – 20:30 Hora local del target): Tiempo de caricias con la mascota en el sofá; pelos volando por el salón.
-
-#### Mecanismo WOW de Demostración (0 a 3 Segundos)
-
-> Segundo 0.0-1.5: Púas de silicona peinando el lomo de un gato esponjoso; sale una micro-niebla de vapor ionizado blanco ([SFX: STEAM_HISS]). Segundo 1.5-3.0: La mano levanta una pieza de fieltro de pelo completa de 10 cm en una sola capa sólida sin dejar ni un pelo suelto en el aire.
-
-#### Ganchos de Conversión (Remotion Modalidad 3)
-
-A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la partitura canónica de Remotion Modalidad 3:
-
-##### 🪝 Gancho 1: Curiosidad Disruptiva (Pattern Interrupt)
-*Curiosidad Disruptiva: La Manta de Pelo Extraída en 3 Segundos*
-
-- **Voz Cliente (`es-US-Neural2-C`)**: *"¿Por qué los veterinarios aconsejan no cepillar a tu gato en seco nunca más?"*
-- **Voz Creador (`es-US-Neural2-B`)**: *"Porque el vapor frío ionizado neutraliza la estática y retira el pelo muerto en una manta sólida."*
-
-| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
-|:---:|:---|:---|:---|:---|:---|
-| **0.0 - 1.2s** | Púas de silicona peinando el lomo de un gato esponjoso; sale una columna de vapor frío blanco. | Snap Zoom macro (1.0x -> 1.4x) a la nube de niebla ionizada. | Voz Cliente (es-US-Neural2-C): '¿Por qué los veterinarios aconsejan no cepillar a tu gato en seco nunca más?' | [SFX: STEAM_HISS] | '¿NO EN SECO?' en cian neón extruido |
-| **1.2 - 2.0s** | La mano de la dueña levanta una pieza de fieltro de pelo completa de 10 cm sin romperla. | Paneo lateral acelerado (1.8x rush). | Voz Creador (es-US-Neural2-B): 'Porque el vapor frío ionizado neutraliza la estática y retira el pelo en una sola manta sólida.' | [SFX: VINE_BOOM] | 'MANTA SÓLIDA' en verde esmeralda 3D |
-| **2.0 - 3.0s** | CONGELADO EN LA MANTA DE PELO FLOTANDO EN LA MANO. | Pausa acústica de 1.0s de silencio total. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
-| **3.0 - 4.5s** | El gato ronronea relajado cerrando los ojos bajo el masaje de vapor. | Beat Drop. Flash blanco y Speed Ramp (2.0x -> 0.18x meseta técnica). | Explota la base rítmica de Show Me (LiQWYD). | [SFX: BEAT_DROP + PURR_LOUD] | 'CERO ESTRÉS' en oro 3D flotante |
-| **4.5 - 7.0s** | Comparativa: Cepillo normal (nube de pelo volando por el salón) vs SteamFur Pro (cero pelo en el aire). | Split screen animado dinámico. | Voz Creador (es-US-Neural2-B): 'Atrapa el 99% del pelo muerto antes de que caiga en tu comida o en tu sofá.' | [SFX: DING_WIN] | '99% ATRAPADO' en titanio |
-| **7.0 - 10.0s** | Cepillo recargable USB-C disponible en verde menta y amarillo pastel. | Zoom out suave. | Voz Creador (es-US-Neural2-B): 'Apto para perros y gatos de todo tipo de pelo. Pide el tuyo con 50% de descuento.' | [SFX: BELL_CHIME] | '50% OFF HOY' |
-
-##### 🪝 Gancho 2: Agitación de Dolor Real (Emotional Visceral Trigger)
-*Agitación de Dolor Real: La Pesadilla de los Pelos en Toda la Casa*
-
-- **Voz Cliente (`es-US-Neural2-C`)**: *"¿Cansado de encontrar pelos de gato en tu ropa, en el sofá y hasta en tu comida?"*
-- **Voz Creador (`es-US-Neural2-B`)**: *"El cepillado común solo esparce los pelos por el aire; esto los atrapa al 100%."*
-
-| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
-|:---:|:---|:---|:---|:---|:---|
-| **0.0 - 1.2s** | Persona comiendo que saca un pelo largo de gato de su plato con frustración total. | Snap zoom al tenedor con el pelo. | Voz Cliente (es-US-Neural2-C): '¿Cansado de encontrar pelos de gato en tu ropa, en el sofá y hasta en tu comida?' | [SFX: RECORD_SCRATCH] | '¿PELOS EN TU COMIDA?' en rojo fuego |
-| **1.2 - 2.0s** | Dueño pasando un rodillo adhesivo que se satura a la segunda pasada sin quitar nada. | Shake de frustración doméstica. | Voz Creador (es-US-Neural2-B): 'El cepillado común solo esparce los pelos por el aire; esto los atrapa al 100%.' | [SFX: VINE_BOOM] | 'ESPARCEN TODO' en naranja |
-| **2.0 - 3.0s** | CONGELADO EN EL PANTALÓN NEGRO LLENO DE PELOS BLANCOS. | Silencio sepulcral de 1.0s. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
-| **3.0 - 4.5s** | El SteamFur Pro pasa por el lomo del animal y la nube de vapor fija todo el pelo al cepillo. | Beat Drop. Destello blanco y cámara lenta dinámica. | Beat y bajo enérgico LiQWYD. | [SFX: BEAT_DROP + STEAM] | 'VAPOR IONIZADO' en cian 3D |
-| **4.5 - 7.0s** | Con un solo movimiento de dedos, la capa de pelo se despega en bloque directo a la papelera. | Macro toma ultra-satisfactoria. | Voz Creador (es-US-Neural2-B): 'Sin electricidad estática, sin nubes de polvo y con depósito para esencia aromática.' | [SFX: POP_CLEAN] | 'DESPEGUE LIMPIO' en verde esmeralda |
-| **7.0 - 10.0s** | Mascota limpia y sala de estar impoluta sin un solo pelo en los muebles. | Zoom out fluido. | Voz Creador (es-US-Neural2-B): 'El gadget definitivo para vivir con mascotas sin volverse loco. Envío rápido hoy.' | [SFX: CASH_REGISTER] | 'ORDENA AHORA' |
-
-##### 🪝 Gancho 3: Contrariano (Challenging Conventional Wisdom)
-*Contrariano: La Trampa de los Rodillos de Pegamento Adhesivo*
-
-- **Voz Cliente (`es-US-Neural2-C`)**: *"Por qué los rodillos adhesivos de papel son el peor gasto para dueños de mascotas..."*
-- **Voz Creador (`es-US-Neural2-B`)**: *"Gastas una fortuna en rollos que no quitan la raíz del pelaje suelto."*
-
-| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
-|:---:|:---|:---|:---|:---|:---|
-| **0.0 - 1.2s** | Un rollo de papel adhesivo lleno de pelos que ya no pega nada siendo arrojado a la basura. | Snap zoom al rodillo inservible. | Voz Cliente (es-US-Neural2-C): 'Por qué los rodillos adhesivos de papel son el peor gasto para dueños de mascotas...' | [SFX: TRASH_SLAM] | 'DINERO PERDIDO' en rojo sangre |
-| **1.2 - 2.0s** | El gato sacudiéndose y soltando otra nube de pelos sobre la ropa recién despeluzada. | Cámara lenta dramática. | Voz Creador (es-US-Neural2-B): 'Gastas una fortuna en rollos que solo limpian la superficie sin quitar el pelo muerto de raíz.' | [SFX: VINE_BOOM] | 'NO VAN A LA RAÍZ' en naranja 3D |
-| **2.0 - 3.0s** | CONGELADO EN LA MONTAÑA DE ROLLOS DE PAPEL USADOS. | Pausa acústica de 1.0s de silencio total. | Silencio sepulcral. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
-| **3.0 - 4.5s** | Entrada del SteamFur Pro cepillando suavemente con micro-niebla calmante. | Beat Drop. Flash blanco y Speed Ramp no lineal. | Explota el track musical. | [SFX: BEAT_DROP + STEAM_HISS] | 'SOLUCIÓN DEFINITIVA' en titanio 3D |
-| **4.5 - 7.0s** | Demostración de masaje con las cerdas de silicona médica ultra-suaves. | Macro a la cara de placer del animal. | Voz Creador (es-US-Neural2-B): 'Cerdas de silicona que no arañan la piel y depósito para agua tibia o loción desenredante.' | [SFX: DING_SUCCESS] | 'SILICONA MÉDICA' en cian neón |
-| **7.0 - 10.0s** | Kit con cable de carga y dosificador de líquido aromático. | Zoom out suave. | Voz Creador (es-US-Neural2-B): 'Ahorra cientos de dólares en peluquería canina y felina. Pide el tuyo con garantía total.' | [SFX: BELL_CHIME] | 'GARANTÍA TOTAL' |
-
-##### 🪝 Gancho 4: Transformación Inmediata (Before vs After)
-*Transformación Inmediata: De la Lucha del Baño al Placer del Vapor*
-
-- **Voz Cliente (`es-US-Neural2-C`)**: *"De pasar 40 minutos persiguiendo a tu mascota con un cepillo que la estresa..."*
-- **Voz Creador (`es-US-Neural2-B`)**: *"A retirarle toda la capa muerta en 3 minutos mientras disfruta de un masaje de vapor."*
-
-| Tiempo (s) | Video & Composición Visual | Movimiento Remotion (Speed Ramp) | Pista de Audio / Voces Neural2 | SFX & Beat Drop | Tipografía 3D Flotante (Floating3DText) |
-|:---:|:---|:---|:---|:---|:---|
-| **0.0 - 1.2s** | Gato corriendo asustado debajo de la cama al ver un cepillo de alambre de metal agresivo. | Snap zoom al gato escondido con ojos asustados. | Voz Cliente (es-US-Neural2-C): 'De pasar 40 minutos persiguiendo a tu mascota con un cepillo que la estresa...' | [SFX: SAD_SCRATCH] | 'ESTRÉS TOTAL' en rojo |
-| **1.2 - 2.0s** | La misma mascota acostada panza arriba ronroneando mientras el SteamFur Pro la masajea. | Snap zoom a la escena de calma y ronroneo. | Voz Creador (es-US-Neural2-B): 'A retirarle toda la capa muerta en 3 minutos mientras disfruta de un masaje de vapor.' | [SFX: PURR_SOFT] | 'SPA EN CASA' en verde esmeralda 3D |
-| **2.0 - 3.0s** | CONGELADO EN EL CONTRASTE DE LA ESCENA ANTERIOR VS ACTUAL. | Silencio dramático riguroso de 1.0s. | Silencio absoluto. | [SFX: SILENCIO_TOTAL] | Cero texto en pantalla |
-| **3.0 - 4.5s** | Extracción en cámara lenta de una almohadilla compacta de pelo retirada de una sola pasada. | Beat Drop. Flash blanco y Speed Ramp dinámico (1.8x -> 0.18x). | Beat y bajo enérgico LiQWYD. | [SFX: BEAT_DROP + STEAM] | 'UNA SOLA PASADA' en oro 3D |
-| **4.5 - 7.0s** | El pelaje de la mascota queda suave, brillante y con un aroma fresco sin haberla bañado con agua. | Paneo suave a 60 fps. | Voz Creador (es-US-Neural2-B): 'Deja el pelo brillante como recién salido del groomer profesional sin una gota de estrés.' | [SFX: SHINE_CHIME] | 'BRILLO PROFESIONAL' en cian neón |
-| **7.0 - 10.0s** | Unboxing del cepillo con sus accesorios y caja regalo. | Zoom out final. | Voz Creador (es-US-Neural2-B): 'Stock de alta demanda. Pídelo hoy y recíbelo en 7 a 10 días en tu puerta.' | [SFX: CASH_REGISTER] | 'ENVÍO 7-10 DÍAS' |
-
-
----
-
-### 🏆 GANADOR #4: AeroForce X3™ — 130,000 RPM Violent Turbo Blower
+### 🏆 GANADOR #6: AeroForce X3™ — 130,000 RPM Cordless Jet Turbo Blower
 
 **Categoría / Nicho**: Automotive & Tactical Tools  
 **ID de Referencia**: `aeroforce-x3`  
-**Puntuación Compuesta**: **87.0 / 100** | **Estado**: `🏆 WINNER`  
-**Descripción**: Handheld micro-turbine jet fan with 130,000 RPM brushless motor delivering 52 m/s wind speed for contact-free car drying, detailing, and keyboard cleaning without swirl marks.
+**Puntuación Compuesta**: **80.0 / 100** | **Estado**: `🏆 WINNER`  
+**Descripción**: Handheld micro-turbine jet fan with 130,000 RPM brushless motor, 3 adjustable speed gears + Violent Turbo mode, detachable concentrator nozzle, and USB-C charging (CE/FCC/RoHS).
 
 #### Ficha Técnica y Desglose Financiero
 
 | Parámetro Financiero | Valor USD / % | Estándar Canónico Antigravity | Estado |
 |---|:---:|:---:|:---:|
-| **Costo de Proveedor** (CoGS) | $12.00 USD | Costo mayorista de fábrica | ✅ Verificado |
-| **Costo de Envío Tracked** | $4.80 USD | YunExpress Special Battery Line / CJPacket Sensitive (UN38.3) | ✅ Verificado |
-| **Landed Cost** (Costo Puesto) | $16.80 USD | CoGS + Flete internacional | ✅ Calculado |
+| **Costo de Proveedor** (CoGS) | $17.45 USD | Costo mayorista de fábrica | ✅ Verificado |
+| **Costo de Envío Tracked** | $1.99 USD | YunExpress Special Battery Line / CJPacket Sensitive (UN38.3) | ✅ Verificado |
+| **Landed Cost** (Costo Puesto) | $19.44 USD | CoGS + Flete internacional | ✅ Calculado |
 | **Precio de Venta Sugerido** (SRP) | $59.99 USD | Sweet spot de impulso ($29 – $69 USD) | ✅ Cumple R5 |
-| **Markup Multiplier** | **3.57x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
+| **Markup Multiplier** | **3.09x** | Mínimo requerido: $\ge 3.0\text{x}$ | ✅ SUPERADO |
 | **Comisión Pasarela** (Stripe 2.9% + $0.30) | $2.04 USD | Deducción automática por transacción | ✅ Incluido |
 | **Buffer de Reserva** (1.0%) | $0.60 USD | Fondo para imprevistos / chargebacks | ✅ Incluido |
-| **Beneficio Neto Limpio por Unidad** | **$40.55 USD** | Ganancia neta líquida operativa | ✅ Auditado |
-| **Margen Neto** (%) | **67.6%** | Mínimo requerido: $\ge 65.0\%$ | ✅ EXCELENTE |
+| **Beneficio Neto Limpio por Unidad** | **$37.91 USD** | Ganancia neta líquida operativa | ✅ Auditado |
+| **Margen Neto** (%) | **63.2%** | Mínimo requerido: $\ge 65.0\%$ | ⚠️ MARGINAL |
 
 #### Enlaces a Proveedores y Logística
 
@@ -449,7 +699,7 @@ A continuación se detallan los 4 guiones técnicos segundo a segundo bajo la pa
 - **Regla 1 (Visual WOW (0-3s))**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
 - **Regla 2 (Acute Pain / Passion)**: ✅ Score: 100.0/100 (Ponderado: 20.0 pts) — Aprobado
 - **Regla 3 (Retail Scarcity)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
-- **Regla 4 (Unit Economics & Markup)**: ✅ Score: 85.0/100 (Ponderado: 17.0 pts) — Aprobado
+- **Regla 4 (Unit Economics & Markup)**: ⚠️ Score: 50.0/100 (Ponderado: 10.0 pts) — Marginal
 - **Regla 5 (Ticket Range Sweet Spot)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
 - **Regla 6 (Zero Sizing / Fragility)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado
 - **Regla 7 (Fast Tracked Logistics)**: ✅ Score: 100.0/100 (Ponderado: 10.0 pts) — Aprobado

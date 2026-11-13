@@ -1265,24 +1265,25 @@
       '<p class="note">Guion segundo a segundo de cada gancho en el <a class="link" href="dossier_productos_ganadores.md" target="_blank" rel="noopener">dossier</a>. Para ideas reales, mira los <a class="link" href="' + esc(ytSearch(kw)) + '" target="_blank" rel="noopener">Shorts de «' + esc(kw) + '»</a>.</p>';
   }
 
-  /* ---------- checklist de lanzamiento (DSers -> Shopify) ---------- */
+  /* ---------- checklist de lanzamiento (Regla Canónica: Hunter -> Shopify -> DSers Mejor Proveedor -> Campaña) ---------- */
   function renderLaunch(r) {
     var body = $('launchBody');
     if (!r) { body.innerHTML = ''; $('launchProgress').innerHTML = ''; return; }
     var c = r.candidate, id = c.candidate_id, e = econ(r), kw = videoKw(c), v = vdOf(r), isSteamfur = id === 'steamfur-pro';
     var maxLanded = num(e.srp) ? (e.srp * (1 - 0.0349 - 0.01 - 0.6) - 0.49) / 1.15 : null; // costo puesto máximo para quedar en zona segura (>= 60%)
     var steps = [
-      ck(id, 'dsers', isSteamfur ? 'DSers + Judge.me + AliExpress Review Importer instalados (100% configurado)' : 'Buscarlo en DSers (Shopify)',
-        isSteamfur ? 'Plan Free conectado · Regla global US: AliExpress Standard Shipping guardada · Alertas por campana DSers.' : 'Busca por nombre o por imagen. DSers te muestra proveedores, precio y unidades disponibles.',
-        '<button type="button" class="btn sm" data-copytext="' + esc(kw) + '"><i data-lucide="copy"></i>Copiar «' + esc(kw) + '»</button><a class="btn sm ghost" href="' + esc(aliSearch(kw)) + '" target="_blank" rel="noopener noreferrer"><i data-lucide="search"></i>Ver en AliExpress</a>'),
-      ck(id, 'supplier', isSteamfur ? 'Proveedor AliExpress Choice mapeado y validado (Unmapped: 0 · 7,124 uds)' : 'Elegir proveedor AliExpress Choice con 100+ unidades',
-        isSteamfur ? 'Variante «green» → «Default Title» en Shopify · Costo real <b class="dm">$3.45 + $1.99 = $5.44 USD · 7,124 uds · AliExpress Selection Standard 10–16d</b> (Tracking activo).' : 'Choice = envío 7–12 días a EE. UU. Si el costo + envío pasa de <b class="dm">' + money(maxLanded) + '</b>, el margen sale de la zona segura.',
-        '<button type="button" class="btn sm" data-edit="' + esc(id) + '"><i data-lucide="pencil"></i>Anotar costo real</button>'),
-      ck(id, 'shopify', isSteamfur ? 'Publicado en Shopify a ' + money(e.srp) + ' (Free Shipping US · Tienda en Inglés)' : 'Publicarlo en Shopify a ' + money(e.srp),
-        isSteamfur ? 'Perfil general verificado (Free Shipping US) · Judge.me Product Reviews + AliExpress Review Importer instalados · Margen bruto ~$24.55 USD.' : 'Precio dentro del rango que mejor convierte ($29–$69). Importa fotos y variantes con DSers.'),
-      ck(id, 'store', 'Marcarlo «En mi tienda» aquí', 'Así el Hunter te avisa si debes mantenerlo o retirarlo según sus números.', storeSwitch(r, true))
+      ck(id, 'shopify', isSteamfur ? '1. Publicado en Shopify a ' + money(e.srp) + ' (Entrega 10–16 días en ficha del producto)' : '1. Crear producto en Shopify a ' + money(e.srp) + ' (con días de entrega por producto)',
+        isSteamfur ? 'Tienda Ralf & Co. en Inglés · Free Shipping US · Shipping Policy universal sin días fijos · Tiempo 10–16 días en descripción.' : 'El Hunter ya detectó la tendencia. Crea la ficha en Shopify y pon el estimado de entrega en la descripción individual del producto.'),
+      ck(id, 'dsers', isSteamfur ? '2. DSers conectado al mejor proveedor oficial (Unmapped: 0)' : '2. Abrir DSers y asociar al mejor proveedor (Unmapped: 0)',
+        isSteamfur ? 'DSers nos asoció al mejor proveedor Choice · Variante «Default Title» → «green» · Regla global US: AliExpress Standard Shipping.' : 'Abre DSers desde Shopify: deja que DSers te reenvíe al mejor proveedor de AliExpress Choice y mapea la variante (Unmapped: 0).',
+        '<button type="button" class="btn sm" data-copytext="' + esc(kw) + '"><i data-lucide="copy"></i>Copiar «' + esc(kw) + '»</button><a class="btn sm ghost" href="' + esc(aliSearch(kw)) + '" target="_blank" rel="noopener noreferrer"><i data-lucide="search"></i>Referencia AliExpress</a>'),
+      ck(id, 'supplier', isSteamfur ? '3. Costo real de DSers ($5.44 USD · 7,124 uds) + Reseñas Judge.me listas' : '3. Importar reseñas en Judge.me y anotar aquí el costo real de DSers',
+        isSteamfur ? 'Costo real en DSers: <b class="dm">$3.45 + $1.99 = $5.44 USD · 7,124 uds · AliExpress Selection Standard 10–16d</b> · Judge.me instalado.' : 'Importa las reseñas reales con Judge.me y anota aquí el costo + envío a EE. UU. que te dio DSers (máximo sugerido: <b class="dm">' + money(maxLanded) + '</b>).',
+        '<button type="button" class="btn sm" data-edit="' + esc(id) + '"><i data-lucide="pencil"></i>Anotar costo de DSers</button>'),
+      ck(id, 'store', '4. Marcarlo «En mi tienda» y pasar a la campaña de videos', 'Asegurado el producto en Shopify + DSers, márcalo aquí y pasa directo a lanzar los videos en las cuentas.', storeSwitch(r, true))
     ];
-    body.innerHTML = (v.code === 'DESCARTAR' ? '<p class="msg bad" style="margin-bottom:10px"><i data-lucide="circle-x"></i>Este producto está descartado por las reglas: no lo lances.</p>' : v.code === 'VIGILAR' ? '<p class="msg warn" style="margin-bottom:10px"><i data-lucide="eye"></i>Aún no es «Lanzar»: espera a que el mercado responda o pruébalo con poco.</p>' : '') +
+    body.innerHTML = '<p class="note" style="margin-bottom:10px"><b>Regla de Oro:</b> Hunter detecta el producto y la tendencia → vamos a Shopify → abrimos DSers para que nos asocie al mejor proveedor → aseguramos el producto y pasamos a los videos.</p>' +
+      (v.code === 'DESCARTAR' ? '<p class="msg bad" style="margin-bottom:10px"><i data-lucide="circle-x"></i>Este producto está descartado por las reglas: no lo lances.</p>' : v.code === 'VIGILAR' ? '<p class="msg warn" style="margin-bottom:10px"><i data-lucide="eye"></i>Aún no es «Lanzar»: espera a que el mercado responda o pruébalo con poco.</p>' : '') +
       '<div class="checks">' + steps.join('') + '</div>';
     renderProgress(r);
   }
@@ -1294,7 +1295,7 @@
   /* ---------- auditor de proveedor AliExpress (STS · 6 Reglas de Oro) & defensa Keep-it 50% ---------- */
   var STS_PRESETS = {
     'steamfur-pro':        { orders: 1250, rating: 4.8, choice: 'choice', photos: 65, days: 16, note: 'DSers Unmapped: 0 · Variante green → Default Title · $3.45 + $1.99 = $5.44 USD · 7,124 uds · AliExpress Selection Standard 10–16d · Free Shipping US + Judge.me + AliExpress Review Importer instalados' },
-    'prosmile-ultrasonic': { orders: 1420, rating: 4.8, choice: 'choice', photos: 80, days: 10, note: 'Proveedor Choice grado IPX6 · cabezales acero quirúrgico 304' },
+    'prosmile-ultrasonic': { orders: 1420, rating: 4.8, choice: 'choice', photos: 80, days: 12, note: 'Proveedor AFDEAL Life (CE) · 37 kHz reales · 450 mAh USB-C (carga 2h) · 5 modos y 9 niveles · tapa 3D UV · llave de apriete · Standard $34.99 / Pro $44.99' },
     'spinerelief-pro':     { orders: 950,  rating: 4.7, choice: 'choice', photos: 48, days: 11, note: 'Proveedor Choice tracción lumbar · transformador certificado UL' },
     'aeroforce-x3':        { orders: 1680, rating: 4.8, choice: 'choice', photos: 95, days: 10, note: 'Proveedor Choice motor brushless 130,000 RPM · chasis aluminio' }
   };
@@ -1341,6 +1342,64 @@
       '</div>' +
       '<p class="note" style="margin-top:6px">Fórmula canónica STS = Volumen(30%) + Rating(25%) + Choice(20%) + Fotos Reales(15%) + Margen(10%). Cambia cualquier número mientras miras un proveedor en DSers para saber al instante si sirve.</p>';
   }
+  var SHOPIFY_SHEETS = {
+    'steamfur-pro': {
+      title: 'SteamFur Pro™ — 3-in-1 Ultrasonic Mist Grooming & Massage Brush',
+      handle: 'steamfur-pro',
+      type: 'Pet Grooming & Deshedding',
+      tags: 'Pet Grooming, Cat Steam Brush, Dog Deshedding Brush, Ultrasonic Mist Brush, Best Seller, Free US Shipping',
+      compareAt: 59.99,
+      variants: 'Option Name: Title | Value: Default Title -> Mapped in DSers to Supplier SKU "green" (7,124 units in stock · Unmapped: 0)',
+      seedUrl: 'https://www.aliexpress.com/item/1005007791672610.html',
+      tier1Tip: 'make sure to charge it for 45 minutes with the included USB-C cable and fill the rear reservoir with standard tap water (never distilled water, as natural minerals activate the ultrasonic cool-mist sensor).',
+      description: 'Stop Fighting Loose Pet Hair & Stressful Bath Days.\n\nTraditional wire slicker brushes scratch sensitive skin and send static-charged fur flying across your living room. The SteamFur Pro™ 3-in-1 Ultrasonic Mist Brush uses a whisper-quiet cool water mist to neutralize static electricity on contact—lifting up to 90% of loose undercoat hair in a single gentle stroke while giving your cat or dog a soothing spa massage.\n\nWhy 12,000+ US Pet Parents Switched to SteamFur Pro™:\n• Zero Flying Hair (Ultrasonic Cool-Mist Tech): Micro-mist particles hydrate the coat and trap dander and loose fur directly inside the bristles—never in the air or on your couch.\n• 100% Safe, Cool-Touch Vapor: Uses room-temperature ultrasonic atomization (never hot steam), making it completely safe for anxious cats, puppies, and sensitive skin.\n• Soft Medical-Grade Silicone Bristles: Rounded massage nodes stimulate healthy skin circulation and turn grooming time into purring, stress-free bonding.\n• One-Click Self-Cleaning Release: Peel off the entire collected fur mat in 2 seconds flat and rinse clean.\n• Whisper-Quiet & USB-C Rechargeable: Under 35dB noise level so timid pets never flinch. Up to 7 days of grooming on a single 45-minute USB-C charge.\n\nWhat Is Included in the Box:\n• 1x SteamFur Pro™ 3-in-1 Ultrasonic Mist Brush\n• 1x Precision Water Refill Bottle\n• 1x USB-C Fast Charging Cable\n• 1x Quick-Start Pet Grooming Guide',
+      accordions: 'ACCORDION 1 — Materials & Care:\n• Body: High-impact ABS + Food/Medical-Grade Soft Silicone Bristles (BPA-Free & Pet-Safe).\n• Atomizer: Ultrasonic Cool-Mist Transducer (0% heat risk).\n• Care: Peel off hair pad after each session; wipe bristles with a damp cloth. Use standard tap water (optional: add 2 drops of leave-in pet conditioner).\n\nACCORDION 2 — Shipping & Returns:\n• Free Tracked US Shipping: Processed in 24–48 hours and delivered in 10–16 business days with live USPS / Last-Mile tracking.\n• 30-Day Stress-Free Guarantee: Try SteamFur Pro™ at home for 30 days. If your pet does not love it, our VIP US support team will make it right immediately.\n\nACCORDION 3 — Dimensions & Tech Specs:\n• Dimensions: 4.7" x 2.6" x 1.8" (120 x 65 x 45 mm) — Ergonomic 360° swivel grip.\n• Weight: 4.8 oz (135 g) ultra-lightweight.\n• Battery: Built-in 300mAh Lithium-Ion (USB-C rechargeable, ~60 mins continuous mist).',
+      seoTitle: 'SteamFur Pro™ | 3-in-1 Ultrasonic Pet Mist & Deshedding Brush – Ralf & Co.',
+      seoMeta: 'Trap 90% of loose pet hair with zero static. SteamFur Pro™ combines cool ultrasonic mist, soft silicone massage bristles, and 1-click cleaning. Free US Shipping.'
+    },
+    'prosmile-ultrasonic': {
+      title: 'UltraSmile Pro™ — 37kHz Smart Ultrasonic Tooth Scaler & Plaque Remover',
+      handle: 'prosmile-ultrasonic',
+      type: 'Oral Care & Dental Hygiene',
+      tags: 'Oral Care, Ultrasonic Tooth Cleaner, Plaque Remover, Tartar Calculus Scaler, LED Dental Tool, UV Sterilizer, Free US Shipping',
+      compareAt: 59.99,
+      variants: 'Option Name: Kit | Values: Standard Kit ($34.99 / Compare $59.99), Pro Kit with Extra Accessories ($44.99 / Compare $79.99) — Supplier: AFDEAL Life (CE) · Unmapped: 0',
+      seedUrl: 'https://www.aliexpress.com/item/1005005236582798.html',
+      tier1Tip: 'remember two essential steps before your first session: (1) Tighten the stainless steel tip firmly using the included mini metal wrench so it transmits the 37 kHz vibration properly, and charge it for a full 2 hours. (2) Thanks to the Smart Gum-Protection Chip, the transducer stays 100% silent in the air or when touching soft gums/skin, and ONLY vibrates when touching a hard surface (tooth enamel, tartar, or a ceramic coffee mug for testing)!',
+      description: 'Skip the $200 Dental Cleaning Bill—Erase Years of Stubborn Coffee, Tea & Tartar Buildup Safely at Home.\n\nDaily brushing and flossing keep your breath fresh, but they simply cannot break down hardened dental calculus or lift deep-set stains trapped between your teeth. The UltraSmile Pro™ Ultrasonic Tooth Scaler brings clinical-grade oral care straight to your bathroom mirror. Powered by true 37 kHz high-frequency acoustic resonance, it effortlessly shatters calcified plaque, tartar, and stubborn coffee, tea, wine, or smoke stains on contact—without a single scratch to your enamel or a pinch of pain to your gums.\n\nWhy Thousands of Americans Are Switching to UltraSmile Pro™:\n• Smart Gum-Protection Chip (Zero Pain, Zero Bleeding): Engineered with intelligent tissue-recognition technology. The ultrasonic tip stays 100% silent in the air and automatically stops vibrating the instant it touches soft gums, lips, or tongue—activating ONLY when it detects hard tooth enamel or tartar calculus.\n• True 37 kHz Ultrasonic Resonance: Delivers millions of microscopic acoustic pulses per minute to pulverize hardened tartar and interdental buildup that manual brushes and water flossers leave behind.\n• 5 Specialized Cleaning Modes & 9 Intensity Levels: Customize your session from Soft (for sensitive teeth and beginners) through Normal, Clean, and Strong, all the way to Super (for heavy smokers\' stains and stubborn calculus).\n• Built-In HD LED Spotlight: Automatically illuminates dark back molars and hidden gumline crevices so you never clean blind.\n• Automatic UV-C Light Sterilization Cap: Features a 3D dust cover with built-in UV light that automatically sanitizes the stainless steel tip while charging, keeping your tool 99.9% germ-free between sessions.\n• Medical-Grade Build & 10-Minute Auto-Shutoff: Crafted from medical-grade ABS with an electrochemical electroplated finish, surgical stainless steel heads, and a smart 10-minute overheat protection timer.\n\n3 Trust Bullets (Below Add to Cart):\n• 🚚 Free Tracked U.S. Shipping (Delivered in 7–12 Business Days via USPS)\n• 🛡️ 30-Day Smile Satisfaction Guarantee — Risk-Free Trial & Easy Returns\n• 🦷 Smart Gum-Safe Sensor — Only Vibrates on Hard Tartar, Never on Soft Gums',
+      accordions: 'TAB 1 — How to Use & Quick Start Guide:\n1. Full Initial Charge (Crucial): Charge your device for a full 2 hours using the included USB-C cable before turning it on for the first time. Notice how the UV sterilizer light inside the 3D cap automatically sanitizes the tip while charging.\n2. Lock the Tip Tightly with the Wrench: Choose either the Flat Head (for surface stains) or the Pointed Head (for between teeth) and tighten it firmly using the included mini metal wrench. The tip must be locked tight to transmit the 37 kHz ultrasonic waves properly.\n3. Why Doesn\'t It Vibrate in the Air? Because of the Smart Gum-Protection Chip! When you turn it on, it will NOT vibrate or buzz in the air or on your fingers/gums. Touch the tip gently to a hard tooth surface (or test it on a ceramic coffee mug) to feel the instant 37 kHz ultrasonic resonance.\n4. Clean & Rinse: Select your preferred mode (start on Soft) and glide the tip gently over tartar or stains—let the ultrasonic frequency do the work without pressing hard. Rinse your mouth thoroughly and brush your teeth afterward to wash away dissolved tartar mixed with saliva.\n\nTAB 2 — What\'s in the Box & Specs:\nWhat\'s Included in Your Kit:\n• 1x UltraSmile Pro™ 37 kHz Ultrasonic Handpiece (with Built-In HD LED Light)\n• 1x Pointed Stainless Steel Cleaning Head (for interdental gaps & gumline tartar)\n• 1x Flat Stainless Steel Cleaning Head (for surface coffee, tea & tobacco stains)\n• 1x Precision Metal Tightening Wrench\n• 1x 3D Protective Dust Cap with Automatic UV Sterilizer\n• 1x USB Type-C Charging Cable & User Manual\n*(Pro Kit ($44.99) includes extra replacement stainless steel heads & dental mirror accessory set).*\n\nTechnical Specifications:\n• Ultrasonic Frequency: True 37 kHz High-Frequency Acoustic Resonance\n• Modes & Intensity: 5 Cleaning Modes (Soft, Normal, Clean, Strong, Super) + 9 Adjustable Intensity Levels\n• Battery & Power: 450 mAh Rechargeable Lithium Battery · USB Type-C (5V/1A, 3.7V, 300 mA, 2.0W)\n• Materials: Medical-Grade ABS + Electrochemical Electroplating + Surgical Stainless Steel Tips\n• Safety Features: Smart Gum Protection Chip + 10-Minute Auto-Shutoff Overheat Protection + UV Charging Sterilization\n• Certifications: CE Certified\n\nTAB 3 — Safety & Smart Sensor Technology:\nIs It Safe for My Enamel and Gums?\nYes—100%. Traditional metal dental picks can slip and gouge your gums, while abrasive charcoal powders wear down healthy enamel. UltraSmile Pro™ uses intelligent high-frequency acoustic impedance recognition (Smart Gum Protection Chip):\n• Zero Soft-Tissue Damage: Soft tissues like your gums, tongue, and inner cheeks absorb acoustic waves. The moment the tip touches your gums, the microchip cuts ultrasonic oscillation in milliseconds—making accidental slips completely painless.\n• Enamel-Safe Calibration: At 37 kHz, the microscopic vibrations are calibrated to shatter brittle, calcified plaque and tartar bonds without scratching healthy tooth enamel (which is the hardest mineral substance in the human body).\n• Built-In Thermal Cutoff: Automatically powers down after 10 minutes of continuous use to prevent overheating and ensure long-term motor durability.',
+      seoTitle: 'UltraSmile Pro™ | 37kHz Smart Ultrasonic Tooth Scaler & Plaque Remover – Ralf & Co.',
+      seoMeta: 'Erase stubborn coffee stains, plaque & tartar safely at home. UltraSmile Pro™ features 37kHz resonance, Smart Gum-Safe Sensor, LED light & UV sterilization.'
+    },
+    'spinerelief-pro': {
+      title: 'SpineRelief Pro™ — Inflatable Lumbar Traction Belt',
+      handle: 'spinerelief-pro',
+      type: 'Health, Posture & Back Relief',
+      tags: 'Back Pain Relief, Inflatable Lumbar Traction Belt, Sciatica Relief, Spinal Decompression Belt, Posture Support, Free US Shipping',
+      compareAt: 89.99,
+      variants: 'Option Name: Size | Values: Universal Fit (29"–49" Waist · Extension Belt Included) — CRITICAL: Use DSers Supplier Optimizer to map an AliExpress Choice Supplier with Stock >= 500 uds · Unmapped: 0',
+      seedUrl: 'https://www.aliexpress.com/item/1005006626002554.html',
+      tier1Tip: 'make sure to tighten the brass air-release valve screw clockwise on the hand pump nozzle before pumping, wrap the uninflated belt snugly right above your hip bones, and pump until the 24 vertical air columns expand to 7.9 inches (up to the green comfort zone on the pressure gauge). Wear it for 15–20 minutes on Day 1 while standing, walking, or driving!',
+      description: 'Decompress Pinched Lower-Back Nerves in 15 Minutes—While You Walk, Drive, or Work.\n\nStandard elastic back braces only squeeze your stomach without lifting the crushing weight off your lower spine. The SpineRelief Pro™ Inflatable Lumbar Traction Belt uses 24 vertical H-shaped pneumatic air columns that expand vertically from 5.1" to 7.9" when inflated—physically lifting your upper torso weight off your L1–L5 lumbar discs to open up 3mm of intervertebral space and relieve sciatic and lower-back pressure almost instantly.\n\nWhy Desk Workers, Drivers & Seniors Love SpineRelief Pro™:\n• Vertical 360° Pneumatic Decompression (2.5 Bar Clinical Lift): Expands vertically by 2.8 inches to gently stretch tight paraspinal muscles and take mechanical load off pinched L1–L5 nerves.\n• 26° Bionic C-Curve Posture Support: Locks your lower spine into its natural anatomical curve so you cannot slouch while sitting at a desk or driving long shifts.\n• 100% Wearable & Cordless (Zero Wires or Batteries): Slim, lightweight profile fits comfortably over or under a T-shirt while walking the dog, doing chores, working, or relaxing on the couch.\n• Universal Fit for 29" to 49" Waists: Includes a heavy-duty Velcro waist extension pad in every box—zero sizing guesswork.\n• High-Pressure Hand Pump with Safety Gauge: Inflates in 30 seconds flat with an automatic pressure-limiting valve to prevent over-inflation.\n\nWhat Is Included in the Box:\n• 1x SpineRelief Pro™ 24-Column Inflatable Lumbar Traction Belt\n• 1x Dual-Action Manual Air Pump with Clip-On Brass Nozzle & Pressure Gauge\n• 1x Detachable Waist Extension Belt (Expands Fit up to 49" / 125 cm)\n• 1x Travel Storage Bag & Illustrated Decompression User Manual',
+      accordions: 'ACCORDION 1 — Materials & Care:\n• Outer Layer: Soft, breathable PU leather exterior + skin-friendly cotton-blend inner lining.\n• Air Core: 24 high-pressure TPU pneumatic vertical air columns (puncture-resistant, rated up to 2.5 bar).\n• Care: Deflate completely after use by unscrewing the brass release valve; wipe clean with a damp cloth (do not machine wash or submerge in water).\n\nACCORDION 2 — Shipping & Returns:\n• Free Tracked US Shipping: Dispatched within 24–48 hours via Choice Priority Air with live USPS / Last-Mile tracking (10–15 business days across the US).\n• 30-Day Back Relief Guarantee: Try SpineRelief Pro™ for 30 days risk-free. Includes the waist extension pad so it is guaranteed to fit.\n\nACCORDION 3 — Dimensions & Tech Specs:\n• Waist Fit Range: 29" to 49" (73 cm – 125 cm) with included extension pad.\n• Vertical Expansion: 5.1" (13 cm) uninflated → 7.9" (20 cm) fully inflated (+2.8" vertical traction lift).\n• Weight: 1.15 lb (520 g) complete kit · Zero batteries or wall outlets required.',
+      seoTitle: 'SpineRelief Pro™ | Inflatable Lumbar Traction & Decompression Belt – Ralf & Co.',
+      seoMeta: 'Relieve lower back stiffness and sciatic nerve pressure while you walk or work. SpineRelief Pro™ expands vertically to decompress L1-L5 discs. Fits 29"-49" waists.'
+    },
+    'aeroforce-x3': {
+      title: 'AeroForce X3™ — 130,000 RPM Violent Turbo Blower',
+      handle: 'aeroforce-x3',
+      type: 'Tech Gadgets & Car Detailing',
+      tags: 'Jet Dry Mini Blower, Compressed Air Duster, 130000 RPM Turbo Fan, Keyboard Cleaner, Car Detailing Dryer, Free US Shipping',
+      compareAt: 99.99,
+      variants: 'Option Name: Kit Bundle | Values: AeroForce X3 Pro Kit (Magnetic Nozzles + Storage Case) - Matte Black, AeroForce X3 Pro Kit - Space Gray (Map 100% in DSers to Choice SKUs with Stock >= 100 uds · Unmapped: 0)',
+      seedUrl: 'https://www.aliexpress.com/item/1005009719197258.html',
+      tier1Tip: 'to unlock Level 3 Violent Overdrive Mode (130,000 RPM / 52 m/s), first double-tap the power button to turn on Speed 1, or press-and-hold the front trigger directly for instant max-thrust burst mode! Also ensure it is fully charged with a standard 5V/2A USB-C adapter before your first test.',
+      description: 'Never Buy Another $9 Can of Frozen Compressed Air Again.\n\nDisposable canned air loses pressure in 10 seconds, sprays freezing liquid propellant onto expensive electronics, and costs $150+ a year to replace. The pocket-sized AeroForce X3™ Violent Turbo Blower packs a 130,000 RPM aerospace-grade brushless motor that unleashes a >52 m/s (116 MPH) super-typhoon jet stream—blasting dust out of gaming PCs, mechanical keyboards, car vents, camera lenses, and wet side mirrors in seconds.\n\nWhy Tech Enthusiasts & Car Detailers Call AeroForce X3™ a Must-Have:\n• 130,000 RPM Brushless CNC Turbine (>52 m/s Wind Speed): Generates up to 180g of concentrated wind pressure—strong enough to dry car grilles, blow water out of door seams, clear light snow, or ignite campfires in seconds.\n• Snap-On Magnetic Precision Nozzles: Direct concentrated high-velocity airflow into tight keyboard switches, PC radiators, power tool vents, and car interior crevices.\n• 3-Speed Control + Instant Overdrive Trigger: Switch effortlessly from a gentle breeze for delicate electronics to full 130,000 RPM hurricane force.\n• Zero Liquid Frost & 100% Eco-Reusable: Safe to spray at any angle (even upside down) with zero chemical residue and 500+ recharge cycles.\n• Dual 4,000mAh High-Discharge 21700 Battery & USB-C Fast Charge: Up to 2.5–4 hours of runtime on Low gear with built-in 150°C smart thermal protection.\n\nWhat Is Included in the Box:\n• 1x AeroForce X3™ 130,000 RPM Brushless Violent Turbo Blower\n• 2x Magnetic Concentrator & Precision Air Nozzles + 1x Anti-Static Detailing Brush\n• 1x USB-C Fast Charging Cable\n• 1x Hard EVA Storage Case & User Manual',
+      accordions: 'ACCORDION 1 — Materials & Care:\n• Motor: High-speed 3-Phase CNC Brushless Turbine (130,000 RPM max, 13-blade CNC metal aerospace fan).\n• Body: Heat-resistant composite ABS/PC shell with magnetic nozzle mount.\n• Care: Keep the rear air intake grille clear of loose hair or fabric during operation; wipe exterior with a dry microfiber cloth.\n\nACCORDION 2 — Shipping & Returns:\n• Free Tracked US Shipping: Dispatched within 24–48 hours via Dedicated Battery-Safe Air Line with live USPS / Last-Mile tracking (10–15 business days across the US).\n• 30-Day Power Guarantee: Backed by our 30-Day Risk-Free Trial and dedicated US support.\n\nACCORDION 3 — Dimensions & Tech Specs:\n• Max Wind Velocity: >52 m/s (116 MPH) · Wind Pressure: ~180g · Motor Speed: 130,000 RPM.\n• Battery: Dual 21700 High-Rate Lithium Cells (4,000mAh total, 15W USB-C fast charging).\n• Dimensions: 5.6" x 3.6" x 1.5" (143 x 93 x 39 mm) · Weight: 0.65 lb (295 g).',
+      seoTitle: 'AeroForce X3™ | 130,000 RPM Violent Turbo Blower & Air Duster – Ralf & Co.',
+      seoMeta: 'Replace disposable canned air forever. AeroForce X3™ delivers 130,000 RPM (52 m/s) brushless jet power for gaming PCs, keyboards & car detailing. Free US Shipping.'
+    }
+  };
   function renderDefense(r) {
     var body = $('defenseBody');
     if (!r) { body.innerHTML = ''; return; }
@@ -1348,9 +1407,41 @@
     var srp = num(e.srp) ? e.srp : 29.99, landed = num(e.landed) ? e.landed : 8.27, gw = srp * 0.0349 + 0.49;
     var keepItNet = (srp * 0.50) - landed - gw;
     var fullRefundLoss = -(landed + gw);
-    var tier1Msg = 'Hi there! Thank you for reaching out to ' + sName + ' Support. Quick tip: for maximum output on your ' + sName + ', make sure to charge it for 45 minutes with a standard 5V USB cable and fill the tank with warm tap water (never distilled water, as minerals activate the ultrasonic mist sensor). Let us know if that solves it right away!';
-    var tier2Msg = 'Hi! Since your satisfaction means everything to us, you do NOT need to pack or ship the item back to our warehouse. As a VIP Keep-It Courtesy, we can issue an immediate 50% refund (' + money(srp * 0.5) + ' USD) back to your card today AND you keep the ' + sName + ' for free. Would you like us to process your 50% instant refund right now?';
-    var shopifyCopy = 'TITLE: ' + c.name + '\nPRICE: ' + money(srp) + ' USD (Compare at ' + money(srp * 1.65) + ' — Save 40% + Free US Tracked Shipping)\n\nWHY US CUSTOMERS LOVE IT:\n• Instant Visual Results in Seconds — Engineered to solve ' + (c.category || 'daily discomfort') + ' from the very first use.\n• Safe, Ergonomic & Built to Last — Premium materials tested for daily home use.\n• Fast 7-11 Business Day US Delivery with live USPS/Last-Mile tracking.\n• 30-Day Stress-Free Guarantee — VIP Customer Support included.';
+    var sheet = SHOPIFY_SHEETS[c.candidate_id] || {
+      title: c.name,
+      handle: c.candidate_id || 'winning-product',
+      type: c.category || 'Home & Lifestyle',
+      tags: (c.category || 'D2C') + ', Best Seller, Free US Shipping, Ralf & Co',
+      compareAt: Math.round(srp * 1.65 * 100) / 100,
+      variants: 'Option Name: Style | Values: Standard Pro Edition (All Choice SKUs Mapped · Unmapped: 0)',
+      seedUrl: c.source_url || 'https://www.aliexpress.com',
+      tier1Tip: 'make sure to charge it for 45 minutes with a standard 5V USB-C cable before first use for maximum output.',
+      description: 'Instant Visual Results From Day One.\n\nWhy US Customers Love ' + sName + ':\n• Engineered to solve ' + (c.category || 'daily discomfort') + ' in seconds from the comfort of home.\n• Safe, Ergonomic & Built to Last — Premium materials tested for daily household use.\n• Fast 7-11 Business Day US Delivery with live USPS/Last-Mile tracking.\n• 30-Day Stress-Free Guarantee — VIP Customer Support included.',
+      accordions: 'ACCORDION 1 — Materials & Care:\n• Premium durable ABS/Silicone construction. Wipe clean with a damp cloth.\n\nACCORDION 2 — Shipping & Returns:\n• Dispatched in 24-48h with live USPS tracking (7-11 business days US delivery) + 30-Day Guarantee.\n\nACCORDION 3 — Dimensions & Tech Specs:\n• Compact ergonomic design · USB-C Rechargeable.',
+      seoTitle: sName + ' | Official Store – Ralf & Co.',
+      seoMeta: 'Shop ' + c.name + ' at Ralf & Co. Instant results, 30-Day Guarantee & Free Tracked US Shipping.'
+    };
+    var tier1Msg = 'Hi there! Thank you for reaching out to ' + sName + ' VIP Support at Ralf & Co. Quick tip: ' + sheet.tier1Tip + ' Let us know if that solves it right away!';
+    var tier2Msg = 'Hi! Since your satisfaction means everything to us at Ralf & Co., you do NOT need to pack or ship the item back to our warehouse. As a VIP Keep-It Courtesy, we can issue an immediate 50% refund (' + money(srp * 0.5) + ' USD) back to your card today AND you keep the ' + sName + ' for free. Would you like us to process your 50% instant refund right now?';
+    var shopifyCopy =
+      '=== 1. SHOPIFY ADMIN (PRODUCTS -> EDIT) ===\n' +
+      'TITLE: ' + sheet.title + '\n' +
+      'URL HANDLE: /products/' + sheet.handle + '\n' +
+      'PRICE: ' + money(srp) + ' USD  |  COMPARE-AT PRICE: ' + money(sheet.compareAt) + ' USD (Save ' + Math.round((1 - srp / sheet.compareAt) * 100) + '%)\n' +
+      'CHARGE TAX: Unchecked (No)  |  TRACK QUANTITY: Checked  |  WEIGHT: 0.35 lb\n' +
+      'PRODUCT CATEGORY / TYPE: ' + sheet.type + '  |  VENDOR: Ralf & Co.\n' +
+      'TAGS: ' + sheet.tags + '\n' +
+      'VARIANTS (DSers Mapping): ' + sheet.variants + '\n\n' +
+      '=== 2. DESCRIPTION (PASTE IN SHOPIFY DESCRIPTION BOX) ===\n' +
+      sheet.description + '\n\n' +
+      '=== 3. SENSE THEME COLLAPSIBLE ROWS (3 ACCORDIONS) ===\n' +
+      sheet.accordions + '\n\n' +
+      '=== 4. SEARCH ENGINE LISTING (SEO) ===\n' +
+      'PAGE TITLE: ' + sheet.seoTitle + '\n' +
+      'META DESCRIPTION: ' + sheet.seoMeta + '\n\n' +
+      '=== 5. DSERS & JUDGE.ME ALIEXPRESS SEED URL ===\n' +
+      sheet.seedUrl;
+    var sidekickPrompt = 'Act as an expert D2C conversion copywriter for our store Ralf & Co. (Theme: Sense). Update this product with the exact Title "' + sheet.title + '", set Price to ' + money(srp) + ' USD and Compare-at Price to ' + money(sheet.compareAt) + ' USD, set Vendor to "Ralf & Co.", Type to "' + sheet.type + '", Tags to "' + sheet.tags + '", and format the Description with bold high-converting benefit bullets, a "What Is Included in the Box" checklist, and SEO Title "' + sheet.seoTitle + '".';
     var remotionSpec = JSON.stringify({
       product_id: c.candidate_id,
       brand: sName,
@@ -1371,10 +1462,14 @@
       '</div>' +
       '<div class="kit-box">' +
         '<div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px">' +
-          '<b style="font-size:12.5px;display:flex;align-items:center;gap:6px"><i data-lucide="shopping-bag" class="lime"></i>Kit D2C listo para copiar (Shopify Sense + Remotion 9:16)</b>' +
+          '<b style="font-size:12.5px;display:flex;align-items:center;gap:6px"><i data-lucide="shopping-bag" class="lime"></i>Kit D2C Ralf & Co. listo para copiar (Shopify Sense + DSers + Judge.me + Remotion)</b>' +
           '<div style="display:flex;flex-wrap:wrap;gap:6px">' +
-            '<button type="button" class="btn sm btn-lime" data-copytext="' + esc(shopifyCopy) + '"><i data-lucide="copy"></i>Copiar Ficha Shopify (EN)</button>' +
-            '<button type="button" class="btn sm" data-copytext="' + esc(remotionSpec) + '"><i data-lucide="film"></i>Copiar Blueprint Remotion</button>' +
+            '<button type="button" class="btn sm btn-lime" data-copytext="' + esc(shopifyCopy) + '"><i data-lucide="copy"></i>Copiar Ficha Completa (EN)</button>' +
+            '<button type="button" class="btn sm" data-copytext="' + esc(sheet.description) + '"><i data-lucide="file-text"></i>Solo Descripción</button>' +
+            '<button type="button" class="btn sm" data-copytext="' + esc(sheet.accordions) + '"><i data-lucide="list-collapse"></i>3 Acordeones Sense</button>' +
+            '<button type="button" class="btn sm" data-copytext="' + esc(sidekickPrompt) + '"><i data-lucide="sparkles"></i>Prompt Sidekick</button>' +
+            '<button type="button" class="btn sm" data-copytext="' + esc(sheet.seedUrl) + '"><i data-lucide="link"></i>URL AliExpress (DSers/Judge.me)</button>' +
+            '<button type="button" class="btn sm" data-copytext="' + esc(remotionSpec) + '"><i data-lucide="film"></i>Blueprint Remotion</button>' +
           '</div>' +
         '</div>' +
         '<pre class="kit-pre">' + esc(shopifyCopy) + '</pre>' +

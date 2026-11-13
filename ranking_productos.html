@@ -671,27 +671,27 @@
         <div class="kpi-grid">
             <div class="kpi-card">
                 <div class="kpi-label">Productos Prospectados</div>
-                <div class="kpi-value">4</div>
+                <div class="kpi-value">9</div>
                 <div class="kpi-subtext">Candidatos cosechados de redes (Candidates Evaluated)</div>
             </div>
             <div class="kpi-card">
                 <div class="kpi-label">Ganadores Aprobados (≥80 pts)</div>
-                <div class="kpi-value" style="color: var(--winner-color)">4</div>
-                <div class="kpi-subtext">Listos para vender hoy mismo (100%)</div>
+                <div class="kpi-value" style="color: var(--winner-color)">6</div>
+                <div class="kpi-subtext">Listos para vender hoy mismo (67%)</div>
             </div>
             <div class="kpi-card">
                 <div class="kpi-label">En Evaluación (65-79 pts)</div>
-                <div class="kpi-value" style="color: var(--contender-color)">0</div>
+                <div class="kpi-value" style="color: var(--contender-color)">1</div>
                 <div class="kpi-subtext">Candidato de respaldo secundario</div>
             </div>
             <div class="kpi-card">
                 <div class="kpi-label">Descartados (&lt;65 pts)</div>
-                <div class="kpi-value" style="color: var(--disqualified-color)">0</div>
+                <div class="kpi-value" style="color: var(--disqualified-color)">2</div>
                 <div class="kpi-subtext">Filtrados por bajo margen o fragilidad</div>
             </div>
             <div class="kpi-card">
                 <div class="kpi-label">Margen Neto Promedio</div>
-                <div class="kpi-value" style="color: var(--accent-blue)">68.9%</div>
+                <div class="kpi-value" style="color: var(--accent-blue)">66.3%</div>
                 <div class="kpi-subtext">Estándar Antigravity: ≥ 65%</div>
             </div>
         </div>
@@ -700,10 +700,10 @@
         <div class="controls-panel">
             <div class="controls-row-top">
                 <div class="filter-group">
-                    <button class="filter-btn active" data-filter="all">Todos (4)</button>
-                    <button class="filter-btn" data-filter="winners">🏆 Ganadores (4)</button>
-                    <button class="filter-btn" data-filter="contenders">⏳ En Evaluación (0)</button>
-                    <button class="filter-btn" data-filter="disqualified">❌ Descartados (0)</button>
+                    <button class="filter-btn active" data-filter="all">Todos (9)</button>
+                    <button class="filter-btn" data-filter="winners">🏆 Ganadores (6)</button>
+                    <button class="filter-btn" data-filter="contenders">⏳ En Evaluación (1)</button>
+                    <button class="filter-btn" data-filter="disqualified">❌ Descartados (2)</button>
                 </div>
                 <div class="search-sort-group">
                     <select class="niche-select" id="nicheSelect">
@@ -714,6 +714,11 @@
                         <option value="Automotive & Tactical Tools">Automotriz & Táctico</option>
                         <option value="Home Improvement">Hogar & Limpieza</option>
                         <option value="Home Decor">Decoración</option>
+                        <option value="Baby Care &amp; Parenting">Baby Care &amp; Parenting</option>
+                        <option value="Garden &amp; Outdoor Lighting">Garden &amp; Outdoor Lighting</option>
+                        <option value="Home &amp; Garment Care">Home &amp; Garment Care</option>
+                        <option value="Home Cleaning &amp; Tools">Home Cleaning &amp; Tools</option>
+                        <option value="Kitchen &amp; Meal Prep">Kitchen &amp; Meal Prep</option>
                     </select>
 
                     <input type="text" class="search-input" id="searchInput" placeholder="🔍 Buscar por nombre, dolor o nicho...">
@@ -746,46 +751,27 @@
                     </tr>
                 </thead>
                 <tbody id="productsTableBody">
-                    <tr class="product-row" data-tier="winner" data-category="Health &amp; Ergonomics" data-score="97.0" data-profit="37.75" data-margin="68.7" data-price="54.99" onclick="openProductModal('spinerelief-pro')">
+                    <tr class="product-row" data-tier="winner" data-category="Garden &amp; Outdoor Lighting" data-score="100.0" data-profit="21.24" data-margin="70.8" data-price="29.99" onclick="openProductModal('solarfirefly-pro')">
                         <td style="font-weight: 800; font-size: 15px; color: var(--winner-color)">#1</td>
                         <td><span class="tier-badge tier-winner">🏆 Ganador</span></td>
                         <td>
-                            <div class="product-title">SpineRelief Pro™ — Faja de Tracción Lumbar Neumática Clínica</div>
-                            <div class="product-category">Salud &amp; Ergonomía</div>
+                            <div class="product-title">SolarFirefly Pro™ — 10-LED Swaying Solar Firefly Garden Stake Light</div>
+                            <div class="product-category">Garden &amp; Outdoor Lighting</div>
                         </td>
                         <td>
                             <svg class="sparkline-svg">
-                                <polyline fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" points="5.0,28.0 20.0,25.4 35.0,20.1 50.0,17.5 65.0,13.9 80.0,9.7 95.0,6.0" />
+                                <polyline fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" points="5.0,28.0 20.0,24.2 35.0,18.5 50.0,14.7 65.0,10.9 80.0,8.3 95.0,6.0" />
                             </svg>
                         </td>
-                        <td class="money-cell" style="color: var(--muted-text);">$14.80</td>
-                        <td class="money-cell" style="color: #FFFFFF;">$54.99</td>
-                        <td class="money-cell profit-green">+$37.75 <span style="font-size: 11px; opacity: 0.8">(68.7%)</span></td>
-                        <td class="money-cell" style="color: var(--accent-blue);">3.72x</td>
+                        <td class="money-cell" style="color: var(--muted-text);">$7.28</td>
+                        <td class="money-cell" style="color: #FFFFFF;">$29.99</td>
+                        <td class="money-cell profit-green">+$21.24 <span style="font-size: 11px; opacity: 0.8">(70.8%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">4.12x</td>
                         <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 2: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 3: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 4: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
-                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('spinerelief-pro')">Ver Ficha 👁️</button></td>
+                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('solarfirefly-pro')">Ver Ficha 👁️</button></td>
                     </tr>
-                    <tr class="product-row" data-tier="winner" data-category="Dental Health &amp; Personal Care" data-score="90.0" data-profit="25.13" data-margin="71.8" data-price="34.99" onclick="openProductModal('prosmile-ultrasonic')">
+                    <tr class="product-row" data-tier="winner" data-category="Pet Supplies &amp; Home Care" data-score="90.0" data-profit="23.08" data-margin="77.0" data-price="29.99" onclick="openProductModal('steamfur-pro')">
                         <td style="font-weight: 800; font-size: 15px; color: var(--winner-color)">#2</td>
-                        <td><span class="tier-badge tier-winner">🏆 Ganador</span></td>
-                        <td>
-                            <div class="product-title">ProSmile Ultrasonic™ — Limpiador Dental de Sarro y Cálculo</div>
-                            <div class="product-category">Salud Dental &amp; Cuidado Personal</div>
-                        </td>
-                        <td>
-                            <svg class="sparkline-svg">
-                                <polyline fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" points="5.0,28.0 20.0,26.4 35.0,23.3 50.0,18.6 65.0,12.9 80.0,8.5 95.0,6.0" />
-                            </svg>
-                        </td>
-                        <td class="money-cell" style="color: var(--muted-text);">$8.20</td>
-                        <td class="money-cell" style="color: #FFFFFF;">$34.99</td>
-                        <td class="money-cell profit-green">+$25.13 <span style="font-size: 11px; opacity: 0.8">(71.8%)</span></td>
-                        <td class="money-cell" style="color: var(--accent-blue);">4.27x</td>
-                        <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 2: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 3: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 4: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
-                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('prosmile-ultrasonic')">Ver Ficha 👁️</button></td>
-                    </tr>
-                    <tr class="product-row" data-tier="winner" data-category="Pet Supplies &amp; Home Care" data-score="87.0" data-profit="20.25" data-margin="67.5" data-price="29.99" onclick="openProductModal('steamfur-pro')">
-                        <td style="font-weight: 800; font-size: 15px; color: var(--winner-color)">#3</td>
                         <td><span class="tier-badge tier-winner">🏆 Ganador</span></td>
                         <td>
                             <div class="product-title">SteamFur Pro™ — Cepillo de Vapor Iónico 3 en 1 para Mascotas</div>
@@ -796,15 +782,91 @@
                                 <polyline fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" points="5.0,28.0 20.0,24.3 35.0,18.8 50.0,15.2 65.0,10.4 80.0,7.8 95.0,6.0" />
                             </svg>
                         </td>
-                        <td class="money-cell" style="color: var(--muted-text);">$8.27</td>
+                        <td class="money-cell" style="color: var(--muted-text);">$5.44</td>
                         <td class="money-cell" style="color: #FFFFFF;">$29.99</td>
-                        <td class="money-cell profit-green">+$20.25 <span style="font-size: 11px; opacity: 0.8">(67.5%)</span></td>
-                        <td class="money-cell" style="color: var(--accent-blue);">3.63x</td>
+                        <td class="money-cell profit-green">+$23.08 <span style="font-size: 11px; opacity: 0.8">(77.0%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">5.51x</td>
                         <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 2: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 3: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 4: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
                         <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('steamfur-pro')">Ver Ficha 👁️</button></td>
                     </tr>
-                    <tr class="product-row" data-tier="winner" data-category="Automotive &amp; Tactical Tools" data-score="87.0" data-profit="40.55" data-margin="67.6" data-price="59.99" onclick="openProductModal('aeroforce-x3')">
+                    <tr class="product-row" data-tier="winner" data-category="Health &amp; Ergonomics" data-score="90.0" data-profit="33.56" data-margin="61.0" data-price="54.99" onclick="openProductModal('spinerelief-pro')">
+                        <td style="font-weight: 800; font-size: 15px; color: var(--winner-color)">#3</td>
+                        <td><span class="tier-badge tier-winner">🏆 Ganador</span></td>
+                        <td>
+                            <div class="product-title">SpineRelief Pro™ — Faja de Tracción Lumbar Neumática Clínica</div>
+                            <div class="product-category">Salud &amp; Ergonomía</div>
+                        </td>
+                        <td>
+                            <svg class="sparkline-svg">
+                                <polyline fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" points="5.0,28.0 20.0,25.4 35.0,20.1 50.0,17.5 65.0,13.9 80.0,9.7 95.0,6.0" />
+                            </svg>
+                        </td>
+                        <td class="money-cell" style="color: var(--muted-text);">$18.99</td>
+                        <td class="money-cell" style="color: #FFFFFF;">$54.99</td>
+                        <td class="money-cell profit-green">+$33.56 <span style="font-size: 11px; opacity: 0.8">(61.0%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">2.90x</td>
+                        <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 2: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 3: Aprobada">✓</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 4: Fallida">✗</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
+                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('spinerelief-pro')">Ver Ficha 👁️</button></td>
+                    </tr>
+                    <tr class="product-row" data-tier="winner" data-category="Baby Care &amp; Parenting" data-score="90.0" data-profit="24.90" data-margin="62.3" data-price="39.99" onclick="openProductModal('babyhalo-pro')">
                         <td style="font-weight: 800; font-size: 15px; color: var(--winner-color)">#4</td>
+                        <td><span class="tier-badge tier-winner">🏆 Ganador</span></td>
+                        <td>
+                            <div class="product-title">BabyHalo Pro™ — Whisper-Quiet USB Baby Nail Trimmer with Night LED</div>
+                            <div class="product-category">Baby Care &amp; Parenting</div>
+                        </td>
+                        <td>
+                            <svg class="sparkline-svg">
+                                <polyline fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" points="5.0,28.0 20.0,24.2 35.0,18.5 50.0,14.7 65.0,10.9 80.0,8.3 95.0,6.0" />
+                            </svg>
+                        </td>
+                        <td class="money-cell" style="color: var(--muted-text);">$13.23</td>
+                        <td class="money-cell" style="color: #FFFFFF;">$39.99</td>
+                        <td class="money-cell profit-green">+$24.90 <span style="font-size: 11px; opacity: 0.8">(62.3%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">3.02x</td>
+                        <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 2: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 3: Aprobada">✓</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 4: Fallida">✗</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
+                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('babyhalo-pro')">Ver Ficha 👁️</button></td>
+                    </tr>
+                    <tr class="product-row" data-tier="contender" data-category="Home &amp; Garment Care" data-score="82.0" data-profit="24.61" data-margin="61.5" data-price="39.99" onclick="openProductModal('luxeweave-pro')">
+                        <td style="font-weight: 800; font-size: 15px; color: var(--muted-text)">#5</td>
+                        <td><span class="tier-badge tier-contender">⏳ Evaluación</span></td>
+                        <td>
+                            <div class="product-title">LuxeWeave Pro™ — Smart LED Digital Electric Fabric Shaver &amp; Lint Remover</div>
+                            <div class="product-category">Home &amp; Garment Care</div>
+                        </td>
+                        <td>
+                            <svg class="sparkline-svg">
+                                <polyline fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" points="5.0,28.0 20.0,22.5 35.0,17.0 50.0,19.8 65.0,11.5 80.0,14.2 95.0,6.0" />
+                            </svg>
+                        </td>
+                        <td class="money-cell" style="color: var(--muted-text);">$13.52</td>
+                        <td class="money-cell" style="color: #FFFFFF;">$39.99</td>
+                        <td class="money-cell profit-green">+$24.61 <span style="font-size: 11px; opacity: 0.8">(61.5%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">2.96x</td>
+                        <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 2: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 3: Aprobada">✓</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 4: Fallida">✗</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 7: Fallida">✗</div></div></td>
+                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('luxeweave-pro')">Ver Ficha 👁️</button></td>
+                    </tr>
+                    <tr class="product-row" data-tier="winner" data-category="Dental Health &amp; Personal Care" data-score="80.0" data-profit="22.18" data-margin="63.4" data-price="34.99" onclick="openProductModal('prosmile-ultrasonic')">
+                        <td style="font-weight: 800; font-size: 15px; color: var(--muted-text)">#6</td>
+                        <td><span class="tier-badge tier-winner">🏆 Ganador</span></td>
+                        <td>
+                            <div class="product-title">ProSmile Ultrasonic™ — Limpiador Dental de Sarro y Cálculo</div>
+                            <div class="product-category">Salud Dental &amp; Cuidado Personal</div>
+                        </td>
+                        <td>
+                            <svg class="sparkline-svg">
+                                <polyline fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" points="5.0,28.0 20.0,26.4 35.0,23.3 50.0,18.6 65.0,12.9 80.0,8.5 95.0,6.0" />
+                            </svg>
+                        </td>
+                        <td class="money-cell" style="color: var(--muted-text);">$11.15</td>
+                        <td class="money-cell" style="color: #FFFFFF;">$34.99</td>
+                        <td class="money-cell profit-green">+$22.18 <span style="font-size: 11px; opacity: 0.8">(63.4%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">3.14x</td>
+                        <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 2: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 3: Aprobada">✓</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 4: Fallida">✗</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
+                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('prosmile-ultrasonic')">Ver Ficha 👁️</button></td>
+                    </tr>
+                    <tr class="product-row" data-tier="winner" data-category="Automotive &amp; Tactical Tools" data-score="80.0" data-profit="37.91" data-margin="63.2" data-price="59.99" onclick="openProductModal('aeroforce-x3')">
+                        <td style="font-weight: 800; font-size: 15px; color: var(--muted-text)">#7</td>
                         <td><span class="tier-badge tier-winner">🏆 Ganador</span></td>
                         <td>
                             <div class="product-title">AeroForce X3™ — Soplador Turbina de 130,000 RPM</div>
@@ -815,12 +877,50 @@
                                 <polyline fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" points="5.0,28.0 20.0,25.1 35.0,18.5 50.0,14.7 65.0,11.4 80.0,8.1 95.0,6.0" />
                             </svg>
                         </td>
-                        <td class="money-cell" style="color: var(--muted-text);">$16.80</td>
+                        <td class="money-cell" style="color: var(--muted-text);">$19.44</td>
                         <td class="money-cell" style="color: #FFFFFF;">$59.99</td>
-                        <td class="money-cell profit-green">+$40.55 <span style="font-size: 11px; opacity: 0.8">(67.6%)</span></td>
-                        <td class="money-cell" style="color: var(--accent-blue);">3.57x</td>
-                        <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 2: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 3: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 4: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
+                        <td class="money-cell profit-green">+$37.91 <span style="font-size: 11px; opacity: 0.8">(63.2%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">3.09x</td>
+                        <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 2: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 3: Aprobada">✓</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 4: Fallida">✗</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
                         <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('aeroforce-x3')">Ver Ficha 👁️</button></td>
+                    </tr>
+                    <tr class="product-row" data-tier="disqualified" data-category="Home Cleaning &amp; Tools" data-score="0.0" data-profit="25.61" data-margin="51.2" data-price="49.99" onclick="openProductModal('magneglide-pro')">
+                        <td style="font-weight: 800; font-size: 15px; color: var(--muted-text)">#8</td>
+                        <td><span class="tier-badge tier-disqualified">Descartado</span></td>
+                        <td>
+                            <div class="product-title">MagneGlide Pro™ — Double-Sided Magnetic Window Cleaner with Safety Rope</div>
+                            <div class="product-category">Home Cleaning &amp; Tools</div>
+                        </td>
+                        <td>
+                            <svg class="sparkline-svg">
+                                <polyline fill="none" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round" points="5.0,6.0 20.0,9.7 35.0,13.3 50.0,17.0 65.0,20.7 80.0,24.3 95.0,28.0" />
+                            </svg>
+                        </td>
+                        <td class="money-cell" style="color: var(--muted-text);">$22.13</td>
+                        <td class="money-cell" style="color: #FFFFFF;">$49.99</td>
+                        <td class="money-cell profit-green">+$25.61 <span style="font-size: 11px; opacity: 0.8">(51.2%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">2.26x</td>
+                        <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 2: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 3: Aprobada">✓</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 4: Fallida">✗</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
+                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('magneglide-pro')">Ver Ficha 👁️</button></td>
+                    </tr>
+                    <tr class="product-row" data-tier="disqualified" data-category="Kitchen &amp; Meal Prep" data-score="0.0" data-profit="25.13" data-margin="50.3" data-price="49.99" onclick="openProductModal('rapiddice-pro')">
+                        <td style="font-weight: 800; font-size: 15px; color: var(--muted-text)">#9</td>
+                        <td><span class="tier-badge tier-disqualified">Descartado</span></td>
+                        <td>
+                            <div class="product-title">RapidDice Pro™ — 16-in-1 Stainless Steel Vegetable Chopper &amp; Mandoline Slicer</div>
+                            <div class="product-category">Kitchen &amp; Meal Prep</div>
+                        </td>
+                        <td>
+                            <svg class="sparkline-svg">
+                                <polyline fill="none" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round" points="5.0,6.0 20.0,9.7 35.0,13.3 50.0,17.0 65.0,20.7 80.0,24.3 95.0,28.0" />
+                            </svg>
+                        </td>
+                        <td class="money-cell" style="color: var(--muted-text);">$22.61</td>
+                        <td class="money-cell" style="color: #FFFFFF;">$49.99</td>
+                        <td class="money-cell profit-green">+$25.13 <span style="font-size: 11px; opacity: 0.8">(50.3%)</span></td>
+                        <td class="money-cell" style="color: var(--accent-blue);">2.21x</td>
+                        <td><div class="rules-dots-container"><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 1: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 2: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 3: Aprobada">✓</div><div class="rule-dot dot-fail tooltip-rule-row" title="Regla 4: Fallida">✗</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 5: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 6: Aprobada">✓</div><div class="rule-dot dot-pass tooltip-rule-row" title="Regla 7: Aprobada">✓</div></div></td>
+                        <td><button class="btn-inspect" onclick="event.stopPropagation(); openProductModal('rapiddice-pro')">Ver Ficha 👁️</button></td>
                     </tr>
                 </tbody>
             </table>
@@ -916,84 +1016,28 @@
         // BASE DE DATOS DE CANDIDATOS
         const productsData = [
             {
-                        "id": "spinerelief-pro",
+                        "id": "solarfirefly-pro",
                         "rank": 1,
-                        "name": "SpineRelief Pro™ — Faja de Tracción Lumbar Neumática Clínica",
-                        "category": "Health &amp; Ergonomics",
-                        "categoryEs": "Salud &amp; Ergonomía",
+                        "name": "SolarFirefly Pro™ — 10-LED Swaying Solar Firefly Garden Stake Light",
+                        "category": "Garden &amp; Outdoor Lighting",
+                        "categoryEs": "Garden &amp; Outdoor Lighting",
                         "tier": "WINNER",
-                        "score": 97.0,
-                        "supplierCost": 10.0,
-                        "shippingCost": 4.8,
-                        "landedCost": 14.8,
-                        "srp": 54.99,
-                        "netProfit": 37.75,
-                        "marginPct": 68.7,
-                        "markup": "3.72x",
+                        "score": 100.0,
+                        "supplierCost": 5.29,
+                        "shippingCost": 1.99,
+                        "landedCost": 7.28,
+                        "srp": 29.99,
+                        "netProfit": 21.24,
+                        "marginPct": 70.8,
+                        "markup": "4.12x",
                         "trend": [
-                                    55,
-                                    60,
-                                    70,
+                                    40,
+                                    50,
+                                    65,
                                     75,
-                                    82,
-                                    90,
-                                    97
-                        ],
-                        "rules": [
-                                    true,
-                                    true,
-                                    true,
-                                    true,
-                                    true,
-                                    true,
-                                    true
-                        ],
-                        "wow": "La faja se ajusta y al presionar la bomba manual dos veces, las 24 columnas de aire se inflan verticalmente estirando el torso y separando las vértebras L1-L5 con alivio visual instantáneo.",
-                        "pain": "Dolor punzante de ciática, hernia discal o rigidez extrema que impide levantarse de la cama o manejar más de 20 minutos.",
-                        "supplierUrl": "https://www.aliexpress.com/item/1005006626002554.html",
-                        "hooks": [
-                                    {
-                                                "title": "🪝 1. Curiosidad Disruptiva",
-                                                "text": "¿Por qué los camioneros tienen prohibido manejar sin inflarse esto? Porque en 30 segundos separa tus vértebras 7 milímetros y libera el nervio ciático."
-                                    },
-                                    {
-                                                "title": "🪝 2. Agitación de Dolor Real",
-                                                "text": "Si levantarte de la cama o del auto te toma 5 minutos por ese ardor lumbar insoportable, tus vértebras están aplastando este nervio ahora mismo."
-                                    },
-                                    {
-                                                "title": "🪝 3. Ángulo Contrariano",
-                                                "text": "Por qué gastar $150 en fajas elásticas de farmacia empeora tu dolor de espalda: porque apretar tu abdomen no separa tus huesos comprimidos."
-                                    },
-                                    {
-                                                "title": "🪝 4. Transformación Inmediata",
-                                                "text": "De no poder atarte las zapatillas por el pinchazo de ciática a pasar 6 horas de pie sin un solo tirón lumbar."
-                                    }
-                        ],
-                        "carrier": "YunExpress Specialty Line"
-            },
-            {
-                        "id": "prosmile-ultrasonic",
-                        "rank": 2,
-                        "name": "ProSmile Ultrasonic™ — Limpiador Dental de Sarro y Cálculo",
-                        "category": "Dental Health &amp; Personal Care",
-                        "categoryEs": "Salud Dental &amp; Cuidado Personal",
-                        "tier": "WINNER",
-                        "score": 90.0,
-                        "supplierCost": 4.5,
-                        "shippingCost": 3.7,
-                        "landedCost": 8.2,
-                        "srp": 34.99,
-                        "netProfit": 25.13,
-                        "marginPct": 71.8,
-                        "markup": "4.27x",
-                        "trend": [
-                                    30,
-                                    35,
-                                    45,
-                                    60,
-                                    78,
+                                    85,
                                     92,
-                                    100
+                                    98
                         ],
                         "rules": [
                                     true,
@@ -1004,37 +1048,37 @@
                                     true,
                                     true
                         ],
-                        "wow": "La punta metálica toca suavemente una costra marrón de sarro y se desmorona en pedazos sólidos instantáneamente. Acto seguido toca un huevo crudo o un globo inflado sin romperlo, demostrando que es 100% inofensivo para encías.",
-                        "pain": "Vergüenza profunda de sonreír en fotos o citas por dientes amarillos y no tener $350 dólares para pagar una limpieza clínica cada 6 meses.",
-                        "supplierUrl": "https://www.aliexpress.com/item/1005005236582798.html",
+                        "wow": "10-LED swaying solar firefly garden stake light in Warm Golden White with flexible wind-responsive stems, IP65 all-weather waterproof rating, and automatic 8-12h dusk-to-dawn illumination.",
+                        "pain": "10-LED swaying solar firefly garden stake light in Warm Golden White with flexible wind-responsive stems, IP65 all-weather waterproof rating, and automatic 8-12h dusk-to-dawn illumination.",
+                        "supplierUrl": "https://www.aliexpress.us/item/3256805511371035.html",
                         "hooks": [
                                     {
                                                 "title": "🪝 1. Curiosidad Disruptiva",
-                                                "text": "¿Cómo es posible que esto rompa piedra dental pero no pueda reventar un globo inflado? Porque tiene un sensor acústico que solo se activa al tocar sarro mineral."
+                                                "text": "¿Cómo es posible solucionar esto en segundos? SolarFirefly Pro™ — 10-LED Swaying Solar Firefly Garden Stake Light"
                                     },
                                     {
                                                 "title": "🪝 2. Agitación de Dolor Real",
-                                                "text": "Si dejas de sonreír en las fotos porque te da vergüenza el sarro amarillo acumulado y no tienes $300 para el dentista, esto lo quita en 5 minutos en tu baño."
+                                                "text": "Si sufres con este problema todos los días: 10-LED swaying solar firefly garden stake light in Warm Golden White with flexible wind-responsive stems, IP65 all-weather waterproof rating, and automatic 8-12h dusk-to-dawn illumination."
                                     },
                                     {
                                                 "title": "🪝 3. Ángulo Contrariano",
-                                                "text": "Por qué cepillarte 3 veces al día jamás quitará el sarro duro de tus dientes: el sarro es piedra caliza sólida, el cepillo de cerdas solo le hace cosquillas."
+                                                "text": "Por qué lo que te dijeron antes sobre este problema no funciona."
                                     },
                                     {
                                                 "title": "🪝 4. Transformación Inmediata",
-                                                "text": "De tener 5 años de sarro y manchas de café pegadas a dejarlos con textura de seda y completamente limpios en 10 minutos."
+                                                "text": "De lidiar con la frustración a resolverlo hoy mismo."
                                     }
                         ],
-                        "carrier": "CJPacket Fast Line"
+                        "carrier": "AliExpress Selection Standard / USPS (~8 Business Days)"
             },
             {
                         "id": "steamfur-pro",
-                        "rank": 3,
+                        "rank": 2,
                         "name": "SteamFur Pro™ — Cepillo de Vapor Iónico 3 en 1 para Mascotas",
                         "category": "Pet Supplies &amp; Home Care",
                         "categoryEs": "Mascotas &amp; Cuidado del Hogar",
                         "tier": "WINNER",
-                        "score": 86.0,
+                        "score": 90.0,
                         "supplierCost": 3.45,
                         "shippingCost": 1.99,
                         "landedCost": 5.44,
@@ -1081,23 +1125,230 @@
                                                 "text": "De pasar 40 minutos persiguiendo a tu mascota con un cepillo que la estresa a retirarle toda la capa muerta en 3 minutos mientras disfruta de un spa de vapor."
                                     }
                         ],
-                        "carrier": "AliExpress Selection Standard (Tracking Available)"
+                        "carrier": "AliExpress Choice / USPS (7-12 Business Days)"
+            },
+            {
+                        "id": "spinerelief-pro",
+                        "rank": 3,
+                        "name": "SpineRelief Pro™ — Faja de Tracción Lumbar Neumática Clínica",
+                        "category": "Health &amp; Ergonomics",
+                        "categoryEs": "Salud &amp; Ergonomía",
+                        "tier": "WINNER",
+                        "score": 90.0,
+                        "supplierCost": 18.99,
+                        "shippingCost": 0.0,
+                        "landedCost": 18.99,
+                        "srp": 54.99,
+                        "netProfit": 33.56,
+                        "marginPct": 61.0,
+                        "markup": "2.90x",
+                        "trend": [
+                                    55,
+                                    60,
+                                    70,
+                                    75,
+                                    82,
+                                    90,
+                                    97
+                        ],
+                        "rules": [
+                                    true,
+                                    true,
+                                    true,
+                                    false,
+                                    true,
+                                    true,
+                                    true
+                        ],
+                        "wow": "La faja se ajusta y al presionar la bomba manual dos veces, las 24 columnas de aire se inflan verticalmente estirando el torso y separando las vértebras L1-L5 con alivio visual instantáneo.",
+                        "pain": "Dolor punzante de ciática, hernia discal o rigidez extrema que impide levantarse de la cama o manejar más de 20 minutos.",
+                        "supplierUrl": "https://www.aliexpress.com/item/1005006626002554.html",
+                        "hooks": [
+                                    {
+                                                "title": "🪝 1. Curiosidad Disruptiva",
+                                                "text": "¿Por qué los camioneros tienen prohibido manejar sin inflarse esto? Porque en 30 segundos separa tus vértebras 7 milímetros y libera el nervio ciático."
+                                    },
+                                    {
+                                                "title": "🪝 2. Agitación de Dolor Real",
+                                                "text": "Si levantarte de la cama o del auto te toma 5 minutos por ese ardor lumbar insoportable, tus vértebras están aplastando este nervio ahora mismo."
+                                    },
+                                    {
+                                                "title": "🪝 3. Ángulo Contrariano",
+                                                "text": "Por qué gastar $150 en fajas elásticas de farmacia empeora tu dolor de espalda: porque apretar tu abdomen no separa tus huesos comprimidos."
+                                    },
+                                    {
+                                                "title": "🪝 4. Transformación Inmediata",
+                                                "text": "De no poder atarte las zapatillas por el pinchazo de ciática a pasar 6 horas de pie sin un solo tirón lumbar."
+                                    }
+                        ],
+                        "carrier": "AliExpress Choice / USPS (7-12 Business Days)"
+            },
+            {
+                        "id": "babyhalo-pro",
+                        "rank": 4,
+                        "name": "BabyHalo Pro™ — Whisper-Quiet USB Baby Nail Trimmer with Night LED",
+                        "category": "Baby Care &amp; Parenting",
+                        "categoryEs": "Baby Care &amp; Parenting",
+                        "tier": "WINNER",
+                        "score": 90.0,
+                        "supplierCost": 3.24,
+                        "shippingCost": 9.99,
+                        "landedCost": 13.23,
+                        "srp": 39.99,
+                        "netProfit": 24.9,
+                        "marginPct": 62.3,
+                        "markup": "3.02x",
+                        "trend": [
+                                    40,
+                                    50,
+                                    65,
+                                    75,
+                                    85,
+                                    92,
+                                    98
+                        ],
+                        "rules": [
+                                    true,
+                                    true,
+                                    true,
+                                    false,
+                                    true,
+                                    true,
+                                    true
+                        ],
+                        "wow": "Whisper-quiet 3-speed USB rechargeable baby nail trimmer with soft cushioned grinding pads and built-in front night LED light for pinch-free newborn, infant, toddler, and adult nail care.",
+                        "pain": "Whisper-quiet 3-speed USB rechargeable baby nail trimmer with soft cushioned grinding pads and built-in front night LED light for pinch-free newborn, infant, toddler, and adult nail care.",
+                        "supplierUrl": "https://www.alibaba.com/product-detail/_1601985563057.html?channel=dropship&amp;src=dsers",
+                        "hooks": [
+                                    {
+                                                "title": "🪝 1. Curiosidad Disruptiva",
+                                                "text": "¿Cómo es posible solucionar esto en segundos? BabyHalo Pro™ — Whisper-Quiet USB Baby Nail Trimmer with Night LED"
+                                    },
+                                    {
+                                                "title": "🪝 2. Agitación de Dolor Real",
+                                                "text": "Si sufres con este problema todos los días: Whisper-quiet 3-speed USB rechargeable baby nail trimmer with soft cushioned grinding pads and built-in front night LED light for pinch-free newborn, infant, toddler, and adult nail care."
+                                    },
+                                    {
+                                                "title": "🪝 3. Ángulo Contrariano",
+                                                "text": "Por qué lo que te dijeron antes sobre este problema no funciona."
+                                    },
+                                    {
+                                                "title": "🪝 4. Transformación Inmediata",
+                                                "text": "De lidiar con la frustración a resolverlo hoy mismo."
+                                    }
+                        ],
+                        "carrier": "Alibaba Dropshipping Standard / USPS (~10 Business Days)"
+            },
+            {
+                        "id": "luxeweave-pro",
+                        "rank": 5,
+                        "name": "LuxeWeave Pro™ — Smart LED Digital Electric Fabric Shaver &amp; Lint Remover",
+                        "category": "Home &amp; Garment Care",
+                        "categoryEs": "Home &amp; Garment Care",
+                        "tier": "CONTENDER",
+                        "score": 82.0,
+                        "supplierCost": 3.18,
+                        "shippingCost": 10.34,
+                        "landedCost": 13.52,
+                        "srp": 39.99,
+                        "netProfit": 24.61,
+                        "marginPct": 61.5,
+                        "markup": "2.96x",
+                        "trend": [
+                                    50,
+                                    52,
+                                    54,
+                                    53,
+                                    56,
+                                    55,
+                                    58
+                        ],
+                        "rules": [
+                                    true,
+                                    true,
+                                    true,
+                                    false,
+                                    true,
+                                    true,
+                                    false
+                        ],
+                        "wow": "Smart LED digital electric fabric shaver and lint remover in Pearl White &amp; Rose Gold with 304 stainless-steel honeycomb guard, 5W rotary motor, and 5V USB charging.",
+                        "pain": "Smart LED digital electric fabric shaver and lint remover in Pearl White &amp; Rose Gold with 304 stainless-steel honeycomb guard, 5W rotary motor, and 5V USB charging.",
+                        "supplierUrl": "https://www.alibaba.com/product-detail/_1601456938669.html?channel=dropship&amp;src=dsers",
+                        "hooks": [],
+                        "carrier": "Alibaba Dropshipping Standard / USPS (~14-17 Business Days)"
+            },
+            {
+                        "id": "prosmile-ultrasonic",
+                        "rank": 6,
+                        "name": "ProSmile Ultrasonic™ — Limpiador Dental de Sarro y Cálculo",
+                        "category": "Dental Health &amp; Personal Care",
+                        "categoryEs": "Salud Dental &amp; Cuidado Personal",
+                        "tier": "WINNER",
+                        "score": 80.0,
+                        "supplierCost": 11.15,
+                        "shippingCost": 0.0,
+                        "landedCost": 11.15,
+                        "srp": 34.99,
+                        "netProfit": 22.18,
+                        "marginPct": 63.4,
+                        "markup": "3.14x",
+                        "trend": [
+                                    30,
+                                    35,
+                                    45,
+                                    60,
+                                    78,
+                                    92,
+                                    100
+                        ],
+                        "rules": [
+                                    true,
+                                    true,
+                                    true,
+                                    false,
+                                    true,
+                                    true,
+                                    true
+                        ],
+                        "wow": "La punta metálica toca suavemente una costra marrón de sarro y se desmorona en pedazos sólidos instantáneamente. Acto seguido toca un huevo crudo o un globo inflado sin romperlo, demostrando que es 100% inofensivo para encías.",
+                        "pain": "Vergüenza profunda de sonreír en fotos o citas por dientes amarillos y no tener $350 dólares para pagar una limpieza clínica cada 6 meses.",
+                        "supplierUrl": "https://www.aliexpress.com/item/1005005236582798.html",
+                        "hooks": [
+                                    {
+                                                "title": "🪝 1. Curiosidad Disruptiva",
+                                                "text": "¿Cómo es posible que esto rompa piedra dental pero no pueda reventar un globo inflado? Porque tiene un sensor acústico que solo se activa al tocar sarro mineral."
+                                    },
+                                    {
+                                                "title": "🪝 2. Agitación de Dolor Real",
+                                                "text": "Si dejas de sonreír en las fotos porque te da vergüenza el sarro amarillo acumulado y no tienes $300 para el dentista, esto lo quita en 5 minutos en tu baño."
+                                    },
+                                    {
+                                                "title": "🪝 3. Ángulo Contrariano",
+                                                "text": "Por qué cepillarte 3 veces al día jamás quitará el sarro duro de tus dientes: el sarro es piedra caliza sólida, el cepillo de cerdas solo le hace cosquillas."
+                                    },
+                                    {
+                                                "title": "🪝 4. Transformación Inmediata",
+                                                "text": "De tener 5 años de sarro y manchas de café pegadas a dejarlos con textura de seda y completamente limpios en 10 minutos."
+                                    }
+                        ],
+                        "carrier": "AliExpress Choice / USPS (7-12 Business Days)"
             },
             {
                         "id": "aeroforce-x3",
-                        "rank": 4,
+                        "rank": 7,
                         "name": "AeroForce X3™ — Soplador Turbina de 130,000 RPM",
                         "category": "Automotive &amp; Tactical Tools",
                         "categoryEs": "Automotriz &amp; Táctico",
                         "tier": "WINNER",
-                        "score": 87.0,
-                        "supplierCost": 12.0,
-                        "shippingCost": 4.8,
-                        "landedCost": 16.8,
+                        "score": 80.0,
+                        "supplierCost": 17.45,
+                        "shippingCost": 1.99,
+                        "landedCost": 19.44,
                         "srp": 59.99,
-                        "netProfit": 40.55,
-                        "marginPct": 67.6,
-                        "markup": "3.57x",
+                        "netProfit": 37.91,
+                        "marginPct": 63.2,
+                        "markup": "3.09x",
                         "trend": [
                                     45,
                                     52,
@@ -1111,7 +1362,7 @@
                                     true,
                                     true,
                                     true,
-                                    true,
+                                    false,
                                     true,
                                     true,
                                     true
@@ -1137,7 +1388,85 @@
                                                 "text": "De terminar de lavar tu coche y ver cómo el agua estancada te mancha los espejos a dejar cada rincón sellado y seco al 100% en 2 minutos."
                                     }
                         ],
-                        "carrier": "YunExpress Special Battery Line"
+                        "carrier": "AliExpress Selection Standard / USPS (7-12 Business Days)"
+            },
+            {
+                        "id": "magneglide-pro",
+                        "rank": 8,
+                        "name": "MagneGlide Pro™ — Double-Sided Magnetic Window Cleaner with Safety Rope",
+                        "category": "Home Cleaning &amp; Tools",
+                        "categoryEs": "Home Cleaning &amp; Tools",
+                        "tier": "DISQUALIFIED",
+                        "score": 0.0,
+                        "supplierCost": 18.85,
+                        "shippingCost": 3.28,
+                        "landedCost": 22.13,
+                        "srp": 49.99,
+                        "netProfit": 25.61,
+                        "marginPct": 51.2,
+                        "markup": "2.26x",
+                        "trend": [
+                                    40,
+                                    35,
+                                    30,
+                                    25,
+                                    20,
+                                    15,
+                                    10
+                        ],
+                        "rules": [
+                                    true,
+                                    true,
+                                    true,
+                                    false,
+                                    true,
+                                    true,
+                                    true
+                        ],
+                        "wow": "Double-sided triangular magnetic window cleaner with NdFeB magnets, natural latex squeegee blades, replaceable absorbent cotton fiber pads, and built-in anti-fall wrist safety tether.",
+                        "pain": "Double-sided triangular magnetic window cleaner with NdFeB magnets, natural latex squeegee blades, replaceable absorbent cotton fiber pads, and built-in anti-fall wrist safety tether.",
+                        "supplierUrl": "https://www.aliexpress.us/item/3256808888648441.html",
+                        "hooks": [],
+                        "carrier": "AliExpress Standard Shipping / USPS (~8 Business Days)"
+            },
+            {
+                        "id": "rapiddice-pro",
+                        "rank": 9,
+                        "name": "RapidDice Pro™ — 16-in-1 Stainless Steel Vegetable Chopper &amp; Mandoline Slicer",
+                        "category": "Kitchen &amp; Meal Prep",
+                        "categoryEs": "Kitchen &amp; Meal Prep",
+                        "tier": "DISQUALIFIED",
+                        "score": 0.0,
+                        "supplierCost": 20.62,
+                        "shippingCost": 1.99,
+                        "landedCost": 22.61,
+                        "srp": 49.99,
+                        "netProfit": 25.13,
+                        "marginPct": 50.3,
+                        "markup": "2.21x",
+                        "trend": [
+                                    40,
+                                    35,
+                                    30,
+                                    25,
+                                    20,
+                                    15,
+                                    10
+                        ],
+                        "rules": [
+                                    true,
+                                    true,
+                                    true,
+                                    false,
+                                    true,
+                                    true,
+                                    true
+                        ],
+                        "wow": "16-piece multifunctional vegetable chopper, press dicer, and mandoline slicer with 7 interchangeable 420 stainless steel blades, BPA-free catch container, inner colander basket, and safety hand guard.",
+                        "pain": "16-piece multifunctional vegetable chopper, press dicer, and mandoline slicer with 7 interchangeable 420 stainless steel blades, BPA-free catch container, inner colander basket, and safety hand guard.",
+                        "supplierUrl": "https://www.aliexpress.us/item/3256812837954949.html",
+                        "hooks": [],
+                        "carrier": "AliExpress Selection Standard / USPS (~7-8 Business Days)"
             }
 ];
 
