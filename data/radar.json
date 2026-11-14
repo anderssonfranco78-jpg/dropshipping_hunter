@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14 12:36:15 UTC",
+ "updated_at": "2026-11-14 21:44:28 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -2490,36 +2490,36 @@
   "magsafe-car-mount": {
    "youtube": {
     "keyword": "magnetic phone car mount",
-    "shorts_found": 30,
-    "median_views_top10": 364000,
-    "max_views": 6500000,
-    "over_100k": 13,
+    "shorts_found": 28,
+    "median_views_top10": 237000,
+    "max_views": 7200000,
+    "over_100k": 10,
     "over_1m": 1,
     "top": [
      {
-      "title": "Product Link in Comments ▶️ Metal Magnetic Secure Drive Car Phone Holder",
-      "views": 6500000,
-      "url": "https://www.youtube.com/shorts/ghnYxwHbxEs"
-     },
-     {
-      "title": "Best Car Phone Holder in 2024 - Must Watch Before Buying!",
-      "views": 957000,
-      "url": "https://www.youtube.com/shorts/RHIle89glL0"
+      "title": "Magnetic phone car mount magnet cell phone holder for dashboard| By Amazon ProBox",
+      "views": 7200000,
+      "url": "https://www.youtube.com/shorts/02-PNHwELa4"
      },
      {
       "title": "Vacuum Magnetic Phone Holder, 360° 📱 #shorts #youtubeshorts #fyp",
-      "views": 928000,
+      "views": 932000,
       "url": "https://www.youtube.com/shorts/Qv7yQ8GBP-Y"
      },
      {
       "title": "How to Mount a Phone in Car | Magnetic Phone Holder #magnet #phoneholdercar",
-      "views": 481000,
+      "views": 483000,
       "url": "https://www.youtube.com/shorts/sMwd-SMZ9ME"
      },
      {
-      "title": "The MUST-HAVE iPhone 17 Car Mount🚗 365° Rotatable MagSafe Holder",
-      "views": 393000,
-      "url": "https://www.youtube.com/shorts/tVWMnqc_Jbs"
+      "title": "Amazon Magnetic Car Phone Holder  Ultra Vacuum Suction  Secure and Convenient Mount",
+      "views": 336000,
+      "url": "https://www.youtube.com/shorts/VkSjcGiYJaE"
+     },
+     {
+      "title": "Car Magnetic Phone Holder Vacuum Suction Mount | Car Mobile Holder #shorts",
+      "views": 243000,
+      "url": "https://www.youtube.com/shorts/_rWlmzuxZfg"
      }
     ],
     "status": "LIVE"
@@ -2527,18 +2527,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 72,
-    "video_score": 94,
+    "score": 69,
+    "video_score": 89,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 364K vistas (el mayor, 6.5M)",
+     "Shorts: los 10 más vistos tienen una mediana de 237K vistas (el mayor, 7.2M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -20% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-13 13:30:53 UTC",
+   "measured_at": "2026-11-14 21:44:12 UTC",
    "trends": {
     "momentum_pct": -20.1,
     "low_volume": false,
@@ -2573,7 +2573,7 @@
     16,
     15
    ],
-   "trends_at": "2026-11-13 13:30:51 UTC",
+   "trends_at": "2026-11-13 13:30 UTC",
    "rising": [
     {
      "query": "car phone mount battery degradation",
@@ -2605,22 +2605,12 @@
   "magnetic-power-bank": {
    "youtube": {
     "keyword": "magnetic power bank",
-    "shorts_found": 31,
-    "median_views_top10": 243000,
-    "max_views": 4900000,
+    "shorts_found": 32,
+    "median_views_top10": 173500,
+    "max_views": 1400000,
     "over_100k": 9,
-    "over_1m": 3,
+    "over_1m": 1,
     "top": [
-     {
-      "title": "Apple IPHONE Transparent Magnetic Power Bank #shorts",
-      "views": 4900000,
-      "url": "https://www.youtube.com/shorts/gtvKitNX1dM"
-     },
-     {
-      "title": "Apple MagSafe Battery Pack Unboxing #Shorts",
-      "views": 2300000,
-      "url": "https://www.youtube.com/shorts/8CqhXC8MxlA"
-     },
      {
       "title": "Ugreen Magnetic PowerBank #bidzph #bidzphunbox #Ugreen #ugreenph #powerbank",
       "views": 1400000,
@@ -2628,13 +2618,23 @@
      },
      {
       "title": "This magnetic power bank changed how I charge forever#magneticpowerbank #magsafecharger #wireless",
-      "views": 615000,
+      "views": 620000,
       "url": "https://www.youtube.com/shorts/18OYm7Qf2Js"
      },
      {
       "title": "MAGNETIC Power Bank SECRETS REVEALED!",
       "views": 248000,
       "url": "https://www.youtube.com/shorts/e2WvQ9epYMo"
+     },
+     {
+      "title": "The slimmest MagSafe power bank of 2025 🔋 #LISEN",
+      "views": 240000,
+      "url": "https://www.youtube.com/shorts/kDCHxxJhV9E"
+     },
+     {
+      "title": "Ultra-thin wireless magnetic Power Bank Unboxing! #shorts",
+      "views": 186000,
+      "url": "https://www.youtube.com/shorts/y_1XoEK_XKQ"
      }
     ],
     "status": "LIVE"
@@ -2642,18 +2642,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 75,
-    "video_score": 90,
+    "score": 78,
+    "video_score": 86,
     "trend_score": 65,
-    "crowding": "media",
+    "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 243K vistas (el mayor, 4.9M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 174K vistas (el mayor, 1.4M)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): estable -2% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-13 13:31:02 UTC",
+   "measured_at": "2026-11-14 21:44:16 UTC",
    "trends": {
     "momentum_pct": -2.4,
     "low_volume": false,
@@ -2688,7 +2688,7 @@
     9,
     8
    ],
-   "trends_at": "2026-11-13 13:31:00 UTC",
+   "trends_at": "2026-11-13 13:31 UTC",
    "rising": [
     {
      "query": "xiaomi ultrathin magnetic power bank",
@@ -2720,10 +2720,10 @@
   "sunset-lamp": {
    "youtube": {
     "keyword": "sunset lamp",
-    "shorts_found": 30,
-    "median_views_top10": 246000,
+    "shorts_found": 31,
+    "median_views_top10": 250000,
     "max_views": 2100000,
-    "over_100k": 12,
+    "over_100k": 14,
     "over_1m": 1,
     "top": [
      {
@@ -2743,12 +2743,12 @@
      },
      {
       "title": "Sunset Lamp!☀️ | Meesho Finds | #sunsetlamp #meesho #aesthetic #sunset #viralvideo #shorts #foryou",
-      "views": 478000,
+      "views": 479000,
       "url": "https://www.youtube.com/shorts/KrKBaNSRGEU"
      },
      {
       "title": "Simple Light Setup with a sunset lamp #shorts #photography #filmmaking",
-      "views": 254000,
+      "views": 256000,
       "url": "https://www.youtube.com/shorts/5pGmsB6Lm2A"
      }
     ],
@@ -2763,12 +2763,12 @@
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 246K vistas (el mayor, 2.1M)",
+     "Shorts: los 10 más vistos tienen una mediana de 250K vistas (el mayor, 2.1M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -13% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-13 21:00:18 UTC",
+   "measured_at": "2026-11-14 21:44:20 UTC",
    "trends": {
     "momentum_pct": -13.0,
     "low_volume": false,
@@ -2803,7 +2803,7 @@
     24,
     27
    ],
-   "trends_at": "2026-11-13 21:00:16 UTC",
+   "trends_at": "2026-11-13 21:00 UTC",
    "rising": [
     {
      "query": "what time is sunset in la",
@@ -2835,21 +2835,21 @@
   "galaxy-projector": {
    "youtube": {
     "keyword": "galaxy projector",
-    "shorts_found": 28,
-    "median_views_top10": 754500,
-    "max_views": 11000000,
-    "over_100k": 13,
-    "over_1m": 5,
+    "shorts_found": 33,
+    "median_views_top10": 1550000,
+    "max_views": 63000000,
+    "over_100k": 14,
+    "over_1m": 8,
     "top": [
      {
-      "title": "Shop this galaxy night light from our profile link #nightlight #bedroomdecor #babyroom",
-      "views": 11000000,
-      "url": "https://www.youtube.com/shorts/dGB2MNBcoa0"
+      "title": "If you're afraid of the dark, you need this🥹✨🌌 #starprojector #relaxing #galaxy #night #cozyroom",
+      "views": 63000000,
+      "url": "https://www.youtube.com/shorts/anuiTHUyNmw"
      },
      {
-      "title": "Galaxy Projector 🌌✨",
-      "views": 6000000,
-      "url": "https://www.youtube.com/shorts/gYBHT0DxwFQ"
+      "title": "Every ADHD girl need this 🥹✨🌌 #starprojector #relaxing #galaxy #cozyroom #night",
+      "views": 10000000,
+      "url": "https://www.youtube.com/shorts/lviS-hwlQMc"
      },
      {
       "title": "Woah.. my room actually looks like outer space now?! 🌌✨ #projectorgalaxy #starprojector",
@@ -2862,9 +2862,9 @@
       "url": "https://www.youtube.com/shorts/H8vxFGcPVfI"
      },
      {
-      "title": "Best Galaxy Star Projector 2025 🌌🤍",
-      "views": 1000000,
-      "url": "https://www.youtube.com/shorts/a1IXrk7cxSE"
+      "title": "▶️ Galaxy Dream Projection Night Light – room turns into space ( # 3209 )",
+      "views": 1600000,
+      "url": "https://www.youtube.com/shorts/TvxnhOrZVFU"
      }
     ],
     "status": "LIVE"
@@ -2878,12 +2878,12 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 754K vistas (el mayor, 11M)",
-     "Competencia alta: 5 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 1.6M vistas (el mayor, 63M)",
+     "Competencia alta: 8 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -15% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-13 21:00:25 UTC",
+   "measured_at": "2026-11-14 21:44:24 UTC",
    "trends": {
     "momentum_pct": -14.6,
     "low_volume": false,
@@ -2918,7 +2918,7 @@
     18,
     18
    ],
-   "trends_at": "2026-11-13 21:00:23 UTC",
+   "trends_at": "2026-11-13 21:00 UTC",
    "rising": [
     {
      "query": "samsung galaxy s26",
@@ -2950,16 +2950,21 @@
   "sleep-headband": {
    "youtube": {
     "keyword": "sleep headphones headband",
-    "shorts_found": 33,
-    "median_views_top10": 34500,
-    "max_views": 965000,
-    "over_100k": 1,
+    "shorts_found": 29,
+    "median_views_top10": 52500,
+    "max_views": 966000,
+    "over_100k": 2,
     "over_1m": 0,
     "top": [
      {
       "title": "This Headband Calms Crying Babies Instantly",
-      "views": 965000,
+      "views": 966000,
       "url": "https://www.youtube.com/shorts/1U_YjYRs3Zw"
+     },
+     {
+      "title": "Why I regret buying a SnoozeBand 😴 #sleep #sleepheadphones #sleepmask",
+      "views": 734000,
+      "url": "https://www.youtube.com/shorts/gHOhZu5v6YQ"
      },
      {
       "title": "Would you try sleeping headphones?",
@@ -2968,18 +2973,13 @@
      },
      {
       "title": "Sleep & Train Like a Pro 🔥 2025 Bluetooth Headband Earphones Unboxed #techgadgets",
-      "views": 78000,
+      "views": 79000,
       "url": "https://www.youtube.com/shorts/qiOqRUph9oY"
      },
      {
       "title": "headband headphones  sleep headphon bluetooth sleep sport music  meditation",
       "views": 63000,
       "url": "https://www.youtube.com/shorts/OJWpFbquXzk"
-     },
-     {
-      "title": "Headband Bluetooth Sleeping Headphones 🌐 #bluetooth #sleepmusic #shorts #headband #headphones",
-      "views": 42000,
-      "url": "https://www.youtube.com/shorts/0OIeDrSR0oQ"
      }
     ],
     "status": "LIVE"
@@ -2987,18 +2987,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 57,
-    "video_score": 68,
+    "score": 60,
+    "video_score": 73,
     "trend_score": 40,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 34K vistas (el mayor, 965K)",
+     "Shorts: los 10 más vistos tienen una mediana de 52K vistas (el mayor, 966K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -15% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-13 21:00:28 UTC",
+   "measured_at": "2026-11-14 21:44:28 UTC",
    "trends": {
     "momentum_pct": -14.7,
     "low_volume": false,
@@ -3066,10 +3066,10 @@
    "youtube": {
     "keyword": "baby nail trimmer electric",
     "shorts_found": 28,
-    "median_views_top10": 1100000,
+    "median_views_top10": 1045500,
     "max_views": 2800000,
     "over_100k": 9,
-    "over_1m": 6,
+    "over_1m": 5,
     "top": [
      {
       "title": "How Can You Trim Your Baby's Nails Safely? Try Baby Nail Trimmer Electric!#Shorts",
@@ -3088,7 +3088,7 @@
      },
      {
       "title": "How to Safely Trim Your Baby's Nails? Baby Electric Nail Trimmer Unveiled!  #cutebaby",
-      "views": 1300000,
+      "views": 1400000,
       "url": "https://www.youtube.com/shorts/N3bTTBu7v90"
      },
      {
@@ -3108,47 +3108,47 @@
     "crowding": "alta",
     "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 1.1M vistas (el mayor, 2.8M)",
-     "Competencia alta: 6 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 1M vistas (el mayor, 2.8M)",
+     "Competencia alta: 5 Shorts pasan el millón de vistas",
      "Google: casi no se busca por nombre (normal en gadgets que se descubren en video)"
     ]
    },
-   "measured_at": "2026-11-13 21:00:28 UTC",
+   "measured_at": "2026-11-14 21:44:28 UTC",
    "trends": {
-    "momentum_pct": 4.5,
+    "momentum_pct": 10.1,
     "low_volume": true,
     "peak_ratio": 0.1,
-    "mean_recent": 9.8
+    "mean_recent": 10.0
    },
    "trends_series": [
-    56,
-    67,
     49,
-    42,
-    74,
-    52,
-    60,
+    68,
+    44,
+    54,
+    78,
+    59,
+    65,
+    24,
     19,
-    16,
-    14,
-    14,
-    22,
+    15,
     0,
-    17,
+    24,
+    0,
+    14,
+    14,
     13,
     18,
+    0,
+    0,
+    0,
     13,
-    0,
-    0,
-    0,
-    15,
-    0,
-    12,
-    15,
-    2,
-    10
+    13,
+    14,
+    14,
+    1,
+    11
    ],
-   "trends_at": "2026-11-13 20:59 UTC",
+   "trends_at": "2026-11-14 21:43 UTC",
    "rising": [
     {
      "query": "nail snail baby nail trimmer",
