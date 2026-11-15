@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-15 13:01:40 UTC",
+ "updated_at": "2026-11-15 22:11:19 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -218,36 +218,36 @@
   "lick-mat": {
    "youtube": {
     "keyword": "dog lick mat",
-    "shorts_found": 33,
-    "median_views_top10": 16500,
-    "max_views": 440000,
-    "over_100k": 2,
-    "over_1m": 0,
+    "shorts_found": 30,
+    "median_views_top10": 125000,
+    "max_views": 20000000,
+    "over_100k": 5,
+    "over_1m": 3,
     "top": [
      {
+      "title": "Enrichment Mat ASMR 🤍🎧 #ragdollcat #asmr #asmrsounds #catfeeding #catfood #enrichment #cats",
+      "views": 20000000,
+      "url": "https://www.youtube.com/shorts/isbwu_PjG7g"
+     },
+     {
+      "title": "Do you freeze your lick mats? 🧊😋 #thebkshop #shorts #lickmat",
+      "views": 2700000,
+      "url": "https://www.youtube.com/shorts/ECq1iK8lLqo"
+     },
+     {
+      "title": "Lick Mat for Dogs",
+      "views": 1400000,
+      "url": "https://www.youtube.com/shorts/uQEy41SwIRM"
+     },
+     {
       "title": "*ASMR* PUPPY LICK MAT! #asmr #restock #dog #petproducts #amazonstorefront",
-      "views": 440000,
+      "views": 441000,
       "url": "https://www.youtube.com/shorts/MYuszDwVx7A"
      },
      {
-      "title": "Raw lick mats for my dogs 🥩🥛👅 ASMR 🐕 #dog #shorts",
-      "views": 128000,
-      "url": "https://www.youtube.com/shorts/qsDBnYsiTnM"
-     },
-     {
-      "title": "Healthy lick mat recipe for my dogs 🐟👅🐕 #shorts",
-      "views": 77000,
-      "url": "https://www.youtube.com/shorts/8tG4rZZaEoE"
-     },
-     {
-      "title": "Lick mat for my puppy 🤎🐶 #puppy #dogtreats #dogparents #lickmat",
-      "views": 19000,
-      "url": "https://www.youtube.com/shorts/xjBhfVQ1Km0"
-     },
-     {
-      "title": "Perfect lick mat for any dog! #shorts #dachshund #lickmat #enrichment #dogenrichment #dogs",
-      "views": 19000,
-      "url": "https://www.youtube.com/shorts/MBO-h6SpZtM"
+      "title": "My dog's muddy paws are no longer my problem 😂 (link on our channel)",
+      "views": 170000,
+      "url": "https://www.youtube.com/shorts/WkTxBPtT7WQ"
      }
     ],
     "status": "LIVE"
@@ -289,19 +289,19 @@
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 62,
-    "video_score": 60,
+    "score": 70,
+    "video_score": 82,
     "trend_score": 65,
-    "crowding": "baja",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 16K vistas (el mayor, 440K)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Shorts: los 10 más vistos tienen una mediana de 125K vistas (el mayor, 20M)",
+     "Competencia media: 3 Shorts pasan el millón de vistas",
      "Google (EE. UU.): estable +5% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-14 03:44:34 UTC",
-   "trends_at": "2026-11-14 03:44:32 UTC",
+   "measured_at": "2026-11-15 22:11:08 UTC",
+   "trends_at": "2026-11-14 03:44 UTC",
    "rising": [
     {
      "query": "stainless steel lick mat",
@@ -321,20 +321,15 @@
   "laser-cat-toy": {
    "youtube": {
     "keyword": "automatic laser cat toy",
-    "shorts_found": 34,
-    "median_views_top10": 3200,
-    "max_views": 675000,
-    "over_100k": 2,
+    "shorts_found": 31,
+    "median_views_top10": 5150,
+    "max_views": 121000,
+    "over_100k": 1,
     "over_1m": 0,
     "top": [
      {
-      "title": "Genius Laser Cat Trick 🤯",
-      "views": 675000,
-      "url": "https://www.youtube.com/shorts/X8fVHjdi0sY"
-     },
-     {
       "title": "Watch Your Cat Chase the Laser! | Cat Collar Laser Light Toy  #cat",
-      "views": 120000,
+      "views": 121000,
       "url": "https://www.youtube.com/shorts/xskoPNHf0qg"
      },
      {
@@ -348,9 +343,14 @@
       "url": "https://www.youtube.com/shorts/vxGaDmFDJ5U"
      },
      {
-      "title": "Automatic Cat Toy – Interactive Smart LED Laser",
-      "views": 3200,
-      "url": "https://www.youtube.com/shorts/y8TbtDet2zo"
+      "title": "PetSafe Laser Tail Automatic Laser Light Cat Toy",
+      "views": 11000,
+      "url": "https://www.youtube.com/shorts/YIrvKO0EOWc"
+     },
+     {
+      "title": "Unleash the Fun with the Automatic Cat Laser Toy!",
+      "views": 6300,
+      "url": "https://www.youtube.com/shorts/9g3XGmWfgXs"
      }
     ],
     "status": "LIVE"
@@ -392,19 +392,19 @@
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 52,
-    "video_score": 43,
+    "score": 55,
+    "video_score": 48,
     "trend_score": 65,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 3K vistas (el mayor, 675K)",
+     "Shorts: los 10 más vistos tienen una mediana de 5K vistas (el mayor, 121K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): estable -1% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-14 03:44:43 UTC",
-   "trends_at": "2026-11-14 03:44:40 UTC",
+   "measured_at": "2026-11-15 22:11:12 UTC",
+   "trends_at": "2026-11-14 03:44 UTC",
    "rising": [
     {
      "query": "lizzie the lizard cat toy",
@@ -436,10 +436,10 @@
   "pet-hair-roller": {
    "youtube": {
     "keyword": "pet hair remover roller",
-    "shorts_found": 37,
-    "median_views_top10": 293000,
+    "shorts_found": 29,
+    "median_views_top10": 211000,
     "max_views": 389000000,
-    "over_100k": 9,
+    "over_100k": 5,
     "over_1m": 2,
     "top": [
      {
@@ -453,109 +453,109 @@
       "url": "https://www.youtube.com/shorts/2U6ohfhrj_8"
      },
      {
-      "title": "Pet Hair Remover for Clothes🐈shasha hair dress la iruntha ithulathan remove pannuven #cat #shorts",
-      "views": 751000,
-      "url": "https://www.youtube.com/shorts/6Yvbksv0fa8"
+      "title": "🐾 Tired of pet hair everywhere? Meet the ultimate pet hair removal brush!",
+      "views": 355000,
+      "url": "https://www.youtube.com/shorts/4_Lne4sQ2Q8"
+     },
+     {
+      "title": "Use This Roller Instead of Lint Roller!",
+      "views": 335000,
+      "url": "https://www.youtube.com/shorts/nE3JrIYTwpc"
      },
      {
       "title": "Testing Out The ChomChom Pet Hair Removal Roller | The Pack",
       "views": 333000,
       "url": "https://www.youtube.com/shorts/-ODkUQHCeYk"
-     },
-     {
-      "title": "IKEA Lint Roller #ikea #cleanreview",
-      "views": 299000,
-      "url": "https://www.youtube.com/shorts/LvVW2dKQ1XQ"
      }
     ],
     "status": "LIVE"
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": -10.7,
+    "momentum_pct": -15.6,
     "low_volume": false,
     "peak_ratio": 0.12,
-    "mean_recent": 12.5
+    "mean_recent": 11.8
    },
    "trends_series": [
-    68,
-    71,
-    47,
+    69,
+    46,
     41,
-    59,
-    55,
+    58,
+    54,
     48,
     25,
     21,
     15,
     17,
-    14,
     13,
-    15,
+    13,
+    16,
     14,
     12,
     16,
     14,
-    12,
+    13,
     15,
     13,
-    13,
     14,
+    14,
+    11,
     13,
-    12,
-    11
+    11,
+    12
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 66,
-    "video_score": 92,
+    "score": 64,
+    "video_score": 88,
     "trend_score": 40,
     "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 293K vistas (el mayor, 389M)",
+     "Shorts: los 10 más vistos tienen una mediana de 211K vistas (el mayor, 389M)",
      "Competencia media: 2 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -11% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): baja -16% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-13 22:58:20 UTC",
-   "trends_at": "2026-11-11 03:20 UTC",
+   "measured_at": "2026-11-15 22:10:58 UTC",
+   "trends_at": "2026-11-15 22:10:56 UTC",
    "rising": [
-    {
-     "query": "pure path pet hair remover",
-     "growth": "Breakout"
-    },
     {
      "query": "purepath pet hair remover",
      "growth": "Breakout"
     },
     {
-     "query": "silicone pet hair remover",
-     "growth": "+400%"
+     "query": "ace2ace pet hair remover roller",
+     "growth": "Breakout"
+    },
+    {
+     "query": "fur-zoff pet hair remover",
+     "growth": "Breakout"
+    },
+    {
+     "query": "odoban pet oxy stain remover",
+     "growth": "Breakout"
+    },
+    {
+     "query": "nair body cream hair remover",
+     "growth": "Breakout"
     },
     {
      "query": "chomchom roller pet hair remover",
-     "growth": "+250%"
-    },
-    {
-     "query": "chomchom pet hair remover",
-     "growth": "+170%"
-    },
-    {
-     "query": "uproot pet hair remover",
-     "growth": "+150%"
+     "growth": "+200%"
     }
    ],
-   "rising_at": "2026-11-11 03:20:21 UTC"
+   "rising_at": "2026-11-15 22:10:58 UTC"
   },
   "spin-scrubber": {
    "youtube": {
     "keyword": "electric spin scrubber",
     "shorts_found": 31,
-    "median_views_top10": 19000,
+    "median_views_top10": 16000,
     "max_views": 2100000,
-    "over_100k": 4,
-    "over_1m": 2,
+    "over_100k": 3,
+    "over_1m": 1,
     "top": [
      {
       "title": "Multi-Functional 5-in-1 Electric Spin Scrubber | Magic Power Cleaning Tool for Home 🧼✨",
@@ -563,82 +563,82 @@
       "url": "https://www.youtube.com/shorts/1gudMQbGsv0"
      },
      {
-      "title": "New RYOBI USB Power Scrubber 🫧",
-      "views": 2100000,
-      "url": "https://www.youtube.com/shorts/es5ssAzZbnY"
-     },
-     {
-      "title": "Home Cleaning Hacks | Easy Home Cleaning Tools | Agaro Spin Scrubber 🥳 #homefinds #finds #flipkart",
-      "views": 860000,
-      "url": "https://www.youtube.com/shorts/_tBx4F-4DBg"
-     },
-     {
       "title": "Electric Spin Scrubber AMAZON FINDS",
-      "views": 406000,
+      "views": 407000,
       "url": "https://www.youtube.com/shorts/1wNm9y-8-7A"
+     },
+     {
+      "title": "Cordless Electric Spin Scrubber-Cleaning Brush",
+      "views": 272000,
+      "url": "https://www.youtube.com/shorts/mCrbJ2jYzYU"
      },
      {
       "title": "Introducing the Power Spin Scrubber #shorts #youtubeshorts",
       "views": 20000,
       "url": "https://www.youtube.com/shorts/qvs_leEF_dg"
+     },
+     {
+      "title": "Best Power Spin Brush! 🤩 #shorts",
+      "views": 18000,
+      "url": "https://www.youtube.com/shorts/JgLj2YoZO30"
      }
     ],
     "status": "LIVE"
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": -18.4,
+    "momentum_pct": -17.8,
     "low_volume": false,
-    "peak_ratio": 0.23,
-    "mean_recent": 22.5
+    "peak_ratio": 0.22,
+    "mean_recent": 22.2
    },
    "trends_series": [
+    75,
+    51,
+    59,
     73,
-    77,
-    52,
-    58,
-    73,
-    73,
-    67,
+    71,
+    69,
     41,
-    41,
+    43,
     30,
     27,
-    33,
+    34,
     28,
-    32,
-    35,
-    28,
-    32,
+    29,
+    34,
     27,
-    17,
+    31,
+    26,
+    18,
     26,
     22,
     24,
-    27,
+    26,
     23,
-    18,
-    22
+    20,
+    22,
+    24
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 48,
-    "video_score": 62,
+    "score": 52,
+    "video_score": 60,
     "trend_score": 40,
-    "crowding": "media",
+    "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 19K vistas (el mayor, 2.1M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 16K vistas (el mayor, 2.1M)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): baja -18% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-13 22:58:24 UTC",
-   "trends_at": "2026-11-11 03:20 UTC",
+   "measured_at": "2026-11-15 22:11:05 UTC",
+   "trends_at": "2026-11-15 22:11:03 UTC",
    "rising": [
     {
      "query": "hoto flexi cordless spin scrubber",
-     "growth": "+2,300%"
+     "growth": "+2,600%"
     },
     {
      "query": "hoto wand cordless spin scrubber",
@@ -646,7 +646,11 @@
     },
     {
      "query": "hoto electric spin scrubber",
-     "growth": "+130%"
+     "growth": "+120%"
+    },
+    {
+     "query": "cordless electric spin scrubber",
+     "growth": "+70%"
     },
     {
      "query": "casabella power spin scrubber",
@@ -657,7 +661,7 @@
      "growth": "+50%"
     }
    ],
-   "rising_at": "2026-11-11 03:20:28 UTC"
+   "rising_at": "2026-11-15 22:11:05 UTC"
   },
   "magnetic-window-cleaner": {
    "youtube": {
@@ -1122,10 +1126,10 @@
   "oil-sprayer": {
    "youtube": {
     "keyword": "oil sprayer for cooking",
-    "shorts_found": 31,
-    "median_views_top10": 320000,
+    "shorts_found": 28,
+    "median_views_top10": 98500,
     "max_views": 2000000,
-    "over_100k": 8,
+    "over_100k": 5,
     "over_1m": 2,
     "top": [
      {
@@ -1139,19 +1143,19 @@
       "url": "https://www.youtube.com/shorts/UgXlrSlRKNY"
      },
      {
-      "title": "Oil Dispenser For Cooking #shorts",
-      "views": 496000,
-      "url": "https://www.youtube.com/shorts/V3WsN0FO6Rs"
+      "title": "Oil bottle. Cooking oil spray #temu #temuproducts #amazon #amazonfinds #amazonproducts",
+      "views": 275000,
+      "url": "https://www.youtube.com/shorts/wtNoU2NCGRI"
      },
      {
-      "title": "Viral Oil Dispenser And Sprayer In One #shorts",
-      "views": 368000,
-      "url": "https://www.youtube.com/shorts/F0MuOfuyvGk"
+      "title": "This oil sprayer is a kitchen must have!",
+      "views": 193000,
+      "url": "https://www.youtube.com/shorts/vf0SyHgKJe4"
      },
      {
-      "title": "Oil spray bottle for cooking review|Glass oil dispenser bottle",
-      "views": 366000,
-      "url": "https://www.youtube.com/shorts/XvX2uNsDo_E"
+      "title": "We Tried 6 Oil Sprayers for Prime Day",
+      "views": 104000,
+      "url": "https://www.youtube.com/shorts/w8a9WZP3L6c"
      }
     ],
     "status": "LIVE"
@@ -1159,18 +1163,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 67,
-    "video_score": 93,
+    "score": 59,
+    "video_score": 80,
     "trend_score": 40,
     "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 320K vistas (el mayor, 2M)",
+     "Shorts: los 10 más vistos tienen una mediana de 98K vistas (el mayor, 2M)",
      "Competencia media: 2 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -12% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-14 03:44:50 UTC",
+   "measured_at": "2026-11-15 22:11:15 UTC",
    "trends": {
     "momentum_pct": -12.2,
     "low_volume": false,
@@ -1205,7 +1209,7 @@
     12,
     11
    ],
-   "trends_at": "2026-11-14 03:44:50 UTC",
+   "trends_at": "2026-11-14 03:44 UTC",
    "rising": [
     {
      "query": "wagner flexio 2500 paint sprayer",
@@ -1237,36 +1241,36 @@
   "milk-frother": {
    "youtube": {
     "keyword": "electric milk frother",
-    "shorts_found": 31,
-    "median_views_top10": 363500,
-    "max_views": 1700000,
-    "over_100k": 6,
-    "over_1m": 2,
+    "shorts_found": 32,
+    "median_views_top10": 20000,
+    "max_views": 464000,
+    "over_100k": 4,
+    "over_1m": 0,
     "top": [
      {
-      "title": "Frothy Coffee with Milk Frother | Useful Gadget For Coffee",
-      "views": 1700000,
-      "url": "https://www.youtube.com/shorts/oOzzk86s6bs"
-     },
-     {
-      "title": "Meesho find coffee frother ☕️🫶🏼| Electric Frother #meesho #meeshofinds #meeshorandomfinds #shorts",
-      "views": 1300000,
-      "url": "https://www.youtube.com/shorts/jOrFaTkqFfE"
-     },
-     {
-      "title": "Zulay FrothMate Milk Frother-Café-Style Foam at Home in Seconds! #coffee #linkinbio  #latte",
-      "views": 498000,
-      "url": "https://www.youtube.com/shorts/qpERPoVyYfQ"
-     },
-     {
       "title": "Best Handheld Milk Frothers for Coffee Lovers – Buyer’s Guide",
-      "views": 463000,
+      "views": 464000,
       "url": "https://www.youtube.com/shorts/RXTOnRtgcoM"
      },
      {
       "title": "Electric Milk Frother - Effortless Barista-Style Froth - Durable & Non-Battery Operated",
-      "views": 415000,
+      "views": 416000,
       "url": "https://www.youtube.com/shorts/U7xJwL3hREA"
+     },
+     {
+      "title": "The secret to the best hot cocoa / milk frother hack",
+      "views": 313000,
+      "url": "https://www.youtube.com/shorts/6hn6dTRNiNM"
+     },
+     {
+      "title": "DEVINC 4-in-1 Milk Frother and Steamer Hot & Cold Foam Maker with Auto Shut-Off  #coffee  #homecafe",
+      "views": 217000,
+      "url": "https://www.youtube.com/shorts/380SI1BaBC4"
+     },
+     {
+      "title": "Bodum milk frother #bodum #target",
+      "views": 21000,
+      "url": "https://www.youtube.com/shorts/QAWzOI_ofgg"
      }
     ],
     "status": "LIVE"
@@ -1274,18 +1278,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 77,
-    "video_score": 94,
+    "score": 64,
+    "video_score": 63,
     "trend_score": 65,
-    "crowding": "media",
+    "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 364K vistas (el mayor, 1.7M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 20K vistas (el mayor, 464K)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): estable +9% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-14 03:44:56 UTC",
+   "measured_at": "2026-11-15 22:11:19 UTC",
    "trends": {
     "momentum_pct": 8.9,
     "low_volume": false,
@@ -1320,7 +1324,7 @@
     31,
     32
    ],
-   "trends_at": "2026-11-14 03:44:56 UTC",
+   "trends_at": "2026-11-14 03:44 UTC",
    "rising": [
     {
      "query": "rechargeable milk frother",
