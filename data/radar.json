@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18 14:40:58 UTC",
+ "updated_at": "2026-11-18 23:40:19 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -1134,11 +1134,11 @@
   "oil-sprayer": {
    "youtube": {
     "keyword": "oil sprayer for cooking",
-    "shorts_found": 28,
-    "median_views_top10": 98500,
+    "shorts_found": 29,
+    "median_views_top10": 67500,
     "max_views": 2000000,
-    "over_100k": 5,
-    "over_1m": 2,
+    "over_100k": 4,
+    "over_1m": 1,
     "top": [
      {
       "title": "Testing a 2 in 1 Oil Dispenser and Sprayer from Amazon!",
@@ -1146,13 +1146,8 @@
       "url": "https://www.youtube.com/shorts/d6SRz7v1KCg"
      },
      {
-      "title": "olive oil spray & dispenser online shopping finds 🛍️🛒 #oildispenser #oliveoil #utilityproducts",
-      "views": 1700000,
-      "url": "https://www.youtube.com/shorts/UgXlrSlRKNY"
-     },
-     {
       "title": "Oil bottle. Cooking oil spray #temu #temuproducts #amazon #amazonfinds #amazonproducts",
-      "views": 275000,
+      "views": 276000,
       "url": "https://www.youtube.com/shorts/wtNoU2NCGRI"
      },
      {
@@ -1162,8 +1157,13 @@
      },
      {
       "title": "We Tried 6 Oil Sprayers for Prime Day",
-      "views": 104000,
+      "views": 105000,
       "url": "https://www.youtube.com/shorts/w8a9WZP3L6c"
+     },
+     {
+      "title": "You need these new reusable oil sprayers!",
+      "views": 93000,
+      "url": "https://www.youtube.com/shorts/eF8nHEeWFQs"
      }
     ],
     "status": "LIVE"
@@ -1171,34 +1171,33 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 59,
-    "video_score": 80,
+    "score": 62,
+    "video_score": 76,
     "trend_score": 40,
-    "crowding": "media",
+    "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 98K vistas (el mayor, 2M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -12% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 68K vistas (el mayor, 2M)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Google (EE. UU.): baja -11% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-15 22:11:15 UTC",
+   "measured_at": "2026-11-18 23:39:55 UTC",
    "trends": {
-    "momentum_pct": -12.2,
+    "momentum_pct": -11.3,
     "low_volume": false,
     "peak_ratio": 0.12,
-    "mean_recent": 12.0
+    "mean_recent": 11.8
    },
    "trends_series": [
-    69,
-    92,
+    94,
     56,
     59,
     65,
-    59,
-    52,
+    60,
+    53,
     26,
-    16,
+    17,
     17,
     15,
     15,
@@ -1206,79 +1205,68 @@
     15,
     13,
     15,
-    13,
     14,
-    12,
     13,
     12,
     13,
     12,
+    12,
+    11,
     13,
     12,
+    11,
     11
    ],
-   "trends_at": "2026-11-14 03:44 UTC",
+   "trends_at": "2026-11-18 23:39:53 UTC",
    "rising": [
     {
-     "query": "wagner flexio 2500 paint sprayer",
+     "query": "evo stainless steel oil sprayer",
      "growth": "Breakout"
     },
     {
-     "query": "airpods pro 2",
-     "growth": "Breakout"
+     "query": "kitchen oil sprayer",
+     "growth": "+80%"
     },
     {
-     "query": "roundup backpack sprayer",
-     "growth": "Breakout"
-    },
-    {
-     "query": "oil prices today",
-     "growth": "Breakout"
-    },
-    {
-     "query": "refillable oil sprayer",
-     "growth": "+110%"
-    },
-    {
-     "query": "graco paint sprayer",
-     "growth": "+100%"
+     "query": "olive oil sprayer bottle",
+     "growth": "+40%"
     }
    ],
-   "rising_at": "2026-11-07 17:21:06 UTC"
+   "rising_at": "2026-11-18 23:39:55 UTC"
   },
   "milk-frother": {
    "youtube": {
     "keyword": "electric milk frother",
-    "shorts_found": 32,
-    "median_views_top10": 20000,
-    "max_views": 464000,
-    "over_100k": 4,
+    "shorts_found": 30,
+    "median_views_top10": 9950,
+    "max_views": 466000,
+    "over_100k": 3,
     "over_1m": 0,
     "top": [
      {
       "title": "Best Handheld Milk Frothers for Coffee Lovers – Buyer’s Guide",
-      "views": 464000,
+      "views": 466000,
       "url": "https://www.youtube.com/shorts/RXTOnRtgcoM"
      },
      {
       "title": "Electric Milk Frother - Effortless Barista-Style Froth - Durable & Non-Battery Operated",
-      "views": 416000,
+      "views": 417000,
       "url": "https://www.youtube.com/shorts/U7xJwL3hREA"
      },
      {
-      "title": "The secret to the best hot cocoa / milk frother hack",
-      "views": 313000,
-      "url": "https://www.youtube.com/shorts/6hn6dTRNiNM"
+      "title": "How to froth milk, taught by Luna! #shorts",
+      "views": 278000,
+      "url": "https://www.youtube.com/shorts/JEDq_99rtWY"
      },
      {
-      "title": "DEVINC 4-in-1 Milk Frother and Steamer Hot & Cold Foam Maker with Auto Shut-Off  #coffee  #homecafe",
-      "views": 217000,
-      "url": "https://www.youtube.com/shorts/380SI1BaBC4"
+      "title": "He Thought It Was MAGIC… Until He Saw This Coffee Frother! 🤯☕ #Shorts",
+      "views": 36000,
+      "url": "https://www.youtube.com/shorts/b_-lgQJvqFI"
      },
      {
-      "title": "Bodum milk frother #bodum #target",
-      "views": 21000,
-      "url": "https://www.youtube.com/shorts/QAWzOI_ofgg"
+      "title": "Latte Art with a $9 Handheld Frother #shorts #latteart #tutorial #handheldfrother #baristatools",
+      "views": 10000,
+      "url": "https://www.youtube.com/shorts/_e81POSqLgE"
      }
     ],
     "status": "LIVE"
@@ -1286,38 +1274,37 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 64,
-    "video_score": 63,
-    "trend_score": 65,
+    "score": 67,
+    "video_score": 55,
+    "trend_score": 85,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 20K vistas (el mayor, 464K)",
+     "Shorts: los 10 más vistos tienen una mediana de 10K vistas (el mayor, 466K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
-     "Google (EE. UU.): estable +9% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): sube +13% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-15 22:11:19 UTC",
+   "measured_at": "2026-11-18 23:40:04 UTC",
    "trends": {
-    "momentum_pct": 8.9,
+    "momentum_pct": 13.4,
     "low_volume": false,
-    "peak_ratio": 0.32,
-    "mean_recent": 31.5
+    "peak_ratio": 0.33,
+    "mean_recent": 33.2
    },
    "trends_series": [
-    72,
     77,
-    60,
-    63,
+    59,
+    64,
     73,
     76,
-    83,
+    84,
     37,
     33,
     28,
     26,
     27,
-    26,
+    25,
     29,
     27,
     29,
@@ -1330,13 +1317,18 @@
     32,
     31,
     31,
-    32
+    31,
+    40
    ],
-   "trends_at": "2026-11-14 03:44 UTC",
+   "trends_at": "2026-11-18 23:40:01 UTC",
    "rising": [
     {
      "query": "rechargeable milk frother",
      "growth": "+250%"
+    },
+    {
+     "query": "zulay kitchen milk frother",
+     "growth": "+170%"
     },
     {
      "query": "electric milk frother",
@@ -1344,56 +1336,52 @@
     },
     {
      "query": "stainless steel milk frother",
-     "growth": "+140%"
+     "growth": "+130%"
     },
     {
      "query": "handheld milk frother",
-     "growth": "+120%"
+     "growth": "+110%"
     },
     {
      "query": "espresso machine with milk frother",
-     "growth": "+100%"
-    },
-    {
-     "query": "nespresso aeroccino",
-     "growth": "+80%"
+     "growth": "+110%"
     }
    ],
-   "rising_at": "2026-11-07 17:21:14 UTC"
+   "rising_at": "2026-11-18 23:40:04 UTC"
   },
   "red-light-wand": {
    "youtube": {
     "keyword": "red light therapy wand",
     "shorts_found": 31,
-    "median_views_top10": 21000,
-    "max_views": 1100000,
-    "over_100k": 1,
-    "over_1m": 1,
+    "median_views_top10": 7100,
+    "max_views": 31000,
+    "over_100k": 0,
+    "over_1m": 0,
     "top": [
      {
-      "title": "One skincare gadget I can't live without #shorts",
-      "views": 1100000,
-      "url": "https://www.youtube.com/shorts/6kYDdPm65Mg"
-     },
-     {
-      "title": "Better than retinol? Solawave test & review 2 week results",
-      "views": 81000,
-      "url": "https://www.youtube.com/shorts/kRtbiDYc0-M"
+      "title": "DOES IT WORK? ? Dr Shelby Review Usuie Red Light Therapy Wand",
+      "views": 31000,
+      "url": "https://www.youtube.com/shorts/f8wPCD_cPRg"
      },
      {
       "title": "Using  the Sola Wave Wand Red Light Therapy & the Activating Serum #solawavewand #shorts",
-      "views": 29000,
+      "views": 30000,
       "url": "https://www.youtube.com/shorts/T-6rB7NqWs0"
-     },
-     {
-      "title": "3 things about red light therapy that you probably didn't know #shorts",
-      "views": 25000,
-      "url": "https://www.youtube.com/shorts/YG-svcr1u8c"
      },
      {
       "title": "Which red light therapy wand benefits are you most excited about? ✨ #solawavewand #solawave",
       "views": 24000,
       "url": "https://www.youtube.com/shorts/g0E7ZIQa5Qk"
+     },
+     {
+      "title": "Red Light Therapy Face Wand - What Each Color's Function Is #skincare #redlighttherapy",
+      "views": 10000,
+      "url": "https://www.youtube.com/shorts/GiyBgEH85uw"
+     },
+     {
+      "title": "Red light therapy facial wand from Vanilla🫶 #skincare #darkspots #texturedskin #facialwand",
+      "views": 7200,
+      "url": "https://www.youtube.com/shorts/8pptsTTIIZA"
      }
     ],
     "status": "LIVE"
@@ -1401,18 +1389,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 64,
-    "video_score": 63,
+    "score": 57,
+    "video_score": 51,
     "trend_score": 65,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 21K vistas (el mayor, 1.1M)",
+     "Shorts: los 10 más vistos tienen una mediana de 7K vistas (el mayor, 31K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): estable +6% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-16 03:23:06 UTC",
+   "measured_at": "2026-11-18 23:40:07 UTC",
    "trends": {
     "momentum_pct": 5.5,
     "low_volume": false,
@@ -1447,7 +1435,7 @@
     40,
     47
    ],
-   "trends_at": "2026-11-16 03:23:03 UTC",
+   "trends_at": "2026-11-16 03:23 UTC",
    "rising": [
     {
      "query": "clara red light therapy mask",
@@ -1479,11 +1467,11 @@
   "scalp-massager": {
    "youtube": {
     "keyword": "electric scalp massager",
-    "shorts_found": 32,
-    "median_views_top10": 1500000,
+    "shorts_found": 29,
+    "median_views_top10": 621000,
     "max_views": 27000000,
-    "over_100k": 15,
-    "over_1m": 6,
+    "over_100k": 12,
+    "over_1m": 4,
     "top": [
      {
       "title": "This Hair Massager Is Surprisingly Satisfying 😍✨ #Shorts",
@@ -1501,14 +1489,14 @@
       "url": "https://www.youtube.com/shorts/E1u2JtxYfUA"
      },
      {
-      "title": "Grow your hair long in 30days | Scalp massager | Hair Growth #youtubeshorts #hairchaircut #scalpcare",
-      "views": 4100000,
-      "url": "https://www.youtube.com/shorts/Hcg1ZVzSwnI"
-     },
-     {
       "title": "Testing an Electric Head Massager from Amazon!",
       "views": 1600000,
       "url": "https://www.youtube.com/shorts/RVkzbtZB2NU"
+     },
+     {
+      "title": "Ranking Funniest Head Massage Of All Time",
+      "views": 653000,
+      "url": "https://www.youtube.com/shorts/-e5zEsLmJso"
      }
     ],
     "status": "LIVE"
@@ -1522,12 +1510,12 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 1.5M vistas (el mayor, 27M)",
-     "Competencia alta: 6 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 621K vistas (el mayor, 27M)",
+     "Competencia alta: 4 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -18% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-16 03:23:14 UTC",
+   "measured_at": "2026-11-18 23:40:12 UTC",
    "trends": {
     "momentum_pct": -18.3,
     "low_volume": false,
@@ -1562,7 +1550,7 @@
     23,
     24
    ],
-   "trends_at": "2026-11-16 03:23:13 UTC",
+   "trends_at": "2026-11-16 03:23 UTC",
    "rising": [
     {
      "query": "hair scalp massager shampoo brush",
@@ -1800,24 +1788,24 @@
    "youtube": {
     "keyword": "neck stretcher cervical traction",
     "shorts_found": 29,
-    "median_views_top10": 203000,
-    "max_views": 11000000,
+    "median_views_top10": 204000,
+    "max_views": 5900000,
     "over_100k": 9,
-    "over_1m": 2,
+    "over_1m": 1,
     "top": [
-     {
-      "title": "Stop living with neck stiffness: Try this decompression move #chiropractic #relief #shorts",
-      "views": 11000000,
-      "url": "https://www.youtube.com/shorts/bhLS0E7wY7w"
-     },
      {
       "title": "Cervical Traction in Action – Easing Neck Pressure One Click at a Time 🪑💆",
       "views": 5900000,
       "url": "https://www.youtube.com/shorts/5PARbwZXGOI"
      },
      {
+      "title": "Deep Cervical Traction Without the Thrust #ystrap",
+      "views": 546000,
+      "url": "https://www.youtube.com/shorts/twCBT25autQ"
+     },
+     {
       "title": "Ever Seen This Neck-Stretching Machine?",
-      "views": 531000,
+      "views": 534000,
       "url": "https://www.youtube.com/shorts/2hrRnffV2c4"
      },
      {
@@ -1827,7 +1815,7 @@
      },
      {
       "title": "I Bought Neck Stretcher on Amazon #amazonfinds #gadgets",
-      "views": 252000,
+      "views": 253000,
       "url": "https://www.youtube.com/shorts/Bpnwae-_UdE"
      }
     ],
@@ -1836,18 +1824,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 74,
+    "score": 79,
     "video_score": 88,
     "trend_score": 65,
-    "crowding": "media",
+    "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 203K vistas (el mayor, 11M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 204K vistas (el mayor, 5.9M)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): estable -2% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-16 03:23:20 UTC",
+   "measured_at": "2026-11-18 23:40:16 UTC",
    "trends": {
     "momentum_pct": -1.7,
     "low_volume": false,
@@ -1882,7 +1870,7 @@
     19,
     25
    ],
-   "trends_at": "2026-11-16 03:23:20 UTC",
+   "trends_at": "2026-11-16 03:23 UTC",
    "rising": [
     {
      "query": "mediness neck stretcher",
@@ -1914,11 +1902,11 @@
   "foot-massager": {
    "youtube": {
     "keyword": "foot massager machine",
-    "shorts_found": 34,
-    "median_views_top10": 483000,
+    "shorts_found": 29,
+    "median_views_top10": 404000,
     "max_views": 131000000,
-    "over_100k": 11,
-    "over_1m": 4,
+    "over_100k": 10,
+    "over_1m": 3,
     "top": [
      {
       "title": "Foot Massage Cushion #satisfying #shot",
@@ -1927,13 +1915,8 @@
      },
      {
       "title": "I Tried This Viral Foot Massage Mat… WTF Was That?",
-      "views": 63000000,
+      "views": 64000000,
       "url": "https://www.youtube.com/shorts/ClGTbPOyZgA"
-     },
-     {
-      "title": "Product Link in Bio ( # 2581  ) ▶️ Multi-Point Reflexology Stress Relief Foot Massage Mat",
-      "views": 28000000,
-      "url": "https://www.youtube.com/shorts/EmHM-LOfAAI"
      },
      {
       "title": "Mini Massager Foot Pain Relief Uses Physiotherapy #shorts #shortvideo #physiotherapy",
@@ -1942,8 +1925,13 @@
      },
      {
       "title": "Lifelong Foot Massager Machine with Heating #viral #ytshorts #india #trending #shorts #2024 #health",
-      "views": 530000,
+      "views": 533000,
       "url": "https://www.youtube.com/shorts/VbuxwfiT5ng"
+     },
+     {
+      "title": "Just a mat? Wait till you stand on it barefoot! Daily care with foot mat! Link in bio #acupressure",
+      "views": 439000,
+      "url": "https://www.youtube.com/shorts/TkxJExMJNsI"
      }
     ],
     "status": "LIVE"
@@ -1951,18 +1939,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 77,
-    "video_score": 97,
+    "score": 86,
+    "video_score": 95,
     "trend_score": 85,
-    "crowding": "alta",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 483K vistas (el mayor, 131M)",
-     "Competencia alta: 4 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 404K vistas (el mayor, 131M)",
+     "Competencia media: 3 Shorts pasan el millón de vistas",
      "Google (EE. UU.): sube +12% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-16 03:23:25 UTC",
+   "measured_at": "2026-11-18 23:40:19 UTC",
    "trends": {
     "momentum_pct": 11.6,
     "low_volume": false,
@@ -1997,7 +1985,7 @@
     24,
     27
    ],
-   "trends_at": "2026-11-16 03:23:25 UTC",
+   "trends_at": "2026-11-16 03:23 UTC",
    "rising": [
     {
      "query": "ornexis foot massager",
