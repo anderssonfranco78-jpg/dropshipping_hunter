@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-20 04:57:55 UTC",
+ "updated_at": "2026-11-20 14:28:46 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -227,20 +227,25 @@
    "youtube": {
     "keyword": "dog lick mat",
     "shorts_found": 32,
-    "median_views_top10": 61500,
-    "max_views": 2700000,
-    "over_100k": 4,
+    "median_views_top10": 123500,
+    "max_views": 20000000,
+    "over_100k": 7,
     "over_1m": 2,
     "top": [
+     {
+      "title": "Enrichment Mat ASMR 🤍🎧 #ragdollcat #asmr #asmrsounds #catfeeding #catfood #enrichment #cats",
+      "views": 20000000,
+      "url": "https://www.youtube.com/shorts/isbwu_PjG7g"
+     },
      {
       "title": "Do you freeze your lick mats? 🧊😋 #thebkshop #shorts #lickmat",
       "views": 2700000,
       "url": "https://www.youtube.com/shorts/ECq1iK8lLqo"
      },
      {
-      "title": "Lick Mat for Dogs",
-      "views": 1400000,
-      "url": "https://www.youtube.com/shorts/uQEy41SwIRM"
+      "title": "Fall Flavored Lick Mat For Dogs! 🍂 #shorts",
+      "views": 802000,
+      "url": "https://www.youtube.com/shorts/WaQAIRRF4OU"
      },
      {
       "title": "*ASMR* PUPPY LICK MAT! #asmr #restock #dog #petproducts #amazonstorefront",
@@ -248,88 +253,83 @@
       "url": "https://www.youtube.com/shorts/MYuszDwVx7A"
      },
      {
-      "title": "Roswell’s Lick Mat is microwave safe, link in my bio!🥰💙 #dachshund #lickmat #dogenrichment",
-      "views": 122000,
-      "url": "https://www.youtube.com/shorts/Q_msVUtQaIs"
-     },
-     {
-      "title": "*SATISFYING* PUPPY LICK MAT! #asmr #dog #dogs #puppies #puppy #dogmom #dogtreats",
-      "views": 80000,
-      "url": "https://www.youtube.com/shorts/HE_HKa37dOk"
+      "title": "Lick mat recipe for your dog 🐶🧩🍓 #shorts",
+      "views": 125000,
+      "url": "https://www.youtube.com/shorts/ddD0U_o2wec"
      }
     ],
     "status": "LIVE"
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": 4.6,
+    "momentum_pct": -0.5,
     "low_volume": false,
-    "peak_ratio": 0.32,
-    "mean_recent": 32.0
+    "peak_ratio": 0.3,
+    "mean_recent": 30.2
    },
    "trends_series": [
-    81,
     68,
-    51,
-    48,
-    51,
     52,
-    53,
+    47,
+    50,
     49,
+    53,
+    50,
     38,
-    36,
-    32,
-    24,
-    34,
-    34,
+    37,
     30,
+    23,
+    33,
     34,
+    32,
+    33,
+    28,
+    29,
+    33,
+    29,
+    31,
     28,
     32,
-    36,
-    30,
+    28,
     31,
-    22,
-    32,
-    31,
-    35,
-    30
+    33,
+    29
    ],
    "trends_status": "LIVE",
    "market": {
-    "score": 66,
-    "video_score": 75,
+    "score": 70,
+    "video_score": 82,
     "trend_score": 65,
     "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 62K vistas (el mayor, 2.7M)",
+     "Shorts: los 10 más vistos tienen una mediana de 124K vistas (el mayor, 20M)",
      "Competencia media: 2 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): estable +5% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): estable -0% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-18 14:40:54 UTC",
-   "trends_at": "2026-11-14 03:44 UTC",
+   "measured_at": "2026-11-20 14:28:16 UTC",
+   "trends_at": "2026-11-20 14:28:14 UTC",
    "rising": [
     {
      "query": "stainless steel lick mat",
-     "growth": "+150%"
-    },
-    {
-     "query": "snuffle mat",
-     "growth": "+40%"
+     "growth": "+140%"
     },
     {
      "query": "lick mat for cats",
-     "growth": "+40%"
+     "growth": "+50%"
+    },
+    {
+     "query": "snuffle mat",
+     "growth": "+50%"
     }
    ],
-   "rising_at": "2026-11-14 03:44:34 UTC"
+   "rising_at": "2026-11-20 14:28:16 UTC"
   },
   "laser-cat-toy": {
    "youtube": {
     "keyword": "automatic laser cat toy",
-    "shorts_found": 34,
+    "shorts_found": 31,
     "median_views_top10": 18500,
     "max_views": 121000,
     "over_100k": 1,
@@ -365,38 +365,38 @@
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": -1.3,
+    "momentum_pct": 5.3,
     "low_volume": false,
-    "peak_ratio": 0.31,
-    "mean_recent": 31.0
+    "peak_ratio": 0.33,
+    "mean_recent": 33.0
    },
    "trends_series": [
-    83,
-    68,
-    51,
-    51,
+    64,
+    52,
+    54,
     61,
     56,
-    58,
-    39,
+    57,
+    40,
     36,
     33,
     33,
     33,
-    32,
+    31,
     32,
     31,
     33,
     31,
     31,
     28,
-    31,
+    32,
     32,
     30,
+    32,
     31,
     31,
-    30,
-    32
+    31,
+    39
    ],
    "trends_status": "LIVE",
    "market": {
@@ -408,18 +408,18 @@
     "reasons": [
      "Shorts: los 10 más vistos tienen una mediana de 18K vistas (el mayor, 121K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
-     "Google (EE. UU.): estable -1% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): estable +5% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-18 14:40:58 UTC",
-   "trends_at": "2026-11-14 03:44 UTC",
+   "measured_at": "2026-11-20 14:28:26 UTC",
+   "trends_at": "2026-11-20 14:28:23 UTC",
    "rising": [
     {
-     "query": "lizzie the lizard cat toy",
+     "query": "meowscles cat toy",
      "growth": "Breakout"
     },
     {
-     "query": "giant q tip cat toy",
+     "query": "lizzie the lizard cat toy",
      "growth": "Breakout"
     },
     {
@@ -427,19 +427,19 @@
      "growth": "Breakout"
     },
     {
-     "query": "pawnch cat toy",
-     "growth": "+4,250%"
-    },
-    {
      "query": "cat wash toy",
-     "growth": "+600%"
+     "growth": "+500%"
     },
     {
-     "query": "toy story 5",
-     "growth": "+450%"
+     "query": "cat toy for kids",
+     "growth": "+200%"
+    },
+    {
+     "query": "cat piano toy",
+     "growth": "+170%"
     }
    ],
-   "rising_at": "2026-11-14 03:44:43 UTC"
+   "rising_at": "2026-11-20 14:28:26 UTC"
   },
   "pet-hair-roller": {
    "youtube": {
@@ -1134,11 +1134,11 @@
   "oil-sprayer": {
    "youtube": {
     "keyword": "oil sprayer for cooking",
-    "shorts_found": 29,
-    "median_views_top10": 67500,
+    "shorts_found": 34,
+    "median_views_top10": 235500,
     "max_views": 2000000,
-    "over_100k": 4,
-    "over_1m": 1,
+    "over_100k": 9,
+    "over_1m": 2,
     "top": [
      {
       "title": "Testing a 2 in 1 Oil Dispenser and Sprayer from Amazon!",
@@ -1146,24 +1146,24 @@
       "url": "https://www.youtube.com/shorts/d6SRz7v1KCg"
      },
      {
+      "title": "olive oil spray & dispenser online shopping finds 🛍️🛒 #oildispenser #oliveoil #utilityproducts",
+      "views": 1700000,
+      "url": "https://www.youtube.com/shorts/UgXlrSlRKNY"
+     },
+     {
+      "title": "Oil Dispenser For Cooking #shorts",
+      "views": 497000,
+      "url": "https://www.youtube.com/shorts/V3WsN0FO6Rs"
+     },
+     {
+      "title": "Viral Oil Dispenser And Sprayer In One #shorts",
+      "views": 371000,
+      "url": "https://www.youtube.com/shorts/F0MuOfuyvGk"
+     },
+     {
       "title": "Oil bottle. Cooking oil spray #temu #temuproducts #amazon #amazonfinds #amazonproducts",
-      "views": 276000,
+      "views": 277000,
       "url": "https://www.youtube.com/shorts/wtNoU2NCGRI"
-     },
-     {
-      "title": "This oil sprayer is a kitchen must have!",
-      "views": 193000,
-      "url": "https://www.youtube.com/shorts/vf0SyHgKJe4"
-     },
-     {
-      "title": "We Tried 6 Oil Sprayers for Prime Day",
-      "views": 105000,
-      "url": "https://www.youtube.com/shorts/w8a9WZP3L6c"
-     },
-     {
-      "title": "You need these new reusable oil sprayers!",
-      "views": 93000,
-      "url": "https://www.youtube.com/shorts/eF8nHEeWFQs"
      }
     ],
     "status": "LIVE"
@@ -1171,18 +1171,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 62,
-    "video_score": 76,
+    "score": 64,
+    "video_score": 89,
     "trend_score": 40,
-    "crowding": "baja",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 68K vistas (el mayor, 2M)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Shorts: los 10 más vistos tienen una mediana de 236K vistas (el mayor, 2M)",
+     "Competencia media: 2 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -11% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-18 23:39:55 UTC",
+   "measured_at": "2026-11-20 14:28:30 UTC",
    "trends": {
     "momentum_pct": -11.3,
     "low_volume": false,
@@ -1217,7 +1217,7 @@
     11,
     11
    ],
-   "trends_at": "2026-11-18 23:39:53 UTC",
+   "trends_at": "2026-11-18 23:39 UTC",
    "rising": [
     {
      "query": "evo stainless steel oil sprayer",
@@ -1237,36 +1237,36 @@
   "milk-frother": {
    "youtube": {
     "keyword": "electric milk frother",
-    "shorts_found": 30,
-    "median_views_top10": 9950,
-    "max_views": 466000,
-    "over_100k": 3,
-    "over_1m": 0,
+    "shorts_found": 43,
+    "median_views_top10": 1250000,
+    "max_views": 7100000,
+    "over_100k": 17,
+    "over_1m": 8,
     "top": [
      {
-      "title": "Best Handheld Milk Frothers for Coffee Lovers – Buyer’s Guide",
-      "views": 466000,
-      "url": "https://www.youtube.com/shorts/RXTOnRtgcoM"
+      "title": "Best Useful Home Product - Milk Frother !! ✨✨#viral #gadgets  #telugu  #india  #shorts #instacuppa",
+      "views": 7100000,
+      "url": "https://www.youtube.com/shorts/iUm2Ms9woD0"
      },
      {
-      "title": "Electric Milk Frother - Effortless Barista-Style Froth - Durable & Non-Battery Operated",
-      "views": 417000,
-      "url": "https://www.youtube.com/shorts/U7xJwL3hREA"
+      "title": "How To Make Delicious Frothy Coffee With Milk Frother | Super Easy! #shorts",
+      "views": 2100000,
+      "url": "https://www.youtube.com/shorts/GF1HPf29OaY"
      },
      {
-      "title": "How to froth milk, taught by Luna! #shorts",
-      "views": 278000,
-      "url": "https://www.youtube.com/shorts/JEDq_99rtWY"
+      "title": "How to Use a Milk Frother Correctly ☕✨ #ashortaday",
+      "views": 1500000,
+      "url": "https://www.youtube.com/shorts/9JuDQLjwP1c"
      },
      {
-      "title": "He Thought It Was MAGIC… Until He Saw This Coffee Frother! 🤯☕ #Shorts",
-      "views": 36000,
-      "url": "https://www.youtube.com/shorts/b_-lgQJvqFI"
+      "title": "Philips LatteGo 5400 - Latte Macchiatto Short",
+      "views": 1400000,
+      "url": "https://www.youtube.com/shorts/DhUTHKn4Tas"
      },
      {
-      "title": "Latte Art with a $9 Handheld Frother #shorts #latteart #tutorial #handheldfrother #baristatools",
-      "views": 10000,
-      "url": "https://www.youtube.com/shorts/_e81POSqLgE"
+      "title": "Meesho find coffee frother ☕️🫶🏼| Electric Frother #meesho #meeshofinds #meeshorandomfinds #shorts",
+      "views": 1300000,
+      "url": "https://www.youtube.com/shorts/jOrFaTkqFfE"
      }
     ],
     "status": "LIVE"
@@ -1274,18 +1274,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 67,
-    "video_score": 55,
+    "score": 79,
+    "video_score": 100,
     "trend_score": 85,
-    "crowding": "baja",
+    "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 10K vistas (el mayor, 466K)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Shorts: los 10 más vistos tienen una mediana de 1.2M vistas (el mayor, 7.1M)",
+     "Competencia alta: 8 Shorts pasan el millón de vistas",
      "Google (EE. UU.): sube +13% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-18 23:40:04 UTC",
+   "measured_at": "2026-11-20 14:28:34 UTC",
    "trends": {
     "momentum_pct": 13.4,
     "low_volume": false,
@@ -1320,7 +1320,7 @@
     31,
     40
    ],
-   "trends_at": "2026-11-18 23:40:01 UTC",
+   "trends_at": "2026-11-18 23:40 UTC",
    "rising": [
     {
      "query": "rechargeable milk frother",
@@ -1352,36 +1352,36 @@
   "red-light-wand": {
    "youtube": {
     "keyword": "red light therapy wand",
-    "shorts_found": 31,
-    "median_views_top10": 7100,
-    "max_views": 31000,
-    "over_100k": 0,
-    "over_1m": 0,
+    "shorts_found": 35,
+    "median_views_top10": 31000,
+    "max_views": 1100000,
+    "over_100k": 2,
+    "over_1m": 1,
     "top": [
      {
-      "title": "DOES IT WORK? ? Dr Shelby Review Usuie Red Light Therapy Wand",
+      "title": "One skincare gadget I can't live without #shorts",
+      "views": 1100000,
+      "url": "https://www.youtube.com/shorts/6kYDdPm65Mg"
+     },
+     {
+      "title": "This FDA Approved Red Light Therapy Changed My LIFE!",
+      "views": 144000,
+      "url": "https://www.youtube.com/shorts/R5POhcY24AQ"
+     },
+     {
+      "title": "Better than retinol? Solawave test & review 2 week results",
+      "views": 81000,
+      "url": "https://www.youtube.com/shorts/kRtbiDYc0-M"
+     },
+     {
+      "title": "Viral LED Hair Regrowth Therapy Comb #shorts",
+      "views": 52000,
+      "url": "https://www.youtube.com/shorts/8Oqjx87CEsY"
+     },
+     {
+      "title": "Is This Small LED Device ACTUALLY Effective?? #esthetician #skincare #led",
       "views": 31000,
-      "url": "https://www.youtube.com/shorts/f8wPCD_cPRg"
-     },
-     {
-      "title": "Using  the Sola Wave Wand Red Light Therapy & the Activating Serum #solawavewand #shorts",
-      "views": 30000,
-      "url": "https://www.youtube.com/shorts/T-6rB7NqWs0"
-     },
-     {
-      "title": "Which red light therapy wand benefits are you most excited about? ✨ #solawavewand #solawave",
-      "views": 24000,
-      "url": "https://www.youtube.com/shorts/g0E7ZIQa5Qk"
-     },
-     {
-      "title": "Red Light Therapy Face Wand - What Each Color's Function Is #skincare #redlighttherapy",
-      "views": 10000,
-      "url": "https://www.youtube.com/shorts/GiyBgEH85uw"
-     },
-     {
-      "title": "Red light therapy facial wand from Vanilla🫶 #skincare #darkspots #texturedskin #facialwand",
-      "views": 7200,
-      "url": "https://www.youtube.com/shorts/8pptsTTIIZA"
+      "url": "https://www.youtube.com/shorts/t4GveC3Tg8E"
      }
     ],
     "status": "LIVE"
@@ -1389,53 +1389,53 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 57,
-    "video_score": 51,
+    "score": 66,
+    "video_score": 67,
     "trend_score": 65,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 7K vistas (el mayor, 31K)",
+     "Shorts: los 10 más vistos tienen una mediana de 31K vistas (el mayor, 1.1M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
-     "Google (EE. UU.): estable +6% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): estable +8% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-18 23:40:07 UTC",
+   "measured_at": "2026-11-20 14:28:40 UTC",
    "trends": {
-    "momentum_pct": 5.5,
+    "momentum_pct": 7.6,
     "low_volume": false,
     "peak_ratio": 0.39,
-    "mean_recent": 38.5
+    "mean_recent": 38.8
    },
    "trends_series": [
-    88,
-    72,
+    87,
+    71,
     70,
-    74,
+    73,
     69,
-    83,
-    54,
+    80,
+    53,
     50,
-    44,
-    45,
+    42,
+    43,
     39,
+    37,
+    37,
+    35,
+    36,
+    36,
+    36,
+    35,
+    33,
+    34,
     38,
-    37,
     36,
-    37,
-    36,
-    36,
-    33,
     34,
     36,
-    39,
-    37,
-    34,
-    33,
-    40,
+    38,
     47
    ],
-   "trends_at": "2026-11-16 03:23 UTC",
+   "trends_at": "2026-11-20 14:28:40 UTC",
    "rising": [
     {
      "query": "clara red light therapy mask",
@@ -1467,11 +1467,11 @@
   "scalp-massager": {
    "youtube": {
     "keyword": "electric scalp massager",
-    "shorts_found": 29,
-    "median_views_top10": 621000,
+    "shorts_found": 36,
+    "median_views_top10": 1500000,
     "max_views": 27000000,
-    "over_100k": 12,
-    "over_1m": 4,
+    "over_100k": 17,
+    "over_1m": 7,
     "top": [
      {
       "title": "This Hair Massager Is Surprisingly Satisfying 😍✨ #Shorts",
@@ -1489,14 +1489,14 @@
       "url": "https://www.youtube.com/shorts/E1u2JtxYfUA"
      },
      {
+      "title": "Grow your hair long in 30days | Scalp massager | Hair Growth #youtubeshorts #hairchaircut #scalpcare",
+      "views": 4100000,
+      "url": "https://www.youtube.com/shorts/Hcg1ZVzSwnI"
+     },
+     {
       "title": "Testing an Electric Head Massager from Amazon!",
       "views": 1600000,
       "url": "https://www.youtube.com/shorts/RVkzbtZB2NU"
-     },
-     {
-      "title": "Ranking Funniest Head Massage Of All Time",
-      "views": 653000,
-      "url": "https://www.youtube.com/shorts/-e5zEsLmJso"
      }
     ],
     "status": "LIVE"
@@ -1510,47 +1510,47 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 621K vistas (el mayor, 27M)",
-     "Competencia alta: 4 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 1.5M vistas (el mayor, 27M)",
+     "Competencia alta: 7 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -18% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-18 23:40:12 UTC",
+   "measured_at": "2026-11-20 14:28:46 UTC",
    "trends": {
-    "momentum_pct": -18.3,
+    "momentum_pct": -18.2,
     "low_volume": false,
-    "peak_ratio": 0.22,
-    "mean_recent": 22.2
+    "peak_ratio": 0.23,
+    "mean_recent": 22.5
    },
    "trends_series": [
     79,
-    49,
+    50,
     57,
-    72,
-    60,
-    54,
-    28,
-    24,
-    19,
+    73,
+    61,
+    55,
+    29,
+    25,
+    20,
     23,
     23,
     21,
-    18,
-    73,
+    19,
+    74,
     20,
-    22,
+    20,
     43,
     20,
+    24,
+    22,
     23,
     21,
     22,
     21,
-    20,
-    22,
-    23,
-    24
+    24,
+    23
    ],
-   "trends_at": "2026-11-16 03:23 UTC",
+   "trends_at": "2026-11-20 14:28:46 UTC",
    "rising": [
     {
      "query": "hair scalp massager shampoo brush",
