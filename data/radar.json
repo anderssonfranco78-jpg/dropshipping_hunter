@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-20 14:28:46 UTC",
+ "updated_at": "2026-11-20 23:27:45 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -1788,24 +1788,24 @@
    "youtube": {
     "keyword": "neck stretcher cervical traction",
     "shorts_found": 29,
-    "median_views_top10": 204000,
-    "max_views": 5900000,
-    "over_100k": 9,
-    "over_1m": 1,
+    "median_views_top10": 307000,
+    "max_views": 11000000,
+    "over_100k": 11,
+    "over_1m": 2,
     "top": [
+     {
+      "title": "Stop living with neck stiffness: Try this decompression move #chiropractic #relief #shorts",
+      "views": 11000000,
+      "url": "https://www.youtube.com/shorts/bhLS0E7wY7w"
+     },
      {
       "title": "Cervical Traction in Action – Easing Neck Pressure One Click at a Time 🪑💆",
       "views": 5900000,
       "url": "https://www.youtube.com/shorts/5PARbwZXGOI"
      },
      {
-      "title": "Deep Cervical Traction Without the Thrust #ystrap",
-      "views": 546000,
-      "url": "https://www.youtube.com/shorts/twCBT25autQ"
-     },
-     {
       "title": "Ever Seen This Neck-Stretching Machine?",
-      "views": 534000,
+      "views": 535000,
       "url": "https://www.youtube.com/shorts/2hrRnffV2c4"
      },
      {
@@ -1814,9 +1814,9 @@
       "url": "https://www.youtube.com/shorts/NZ9iampU0Fs"
      },
      {
-      "title": "I Bought Neck Stretcher on Amazon #amazonfinds #gadgets",
-      "views": 253000,
-      "url": "https://www.youtube.com/shorts/Bpnwae-_UdE"
+      "title": "Door-Mounted Cervical Traction Device – Relieve Neck Pain at Home!",
+      "views": 360000,
+      "url": "https://www.youtube.com/shorts/H6J7iTuBjjA"
      }
     ],
     "status": "LIVE"
@@ -1824,89 +1824,89 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 79,
-    "video_score": 88,
+    "score": 76,
+    "video_score": 92,
     "trend_score": 65,
-    "crowding": "baja",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 204K vistas (el mayor, 5.9M)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
-     "Google (EE. UU.): estable -2% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 307K vistas (el mayor, 11M)",
+     "Competencia media: 2 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): estable +4% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-18 23:40:16 UTC",
+   "measured_at": "2026-11-20 23:27:17 UTC",
    "trends": {
-    "momentum_pct": -1.7,
+    "momentum_pct": 3.6,
     "low_volume": false,
     "peak_ratio": 0.24,
-    "mean_recent": 24.0
+    "mean_recent": 24.2
    },
    "trends_series": [
-    86,
+    75,
     53,
-    52,
-    59,
-    54,
-    59,
+    51,
+    57,
+    53,
+    56,
+    31,
     32,
     34,
-    33,
+    22,
     26,
     29,
-    27,
-    29,
-    20,
-    23,
+    30,
     21,
-    32,
     25,
+    21,
+    27,
+    27,
+    16,
+    21,
+    18,
     20,
-    25,
-    19,
     23,
-    26,
-    26,
-    19,
-    25
+    28,
+    22,
+    24
    ],
-   "trends_at": "2026-11-16 03:23 UTC",
+   "trends_at": "2026-11-20 23:27:16 UTC",
    "rising": [
     {
      "query": "mediness neck stretcher",
      "growth": "Breakout"
     },
     {
-     "query": "mediness neck massager",
-     "growth": "Breakout"
-    },
-    {
-     "query": "cervical neck pillow",
-     "growth": "+300%"
-    },
-    {
-     "query": "cervical pillow",
-     "growth": "+300%"
-    },
-    {
      "query": "neck pump stretcher",
-     "growth": "+300%"
+     "growth": "+180%"
     },
     {
-     "query": "cervical traction device",
-     "growth": "+180%"
+     "query": "blue neck stretcher",
+     "growth": "+160%"
+    },
+    {
+     "query": "cervical neck stretcher",
+     "growth": "+130%"
+    },
+    {
+     "query": "neck massager",
+     "growth": "+120%"
+    },
+    {
+     "query": "trakk neck stretcher",
+     "growth": "+110%"
     }
    ],
-   "rising_at": "2026-11-04 13:22:13 UTC"
+   "rising_at": "2026-11-20 23:27:17 UTC"
   },
   "foot-massager": {
    "youtube": {
     "keyword": "foot massager machine",
     "shorts_found": 29,
-    "median_views_top10": 404000,
+    "median_views_top10": 488000,
     "max_views": 131000000,
-    "over_100k": 10,
-    "over_1m": 3,
+    "over_100k": 9,
+    "over_1m": 4,
     "top": [
      {
       "title": "Foot Massage Cushion #satisfying #shot",
@@ -1924,14 +1924,14 @@
       "url": "https://www.youtube.com/shorts/muh4awUNlJg"
      },
      {
-      "title": "Lifelong Foot Massager Machine with Heating #viral #ytshorts #india #trending #shorts #2024 #health",
-      "views": 533000,
-      "url": "https://www.youtube.com/shorts/VbuxwfiT5ng"
+      "title": "Foot massager Restoration #diyprojects #reels #shorts #tamil #restoration #footmassage #electric",
+      "views": 1300000,
+      "url": "https://www.youtube.com/shorts/1L8EfwIwzWE"
      },
      {
-      "title": "Just a mat? Wait till you stand on it barefoot! Daily care with foot mat! Link in bio #acupressure",
-      "views": 439000,
-      "url": "https://www.youtube.com/shorts/TkxJExMJNsI"
+      "title": "Lifelong Foot Massager Machine with Heating #viral #ytshorts #india #trending #shorts #2024 #health",
+      "views": 535000,
+      "url": "https://www.youtube.com/shorts/VbuxwfiT5ng"
      }
     ],
     "status": "LIVE"
@@ -1939,53 +1939,53 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 86,
-    "video_score": 95,
+    "score": 77,
+    "video_score": 97,
     "trend_score": 85,
-    "crowding": "media",
+    "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 404K vistas (el mayor, 131M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 488K vistas (el mayor, 131M)",
+     "Competencia alta: 4 Shorts pasan el millón de vistas",
      "Google (EE. UU.): sube +12% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-18 23:40:19 UTC",
+   "measured_at": "2026-11-20 23:27:25 UTC",
    "trends": {
-    "momentum_pct": 11.6,
+    "momentum_pct": 12.2,
     "low_volume": false,
     "peak_ratio": 0.24,
-    "mean_recent": 24.0
+    "mean_recent": 24.5
    },
    "trends_series": [
     68,
-    53,
-    53,
+    54,
+    54,
     64,
-    66,
+    67,
     63,
-    36,
-    28,
+    37,
+    29,
     25,
     24,
-    20,
+    21,
     23,
     22,
     21,
     22,
     21,
+    22,
+    20,
+    23,
     21,
-    20,
-    23,
-    20,
     22,
-    23,
-    22,
-    23,
     24,
-    27
+    22,
+    23,
+    25,
+    28
    ],
-   "trends_at": "2026-11-16 03:23 UTC",
+   "trends_at": "2026-11-20 23:27:23 UTC",
    "rising": [
     {
      "query": "ornexis foot massager",
@@ -2000,25 +2000,25 @@
      "growth": "Breakout"
     },
     {
-     "query": "em sense foot massager",
-     "growth": "+2,050%"
+     "query": "ornexis ems foot massager reviews",
+     "growth": "Breakout"
     },
     {
-     "query": "ornexis ems foot massager reviews",
-     "growth": "+1,300%"
+     "query": "em sense foot massager",
+     "growth": "+1,050%"
     },
     {
      "query": "human touch reflex sol foot and calf massager",
-     "growth": "+700%"
+     "growth": "+750%"
     }
    ],
-   "rising_at": "2026-11-04 13:22:21 UTC"
+   "rising_at": "2026-11-20 23:27:25 UTC"
   },
   "heated-eye-massager": {
    "youtube": {
     "keyword": "heated eye massager",
-    "shorts_found": 27,
-    "median_views_top10": 15500,
+    "shorts_found": 33,
+    "median_views_top10": 10450,
     "max_views": 49000,
     "over_100k": 0,
     "over_1m": 0,
@@ -2039,14 +2039,14 @@
       "url": "https://www.youtube.com/shorts/otht78Ss-cQ"
      },
      {
-      "title": "I love my Renpho Eyeris 1 Eye massager! Say goodbye to eye strain and hello to relaxation!",
-      "views": 21000,
-      "url": "https://www.youtube.com/shorts/UE41ZCHrulo"
-     },
-     {
       "title": "Mini Electric eye massager review||Does it really works #shorts",
       "views": 20000,
       "url": "https://www.youtube.com/shorts/DUK8pMBxrx0"
+     },
+     {
+      "title": "STYLPRO Bags Be Gone Heated Eye Massager #shorts",
+      "views": 11000,
+      "url": "https://www.youtube.com/shorts/PAP-VurAzIw"
      }
     ],
     "status": "LIVE"
@@ -2054,18 +2054,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 70,
-    "video_score": 60,
+    "score": 67,
+    "video_score": 55,
     "trend_score": 85,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 16K vistas (el mayor, 49K)",
+     "Shorts: los 10 más vistos tienen una mediana de 10K vistas (el mayor, 49K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): sube +18% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-19 04:41:32 UTC",
+   "measured_at": "2026-11-20 23:27:29 UTC",
    "trends": {
     "momentum_pct": 17.6,
     "low_volume": false,
@@ -2100,7 +2100,7 @@
     14,
     23
    ],
-   "trends_at": "2026-11-19 04:41:30 UTC",
+   "trends_at": "2026-11-19 04:41 UTC",
    "rising": [
     {
      "query": "neck massager",
@@ -2132,16 +2132,16 @@
   "mini-massage-gun": {
    "youtube": {
     "keyword": "mini massage gun",
-    "shorts_found": 33,
-    "median_views_top10": 241000,
-    "max_views": 3000000,
-    "over_100k": 5,
-    "over_1m": 3,
+    "shorts_found": 31,
+    "median_views_top10": 675000,
+    "max_views": 1900000,
+    "over_100k": 6,
+    "over_1m": 4,
     "top": [
      {
-      "title": "Massage Gun Therapy for Shin Splints & Plantar Fasciitis #pt #mke #terapia #painrelief #therapy #fyp",
-      "views": 3000000,
-      "url": "https://www.youtube.com/shorts/oiRClacPAlE"
+      "title": "Heated Head Massage Gun by Best Chiropractor in Beverly Hills for Neck Pain Headaches",
+      "views": 1900000,
+      "url": "https://www.youtube.com/shorts/XVOGyyrYirs"
      },
      {
       "title": "Using a Mini Massage Gun for Foot and Ankle Rehab",
@@ -2154,14 +2154,14 @@
       "url": "https://www.youtube.com/shorts/1Jx1j0NtZ50"
      },
      {
-      "title": "Mini Massage Gun | Say Goodbye to Back Pain: How a Massage Gun Can Help",
-      "views": 917000,
-      "url": "https://www.youtube.com/shorts/1lxcxe8DzyM"
+      "title": "⭐ Product Link in Comments ⭐Mini Electric Body Neck Relief Massager",
+      "views": 1000000,
+      "url": "https://www.youtube.com/shorts/7g1YOuh2aW4"
      },
      {
-      "title": "2 Ta Rechargeable Body Massage Gun Small & Big Unboxing😱",
-      "views": 413000,
-      "url": "https://www.youtube.com/shorts/jw_H7TeXYJg"
+      "title": "Mini Massage Gun | Say Goodbye to Back Pain: How a Massage Gun Can Help",
+      "views": 923000,
+      "url": "https://www.youtube.com/shorts/1lxcxe8DzyM"
      }
     ],
     "status": "LIVE"
@@ -2169,18 +2169,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 75,
-    "video_score": 90,
+    "score": 71,
+    "video_score": 100,
     "trend_score": 65,
-    "crowding": "media",
+    "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 241K vistas (el mayor, 3M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 675K vistas (el mayor, 1.9M)",
+     "Competencia alta: 4 Shorts pasan el millón de vistas",
      "Google (EE. UU.): estable -5% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-19 04:41:41 UTC",
+   "measured_at": "2026-11-20 23:27:32 UTC",
    "trends": {
     "momentum_pct": -4.8,
     "low_volume": false,
@@ -2215,7 +2215,7 @@
     38,
     42
    ],
-   "trends_at": "2026-11-19 04:41:38 UTC",
+   "trends_at": "2026-11-19 04:41 UTC",
    "rising": [
     {
      "query": "nht massage gun",
@@ -2247,8 +2247,8 @@
   "car-gap-filler": {
    "youtube": {
     "keyword": "car seat gap filler",
-    "shorts_found": 31,
-    "median_views_top10": 56000,
+    "shorts_found": 32,
+    "median_views_top10": 50000,
     "max_views": 9700000,
     "over_100k": 3,
     "over_1m": 2,
@@ -2270,7 +2270,7 @@
      },
      {
       "title": "Seatseal car seat gap filler, super convenient and cheap!",
-      "views": 83000,
+      "views": 84000,
       "url": "https://www.youtube.com/shorts/L8bdjHkhIUE"
      },
      {
@@ -2284,53 +2284,53 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 47,
-    "video_score": 74,
-    "trend_score": 20,
+    "score": 54,
+    "video_score": 72,
+    "trend_score": 40,
     "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 56K vistas (el mayor, 9.7M)",
+     "Shorts: los 10 más vistos tienen una mediana de 50K vistas (el mayor, 9.7M)",
      "Competencia media: 2 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -44% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): baja -18% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-19 04:41:44 UTC",
+   "measured_at": "2026-11-20 23:27:38 UTC",
    "trends": {
-    "momentum_pct": -44.3,
+    "momentum_pct": -17.9,
     "low_volume": false,
-    "peak_ratio": 0.04,
-    "mean_recent": 4.5
+    "peak_ratio": 0.07,
+    "mean_recent": 7.2
    },
    "trends_series": [
-    40,
-    20,
+    39,
+    18,
     29,
-    33,
-    29,
+    34,
     28,
+    30,
+    14,
+    15,
     13,
-    16,
-    13,
-    12,
-    6,
-    10,
-    12,
-    9,
     11,
+    8,
+    10,
     10,
     6,
-    0,
+    11,
+    9,
     9,
     6,
-    12,
-    6,
-    0,
+    10,
+    8,
+    10,
+    9,
+    7,
     5,
-    5,
-    8
+    8,
+    9
    ],
-   "trends_at": "2026-11-17 01:11 UTC",
+   "trends_at": "2026-11-20 23:27:38 UTC",
    "rising": [
     {
      "query": "car seat gap filler organizer",
@@ -2346,12 +2346,22 @@
   "cordless-car-vacuum": {
    "youtube": {
     "keyword": "cordless car vacuum",
-    "shorts_found": 29,
-    "median_views_top10": 473500,
-    "max_views": 2700000,
-    "over_100k": 13,
-    "over_1m": 3,
+    "shorts_found": 31,
+    "median_views_top10": 1068000,
+    "max_views": 13000000,
+    "over_100k": 16,
+    "over_1m": 5,
     "top": [
+     {
+      "title": "Mini Car Vacuum, Clean Fine Car Dust In One Click #creative #viral #shorts #amazing",
+      "views": 13000000,
+      "url": "https://www.youtube.com/shorts/IJ6-PMq_sRk"
+     },
+     {
+      "title": "Product Link in Bio ( # 2333 ) ▶️  Hyper Clean Wireless Portable Vacuum Cleaner",
+      "views": 7900000,
+      "url": "https://www.youtube.com/shorts/YMCH2IdMJ0g"
+     },
      {
       "title": "Portable TEXUM TVC Vacuum Cleaner Unboxing🔥",
       "views": 2700000,
@@ -2366,16 +2376,6 @@
       "title": "Wireless Handheld Car Vacuum Cleaner",
       "views": 1200000,
       "url": "https://www.youtube.com/shorts/kXLk4MqmgME"
-     },
-     {
-      "title": "Portable vacuum cleaner and blower that can be used both indoors and in car!",
-      "views": 935000,
-      "url": "https://www.youtube.com/shorts/NGibBMV44nI"
-     },
-     {
-      "title": "Portable Wireless Car Vacuum Cleaner Powerful Suction & Dual-Purpose #vacuumcleaner #shorts #gadgets",
-      "views": 514000,
-      "url": "https://www.youtube.com/shorts/SKvUmY4igaM"
      }
     ],
     "status": "LIVE"
@@ -2383,40 +2383,40 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 61,
-    "video_score": 97,
+    "score": 53,
+    "video_score": 100,
     "trend_score": 20,
-    "crowding": "media",
+    "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 474K vistas (el mayor, 2.7M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): baja -31% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 1.1M vistas (el mayor, 13M)",
+     "Competencia alta: 5 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): baja -28% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-19 04:41:48 UTC",
+   "measured_at": "2026-11-20 23:27:45 UTC",
    "trends": {
-    "momentum_pct": -30.8,
+    "momentum_pct": -28.0,
     "low_volume": false,
     "peak_ratio": 0.16,
-    "mean_recent": 15.8
+    "mean_recent": 16.2
    },
    "trends_series": [
+    69,
+    53,
+    52,
     65,
-    54,
-    54,
-    63,
-    60,
-    74,
-    35,
-    33,
+    64,
+    72,
+    36,
+    34,
     24,
-    27,
     28,
     28,
     28,
     27,
-    26,
+    27,
+    25,
     23,
     20,
     19,
@@ -2426,10 +2426,10 @@
     18,
     16,
     16,
-    16,
-    15
+    17,
+    16
    ],
-   "trends_at": "2026-11-17 01:11 UTC",
+   "trends_at": "2026-11-20 23:27:45 UTC",
    "rising": [
     {
      "query": "allstate car insurance quote",
