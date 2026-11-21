@@ -1,10 +1,10 @@
 {
   "mode": "LIVE",
-  "generated_at": "2026-11-20 23:27:45 UTC",
+  "generated_at": "2026-11-21 04:27:08 UTC",
   "sources": {
     "trends": {
-      "LIVE": 9,
-      "CACHED": 0,
+      "LIVE": 0,
+      "CACHED": 9,
       "NO_LIVE_DATA": 0,
       "MANUAL": 0,
       "MOCK": 0,
