@@ -30,7 +30,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -161,16 +161,23 @@
       "peak_ratio": 0.12,
       "mean_recent": 12.5,
       "mean_prior": 14.1,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-22 22:53 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "steamy cat brush",
-      "shorts_found": 29,
-      "median_views_top10": 54500,
-      "max_views": 3800000,
-      "over_100k": 4,
-      "over_1m": 2,
+      "shorts_found": 30,
+      "median_views_top10": 172000,
+      "max_views": 18000000,
+      "over_100k": 6,
+      "over_1m": 3,
       "top": [
+        {
+          "title": "✨Magic Pet Steam Brush – Bye Bye Shedding! 💦🐶🐱#Cat #Cats #CuteCat",
+          "views": 18000000,
+          "url": "https://www.youtube.com/shorts/CzSlC3TFa1Y"
+        },
         {
           "title": "🐶 Why Is Everyone Switching to This Steam Pet Brush?! 👀🔥",
           "views": 3800000,
@@ -182,19 +189,14 @@
           "url": "https://www.youtube.com/shorts/0kU6kGTG0Q8"
         },
         {
+          "title": "Steam Grooming Brush: For Cats and Dogs",
+          "views": 813000,
+          "url": "https://www.youtube.com/shorts/-OKLMmMRIhY"
+        },
+        {
           "title": "Cat Steam Brush",
           "views": 215000,
           "url": "https://www.youtube.com/shorts/YlfjnUmavs8"
-        },
-        {
-          "title": "Steamy Cat Brush! 💨#catbrush #steamycatbrush #hairbrush #petsupplies #catgrooming #petcare",
-          "views": 129000,
-          "url": "https://www.youtube.com/shorts/Ee7UiQ4U7do"
-        },
-        {
-          "title": "Testing New Steamy Cat Brush | Steamy brush #devicecare #catlover #catbrush",
-          "views": 70000,
-          "url": "https://www.youtube.com/shorts/NmysMNfhbrE"
         }
       ],
       "status": "LIVE"
@@ -231,7 +233,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -362,11 +364,13 @@
       "peak_ratio": 0.18,
       "mean_recent": 18.5,
       "mean_prior": 19.8,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-22 22:53 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "ultrasonic tooth cleaner",
-      "shorts_found": 32,
+      "shorts_found": 30,
       "median_views_top10": 1750000,
       "max_views": 5200000,
       "over_100k": 11,
@@ -436,7 +440,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -567,20 +571,22 @@
       "peak_ratio": 0.29,
       "mean_recent": 29.2,
       "mean_prior": 29.0,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-22 22:53 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "lumbar traction belt",
-      "shorts_found": 29,
-      "median_views_top10": 151000,
-      "max_views": 11000000,
-      "over_100k": 6,
+      "shorts_found": 28,
+      "median_views_top10": 102500,
+      "max_views": 14000000,
+      "over_100k": 5,
       "over_1m": 3,
       "top": [
         {
-          "title": "Stop living with neck stiffness: Try this decompression move #chiropractic #relief #shorts",
-          "views": 11000000,
-          "url": "https://www.youtube.com/shorts/bhLS0E7wY7w"
+          "title": "Stretch Your Spine Automatically",
+          "views": 14000000,
+          "url": "https://www.youtube.com/shorts/IK9sl-o50d0"
         },
         {
           "title": "Easy Way to Decompress Your Back #Shorts",
@@ -598,9 +604,9 @@
           "url": "https://www.youtube.com/shorts/oq1nC0LObDE"
         },
         {
-          "title": "Lumbar Traction",
-          "views": 178000,
-          "url": "https://www.youtube.com/shorts/C45Q3xecf6I"
+          "title": "Spine and back traction using Lamber Belt at #yogapeacesansthan",
+          "views": 124000,
+          "url": "https://www.youtube.com/shorts/bdHrn9_9vj4"
         }
       ],
       "status": "LIVE"
@@ -637,7 +643,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -768,11 +774,13 @@
       "peak_ratio": 0.27,
       "mean_recent": 26.8,
       "mean_prior": 24.9,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-22 22:53 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "turbo jet fan",
-      "shorts_found": 30,
+      "shorts_found": 31,
       "median_views_top10": 1650000,
       "max_views": 80000000,
       "over_100k": 14,
@@ -838,7 +846,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -969,15 +977,17 @@
       "peak_ratio": 0.1,
       "mean_recent": 10.0,
       "mean_prior": 9.5,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-22 22:53 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "baby nail trimmer electric",
-      "shorts_found": 30,
+      "shorts_found": 28,
       "median_views_top10": 1250000,
       "max_views": 2900000,
-      "over_100k": 10,
-      "over_1m": 7,
+      "over_100k": 12,
+      "over_1m": 9,
       "top": [
         {
           "title": "Baby Nail Trimmer That Made Life Easier 👶✨",
@@ -1039,7 +1049,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -1170,14 +1180,16 @@
       "peak_ratio": 0.2,
       "mean_recent": 19.5,
       "mean_prior": 15.2,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-22 22:53 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "fabric shaver lint remover",
       "shorts_found": 30,
-      "median_views_top10": 69500,
+      "median_views_top10": 133000,
       "max_views": 4900000,
-      "over_100k": 4,
+      "over_100k": 5,
       "over_1m": 1,
       "top": [
         {
@@ -1191,6 +1203,11 @@
           "url": "https://www.youtube.com/shorts/GEqxFg0eHJY"
         },
         {
+          "title": "Clothes Lint Remover Gadget! #shorts #unboxing",
+          "views": 506000,
+          "url": "https://www.youtube.com/shorts/BHXnzpKhlhs"
+        },
+        {
           "title": "Revamp Your Clothes: Fabric Shaver Hack! #fabricshaver #lintremover",
           "views": 215000,
           "url": "https://www.youtube.com/shorts/INmi6I7-WMQ"
@@ -1199,11 +1216,6 @@
           "title": "Fabric Shaver Electric Lint Remover, Bobling Remover for ClothesUSB Rechargeable.",
           "views": 172000,
           "url": "https://www.youtube.com/shorts/7nYhFh4PQwc"
-        },
-        {
-          "title": "BEAUTURAL Fabric Shaver and Lint Remover Review!",
-          "views": 94000,
-          "url": "https://www.youtube.com/shorts/hYiu7Fa6qUw"
         }
       ],
       "status": "LIVE"
@@ -1240,7 +1252,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -1371,16 +1383,28 @@
       "peak_ratio": 0.51,
       "mean_recent": 50.8,
       "mean_prior": 39.2,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-22 22:53 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "solar garden lights",
-      "shorts_found": 27,
-      "median_views_top10": 276000,
-      "max_views": 1100000,
-      "over_100k": 8,
-      "over_1m": 1,
+      "shorts_found": 28,
+      "median_views_top10": 350000,
+      "max_views": 7700000,
+      "over_100k": 11,
+      "over_1m": 3,
       "top": [
+        {
+          "title": "Solar light for my garden ✨#solarpower #solarlight #gardentour #gardendecorideas #shorts",
+          "views": 7700000,
+          "url": "https://www.youtube.com/shorts/IRQCwmES5kc"
+        },
+        {
+          "title": "Viral solar lights from Meesho #solarlight #viralfinds #meeshohaul #shortsindia #shorts",
+          "views": 2500000,
+          "url": "https://www.youtube.com/shorts/tbv-J6axspk"
+        },
         {
           "title": "Product Link in Bio ( 414 ) ▶️ Solar-Powered Floating Jellyfish Garden Lights⁠",
           "views": 1100000,
@@ -1395,16 +1419,6 @@
           "title": "Best Outdoor Solar String Lights for Your Backyard #shorts",
           "views": 353000,
           "url": "https://www.youtube.com/shorts/BIwqKXGyJ88"
-        },
-        {
-          "title": "Unbelievable! See What These Solar Ground Lights Can Do!",
-          "views": 347000,
-          "url": "https://www.youtube.com/shorts/Bff61Is_TPA"
-        },
-        {
-          "title": "Amazon Solar Lights for Your Backyard Deck Patio Garden! #amazonstyle",
-          "views": 316000,
-          "url": "https://www.youtube.com/shorts/yy6Czrz9sTk"
         }
       ],
       "status": "LIVE"
@@ -1441,7 +1455,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -1572,20 +1586,27 @@
       "peak_ratio": 0.28,
       "mean_recent": 28.2,
       "mean_prior": 28.8,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-22 22:53 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "magnetic window cleaner",
-      "shorts_found": 27,
-      "median_views_top10": 644000,
+      "shorts_found": 29,
+      "median_views_top10": 854500,
       "max_views": 24000000,
       "over_100k": 8,
-      "over_1m": 3,
+      "over_1m": 4,
       "top": [
         {
           "title": "▶️ Clean both sides easily Double Side Magnetic Window Cleaner Brush Tool ( # 2121 )",
           "views": 24000000,
           "url": "https://www.youtube.com/shorts/KpW-e3zhSbg"
+        },
+        {
+          "title": "This Magnetic Window Cleaner is My New Favorite Toy! ✨ So CLEVER! #cleaninggadget #windowwashing",
+          "views": 23000000,
+          "url": "https://www.youtube.com/shorts/AJRT9Kuk8mQ"
         },
         {
           "title": "Double Side Magnetic Window Cleaner Brush Tool 🎯Product Link in Description & Comments!🎯",
@@ -1601,11 +1622,6 @@
           "title": "how to use a magnetic glass cleaner?",
           "views": 901000,
           "url": "https://www.youtube.com/shorts/vQNbom6sW8o"
-        },
-        {
-          "title": "How To Use Double Sided Magnetic Window Cleaner",
-          "views": 808000,
-          "url": "https://www.youtube.com/shorts/V_NZx7TBC6A"
         }
       ],
       "status": "LIVE"
@@ -1642,7 +1658,7 @@
       ]
     },
     "data_status": {
-      "trends": "LIVE",
+      "trends": "CACHED",
       "youtube": "LIVE",
       "tiktok": "UNAVAILABLE",
       "meta": "UNAVAILABLE",
@@ -1773,11 +1789,13 @@
       "peak_ratio": 0.32,
       "mean_recent": 31.5,
       "mean_prior": 29.2,
-      "resolution": "WEEK"
+      "resolution": "WEEK",
+      "measured_at": "2026-11-22 22:53 UTC",
+      "cache": "reciente"
     },
     "youtube": {
       "keyword": "vegetable chopper",
-      "shorts_found": 30,
+      "shorts_found": 28,
       "median_views_top10": 1213000,
       "max_views": 43000000,
       "over_100k": 15,

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-22 22:54:19 UTC",
+ "updated_at": "2026-11-23 04:15:25 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -2901,10 +2901,10 @@
   "sleep-headband": {
    "youtube": {
     "keyword": "sleep headphones headband",
-    "shorts_found": 33,
-    "median_views_top10": 72000,
+    "shorts_found": 29,
+    "median_views_top10": 88500,
     "max_views": 966000,
-    "over_100k": 3,
+    "over_100k": 4,
     "over_1m": 0,
     "top": [
      {
@@ -2914,8 +2914,13 @@
      },
      {
       "title": "Why I regret buying a SnoozeBand 😴 #sleep #sleepheadphones #sleepmask",
-      "views": 736000,
+      "views": 737000,
       "url": "https://www.youtube.com/shorts/gHOhZu5v6YQ"
+     },
+     {
+      "title": "Fixing broken headphones with 200 IQ 🔥 #shorts",
+      "views": 644000,
+      "url": "https://www.youtube.com/shorts/3_u-bVaXCPA"
      },
      {
       "title": "Sleep Mask Headphones Review | the Best Bluetooth Headphones for Sleeping! 💤",
@@ -2923,14 +2928,9 @@
       "url": "https://www.youtube.com/shorts/yRWJD1z-reU"
      },
      {
-      "title": "MUSICOZY Sleep Headphones Review: The Ultimate Sleep Aid for Insomnia Relief #shorts #shortvideo",
-      "views": 94000,
-      "url": "https://www.youtube.com/shorts/Q0uAcTAPQO8"
-     },
-     {
-      "title": "Sleep & Train Like a Pro 🔥 2025 Bluetooth Headband Earphones Unboxed #techgadgets",
-      "views": 80000,
-      "url": "https://www.youtube.com/shorts/qiOqRUph9oY"
+      "title": "Would you try sleeping headphones?",
+      "views": 97000,
+      "url": "https://www.youtube.com/shorts/gnHIGw6E6cc"
      }
     ],
     "status": "LIVE"
@@ -2938,18 +2938,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 72,
-    "video_score": 76,
+    "score": 73,
+    "video_score": 79,
     "trend_score": 65,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 72K vistas (el mayor, 966K)",
+     "Shorts: los 10 más vistos tienen una mediana de 88K vistas (el mayor, 966K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): estable -8% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-21 04:27:08 UTC",
+   "measured_at": "2026-11-23 04:15:17 UTC",
    "trends": {
     "momentum_pct": -8.2,
     "low_volume": false,
@@ -2984,7 +2984,7 @@
     8,
     8
    ],
-   "trends_at": "2026-11-21 04:27:08 UTC",
+   "trends_at": "2026-11-21 04:27 UTC",
    "rising": [
     {
      "query": "bluetooth sleep headphones",
@@ -3004,10 +3004,10 @@
   "baby-nail-trimmer": {
    "youtube": {
     "keyword": "baby nail trimmer electric",
-    "shorts_found": 29,
-    "median_views_top10": 1550000,
+    "shorts_found": 28,
+    "median_views_top10": 1250000,
     "max_views": 2900000,
-    "over_100k": 14,
+    "over_100k": 12,
     "over_1m": 9,
     "top": [
      {
@@ -3031,9 +3031,9 @@
       "url": "https://www.youtube.com/shorts/BSrKZKBtFWI"
      },
      {
-      "title": "Baby Nail Trimmer Kit: Gentle Care Designed for Delicate Newborn Nails #Baby",
-      "views": 1700000,
-      "url": "https://www.youtube.com/shorts/ds9mrTv-JQk"
+      "title": "How to Safely Trim Your Baby's Nails? Baby Electric Nail Trimmer Unveiled!  #cutebaby",
+      "views": 1400000,
+      "url": "https://www.youtube.com/shorts/N3bTTBu7v90"
      }
     ],
     "status": "LIVE"
@@ -3047,47 +3047,47 @@
     "crowding": "alta",
     "partial": true,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 1.6M vistas (el mayor, 2.9M)",
+     "Shorts: los 10 más vistos tienen una mediana de 1.2M vistas (el mayor, 2.9M)",
      "Competencia alta: 9 Shorts pasan el millón de vistas",
      "Google: casi no se busca por nombre (normal en gadgets que se descubren en video)"
     ]
    },
-   "measured_at": "2026-11-21 04:27:08 UTC",
+   "measured_at": "2026-11-23 04:15:17 UTC",
    "trends": {
-    "momentum_pct": -69.2,
+    "momentum_pct": 5.3,
     "low_volume": true,
-    "peak_ratio": 0.04,
-    "mean_recent": 3.8
+    "peak_ratio": 0.1,
+    "mean_recent": 10.0
    },
    "trends_series": [
-    69,
-    50,
-    45,
-    77,
-    58,
-    67,
-    21,
-    16,
-    13,
-    0,
-    24,
-    0,
+    55,
+    48,
+    80,
+    56,
+    61,
     18,
-    14,
-    12,
-    20,
+    21,
+    0,
+    0,
+    23,
+    0,
+    15,
     13,
-    0,
-    17,
-    12,
-    0,
+    13,
     16,
     0,
     0,
-    3,
-    12
+    0,
+    12,
+    12,
+    16,
+    17,
+    0,
+    15,
+    12,
+    13
    ],
-   "trends_at": "2026-11-20 23:26 UTC",
+   "trends_at": "2026-11-22 22:53 UTC",
    "rising": [
     {
      "query": "nail snail baby nail trimmer",
@@ -3101,21 +3101,20 @@
    "rising_at": "2026-11-06 22:28:20 UTC"
   },
   "lcd-drawing-tablet": {
-   "youtube_status": "LIVE",
+   "youtube_status": "NO_LIVE_DATA",
    "trends_status": "LIVE",
    "market": {
-    "score": 70,
-    "video_score": 70,
+    "score": null,
+    "video_score": null,
     "trend_score": null,
-    "crowding": "baja",
-    "partial": true,
+    "crowding": null,
+    "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 41K vistas (el mayor, 1.4M)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Shorts: sin datos en vivo en esta corrida",
      "Google: casi no se busca por nombre (normal en gadgets que se descubren en video)"
     ]
    },
-   "measured_at": "2026-11-21 13:47:35 UTC",
+   "measured_at": "2026-11-23 04:15:21 UTC",
    "trends": {
     "momentum_pct": 22.1,
     "low_volume": true,
@@ -3150,7 +3149,7 @@
     2,
     15
    ],
-   "trends_at": "2026-11-21 13:47:34 UTC",
+   "trends_at": "2026-11-21 13:47 UTC",
    "rising": [
     {
      "query": "mafiti lcd writing tablet",
@@ -3214,36 +3213,36 @@
   "solar-garden-lights": {
    "youtube": {
     "keyword": "solar garden lights",
-    "shorts_found": 39,
-    "median_views_top10": 572500,
-    "max_views": 48000000,
-    "over_100k": 14,
-    "over_1m": 4,
+    "shorts_found": 28,
+    "median_views_top10": 350000,
+    "max_views": 7700000,
+    "over_100k": 11,
+    "over_1m": 3,
     "top": [
      {
-      "title": "Solar garden lamp street lamp #solarcharging",
-      "views": 48000000,
-      "url": "https://www.youtube.com/shorts/z0hfmm4hQZQ"
+      "title": "Solar light for my garden ✨#solarpower #solarlight #gardentour #gardendecorideas #shorts",
+      "views": 7700000,
+      "url": "https://www.youtube.com/shorts/IRQCwmES5kc"
      },
      {
-      "title": "Concrete Base Construction Process for 4-Meter Solar Lamp Post #solarlight #lamppostbase #lamppole",
-      "views": 27000000,
-      "url": "https://www.youtube.com/shorts/HKX4GUKTmwQ"
+      "title": "Viral solar lights from Meesho #solarlight #viralfinds #meeshohaul #shortsindia #shorts",
+      "views": 2500000,
+      "url": "https://www.youtube.com/shorts/tbv-J6axspk"
      },
      {
-      "title": "Best solar lights for balcony and terrace garden 🪴 #sustainability #solarenergy",
-      "views": 1700000,
-      "url": "https://www.youtube.com/shorts/3z1jL4xTRDc"
-     },
-     {
-      "title": "Best Portable Solar LED Camping Light & Waterproof Emergency Hanging Bulb! ☀️💡 #shorts #light",
+      "title": "Product Link in Bio ( 414 ) ▶️ Solar-Powered Floating Jellyfish Garden Lights⁠",
       "views": 1100000,
-      "url": "https://www.youtube.com/shorts/PppOaW4rI8Y"
+      "url": "https://www.youtube.com/shorts/HcWUfkm2BBM"
      },
      {
-      "title": "☀️🌌💡 Solar Interaction Wall Lamp Unboxing | xf-8818 | bk-888 | Outdoor Solar Light #shorts",
-      "views": 658000,
-      "url": "https://www.youtube.com/shorts/01PrJvPg0bQ"
+      "title": "⚡Solar Powered Wall Light #walllights #solarlight  #lighting",
+      "views": 490000,
+      "url": "https://www.youtube.com/shorts/y8UnY40K-0I"
+     },
+     {
+      "title": "Best Outdoor Solar String Lights for Your Backyard #shorts",
+      "views": 353000,
+      "url": "https://www.youtube.com/shorts/BIwqKXGyJ88"
      }
     ],
     "status": "LIVE"
@@ -3251,78 +3250,68 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 78,
-    "video_score": 99,
-    "trend_score": 85,
-    "crowding": "alta",
+    "score": 91,
+    "video_score": 94,
+    "trend_score": 100,
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 572K vistas (el mayor, 48M)",
-     "Competencia alta: 4 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): sube +13% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 350K vistas (el mayor, 7.7M)",
+     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): sube +30% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-21 13:47:35 UTC",
+   "measured_at": "2026-11-23 04:15:21 UTC",
    "trends": {
-    "momentum_pct": 13.4,
+    "momentum_pct": 29.6,
     "low_volume": false,
-    "peak_ratio": 0.45,
-    "mean_recent": 44.5
+    "peak_ratio": 0.51,
+    "mean_recent": 50.8
    },
    "trends_series": [
-    95,
     80,
     84,
-    88,
+    86,
+    78,
     77,
-    76,
-    54,
-    44,
+    51,
+    43,
+    40,
+    40,
+    40,
+    39,
+    39,
+    38,
+    38,
+    39,
+    39,
+    39,
     41,
     40,
-    36,
-    45,
+    43,
     38,
     37,
-    38,
-    39,
-    39,
-    39,
-    41,
-    37,
     42,
-    40,
-    40,
-    42,
-    44,
-    52
+    56,
+    51,
+    54
    ],
-   "trends_at": "2026-11-20 23:26 UTC",
+   "trends_at": "2026-11-22 22:53 UTC",
    "rising": [],
    "rising_at": "2026-11-10 13:51:37 UTC"
   },
   "camping-lantern": {
    "youtube": {
     "keyword": "rechargeable camping lantern",
-    "shorts_found": 37,
-    "median_views_top10": 69000,
-    "max_views": 1100000,
-    "over_100k": 3,
-    "over_1m": 1,
+    "shorts_found": 34,
+    "median_views_top10": 24000,
+    "max_views": 182000,
+    "over_100k": 1,
+    "over_1m": 0,
     "top": [
      {
-      "title": "Best Portable Solar LED Camping Light & Waterproof Emergency Hanging Bulb! ☀️💡 #shorts #light",
-      "views": 1100000,
-      "url": "https://www.youtube.com/shorts/PppOaW4rI8Y"
-     },
-     {
-      "title": "Yardwe Led Camping Lantern Solar Panel Hand-Powered Tent 🌐 #solarlight #lamp #campinglife #shorts",
-      "views": 368000,
-      "url": "https://www.youtube.com/shorts/cqSZRf1oIdU"
-     },
-     {
       "title": "Rechargeable Portable Lantern | Long Battery + Dimming #PortableLantern #UsefulGadgets #shorts",
-      "views": 144000,
+      "views": 182000,
       "url": "https://www.youtube.com/shorts/B1yWBsFIIm0"
      },
      {
@@ -3331,9 +3320,19 @@
       "url": "https://www.youtube.com/shorts/Al7xj5KgraU"
      },
      {
-      "title": "🔦💡 Best Emergency Light for Home, Study, Shop | Wipro Safari Emergency Rechargeable LED Lantern  🌟",
-      "views": 71000,
-      "url": "https://www.youtube.com/shorts/txkMguMnxJc"
+      "title": "Solar Camping Lantern 🔥 | Amazing Emergency Light #Shorts",
+      "views": 34000,
+      "url": "https://www.youtube.com/shorts/7YpQ4_l1Mqg"
+     },
+     {
+      "title": "( #Shopee ) Solar Rechargeable camping lantern w/ flashlight #shorts #solar #flashlight",
+      "views": 32000,
+      "url": "https://www.youtube.com/shorts/cYggvD6Cmvc"
+     },
+     {
+      "title": "This Solar Camping Lantern Can Light Up Your Whole Room! ☀️💡#shorts",
+      "views": 25000,
+      "url": "https://www.youtube.com/shorts/UhKOxz2l4cM"
      }
     ],
     "status": "LIVE"
@@ -3374,7 +3373,7 @@
     20
    ],
    "trends_status": "LIVE",
-   "trends_at": "2026-11-21 13:47:41 UTC",
+   "trends_at": "2026-11-21 13:47 UTC",
    "rising": [
     {
      "query": "led camping lantern",
@@ -3403,33 +3402,28 @@
    ],
    "rising_at": "2026-11-21 13:47:43 UTC",
    "market": {
-    "score": 72,
-    "video_score": 76,
+    "score": 65,
+    "video_score": 65,
     "trend_score": 65,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 69K vistas (el mayor, 1.1M)",
+     "Shorts: los 10 más vistos tienen una mediana de 24K vistas (el mayor, 182K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
      "Google (EE. UU.): estable +9% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-21 13:47:43 UTC"
+   "measured_at": "2026-11-23 04:15:25 UTC"
   },
   "electric-lint-remover": {
    "youtube": {
     "keyword": "fabric shaver lint remover",
-    "shorts_found": 41,
-    "median_views_top10": 259000,
-    "max_views": 5200000,
-    "over_100k": 6,
-    "over_1m": 2,
+    "shorts_found": 30,
+    "median_views_top10": 133000,
+    "max_views": 4900000,
+    "over_100k": 5,
+    "over_1m": 1,
     "top": [
-     {
-      "title": "Depilling Advice & Tools Recommendations",
-      "views": 5200000,
-      "url": "https://www.youtube.com/shorts/m0xqKXx3Ywg"
-     },
      {
       "title": "Cheap Vs Expensive Lint Remover #shorts",
       "views": 4900000,
@@ -3437,59 +3431,64 @@
      },
      {
       "title": "I Tried This Lint Remover… WOW!😲",
-      "views": 642000,
+      "views": 647000,
       "url": "https://www.youtube.com/shorts/GEqxFg0eHJY"
      },
      {
-      "title": "What Is A ‘Fabric Pil’ And How Do You Remove Them?  | A Drycleaner’s Guide #laundry",
-      "views": 451000,
-      "url": "https://www.youtube.com/shorts/mrHhpu_8ZbM"
+      "title": "Clothes Lint Remover Gadget! #shorts #unboxing",
+      "views": 506000,
+      "url": "https://www.youtube.com/shorts/BHXnzpKhlhs"
      },
      {
-      "title": "IKEA Lint Roller #ikea #cleanreview",
-      "views": 306000,
-      "url": "https://www.youtube.com/shorts/LvVW2dKQ1XQ"
+      "title": "Revamp Your Clothes: Fabric Shaver Hack! #fabricshaver #lintremover",
+      "views": 215000,
+      "url": "https://www.youtube.com/shorts/INmi6I7-WMQ"
+     },
+     {
+      "title": "Fabric Shaver Electric Lint Remover, Bobling Remover for ClothesUSB Rechargeable.",
+      "views": 172000,
+      "url": "https://www.youtube.com/shorts/7nYhFh4PQwc"
      }
     ],
     "status": "LIVE"
    },
    "youtube_status": "LIVE",
    "trends": {
-    "momentum_pct": 18.7,
+    "momentum_pct": 28.6,
     "low_volume": false,
-    "peak_ratio": 0.18,
-    "mean_recent": 18.0
+    "peak_ratio": 0.2,
+    "mean_recent": 19.5
    },
    "trends_series": [
-    60,
-    37,
+    35,
     34,
-    47,
-    38,
-    40,
-    26,
-    19,
+    46,
+    43,
+    39,
+    25,
+    18,
     14,
-    12,
+    13,
     13,
     11,
-    14,
-    17,
-    14,
-    14,
-    16,
     13,
-    22,
+    16,
+    14,
+    14,
+    15,
+    14,
+    21,
     15,
     15,
     18,
-    15,
-    21,
+    16,
+    20,
     17,
-    19
+    19,
+    22
    ],
    "trends_status": "LIVE",
-   "trends_at": "2026-11-20 23:26 UTC",
+   "trends_at": "2026-11-22 22:53 UTC",
    "rising": [
     {
      "query": "portable lint remover",
@@ -3518,18 +3517,18 @@
    ],
    "rising_at": "2026-11-03 13:05:36 UTC",
    "market": {
-    "score": 83,
-    "video_score": 90,
-    "trend_score": 85,
-    "crowding": "media",
+    "score": 90,
+    "video_score": 83,
+    "trend_score": 100,
+    "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 259K vistas (el mayor, 5.2M)",
-     "Competencia media: 2 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): sube +19% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 133K vistas (el mayor, 4.9M)",
+     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Google (EE. UU.): sube +29% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-21 13:47:43 UTC"
+   "measured_at": "2026-11-23 04:15:25 UTC"
   }
  }
 }
