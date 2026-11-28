@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27 15:42:47 UTC",
+ "updated_at": "2026-11-28 00:46:30 UTC",
  "ideas": {
   "cat-water-fountain": {
    "youtube": {
@@ -1750,8 +1750,8 @@
   "neck-stretcher": {
    "youtube": {
     "keyword": "neck stretcher cervical traction",
-    "shorts_found": 31,
-    "median_views_top10": 155000,
+    "shorts_found": 32,
+    "median_views_top10": 156000,
     "max_views": 5900000,
     "over_100k": 9,
     "over_1m": 1,
@@ -1763,7 +1763,7 @@
      },
      {
       "title": "Ever Seen This Neck-Stretching Machine?",
-      "views": 539000,
+      "views": 542000,
       "url": "https://www.youtube.com/shorts/2hrRnffV2c4"
      },
      {
@@ -1778,7 +1778,7 @@
      },
      {
       "title": "Neck stretcher from Amazon. Is it worth it?",
-      "views": 157000,
+      "views": 158000,
       "url": "https://www.youtube.com/shorts/6TU2ky7d-yA"
      }
     ],
@@ -1793,83 +1793,83 @@
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 155K vistas (el mayor, 5.9M)",
+     "Shorts: los 10 más vistos tienen una mediana de 156K vistas (el mayor, 5.9M)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
-     "Google (EE. UU.): estable -9% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): estable -6% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-24 16:35:06 UTC",
+   "measured_at": "2026-11-28 00:46:01 UTC",
    "trends": {
-    "momentum_pct": -9.4,
+    "momentum_pct": -5.7,
     "low_volume": false,
-    "peak_ratio": 0.23,
-    "mean_recent": 22.5
+    "peak_ratio": 0.2,
+    "mean_recent": 20.5
    },
    "trends_series": [
-    54,
-    50,
+    46,
+    46,
     56,
-    52,
-    60,
-    34,
+    51,
+    51,
     33,
-    29,
-    26,
-    25,
-    34,
-    29,
-    22,
-    24,
-    23,
     30,
-    28,
-    23,
-    24,
-    17,
-    18,
+    32,
+    27,
+    27,
+    27,
     26,
-    25,
-    24,
-    16,
-    25
+    19,
+    22,
+    20,
+    28,
+    26,
+    23,
+    22,
+    13,
+    18,
+    17,
+    22,
+    18,
+    20,
+    22
    ],
-   "trends_at": "2026-11-24 16:35:06 UTC",
+   "trends_at": "2026-11-28 00:45:59 UTC",
    "rising": [
     {
      "query": "mediness neck stretcher",
      "growth": "Breakout"
     },
     {
+     "query": "cervical pillow",
+     "growth": "+250%"
+    },
+    {
+     "query": "cervical neck pillow",
+     "growth": "+200%"
+    },
+    {
      "query": "neck pump stretcher",
-     "growth": "+180%"
+     "growth": "+200%"
     },
     {
-     "query": "blue neck stretcher",
-     "growth": "+160%"
+     "query": "cervical neck traction device",
+     "growth": "+190%"
     },
     {
-     "query": "cervical neck stretcher",
-     "growth": "+130%"
-    },
-    {
-     "query": "neck massager",
-     "growth": "+120%"
-    },
-    {
-     "query": "trakk neck stretcher",
-     "growth": "+110%"
+     "query": "cervical traction device",
+     "growth": "+190%"
     }
    ],
-   "rising_at": "2026-11-20 23:27:17 UTC"
+   "rising_at": "2026-11-28 00:46:01 UTC"
   },
   "foot-massager": {
    "youtube": {
     "keyword": "foot massager machine",
-    "shorts_found": 31,
-    "median_views_top10": 490000,
+    "shorts_found": 32,
+    "median_views_top10": 411500,
     "max_views": 131000000,
-    "over_100k": 13,
-    "over_1m": 3,
+    "over_100k": 10,
+    "over_1m": 2,
     "top": [
      {
       "title": "Foot Massage Cushion #satisfying #shot",
@@ -1882,19 +1882,19 @@
       "url": "https://www.youtube.com/shorts/muh4awUNlJg"
      },
      {
-      "title": "Agaro Foot 🦶 Massager Review & Unboxing ||  #shorts #productreview Link In Description #ytshorts",
-      "views": 1100000,
-      "url": "https://www.youtube.com/shorts/zTGKy6mrS5M"
-     },
-     {
-      "title": "Natural Foot Massager 🤩 #natural #foot #massager #shorts",
-      "views": 871000,
-      "url": "https://www.youtube.com/shorts/PfGZ0KQ1a6A"
+      "title": "4 Easy Foot Massages to Instantly Soothe Tired Feet #shorts",
+      "views": 851000,
+      "url": "https://www.youtube.com/shorts/CfjNw48yqRE"
      },
      {
       "title": "Lifelong Foot Massager Machine with Heating #viral #ytshorts #india #trending #shorts #2024 #health",
-      "views": 540000,
+      "views": 544000,
       "url": "https://www.youtube.com/shorts/VbuxwfiT5ng"
+     },
+     {
+      "title": "Just a mat? Wait till you stand on it barefoot! Daily care with foot mat! Link in bio #acupressure",
+      "views": 452000,
+      "url": "https://www.youtube.com/shorts/TkxJExMJNsI"
      }
     ],
     "status": "LIVE"
@@ -1902,64 +1902,56 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 93,
-    "video_score": 97,
+    "score": 92,
+    "video_score": 95,
     "trend_score": 100,
     "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 490K vistas (el mayor, 131M)",
-     "Competencia media: 3 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 412K vistas (el mayor, 131M)",
+     "Competencia media: 2 Shorts pasan el millón de vistas",
      "Google (EE. UU.): sube +27% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-24 16:35:12 UTC",
+   "measured_at": "2026-11-28 00:46:09 UTC",
    "trends": {
-    "momentum_pct": 27.3,
+    "momentum_pct": 26.9,
     "low_volume": false,
     "peak_ratio": 0.28,
-    "mean_recent": 28.0
+    "mean_recent": 27.5
    },
    "trends_series": [
-    54,
+    55,
     53,
-    65,
-    66,
+    63,
+    67,
     64,
     37,
     28,
-    25,
+    26,
     25,
     21,
     23,
-    23,
-    21,
+    22,
+    20,
     22,
     21,
     22,
     20,
-    23,
+    22,
     21,
     22,
     23,
-    23,
-    23,
+    22,
+    24,
     25,
-    29,
-    35
+    27,
+    34
    ],
-   "trends_at": "2026-11-24 16:35:12 UTC",
+   "trends_at": "2026-11-28 00:46:06 UTC",
    "rising": [
     {
      "query": "ornexis foot massager",
-     "growth": "Breakout"
-    },
-    {
-     "query": "ornexis ems foot massager",
-     "growth": "Breakout"
-    },
-    {
-     "query": "ornexis ems foot massager review",
      "growth": "Breakout"
     },
     {
@@ -1967,34 +1959,37 @@
      "growth": "Breakout"
     },
     {
+     "query": "ornexis ems foot massager review",
+     "growth": "Breakout"
+    },
+    {
+     "query": "ornexis ems foot massager",
+     "growth": "+2,550%"
+    },
+    {
      "query": "em sense foot massager",
-     "growth": "+1,050%"
+     "growth": "+900%"
     },
     {
      "query": "human touch reflex sol foot and calf massager",
-     "growth": "+750%"
+     "growth": "+700%"
     }
    ],
-   "rising_at": "2026-11-20 23:27:25 UTC"
+   "rising_at": "2026-11-28 00:46:09 UTC"
   },
   "heated-eye-massager": {
    "youtube": {
     "keyword": "heated eye massager",
     "shorts_found": 31,
-    "median_views_top10": 10500,
-    "max_views": 49000,
+    "median_views_top10": 3000,
+    "max_views": 50000,
     "over_100k": 0,
     "over_1m": 0,
     "top": [
      {
       "title": "Tired eyes from scrolling? These Japanese self heating eye masks come in clutch! #shorts",
-      "views": 49000,
+      "views": 50000,
       "url": "https://www.youtube.com/shorts/lGzki0TCXCg"
-     },
-     {
-      "title": "This Eye Massager Changes Everything! #eyes #health #massage #shorts #amazon",
-      "views": 31000,
-      "url": "https://www.youtube.com/shorts/3rwmwYH0XsE"
      },
      {
       "title": "BAGS BE GONE WITH THE STYLPRO HEATED EYE MASSAGER🤍 #shorts",
@@ -2010,6 +2005,11 @@
       "title": "STYLPRO Bags Be Gone Heated Eye Massager #shorts",
       "views": 11000,
       "url": "https://www.youtube.com/shorts/PAP-VurAzIw"
+     },
+     {
+      "title": "LENA Heating/Cooling/Vibration Eye Massager | Relieve Eye Fatigue | Eliminates Edema #shorts",
+      "views": 4100,
+      "url": "https://www.youtube.com/shorts/wQ9qm93BVBA"
      }
     ],
     "status": "LIVE"
@@ -2017,53 +2017,53 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 74,
-    "video_score": 56,
+    "score": 65,
+    "video_score": 42,
     "trend_score": 100,
     "crowding": "baja",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 10K vistas (el mayor, 49K)",
+     "Shorts: los 10 más vistos tienen una mediana de 3K vistas (el mayor, 50K)",
      "Competencia baja: casi nadie pasa el millón de vistas todavía",
-     "Google (EE. UU.): sube +32% en las últimas 4 semanas vs las 12 anteriores"
+     "Google (EE. UU.): sube +34% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-25 01:41:42 UTC",
+   "measured_at": "2026-11-28 00:46:15 UTC",
    "trends": {
-    "momentum_pct": 32.4,
+    "momentum_pct": 34.1,
     "low_volume": false,
     "peak_ratio": 0.19,
-    "mean_recent": 18.8
+    "mean_recent": 19.0
    },
    "trends_series": [
-    46,
-    46,
-    56,
-    58,
-    54,
-    25,
-    23,
-    16,
+    45,
+    44,
+    55,
+    57,
+    52,
+    24,
+    22,
+    17,
     14,
     11,
-    17,
-    14,
-    14,
-    12,
-    14,
-    14,
-    14,
-    17,
     15,
-    14,
-    12,
+    15,
     13,
+    11,
+    14,
+    13,
+    14,
     18,
     15,
-    21,
-    21
+    15,
+    14,
+    13,
+    18,
+    14,
+    22,
+    22
    ],
-   "trends_at": "2026-11-22 13:41 UTC",
+   "trends_at": "2026-11-28 00:46:15 UTC",
    "rising": [
     {
      "query": "phillips eye massager",
@@ -2095,21 +2095,16 @@
   "mini-massage-gun": {
    "youtube": {
     "keyword": "mini massage gun",
-    "shorts_found": 31,
-    "median_views_top10": 1000000,
-    "max_views": 3000000,
-    "over_100k": 8,
-    "over_1m": 6,
+    "shorts_found": 35,
+    "median_views_top10": 709500,
+    "max_views": 3100000,
+    "over_100k": 6,
+    "over_1m": 4,
     "top": [
      {
       "title": "Massage Gun Therapy for Shin Splints & Plantar Fasciitis #pt #mke #terapia #painrelief #therapy #fyp",
-      "views": 3000000,
+      "views": 3100000,
       "url": "https://www.youtube.com/shorts/oiRClacPAlE"
-     },
-     {
-      "title": "My massage gun hack for emptying out bottles",
-      "views": 2400000,
-      "url": "https://www.youtube.com/shorts/bX05kY2hbek"
      },
      {
       "title": "What you need to know about massage guns! #shorts",
@@ -2125,6 +2120,11 @@
       "title": "⭐ Product Link in Comments ⭐Mini Electric Body Neck Relief Massager",
       "views": 1000000,
       "url": "https://www.youtube.com/shorts/7g1YOuh2aW4"
+     },
+     {
+      "title": "Mini Massage Gun | Say Goodbye to Back Pain: How a Massage Gun Can Help",
+      "views": 943000,
+      "url": "https://www.youtube.com/shorts/1lxcxe8DzyM"
      }
     ],
     "status": "LIVE"
@@ -2138,63 +2138,73 @@
     "crowding": "alta",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 1M vistas (el mayor, 3M)",
-     "Competencia alta: 6 Shorts pasan el millón de vistas",
-     "Google (EE. UU.): estable +5% en las últimas 4 semanas vs las 12 anteriores"
+     "Shorts: los 10 más vistos tienen una mediana de 710K vistas (el mayor, 3.1M)",
+     "Competencia alta: 4 Shorts pasan el millón de vistas",
+     "Google (EE. UU.): estable +3% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-25 01:41:46 UTC",
+   "measured_at": "2026-11-28 00:46:21 UTC",
    "trends": {
-    "momentum_pct": 4.7,
+    "momentum_pct": 2.9,
     "low_volume": false,
     "peak_ratio": 0.39,
     "mean_recent": 39.0
    },
    "trends_series": [
-    65,
-    82,
-    82,
-    73,
+    67,
+    80,
+    84,
+    74,
     81,
-    45,
-    43,
-    38,
-    38,
+    46,
+    44,
+    40,
+    39,
     39,
     38,
-    38,
-    51,
-    37,
-    37,
     39,
+    52,
+    38,
+    38,
+    40,
     34,
     34,
-    35,
-    35,
     36,
+    36,
+    37,
     33,
     34,
     36,
-    42,
-    44
+    39,
+    47
    ],
-   "trends_at": "2026-11-22 13:41 UTC",
+   "trends_at": "2026-11-28 00:46:21 UTC",
    "rising": [],
    "rising_at": "2026-11-22 13:41:46 UTC"
   },
   "car-gap-filler": {
    "youtube": {
     "keyword": "car seat gap filler",
-    "shorts_found": 31,
-    "median_views_top10": 21500,
-    "max_views": 3000000,
-    "over_100k": 2,
-    "over_1m": 1,
+    "shorts_found": 30,
+    "median_views_top10": 79000,
+    "max_views": 9700000,
+    "over_100k": 4,
+    "over_1m": 2,
     "top": [
+     {
+      "title": "Product Link in Bio ( 258 ) ▶️Auto Seat Gap Organizer with Wireless Charger",
+      "views": 9700000,
+      "url": "https://www.youtube.com/shorts/1lTLQjdKeQk"
+     },
      {
       "title": "Seat Gap Filler: Stop Losing Things Between Your Seats in 2024! #shorts",
       "views": 3000000,
       "url": "https://www.youtube.com/shorts/zYs0I63sw1w"
+     },
+     {
+      "title": "Things keep falling into car seat gap？#CarHacks #SeatGapFiller #shorts",
+      "views": 956000,
+      "url": "https://www.youtube.com/shorts/yTRkWJaoajw"
      },
      {
       "title": "Car seat gap filler|Blazexel#car #cargadgets #cargoodthing",
@@ -2205,16 +2215,6 @@
       "title": "Seatseal car seat gap filler, super convenient and cheap!",
       "views": 84000,
       "url": "https://www.youtube.com/shorts/L8bdjHkhIUE"
-     },
-     {
-      "title": "How to DIY car seat gap filler #shorts #car #hacks",
-      "views": 74000,
-      "url": "https://www.youtube.com/shorts/AX1wbOPyWgQ"
-     },
-     {
-      "title": "Car Seat Gap Filler Universal for Car Truck to Block The Gap Between Seat Stop Things from Dropping",
-      "views": 27000,
-      "url": "https://www.youtube.com/shorts/USBqrSrLNeY"
      }
     ],
     "status": "LIVE"
@@ -2222,18 +2222,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 54,
-    "video_score": 63,
+    "score": 57,
+    "video_score": 77,
     "trend_score": 40,
-    "crowding": "baja",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 22K vistas (el mayor, 3M)",
-     "Competencia baja: casi nadie pasa el millón de vistas todavía",
+     "Shorts: los 10 más vistos tienen una mediana de 79K vistas (el mayor, 9.7M)",
+     "Competencia media: 2 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -18% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-25 01:41:53 UTC",
+   "measured_at": "2026-11-28 00:46:26 UTC",
    "trends": {
     "momentum_pct": -18.4,
     "low_volume": false,
@@ -2268,7 +2268,7 @@
     5,
     9
    ],
-   "trends_at": "2026-11-25 01:41:51 UTC",
+   "trends_at": "2026-11-25 01:41 UTC",
    "rising": [
     {
      "query": "car seat gap filler organizer",
@@ -2284,11 +2284,11 @@
   "cordless-car-vacuum": {
    "youtube": {
     "keyword": "cordless car vacuum",
-    "shorts_found": 27,
-    "median_views_top10": 553000,
+    "shorts_found": 28,
+    "median_views_top10": 486000,
     "max_views": 13000000,
-    "over_100k": 13,
-    "over_1m": 4,
+    "over_100k": 12,
+    "over_1m": 3,
     "top": [
      {
       "title": "Mini Car Vacuum, Clean Fine Car Dust In One Click #creative #viral #shorts #amazing",
@@ -2296,9 +2296,9 @@
       "url": "https://www.youtube.com/shorts/IJ6-PMq_sRk"
      },
      {
-      "title": "Product Link in Bio ( # 2333 ) ▶️  Hyper Clean Wireless Portable Vacuum Cleaner",
-      "views": 7900000,
-      "url": "https://www.youtube.com/shorts/YMCH2IdMJ0g"
+      "title": "Portable TEXUM TVC Vacuum Cleaner Unboxing🔥",
+      "views": 2800000,
+      "url": "https://www.youtube.com/shorts/Z-OTg4-VbEM"
      },
      {
       "title": "Portable Wireless Car Vacuum Cleaner: Powerful Suction & Dual-Purpose",
@@ -2306,14 +2306,14 @@
       "url": "https://www.youtube.com/shorts/0thQ7EHn7zQ"
      },
      {
-      "title": "Wireless Handheld Car Vacuum Cleaner",
-      "views": 1200000,
-      "url": "https://www.youtube.com/shorts/kXLk4MqmgME"
+      "title": "Portable vacuum cleaner and blower that can be used both indoors and in car!",
+      "views": 938000,
+      "url": "https://www.youtube.com/shorts/NGibBMV44nI"
      },
      {
-      "title": "Product Link in Bio ( # 2333 ) ✅ Cordless High Power Handheld Vacuum Cleaner",
-      "views": 574000,
-      "url": "https://www.youtube.com/shorts/x8pLzIw3_9g"
+      "title": "Portable Wireless Car Vacuum Cleaner Powerful Suction & Dual-Purpose #vacuumcleaner #shorts #gadgets",
+      "views": 539000,
+      "url": "https://www.youtube.com/shorts/SKvUmY4igaM"
      }
     ],
     "status": "LIVE"
@@ -2321,18 +2321,18 @@
    "youtube_status": "LIVE",
    "trends_status": "LIVE",
    "market": {
-    "score": 60,
-    "video_score": 99,
+    "score": 69,
+    "video_score": 97,
     "trend_score": 40,
-    "crowding": "alta",
+    "crowding": "media",
     "partial": false,
     "reasons": [
-     "Shorts: los 10 más vistos tienen una mediana de 553K vistas (el mayor, 13M)",
-     "Competencia alta: 4 Shorts pasan el millón de vistas",
+     "Shorts: los 10 más vistos tienen una mediana de 486K vistas (el mayor, 13M)",
+     "Competencia media: 3 Shorts pasan el millón de vistas",
      "Google (EE. UU.): baja -22% en las últimas 4 semanas vs las 12 anteriores"
     ]
    },
-   "measured_at": "2026-11-25 01:42:02 UTC",
+   "measured_at": "2026-11-28 00:46:30 UTC",
    "trends": {
     "momentum_pct": -22.1,
     "low_volume": false,
@@ -2367,7 +2367,7 @@
     17,
     16
    ],
-   "trends_at": "2026-11-25 01:41:59 UTC",
+   "trends_at": "2026-11-25 01:41 UTC",
    "rising": [
     {
      "query": "allstate car insurance",
